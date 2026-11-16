@@ -964,10 +964,10 @@
    "type": "mc",
    "prompt": "¿Por qué el libro habla de “siniestros” y no de “accidentes” de tránsito?",
    "options": [
-    "Porque la mayoría no son casuales: se pueden prever y evitar",
-    "Porque es el nombre legal de los choques con daños materiales",
-    "Porque solo ocurren en carreteras",
-    "Porque nadie es responsable de ellos"
+    "Porque la mayoría tiene causas conocidas y se puede evitar",
+    "Porque así se llaman legalmente los choques con heridos",
+    "Porque “accidente” se usa solo para hechos en carretera",
+    "Porque “siniestro” indica que hubo daños materiales graves"
    ],
    "explain": "Un accidente se asocia a algo casual e impredecible. Los siniestros tienen causas estudiadas y la mayoría se pueden evitar.",
    "page": 6
@@ -990,9 +990,9 @@
    "prompt": "Aproximadamente, ¿cuántas personas fallecen al año en Chile por siniestros de tránsito?",
    "options": [
     "Unas 1.600",
-    "Unas 300",
-    "Unas 8.000",
-    "Unas 82.000"
+    "Unas 2.600",
+    "Unas 900",
+    "Unas 4.500"
    ],
    "explain": "Se registran más de 82.000 siniestros al año y fallecen unas 1.600 personas: entre 4 y 5 cada día.",
    "page": 8
@@ -1004,10 +1004,10 @@
    "type": "mc",
    "prompt": "¿Dónde ocurre la mayor cantidad de siniestros (cerca del 80%)?",
    "options": [
-    "En vías urbanas, sobre todo en intersecciones",
-    "En carreteras rurales",
-    "En autopistas",
-    "En estacionamientos"
+    "En zonas urbanas, sobre todo en cruces",
+    "En carreteras, sobre todo en curvas",
+    "En autopistas, sobre todo en accesos",
+    "En zonas rurales, sobre todo de noche"
    ],
    "explain": "Cerca del 80% de los siniestros ocurre en zonas urbanas, la mayoría en cruces o intersecciones.",
    "page": 8
@@ -1019,10 +1019,10 @@
    "type": "mc",
    "prompt": "Aunque ocurren menos siniestros allí, ¿dónde se produce la mayor parte de las muertes?",
    "options": [
-    "En vías interurbanas o no urbanas",
-    "En calles residenciales",
-    "En zonas escolares",
-    "En rotondas"
+    "En vías interurbanas, fuera de la ciudad",
+    "En las intersecciones de la ciudad",
+    "En calles residenciales y pasajes",
+    "En zonas escolares y pasos de cebra"
    ],
    "explain": "La mayor cantidad de fallecidos se registra en carreteras y autopistas fuera de áreas urbanas.",
    "page": 8
@@ -1034,10 +1034,10 @@
    "type": "mc",
    "prompt": "¿En qué porcentaje de los siniestros está presente la falla humana?",
    "options": [
-    "En más del 90%",
-    "En cerca del 50%",
-    "En alrededor del 20%",
-    "En menos del 10%"
+    "Más del 90%",
+    "Cerca del 60%",
+    "Cerca del 75%",
+    "Cerca del 40%"
    ],
    "explain": "La falla humana está presente en más del 90% de los siniestros, sobre todo en jóvenes de 18 a 29 años.",
    "page": 8
@@ -1050,9 +1050,9 @@
    "prompt": "En Chile, para niñas y niños de 1 a 14 años, los siniestros de tránsito son…",
    "options": [
     "La primera causa de muerte",
-    "La quinta causa de muerte",
-    "Una causa poco frecuente",
-    "La segunda causa, después de las enfermedades"
+    "La segunda causa de muerte",
+    "La tercera causa de muerte",
+    "La quinta causa de muerte"
    ],
    "explain": "Entre 1 y 14 años son la primera causa de muerte; entre 15 y 29 años, la segunda.",
    "page": 6
@@ -1065,9 +1065,9 @@
    "prompt": "Si la velocidad de un vehículo sube de 30 a 50 km/h, la probabilidad de que un peatón atropellado muera…",
    "options": [
     "Se multiplica por ocho",
-    "Se duplica",
-    "Sube un 10%",
-    "No cambia"
+    "Se multiplica por dos",
+    "Se multiplica por cuatro",
+    "Aumenta en un 50%"
    ],
    "explain": "Pequeños aumentos de velocidad tienen efectos enormes sobre la gravedad de un atropello.",
    "page": 8
@@ -1080,9 +1080,9 @@
    "prompt": "¿Qué probabilidad de sobrevivir tiene un peatón atropellado a 30 km/h o menos?",
    "options": [
     "90%",
+    "70%",
     "50%",
-    "20%",
-    "5%"
+    "99%"
    ],
    "explain": "A 30 km/h o menos sobrevive el 90%. A 45 km/h o más, menos del 50%.",
    "page": 8
@@ -1106,8 +1106,8 @@
    "options": [
     "Visión Cero",
     "Tolerancia Cero",
-    "Ley Emilia",
-    "Conducción defensiva"
+    "Ruta Segura",
+    "Calles Completas"
    ],
    "explain": "El Sistema Seguro, o Visión Cero, considera inaceptables las muertes y lesiones graves en el tránsito.",
    "page": 9
@@ -1120,9 +1120,9 @@
    "prompt": "¿Cuál es uno de los principios del Sistema Seguro?",
    "options": [
     "Los seres humanos cometemos errores",
-    "Los buenos conductores nunca se equivocan",
+    "Con más multas se evitan los errores",
     "La responsabilidad es solo de quien conduce",
-    "Las lesiones graves son inevitables"
+    "Con buena formación nadie se equivoca"
    ],
    "explain": "“Errar es humano”: el sistema debe diseñarse para que un error no termine en muerte o lesiones graves.",
    "page": 9
@@ -1162,9 +1162,9 @@
    "prompt": "¿Qué grupo representa cerca del 29% de las personas conductoras fallecidas?",
    "options": [
     "Jóvenes de 18 a 29 años",
-    "Adultos de 40 a 50 años",
-    "Mayores de 65 años",
-    "Menores de 18 años"
+    "Adultos de 30 a 44 años",
+    "Adultos de 45 a 59 años",
+    "Mayores de 60 años"
    ],
    "explain": "Los jóvenes de 18 a 29 años son el grupo más involucrado. Además, cerca del 79% de los conductores fallecidos son hombres.",
    "page": 8
@@ -1177,9 +1177,9 @@
    "prompt": "Según la OMS, ¿cuánto cuestan los siniestros de tránsito en Chile?",
    "options": [
     "Cerca del 2% del PIB",
-    "El 0,1% del PIB",
-    "El 10% del PIB",
-    "El 25% del PIB"
+    "Cerca del 0,5% del PIB",
+    "Cerca del 5% del PIB",
+    "Cerca del 10% del PIB"
    ],
    "explain": "Los costos materiales, de salud, administrativos y humanos alcanzan cerca del 2% del PIB.",
    "page": 7
@@ -1192,9 +1192,9 @@
    "prompt": "Según el libro, ¿qué muestra que los siniestros no son casuales?",
    "options": [
     "Que aumentan con lluvia, de noche y con alcohol",
-    "Que solo les ocurren a conductores nuevos",
+    "Que se reparten igual a toda hora del día",
     "Que dependen solo del tiempo al volante",
-    "Que nunca se repiten en el mismo lugar"
+    "Que afectan por igual a todos los conductores"
    ],
    "explain": "Si fueran accidentales, no aumentarían en esas condiciones. Tienen causas conocidas.",
    "page": 6
@@ -1217,9 +1217,9 @@
    "prompt": "¿Cuántas personas mueren cada día en el mundo por siniestros de tránsito?",
    "options": [
     "Más de 3.000",
-    "Unas 100",
-    "Unas 500",
-    "Más de 50.000"
+    "Cerca de 1.000",
+    "Cerca de 500",
+    "Más de 10.000"
    ],
    "explain": "Por eso la OMS los considera un problema prioritario de salud pública. Son la primera causa de muerte en jóvenes.",
    "page": 6
@@ -1231,10 +1231,10 @@
    "type": "mc",
    "prompt": "En Chile, para jóvenes de 15 a 29 años, los siniestros de tránsito son…",
    "options": [
-    "La segunda causa de muerte, después de los suicidios",
+    "La segunda, después de los suicidios",
     "La primera causa de muerte",
-    "La décima causa de muerte",
-    "Una causa poco frecuente"
+    "La segunda, después del cáncer",
+    "La tercera, después de las enfermedades"
    ],
    "explain": "Entre 1 y 14 años son la primera causa de muerte.",
    "page": 6
@@ -1257,9 +1257,9 @@
    "prompt": "En promedio, ¿cuántas personas cercanas sufren por cada persona fallecida en un siniestro?",
    "options": [
     "Unas 100",
-    "Unas 5",
-    "Unas 1.000",
-    "Ninguna"
+    "Unas 10",
+    "Unas 30",
+    "Unas 500"
    ],
    "explain": "Familiares, amigos y conocidos sufren el dolor de cada pérdida.",
    "page": 7
@@ -1272,9 +1272,9 @@
    "prompt": "¿Cuánto paga en promedio cada persona al año por los costos de los siniestros?",
    "options": [
     "Poco más de 6 millones de pesos",
-    "Unos 10 mil pesos",
-    "Unos 100 mil pesos",
-    "Nada"
+    "Poco más de 600 mil pesos",
+    "Poco más de 2 millones de pesos",
+    "Poco más de 12 millones de pesos"
    ],
    "explain": "Y eso considerando solo los costos que se pueden valorizar en dinero.",
    "page": 7
@@ -1314,9 +1314,9 @@
    "prompt": "¿Cuántos siniestros de tránsito se registran al año en Chile?",
    "options": [
     "Más de 82.000",
-    "Unos 1.600",
-    "Unos 8.000",
-    "Más de 1 millón"
+    "Más de 28.000",
+    "Más de 150.000",
+    "Más de 50.000"
    ],
    "explain": "En ellos fallecen cerca de 1.600 personas al año.",
    "page": 8
@@ -1329,9 +1329,9 @@
    "prompt": "En promedio, ¿cuántas personas mueren atropelladas al año en Chile?",
    "options": [
     "Unas 450",
-    "Unas 45",
-    "Unas 4.500",
-    "Unas 1.600"
+    "Unas 150",
+    "Unas 900",
+    "Unas 1.200"
    ],
    "explain": "Los peatones son de los usuarios más vulnerables.",
    "page": 8
@@ -1344,9 +1344,9 @@
    "prompt": "¿Cuántas personas resultan con lesiones graves al año en Chile (promedio de 5 años)?",
    "options": [
     "Unas 7.700",
-    "Unas 770",
-    "Unas 77.000",
-    "Unas 1.600"
+    "Unas 3.500",
+    "Unas 15.000",
+    "Unas 35.000"
    ],
    "explain": "En vías urbanas hay más de 35.000 lesionados al año, en su mayoría de menor gravedad.",
    "page": 8
@@ -1368,10 +1368,10 @@
    "type": "mc",
    "prompt": "¿En qué momentos hay más siniestralidad?",
    "options": [
-    "Fines de semana, noche y madrugada, y con poco tráfico",
-    "Días hábiles a mediodía",
-    "Solo en vacaciones de invierno",
-    "Con mucho tráfico en hora punta"
+    "Fines de semana, de noche y con poco tráfico",
+    "Días hábiles, de día y con mucho tráfico",
+    "Lunes por la mañana, en hora punta",
+    "Días de semana, a mediodía"
    ],
    "explain": "Con poco flujo de vehículos, la gente tiende a conducir más rápido.",
    "page": 8
@@ -1383,10 +1383,10 @@
    "type": "mc",
    "prompt": "¿Cuáles son tres de los factores con mayor incidencia en los siniestros?",
    "options": [
-    "Imprudencia, alcohol y desobedecer las señales",
-    "Lluvia, nieve y viento",
-    "Autos nuevos, autopistas y peajes",
-    "Ciclistas, peatones y buses"
+    "Imprudencia, alcohol y desobedecer señales",
+    "Lluvia, niebla y pavimento en mal estado",
+    "Fallas de frenos, neumáticos y luces",
+    "Mala señalización, baches y poca luz"
    ],
    "explain": "La imprudencia de quien conduce, el alcohol y no respetar las señales.",
    "page": 8
@@ -1399,9 +1399,9 @@
    "prompt": "¿Qué porcentaje de las personas conductoras fallecidas son hombres?",
    "options": [
     "Cerca del 79%",
-    "Cerca del 50%",
-    "Cerca del 20%",
-    "Cerca del 95%"
+    "Cerca del 55%",
+    "Cerca del 65%",
+    "Cerca del 90%"
    ],
    "explain": "Y los jóvenes de 18 a 29 años son cerca del 29% de los conductores fallecidos.",
    "page": 8
@@ -1413,10 +1413,10 @@
    "type": "mc",
    "prompt": "En las estadísticas de Carabineros, ¿a quiénes se cuenta como fallecidos?",
    "options": [
-    "A quienes mueren dentro de las 48 horas del siniestro",
+    "A quienes mueren dentro de 48 horas",
     "A quienes mueren dentro de 30 días",
-    "A quienes mueren dentro de 2 horas",
-    "A quienes mueren el año siguiente"
+    "A quienes mueren dentro de 24 horas",
+    "A quienes mueren dentro de 7 días"
    ],
    "explain": "Las cifras del libro son el promedio de los últimos 5 años, hasta 2022.",
    "page": 8
@@ -1429,9 +1429,9 @@
    "prompt": "¿Desde qué velocidad un peatón atropellado tiene menos del 50% de probabilidades de sobrevivir?",
    "options": [
     "45 km/h o más",
-    "20 km/h",
-    "30 km/h",
-    "10 km/h"
+    "25 km/h o más",
+    "30 km/h o más",
+    "35 km/h o más"
    ],
    "explain": "A 30 km/h o menos sobrevive el 90%; a 65 km/h lo más probable es que muera.",
    "page": 8
@@ -1457,10 +1457,10 @@
    "type": "mc",
    "prompt": "En el Sistema Seguro, en vez de solo corregir los errores humanos, ¿qué se busca?",
    "options": [
-    "Diseñar un sistema que guíe el comportamiento y reduzca el riesgo de circular",
-    "Prohibir conducir a los jóvenes",
-    "Sacar a los peatones de las calles",
-    "Aumentar solo las multas"
+    "Diseñar un sistema que reduzca el riesgo de circular",
+    "Endurecer las multas hasta eliminar los errores",
+    "Formar conductores que no se equivoquen",
+    "Permitir conducir solo a personas expertas"
    ],
    "explain": "Es un cambio de paradigma: se asume que las personas se equivocan.",
    "page": 9
@@ -1472,10 +1472,10 @@
    "type": "mc",
    "prompt": "Si a pesar de todo ocurre un siniestro, el Sistema Seguro busca que…",
    "options": [
-    "Las fuerzas del impacto no superen lo que el cuerpo resiste",
-    "Nadie tenga que pagar los daños",
-    "Los autos queden intactos",
-    "El tránsito no se detenga"
+    "Que el impacto no supere lo que el cuerpo resiste",
+    "Que los daños materiales sean los mínimos",
+    "Que el tránsito se restablezca lo antes posible",
+    "Que siempre se identifique al culpable"
    ],
    "explain": "Así se evitan muertes y lesiones graves.",
    "page": 9
@@ -1517,7 +1517,7 @@
     "Un posible problema que hay que revisar",
     "Que un sistema se puso en funcionamiento",
     "Una avería grave que exige detenerse ya",
-    "Que el auto está en neutro"
+    "Que corresponde hacer la mantención"
    ],
    "explain": "Rojo: atención inmediata. Amarillo o ámbar: problema a revisar. Verde: sistema en funcionamiento.",
    "page": 11
@@ -1529,10 +1529,10 @@
    "type": "mc",
    "prompt": "Mientras conduces se enciende la luz de presión de aceite. ¿Qué debes hacer?",
    "options": [
-    "Detener el motor de inmediato y no usarlo hasta repararlo",
-    "Seguir hasta tu destino y revisarlo después",
-    "Acelerar para subir la presión",
-    "Apagar las luces para ahorrar batería"
+    "Detener el motor y no usarlo hasta repararlo",
+    "Seguir con cuidado hasta el taller más cercano",
+    "Agregar agua al radiador y continuar",
+    "Bajar la velocidad y revisarlo al llegar"
    ],
    "explain": "Indica que el motor no se está lubricando bien. Seguir puede causarle averías graves.",
    "page": 12
@@ -1545,9 +1545,9 @@
    "prompt": "En el indicador de combustible, ¿qué significa la letra “E”?",
    "options": [
     "Vacío (Empty)",
-    "Eléctrico",
-    "Encendido",
-    "Estanque lleno"
+    "Lleno (Entire)",
+    "Reserva (Emergency)",
+    "Eléctrico (Electric)"
    ],
    "explain": "E viene de “Empty” (vacío) y F de “Full” (estanque lleno).",
    "page": 13
@@ -1561,8 +1561,8 @@
    "options": [
     "Caliente (Hot)",
     "Alto (High)",
-    "Hidráulico",
-    "Hora"
+    "Calefacción (Heat)",
+    "Hidráulico (Hydraulic)"
    ],
    "explain": "C es frío (Cold) y H es caliente (Hot). Si sube demasiado, detente y repara la avería.",
    "page": 13
@@ -1574,10 +1574,10 @@
    "type": "mc",
    "prompt": "Al cargar gasolina debes…",
    "options": [
-    "Apagar el motor, no fumar y no hablar por celular",
-    "Dejar el motor en ralentí",
-    "Encender las luces de emergencia",
-    "Abrir todas las ventanas y encender la radio"
+    "Apagar el motor, no fumar ni usar el celular",
+    "Dejar el motor encendido si es una carga corta",
+    "Apagar el motor y dejar las luces encendidas",
+    "Abrir el capó para que salgan los vapores"
    ],
    "explain": "Los vapores de gasolina son inflamables. También evita inhalarlos.",
    "page": 13
@@ -1591,8 +1591,8 @@
    "options": [
     "El alternador",
     "La batería",
-    "El radiador",
-    "El embrague"
+    "El motor de arranque",
+    "La bobina de encendido"
    ],
    "explain": "El alternador produce la energía (movido por una correa del motor) y la batería la almacena.",
    "page": 12
@@ -1605,9 +1605,9 @@
    "prompt": "Si un accesorio eléctrico deja de funcionar, ¿qué revisas primero?",
    "options": [
     "Si se fundió algún fusible",
-    "El nivel de aceite",
-    "La presión de los neumáticos",
-    "El líquido de frenos"
+    "Si la batería está descargada",
+    "Si el alternador está dañado",
+    "Si la correa del motor está suelta"
    ],
    "explain": "Los fusibles protegen el sistema eléctrico contra incendios y daños.",
    "page": 12
@@ -1619,10 +1619,10 @@
    "type": "mc",
    "prompt": "Si el intermitente destella más rápido de lo habitual, lo más probable es que…",
    "options": [
-    "Se haya quemado una ampolleta",
-    "La batería esté sobrecargada",
-    "El alternador sea nuevo",
-    "Quede poco combustible"
+    "Se quemó una ampolleta",
+    "La batería está baja",
+    "El alternador está fallando",
+    "Un fusible está en mal estado"
    ],
    "explain": "Un destello más rápido del testigo de intermitentes suele indicar una ampolleta quemada.",
    "page": 12
@@ -1635,9 +1635,9 @@
    "prompt": "¿Por qué es tan peligroso el monóxido de carbono de los gases de escape?",
    "options": [
     "Es venenoso, incoloro e inodoro",
-    "Huele muy fuerte y asfixia",
-    "Solo daña el motor",
-    "Es inofensivo en autos modernos"
+    "Es inflamable y huele a gasolina",
+    "Irrita los ojos y se ve como humo negro",
+    "Solo es tóxico con el motor frío"
    ],
    "explain": "Puede entrar al vehículo si el escape está dañado o si conduces con el portaequipaje abierto.",
    "page": 14
@@ -1650,9 +1650,9 @@
    "prompt": "¿Cuáles son los primeros síntomas de intoxicación por monóxido de carbono?",
    "options": [
     "Dolor de cabeza y vómitos",
-    "Picazón en las manos",
-    "Mucha hambre",
-    "Hipo y estornudos"
+    "Picazón y tos seca",
+    "Visión doble y fiebre",
+    "Dolor de pecho y calambres"
    ],
    "explain": "A la menor señal, sal del vehículo y respira aire fresco.",
    "page": 14
@@ -1674,10 +1674,10 @@
    "type": "mc",
    "prompt": "¿Qué puede indicar un defecto en la dirección o poca presión en los neumáticos delanteros?",
    "options": [
-    "En terreno plano, el auto tiende a irse hacia un lado",
-    "El motor se apaga al frenar",
-    "La radio se escucha mal",
-    "La bocina suena débil"
+    "En plano, el auto tiende a irse hacia un lado",
+    "Al frenar, el auto se inclina hacia adelante",
+    "El volante vibra solo a alta velocidad",
+    "El motor pierde fuerza en las subidas"
    ],
    "explain": "Otras señales: dirección pesada o un chirrido excesivo al doblar.",
    "page": 15
@@ -1689,10 +1689,10 @@
    "type": "mc",
    "prompt": "¿Cuál es un síntoma de amortiguadores en mal estado?",
    "options": [
-    "Al frenar, el auto se inclina mucho hacia adelante",
-    "El tacómetro marca cero",
-    "El volante se calienta",
-    "Las luces del tablero parpadean"
+    "Al frenar, se inclina mucho hacia adelante",
+    "La dirección se siente pesada al doblar",
+    "El pedal de freno se va hasta el fondo",
+    "El motor vibra en ralentí"
    ],
    "explain": "También: balanceo excesivo, inclinación en curvas, desgaste irregular de neumáticos y luces que oscilan de noche.",
    "page": 15
@@ -1706,8 +1706,8 @@
    "options": [
     "Con el motor en marcha",
     "Con el auto detenido",
-    "Cuando llueve",
-    "Con el freno de mano puesto"
+    "Solo sobre 40 km/h",
+    "Solo con el freno de mano suelto"
    ],
    "explain": "Por eso hay que tener cuidado si el motor se detiene en una bajada o al ser remolcado.",
    "page": 16
@@ -1719,10 +1719,10 @@
    "type": "mc",
    "prompt": "¿Qué hace el sistema ABS?",
    "options": [
-    "Evita que las ruedas se bloqueen, para que mantengas el control de la dirección",
-    "Frena el auto automáticamente",
-    "Aumenta la velocidad en las curvas",
-    "Reemplaza al freno de mano"
+    "Evita que las ruedas se bloqueen al frenar",
+    "Frena solo el auto ante un obstáculo",
+    "Reduce a la mitad la distancia de frenado",
+    "Reparte la fuerza entre las ruedas delanteras"
    ],
    "explain": "Reduce ligeramente la presión cuando detecta bloqueo, mientras tú mantienes el pedal a fondo.",
    "page": 17
@@ -1745,9 +1745,9 @@
    "prompt": "¿Qué profundidad mínima aconsejable deben tener los surcos de los neumáticos?",
    "options": [
     "3 mm, y nunca menos de 1,6 mm",
-    "0,5 mm",
-    "10 mm",
-    "Da igual si no llueve"
+    "1,6 mm, y nunca menos de 1 mm",
+    "5 mm, y nunca menos de 3 mm",
+    "2 mm, y nunca menos de 0,5 mm"
    ],
    "explain": "Con menos de 1,6 mm empeora mucho la fricción en pavimento mojado.",
    "page": 18
@@ -1759,10 +1759,10 @@
    "type": "mc",
    "prompt": "Si el neumático está gastado solo en los extremos de la banda de rodamiento, se usó…",
    "options": [
-    "Con menos presión de aire de la recomendada",
-    "Con exceso de aire",
-    "Correctamente",
-    "Solo en ciudad"
+    "Con menos presión de la recomendada",
+    "Con más presión de la recomendada",
+    "Con problemas de alineación",
+    "Con exceso de carga en el maletero"
    ],
    "explain": "El desgaste en el centro indica exceso de aire; en los extremos, falta de aire.",
    "page": 19
@@ -1774,10 +1774,10 @@
    "type": "mc",
    "prompt": "Si revienta un neumático TRASERO mientras conduces, debes…",
    "options": [
-    "Girar el volante hacia el lado al que se desvía la cola",
-    "Frenar a fondo de inmediato",
-    "Girar hacia el lado contrario de la desviación",
-    "Acelerar para estabilizar"
+    "Girar hacia el lado al que se va la cola",
+    "Girar hacia el lado contrario a la cola",
+    "Frenar a fondo con el volante recto",
+    "Acelerar para estabilizar el vehículo"
    ],
    "explain": "Después, detente lentamente al costado de la vía.",
    "page": 19
@@ -1789,10 +1789,10 @@
    "type": "mc",
    "prompt": "Si revienta un neumático DELANTERO, debes…",
    "options": [
-    "Frenar suavemente sujetando firme el volante",
-    "Frenar a fondo",
-    "Soltar el volante",
-    "Acelerar"
+    "Frenar suave y sujetar firme el volante",
+    "Frenar a fondo de inmediato",
+    "Girar hacia el lado del neumático",
+    "Acelerar suave para no perder tracción"
    ],
    "explain": "Luego detente lentamente al costado de la vía.",
    "page": 19
@@ -1804,10 +1804,10 @@
    "type": "mc",
    "prompt": "¿Cuándo debes medir la presión de los neumáticos?",
    "options": [
-    "Cuando están fríos",
-    "Justo después de un viaje largo",
-    "Cuando están mojados",
-    "Da lo mismo"
+    "Con los neumáticos fríos",
+    "Después de recorrer unos kilómetros",
+    "Con los neumáticos calientes",
+    "Con el vehículo cargado"
    ],
    "explain": "Si la ajustas en caliente, quedará una presión inferior a la adecuada.",
    "page": 19
@@ -1820,9 +1820,9 @@
    "prompt": "Aunque su dibujo esté bien, los neumáticos deben cambiarse al menos cada…",
    "options": [
     "5 años",
-    "15 años",
-    "Año",
-    "Nunca, si tienen poco uso"
+    "3 años",
+    "8 años",
+    "10 años"
    ],
    "explain": "El material envejece y pierde sus propiedades para rodar con seguridad.",
    "page": 19
@@ -1834,10 +1834,10 @@
    "type": "mc",
    "prompt": "¿Cuándo se deben usar las luces de advertencia de peligro (intermitentes)?",
    "options": [
-    "Con el vehículo detenido por una falla, o para advertir un peligro más adelante",
-    "Para estacionar en doble fila",
-    "Siempre que llueva",
-    "Para agradecer a otro conductor"
+    "Detenido por una falla o para advertir un peligro",
+    "Al detenerte un momento en doble fila para comprar",
+    "Al circular con lluvia intensa o con mucha niebla",
+    "Al ser adelantado por un camión en la carretera"
    ],
    "explain": "Nunca deben usarse como excusa para un estacionamiento peligroso o ilegal.",
    "page": 20
@@ -1849,10 +1849,10 @@
    "type": "mc",
    "prompt": "Los espejos laterales convexos muestran los objetos…",
    "options": [
-    "Más lejanos o pequeños de lo que realmente están",
-    "Más cercanos de lo que están",
-    "Exactamente igual",
-    "Invertidos"
+    "Más lejos o más pequeños de lo real",
+    "Más cerca o más grandes de lo real",
+    "Del mismo tamaño y a la misma distancia",
+    "Más lejos, pero del mismo tamaño"
    ],
    "explain": "Además, siempre existen puntos ciegos: revísalos girando la cabeza.",
    "page": 21
@@ -1866,8 +1866,8 @@
    "options": [
     "Se multiplica por 4",
     "Se duplica",
-    "Se triplica",
-    "No cambia"
+    "Se multiplica por 3",
+    "Se multiplica por 8"
    ],
    "explain": "Por eso cuesta mucho más mantener la dirección al acercarse a una curva.",
    "page": 23
@@ -1879,10 +1879,10 @@
    "type": "mc",
    "prompt": "La distancia de detención es la suma de…",
    "options": [
-    "La distancia de reacción y la distancia de frenado",
-    "La velocidad y el tiempo",
-    "El frenado y la aceleración",
-    "La reacción y la visibilidad"
+    "La distancia de reacción y la de frenado",
+    "La distancia de frenado y la de seguridad",
+    "La distancia de reacción y la de visibilidad",
+    "La distancia de frenado y la de derrape"
    ],
    "explain": "S = R + F: lo que recorres mientras reaccionas más lo que recorres frenando.",
    "page": 23
@@ -1895,9 +1895,9 @@
    "prompt": "¿Cuánto dura un tiempo normal de reacción?",
    "options": [
     "1 segundo",
-    "0,1 segundos",
-    "5 segundos",
-    "10 segundos"
+    "0,5 segundos",
+    "2 segundos",
+    "3 segundos"
    ],
    "explain": "En ese segundo, a 36 km/h recorres 10 metros y a 72 km/h, 20 metros.",
    "page": 23
@@ -1910,9 +1910,9 @@
    "prompt": "Usando la regla rápida, ¿cuántos metros recorres a 70 km/h durante 1 segundo de reacción?",
    "options": [
     "Unos 21 metros",
-    "Unos 7 metros",
-    "Unos 70 metros",
-    "Unos 140 metros"
+    "Unos 14 metros",
+    "Unos 35 metros",
+    "Unos 49 metros"
    ],
    "explain": "Multiplica la primera cifra de la velocidad por 3: 7 × 3 = 21 m.",
    "page": 24
@@ -1927,7 +1927,7 @@
     "9 veces",
     "3 veces",
     "6 veces",
-    "2 veces"
+    "27 veces"
    ],
    "explain": "La distancia de frenado crece al cuadrado de la velocidad.",
    "page": 24
@@ -1939,10 +1939,10 @@
    "type": "mc",
    "prompt": "¿Cómo debes tomar una curva?",
    "options": [
-    "Reducir la velocidad antes de entrar y acelerar suavemente al salir",
-    "Frenar fuerte en medio de la curva",
-    "Acelerar al entrar",
-    "Pasar a neutro"
+    "Frenar antes de entrar y acelerar suave al salir",
+    "Frenar dentro de la curva y acelerar al salir",
+    "Mantener la misma velocidad toda la curva",
+    "Acelerar al entrar para ganar estabilidad"
    ],
    "explain": "La fuerza lateral depende de la velocidad y de lo cerrada que sea la curva.",
    "page": 23
@@ -1964,10 +1964,10 @@
    "type": "mc",
    "prompt": "En un auto de tracción delantera, las ruedas patinan porque aceleraste demasiado. ¿Qué haces?",
    "options": [
-    "Dejas de acelerar y retomas la trayectoria",
-    "Aceleras más",
-    "Frenas a fondo",
-    "Tiras el freno de mano"
+    "Dejar de acelerar y retomar la trayectoria",
+    "Acelerar más para recuperar tracción",
+    "Frenar a fondo y girar el volante",
+    "Girar al lado contrario y frenar"
    ],
    "explain": "Si aceleras más de lo que permite la fricción, las ruedas resbalan y no puedes girar.",
    "page": 25
@@ -1979,10 +1979,10 @@
    "type": "mc",
    "prompt": "En un auto de tracción trasera las ruedas pierden fricción y hay coletazos. ¿Qué haces?",
    "options": [
-    "Sigues acelerando suavemente y giras la dirección hacia la trayectoria",
-    "Sueltas el volante",
-    "Frenas a fondo",
-    "Pones neutro"
+    "Acelerar suave y girar hacia la trayectoria",
+    "Soltar el acelerador y frenar a fondo",
+    "Girar al lado contrario y frenar",
+    "Poner neutro y esperar que se estabilice"
    ],
    "explain": "Es la recomendación del libro para vehículos de tracción trasera.",
    "page": 25
@@ -1995,9 +1995,9 @@
    "prompt": "Si pones una carga pesada atrás en un auto con motor delantero, el auto tenderá a…",
    "options": [
     "Girar más de lo esperado",
-    "Girar menos",
-    "Frenar mejor",
-    "Consumir menos"
+    "Girar menos de lo esperado",
+    "Frenar en menos distancia",
+    "Mantener mejor la trayectoria"
    ],
    "explain": "El centro de gravedad se desplaza y puede llegar a dar un giro de 180°.",
    "page": 25
@@ -2010,7 +2010,7 @@
    "prompt": "¿Cuál de estos es un elemento de seguridad PASIVA?",
    "options": [
     "El airbag",
-    "Los frenos",
+    "El sistema ABS",
     "Los neumáticos",
     "Las luces"
    ],
@@ -2050,9 +2050,9 @@
    "prompt": "Chocar a 50 km/h sin cinturón es como caer desde…",
    "options": [
     "Un cuarto piso",
-    "Un primer piso",
-    "Un piso 11",
-    "Un piso 20"
+    "Un segundo piso",
+    "Un séptimo piso",
+    "Un piso 11"
    ],
    "explain": "A 70 km/h equivale a un séptimo piso y a 90 km/h, a un piso 11.",
    "page": 26
@@ -2065,9 +2065,9 @@
    "prompt": "El cinturón en los asientos traseros es obligatorio en vehículos fabricados desde el año…",
    "options": [
     "2002",
-    "1990",
-    "2015",
-    "2020"
+    "1995",
+    "2010",
+    "2015"
    ],
    "explain": "De todas formas, todas las personas deberían ir siempre con cinturón.",
    "page": 26
@@ -2079,10 +2079,10 @@
    "type": "mc",
    "prompt": "¿Dónde debe ir la banda abdominal del cinturón?",
    "options": [
-    "Sobre los huesos de la cadera, bajo el abdomen",
-    "Sobre el abdomen",
-    "Sobre el pecho",
-    "Bajo los muslos"
+    "Sobre la cadera, bajo el abdomen",
+    "Sobre el abdomen, a la altura del ombligo",
+    "Sobre los muslos, cerca de las rodillas",
+    "Sobre el estómago, bajo el pecho"
    ],
    "explain": "También en personas embarazadas. Sobre el abdomen puede causar graves lesiones internas.",
    "page": 27
@@ -2094,10 +2094,10 @@
    "type": "mc",
    "prompt": "¿Por dónde debe pasar la banda torácica del cinturón?",
    "options": [
-    "Sobre la clavícula, entre el hombro y el cuello, por el centro del pecho",
-    "Por el cuello",
-    "Bajo el brazo",
-    "Por fuera del hombro"
+    "Sobre la clavícula, por el centro del pecho",
+    "Sobre el cuello, cerca de la barbilla",
+    "Por fuera del hombro, junto al brazo",
+    "Bajo la axila, cruzando el costado"
    ],
    "explain": "Sobre el cuello lesiona; sobre el hombro puede deslizarse y perder eficacia.",
    "page": 27
@@ -2109,10 +2109,10 @@
    "type": "mc",
    "prompt": "¿Qué es el “efecto submarino”?",
    "options": [
-    "Deslizarse por debajo de la banda abdominal en una frenada o choque",
-    "Que el motor se inunde",
-    "Que el capó se hunda",
-    "Perder los frenos con lluvia"
+    "Deslizarse bajo la banda abdominal",
+    "Golpear la cabeza contra el volante",
+    "Un movimiento brusco del cuello hacia atrás",
+    "Salir eyectado del vehículo"
    ],
    "explain": "Se evita con buena postura, cinturón tenso y sin cojines ni ropa muy voluminosa.",
    "page": 28
@@ -2135,9 +2135,9 @@
    "prompt": "Si una persona sale eyectada por no usar cinturón, su probabilidad de morir aumenta en…",
    "options": [
     "300%",
-    "10%",
-    "0%",
-    "50%"
+    "50%",
+    "100%",
+    "1.300%"
    ],
    "explain": "Y la probabilidad de una lesión medular aumenta en 1.300%. Es mucho más seguro quedar dentro.",
    "page": 28
@@ -2150,9 +2150,9 @@
    "prompt": "¿A qué velocidad puede inflarse el airbag?",
    "options": [
     "Hasta 300 km/h",
-    "Unos 30 km/h",
-    "Unos 50 km/h",
-    "Unos 1.000 km/h"
+    "Hasta 100 km/h",
+    "Hasta 150 km/h",
+    "Hasta 500 km/h"
    ],
    "explain": "Por eso, sin cinturón, el airbag puede causar lesiones graves.",
    "page": 30
@@ -2174,10 +2174,10 @@
    "type": "mc",
    "prompt": "¿Dónde debe quedar el borde superior del apoyacabezas?",
    "options": [
-    "Entre el tope de la cabeza y la altura de los ojos",
+    "Entre el tope de la cabeza y los ojos",
     "A la altura del cuello",
-    "Bajo los hombros",
-    "Da lo mismo"
+    "A la altura de los hombros",
+    "Por encima del tope de la cabeza"
    ],
    "explain": "Por debajo de la cabeza su efectividad se reduce drásticamente.",
    "page": 31
@@ -2190,9 +2190,9 @@
    "prompt": "¿Qué separación máxima debe haber entre la cabeza y el apoyacabezas?",
    "options": [
     "4 cm",
-    "10 cm",
-    "20 cm",
-    "30 cm"
+    "8 cm",
+    "12 cm",
+    "15 cm"
    ],
    "explain": "Debe ser la mínima posible para prevenir el efecto latigazo en impactos por detrás.",
    "page": 31
@@ -2205,9 +2205,9 @@
    "prompt": "¿Qué integra la Educación Vial?",
    "options": [
     "Valores, normas y señales",
-    "Solo multas",
-    "Solo mecánica",
-    "Solo límites de velocidad"
+    "Mecánica, normas y señales",
+    "Valores, multas y licencias",
+    "Normas, velocidad y mecánica"
    ],
    "explain": "Respeto, solidaridad y tolerancia, más la Ley de Tránsito y el conocimiento de las señales.",
    "page": 33
@@ -2220,9 +2220,9 @@
    "prompt": "¿Cuál es el principio fundamental en la conducción de un vehículo?",
    "options": [
     "La precaución",
-    "La rapidez",
-    "La competitividad",
-    "El uso de la bocina"
+    "La rapidez de reacción",
+    "La experiencia",
+    "La confianza en uno mismo"
    ],
    "explain": "Todos podemos equivocarnos: conduce de forma defensiva y preventiva.",
    "page": 35
@@ -2234,10 +2234,10 @@
    "type": "mc",
    "prompt": "¿Qué es el “principio de confianza” en el tránsito?",
    "options": [
-    "Esperar que cada persona cumpla su rol y respete las normas",
-    "Confiar en que nadie te fiscaliza",
-    "Confiar en tu habilidad para ir rápido",
-    "Confiar solo en los espejos"
+    "Esperar que cada persona cumpla su rol",
+    "Confiar en tu propia habilidad al volante",
+    "Suponer que los demás ya te vieron",
+    "Confiar en que las señales nunca fallan"
    ],
    "explain": "Pasarse una luz roja debilita este principio y pone en riesgo a todos.",
    "page": 34
@@ -2250,9 +2250,9 @@
    "prompt": "La velocidad inadecuada está presente en…",
    "options": [
     "La cuarta parte de los siniestros con víctimas",
-    "Todos los siniestros",
-    "Ningún siniestro",
-    "Exactamente la mitad"
+    "La décima parte de los siniestros con víctimas",
+    "La mitad de los siniestros con víctimas",
+    "Tres cuartos de los siniestros con víctimas"
    ],
    "explain": "Otros factores de riesgo: distracciones, alcohol y drogas, fatiga y sueño.",
    "page": 34
@@ -2275,9 +2275,9 @@
    "prompt": "Según el libro, ¿cuál es la mejor virtud al conducir?",
    "options": [
     "La solidaridad",
-    "La competitividad",
-    "La impaciencia",
-    "La velocidad"
+    "La rapidez",
+    "La seguridad en sí mismo",
+    "La experiencia"
    ],
    "explain": "Ceder el paso y dejar espacio para que te adelanten son ejemplos de solidaridad.",
    "page": 35
@@ -2289,10 +2289,10 @@
    "type": "mc",
    "prompt": "Las personas conductoras principiantes sufren siniestros sin otros vehículos involucrados con una frecuencia…",
    "options": [
-    "10 veces mayor que las experimentadas",
-    "Igual a las experimentadas",
-    "Menor a la mitad",
-    "100 veces menor"
+    "10 veces mayor",
+    "2 veces mayor",
+    "5 veces mayor",
+    "Igual"
    ],
    "explain": "La experiencia al volante mejora el buen juicio y la toma de decisiones.",
    "page": 37
@@ -2306,8 +2306,8 @@
    "options": [
     "Entre 35 y 50 años",
     "Entre 18 y 25 años",
-    "Entre 60 y 70 años",
-    "Entre 15 y 17 años"
+    "Entre 25 y 35 años",
+    "Entre 50 y 65 años"
    ],
    "explain": "Los jóvenes reaccionan rápido solo en reacciones simples; las expertas lo hacen mejor en situaciones complejas.",
    "page": 40
@@ -2319,10 +2319,10 @@
    "type": "mc",
    "prompt": "Al cruzarse dos vehículos con luces bajas, ¿hasta qué distancia se ve?",
    "options": [
-    "No más de 15 a 20 metros",
-    "Unos 200 metros",
-    "Unos 500 metros",
-    "Apenas 2 metros"
+    "15 a 20 metros",
+    "40 a 50 metros",
+    "70 a 80 metros",
+    "100 a 120 metros"
    ],
    "explain": "Sin cruce de vehículos se pueden ver las demarcaciones hasta unos 70 metros.",
    "page": 40
@@ -2357,10 +2357,10 @@
    "type": "mc",
    "prompt": "¿Qué es la “percepción selectiva”?",
    "options": [
-    "Tendemos a ver lo que esperamos encontrar",
-    "Vemos todo con la misma atención",
-    "Vemos mejor de noche",
-    "Solo distinguimos colores"
+    "Vemos lo que esperamos encontrar",
+    "Vemos mejor lo que está más cerca",
+    "Vemos mejor con la visión periférica",
+    "Solo nos fijamos en lo que se mueve"
    ],
    "explain": "Lo que no esperamos ver tardamos más en descubrirlo, o no lo vemos.",
    "page": 41
@@ -2375,7 +2375,7 @@
     "Se reduce",
     "Se amplía",
     "No cambia",
-    "Se duplica"
+    "Solo cambia de noche"
    ],
    "explain": "También ocurre con estrés, medicamentos o drogas.",
    "page": 44
@@ -2388,9 +2388,9 @@
    "prompt": "A 130 km/h, ¿de cuánto es aproximadamente el campo visual?",
    "options": [
     "30°",
+    "70°",
     "100°",
-    "180°",
-    "70°"
+    "42°"
    ],
    "explain": "A 35 km/h es de unos 100°, a 65 km/h unos 70° y a 100 km/h unos 42°.",
    "page": 44
@@ -2405,7 +2405,7 @@
     "Más cerca de ti de lo que estimas",
     "Más lejos de lo que estimas",
     "Justo en el punto medio",
-    "No se cruzarán"
+    "Depende solo de tu velocidad"
    ],
    "explain": "El cerebro supone que ambos van a igual velocidad y calcula el punto medio.",
    "page": 44
@@ -2420,7 +2420,7 @@
     "17 años",
     "16 años",
     "15 años",
-    "14 años"
+    "19 años"
    ],
    "explain": "La edad general es 18. A los 17 se exige autorización y un curso en Escuela de Conductores.",
    "page": 45
@@ -2432,10 +2432,10 @@
    "type": "mc",
    "prompt": "¿Cuál NO explica el mayor riesgo de las personas conductoras jóvenes?",
    "options": [
-    "El exceso de experiencia al volante",
-    "La baja percepción del riesgo",
+    "Tener mucha experiencia al volante",
+    "Tener baja percepción del riesgo",
     "Sobrevalorar su capacidad",
-    "La presión del grupo"
+    "Ceder a la presión del grupo"
    ],
    "explain": "Al contrario: muchas personas jóvenes tienen poca experiencia y por eso perciben mal los riesgos.",
    "page": 45
@@ -2484,10 +2484,10 @@
    "type": "mc",
    "prompt": "Otro conductor te hace una maniobra brusca. ¿Qué haces?",
    "options": [
-    "Mantienes el autocontrol y no respondes",
-    "Lo persigues",
-    "Tocas la bocina sin parar",
-    "Frenas bruscamente delante de él"
+    "Mantener la calma y no responder",
+    "Tocar la bocina para advertirle",
+    "Hacerle cambio de luces",
+    "Acelerar para alejarte rápido"
    ],
    "explain": "La agresividad hace juzgar mal la situación y tomar decisiones impulsivas.",
    "page": 46
@@ -2500,9 +2500,9 @@
    "prompt": "Conducir “bajo la influencia del alcohol” corresponde a una alcoholemia de…",
    "options": [
     "0,31 a 0,79 g/l",
-    "0,8 g/l o más",
-    "0,1 a 0,2 g/l",
-    "1,5 g/l o más"
+    "0,5 a 0,99 g/l",
+    "0,1 a 0,49 g/l",
+    "0,8 a 1,2 g/l"
    ],
    "explain": "Se sanciona con multas y suspensión de la licencia. Así lo establece la Ley Tolerancia Cero (2012).",
    "page": 50
@@ -2515,9 +2515,9 @@
    "prompt": "El “estado de ebriedad” comienza en…",
    "options": [
     "0,8 g/l o más",
-    "0,3 g/l",
-    "0,5 g/l",
-    "2,0 g/l"
+    "0,5 g/l o más",
+    "1,0 g/l o más",
+    "1,2 g/l o más"
    ],
    "explain": "Se sanciona con multas, cancelación de la licencia y cárcel.",
    "page": 50
@@ -2530,9 +2530,9 @@
    "prompt": "¿Cuánto se suspende la licencia por conducir bajo la influencia del alcohol (primera vez, sin daños)?",
    "options": [
     "3 meses",
-    "2 años",
-    "5 días",
-    "De por vida"
+    "1 mes",
+    "6 meses",
+    "2 años"
    ],
    "explain": "Las sanciones aumentan con la reincidencia o si hay daños, lesionados o fallecidos.",
    "page": 142
@@ -2545,9 +2545,9 @@
    "prompt": "¿Cuánto se suspende la licencia por conducir en estado de ebriedad (primera vez, sin lesiones graves)?",
    "options": [
     "2 años",
-    "3 meses",
-    "1 semana",
-    "10 años"
+    "6 meses",
+    "1 año",
+    "5 años"
    ],
    "explain": "Con lesiones gravísimas o muerte, la primera vez significa inhabilidad de por vida.",
    "page": 50
@@ -2560,9 +2560,9 @@
    "prompt": "Con una alcoholemia entre 0,5 y 0,8 g/l, el riesgo de sufrir un siniestro es…",
    "options": [
     "5 veces mayor",
-    "Igual que sin beber",
-    "Solo un poco mayor",
-    "50 veces mayor"
+    "2 veces mayor",
+    "10 veces mayor",
+    "3 veces mayor"
    ],
    "explain": "Entre 0,3 y 0,5 g/l ya es el doble.",
    "page": 50
@@ -2574,10 +2574,10 @@
    "type": "mc",
    "prompt": "¿Qué sanciona la Ley Emilia (2014)?",
    "options": [
-    "Con cárcel efectiva de al menos un año a quien, ebrio, cause lesiones gravísimas o muerte",
-    "El uso del celular al conducir",
-    "No usar Sistema de Retención Infantil",
-    "Exceder levemente la velocidad"
+    "Cárcel efectiva a ebrios que maten o hieran gravemente",
+    "Cárcel a quien huya tras un choque con daños",
+    "Suspensión de licencia por usar el celular",
+    "Multas por no usar silla para niños"
    ],
    "explain": "También son delitos calificados la reincidencia y conducir con licencia cancelada.",
    "page": 51
@@ -2589,10 +2589,10 @@
    "type": "mc",
    "prompt": "¿Cuál es la única tasa de alcohol segura para conducir?",
    "options": [
-    "0",
+    "0 g/l",
     "0,3 g/l",
     "0,5 g/l",
-    "0,79 g/l"
+    "0,2 g/l"
    ],
    "explain": "Si vas a beber, no conduzcas: busca otra forma de transportarte.",
    "page": 51
@@ -2614,10 +2614,10 @@
    "type": "mc",
    "prompt": "¿Qué capacidades afecta primero el alcohol?",
    "options": [
-    "Visión periférica, atención y tiempo de reacción, antes que la parte motriz",
-    "Solo la fuerza muscular",
-    "Solo el oído",
-    "Ninguna hasta los 0,8 g/l"
+    "La visión periférica, la atención y la reacción",
+    "La fuerza y la coordinación de las piernas",
+    "El equilibrio al caminar",
+    "La visión directa y la audición"
    ],
    "explain": "Las funciones decisivas se afectan antes de que te des cuenta de tu estado.",
    "page": 51
@@ -2630,9 +2630,9 @@
    "prompt": "Una persona sana de 70 kg elimina el alcohol aproximadamente a razón de…",
    "options": [
     "0,10 a 0,15 g/l por hora",
-    "1 g/l por hora",
-    "0,5 g/l por minuto",
-    "No lo elimina"
+    "0,5 a 0,8 g/l por hora",
+    "0,01 a 0,05 g/l por hora",
+    "1 g/l por hora"
    ],
    "explain": "Es un promedio: no necesariamente aplica a tu caso. Dormir pocas horas no basta.",
    "page": 52
@@ -2646,8 +2646,8 @@
    "options": [
     "La de menor peso corporal",
     "La de mayor peso corporal",
-    "Siempre ambas igual",
-    "La más alta"
+    "La de mayor estatura",
+    "Ambas tendrán la misma"
    ],
    "explain": "También influyen el sexo, la rapidez al beber, la comida, la edad y las bebidas carbonatadas.",
    "page": 52
@@ -2659,10 +2659,10 @@
    "type": "mc",
    "prompt": "Si tras un siniestro te niegas sin justificación a hacerte la prueba de alcohol…",
    "options": [
-    "Te sancionan con suspensión, multas y posible cárcel",
-    "No pasa nada",
-    "Es un derecho sin consecuencias",
-    "Solo recibes una advertencia"
+    "Suspensión, multas y posible cárcel",
+    "Solo una multa leve",
+    "Solo una citación al juzgado",
+    "Nada, si no hubo lesionados"
    ],
    "explain": "Las penas pueden ser efectivas según las consecuencias del siniestro.",
    "page": 51
@@ -2674,10 +2674,10 @@
    "type": "mc",
    "prompt": "¿Cómo se clasifica la marihuana?",
    "options": [
-    "Depresor, alucinógeno (no es estimulante)",
+    "Depresora y alucinógena",
     "Estimulante",
-    "Analgésico",
-    "Vitamina"
+    "Analgésica",
+    "Estimulante y alucinógena"
    ],
    "explain": "Altera la percepción del tiempo, espacio y velocidad, aumenta el tiempo de reacción y produce somnolencia.",
    "page": 53
@@ -2689,10 +2689,10 @@
    "type": "mc",
    "prompt": "¿Qué efecto típico produce la cocaína en la conducción?",
    "options": [
-    "Conducta más competitiva, agresiva e impulsiva",
-    "Somnolencia profunda",
-    "Mayor prudencia",
-    "Mejor visión nocturna"
+    "Más competitivo, agresivo e impulsivo",
+    "Somnolencia y reflejos más lentos",
+    "Visión borrosa y mucho sueño",
+    "Calma excesiva y falta de reacción"
    ],
    "explain": "Se sobreestiman las capacidades y se asumen más riesgos.",
    "page": 53
@@ -2705,9 +2705,9 @@
    "prompt": "¿Qué puede provocar el éxtasis al conducir?",
    "options": [
     "Mayor sensibilidad a la luz y deslumbramientos",
-    "Mejor concentración",
-    "Visión perfecta",
-    "Calma total"
+    "Somnolencia profunda poco después de consumirlo",
+    "Mejor concentración durante las primeras horas",
+    "Reflejos más rápidos que los de una persona sobria"
    ],
    "explain": "También ilusiones ópticas, visión borrosa y agotamiento cuando pasan los efectos.",
    "page": 54
@@ -2730,9 +2730,9 @@
    "prompt": "El riesgo de conducir bajo algunos antihistamínicos equivale a conducir con…",
    "options": [
     "0,5 a 0,8 g/l de alcohol",
-    "0 g/l de alcohol",
-    "3 g/l de alcohol",
-    "Ningún riesgo"
+    "0,1 a 0,3 g/l de alcohol",
+    "1,0 a 1,5 g/l de alcohol",
+    "Más de 2 g/l de alcohol"
    ],
    "explain": "Hoy existen antihistamínicos que no dan sueño. Nunca los mezcles con alcohol.",
    "page": 60
@@ -2745,9 +2745,9 @@
    "prompt": "¿Qué tipo de enfermedad tiene mayor riesgo de provocar siniestros?",
    "options": [
     "Los trastornos neurológicos",
-    "El resfrío común",
-    "Las caries",
-    "La miopía corregida con lentes"
+    "La hipertensión arterial",
+    "La rinitis alérgica",
+    "La miopía corregida"
    ],
    "explain": "Les siguen las adicciones a medicamentos y la diabetes.",
    "page": 56
@@ -2760,9 +2760,9 @@
    "prompt": "Después de un infarto, se aconseja volver a conducir luego de…",
    "options": [
     "3 meses",
-    "1 día",
-    "1 semana",
-    "5 años"
+    "1 mes",
+    "6 meses",
+    "1 año"
    ],
    "explain": "Si tienes una enfermedad, consulta a tu médico sobre los riesgos de conducir.",
    "page": 57
@@ -2775,9 +2775,9 @@
    "prompt": "Según datos internacionales, ¿qué porcentaje de siniestros se asocia al sueño?",
    "options": [
     "Entre 15 y 30%",
-    "Cerca del 1%",
-    "Entre 70 y 80%",
-    "Casi el 99%"
+    "Entre 5 y 10%",
+    "Entre 40 y 50%",
+    "Entre 60 y 70%"
    ],
    "explain": "Muchos de ellos tienen consecuencias graves, sobre todo en carretera.",
    "page": 62
@@ -2789,10 +2789,10 @@
    "type": "mc",
    "prompt": "¿Qué son los microsueños?",
    "options": [
-    "Segundos en que te duermes sin darte cuenta",
-    "Siestas planificadas",
-    "Soñar despierto durante horas",
-    "Un tipo de medicamento"
+    "Segundos de sueño sin darte cuenta",
+    "Siestas cortas planificadas en ruta",
+    "Pestañeos rápidos por ojos secos",
+    "Bostezos frecuentes por cansancio"
    ],
    "explain": "Normalmente pasan inadvertidos y causan numerosos siniestros.",
    "page": 62
@@ -2804,10 +2804,10 @@
    "type": "mc",
    "prompt": "¿En qué horarios aparece con más facilidad la somnolencia?",
    "options": [
-    "Entre 3 y 5 de la madrugada, y entre 14 y 16 horas",
-    "Entre 8 y 10 de la mañana",
-    "Entre 18 y 20 horas",
-    "Solo a medianoche"
+    "De 3 a 5 de la madrugada y de 14 a 16 h",
+    "De 6 a 8 de la mañana y de 18 a 20 h",
+    "De 0 a 2 de la madrugada y de 12 a 14 h",
+    "De 22 a 24 h y de 10 a 12 h"
    ],
    "explain": "Ocurre incluso si dormiste lo suficiente.",
    "page": 63
@@ -2820,9 +2820,9 @@
    "prompt": "En viajes largos, debes descansar al menos 20 a 30 minutos cada…",
    "options": [
     "2 horas o 200 km",
-    "6 horas",
-    "500 km",
-    "Solo al llegar"
+    "4 horas o 400 km",
+    "1 hora o 100 km",
+    "3 horas o 300 km"
    ],
    "explain": "Si dudas, siempre es más seguro parar y descansar.",
    "page": 66
@@ -2844,10 +2844,10 @@
    "type": "mc",
    "prompt": "Si sientes sueño mientras conduces, lo mejor es…",
    "options": [
-    "Detenerte en un lugar adecuado y dormir 20 o 30 minutos",
-    "Subir la calefacción",
-    "Poner música fuerte y seguir",
-    "Ir más rápido para llegar antes"
+    "Detenerte y dormir 20 a 30 minutos",
+    "Tomar café y seguir conduciendo",
+    "Bajar la ventana y subir la música",
+    "Seguir y descansar al llegar"
    ],
    "explain": "Mientras buscas dónde parar, deja que entre aire fresco.",
    "page": 66
@@ -2859,10 +2859,10 @@
    "type": "mc",
    "prompt": "¿Qué señal temprana de cansancio es “traicionera”?",
    "options": [
-    "Sentir frío y querer subir la temperatura",
-    "Sentir calor",
-    "Tener hambre",
-    "Estornudar"
+    "Sentir frío y querer subir la calefacción",
+    "Sentir calor y querer abrir la ventana",
+    "Sentir hambre y querer comer",
+    "Sentir sed y querer beber agua"
    ],
    "explain": "Subir la temperatura del auto provoca aún más somnolencia.",
    "page": 63
@@ -2875,9 +2875,9 @@
    "prompt": "Los atropellos son cerca del 15% de los siniestros. ¿Qué porcentaje de las personas fallecidas representan?",
    "options": [
     "Cerca del 28%",
-    "Cerca del 5%",
-    "Cerca del 60%",
-    "Cerca del 1%"
+    "Cerca del 15%",
+    "Cerca del 45%",
+    "Cerca del 8%"
    ],
    "explain": "Los peatones son especialmente vulnerables: no tienen carrocería que los proteja.",
    "page": 68
@@ -2889,10 +2889,10 @@
    "type": "mc",
    "prompt": "Vas por la pista izquierda y en la derecha hay un auto detenido antes de un paso de cebra. ¿Qué haces?",
    "options": [
-    "Disminuyes la velocidad y te preparas para detenerte",
-    "Aceleras para pasar rápido",
-    "Tocas la bocina",
-    "Te cambias a la pista derecha"
+    "Reducir la velocidad y prepararte para frenar",
+    "Mantener la velocidad: tu pista está libre",
+    "Tocar la bocina para avisar que pasas",
+    "Cambiarte a la derecha, detrás del auto"
    ],
    "explain": "Es probable que haya peatones cruzando a quienes no ves.",
    "page": 68
@@ -2904,8 +2904,8 @@
    "type": "mc",
    "prompt": "Al pasar junto a un bus detenido en una parada, debes…",
    "options": [
-    "Disminuir la velocidad: puede aparecer un peatón delante o detrás del bus",
-    "Mantener tu velocidad",
+    "Reducir la velocidad",
+    "Mantener la velocidad",
     "Tocar la bocina",
     "Adelantarlo rápido"
    ],
@@ -2919,10 +2919,10 @@
    "type": "mc",
    "prompt": "Para cruzar una calle de 16 metros, una persona mayor puede necesitar…",
    "options": [
-    "4 segundos más que una persona joven",
-    "1 minuto más",
-    "El mismo tiempo",
-    "30 segundos más"
+    "4 segundos más",
+    "1 segundo más",
+    "10 segundos más",
+    "20 segundos más"
    ],
    "explain": "Dales tiempo para cruzar y no las presiones.",
    "page": 69
@@ -2944,10 +2944,10 @@
    "type": "mc",
    "prompt": "¿Hasta qué edad se desarrolla completamente la vista de niñas y niños?",
    "options": [
-    "Hasta los 15 años",
-    "Hasta los 5 años",
-    "Hasta los 9 años",
-    "Hasta los 25 años"
+    "15 años",
+    "9 años",
+    "12 años",
+    "18 años"
    ],
    "explain": "Su campo visual es limitado y ven una sola cosa a la vez.",
    "page": 70
@@ -2960,9 +2960,9 @@
    "prompt": "¿A qué edad niñas y niños empiezan a actuar con seguridad en el tránsito?",
    "options": [
     "Entre los 9 y 12 años",
-    "Entre los 3 y 5 años",
-    "Entre los 15 y 18 años",
-    "Desde que caminan"
+    "Entre los 5 y 7 años",
+    "Entre los 13 y 15 años",
+    "Entre los 6 y 8 años"
    ],
    "explain": "Además, les cuesta juzgar distancias y velocidades y actúan por impulso.",
    "page": 70
@@ -2975,9 +2975,9 @@
    "prompt": "Al pasar a una persona ciclista, ¿qué distancia lateral mínima debes dejar?",
    "options": [
     "1,5 metros",
-    "30 cm",
-    "50 cm",
-    "5 metros"
+    "1 metro",
+    "0,5 metros",
+    "2,5 metros"
    ],
    "explain": "Puede tambalear o desviarse, sobre todo con viento o en subidas.",
    "page": 71
@@ -2990,9 +2990,9 @@
    "prompt": "El casco reduce la probabilidad de lesiones en la cabeza de una persona ciclista hasta…",
    "options": [
     "3 veces",
-    "Un 1%",
-    "50 veces",
-    "No las reduce"
+    "2 veces",
+    "5 veces",
+    "10 veces"
    ],
    "explain": "El casco es su principal elemento de seguridad.",
    "page": 71
@@ -3004,10 +3004,10 @@
    "type": "mc",
    "prompt": "Vas a virar a la derecha y hay un ciclista delante tuyo cerca del cruce. ¿Qué haces?",
    "options": [
-    "No lo adelantas: esperas que pase la intersección",
-    "Lo adelantas y viras",
-    "Tocas la bocina",
-    "Le cierras el paso"
+    "Esperar que pase la intersección",
+    "Adelantarlo antes del cruce",
+    "Tocar la bocina y virar",
+    "Virar por detrás de él"
    ],
    "explain": "Recuerda: al virar pierdes la preferencia.",
    "page": 72
@@ -3042,10 +3042,10 @@
    "type": "mc",
    "prompt": "Cerca de animales o personas a caballo, debes…",
    "options": [
-    "No hacer señales con luces ni bocina, ni acelerar el motor",
-    "Tocar la bocina para que se aparten",
-    "Encender las luces altas",
-    "Acelerar para pasar rápido"
+    "No usar luces ni bocina, ni acelerar",
+    "Tocar la bocina para avisar",
+    "Hacer cambio de luces al pasar",
+    "Pasar rápido para no asustarlos"
    ],
    "explain": "Los animales se asustan con facilidad. Mantén una distancia lateral prudente.",
    "page": 71
@@ -3067,10 +3067,10 @@
    "type": "mc",
    "prompt": "¿Dónde deben viajar los menores de 12 años?",
    "options": [
-    "En el asiento trasero, salvo en vehículos de cabina simple",
-    "En el asiento delantero",
-    "Donde prefieran",
-    "En brazos de un adulto"
+    "En el asiento trasero",
+    "Adelante, con cinturón",
+    "Donde quieran, con cinturón",
+    "Adelante, si el viaje es corto"
    ],
    "explain": "Con un SRI adecuado, o con cinturón si ya les queda bien puesto.",
    "page": 73
@@ -3082,10 +3082,10 @@
    "type": "mc",
    "prompt": "¿Hasta cuándo es obligatorio el Sistema de Retención Infantil (SRI)?",
    "options": [
-    "Hasta los 8 años inclusive, o hasta 135 cm y 33 kg",
-    "Hasta los 3 años",
-    "Hasta los 12 años",
-    "Hasta los 5 años"
+    "Hasta los 8 años inclusive",
+    "Hasta los 4 años inclusive",
+    "Hasta los 6 años inclusive",
+    "Hasta los 12 años inclusive"
    ],
    "explain": "Es exigible en vehículos particulares; no en transporte público ni escolar.",
    "page": 73
@@ -3097,10 +3097,10 @@
    "type": "mc",
    "prompt": "No usar el SRI cuando corresponde es una falta…",
    "options": [
-    "Gravísima: multa de 1,5 a 3 UTM y suspensión de 5 a 45 días",
-    "Leve, sin suspensión",
-    "Que no tiene multa",
-    "Menos grave"
+    "Gravísima",
+    "Grave",
+    "Menos grave",
+    "Leve"
    ],
    "explain": "Llevar menores de 12 años adelante también es gravísimo.",
    "page": 73
@@ -3113,9 +3113,9 @@
    "prompt": "Se recomienda instalar el SRI a contramarcha (mirando hacia atrás) como mínimo hasta…",
    "options": [
     "Los 2 años",
-    "Los 6 meses",
-    "Los 8 años",
-    "Los 12 años"
+    "El primer año",
+    "Los 4 años",
+    "Los 6 meses"
    ],
    "explain": "Lo ideal es mantenerlo así el mayor tiempo posible, dentro de los límites del fabricante.",
    "page": 74
@@ -3127,10 +3127,10 @@
    "type": "mc",
    "prompt": "¿Con qué sistemas se puede anclar un SRI al vehículo?",
    "options": [
-    "ISOFIX, LATCH o el cinturón de seguridad",
-    "Solo con cuerdas",
-    "Con velcro",
-    "No se ancla"
+    "ISOFIX, LATCH o el cinturón",
+    "Solo con ISOFIX, nunca con cinturón",
+    "Solo con el cinturón de seguridad",
+    "Siempre con ISOFIX y cinturón a la vez"
    ],
    "explain": "Bien instalado, cualquiera de los tres es seguro por sí solo.",
    "page": 75
@@ -3152,10 +3152,10 @@
    "type": "mc",
    "prompt": "¿Cómo es la etiqueta de un SRI certificado en Chile?",
    "options": [
-    "Amarilla con letras negras, con código 3CV",
-    "Roja con letras blancas",
-    "Azul con un sello dorado",
-    "No existe etiqueta"
+    "Amarilla con letras negras",
+    "Azul con letras blancas",
+    "Verde con letras blancas",
+    "Roja con letras negras"
    ],
    "explain": "Mide 9,5 × 7,5 cm e incluye marca, modelo y año de acreditación.",
    "page": 75
@@ -3167,10 +3167,10 @@
    "type": "mc",
    "prompt": "¿Cuándo se puede poner un SRI en el asiento delantero?",
    "options": [
-    "Solo en cabina simple y con el airbag desactivado",
-    "Siempre",
-    "Si el niño lo pide",
-    "En viajes cortos"
+    "En cabina simple, con el airbag desactivado",
+    "En cabina simple, con el airbag activado",
+    "Nunca, en ningún vehículo",
+    "Siempre que vaya mirando hacia atrás"
    ],
    "explain": "El airbag inflándose a gran velocidad puede herir gravemente al niño.",
    "page": 30
@@ -3182,10 +3182,10 @@
    "type": "mc",
    "prompt": "Un carabinero te indica algo distinto de lo que muestra el semáforo. ¿A quién obedeces?",
    "options": [
-    "Al carabinero: su indicación prevalece",
+    "Al carabinero",
     "Al semáforo",
-    "A lo que te parezca más seguro",
-    "A ninguno: te detienes"
+    "A la señal más cercana",
+    "Al que indique detenerse"
    ],
    "explain": "Las indicaciones de Carabineros de Chile prevalecen sobre las demás.",
    "page": 77
@@ -3199,8 +3199,8 @@
    "options": [
     "Detención",
     "Avanzar",
-    "Virar",
-    "Acelerar"
+    "Precaución",
+    "Virar"
    ],
    "explain": "De costado autoriza a avanzar; con el brazo en alto, advertencia.",
    "page": 77
@@ -3212,10 +3212,10 @@
    "type": "mc",
    "prompt": "Un carabinero con el brazo en alto indica…",
    "options": [
-    "Advertencia: quien está detenido se prepara y quien tiene vía libre se detiene",
-    "Avanzar rápido",
-    "Virar a la derecha",
-    "Fin del control"
+    "Advertencia: prepararse para el cambio",
+    "Avanzar con precaución por el cruce",
+    "Detención inmediata para todos los carriles",
+    "Que solo se puede virar a la derecha"
    ],
    "explain": "Equivale a la luz amarilla.",
    "page": 77
@@ -3228,10 +3228,10 @@
    "sign": "sem_amarillo",
    "prompt": "¿Qué debes hacer ante esta luz?",
    "options": [
-    "Detenerte antes del cruce, salvo que ya no puedas hacerlo con seguridad",
-    "Acelerar para alcanzar a pasar",
-    "Seguir sin ninguna precaución",
-    "Retroceder"
+    "Detenerte, salvo que ya no puedas hacerlo seguro",
+    "Acelerar para cruzar antes de la roja",
+    "Seguir, porque todavía no es roja",
+    "Detenerte siempre, aunque estés encima"
    ],
    "explain": "La luz amarilla avisa que viene la roja. Si te sorprende dentro del cruce, continúa con precaución.",
    "page": 78
@@ -3244,10 +3244,10 @@
    "sign": "sem_rojo_int",
    "prompt": "¿Qué indica la luz roja intermitente?",
    "options": [
-    "Ceda el paso: continúas si no vienen vehículos por la otra vía",
-    "Detención hasta que aparezca la luz verde",
-    "Paso libre",
-    "Semáforo apagado"
+    "Ceda el paso",
+    "Detención hasta la luz verde",
+    "Precaución, sin obligación de ceder",
+    "Semáforo apagado: pasa libre"
    ],
    "explain": "Funciona como una señal Ceda el Paso.",
    "page": 78
@@ -3259,10 +3259,10 @@
    "type": "mc",
    "prompt": "¿Qué indica la luz amarilla intermitente?",
    "options": [
-    "Peligro: acércate al cruce a velocidad reducida y con precaución",
-    "Prohibido el paso",
-    "Pista cerrada",
-    "Pare obligatorio"
+    "Acercarte con precaución y velocidad reducida",
+    "Detenerte siempre antes del cruce",
+    "Ceder el paso como ante un Ceda el Paso",
+    "Pasar sin detenerte: tienes preferencia"
    ],
    "explain": "No obliga a detenerse, pero sí a extremar la precaución.",
    "page": 78
@@ -3286,10 +3286,10 @@
    "sign": "sem_flecha",
    "prompt": "Luz roja con flecha verde. ¿Qué puedes hacer?",
    "options": [
-    "Avanzar con cuidado solo en la dirección de la flecha, respetando a los peatones",
-    "Nada: debes detenerte",
-    "Avanzar en cualquier dirección",
-    "Retroceder"
+    "Avanzar solo hacia donde indica la flecha",
+    "Avanzar en cualquier dirección con cuidado",
+    "Esperar hasta que aparezca la luz verde",
+    "Avanzar recto o hacia donde indica la flecha"
    ],
    "explain": "Debes respetar a los peatones que cruzan y a los demás vehículos.",
    "page": 79
@@ -3301,10 +3301,10 @@
    "type": "mc",
    "prompt": "En un cruce ferroviario se enciende la luz blanca. Significa que…",
    "options": [
-    "No se acerca un tren, pero igual debes verificar",
-    "Viene un tren",
-    "Debes detenerte obligatoriamente",
-    "Está prohibido cruzar"
+    "Que no viene un tren, pero igual hay que mirar",
+    "Que se acerca un tren y hay que detenerse",
+    "Que el cruce está cerrado por mantención",
+    "Que se puede cruzar sin necesidad de mirar"
    ],
    "explain": "El sistema de seguridad podría fallar: verifica siempre que el cruce esté despejado.",
    "page": 79
@@ -3318,8 +3318,8 @@
    "options": [
     "Blanca",
     "Azul",
-    "Morada",
-    "Naranja"
+    "Naranja",
+    "Celeste"
    ],
    "explain": "Estos semáforos solo afectan a quienes circulan por la pista exclusiva.",
    "page": 80
@@ -3370,9 +3370,9 @@
    "prompt": "¿Qué tipo de señal es esta?",
    "options": [
     "De advertencia de peligro",
-    "Reglamentaria",
-    "Informativa",
-    "Transitoria"
+    "Reglamentaria de prohibición",
+    "Informativa de destino",
+    "Transitoria por trabajos"
    ],
    "explain": "Las de advertencia son rombos amarillos con símbolo negro. Esta advierte una curva.",
    "page": 81
@@ -3385,10 +3385,10 @@
    "sign": "pare",
    "prompt": "¿Qué debes hacer ante esta señal?",
    "options": [
-    "Detenerte siempre, ceder el paso y avanzar solo cuando no haya riesgo",
-    "Reducir la velocidad sin detenerte",
-    "Tocar la bocina y pasar",
-    "Detenerte solo si viene alguien"
+    "Detenerte siempre y avanzar sin riesgo",
+    "Detenerte solo si viene otro vehículo",
+    "Reducir la velocidad y ceder el paso",
+    "Detenerte solo si hay peatones"
    ],
    "explain": "No detenerse ante un PARE es infracción gravísima.",
    "page": 84
@@ -3401,10 +3401,10 @@
    "sign": "ceda",
    "prompt": "¿Qué debes hacer ante esta señal?",
    "options": [
-    "Reducir la velocidad, detenerte si es necesario y ceder el paso a quien circula por la otra vía",
-    "Detenerte siempre durante 3 segundos",
-    "Acelerar: tienes preferencia",
-    "Nada especial"
+    "Reducir y detenerte solo si es necesario",
+    "Detenerte siempre por completo",
+    "Mantener la velocidad: tienes preferencia",
+    "Tocar la bocina y continuar"
    ],
    "explain": "Solo debes detenerte si un vehículo que se aproxima hace riesgoso continuar.",
    "page": 84
@@ -3419,7 +3419,7 @@
     "Azul",
     "Verde",
     "Café",
-    "Rojo"
+    "Blanco"
    ],
    "explain": "En otras vías suelen ser verdes, y las de turismo pueden ser café.",
    "page": 81
@@ -3432,9 +3432,9 @@
    "prompt": "Las señales que informan sobre atractivos turísticos pueden ser de color…",
    "options": [
     "Café",
-    "Naranja",
-    "Rojo",
-    "Negro"
+    "Azul",
+    "Verde",
+    "Naranja"
    ],
    "explain": "Las señales de servicios suelen ser azules.",
    "page": 81
@@ -3447,9 +3447,9 @@
    "sign": "trabajos",
    "prompt": "Las señales de este color indican…",
    "options": [
-    "Trabajos en la vía (peligros transitorios)",
+    "Trabajos en la vía",
     "Atractivos turísticos",
-    "Inicio de autopista",
+    "Servicios en ruta",
     "Zona escolar"
    ],
    "explain": "Son naranjas, salvo la primera que advierte los trabajos, que es amarilla. Modera la velocidad.",
@@ -3463,9 +3463,9 @@
    "prompt": "Después de pasar una señal de advertencia de peligro, debes…",
    "options": [
     "Evitar adelantar y tomar precauciones",
-    "Acelerar",
-    "Tocar la bocina",
-    "Detenerte siempre"
+    "Detenerte por completo antes del peligro",
+    "Tocar la bocina al pasar por la zona",
+    "Encender las luces altas para ver mejor"
    ],
    "explain": "Reduce la velocidad o haz las maniobras necesarias para tu seguridad.",
    "page": 81
@@ -3480,8 +3480,8 @@
    "options": [
     "Velocidad máxima de 50 km/h",
     "Velocidad mínima de 50 km/h",
-    "Faltan 50 metros",
-    "Ruta número 50"
+    "Velocidad recomendada de 50 km/h",
+    "Máximo 50 km/h solo de noche"
    ],
    "explain": "Es una señal reglamentaria: círculo con orla roja.",
    "page": 151
@@ -3494,10 +3494,10 @@
    "sign": "cruz_san_andres",
    "prompt": "¿Qué indica esta señal?",
    "options": [
-    "Un cruce ferroviario (Cruz de San Andrés)",
+    "Cruce ferroviario",
     "Prohibido el paso",
-    "Un hospital",
-    "Un cruce de peatones"
+    "Cruce de caminos",
+    "Fin de restricción"
    ],
    "explain": "Es la excepción a la regla: es de advertencia pero no tiene forma de rombo.",
    "page": 154
@@ -3511,9 +3511,9 @@
    "prompt": "¿Qué indica esta señal?",
    "options": [
     "Prohibido estacionar",
-    "Prohibido virar",
-    "Estacionamiento permitido",
-    "Fin de la restricción"
+    "Prohibido estacionar y detenerse",
+    "Estacionamiento reservado",
+    "Prohibido el paso"
    ],
    "explain": "Puede ir con leyendas que limitan días u horarios.",
    "page": 105
@@ -3525,10 +3525,10 @@
    "type": "mc",
    "prompt": "Una línea blanca discontinua (segmentada) entre pistas indica que…",
    "options": [
-    "Puedes traspasarla para cambiar de pista, señalizando y sin crear riesgo",
-    "Está prohibido traspasarla",
-    "Es el borde de la berma",
-    "Hay una zona escolar"
+    "Se puede cruzar con precaución",
+    "No se puede cruzar",
+    "Solo la pueden cruzar los buses",
+    "Marca el borde de la berma"
    ],
    "explain": "Puede ir con tachas reflectantes blancas.",
    "page": 82
@@ -3540,10 +3540,10 @@
    "type": "mc",
    "prompt": "Una línea longitudinal continua indica que…",
    "options": [
-    "No hay condiciones de seguridad para traspasarla",
-    "Puedes adelantar",
-    "Puedes estacionar",
-    "Hay una ciclovía"
+    "No se debe cruzar",
+    "Se puede cruzar para adelantar",
+    "Se puede cruzar con precaución",
+    "Solo se cruza para virar"
    ],
    "explain": "Por ejemplo, por poca visibilidad antes de una curva o un cambio de rasante.",
    "page": 82
@@ -3555,10 +3555,10 @@
    "type": "mc",
    "prompt": "Si la línea central es mixta (continua y segmentada), ¿quién puede traspasarla?",
    "options": [
-    "Solo quien circula por el lado en que es segmentada",
-    "Nadie",
-    "Todos",
-    "Solo los buses"
+    "Quien tiene el lado segmentado",
+    "Quien tiene el lado continuo",
+    "Ninguno de los dos",
+    "Ambos, con precaución"
    ],
    "explain": "Quien tiene la línea continua a su lado no puede cruzarla.",
    "page": 82
@@ -3571,9 +3571,9 @@
    "prompt": "¿Qué indica una franja amarilla continua pintada en la solera?",
    "options": [
     "Prohibido estacionar",
-    "Zona de carga",
-    "Pista de buses",
-    "Estacionamiento pagado"
+    "Zona de carga y descarga",
+    "Estacionamiento pagado",
+    "Paradero de buses"
    ],
    "explain": "Se usa en áreas urbanas, a lo largo del borde de la calzada.",
    "page": 82
@@ -3585,10 +3585,10 @@
    "type": "mc",
    "prompt": "Líneas amarillas diagonales que forman cuadrados en un cruce indican…",
    "options": [
-    "No bloquear el cruce: solo entra si hay espacio para salir",
+    "No bloquear el cruce",
     "Zona de estacionamiento",
-    "Paso peatonal",
-    "Fin de pista"
+    "Paso de peatones",
+    "Zona de carga"
    ],
    "explain": "Se usan en vías congestionadas.",
    "page": 83
@@ -3600,10 +3600,10 @@
    "type": "mc",
    "prompt": "Si un paso de cebra no tiene línea de detención pintada, ¿dónde debes detenerte?",
    "options": [
-    "A no menos de 1 metro antes del paso",
-    "Sobre las franjas",
-    "20 metros antes",
-    "No hace falta detenerse"
+    "Al menos 1 metro antes",
+    "Al menos 3 metros antes",
+    "Al menos 5 metros antes",
+    "Justo en el borde de las franjas"
    ],
    "explain": "La línea de detención siempre existe, aunque sea imaginaria. En un paso de cebra, los peatones tienen prioridad.",
    "page": 83
@@ -3628,7 +3628,7 @@
     "Amarillo",
     "Azul",
     "Rojo",
-    "Verde"
+    "Naranja"
    ],
    "explain": "Tanto el eje central como el borde de calzada pueden ser amarillos.",
    "page": 82
@@ -3640,10 +3640,10 @@
    "type": "mc",
    "prompt": "¿Puedes circular por la berma (borde de calzada)?",
    "options": [
-    "No; solo en áreas rurales y en emergencias puedes detenerte en ella",
-    "Sí, para adelantar",
-    "Sí, si hay taco",
-    "Sí, de noche"
+    "No; solo en emergencias en zona rural",
+    "Sí, cuando necesitas adelantar a otro",
+    "Sí, si hay congestión en la calzada",
+    "Sí, cuando vas más lento que el resto"
    ],
    "explain": "Sobrepasar por la berma es una infracción grave.",
    "page": 82
@@ -3655,10 +3655,10 @@
    "type": "mc",
    "prompt": "En un cruce sin semáforo, sin carabinero y sin señales PARE ni Ceda el Paso, ¿a quién das la preferencia?",
    "options": [
-    "A los vehículos que vienen por la otra vía desde tu derecha",
-    "A los que vienen desde tu izquierda",
+    "A quienes vienen por tu derecha",
+    "A quienes vienen por tu izquierda",
     "Al vehículo más grande",
-    "Al que va más rápido"
+    "Al que llegó primero"
    ],
    "explain": "Es la regla general de la derecha.",
    "page": 84
@@ -3680,10 +3680,10 @@
    "type": "mc",
    "prompt": "Al entrar a una rotonda o minirrotonda, debes…",
    "options": [
-    "Ceder el paso a quienes ya circulan en ella",
-    "Entrar: tienes preferencia",
-    "Tocar la bocina",
-    "Acelerar"
+    "A quienes ya circulan en ella",
+    "A quienes entran por tu derecha",
+    "A quienes entran por tu izquierda",
+    "A quien llegue primero"
    ],
    "explain": "Decide tu salida con tiempo y reduce la velocidad al llegar.",
    "page": 84
@@ -3695,10 +3695,10 @@
    "type": "mc",
    "prompt": "En un área rural llegas por un camino secundario a una vía principal. ¿Quién tiene preferencia?",
    "options": [
-    "Quien circula por la vía principal",
-    "Tú",
-    "El primero en llegar",
-    "El que viene por la derecha"
+    "Quien va por la vía principal",
+    "Quien va por la vía secundaria",
+    "Quien viene por la derecha",
+    "Quien llega primero"
    ],
    "explain": "Reduce la velocidad con tiempo y muestra claramente que cederás el paso.",
    "page": 85
@@ -3710,10 +3710,10 @@
    "type": "mc",
    "prompt": "“Ceder el paso” significa que quien tiene la preferencia…",
    "options": [
-    "No debe verse obligado a cambiar su trayectoria ni su velocidad",
-    "Debe frenar un poco",
-    "Debe tocar la bocina",
-    "Debe esperarte"
+    "No tenga que cambiar trayectoria ni velocidad",
+    "Pueda frenar suave, sin llegar a detenerse",
+    "Tenga que reducir solo un poco la velocidad",
+    "Pueda pasar inmediatamente después de ti"
    ],
    "explain": "Si tu maniobra obliga al otro a frenar, no cediste el paso.",
    "page": 85
@@ -3725,10 +3725,10 @@
    "type": "mc",
    "prompt": "Se acerca por detrás una ambulancia con sirena encendida. ¿Qué haces?",
    "options": [
-    "Te corres a un lado de la calzada y te detienes si es necesario",
-    "Aceleras delante de ella",
-    "No haces nada",
-    "Frenas en medio de la pista"
+    "Correrte a un lado y detenerte si es necesario",
+    "Acelerar para despejarle el camino más rápido",
+    "Frenar en seco en el lugar donde estés",
+    "Seguir igual, porque ella te adelantará"
    ],
    "explain": "Si es en un cruce, le cedes el paso.",
    "page": 85
@@ -3740,10 +3740,10 @@
    "type": "mc",
    "prompt": "Al salir de un estacionamiento, de una casa o de una vía particular, debes…",
    "options": [
-    "Ceder el paso a los vehículos en tránsito (incluidos ciclistas) y a los peatones",
-    "Salir: tienes preferencia",
-    "Tocar la bocina y salir",
-    "Salir rápido"
+    "Ceder el paso a vehículos y peatones",
+    "Salir primero, porque tienes preferencia",
+    "Ceder el paso solo a los vehículos",
+    "Ceder el paso solo a los peatones"
    ],
    "explain": "Lo mismo al ponerte en marcha después de una detención.",
    "page": 85
@@ -3770,9 +3770,9 @@
    "prompt": "¿Con cuánta anticipación mínima debes señalizar un viraje?",
    "options": [
     "30 metros",
-    "3 metros",
-    "300 metros siempre",
-    "No es obligatorio"
+    "10 metros",
+    "50 metros",
+    "100 metros"
    ],
    "explain": "En carreteras de 100 km/h conviene hacerlo de 300 a 400 metros antes.",
    "page": 86
@@ -3784,10 +3784,10 @@
    "type": "mc",
    "prompt": "¿Dónde nunca debes usar la bocina?",
    "options": [
-    "Dentro de un túnel, ni a su entrada o salida",
-    "Para prevenir un siniestro",
-    "En carretera abierta",
-    "Nunca hay restricciones"
+    "En túneles, y a su entrada o salida",
+    "Cerca de colegios",
+    "En autopistas",
+    "En zonas residenciales de noche"
    ],
    "explain": "Tampoco cerca de ciclistas ni al pasar animales. Úsala solo si es estrictamente necesario.",
    "page": 87
@@ -3800,9 +3800,9 @@
    "prompt": "Regla práctica en carretera: si vas a 80 km/h, ¿qué distancia dejas con el vehículo de adelante?",
    "options": [
     "Unos 80 metros",
-    "Unos 8 metros",
-    "Unos 800 metros",
-    "Unos 20 metros"
+    "Unos 40 metros",
+    "Unos 20 metros",
+    "Unos 160 metros"
    ],
    "explain": "Tantos metros como km/h. En tránsito urbano puede reducirse a la mitad.",
    "page": 87
@@ -3814,10 +3814,10 @@
    "type": "mc",
    "prompt": "Regla de los tres segundos: pasas el punto de referencia antes de contar “mil tres”. Significa que…",
    "options": [
-    "Vas demasiado cerca: suelta el acelerador",
+    "Vas muy cerca: suelta el acelerador",
     "Vas a la distancia correcta",
-    "Debes adelantar",
-    "Debes frenar a fondo"
+    "Vas demasiado lejos",
+    "Debes adelantar"
    ],
    "explain": "Agrega tiempo extra si el clima o la vía son adversos.",
    "page": 88
@@ -3830,9 +3830,9 @@
    "prompt": "Al pasar junto a vehículos estacionados, ¿qué espacio lateral dejas?",
    "options": [
     "El ancho de una puerta",
-    "5 cm",
-    "10 metros",
-    "Ninguno"
+    "Medio metro",
+    "El ancho de un auto",
+    "Lo más cerca posible"
    ],
    "explain": "Alguien podría abrir una puerta o salir sin avisar.",
    "page": 89
@@ -3844,10 +3844,10 @@
    "type": "mc",
    "prompt": "Esperando la luz verde detrás de otro auto, la distancia es adecuada si…",
    "options": [
-    "Ves los neumáticos traseros del auto de adelante",
-    "Casi tocas su parachoques",
-    "Hay 20 metros",
-    "No ves su patente"
+    "Ves sus neumáticos traseros",
+    "Ves su placa patente",
+    "Hay unos 10 metros",
+    "Casi tocas su parachoques"
    ],
    "explain": "Así tienes espacio para maniobrar si es necesario.",
    "page": 105
@@ -3859,10 +3859,10 @@
    "type": "mc",
    "prompt": "Vas a virar a la izquierda desde una vía de doble tránsito y debes esperar. ¿Cómo dejas las ruedas?",
    "options": [
-    "Rectas, apuntando hacia adelante",
+    "Rectas hacia adelante",
     "Giradas a la izquierda",
-    "En diagonal",
-    "Sobre el eje central"
+    "Giradas a la derecha",
+    "En diagonal hacia el eje"
    ],
    "explain": "Si te chocan por atrás con las ruedas giradas, te lanzarían contra el tránsito contrario.",
    "page": 92
@@ -3874,10 +3874,10 @@
    "type": "mc",
    "prompt": "¿Dónde está prohibido virar en U?",
    "options": [
-    "En intersecciones, pasos peatonales y a menos de 200 m de una curva, cima, puente o túnel",
-    "En avenidas con bandejón sin señal que lo prohíba",
-    "En calles de doble tránsito sin línea continua",
-    "En ningún lugar"
+    "En cruces o a menos de 200 m de una curva",
+    "En avenidas con bandejón central",
+    "En vías de doble tránsito sin línea continua",
+    "En calles residenciales sin señal"
    ],
    "explain": "También donde la señalización o demarcación lo prohíba.",
    "page": 94
@@ -3889,10 +3889,10 @@
    "type": "mc",
    "prompt": "En una rotonda, ¿cuándo señalizas a la derecha?",
    "options": [
-    "Al pasar la salida inmediatamente anterior a la tuya",
-    "Al entrar a la rotonda",
-    "Nunca",
-    "Después de dar la vuelta completa"
+    "Al pasar la salida anterior a la tuya",
+    "Apenas entras a la rotonda",
+    "Justo cuando ya estás saliendo",
+    "No es necesario señalizar en rotondas"
    ],
    "explain": "Así los demás saben que saldrás en la siguiente.",
    "page": 94
@@ -3907,7 +3907,7 @@
     "50 km/h",
     "60 km/h",
     "40 km/h",
-    "70 km/h"
+    "30 km/h"
    ],
    "explain": "La autoridad puede fijar otros límites con señales.",
    "page": 96
@@ -3921,8 +3921,8 @@
    "options": [
     "100 km/h",
     "120 km/h",
-    "80 km/h",
-    "90 km/h"
+    "90 km/h",
+    "80 km/h"
    ],
    "explain": "Con 2 o más pistas por sentido sube a 120 km/h.",
    "page": 96
@@ -3936,8 +3936,8 @@
    "options": [
     "120 km/h",
     "100 km/h",
-    "140 km/h",
-    "110 km/h"
+    "110 km/h",
+    "130 km/h"
    ],
    "explain": "Siempre debe ser una velocidad razonable y prudente.",
    "page": 96
@@ -3950,9 +3950,9 @@
    "prompt": "¿Cuál es la velocidad máxima de buses, camiones y transporte escolar?",
    "options": [
     "90 km/h",
-    "120 km/h",
     "100 km/h",
-    "50 km/h"
+    "80 km/h",
+    "120 km/h"
    ],
    "explain": "Los buses interurbanos pueden ir hasta 100 km/h.",
    "page": 96
@@ -3964,10 +3964,10 @@
    "type": "mc",
    "prompt": "Afuera de un colegio, en horas de entrada y salida, ¿a cuánto debes reducir la velocidad?",
    "options": [
-    "A no más de 30 km/h",
-    "A 50 km/h",
-    "A 20 km/h",
-    "A 40 km/h"
+    "30 km/h",
+    "20 km/h",
+    "40 km/h",
+    "50 km/h"
    ],
    "explain": "También debes reducir ante niños en la calzada o cerca de plazas y juegos.",
    "page": 97
@@ -3979,10 +3979,10 @@
    "type": "mc",
    "prompt": "En pavimento seco, ¿cuántos metros necesitas aproximadamente para detenerte a 50 km/h y a 100 km/h?",
    "options": [
-    "Unos 25 m y unos 80 m",
-    "Unos 5 m y 10 m",
-    "Unos 50 m y 100 m",
-    "Unos 100 m y 400 m"
+    "Unos 25 m y 80 m",
+    "Unos 25 m y 50 m",
+    "Unos 15 m y 30 m",
+    "Unos 40 m y 160 m"
    ],
    "explain": "Duplicar la velocidad mucho más que duplica la distancia de detención.",
    "page": 96
@@ -4004,10 +4004,10 @@
    "type": "mc",
    "prompt": "¿Cuál de estas NO es parte de la conducción a la defensiva?",
    "options": [
-    "Confiar en que los demás siempre cumplen las normas",
-    "Planificar con tiempo",
-    "Frenar a tiempo",
-    "Mirar primero y conducir después"
+    "Confiar en que los demás cumplen",
+    "Planificar tus maniobras con tiempo",
+    "Frenar a tiempo ante cualquier riesgo",
+    "Mirar bien antes de cada maniobra"
    ],
    "explain": "Conducir a la defensiva implica desconfiar y mantener buena distancia.",
    "page": 97
@@ -4019,10 +4019,10 @@
    "type": "mc",
    "prompt": "Dos vehículos que circulan en sentido contrario se aproximan a una velocidad igual a…",
    "options": [
-    "La suma de las velocidades de ambos",
+    "La suma de ambas velocidades",
     "La diferencia entre ambas",
     "La del más rápido",
-    "La del más lento"
+    "El promedio de ambas"
    ],
    "explain": "Por eso los encuentros en vías angostas son tan riesgosos.",
    "page": 98
@@ -4034,10 +4034,10 @@
    "type": "mc",
    "prompt": "Un auto viene de frente invadiendo tu pista. ¿Qué haces?",
    "options": [
-    "Frenas enérgicamente, haces señales con luces y bocina, y te mueves a la derecha",
-    "Te pasas al lado izquierdo",
-    "Aceleras",
-    "Te detienes en el centro"
+    "Frenar, avisar y correrte a la derecha",
+    "Pasarte a la izquierda para esquivarlo",
+    "Mantener tu pista y tu velocidad",
+    "Detenerte en medio de tu pista"
    ],
    "explain": "Nunca te pases a la izquierda: el otro podría volver a su lado.",
    "page": 99
@@ -4049,10 +4049,10 @@
    "type": "mc",
    "prompt": "Hay un obstáculo fijo en tu lado de la vía y no hay banderero. ¿Quién pasa primero?",
    "options": [
-    "Quien viene en sentido contrario: debes dejarlo pasar",
-    "Tú",
-    "El vehículo más grande",
-    "El que toque la bocina primero"
+    "Quien viene en sentido contrario",
+    "Quien tiene el obstáculo en su lado",
+    "El vehículo de mayor tamaño",
+    "Quien llegue primero al lugar"
    ],
    "explain": "Quien tiene el obstáculo a su lado debe ceder.",
    "page": 100
@@ -4065,9 +4065,9 @@
    "prompt": "Si subes de 60 a 80 km/h, ¿cuánto tiempo ganas en 10 kilómetros?",
    "options": [
     "2 minutos y 30 segundos",
-    "20 minutos",
-    "10 segundos",
-    "1 hora"
+    "5 minutos y 10 segundos",
+    "1 minuto y 15 segundos",
+    "8 minutos y 20 segundos"
    ],
    "explain": "Se gana muy poco tiempo y se pierde mucha seguridad.",
    "page": 100
@@ -4081,8 +4081,8 @@
    "options": [
     "La izquierda",
     "La derecha",
-    "La berma",
-    "Cualquier lado"
+    "Cualquier lado",
+    "Donde haya más espacio"
    ],
    "explain": "Solo hay dos excepciones para sobrepasar por la derecha.",
    "page": 103
@@ -4095,9 +4095,9 @@
    "prompt": "No puedes adelantar en puentes, viaductos, túneles o cruces ferroviarios, ni al acercarte a ellos desde…",
    "options": [
     "200 metros",
-    "20 metros",
+    "100 metros",
     "50 metros",
-    "1 kilómetro"
+    "500 metros"
    ],
    "explain": "Tampoco al acercarte a una curva, a la cima de una cuesta o a un cruce.",
    "page": 103
@@ -4109,10 +4109,10 @@
    "type": "mc",
    "prompt": "Al terminar un adelantamiento, ¿cuándo vuelves a la pista derecha?",
    "options": [
-    "Cuando ves en el espejo interior al vehículo adelantado y parte de la calzada delante de él",
-    "Apenas lo pasas",
-    "A los 2 segundos",
-    "Cuando te toque la bocina"
+    "Lo ves en el espejo interior, con calzada delante",
+    "Lo pasaste por al menos medio auto de largo",
+    "Lo ves completo en el espejo lateral",
+    "El otro conductor te hace cambio de luces"
    ],
    "explain": "Mantén el señalizador encendido hasta terminar la maniobra.",
    "page": 102
@@ -4124,10 +4124,10 @@
    "type": "mc",
    "prompt": "Cuando otro vehículo te está adelantando, debes…",
    "options": [
-    "Mantenerte a la derecha y no aumentar tu velocidad",
-    "Acelerar",
-    "Moverte a la izquierda",
-    "Frenar en seco"
+    "Mantenerte a la derecha sin acelerar",
+    "Acelerar para facilitar la maniobra",
+    "Frenar fuerte para que pase rápido",
+    "Correrte hacia la izquierda"
    ],
    "explain": "En caso de peligro, ayuda: reduce la velocidad y córrete a la derecha.",
    "page": 102
@@ -4139,10 +4139,10 @@
    "type": "mc",
    "prompt": "¿Cuándo puedes sobrepasar por la derecha?",
    "options": [
-    "Si el vehículo de adelante va a virar a la izquierda, o en vía urbana con 3 o más pistas en tu sentido",
-    "Nunca",
-    "Siempre que haya berma",
-    "Si vas apurado"
+    "Si el otro va a virar a la izquierda",
+    "Si el otro va bajo el límite",
+    "Si la berma está despejada",
+    "Si el otro se demora en avanzar"
    ],
    "explain": "Esta maniobra legalmente se llama sobrepaso. Nunca fuera de la calzada.",
    "page": 103
@@ -4165,9 +4165,9 @@
    "prompt": "Al estacionar en paralelo, ¿a qué distancia máxima de la cuneta debes quedar?",
    "options": [
     "30 cm",
+    "50 cm",
     "1 metro",
-    "5 cm",
-    "60 cm"
+    "10 cm"
    ],
    "explain": "Así obstaculizas lo menos posible el tránsito.",
    "page": 104
@@ -4180,9 +4180,9 @@
    "prompt": "¿Qué distancia mínima debes dejar con otros vehículos estacionados?",
    "options": [
     "60 cm",
-    "10 cm",
-    "3 metros",
-    "2 cm"
+    "30 cm",
+    "1 metro",
+    "1,5 metros"
    ],
    "explain": "Estaciona al lado derecho, salvo que la señalización permita el izquierdo.",
    "page": 104
@@ -4194,10 +4194,10 @@
    "type": "mc",
    "prompt": "Estacionas en una calle en SUBIDA. ¿Hacia dónde dejas las ruedas?",
    "options": [
-    "Hacia el interior de la calzada",
+    "Hacia el centro de la calzada",
     "Hacia la cuneta",
-    "Rectas",
-    "Da lo mismo"
+    "Rectas, con freno de mano",
+    "Hacia la cuneta, en neutro"
    ],
    "explain": "Además: motor detenido, marcha puesta y freno de mano.",
    "page": 104
@@ -4210,9 +4210,9 @@
    "prompt": "Estacionas en una calle en BAJADA. ¿Hacia dónde dejas las ruedas?",
    "options": [
     "Hacia la cuneta",
-    "Hacia el interior de la calzada",
-    "Rectas",
-    "Da lo mismo"
+    "Hacia el centro de la calzada",
+    "Rectas, con freno de mano",
+    "Hacia el centro, en neutro"
    ],
    "explain": "Si el auto se mueve, la cuneta lo detendrá.",
    "page": 104
@@ -4252,9 +4252,9 @@
    "prompt": "¿A qué distancia mínima de la entrada de recintos militares o policiales puedes estacionar?",
    "options": [
     "15 metros",
-    "1 metro",
-    "50 metros",
-    "100 metros"
+    "5 metros",
+    "10 metros",
+    "30 metros"
    ],
    "explain": "De cuarteles de bomberos, postas y hospitales son 10 metros.",
    "page": 106
@@ -4276,10 +4276,10 @@
    "type": "mc",
    "prompt": "Si bajas del auto por una emergencia en la vía, debes usar…",
    "options": [
-    "Un chaleco amarillo de alta visibilidad con bandas reflectantes",
-    "Un casco",
-    "Nada especial",
-    "Ropa oscura"
+    "Chaleco reflectante amarillo",
+    "Ropa oscura para no encandilar",
+    "Casco y guantes de seguridad",
+    "Una linterna encendida en la mano"
    ],
    "explain": "Las bandas deben medir al menos 50 mm de ancho. Instala también los dispositivos reflectantes.",
    "page": 106
@@ -4291,10 +4291,10 @@
    "type": "mc",
    "prompt": "¿Cuándo está permitido conducir marcha atrás?",
    "options": [
-    "Para mantener la libre circulación, incorporarte a ella o estacionar",
-    "Para volver a una salida que pasaste en la autopista",
-    "Para salir de un cruce",
-    "Para adelantar"
+    "Para estacionar o incorporarte al tránsito",
+    "Para volver a una salida que pasaste",
+    "Para salir de un cruce que bloqueaste",
+    "Para dejar pasar a quien adelanta"
    ],
    "explain": "Nunca retrocedas en un cruce salvo indicación expresa de Carabineros.",
    "page": 106
@@ -4307,9 +4307,9 @@
    "prompt": "¿Cuántos metros necesita un tren a 100 km/h para detenerse?",
    "options": [
     "Entre 800 y 1.000 metros",
-    "Unos 50 metros",
-    "Unos 100 metros",
-    "Unos 10 metros"
+    "Entre 200 y 300 metros",
+    "Entre 100 y 150 metros",
+    "Entre 2 y 3 kilómetros"
    ],
    "explain": "El tren siempre tiene la preferencia: la responsabilidad es tuya.",
    "page": 107
@@ -4321,10 +4321,10 @@
    "type": "mc",
    "prompt": "Ya empezaste a cruzar una vía férrea y se activan las señales. ¿Qué haces?",
    "options": [
-    "No te detienes: terminas de cruzar",
-    "Te detienes sobre la vía",
-    "Retrocedes",
-    "Te bajas del auto"
+    "Terminar de cruzar sin detenerte",
+    "Detenerte antes del riel",
+    "Retroceder rápidamente",
+    "Detenerte y esperar el tren"
    ],
    "explain": "Nunca te detengas en el cruce ni justo después de él.",
    "page": 107
@@ -4337,9 +4337,9 @@
    "prompt": "¿A qué distancia mínima de un cruce ferroviario puedes estacionar?",
    "options": [
     "20 metros",
-    "2 metros",
+    "10 metros",
     "5 metros",
-    "200 metros"
+    "50 metros"
    ],
    "explain": "Y no puedes adelantar a menos de 200 metros de él.",
    "page": 107
@@ -4351,10 +4351,10 @@
    "type": "mc",
    "prompt": "Tu vehículo se descompone sobre un cruce ferroviario. ¿Qué haces primero?",
    "options": [
-    "Haces salir a todas las personas del vehículo",
-    "Intentas arrancar varias veces",
-    "Llamas a la grúa desde dentro",
-    "Esperas dentro del auto"
+    "Hacer salir a todas las personas",
+    "Intentar arrancar el motor",
+    "Llamar a una grúa",
+    "Empujar el vehículo"
    ],
    "explain": "Solo si hay tiempo antes de que llegue un tren, mueve el vehículo fuera del cruce.",
    "page": 107
@@ -4376,10 +4376,10 @@
    "type": "mc",
    "prompt": "Nunca debes pasar un cruce ferroviario si…",
    "options": [
-    "No tienes espacio suficiente al otro lado de la vía",
-    "Vas con pasajeros",
-    "Es de día",
-    "Tienes el tanque lleno"
+    "No tienes espacio al otro lado",
+    "Llevas pasajeros en el asiento trasero",
+    "Ya es de noche y no hay barreras",
+    "Vas con las luces bajas encendidas"
    ],
    "explain": "Podrías quedar detenido sobre la vía férrea.",
    "page": 107
@@ -4391,10 +4391,10 @@
    "type": "mc",
    "prompt": "¿Desde cuándo y hasta cuándo es obligatorio circular con las luces encendidas?",
    "options": [
-    "Desde media hora después de la puesta de sol hasta media hora antes de su salida",
-    "Solo desde medianoche",
-    "Desde las 20:00 horas",
-    "Solo cuando llueve"
+    "30 min tras la puesta de sol, hasta 30 min antes de su salida",
+    "Desde la puesta de sol hasta la salida del sol",
+    "Desde las 20:00 hasta las 7:00",
+    "1 hora tras la puesta de sol, hasta 1 hora antes de su salida"
    ],
    "explain": "Y cada vez que la visibilidad lo haga necesario.",
    "page": 110
@@ -4406,10 +4406,10 @@
    "type": "mc",
    "prompt": "De noche, ¿qué luces usas en vías urbanas y en caminos rurales?",
    "options": [
-    "Bajas en zona urbana y altas en caminos rurales",
-    "Altas en zona urbana y bajas en rurales",
-    "De estacionamiento en ambos",
-    "Neblineros en ambos"
+    "Bajas en ciudad, altas en camino rural",
+    "Altas en ciudad, bajas en camino rural",
+    "Bajas en ambos casos",
+    "Altas en ambos casos"
    ],
    "explain": "En zonas urbanas con alumbrado público no uses luces altas.",
    "page": 110
@@ -4432,9 +4432,9 @@
    "prompt": "Con luces bajas, ¿a qué distancia aproximada se ve a un peatón con ropa clara?",
    "options": [
     "Unos 60 metros",
-    "Unos 450 metros",
-    "Unos 5 metros",
-    "Un kilómetro"
+    "Unos 25 metros",
+    "Unos 125 metros",
+    "Unos 150 metros"
    ],
    "explain": "Con ropa oscura, unos 25 m; con reflectante, unos 125 m. Con luces altas, mucho más.",
    "page": 110
@@ -4446,10 +4446,10 @@
    "type": "mc",
    "prompt": "De noche, en una vía no urbana, se acerca un vehículo de frente. ¿Qué haces?",
    "options": [
-    "Cambias a luces bajas, también si es un ciclista",
-    "Mantienes las luces altas",
-    "Apagas las luces",
-    "Enciendes los neblineros"
+    "Cambiar a luces bajas",
+    "Mantener las luces altas",
+    "Encender los neblineros",
+    "Hacer cambio de luces"
    ],
    "explain": "Con peatones no es necesario bajarlas. No bajar las luces es infracción grave.",
    "page": 111
@@ -4461,10 +4461,10 @@
    "type": "mc",
    "prompt": "De noche, al cruzarte con un auto con luces potentes, ¿hacia dónde miras?",
    "options": [
-    "A lo lejos, hacia el borde derecho de la calzada",
-    "Directo a sus luces",
-    "Al espejo retrovisor",
-    "Hacia la izquierda"
+    "Al borde derecho de la calzada",
+    "Directo a sus luces para calcular",
+    "Al centro de la calzada",
+    "Al espejo retrovisor interior"
    ],
    "explain": "Mirar los focos puede causar ceguera temporal.",
    "page": 111
@@ -4486,10 +4486,10 @@
    "type": "mc",
    "prompt": "Las luces que un vehículo proyecta hacia atrás son rojas, excepto…",
    "options": [
-    "Las de retroceso (blancas) y las de viraje, que pueden ser ámbar",
-    "Las de freno",
-    "Ninguna",
-    "La de la patente, que es roja"
+    "Las de retroceso y las de viraje",
+    "Las de freno y las de viraje",
+    "Las de estacionamiento",
+    "Las de freno y las de retroceso"
    ],
    "explain": "Hacia adelante, todas las luces son blancas o amarillas.",
    "page": 113
@@ -4503,8 +4503,8 @@
    "options": [
     "3.500 kg",
     "750 kg",
-    "10.000 kg",
-    "1.000 kg"
+    "2.000 kg",
+    "5.000 kg"
    ],
    "explain": "Además, el remolque no debe pesar más que el vehículo que lo arrastra.",
    "page": 114
@@ -4517,9 +4517,9 @@
    "prompt": "¿Desde qué capacidad de carga un remolque debe tener frenos?",
    "options": [
     "Más de 750 kg",
-    "Más de 100 kg",
-    "Más de 3.500 kg",
-    "Más de 5.000 kg"
+    "Más de 500 kg",
+    "Más de 1.500 kg",
+    "Más de 3.500 kg"
    ],
    "explain": "Los más comunes son los frenos de empuje.",
    "page": 115
@@ -4531,10 +4531,10 @@
    "type": "mc",
    "prompt": "Si el remolque empieza a zigzaguear, ¿qué haces?",
    "options": [
-    "Sueltas el acelerador lentamente hasta recuperar la estabilidad",
-    "Frenas a fondo",
-    "Aceleras",
-    "Giras bruscamente"
+    "Soltar el acelerador lentamente",
+    "Frenar a fondo",
+    "Acelerar para estabilizar",
+    "Girar contra el zigzag"
    ],
    "explain": "Revisa también la distribución de la carga y la presión sobre la bola de arrastre.",
    "page": 115
@@ -4546,10 +4546,10 @@
    "type": "mc",
    "prompt": "¿Cómo te incorporas a una autopista?",
    "options": [
-    "Por la pista de aceleración, adaptando tu velocidad y entrando cuando haya una brecha segura",
-    "Directamente: tienes preferencia",
-    "Sin mirar",
-    "Deteniéndote siempre al final de la pista"
+    "Por la pista de aceleración, cuando haya espacio",
+    "Directo, porque tienes preferencia",
+    "Deteniéndote siempre al final del acceso",
+    "Por la berma hasta encontrar espacio"
    ],
    "explain": "La prioridad es de quienes ya circulan. Si no hay brecha, detente hasta que la haya.",
    "page": 116
@@ -4561,10 +4561,10 @@
    "type": "mc",
    "prompt": "Tu auto falla en una autopista y no puedes salir. ¿Qué haces?",
    "options": [
-    "Te detienes en la berma lejos de la calzada, enciendes las intermitentes y sales por la puerta derecha",
-    "Te bajas por la puerta izquierda",
-    "Lo reparas en la pista",
-    "Pones el triángulo en medio de la calzada"
+    "A la berma, intermitentes y salir por la derecha",
+    "A la berma, triángulo en la calzada y reparar",
+    "Quedarte en tu pista con intermitentes",
+    "Salir por la izquierda y pedir ayuda"
    ],
    "explain": "Los pasajeros esperan cerca del vehículo, lejos del tráfico y de la berma.",
    "page": 117
@@ -4576,10 +4576,10 @@
    "type": "mc",
    "prompt": "¿Cómo se distingue la pista de desaceleración para salir de una autopista?",
    "options": [
-    "Por líneas segmentadas más anchas de lo normal",
-    "Por una línea amarilla",
-    "Por tachas rojas",
-    "Porque es de color azul"
+    "Líneas segmentadas más anchas",
+    "Una línea amarilla continua",
+    "Tachas rojas en el borde",
+    "Flechas pintadas en blanco"
    ],
    "explain": "Al salir, 80 km/h pueden parecer 50 km/h: mira el velocímetro.",
    "page": 118
@@ -4591,10 +4591,10 @@
    "type": "mc",
    "prompt": "Tu vehículo falla dentro de un túnel y no puedes moverlo. ¿Qué haces?",
    "options": [
-    "Enciendes las intermitentes, te quedas dentro con el cinturón y pides ayuda por un teléfono SOS",
-    "Sales caminando por la pista",
-    "Llamas por celular desde el centro de la pista",
-    "Tocas la bocina"
+    "Intermitentes, cinturón puesto y teléfono SOS",
+    "Salir y caminar hasta la boca del túnel",
+    "Llamar por celular desde la pista",
+    "Poner el triángulo e intentar repararlo"
    ],
    "explain": "Los celulares no indican desde dónde llamas. Sigue las instrucciones del personal del túnel.",
    "page": 119
@@ -4616,10 +4616,10 @@
    "type": "mc",
    "prompt": "¿Cuándo es más peligrosa la lluvia para conducir?",
    "options": [
-    "Con las primeras gotas, sobre todo después de un período seco",
-    "Después de horas de lluvia",
-    "Nunca",
-    "Solo de noche"
+    "Con las primeras gotas tras días secos",
+    "Tras varias horas de lluvia intensa",
+    "Cuando la lluvia ya está terminando",
+    "Solo cuando llueve de noche"
    ],
    "explain": "El agua se mezcla con polvo y aceite y deja la calzada muy resbaladiza.",
    "page": 120
@@ -4631,10 +4631,10 @@
    "type": "mc",
    "prompt": "Con lluvia, tu distancia de frenado será al menos…",
    "options": [
-    "El doble que en condiciones ideales",
-    "Igual",
-    "La mitad",
-    "Un 10% menor"
+    "El doble",
+    "Un 20% más",
+    "El triple",
+    "Cinco veces más"
    ],
    "explain": "Aumenta tu distancia con el vehículo de adelante.",
    "page": 121
@@ -4646,10 +4646,10 @@
    "type": "mc",
    "prompt": "¿Qué es el aquaplaning o hidroplaning?",
    "options": [
-    "Los neumáticos pierden contacto con la calzada por una capa de agua y el auto patina",
-    "Un tipo de lavado de auto",
-    "Un sistema de frenos",
-    "La lluvia muy ligera"
+    "Los neumáticos flotan sobre una capa de agua",
+    "Las ruedas se bloquean al frenar",
+    "El parabrisas se empaña por dentro",
+    "Los frenos pierden fuerza al mojarse"
    ],
    "explain": "No responden ni la dirección ni los frenos.",
    "page": 121
@@ -4662,7 +4662,7 @@
    "prompt": "¿Cuál es el mejor consejo para evitar el aquaplaning?",
    "options": [
     "Moderar la velocidad",
-    "Frenar con fuerza",
+    "Frenar fuerte",
     "Acelerar",
     "Bajar la presión de los neumáticos"
    ],
@@ -4676,10 +4676,10 @@
    "type": "mc",
    "prompt": "Después de pasar por un tramo inundado, ¿cómo revisas los frenos?",
    "options": [
-    "Presionando ligeramente el pedal para secarlos",
-    "Frenando a fondo",
-    "No hace falta",
-    "Con el freno de mano"
+    "Pisando suave el freno para secarlos",
+    "Frenando a fondo varias veces",
+    "Usando el freno de mano",
+    "Esperando que se sequen solos"
    ],
    "explain": "Cruza los tramos inundados lentamente, en primera y a velocidad constante.",
    "page": 122
@@ -4691,10 +4691,10 @@
    "type": "mc",
    "prompt": "Con la calzada helada, la distancia de frenado puede aumentar hasta…",
    "options": [
-    "10 veces",
-    "2 veces",
-    "un 50%",
-    "No cambia"
+    "Hasta 10 veces",
+    "Hasta 2 veces",
+    "Hasta 4 veces",
+    "Hasta 20 veces"
    ],
    "explain": "Suelta el acelerador, evita frenar y aumenta mucho la distancia.",
    "page": 124
@@ -4706,10 +4706,10 @@
    "type": "mc",
    "prompt": "¿Qué luces usas con niebla?",
    "options": [
-    "Luces bajas, y los neblineros si el auto los tiene",
-    "Luces altas",
-    "Solo las de estacionamiento",
-    "Ninguna"
+    "Bajas y neblineros",
+    "Altas",
+    "Altas y neblineros",
+    "Solo de estacionamiento"
    ],
    "explain": "Las altas se reflejan en las gotas de agua como en un espejo.",
    "page": 125
@@ -4721,10 +4721,10 @@
    "type": "mc",
    "prompt": "Con nieve, ¿dónde se ponen las cadenas como mínimo?",
    "options": [
-    "En las ruedas motrices (de tracción)",
-    "Solo en las ruedas traseras",
-    "En una sola rueda",
-    "No se usan cadenas"
+    "En las ruedas motrices",
+    "Siempre en las delanteras",
+    "Siempre en las traseras",
+    "En una rueda por eje"
    ],
    "explain": "Conduce suave, sin movimientos bruscos, y procura no adelantar.",
    "page": 123
@@ -4736,10 +4736,10 @@
    "type": "mc",
    "prompt": "Con viento lateral fuerte, debes…",
    "options": [
-    "Reducir la velocidad y sujetar firme el volante, girando contra el viento",
-    "Acelerar",
-    "Soltar el volante",
-    "Ir por el centro de la calzada"
+    "Bajar la velocidad y sujetar firme el volante",
+    "Acelerar para ganar más estabilidad",
+    "Ir por el centro de la calzada",
+    "Frenar fuerte en cada ráfaga de viento"
    ],
    "explain": "Ten cuidado con ciclistas y motociclistas, que pueden desviarse.",
    "page": 125
@@ -4751,10 +4751,10 @@
    "type": "mc",
    "prompt": "¿Dónde es más probable encontrar partes heladas en la calzada?",
    "options": [
-    "En las sombras de los árboles y sobre los puentes",
-    "En rectas al sol",
-    "Dentro de túneles",
-    "En estacionamientos techados"
+    "En sombras de árboles y en puentes",
+    "En rectas a pleno sol",
+    "Dentro de los túneles largos",
+    "En subidas pronunciadas y soleadas"
    ],
    "explain": "Las zonas con sombra son las primeras en congelarse y las últimas en secarse.",
    "page": 124
@@ -4766,10 +4766,10 @@
    "type": "mc",
    "prompt": "Aplicar técnicas de conducción eficiente reduce el consumo de combustible entre…",
    "options": [
-    "10 y 15%",
-    "1 y 2%",
-    "50 y 60%",
-    "80 y 90%"
+    "Entre 10 y 15%",
+    "Entre 2 y 5%",
+    "Entre 25 y 30%",
+    "Entre 40 y 50%"
    ],
    "explain": "Según estudios de la Agencia Chilena de Eficiencia Energética.",
    "page": 127
@@ -4781,10 +4781,10 @@
    "type": "mc",
    "prompt": "Llevar un portaequipajes o bultos en el techo puede subir el consumo en carretera por sobre…",
    "options": [
-    "un 20%",
-    "un 1%",
-    "un 100%",
-    "un 0%"
+    "Más de 20%",
+    "Cerca de 5%",
+    "Cerca de 10%",
+    "Más de 50%"
    ],
    "explain": "Por la resistencia aerodinámica. Quítalo si no lo necesitas.",
    "page": 129
@@ -4796,10 +4796,10 @@
    "type": "mc",
    "prompt": "¿Cada cuánto conviene revisar la presión de los neumáticos?",
    "options": [
-    "Al menos cada dos semanas",
-    "Una vez al año",
-    "Cada 10 años",
-    "Nunca"
+    "Cada dos semanas",
+    "Cada seis meses",
+    "Cada año",
+    "Cada tres meses"
    ],
    "explain": "Con 5 PSI menos de lo óptimo, el consumo puede subir un 3%.",
    "page": 129
@@ -4813,8 +4813,8 @@
    "options": [
     "1 minuto",
     "10 segundos",
-    "30 minutos",
-    "2 horas"
+    "5 minutos",
+    "15 minutos"
    ],
    "explain": "Las luces rojas suelen durar menos de un minuto: en ellas no conviene apagarlo.",
    "page": 133
@@ -4826,10 +4826,10 @@
    "type": "mc",
    "prompt": "Para ir a 70 km/h gastando menos, ¿qué marcha prefieres?",
    "options": [
-    "La más alta posible (por ejemplo, 5ª)",
-    "2ª",
-    "Neutro",
-    "La que haga más ruido"
+    "La más alta posible",
+    "La más baja posible",
+    "Una intermedia",
+    "Neutro, aprovechando el impulso"
    ],
    "explain": "Las marchas altas hacen trabajar al motor a menos revoluciones.",
    "page": 131
@@ -4953,10 +4953,10 @@
    "type": "mc",
    "prompt": "En un vehículo eléctrico o híbrido siniestrado, ¿cómo se identifica la línea de alto voltaje?",
    "options": [
-    "Por un material aislante de color naranja",
-    "Por un cable azul",
-    "Por una cinta verde",
-    "No se puede identificar"
+    "Aislante color naranja",
+    "Aislante color azul",
+    "Aislante color verde",
+    "Aislante color rojo"
    ],
    "explain": "Nunca la toques ni manipules estos vehículos sin capacitación.",
    "page": 136
@@ -4968,10 +4968,10 @@
    "type": "mc",
    "prompt": "¿Qué consecuencias tiene darse a la fuga sin avisar a la autoridad?",
    "options": [
-    "Es delito: cárcel efectiva de al menos un año y hasta inhabilidad de por vida",
+    "Delito con cárcel e inhabilidad",
     "Solo una multa leve",
-    "Ninguna",
-    "Una amonestación verbal"
+    "Solo suspensión por un mes",
+    "Una amonestación escrita"
    ],
    "explain": "Detenerse, ayudar y avisar es obligatorio.",
    "page": 136
@@ -4983,10 +4983,10 @@
    "type": "mc",
    "prompt": "Hay un camión con rótulos de carga peligrosa siniestrado. ¿Qué haces?",
    "options": [
-    "Te mantienes lejos, en un lugar donde el viento no venga desde el camión",
-    "Te acercas a ayudar sin protección",
-    "Fumas para calmarte",
-    "Intentas mover la carga"
+    "Alejarte, con el viento soplando hacia el camión",
+    "Acercarte a ayudar a los heridos de inmediato",
+    "Intentar apagar el fuego con tu extintor",
+    "Mover la carga para liberar a los heridos"
    ],
    "explain": "Anota el material peligroso antes de llamar a emergencias.",
    "page": 138
@@ -4998,10 +4998,10 @@
    "type": "mc",
    "prompt": "¿Qué necesita un vehículo para circular?",
    "options": [
-    "Placa patente, permiso de circulación, SOAP y revisión técnica vigentes",
-    "Solo la placa patente",
-    "Solo la licencia del conductor",
-    "Nada más que combustible"
+    "Patente, permiso, SOAP y revisión técnica",
+    "Patente, licencia y SOAP",
+    "Permiso de circulación y licencia",
+    "SOAP y revisión técnica"
    ],
    "explain": "Sin ellos, Carabineros puede retirar el vehículo de circulación.",
    "page": 139
@@ -5013,10 +5013,10 @@
    "type": "mc",
    "prompt": "¿Qué cubre el SOAP (Seguro Obligatorio de Accidentes Personales)?",
    "options": [
-    "Muerte y lesiones del conductor, pasajeros y terceros, sin importar quién tenga la culpa",
-    "Los daños materiales del auto",
-    "El robo del vehículo",
-    "Solo al culpable del siniestro"
+    "Muerte y lesiones de cualquier persona involucrada",
+    "Solo los daños del vehículo",
+    "Solo las lesiones del conductor culpable",
+    "El robo del vehículo"
    ],
    "explain": "Se renueva cada año y se presenta al pagar el permiso de circulación.",
    "page": 139
@@ -5029,9 +5029,9 @@
    "prompt": "¿En qué mes se paga el permiso de circulación de los autos particulares?",
    "options": [
     "Marzo",
-    "Diciembre",
+    "Enero",
     "Julio",
-    "Cada mes"
+    "Diciembre"
    ],
    "explain": "La revisión técnica tiene su propio calendario según el último dígito de la patente.",
    "page": 140
@@ -5043,10 +5043,10 @@
    "type": "mc",
    "prompt": "La Ley No Chat prohíbe manipular el celular mientras conduces…",
    "options": [
-    "Incluso detenido en una luz roja, en un taco o en un PARE",
+    "Incluso detenido en luz roja o en un taco",
     "Solo en carretera",
-    "Solo a más de 50 km/h",
-    "Solo de noche"
+    "Solo sobre 50 km/h",
+    "Solo con el vehículo en movimiento"
    ],
    "explain": "Programa el GPS antes de partir, con el auto estacionado.",
    "page": 141
@@ -5069,9 +5069,9 @@
    "prompt": "Una persona de 17 años con licencia B debe ir acompañada por alguien con licencia de al menos…",
    "options": [
     "5 años de antigüedad",
-    "1 año de antigüedad",
-    "6 meses de antigüedad",
-    "20 años de antigüedad"
+    "2 años de antigüedad",
+    "3 años de antigüedad",
+    "10 años de antigüedad"
    ],
    "explain": "El acompañante va en el asiento delantero, listo para reemplazar a quien conduce.",
    "page": 142
@@ -5084,9 +5084,9 @@
    "prompt": "Exceder entre 20 y 60 km/h el límite de velocidad es una infracción…",
    "options": [
     "Gravísima",
-    "Leve",
+    "Grave",
     "Menos grave",
-    "No es infracción"
+    "Leve"
    ],
    "explain": "Exceder de 11 a 20 km/h es grave, y hasta 10 km/h, menos grave.",
    "page": 143
@@ -5099,9 +5099,9 @@
    "prompt": "¿Cuánto se suspende la licencia por exceder en más de 60 km/h el límite?",
    "options": [
     "6 meses",
-    "5 días",
-    "2 años",
-    "1 mes"
+    "3 meses",
+    "1 año",
+    "45 días"
    ],
    "explain": "Exceder en más de 20 km/h implica entre 5 y 45 días.",
    "page": 142
@@ -5114,9 +5114,9 @@
    "prompt": "La licencia se suspende si acumulas dos infracciones gravísimas o graves en…",
    "options": [
     "12 meses",
-    "1 mes",
-    "5 años",
-    "10 años"
+    "6 meses",
+    "24 meses",
+    "3 meses"
    ],
    "explain": "Además de las multas que correspondan.",
    "page": 143
@@ -5128,10 +5128,10 @@
    "type": "mc",
    "prompt": "¿Cómo frenas fuerte en un auto con ABS?",
    "options": [
-    "Pisando enérgicamente el pedal y manteniendo la máxima presión hasta el final",
-    "Bombeando el pedal",
-    "Soltando el freno",
-    "Usando solo el freno de mano"
+    "Pisar fuerte y mantener la presión",
+    "Bombear el pedal varias veces",
+    "Pisar suave y aumentar de a poco",
+    "Usar el freno de mano"
    ],
    "explain": "Sentirás un leve temblor en el pedal: es normal.",
    "page": 145
@@ -5144,9 +5144,9 @@
    "prompt": "Ante una falla total de frenos, ¿qué intentas primero?",
    "options": [
     "Presionar y soltar el pedal varias veces",
-    "Apagar el motor",
+    "Apagar el motor de inmediato",
     "Tirar el freno de mano a fondo",
-    "Saltar del auto"
+    "Poner neutro y frenar con la caja"
    ],
    "explain": "Luego reduce marchas, usa el freno de mano con suavidad y busca una pista de emergencia. No apagues el motor.",
    "page": 146
@@ -5159,9 +5159,9 @@
    "prompt": "Si repruebas el examen teórico, puedes repetirlo en un plazo no superior a…",
    "options": [
     "25 días hábiles",
-    "6 meses",
-    "1 año",
-    "2 días"
+    "10 días hábiles",
+    "30 días corridos",
+    "6 meses"
    ],
    "explain": "Cada examen teórico y práctico se puede repetir una vez por proceso.",
    "page": 169
@@ -5173,10 +5173,10 @@
    "type": "mc",
    "prompt": "Si conduces un vehículo eléctrico, ¿qué debes llevar siempre?",
    "options": [
-    "El cable de carga de viaje (salvo híbridos sin recarga exterior)",
-    "Un bidón de gasolina",
-    "Aceite de motor",
-    "Nada especial"
+    "El cable de carga de viaje",
+    "Un bidón de combustible",
+    "Un extintor especial",
+    "Una batería de repuesto"
    ],
    "explain": "Planifica tus cargas revisando la autonomía antes de cada viaje.",
    "page": 148

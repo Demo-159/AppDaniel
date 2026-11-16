@@ -34,6 +34,15 @@ class LogicTest {
         }
     }
 
+    /** La respuesta correcta no debe delatarse por ser mucho más larga que las demás. */
+    @Test fun correctAnswerIsNotGivenAwayByLength() {
+        val choice = content.questions.filter { it.isChoice }
+        val obvious = choice.filter { q -> q.options[0].length > 1.3 * q.options.drop(1).maxOf { it.length } }.map { it.id }
+        assertTrue("Correcta demasiado larga en: $obvious", obvious.isEmpty())
+        val longest = choice.count { q -> q.options.drop(1).all { it.length < q.options[0].length } }
+        assertTrue("La correcta es la más larga en $longest de ${choice.size}", longest * 100 / choice.size <= 35)
+    }
+
     @Test fun srsMovesBoxesAndSchedules() {
         val t = 1000L
         var c: Card? = null
