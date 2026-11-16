@@ -1185,6 +1185,302 @@
    "page": 7
   },
   {
+   "id": "u1-16",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "Según el libro, ¿qué muestra que los siniestros no son casuales?",
+   "options": [
+    "Que aumentan con lluvia, de noche y con alcohol",
+    "Que solo les ocurren a conductores nuevos",
+    "Que dependen solo del tiempo al volante",
+    "Que nunca se repiten en el mismo lugar"
+   ],
+   "explain": "Si fueran accidentales, no aumentarían en esas condiciones. Tienen causas conocidas.",
+   "page": 6
+  },
+  {
+   "id": "u1-17",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "Conducir ebrio o sin cinturón es una decisión personal que solo afecta a quien conduce.",
+   "answer": false,
+   "explain": "Es una responsabilidad colectiva: si esa persona sufre un siniestro, todos lo pagamos directa o indirectamente.",
+   "page": 6
+  },
+  {
+   "id": "u1-18",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "¿Cuántas personas mueren cada día en el mundo por siniestros de tránsito?",
+   "options": [
+    "Más de 3.000",
+    "Unas 100",
+    "Unas 500",
+    "Más de 50.000"
+   ],
+   "explain": "Por eso la OMS los considera un problema prioritario de salud pública. Son la primera causa de muerte en jóvenes.",
+   "page": 6
+  },
+  {
+   "id": "u1-19",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "En Chile, para jóvenes de 15 a 29 años, los siniestros de tránsito son…",
+   "options": [
+    "La segunda causa de muerte, después de los suicidios",
+    "La primera causa de muerte",
+    "La décima causa de muerte",
+    "Una causa poco frecuente"
+   ],
+   "explain": "Entre 1 y 14 años son la primera causa de muerte.",
+   "page": 6
+  },
+  {
+   "id": "u1-20",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "Las personas que quedan con discapacidad de por vida por un siniestro aparecen en las cifras solo como “lesionados”.",
+   "answer": true,
+   "explain": "Por eso no se dimensiona bien la magnitud del problema.",
+   "page": 6
+  },
+  {
+   "id": "u1-21",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "En promedio, ¿cuántas personas cercanas sufren por cada persona fallecida en un siniestro?",
+   "options": [
+    "Unas 100",
+    "Unas 5",
+    "Unas 1.000",
+    "Ninguna"
+   ],
+   "explain": "Familiares, amigos y conocidos sufren el dolor de cada pérdida.",
+   "page": 7
+  },
+  {
+   "id": "u1-22",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "¿Cuánto paga en promedio cada persona al año por los costos de los siniestros?",
+   "options": [
+    "Poco más de 6 millones de pesos",
+    "Unos 10 mil pesos",
+    "Unos 100 mil pesos",
+    "Nada"
+   ],
+   "explain": "Y eso considerando solo los costos que se pueden valorizar en dinero.",
+   "page": 7
+  },
+  {
+   "id": "u1-23",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "match",
+   "prompt": "Une cada tipo de costo con un ejemplo",
+   "pairs": [
+    [
+     "Materiales",
+     "Daños a vehículos y propiedad"
+    ],
+    [
+     "De salud",
+     "Ambulancia y rehabilitación"
+    ],
+    [
+     "Administrativos",
+     "Policía, seguros y jueces"
+    ],
+    [
+     "Humanos",
+     "Sufrimiento y productividad perdida"
+    ]
+   ],
+   "explain": "No todos los costos se pueden medir en dinero, como el sufrimiento de las familias.",
+   "page": 7
+  },
+  {
+   "id": "u1-24",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "¿Cuántos siniestros de tránsito se registran al año en Chile?",
+   "options": [
+    "Más de 82.000",
+    "Unos 1.600",
+    "Unos 8.000",
+    "Más de 1 millón"
+   ],
+   "explain": "En ellos fallecen cerca de 1.600 personas al año.",
+   "page": 8
+  },
+  {
+   "id": "u1-25",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "En promedio, ¿cuántas personas mueren atropelladas al año en Chile?",
+   "options": [
+    "Unas 450",
+    "Unas 45",
+    "Unas 4.500",
+    "Unas 1.600"
+   ],
+   "explain": "Los peatones son de los usuarios más vulnerables.",
+   "page": 8
+  },
+  {
+   "id": "u1-26",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "¿Cuántas personas resultan con lesiones graves al año en Chile (promedio de 5 años)?",
+   "options": [
+    "Unas 7.700",
+    "Unas 770",
+    "Unas 77.000",
+    "Unas 1.600"
+   ],
+   "explain": "En vías urbanas hay más de 35.000 lesionados al año, en su mayoría de menor gravedad.",
+   "page": 8
+  },
+  {
+   "id": "u1-27",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "En las vías urbanas se produce la mayor cantidad de lesionados, aunque en general con lesiones menos graves que en carretera.",
+   "answer": true,
+   "explain": "En ciudad hay más de 35.000 lesionados al año; en carretera las lesiones suelen ser más graves.",
+   "page": 8
+  },
+  {
+   "id": "u1-28",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿En qué momentos hay más siniestralidad?",
+   "options": [
+    "Fines de semana, noche y madrugada, y con poco tráfico",
+    "Días hábiles a mediodía",
+    "Solo en vacaciones de invierno",
+    "Con mucho tráfico en hora punta"
+   ],
+   "explain": "Con poco flujo de vehículos, la gente tiende a conducir más rápido.",
+   "page": 8
+  },
+  {
+   "id": "u1-29",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Cuáles son tres de los factores con mayor incidencia en los siniestros?",
+   "options": [
+    "Imprudencia, alcohol y desobedecer las señales",
+    "Lluvia, nieve y viento",
+    "Autos nuevos, autopistas y peajes",
+    "Ciclistas, peatones y buses"
+   ],
+   "explain": "La imprudencia de quien conduce, el alcohol y no respetar las señales.",
+   "page": 8
+  },
+  {
+   "id": "u1-30",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Qué porcentaje de las personas conductoras fallecidas son hombres?",
+   "options": [
+    "Cerca del 79%",
+    "Cerca del 50%",
+    "Cerca del 20%",
+    "Cerca del 95%"
+   ],
+   "explain": "Y los jóvenes de 18 a 29 años son cerca del 29% de los conductores fallecidos.",
+   "page": 8
+  },
+  {
+   "id": "u1-31",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "En las estadísticas de Carabineros, ¿a quiénes se cuenta como fallecidos?",
+   "options": [
+    "A quienes mueren dentro de las 48 horas del siniestro",
+    "A quienes mueren dentro de 30 días",
+    "A quienes mueren dentro de 2 horas",
+    "A quienes mueren el año siguiente"
+   ],
+   "explain": "Las cifras del libro son el promedio de los últimos 5 años, hasta 2022.",
+   "page": 8
+  },
+  {
+   "id": "u1-32",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Desde qué velocidad un peatón atropellado tiene menos del 50% de probabilidades de sobrevivir?",
+   "options": [
+    "45 km/h o más",
+    "20 km/h",
+    "30 km/h",
+    "10 km/h"
+   ],
+   "explain": "A 30 km/h o menos sobrevive el 90%; a 65 km/h lo más probable es que muera.",
+   "page": 8
+  },
+  {
+   "id": "u1-33",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "order",
+   "prompt": "Ordena la historia de la seguridad vial en Chile",
+   "items": [
+    "Primera Política Nacional de Seguridad de Tránsito (1993)",
+    "Aumentan ciclistas, vehículos y motos",
+    "Nueva política con el enfoque Sistema Seguro (2017)"
+   ],
+   "explain": "Los nuevos desafíos de movilidad llevaron a adoptar el Sistema Seguro desde 2017.",
+   "page": 9
+  },
+  {
+   "id": "u1-34",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "En el Sistema Seguro, en vez de solo corregir los errores humanos, ¿qué se busca?",
+   "options": [
+    "Diseñar un sistema que guíe el comportamiento y reduzca el riesgo de circular",
+    "Prohibir conducir a los jóvenes",
+    "Sacar a los peatones de las calles",
+    "Aumentar solo las multas"
+   ],
+   "explain": "Es un cambio de paradigma: se asume que las personas se equivocan.",
+   "page": 9
+  },
+  {
+   "id": "u1-35",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "Si a pesar de todo ocurre un siniestro, el Sistema Seguro busca que…",
+   "options": [
+    "Las fuerzas del impacto no superen lo que el cuerpo resiste",
+    "Nadie tenga que pagar los daños",
+    "Los autos queden intactos",
+    "El tránsito no se detenga"
+   ],
+   "explain": "Así se evitan muertes y lesiones graves.",
+   "page": 9
+  },
+  {
    "id": "u2-01",
    "unit": "u2",
    "lesson": 0,
