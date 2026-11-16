@@ -29,6 +29,7 @@ data class Progress(
     val lastStudyDay: Long = -1,
     val xpByDay: Map<Long, Int> = emptyMap(),
     val completed: Set<String> = emptySet(),
+    val watched: Set<String> = emptySet(),
     val cards: Map<String, Card> = emptyMap(),
     val achievements: Set<String> = emptySet(),
     val exams: List<ExamResult> = emptyList(),
@@ -38,7 +39,6 @@ data class Progress(
     val perfectCount: Int = 0,
     val reminder: Boolean = false,
     val reminderHour: Int = 19,
-    val unlockAll: Boolean = false,
 ) {
     fun todayXp(today: Long = today()): Int = xpByDay[today] ?: 0
 

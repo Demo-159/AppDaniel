@@ -12,7 +12,8 @@ object Achievements {
         Achievement("perfect5", "📋", "Hoja de vida limpia", "5 lecciones perfectas"),
         Achievement("xp500", "🛣️", "500 km recorridos", "Gana 500 XP"),
         Achievement("xp2000", "🚀", "Gran viajero", "Gana 2.000 XP"),
-        Achievement("unit", "🏁", "Primera meta", "Completa una unidad con su prueba"),
+        Achievement("capsule5", "🎬", "Maratón vial", "Mira 5 cápsulas de video"),
+        Achievement("unit", "🏁", "Primera meta", "Completa todas las lecciones de una unidad"),
         Achievement("allunits", "🪪", "Licencia en mano", "Completa todas las unidades"),
         Achievement("review25", "🧠", "Memoria de acero", "Responde 25 preguntas en repasos"),
         Achievement("master50", "🎓", "Experto en la materia", "Lleva 50 preguntas al nivel máximo de memoria"),
@@ -24,8 +25,9 @@ object Achievements {
 
     fun earned(p: Progress, content: Content): Set<String> {
         val s = mutableSetOf<String>()
-        val unitDone = content.units.filter { "${it.id}:test" in p.completed }
-        if (p.completed.any { !it.endsWith(":test") }) s += "first"
+        val unitDone = content.units.filter { u -> u.lessons.indices.all { "${u.id}:$it" in p.completed } }
+        if (p.completed.isNotEmpty()) s += "first"
+        if (p.watched.size >= 5) s += "capsule5"
         if (p.bestStreak >= 3) s += "streak3"
         if (p.bestStreak >= 7) s += "streak7"
         if (p.bestStreak >= 30) s += "streak30"

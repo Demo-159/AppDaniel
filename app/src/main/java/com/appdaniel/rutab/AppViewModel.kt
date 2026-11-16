@@ -56,11 +56,9 @@ class AppViewModel @JvmOverloads constructor(
         }
     }
 
-    fun isUnlocked(key: String): Boolean {
-        if (progress.unlockAll) return true
-        val i = nodes.indexOfFirst { it.key == key }
-        return i <= 0 || nodes[i - 1].key in progress.completed || key in progress.completed
-    }
+    /** Sin bloqueos: todo el contenido está siempre disponible. */
+    @Suppress("UNUSED_PARAMETER")
+    fun isUnlocked(key: String): Boolean = true
 
     /** Primer nodo desbloqueado y no completado: "donde vas". */
     val currentNodeKey: String?
@@ -86,7 +84,6 @@ class AppViewModel @JvmOverloads constructor(
 
     fun setGoal(goal: Int) = update { it.copy(dailyGoal = goal) }
     fun setName(name: String) = update { it.copy(name = name.trim()) }
-    fun setUnlockAll(v: Boolean) = update { it.copy(unlockAll = v) }
 
     fun setReminder(enabled: Boolean, hour: Int = progress.reminderHour) {
         update { it.copy(reminder = enabled, reminderHour = hour) }

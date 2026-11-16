@@ -18,7 +18,16 @@ data class StudyUnit(
     val chapter: String,
     val lessons: List<String>,
     val guide: List<String>,
+    /** Una cápsula de video por lección: escenas con visual, titular y narración. */
+    val capsules: List<List<Scene>> = emptyList(),
 )
+
+/**
+ * Escena de una cápsula. [v] es el visual: un emoji, "sign:<clave>" para una señal dibujada,
+ * o "num:<cifra>|<unidad>" para una cifra grande.
+ */
+@Serializable
+data class Scene(val v: String, val h: String, val t: String)
 
 /**
  * Tipos:

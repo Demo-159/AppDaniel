@@ -72,15 +72,12 @@ class LogicTest {
 
     @Test fun perfectLessonGivesBonusAndUnlocksNext() {
         val vm = TestSupport.vm()
-        assertFalse(vm.isUnlocked("u1:1"))
         vm.startNode(vm.nodes.first())
         val n = vm.session!!.total
         repeat(n) { vm.submit(true); vm.next() }
         val r = vm.result!!
         assertTrue(r.perfect)
         assertTrue(r.xp >= n * 10 + 10)
-        assertTrue(vm.isUnlocked("u1:1"))
-        assertFalse(vm.isUnlocked("u1:test"))
         assertTrue("perfect" in vm.progress.achievements)
     }
 

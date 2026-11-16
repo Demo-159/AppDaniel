@@ -180,14 +180,6 @@ fun ProfileScreen(vm: AppViewModel) {
                         TextButton(onClick = { vm.setReminder(true, (p.reminderHour + 1) % 24) }) { Text("+", fontSize = 22.sp) }
                     }
                 }
-                Spacer(Modifier.height(12.dp))
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        Text("Desbloquear toda la ruta", fontWeight = FontWeight.Bold)
-                        Text("Para estudiar cualquier unidad en el orden que quieras", fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    Switch(checked = p.unlockAll, onCheckedChange = { vm.setUnlockAll(it) }, colors = SwitchDefaults.colors(checkedTrackColor = GoGreen))
-                }
                 Spacer(Modifier.height(8.dp))
                 Row {
                     TextButton(onClick = { showMethods = true }) { Text("🔬 Cómo aprendes con Ruta B") }
