@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- base -->
+    <path android:fillColor="#263238" android:pathData="M30,74 L78,74 Q81,74 81,77 L81,80 Q81,83 78,83 L30,83 Q27,83 27,80 L27,77 Q27,74 30,74 Z"/>
+    <!-- cone body -->
+    <path android:fillColor="#FF8A3D" android:pathData="M54,24 Q57,24 58,27 L72,75 L36,75 L50,27 Q51,24 54,24 Z"/>
+    <!-- stripes -->
+    <path android:fillColor="#FFFFFF" android:pathData="M46.5,40 L61.5,40 L64,49 L44,49 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M41.8,57 L66.2,57 L68.5,65 L39.5,65 Z"/>
+    <!-- eyes -->
+    <path android:fillColor="#263238" android:pathData="M48,34 m-2.6,0 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0"/>
+    <path android:fillColor="#263238" android:pathData="M60,34 m-2.6,0 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0"/>
+    <!-- smile -->
+    <path android:strokeColor="#263238" android:strokeWidth="2.2" android:strokeLineCap="round"
+        android:pathData="M49.5,52.5 Q54,56 58.5,52.5"/>
+</vector>
