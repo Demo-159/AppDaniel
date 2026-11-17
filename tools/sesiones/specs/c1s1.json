@@ -22,12 +22,26 @@
    "dato": "c1-01"
   },
   {
-   "voz": "Sin embargo, los siniestros aumentan cuando llueve. De noche hay muchas personas fallecidas, aunque es cuando circulan menos vehículos. Y quienes han bebido alcohol tienen más siniestros.",
+   "voz": "Si los siniestros fueran pura casualidad, ocurrirían igual en cualquier situación. Pero aumentan cuando llueve.",
    "escena": {
     "tipo": "anim",
-    "id": "c1-aumentan"
+    "id": "c1-lluvia"
+   }
+  },
+  {
+   "voz": "Ahora, la noche. Si los siniestros fueran casuales, con menos autos en la calle debería haber menos siniestros. Pero de noche, que es cuando circulan menos vehículos, hay muchas personas fallecidas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-noche"
    },
    "dato": "c1-03"
+  },
+  {
+   "voz": "Y las personas que han bebido alcohol tienen más siniestros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-alcohol"
+   }
   },
   {
    "voz": "Si fueran pura casualidad, eso no pasaría. Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
@@ -38,25 +52,25 @@
    "dato": "c1-48"
   },
   {
+   "voz": "Si los siniestros fueran pura casualidad, ¿qué debería pasar de noche, cuando circulan menos vehículos?",
+   "elige": {
+    "pregunta": "Si los siniestros fueran pura casualidad, ¿qué debería pasar de noche, cuando circulan menos vehículos?",
+    "opciones": [
+     "Debería haber menos siniestros",
+     "Debería haber más siniestros",
+     "Debería haber los mismos que de día"
+    ],
+    "bien": "Así es: con menos vehículos debería haber menos. Pero de noche hay muchas personas fallecidas, y eso muestra que los siniestros tienen causas.",
+    "mal": "Si fueran casualidad, con menos vehículos debería haber menos siniestros. Pero de noche hay muchas personas fallecidas: eso muestra que tienen causas."
+   }
+  },
+  {
    "voz": "Si un siniestro fuera un suceso eventual, la probabilidad de sufrirlo dependería solo del tiempo que pasamos al volante. Pero no es así.",
    "escena": {
     "tipo": "anim",
     "id": "c1-tiempo"
    },
    "dato": "c1-05"
-  },
-  {
-   "voz": "Los siniestros aumentan con lluvia, de noche y con alcohol. ¿Qué nos dice eso?",
-   "elige": {
-    "pregunta": "Los siniestros aumentan con lluvia, de noche y con alcohol. ¿Qué nos dice eso?",
-    "opciones": [
-     "Que no son pura casualidad: tienen causas",
-     "Que son cuestión de mala suerte",
-     "Que dependen solo del tiempo al volante"
-    ],
-    "bien": "Así es: no son pura casualidad, porque tienen causas.",
-    "mal": "No. Si aumentan con lluvia, de noche y con alcohol, es porque tienen causas: no son pura casualidad."
-   }
   },
   {
    "voz": "Por eso se cambió el concepto por siniestros: para relevar sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",

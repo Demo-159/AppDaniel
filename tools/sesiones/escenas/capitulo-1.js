@@ -14,18 +14,29 @@ Object.assign(ESCENAS,{
   <div class="cap big">Accidente</div>
   <div class="cap" data-w="suceso">“Suceso eventual del que involuntariamente resulta un daño”</div>
   <div class="chips"><span data-w="casual">🎲 casual</span><span data-w="impredecible">❓ impredecible</span></div>`,
- // 2. Aumentan con lluvia; de noche hay más fallecidos aunque circulan menos vehículos; y con alcohol
- 'c1-aumentan':()=>`<svg viewBox="0 0 360 230">${calleMini()}
-  <rect width="360" height="152" fill="#0B1430" data-w="noche" style="--o:.8"/><g data-w="noche">${estrellas(9,14,110)}<circle cx="300" cy="40" r="16" fill="#F4F1DE"/></g>
-  <g data-w="llueve">${lluviaMini()}</g>
-  <g data-h="menos vehículos"><g transform="translate(0,182)"><g class="car izq" style="animation-duration:5.5s;animation-delay:-2s"><g transform="translate(72,0) scale(-1,1)">${auto('#FFC800',1)}</g></g></g>
-   <g transform="translate(0,222)"><g class="car" style="animation-duration:7s;animation-delay:-4s">${auto('#58CC02',1)}</g></g></g>
+ // 2a. Si fueran casualidad, ocurrirían igual en cualquier situación; pero aumentan cuando llueve
+ 'c1-lluvia':()=>`<svg viewBox="0 0 360 230">${calleMini()}
+  <rect width="360" height="152" fill="#3B4756" data-w="llueve" style="--o:.75"/><g data-w="llueve">${lluviaMini()}</g>
+  <g transform="translate(0,182)"><g class="car izq" style="animation-duration:6.5s;animation-delay:-2s"><g transform="translate(72,0) scale(-1,1)">${auto('#FFC800',1)}</g></g></g>
   <g transform="translate(0,222)"><g class="car" style="animation-duration:6s">${auto('#1CB0F6',1)}</g></g>
-  <g data-w="alcohol"><g transform="translate(210,182)"><g class="zig"><g transform="translate(72,0) scale(-1,1)">${auto('#FF4B4B')}</g><text x="36" y="-42" font-size="22" text-anchor="middle">🍺</text></g></g></g>
-  ${boom(300,178,'aumentan')}${boom(70,172,'llueve',250)}${boom(230,214,'llueve',800)}${boom(150,176,'fallecidas',0)}${boom(320,214,'fallecidas',600)}${boom(40,212,'alcohol',500)}${boom(130,214,'alcohol',1000)}${boom(330,180,'alcohol',1500)}</svg>
-  <div class="chips"><span data-w="llueve">🌧️ Lluvia</span><span data-w="noche">🌙 Noche</span><span data-w="alcohol">🍺 Alcohol</span></div>
-  <div class="cap" data-w="menos vehículos">🌙 De noche hay menos autos… y más fallecidos</div>
-  <div class="cap big" data-w="aumentan">💥 Los siniestros aumentan</div>`,
+  ${boom(90,176,'llueve',300)}${boom(250,214,'llueve',800)}${boom(320,178,'llueve',1300)}</svg>
+  <div class="cap" data-w="ocurrirían">Si fuera casualidad: igual con o sin lluvia</div>
+  <div class="cap big" data-w="llueve">🌧️ Con lluvia, aumentan</div>`,
+ // 2b. Con menos autos debería haber menos siniestros; pero de noche, con menos vehículos, hay muchos fallecidos
+ 'c1-noche':()=>{const autos=(n,y0)=>Array.from({length:n},(_,k)=>{const dur=k%2?6.6:6,del=Math.floor(k/2)*dur/Math.ceil(n/2)+(k%2?1:0);return `<g transform="translate(0,${y0+(k%2?72:106)})"><g class="car${k%2?' izq':''}" style="animation-duration:${dur}s;animation-delay:-${del.toFixed(2)}s"><g${k%2?' transform="translate(72,0) scale(-1,1)"':''}>${auto(['#1CB0F6','#FFC800','#58CC02','#CE82FF','#FF9600','#9AB0BC'][k],y0>0)}</g></g></g>`}).join('');
+  const panel=(y,noche)=>`<g transform="translate(0,${y})"><rect width="360" height="44" fill="${noche?'#0B1430':'#8EC5E0'}"/>${noche?estrellas(19,8,40)+'<circle cx="320" cy="20" r="11" fill="#F4F1DE"/>':'<circle cx="320" cy="20" r="12" fill="#FFD36B"/>'}<rect y="44" width="360" height="66" fill="${noche?'#222D34':'#33414A'}"/><line x1="-40" y1="77" x2="400" y2="77" stroke="#D9D9D9" stroke-width="2.5" stroke-dasharray="18 14" opacity=".7"/>
+   <rect x="8" y="8" width="${noche?150:120}" height="26" rx="8" fill="#1E2B32"/><text x="${noche?83:68}" y="26" font-size="13" font-weight="900" fill="#F1F7FB" text-anchor="middle">${noche?'🌙 Noche: menos autos':'☀️ Día: más autos'}</text></g>`;
+  return `<svg viewBox="0 0 360 232"><g data-w="casuales">${panel(0,0)}<g>${autos(6,0)}</g></g>
+  <g data-w="menos autos">${panel(122,1)}<g transform="translate(0,122)">${autos(2,122).replace(/translate\(0,(\d+)\)/g,(m,v)=>'translate(0,'+(v-122)+')')}</g></g>
+  ${boom(70,196,'pero de noche',0)}${boom(180,222,'pero de noche',400)}${boom(290,196,'pero de noche',800)}${boom(120,190,'fallecidas',0)}${boom(250,222,'fallecidas',400)}</svg>
+  <div class="chips"><span data-w="debería">🎲 Si fuera azar: menos autos → menos siniestros</span></div>
+  <div class="cap big" data-w="fallecidas">Pero de noche hay muchas personas fallecidas</div>`},
+ // 2c. Quienes han bebido alcohol tienen más siniestros
+ 'c1-alcohol':()=>`<svg viewBox="0 0 360 230">${calleMini('#8EC5E0',7)}
+  <g transform="translate(0,222)"><g class="car" style="animation-duration:6s">${auto('#1CB0F6')}</g></g>
+  <g data-w="alcohol"><g transform="translate(150,182)"><g class="zig"><g transform="translate(72,0) scale(-1,1)">${auto('#FF4B4B')}</g><text x="36" y="-42" font-size="24" text-anchor="middle">🍺</text></g></g></g>
+  ${boom(110,178,'más siniestros',0)}${boom(270,214,'más siniestros',400)}${boom(60,214,'más siniestros',800)}</svg>
+  <div class="cap big" data-w="más siniestros">🍺 Con alcohol, más siniestros</div>`,
  // 3. Tienen poco de azarosos o de impredecibles
  'c1-poco-azar':()=>`<div class="cap" data-w="casualidad">Si fueran pura casualidad, eso no pasaría</div><svg viewBox="0 0 360 200"><g transform="translate(86,100)">${cara(.85)}</g>
   <g data-w="azarosos" stroke="#FF4B4B" stroke-width="11" stroke-linecap="round"><line x1="36" y1="50" x2="136" y2="150"/><line x1="136" y1="50" x2="36" y2="150"/></g>
