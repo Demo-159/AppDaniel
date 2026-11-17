@@ -232,7 +232,18 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
   siguiente, la ventana avisa "Te estás adelantando" con "Ir a la siguiente" (principal) y "Adelantarme igual".
   La siguiente siempre es la primera sin hacer en el orden del libro. Botón flotante "Seguir en: …" cuando la
   siguiente queda fuera de la pantalla.
-- Solo entran preguntas `mc`, `img` y `multi`; las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
+- **Preguntas como el examen real (v2.6):** ningún enunciado ni opción menciona "el libro" (regla del usuario:
+  "así no es el examen real"). Las "Marque dos/tres" dicen "¿Cuáles de estas afirmaciones son correctas? Marque
+  dos respuestas" y sus afirmaciones falsas son errores creíbles del mismo tema (`tools/cobertura/multi_falsas/`,
+  se aplican con `multi_falsas/aplicar.py`, que también aplica `sin_libro.json` y verifica que no quede
+  "libro"). **No volver a correr `multi.py`/`falsos.json`**: regeneraría las falsas absurdas. Ninguna Marque se
+  delata por largo (0 de 113 con todas las verdaderas más largas).
+- **Doble puntaje en el simulacro:** una pregunta de cada tema grave (alcohol y drogas, velocidad, protección:
+  cinturón/casco/SRI), campo `g` calculado en `tools/demo-app/build.py`; si falta un tema se cambia una común.
+- **Lectura:** cada cita se muestra como la oración completa del libro, tomada de `tools/cobertura/libro_bloques.txt`
+  (extracción por bloques con `bloques.py`, sin mezclar columnas); los fragmentos de tablas usan la explicación
+  de su pregunta.
+ las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
 
 - `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
   desde `assets/web` en un WebView, sin conexión. El botón atrás llama a `window.atras()` de la página.
@@ -240,7 +251,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.5.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.6.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 

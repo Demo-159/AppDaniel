@@ -298,11 +298,18 @@ function prueba(p){const pool=poolEstudiado(p.cap);if(pool.length<5)return aviso
 // "todo": sale de las 896 preguntas del libro, aunque no se hayan estudiado. "estudiado": solo de paradas estudiadas.
 function examIntro(modo='todo'){const pool=modo==='todo'?BANK.Q:poolEstudiado();show('info');const ok=pool.length>=35;
  $('ibody').innerHTML=`<div class="center"><div class="big">🏆</div><div class="q">${modo==='todo'?'Simulacro completo':'Simulacro de lo estudiado'}</div><div class="muted">Igual que el examen teórico clase B</div>
- <div class="facts"><div><b>35</b><span>preguntas</span></div><div><b>38</b><span>puntos (3 valen doble)</span></div><div><b>33</b><span>puntos para aprobar</span></div><div><b>45:00</b><span>minutos</span></div></div>
+ <div class="facts"><div><b>35</b><span>preguntas</span></div><div><b>38</b><span>puntos (3 valen doble: alcohol, velocidad y protección)</span></div><div><b>33</b><span>puntos para aprobar</span></div><div><b>45:00</b><span>minutos</span></div></div>
  <div class="muted" style="font-size:13px">${modo==='todo'?'Las preguntas salen al azar de las '+pool.length+' del libro, repartidas entre todos los capítulos: puede incluir temas que aún no estudias.':ok?'Pregunta solo lo que ya estudiaste ('+pool.length+' preguntas disponibles).':'Necesitas al menos 35 preguntas de paradas estudiadas; llevas '+pool.length+'.'} No verás si acertaste hasta el final. Las preguntas son de la app, basadas en el libro; el banco oficial no es público.</div></div>`;
  $('ifoot').innerHTML=(ok?'<button class="btn" id="go">Comenzar</button>':'')+'<button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" id="back">Volver</button>';
- if(ok)$('go').onclick=()=>exam({qs:pick(35,pool),dbl:3,mins:45,passPts:33,title:modo==='todo'?'Simulacro completo':'Simulacro de lo estudiado',modo});$('back').onclick=volver}
-function exam(o){const qs=o.qs;const dbl=new Set(shuffle([...qs.keys()]).slice(0,o.dbl));
+ if(ok)$('go').onclick=()=>exam({qs:pick(35,pool),pool,dbl:3,mins:45,passPts:33,title:modo==='todo'?'Simulacro completo':'Simulacro de lo estudiado',modo});$('back').onclick=volver}
+// Las preguntas de doble puntaje salen de temas graves, una de cada grupo: alcohol y drogas (a), velocidad (v)
+// y protección: cinturón, casco y sillas para niños (p). Si falta un grupo entre las sorteadas, se cambia una común.
+function dobles(qs,n,pool){if(!n)return new Set();const out=[];
+ ['a','v','p'].slice(0,n).forEach(g=>{let i=qs.findIndex((q,j)=>q.g===g&&!out.includes(j));
+  if(i<0){const nueva=shuffle((pool||BANK.Q).filter(q=>q.g===g&&!qs.includes(q)))[0],j=qs.findIndex((q,j)=>!q.g&&!out.includes(j));if(nueva&&j>=0){qs[j]=nueva;i=j}}
+  if(i>=0)out.push(i)});
+ while(out.length<n){const j=shuffle([...qs.keys()]).find(j=>!out.includes(j));out.push(j)}return new Set(out)}
+function exam(o){const qs=o.qs;const dbl=dobles(qs,o.dbl,o.pool);
  RUN={mode:'exam',o,qs,dbl,i:0,ans:[]};
  clearInterval(TICK);$('qtime').textContent='';
  if(o.mins){RUN.end=Date.now()+o.mins*60000;const t=()=>{const s=Math.max(0,(RUN.end-Date.now())/1000|0);$('qtime').textContent=`⏱ ${s/60|0}:${String(s%60).padStart(2,'0')}`;if(s<=0){clearInterval(TICK);finish()}};t();TICK=setInterval(t,1000)}

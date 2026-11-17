@@ -962,14 +962,14 @@
    "unit": "u1",
    "lesson": 0,
    "type": "mc",
-   "prompt": "¿Por qué el libro cambió el concepto “accidente” por “siniestro”?",
+   "prompt": "¿Por qué se usa el término “siniestro” en vez de “accidente” de tránsito?",
    "options": [
     "Para relevar sus efectos negativos y la responsabilidad de cada persona usuaria",
     "Porque así se llaman legalmente los choques en que hay personas heridas",
     "Porque “accidente” se usa solo para los hechos ocurridos en carreteras",
     "Porque “siniestro” indica que hubo daños materiales graves en el choque"
    ],
-   "explain": "El libro cambió el concepto para relevar la importancia de sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
+   "explain": "Se cambió el concepto para relevar la importancia de sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
    "page": 6
   },
   {
@@ -1132,7 +1132,8 @@
     ]
    ],
    "explain": "Son los cuatro principios fundamentales y no transables del Sistema Seguro.",
-   "page": 9
+   "page": 9,
+   "options": []
   },
   {
    "id": "u1-14",
@@ -1169,7 +1170,7 @@
    "unit": "u1",
    "lesson": 0,
    "type": "mc",
-   "prompt": "Según el libro, ¿qué muestra que los siniestros no son casuales?",
+   "prompt": "¿Qué muestra que los siniestros de tránsito no son casuales?",
    "options": [
     "Que aumentan con lluvia, de noche y con alcohol",
     "Que se reparten igual a toda hora del día",
@@ -1264,7 +1265,8 @@
     ]
    ],
    "explain": "No todos los costos se pueden medir en dinero, como el sufrimiento de las familias.",
-   "page": 7
+   "page": 7,
+   "options": []
   },
   {
    "id": "u1-24",
@@ -1368,7 +1370,7 @@
     "A quienes mueren dentro de 24 horas",
     "A quienes mueren dentro de 7 días"
    ],
-   "explain": "Las cifras del libro son el promedio de los últimos 5 años, hasta 2022.",
+   "explain": "Carabineros contabiliza como fallecidas solo a las personas que mueren dentro de las 48 horas de producido el siniestro.",
    "page": 8
   },
   {
@@ -1398,7 +1400,8 @@
     "Nueva política con el enfoque Sistema Seguro (2017)"
    ],
    "explain": "Los nuevos desafíos de movilidad llevaron a adoptar el Sistema Seguro desde 2017.",
-   "page": 9
+   "page": 9,
+   "options": []
   },
   {
    "id": "u1-34",
@@ -1435,7 +1438,7 @@
    "unit": "u1",
    "lesson": 0,
    "type": "mc",
-   "prompt": "Según el libro, ¿cómo se define un “accidente”?",
+   "prompt": "¿Cómo se define un “accidente”?",
    "options": [
     "Suceso eventual del que involuntariamente resulta un daño",
     "Choque entre vehículos que deja personas lesionadas",
@@ -1525,7 +1528,7 @@
    "unit": "u1",
    "lesson": 1,
    "type": "mc",
-   "prompt": "¿Qué nuevos desafíos de movilidad menciona el libro?",
+   "prompt": "¿Cuáles son algunos de los nuevos desafíos de movilidad en Chile?",
    "options": [
     "Más ciclistas, vehículos y motocicletas",
     "Menos buses y menos transporte público",
@@ -1592,7 +1595,7 @@
     "Los viajes de más de una hora",
     "Las vías sin semáforos"
    ],
-   "explain": "Para reducir la posibilidad de sufrir un siniestro de tránsito, debes evitar los factores de riesgo, detallados a lo largo del libro.",
+   "explain": "Para reducir la posibilidad de sufrir un siniestro de tránsito, debes evitar los factores de riesgo.",
    "page": 6
   },
   {
@@ -1615,7 +1618,7 @@
    "unit": "u1",
    "lesson": 1,
    "type": "mc",
-   "prompt": "Las cifras de siniestros del libro corresponden al promedio de…",
+   "prompt": "Las cifras de siniestros de tránsito en Chile corresponden al promedio de…",
    "options": [
     "Los últimos 5 años, hasta 2022",
     "Los últimos 10 años, hasta 2020",
@@ -1650,7 +1653,8 @@
     ]
    ],
    "explain": "El panel de instrumentos te alerta sobre el estado de los sistemas principales del vehículo.",
-   "page": 11
+   "page": 11,
+   "options": []
   },
   {
    "id": "u2-02",
@@ -2099,7 +2103,7 @@
     "Girar al lado contrario y frenar",
     "Poner neutro y esperar que se estabilice"
    ],
-   "explain": "Es la recomendación del libro para vehículos de tracción trasera.",
+   "explain": "Es la recomendación para vehículos de tracción trasera.",
    "page": 25
   },
   {
@@ -2347,7 +2351,7 @@
    "unit": "u4",
    "lesson": 0,
    "type": "mc",
-   "prompt": "Según el libro, ¿cuál es la mejor virtud al conducir?",
+   "prompt": "¿Cuál es la mejor virtud al conducir?",
    "options": [
     "La solidaridad",
     "La rapidez",
@@ -2423,7 +2427,8 @@
     ]
    ],
    "explain": "Vestir ropa clara o reflectante ayuda mucho a que te vean.",
-   "page": 41
+   "page": 41,
+   "options": []
   },
   {
    "id": "u4-11",
@@ -2540,7 +2545,8 @@
     ]
    ],
    "explain": "Reconocer estas conductas en ti te ayuda a corregirlas.",
-   "page": 48
+   "page": 48,
+   "options": []
   },
   {
    "id": "u4-19",
@@ -3058,7 +3064,8 @@
     ]
    ],
    "explain": "Así señalizan ciclistas y conductores que no pueden usar luces.",
-   "page": 72
+   "page": 72,
+   "options": []
   },
   {
    "id": "u6-12",
@@ -3343,7 +3350,8 @@
     ]
    ],
    "explain": "Cada grupo usa formas y colores distintos para leerse rápido.",
-   "page": 80
+   "page": 80,
+   "options": []
   },
   {
    "id": "u7-13",
@@ -3724,7 +3732,8 @@
     "Hacer la maniobra"
    ],
    "explain": "Espejo – señalización – maniobra. No señalices hasta estar seguro de que puedes hacerlo.",
-   "page": 86
+   "page": 86,
+   "options": []
   },
   {
    "id": "u8-09",
@@ -4186,7 +4195,8 @@
     ]
    ],
    "explain": "Lo de colegios e iglesias rige durante las horas de afluencia de público.",
-   "page": 105
+   "page": 105,
+   "options": []
   },
   {
    "id": "u9-16",
@@ -4749,7 +4759,8 @@
     ]
    ],
    "explain": "Con el motor frío, un vapor blanco puede ser solo condensación.",
-   "page": 147
+   "page": 147,
+   "options": []
   },
   {
    "id": "u11-08",
@@ -4763,7 +4774,8 @@
     "Dar cuenta a la autoridad"
    ],
    "explain": "Es obligatorio con culpa o sin ella.",
-   "page": 136
+   "page": 136,
+   "options": []
   },
   {
    "id": "u11-09",
@@ -4786,7 +4798,8 @@
     ]
    ],
    "explain": "Indica el lugar exacto, la cantidad de vehículos y de víctimas.",
-   "page": 136
+   "page": 136,
+   "options": []
   },
   {
    "id": "u11-10",
@@ -4803,7 +4816,8 @@
     "Exposición"
    ],
    "explain": "Primero detienes las hemorragias graves y al final buscas lesiones ocultas.",
-   "page": 137
+   "page": 137,
+   "options": []
   },
   {
    "id": "u11-12",
@@ -5187,7 +5201,7 @@
    "page": 13,
    "explain": "Evita abrir la tapa más de lo necesario: los vapores pueden ser cancerígenos y son inflamables.",
    "type": "mc",
-   "prompt": "Según el libro, los vapores de la gasolina…",
+   "prompt": "Los vapores de la gasolina…",
    "options": [
     "Pueden ser cancerígenos y son inflamables",
     "Son inofensivos siempre que el motor esté apagado",
@@ -6267,7 +6281,7 @@
    "page": 33,
    "explain": "La imprudencia y la falta de práctica de quienes conducen.",
    "type": "mc",
-   "prompt": "Según el libro, ¿cuál es el mayor riesgo a la hora de conducir?",
+   "prompt": "¿Cuál es el mayor riesgo a la hora de conducir?",
    "options": [
     "La imprudencia y la falta de práctica",
     "El mal estado de las carreteras",
@@ -6297,7 +6311,7 @@
    "page": 34,
    "explain": "Distracciones; alcohol y drogas; fatiga, sueño, fármacos o estrés; y velocidad inadecuada.",
    "type": "mc",
-   "prompt": "¿Cuál de estos es uno de los principales factores de riesgo según el libro?",
+   "prompt": "¿Cuál de estos es uno de los principales factores de riesgo al conducir?",
    "options": [
     "Las distracciones",
     "Los vehículos con muchos años de uso",
@@ -6327,7 +6341,7 @@
    "page": 34,
    "explain": "Es mucho más que calles o carreteras: es un espacio de convivencia social.",
    "type": "mc",
-   "prompt": "Según el libro, el Entorno Vial es…",
+   "prompt": "El Entorno Vial es…",
    "options": [
     "Un espacio de convivencia social",
     "Solo el conjunto de calles y carreteras",
@@ -6462,7 +6476,7 @@
    "page": 39,
    "explain": "Problemas emocionales, la radio, el teléfono, fumar o comer al conducir influyen negativamente.",
    "type": "mc",
-   "prompt": "¿Qué influye negativamente en la seguridad según el libro?",
+   "prompt": "¿Qué influye negativamente en la seguridad al conducir?",
    "options": [
     "Fumar o comer mientras conduces",
     "Usar lentes de sol en días soleados",
@@ -6672,7 +6686,7 @@
    "page": 47,
    "explain": "Debes mantener la atención y concentración durante largo tiempo.",
    "type": "mc",
-   "prompt": "Según el libro, ¿cuál es un ejemplo recurrente de distracción?",
+   "prompt": "¿Cuál es un ejemplo recurrente de distracción al conducir?",
    "options": [
     "Querer ver una notificación del celular",
     "Mirar un letrero publicitario en la vía",
@@ -6687,7 +6701,7 @@
    "page": 48,
    "explain": "Raciocinio y decisión, adaptarse a la realidad, identidad, responsabilidad, autocontrol, empatía y manejo de la presión social.",
    "type": "mc",
-   "prompt": "¿Cuál de estos es un requisito para una conducción segura según el libro?",
+   "prompt": "¿Cuál de estos es un requisito para una conducción segura?",
    "options": [
     "La empatía",
     "La rapidez",
@@ -7002,7 +7016,7 @@
    "page": 58,
    "explain": "Ante situaciones amenazantes o que demandan un gran esfuerzo.",
    "type": "mc",
-   "prompt": "Según el libro, ¿qué es el estrés?",
+   "prompt": "¿Qué es el estrés?",
    "options": [
     "Un mecanismo de defensa del organismo",
     "Una enfermedad causada por el tránsito",
@@ -7107,7 +7121,7 @@
    "page": 64,
    "explain": "Es una de las causas más frecuentes de siniestros, sobre todo en conductores profesionales.",
    "type": "mc",
-   "prompt": "¿Qué es la fatiga según el libro?",
+   "prompt": "¿Qué es la fatiga?",
    "options": [
     "Cansancio extremo del cuerpo o la mente",
     "Un tipo de sueño de pocos segundos",
@@ -7152,7 +7166,7 @@
    "page": 68,
    "explain": "Niñas y niños, peatones en general (sobre todo personas mayores), ciclistas, motociclistas, entre otras.",
    "type": "mc",
-   "prompt": "¿Quiénes son usuarios más vulnerables en las vías según el libro?",
+   "prompt": "¿Quiénes son los usuarios más vulnerables de las vías?",
    "options": [
     "Niños, peatones, ciclistas y motociclistas",
     "Conductores de camiones y de buses",
@@ -7317,7 +7331,7 @@
    "page": 71,
    "explain": "Todos los ciclos son vehículos y deben cumplir la normativa de tránsito.",
    "type": "mc",
-   "prompt": "Según el libro, ¿quién es una persona ciclista?",
+   "prompt": "¿Quién se considera una persona ciclista?",
    "options": [
     "Quien usa bicicleta, scooter, patines u otro ciclo",
     "Solo quien usa una bicicleta con pedales",
@@ -7467,7 +7481,7 @@
    "page": 77,
    "explain": "Señales de Carabineros, semáforos, señalización (verticales y demarcaciones) y reglas del tránsito.",
    "type": "mc",
-   "prompt": "¿De cuántas maneras se expresa el lenguaje del tránsito según el libro?",
+   "prompt": "¿De cuántas maneras se expresa el lenguaje del tránsito?",
    "options": [
     "Cuatro",
     "Cinco",
@@ -7572,7 +7586,7 @@
    "page": 85,
    "explain": "Vehículos policiales, carros bomba, ambulancias y de la Policía de Investigaciones.",
    "type": "mc",
-   "prompt": "¿Cuál de estos es un vehículo de emergencia según el libro?",
+   "prompt": "¿Cuál de estos es un vehículo de emergencia?",
    "options": [
     "Un carro bomba",
     "Un taxi colectivo",
@@ -8352,7 +8366,7 @@
    "page": 128,
    "explain": "Revisar el mapa y buscar rutas más cortas y menos congestionadas.",
    "type": "mc",
-   "prompt": "Según el libro, ¿qué es lo primero para una conducción eficiente?",
+   "prompt": "¿Qué es lo primero para una conducción eficiente?",
    "options": [
     "Planificar la ruta y salir con tiempo",
     "Inflar los neumáticos sobre lo recomendado",
@@ -12519,12 +12533,12 @@
    "unit": "u1",
    "lesson": 0,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La mayoría de las muertes producidas por siniestros de tránsito podría haberse evitado.",
     "Las personas que quedan con discapacidad de por vida por un siniestro aparecen en las cifras solo como “lesionados”.",
-    "La probabilidad de sufrir un siniestro depende solo de la cantidad de tiempo que pasamos al volante.",
-    "Conducir ebrio o sin cinturón es una decisión personal que solo afecta a quien conduce."
+    "Solo una minoría de las muertes por siniestros de tránsito podría haberse evitado.",
+    "Las personas que quedan con discapacidad de por vida aparecen en las cifras como fallecidas."
    ],
    "answers": 2,
    "explain": "Evitando los factores de riesgo se reduce mucho la posibilidad de sufrir un siniestro. Por eso no se dimensiona bien la magnitud del problema.",
@@ -12535,12 +12549,12 @@
    "unit": "u1",
    "lesson": 0,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "En las vías urbanas se produce la mayor cantidad de lesionados, aunque en general con lesiones menos graves que en carretera.",
     "Según el Sistema Seguro, el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto.",
-    "Según el libro, los siniestros de tránsito son hechos azarosos e impredecibles.",
-    "En general, existe plena consciencia sobre la magnitud del problema de los siniestros de tránsito en el mundo."
+    "En las vías urbanas se produce la mayor cantidad de personas fallecidas por siniestros, sobre todo en los cruces.",
+    "En carretera se produce la mayor cantidad de lesionados, aunque con lesiones menos graves que en la ciudad."
    ],
    "answers": 2,
    "explain": "En ciudad hay más de 35.000 lesionados al año; en carretera las lesiones suelen ser más graves. Es uno de sus principios: el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto antes de que el daño ocurra.",
@@ -12551,12 +12565,12 @@
    "unit": "u1",
    "lesson": 1,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "En el Sistema Seguro, si un componente falla, las otras partes continúan protegiendo a las personas.",
     "Según el Sistema Seguro, la mayoría de los siniestros se producen por una equivocación.",
-    "Todos los costos que provocan los siniestros de tránsito pueden valorizarse en dinero.",
-    "A 65 km/h, lo más probable es que un peatón atropellado sobreviva."
+    "En el Sistema Seguro, la tarea principal es corregir los errores humanos.",
+    "En el Sistema Seguro, la responsabilidad de evitar siniestros recae solo en quien conduce."
    ],
    "answers": 2,
    "explain": "Todos los componentes del sistema deben estar fortalecidos y si uno falla, las otras partes continúan protegiendo a las personas involucradas. Supone un cambio de paradigma: los seres humanos cometen errores y la mayoría de estos siniestros se producen por una equivocación.",
@@ -12567,12 +12581,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El aceite y su filtro se deben cambiar periódicamente según las recomendaciones del fabricante del vehículo.",
     "Una batería mal cargada dificulta arrancar, especialmente cuando la temperatura es baja.",
-    "Si el ABS falla, los frenos dejan de funcionar.",
-    "Si el nivel del líquido de frenos baja es normal, porque se consume con el uso."
+    "El aceite y su filtro solo se cambian cuando se enciende la luz de presión de aceite.",
+    "Una batería mal cargada dificulta arrancar, especialmente cuando la temperatura es alta en verano."
    ],
    "answers": 2,
    "explain": "Controla el nivel de aceite y cambia periódicamente el aceite y el filtro según el fabricante. Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente con frío.",
@@ -12583,12 +12597,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Si la luz de carga se enciende o parpadea durante la conducción, hay algún problema.",
     "El ácido de la batería es corrosivo: hay que cuidar la ropa y la piel.",
-    "Las luces de advertencia de peligro permiten estacionar donde está prohibido.",
-    "En una bajada pronunciada conviene poner neutro (desenganchar el motor)."
+    "Si la luz de carga se enciende durante la conducción, solo indica que la batería se está cargando.",
+    "El ácido de la batería es corrosivo, pero solo daña las piezas metálicas."
    ],
    "answers": 2,
    "explain": "Si la luz de carga se enciende o parpadea es porque hay algún problema. El ácido de la batería es corrosivo; cuidado con tu ropa y piel.",
@@ -12599,13 +12613,13 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Debes usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
     "Para contaminar menos, conviene llenar el estanque cada vez que vayas a recargar combustible.",
     "Las frenadas y aceleraciones frecuentes causan alto consumo de combustible.",
-    "Dos personas pueden viajar sujetas con un mismo cinturón si son de poco peso.",
-    "Poner almohadones sobre el asiento ayuda a evitar el efecto submarino."
+    "Usar un octanaje más alto que el indicado por el fabricante siempre mejora el rendimiento.",
+    "Para contaminar menos, conviene cargar poco combustible cada vez."
    ],
    "answers": 3,
    "explain": "Usa el octanaje adecuado al motor, según el fabricante. Llenar el estanque cada vez que recargas contamina menos al liberar menos gases. Evita frenadas y aceleraciones frecuentes: causan alto consumo de combustible.",
@@ -12616,12 +12630,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "A temperaturas bajo cero, el refrigerante debe tener suficiente anticongelante para que el motor y el radiador no se dañen.",
     "Conducir con el portaequipaje abierto puede hacer que el monóxido de carbono entre al interior del vehículo.",
-    "Las consecuencias de no usar el cinturón en el asiento trasero son solo para quien no lo usa.",
-    "En ciudad no hace falta el cinturón porque a 30 o 40 km/h un golpe frontal no es mortal."
+    "A temperaturas bajo cero basta con agua destilada en el radiador, porque el anticongelante solo se usa en verano.",
+    "El monóxido de carbono se reconoce fácilmente por su olor."
    ],
    "answers": 2,
    "explain": "El anticongelante impide que el motor y el radiador se dañen por la congelación del agua. El gas puede penetrar en el interior del vehículo; lo mismo puede ocurrir al conducir con el portaequipaje abierto.",
@@ -12632,12 +12646,12 @@
    "unit": "u2",
    "lesson": 1,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Conducir presionando el embrague más tiempo del necesario reduce el control sobre el vehículo.",
     "Los vehículos con caja de cambios automática no tienen pedal de embrague.",
-    "Si el vehículo tiene muchos sistemas de seguridad, el cinturón no es tan importante.",
-    "Las personas embarazadas no deben usar cinturón de seguridad."
+    "Conducir con el pie apoyado en el embrague da más control al cambiar de marcha.",
+    "Los vehículos con caja automática tienen un pedal de embrague más pequeño."
    ],
    "answers": 2,
    "explain": "El embrague interrumpe la transmisión de energía a las ruedas; abusar de él reduce el control. Las cajas se clasifican en automática y manual; los vehículos automáticos carecen de pedal de embrague.",
@@ -12648,13 +12662,13 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "El desgaste irregular de los neumáticos puede ser síntoma de amortiguadores en mal estado.",
     "Con amortiguadores en mal estado, la fatiga aparece con mayor facilidad en quien conduce.",
     "El freno de mano suele actuar directamente sobre las ruedas traseras.",
-    "El airbag protege bien aunque no uses el cinturón.",
-    "El aceite del motor nunca se cambia; solo se agrega cuando falta."
+    "El freno de mano suele actuar directamente sobre las ruedas delanteras.",
+    "Con amortiguadores en mal estado los neumáticos se desgastan de forma más pareja."
    ],
    "answers": 3,
    "explain": "Es uno de los síntomas de amortiguadores en mal estado. Disminuye el confort y la fatiga aparece con mayor facilidad. Suele actuar directamente sobre las ruedas traseras, bloqueándolas.",
@@ -12665,12 +12679,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Es muy importante saber si el vehículo tiene frenos convencionales o ABS, porque funcionan de forma distinta.",
     "Si los frenos están mal ajustados, en una frenada brusca el vehículo puede desviarse hacia un costado.",
-    "Una batería mal cargada arranca mejor cuando hace frío.",
-    "Si la luz de carga parpadea durante la conducción, es señal de que todo funciona bien."
+    "Los frenos convencionales y los ABS se usan de la misma forma en una frenada de emergencia.",
+    "Si los frenos están mal ajustados, el vehículo tarda un poco más en frenar, pero siempre lo hace en línea recta."
    ],
    "answers": 2,
    "explain": "Existen frenos convencionales y ABS; funcionan distinto. Los frenos deben actuar en forma pareja sobre las cuatro ruedas.",
@@ -12681,12 +12695,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Cuando caduca el plazo del líquido de frenos, debes cambiar todo el contenido.",
     "El freno de mano debe mantener el vehículo quieto en una pendiente.",
-    "El ácido de la batería es inofensivo para la piel y la ropa.",
-    "Cualquier octanaje sirve para cualquier motor, sin importar el fabricante."
+    "Cuando caduca el líquido de frenos, basta con rellenar hasta el nivel máximo.",
+    "El freno de mano solo se usa al estacionar en terreno plano."
    ],
    "answers": 2,
    "explain": "Respeta los plazos del fabricante; una vez que caducan, se cambia todo el contenido. Debe mantener el vehículo quieto en una pendiente o impedir que se ponga en marcha con el freno puesto.",
@@ -12697,13 +12711,13 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Los neumáticos son el único punto de apoyo del vehículo con la calzada.",
     "La presión de aire de los neumáticos debe ser constante durante todo el año.",
     "Circular a una velocidad moderada alarga la vida de los neumáticos.",
-    "Para contaminar menos, conviene cargar poco combustible cada vez.",
-    "Frenar y acelerar seguido reduce el consumo de combustible."
+    "La presión de los neumáticos debe bajarse en verano y subirse en invierno.",
+    "Circular a alta velocidad no influye en el desgaste de los neumáticos."
    ],
    "answers": 3,
    "explain": "Por eso es de vital importancia controlarlos regularmente. Es importante revisar la presión del aire; debe ser constante durante todo el año. Circular a velocidad moderada alarga la vida de los neumáticos.",
@@ -12714,12 +12728,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Cuando llevas una carga muy pesada, conviene aumentar levemente la presión de los neumáticos.",
     "Subir escalones o veredas con el vehículo puede deformar las llantas y cortar los neumáticos.",
-    "Bajo cero conviene usar solo agua, sin anticongelante, en el radiador.",
-    "Conducir con el portaequipaje abierto mejora la ventilación y evita el monóxido de carbono."
+    "Con una carga muy pesada conviene bajar levemente la presión de los neumáticos para que se apoyen mejor.",
+    "Subir veredas despacio no produce daños en llantas ni neumáticos."
    ],
    "answers": 2,
    "explain": "Aumenta levemente la presión cuando llevas una carga muy pesada. Pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos.",
@@ -12730,12 +12744,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Las luces exteriores sirven para ver y también para ser visto por las demás personas.",
     "Los automóviles deben tener una tercera luz de freno al centro de la luneta trasera.",
-    "Mantener el embrague presionado más tiempo del necesario mejora el control del vehículo.",
-    "Los vehículos automáticos tienen pedal de embrague igual que los manuales."
+    "La tercera luz de freno solo es obligatoria en vehículos de carga.",
+    "Las luces exteriores sirven para ver la vía, pero no influyen en que las demás personas te vean."
    ],
    "answers": 2,
    "explain": "Los vehículos deben tener focos y luces exteriores para ver y ser visto, y para advertir maniobras. Automóviles, jeeps, furgones, station wagon, camionetas y transporte escolar.",
@@ -12746,13 +12760,13 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Un mal ajuste de los focos puede encandilar a otras personas y causar un siniestro.",
     "Un objeto suelto dentro del vehículo puede lesionar a alguien en una frenada brusca.",
     "Debes usar un calzado que te permita un adecuado control de los pedales.",
-    "Los amortiguadores en mal estado no influyen en el desgaste de los neumáticos.",
-    "Con amortiguadores en mal estado se conduce con más confort y menos fatiga."
+    "Un objeto suelto dentro del vehículo solo es peligroso si va en el asiento delantero.",
+    "Un mal ajuste de los focos solo afecta la visibilidad de quien conduce."
    ],
    "answers": 3,
    "explain": "Asegúrate de que tus luces estén limpias, funcionen y estén bien ajustadas. No lleves objetos sueltos que puedan lesionar a alguien en una frenada brusca. Es una de las cosas de las que siempre debes asegurarte.",
@@ -12763,12 +12777,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Antes de poner el vehículo en movimiento debes mirar alrededor y chequear los puntos ciegos.",
     "Si llevas niñas o niños, debes asegurarte de que no puedan abrir las puertas desde el interior.",
-    "El freno de mano actúa siempre sobre las cuatro ruedas a la vez.",
-    "Los frenos convencionales y los ABS funcionan exactamente igual."
+    "Si los espejos laterales y el interior están bien regulados, no existen puntos ciegos alrededor del vehículo.",
+    "Los puntos ciegos solo deben revisarse al retroceder."
    ],
    "answers": 2,
    "explain": "Siempre debes chequear los puntos ciegos antes de moverte. Deben ir bien sujetos y no poder abrir las puertas desde el interior.",
@@ -12779,12 +12793,12 @@
    "unit": "u2",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Si no tienes buena visibilidad por los vidrios, debes activar el ventilador y el desempañador.",
     "A una velocidad demasiado alta, la fricción puede no ser suficiente para mantener el vehículo en la carretera.",
-    "Si los frenos están mal ajustados, el vehículo frena más derecho.",
-    "El líquido de frenos no tiene plazo de vencimiento."
+    "Si los vidrios se empañan, conviene apagar la ventilación y el desempañador hasta que se aclaren solos.",
+    "A mayor velocidad, mayor fricción para mantener el vehículo en la carretera."
    ],
    "answers": 2,
    "explain": "Activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera. Al mover el volante desvías la trayectoria recta, pero a velocidad muy alta la fricción puede no bastar.",
@@ -12795,16 +12809,16 @@
    "unit": "u3",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "La experiencia en conducción permite tener mejores tiempos de reacción.",
     "La distancia de frenado es distinta en asfalto seco y en asfalto mojado.",
     "Quien planifica su conducción y reduce a tiempo la velocidad usa menos el freno y aumenta su seguridad.",
-    "El freno de mano solo sirve en terreno plano.",
-    "El vehículo se apoya en la calzada por los neumáticos y por los amortiguadores."
+    "La distancia de frenado es la misma en asfalto seco y mojado si los neumáticos son nuevos.",
+    "La experiencia en conducción no influye en el tiempo de reacción."
    ],
    "answers": 3,
-   "explain": "Existe la variable relacionada a la experiencia, que permite tener mejores tiempos de reacción. El libro compara la distancia de frenado según velocidad y estado del asfalto, seco o mojado. Disminuir a tiempo la presión sobre el acelerador hace usar menos el freno y aumenta la seguridad.",
+   "explain": "Existe la variable relacionada a la experiencia, que permite tener mejores tiempos de reacción. La distancia de frenado cambia según la velocidad y el estado del asfalto, seco o mojado. Disminuir a tiempo la presión sobre el acelerador hace usar menos el freno y aumenta la seguridad.",
    "page": 23
   },
   {
@@ -12812,12 +12826,12 @@
    "unit": "u3",
    "lesson": 1,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La presión de aire de los neumáticos puede influir en que el auto gire más o menos de lo esperado.",
     "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles.",
-    "La presión de los neumáticos debe bajarse en verano y subirse en invierno.",
-    "Circular a alta velocidad alarga la vida de los neumáticos."
+    "La presión de los neumáticos no influye en cómo gira el vehículo.",
+    "Un vehículo con tracción en las cuatro ruedas frena en menos distancia que los demás en pavimentos difíciles."
    ],
    "answers": 2,
    "explain": "La presión de los neumáticos afecta la tendencia al giro y la adherencia. En lo demás, se comportan igual que el resto de los vehículos.",
@@ -12828,12 +12842,12 @@
    "unit": "u3",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Además de salvar vidas, el cinturón contribuye a reducir el cansancio.",
     "Después de un siniestro, el cinturón podría estar dañado y habría que reemplazarlo.",
-    "Con una carga muy pesada conviene bajar la presión de los neumáticos.",
-    "Subir escalones o veredas no produce ningún daño en llantas ni neumáticos."
+    "Después de un siniestro, el cinturón se puede seguir usando si no se ve cortado.",
+    "En viajes largos, el cinturón aumenta el cansancio de quien conduce."
    ],
    "answers": 2,
    "explain": "Brinda mayor comodidad, mejor control y contribuye a reducir el cansancio. Su uso podría ya no ser seguro; revísalo y reemplázalo.",
@@ -12844,13 +12858,13 @@
    "unit": "u3",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si el cinturón tiene holguras, puedes impactar contra el volante o el parabrisas en un siniestro.",
     "Conducir con ropa de mucho volumen favorece el efecto submarino.",
     "La incomodidad inicial del cinturón desaparece al usarlo habitualmente.",
-    "Las luces exteriores solo sirven para ver, no para ser visto.",
-    "La tercera luz de freno es opcional en los automóviles."
+    "Un cinturón un poco suelto protege igual que uno bien ajustado.",
+    "Conducir con ropa de mucho volumen ayuda a evitar el efecto submarino."
    ],
    "answers": 3,
    "explain": "Con holguras recorrerás una mayor distancia durante el siniestro. El efecto submarino aparece con mayor facilidad si el cinturón no está bien ajustado al cuerpo. Muchas personas con el tiempo se sienten incómodas e inseguras cuando no lo usan.",
@@ -12861,12 +12875,12 @@
    "unit": "u3",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El airbag protege la cara y los ojos de los fragmentos de cristal.",
     "Si se prende el testigo del airbag, el sistema debe revisarse a la brevedad.",
-    "Un mal ajuste de los focos no afecta a las demás personas usuarias de la vía.",
-    "Los objetos sueltos dentro del vehículo no representan riesgo en una frenada."
+    "Si se prende el testigo del airbag, puedes seguir usando el vehículo sin revisarlo.",
+    "El airbag reemplaza al cinturón de seguridad en un choque frontal."
    ],
    "answers": 2,
    "explain": "Por ejemplo, de fragmentos que se desprenden del parabrisas. El testigo indica fallas en su estado de reposo.",
@@ -12877,12 +12891,12 @@
    "unit": "u3",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El latigazo cervical puede causar una discapacidad irreversible, como una tetraplejia.",
     "El apoya cabezas debe ajustarse para cada persona, también en los asientos traseros.",
-    "El tipo de calzado no influye en el control de los pedales.",
-    "Los puntos ciegos solo se revisan al estacionar."
+    "Los apoya cabezas traseros no necesitan ajustarse a cada persona.",
+    "El latigazo cervical solo provoca molestias pasajeras en el cuello, que desaparecen en pocos días."
    ],
    "answers": 2,
    "explain": "Si se dañan las vértebras cervicales. Se ajusta a cada persona, adelante y atrás; nunca por debajo de la cabeza.",
@@ -12893,12 +12907,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
-    "Según el libro, el perdón y la tolerancia son parte de los valores de la Educación Vial.",
+    "El perdón y la tolerancia son parte de los valores de la Educación Vial.",
     "El primer paso para combatir la siniestralidad es eliminar la idea de que los siniestros solo le ocurren a los demás.",
-    "No respetar una luz roja es solo una infracción a la Ley de Tránsito, sin otras consecuencias.",
-    "Si nadie te fiscaliza, una imprudencia no tiene consecuencias."
+    "El primer paso para combatir la siniestralidad es aumentar las multas y los controles en las calles.",
+    "La Educación Vial se limita a conocer las normas y las señales."
    ],
    "answers": 2,
    "explain": "Respeto, solidaridad, comprensión, perdón y tolerancia. Para combatir el crecimiento de la siniestralidad todas y todos debemos colaborar.",
@@ -12909,12 +12923,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El alcohol y las drogas disminuyen las facultades para conducir.",
     "Conducir en situaciones de estrés es un factor de riesgo.",
-    "Según el libro, la Educación Vial se limita a conocer las multas.",
-    "El primer paso para combatir la siniestralidad es comprar un vehículo más seguro."
+    "El estrés no influye en el riesgo si se conoce bien la ruta.",
+    "Pequeñas cantidades de alcohol no disminuyen las facultades para conducir."
    ],
    "answers": 2,
    "explain": "Es uno de los principales factores de riesgo. Junto con la fatiga, el cansancio, el sueño y el consumo de fármacos.",
@@ -12925,13 +12939,13 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Los factores de riesgo pueden generar la pérdida de control del vehículo.",
     "La Educación Vial es para todos, porque todos seremos peatones, ciclistas o conductores en algún momento.",
     "Sin el principio de confianza nadie se atrevería a conducir su automóvil.",
-    "El alcohol en pequeñas cantidades mejora las facultades para conducir.",
-    "Conducir con estrés no influye en el riesgo de un siniestro."
+    "La Educación Vial es solo para quienes conducen vehículos motorizados.",
+    "El principio de confianza consiste en confiar en la propia habilidad al volante."
    ],
    "answers": 3,
    "explain": "Para reducir las probabilidades de un siniestro se deben eliminar, en lo posible, los factores de riesgo. Por eso es indispensable en la educación social e individual. Se espera que todos respeten su sentido de circulación, los semáforos y cedan el paso cuando corresponde.",
@@ -12942,13 +12956,13 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Peatones y ciclistas son usuarios vulnerables de la vía.",
     "Una de las claves de la Convivencia Vial es ver y ser visible.",
     "Conducir a la defensiva implica no dar por hecho que los demás se dieron cuenta de tu presencia.",
-    "Los factores de riesgo solo afectan a conductores sin licencia.",
-    "La Educación Vial es solo para quienes conducen vehículos motorizados."
+    "Conducir a la defensiva es dar por hecho que los demás ya te vieron.",
+    "Los motociclistas no se consideran usuarios vulnerables de la vía."
    ],
    "answers": 3,
    "explain": "Quienes conducen son integrantes de la circulación junto con ellos. La prevención será siempre tu principal defensa. Es una de las claves de la Convivencia Vial.",
@@ -12959,12 +12973,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Solo debes conducir si te encuentras en las mejores condiciones físicas y mentales.",
     "La conducción debe adaptarse a las condiciones climáticas, ambientales y del pavimento.",
-    "El principio de confianza no tiene importancia para circular.",
-    "Peatones y ciclistas no son considerados usuarios vulnerables."
+    "Con experiencia se puede conducir bien aunque estés cansado.",
+    "La conducción debe adaptarse a las condiciones climáticas, pero no al estado del pavimento."
    ],
    "answers": 2,
    "explain": "Es una de las claves para la Convivencia Vial. Es una de las claves para la Convivencia Vial.",
@@ -12975,12 +12989,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El sentido común, el buen juicio y la responsabilidad al conducir se adquieren con horas al volante.",
     "En el sobrecubrimiento, un objeto que cubre a otro parece estar más cerca del ojo.",
-    "Los focos sucios o con poca luz hacen que un vehículo parezca más cerca de lo que está.",
-    "Las personas jóvenes reaccionan con mayor rapidez en cualquier situación del tránsito."
+    "En el sobrecubrimiento, el objeto que queda cubierto por otro parece estar más cerca del ojo.",
+    "El buen juicio al conducir se adquiere al aprobar el examen teórico."
    ],
    "answers": 2,
    "explain": "Las reglas no siempre aclaran cómo resolver una situación; lo decisivo se adquiere con experiencia. Es uno de los efectos visuales en la conducción.",
@@ -12991,12 +13005,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Una buena regla es desconfiar de las propias percepciones y no conducir con cansancio.",
     "Hacer dos cosas a la vez al conducir es especialmente riesgoso para quienes tienen poca experiencia.",
-    "Un café, una ducha fría o comer dulces aceleran la eliminación del alcohol.",
-    "Dormir unas pocas horas garantiza eliminar todo el alcohol."
+    "Hacer dos cosas a la vez al conducir es más riesgoso para quienes tienen mucha experiencia.",
+    "Con cansancio, las propias percepciones siguen siendo confiables si vas despacio."
    ],
    "answers": 2,
    "explain": "Con niebla, oscuridad o encandilamiento los indicios faltan o son confusos. Pueden perder con mayor facilidad el control del vehículo.",
@@ -13007,13 +13021,13 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si te distraes, tendrás menos tiempo para reaccionar ante un imprevisto.",
     "Salir de un túnel a la luz del sol puede producir un efecto de ceguera.",
     "Al conducir siempre existe la posibilidad de encontrar un obstáculo en la vía.",
-    "Esperar a que los efectos de una droga disminuyan garantiza que puedes volver a conducir seguro.",
-    "Todo estrés es negativo para la conducción."
+    "Si te distraes, tienes más tiempo para reaccionar porque vas más relajado.",
+    "En carreteras conocidas no es necesario anticipar obstáculos en la vía."
    ],
    "answers": 3,
    "explain": "Tardarás más tiempo en recibir información. ¡Conducir requiere toda tu atención! También cuando al atardecer el sol da directamente a los ojos. Descubrir personas o animales en la vía puede ser muy difícil en ciertas circunstancias. Ten precaución.",
@@ -13024,12 +13038,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Por la percepción selectiva se pueden pasar por alto circunstancias importantes del tránsito.",
     "El apuro hace que se deje fuera de la conciencia lo que parece no venir al caso.",
-    "Los siniestros por sueño ocurren solo cuando la persona se queda dormida al volante.",
-    "El sueño al volante solo aparece de noche."
+    "La percepción selectiva hace que notemos todo lo que ocurre a nuestro alrededor en el tránsito.",
+    "El apuro ayuda a fijarse en los detalles importantes de la vía."
    ],
    "answers": 2,
    "explain": "Lo que no se espera ver no se descubrirá o tardará mucho más en descubrirse. Domina una especie de mecanismo de represión.",
@@ -13040,12 +13054,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Hacia dónde, en qué orden y por cuánto tiempo mira quien conduce varía con la experiencia.",
     "Quienes recién empiezan a conducir suelen concentrar su mirada en objetos fijos cerca del vehículo.",
-    "El buen juicio al conducir se adquiere solo leyendo la Ley de Tránsito.",
-    "En el sobrecubrimiento, el objeto que cubre a otro parece estar más lejos."
+    "Quienes recién empiezan a conducir suelen mirar lejos y recorrer con la vista todo el entorno del vehículo.",
+    "La forma de mirar al conducir es igual en principiantes y en personas con experiencia."
    ],
    "answers": 2,
    "explain": "Dependen de la habilidad de cada persona. Las personas con experiencia aprovechan más su visión periférica.",
@@ -13056,13 +13070,13 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si percibes una alteración en tu vista, debes consultar al médico.",
     "La marcha silenciosa de los autos modernos facilita no advertir la velocidad a la que vas.",
     "La visión de túnel también aparece por estrés o consumo de medicamentos o drogas.",
-    "Conviene confiar siempre en las propias percepciones, aunque haya cansancio.",
-    "Hacer dos cosas a la vez al conducir no tiene riesgo para quienes recién aprenden."
+    "La visión de túnel solo aparece por la velocidad, no por el estrés ni por medicamentos.",
+    "La marcha silenciosa de los autos modernos ayuda a notar mejor la velocidad."
    ],
    "answers": 3,
    "explain": "Y tomar las medidas que te indique. También la conducción monótona por una carretera recta. No solo por la velocidad.",
@@ -13073,12 +13087,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El error al estimar el punto de cruce aumenta cuanto mayor es la diferencia de velocidad entre los vehículos.",
     "La publicidad que incita al riesgo influye en las personas conductoras jóvenes.",
-    "Distraerse un momento no cambia el tiempo que tienes para reaccionar.",
-    "Salir de un túnel a pleno sol mejora de inmediato la visión."
+    "El error al estimar el punto de cruce disminuye cuanto mayor es la diferencia de velocidad.",
+    "La publicidad que incita al riesgo solo influye en conductores con experiencia."
    ],
    "answers": 2,
    "explain": "El cerebro supone que ambos van a la misma velocidad. Es una de sus particularidades.",
@@ -13089,12 +13103,12 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Basta exceder solo un poco la velocidad para superar el límite de la capacidad y cometer un error.",
     "Probar la velocidad máxima del vehículo puede ser un error fatal en la búsqueda de identidad.",
-    "En una carretera despejada no hay posibilidad de encontrar obstáculos.",
-    "La percepción selectiva hace que veamos todo lo que ocurre en el tránsito."
+    "Exceder un poco la velocidad no cambia tu capacidad de reaccionar.",
+    "Probar la velocidad máxima del vehículo en una carretera despejada es una forma segura de conocerlo."
    ],
    "answers": 2,
    "explain": "Los jóvenes no siempre saben dónde está ese límite. Antes de alcanzar una identidad se buscan los límites y se pueden cometer errores fatales.",
@@ -13105,13 +13119,13 @@
    "unit": "u4",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "La agresividad hace juzgar mal una situación y lleva a decisiones impulsivas.",
     "La presión del grupo también puede ser positiva si el grupo valora la seguridad.",
     "La empatía al conducir lleva a tener consideración con ciclistas, motociclistas y peatones.",
-    "Ir apurado ayuda a fijarse en todos los detalles de la vía.",
-    "La forma de mirar al conducir es igual en principiantes y en conductores con experiencia."
+    "La agresividad al volante ayuda a juzgar más rápido y mejor una situación del tránsito.",
+    "La presión del grupo siempre lleva a conductas de riesgo."
    ],
    "answers": 3,
    "explain": "Por eso el autocontrol es una muestra de madurez. La influencia social no siempre es negativa: depende de los valores del grupo. Comprensión, generosidad y tolerancia.",
@@ -13122,12 +13136,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Las sanciones por alcohol aumentan si hay reincidencia o si se participa en un siniestro.",
     "Después de unos tragos, la visión periférica disminuye aunque la persona no lo note.",
-    "Quienes recién empiezan a conducir aprovechan más su visión periférica que los expertos.",
-    "Si notas una alteración en tu vista, basta con conducir más despacio."
+    "Después de unos tragos, la visión periférica disminuye, pero la persona siempre lo nota.",
+    "Las sanciones por alcohol son las mismas aunque haya reincidencia."
    ],
    "answers": 2,
    "explain": "Con daños materiales, personas fallecidas y/o con lesiones. La visión directa puede parecer normal, pero la periférica disminuye.",
@@ -13138,12 +13152,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "A mayores concentraciones de alcohol puede aparecer visión doble.",
     "Si se bebe en poco tiempo, el punto máximo de alcohol en el organismo será mayor.",
-    "Un auto silencioso y sin vibraciones hace más fácil notar la velocidad.",
-    "La visión de túnel solo aparece a velocidades sobre 130 km/h."
+    "Si se bebe en poco tiempo, el punto máximo de alcohol en el organismo será menor.",
+    "La visión doble aparece incluso con una cantidad mínima de alcohol."
    ],
    "answers": 2,
    "explain": "Los músculos del ojo, del cristalino y la pupila comienzan a fallar. Ese punto máximo se llama meseta en la curva de la alcoholemia.",
@@ -13154,13 +13168,13 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Todas las drogas actúan sobre el cerebro y pueden alterar la percepción y el tiempo de reacción.",
     "Los riesgos de la pasta base para la conducción son altos en todas sus etapas.",
     "El éxtasis puede producir flashes en la periferia del campo visual.",
-    "El error al estimar el punto de cruce no depende de las velocidades.",
-    "La publicidad no influye en cómo conducen las personas jóvenes."
+    "Los riesgos de la pasta base para conducir solo son altos en su primera etapa.",
+    "Algunas drogas no actúan sobre el cerebro y no alteran el tiempo de reacción."
    ],
    "answers": 3,
    "explain": "Es el mayor riesgo de conducir bajo sus efectos. Falta de coordinación, mareos, pupilas dilatadas, temblores, náuseas y/o vómitos. Podrían ocasionar maniobras evasivas bruscas y peligrosas.",
@@ -13171,12 +13185,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Al pedir la licencia se hace un examen médico que evalúa enfermedades que afectan la conducción.",
     "Si desarrollas una enfermedad después de obtener la licencia, debes preguntar al médico los riesgos de conducir.",
-    "Exceder un poco la velocidad nunca supera la capacidad de reaccionar.",
-    "Probar la velocidad máxima del vehículo es una buena forma de conocerlo."
+    "El examen médico para obtener la licencia solo evalúa la vista.",
+    "Si desarrollas una enfermedad después de obtener la licencia, basta con conducir menos horas cada día."
    ],
    "answers": 2,
    "explain": "La o el médico puede pedir un informe de especialista. Es tu responsabilidad.",
@@ -13187,12 +13201,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La apnea obstructiva del sueño puede provocar somnolencia al conducir.",
     "Los antihistamínicos para la alergia pueden provocar somnolencia al volante.",
-    "La agresividad ayuda a tomar decisiones rápidas y correctas.",
-    "La presión del grupo siempre es negativa, sin excepción."
+    "La apnea obstructiva del sueño solo afecta el descanso nocturno, no la conducción.",
+    "Los antihistamínicos para la alergia nunca afectan la conducción."
    ],
    "answers": 2,
    "explain": "Y pérdida de atención. Algunos síntomas pueden causar errores de cálculo de distancias y menor concentración.",
@@ -13203,13 +13217,13 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Para personas alérgicas, usar lentes de sol ayuda a proteger los ojos de alérgenos.",
     "Siempre debes evitar conducir cuando presentas síntomas de estrés.",
     "Existen antihistamínicos que no producen somnolencia y son más seguros para conducir.",
-    "La empatía al conducir solo se aplica entre conductores de automóviles.",
-    "Las sanciones por alcohol son las mismas aunque haya reincidencia o un siniestro."
+    "Todos los antihistamínicos producen la misma somnolencia.",
+    "Para personas alérgicas, conducir con las ventanas abiertas protege los ojos."
    ],
    "answers": 3,
    "explain": "También: no abrir ventanas, cuidado con el aire acondicionado y no automedicarse. Bajo estrés pueden aparecer reacciones impulsivas, pasividad o pánico. Nunca los mezcles con alcohol u otros medicamentos.",
@@ -13220,12 +13234,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Algunos psicoestimulantes generan una fuerte y breve sensación de autoconfianza.",
     "En algunos países se prohíbe conducir mientras se consumen ciertos psicofármacos.",
-    "Unos tragos no afectan la visión periférica.",
-    "El alcohol mejora el enfoque de la vista a mayores concentraciones."
+    "Los psicoestimulantes producen una sensación de calma y sueño que dura varias horas.",
+    "Ningún país prohíbe conducir bajo el efecto de psicofármacos."
    ],
    "answers": 2,
    "explain": "Tienen un efecto activador sobre el sistema nervioso central. Algunos disminuyen la atención y aumentan el tiempo de reacción.",
@@ -13236,12 +13250,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Antes de consumir medicamentos debes consultar al médico sobre sus riesgos para conducir.",
     "El cansancio provoca siniestros principalmente en carreteras.",
-    "Beber rápido hace que el alcohol alcance un punto máximo menor.",
-    "Algunas drogas no afectan el cerebro ni el tiempo de reacción."
+    "El cansancio provoca siniestros principalmente en las calles de la ciudad.",
+    "Los medicamentos de venta libre nunca afectan la conducción."
    ],
    "answers": 2,
    "explain": "Así podrás adoptar los cuidados necesarios. Es una causa importante, sobre todo en carreteras.",
@@ -13252,13 +13266,13 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Con sueño es más fácil sufrir un deslumbramiento por luces altas.",
     "En las fases finales del cansancio aparecen movimientos involuntarios de la cabeza.",
     "Si sientes cansancio, mientras buscas dónde detenerte debes dejar entrar aire fresco.",
-    "La pasta base solo es riesgosa para conducir en su primera etapa.",
-    "El éxtasis mejora la visión nocturna al conducir."
+    "Con sueño es más difícil sufrir un deslumbramiento por luces altas.",
+    "Si sientes cansancio, subir la calefacción ayuda a mantenerte alerta."
    ],
    "answers": 3,
    "explain": "La visión se vuelve borrosa y cuesta enfocar. Debes detenerte a descansar mucho antes de esos síntomas. Nunca permitas que tu apuro arriesgue tu vida.",
@@ -13269,13 +13283,13 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Dormir una o dos horas menos durante pocos días produce gran somnolencia.",
     "Una comida abundante puede favorecer la aparición de sueño al conducir.",
     "El café o las bebidas energéticas pueden producir un “efecto rebote” de sueño repentino.",
-    "Para obtener la licencia no se evalúa ninguna enfermedad.",
-    "Una enfermedad desarrollada después de obtener la licencia no importa para conducir."
+    "El café y las bebidas energéticas quitan el sueño sin efectos posteriores.",
+    "Dormir una o dos horas menos durante pocos días no afecta la atención."
    ],
    "answers": 3,
    "explain": "Peor aún si duermes menos de la mitad de lo que necesitas. Igual que el alcohol o algunos medicamentos. Cuando pasa el efecto del estimulante, el sueño puede aparecer de golpe.",
@@ -13286,12 +13300,12 @@
    "unit": "u5",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Con fatiga se puede frenar bruscamente al escuchar una bocina.",
     "Conducir por un camino desconocido favorece la aparición de la fatiga.",
-    "La apnea obstructiva del sueño mejora la atención al conducir.",
-    "Los antihistamínicos nunca producen somnolencia."
+    "Con fatiga, las reacciones se vuelven más rápidas.",
+    "Conducir por un camino desconocido ayuda a evitar la aparición de la fatiga."
    ],
    "answers": 2,
    "explain": "Reacciones bruscas y desproporcionadas ante sonidos repentinos. Obliga a prestar atención durante todo el recorrido.",
@@ -13302,12 +13316,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Entre las infracciones de peatones destacan bajar sorpresivamente a la calzada y cruzar de manera indebida.",
     "Peatones con audífonos o pendientes del celular pueden bajar a la calzada sin cuidado.",
-    "Las personas con algún impedimento están obligadas a mostrarlo.",
-    "Siempre puedes asumir que los peatones escuchan tu vehículo."
+    "Los peatones con audífonos o pendientes del celular siempre escuchan los vehículos que se acercan.",
+    "Las personas con algún impedimento siempre lo dejan ver al cruzar."
    ],
    "answers": 2,
    "explain": "Por ejemplo, no usar pasos peatonales o pasarelas, o no respetar semáforos. Ten mucha precaución.",
@@ -13318,12 +13332,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Como persona conductora debes anticiparte a las posibles infracciones de los peatones.",
     "Los peatones pueden salir repentinamente detrás o delante de vehículos estacionados.",
-    "Puedes detenerte un momento en una ciclovía para dejar a un pasajero.",
-    "En un niño, la banda inferior del cinturón debe ir sobre el abdomen."
+    "Como persona conductora, solo debes preocuparte de los peatones que cruzan por el paso de cebra.",
+    "Los peatones solo aparecen detrás de vehículos estacionados en zonas escolares."
    ],
    "answers": 2,
    "explain": "Debes estar siempre alerta. Probablemente no te han visto.",
@@ -13334,13 +13348,13 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Algunas personas mayores tienen dificultad para distinguir bien los colores del semáforo.",
     "Una persona mayor podría devolverse o detenerse en la calzada al cruzar.",
     "En general, las personas mayores que conducen tienen gran experiencia y son prudentes.",
-    "Los peatones rara vez cometen infracciones en la vía.",
-    "Un peatón con audífonos siempre escucha los vehículos que se acercan."
+    "Las personas mayores siempre cruzan de una vez, sin detenerse en la calzada.",
+    "En general, las personas mayores que conducen son poco prudentes."
    ],
    "answers": 3,
    "explain": "Es uno de los problemas que encuentran en la vía. O descender inesperadamente a la calzada. Aunque la edad trae alteraciones que pueden afectar la conducción.",
@@ -13351,12 +13365,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Muchos siniestros ocurren cuando niñas y niños cruzan repentinamente la calle corriendo.",
     "Niñas y niños tienen dificultad para juzgar la distancia y la velocidad.",
-    "El conductor no tiene que anticiparse a lo que hagan los peatones.",
-    "Detrás de un vehículo estacionado nunca aparecen peatones."
+    "Niñas y niños juzgan la distancia y la velocidad igual que un adulto.",
+    "La mayoría de los siniestros con niños ocurre cuando caminan por la acera."
    ],
    "answers": 2,
    "explain": "Es tu responsabilidad que no ocurra un siniestro. También actúan impulsivamente y todo es juego.",
@@ -13367,12 +13381,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Cerca de un carro de helados los niños se interesan más en este que en el tránsito.",
     "Si un jinete va en tu dirección y vienen muchos vehículos en contra, debes esperar antes de adelantarle.",
-    "Todas las personas mayores distinguen bien los colores del semáforo.",
-    "Una persona mayor siempre cruza la calle de una sola vez, sin detenerse."
+    "Si un jinete va en tu dirección, puedes adelantarle aunque vengan muchos vehículos en contra.",
+    "Cerca de un carro de helados los niños prestan más atención al tránsito."
    ],
    "answers": 2,
    "explain": "Mantente preparado para detenerte. Mantén una distancia lateral prudente.",
@@ -13383,13 +13397,13 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Por la falta de carrocería, los siniestros en motocicleta resultan fácilmente fatales.",
     "Los triciclos motorizados de carga suelen circular a velocidad reducida y sin carrocería.",
     "Un ciclista en la acera podría incorporarse a la calzada sin previo aviso.",
-    "En general, las personas mayores que conducen son imprudentes al volante.",
-    "Los niños casi nunca cruzan la calle corriendo."
+    "Los triciclos motorizados de carga suelen circular rápido y con carrocería cerrada.",
+    "Un siniestro en motocicleta suele ser menos grave porque es un vehículo liviano."
    ],
    "answers": 3,
    "explain": "La probabilidad de muerte es mucho más alta que en un vehículo cerrado. Las motos son pequeñas y difíciles de ver. Mantén la atención.",
@@ -13400,12 +13414,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Los ciclos no tienen espejos retrovisores.",
     "Una persona ciclista puede usar un cruce peatonal para cruzar una intersección.",
-    "Los niños calculan la distancia y la velocidad igual que un adulto.",
-    "Un carro de helados no distrae a los niños del tránsito."
+    "Todos los ciclos deben tener espejos retrovisores.",
+    "Una persona ciclista nunca puede usar un cruce peatonal para cruzar una intersección."
    ],
    "answers": 2,
    "explain": "Además, pueden quedar en tus puntos ciegos. Ten cuidado de noche: no siempre llevan luces.",
@@ -13416,12 +13430,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Antes de abrir la puerta cerca de una ciclovía, debes mirar si viene un ciclista.",
     "Es obligación de la persona conductora usar el SRI al transportar niñas y niños.",
-    "A un jinete se le adelanta de inmediato, aunque vengan vehículos en contra.",
-    "Un siniestro en motocicleta tiene la misma gravedad que en un vehículo cerrado."
+    "La obligación de usar el SRI es de la persona que acompaña al niño, no de quien conduce.",
+    "Al abrir la puerta junto a una ciclovía basta con mirar el espejo interior."
    ],
    "answers": 2,
    "explain": "Así evitas que choque contra la puerta. En todo tipo de viaje.",
@@ -13432,13 +13446,13 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "La obligación de usar SRI no rige en el transporte público ni en el transporte escolar.",
     "Para usar solo el cinturón, el niño debe apoyar completamente la espalda y los pies en el piso.",
     "El SRI se debe usar desde el primer viaje, incluso al salir del centro de salud donde nace el bebé.",
-    "Los triciclos motorizados de carga circulan a alta velocidad y con carrocería cerrada.",
-    "Un ciclista en la acera nunca bajará a la calzada."
+    "La obligación de usar SRI también rige en el transporte público y en el transporte escolar.",
+    "El SRI se debe usar desde que el bebé cumple un mes."
    ],
    "answers": 3,
    "explain": "Es exigible a los vehículos particulares. Si no se cumple, necesita un SRI. Debe usarse desde que nacen hasta que puedan usar el cinturón directamente.",
@@ -13449,12 +13463,12 @@
    "unit": "u6",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El uso incorrecto del cinturón puede lesionar órganos como hígado, intestinos, vejiga y riñones.",
     "La instalación de un SRI no debe interferir con el sistema de retención de los demás pasajeros.",
-    "Todos los ciclos tienen espejos retrovisores obligatorios.",
-    "Los ciclistas tienen prohibido usar los cruces peatonales."
+    "Un SRI puede ocupar el cinturón de seguridad de otro pasajero si el viaje es corto y dentro de la ciudad.",
+    "El uso incorrecto del cinturón solo puede causar lesiones leves."
    ],
    "answers": 2,
    "explain": "Lesiones que pueden comprometer seriamente la vida. Todos deben viajar con un sistema adecuado.",
@@ -13465,12 +13479,12 @@
    "unit": "u7",
    "lesson": 0,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "No respetar la luz roja de un semáforo es una infracción gravísima.",
     "Con luz verde puedes continuar o virar, salvo que una señal prohíba el viraje.",
-    "Con luz verde puedes avanzar aunque después del cruce no tengas al menos 10 metros libres en tu pista.",
-    "Si hay congestión, puedes circular sobre las áreas achuradas (rayadas)."
+    "No respetar la luz roja de un semáforo es una infracción grave.",
+    "Con luz verde siempre puedes virar, aunque una señal prohíba el viraje en ese cruce."
    ],
    "answers": 2,
    "explain": "Además se sanciona con suspensión de la licencia. Luz verde indica paso.",
@@ -13481,12 +13495,12 @@
    "unit": "u7",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Si vas a virar con luz verde, debes ceder el paso a peatones y ciclistas que cruzan.",
     "Con semáforo con cabezal para ciclistas, al virar con luz verde los ciclistas tienen la preferencia.",
-    "Cuando viras, mantienes tu preferencia sobre los peatones que cruzan.",
-    "Si tu pista se obstaculiza de repente, tienes prioridad para cambiarte de pista."
+    "Si vas a virar con luz verde, los peatones que cruzan deben esperar a que pases.",
+    "Con semáforo con cabezal para ciclistas, al virar con luz verde tienes preferencia sobre ellos."
    ],
    "answers": 2,
    "explain": "Los peatones que también enfrentan la luz verde tienen prioridad. Aun cuando enfrentes luz verde.",
@@ -13497,13 +13511,13 @@
    "unit": "u7",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Algunos semáforos peatonales son activados por las personas.",
     "La señal FIN RESTRICCIÓN pone término a la restricción mostrada en su círculo.",
     "Algunas señales de advertencia sobre usuarios vulnerables pueden ser de un amarillo levemente verde.",
-    "Señalizar a tiempo te libera de la obligación de tener precaución.",
-    "Si el vehículo de adelante pone el intermitente izquierdo, te está indicando que lo pases."
+    "La señal FIN RESTRICCIÓN indica el comienzo de una nueva prohibición.",
+    "Ningún semáforo peatonal puede ser activado por las personas."
    ],
    "answers": 3,
    "explain": "Permiten a los peatones cruzar con seguridad. Por ejemplo, “No adelantar”. Son de un color amarillo distinto al resto.",
@@ -13514,12 +13528,12 @@
    "unit": "u7",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "En zonas con trabajos en la vía debes moderar la velocidad.",
     "Entre la línea de detención y el paso de peatones puede haber una zona de espera para ciclos y motos.",
-    "Puedes cambiarte de una pista a otra para pasar de inmediato a una tercera.",
-    "Conducir cerca del eje de calzada reduce el riesgo al cruzarte con otros vehículos."
+    "En zonas con trabajos en la vía puedes mantener la velocidad si la pista está despejada.",
+    "Entre la línea de detención y el paso de peatones puede haber una zona para estacionar un momento."
    ],
    "answers": 2,
    "explain": "Personas, materiales o maquinaria pueden ser un riesgo. Bajo ciertas condiciones de cruce semaforizado y ancho de calzada.",
@@ -13530,12 +13544,12 @@
    "unit": "u7",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Un vehículo de gran tamaño puede necesitar más de una pista para virar.",
     "Si alguien se dispone a cruzar por un paso de cebra, debes detenerte y cederle el paso.",
-    "Al cruzarte con otro vehículo, debes mirarlo fijamente para calcular su posición.",
-    "Ir siempre a la velocidad máxima permite ganar mucho tiempo en un viaje."
+    "Un vehículo de gran tamaño siempre debe virar dentro de una sola pista.",
+    "Si alguien se dispone a cruzar por un paso de cebra, puedes pasar si aún no baja a la calzada."
    ],
    "answers": 2,
    "explain": "Detente y espera a que finalice su maniobra. Es una de las obligaciones de ceder el paso.",
@@ -13546,13 +13560,13 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Al ponerte en marcha después de una detención, debes ceder el paso a vehículos y peatones.",
     "Puedes avisar a quienes van detrás pisando ligeramente el freno para que se enciendan las luces.",
     "Si el eje de calzada no está demarcado, la calzada se divide en dos partes iguales y circulas por la derecha.",
-    "Al adelantar puedes superar el límite de velocidad para terminar antes.",
-    "Durante el adelantamiento, debes mirar fijamente al vehículo que estás adelantando."
+    "Al ponerte en marcha después de una detención, tienes preferencia sobre los vehículos que circulan.",
+    "Si el eje de calzada no está demarcado, puedes circular por el centro de la calzada."
    ],
    "answers": 3,
    "explain": "Es otra obligación de ceder el paso. Las luces de freno se encienden automáticamente al pisar el pedal. Siempre debes circular por la derecha.",
@@ -13563,12 +13577,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Con clima o carretera adversos, debes agregar tiempo extra a la Regla de los Tres Segundos.",
     "En congestión conviene tener el pie sobre el freno, listo para usarlo.",
-    "Puedes adelantar aunque el vehículo de adelante haya señalizado que va a adelantar.",
-    "Si pasaste la línea de detención, puedes retroceder en el cruce."
+    "Con clima o carretera adversos, la Regla de los Tres Segundos puede reducirse a dos.",
+    "En congestión conviene tener el pie sobre el acelerador para avanzar sin perder tiempo."
    ],
    "answers": 2,
    "explain": "Agrega un tiempo extra. Debes permanecer atento y preparado para frenar.",
@@ -13579,12 +13593,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Conviene aumentar la distancia detrás de un vehículo con patente extranjera en la ciudad.",
     "En carretera de una pista por sentido, debes ir lo más cerca posible del borde derecho.",
-    "Si las barreras del cruce ferroviario están arriba, puedes cruzar sin mirar.",
-    "No respetar la luz roja es una infracción leve."
+    "Detrás de un vehículo con patente extranjera conviene acortar la distancia para no perderlo de vista.",
+    "En carretera de una pista por sentido conviene ir cerca del eje central."
    ],
    "answers": 2,
    "explain": "Podría frenar sorpresivamente o virar inesperadamente por no conocer el lugar. Otros pueden equivocarse al adelantar.",
@@ -13595,13 +13609,13 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Debes circular siempre por la mitad derecha de la calzada.",
     "Antes de cambiar de pista debes mirar los espejos y también por encima de tu hombro.",
     "Cada cambio de pista implica siempre un riesgo.",
-    "Con luz verde está prohibido virar en cualquier cruce.",
-    "Al virar con luz verde, los peatones deben esperar a que pases."
+    "Antes de cambiar de pista basta con mirar los espejos.",
+    "Un cambio de pista solo implica riesgo cuando hay mucho tráfico."
    ],
    "answers": 3,
    "explain": "Sitúate completamente dentro de una pista. Y advertir con anticipación suficiente. Evita los cambios de pista sin necesidad.",
@@ -13612,12 +13626,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Debes apagar el señalizador una vez terminado el viraje.",
     "Conviene no virar a la izquierda cerca de un cambio de rasante o de una curva con poca visibilidad.",
-    "Con cabezal para ciclistas, al virar con luz verde tienes preferencia sobre ellos.",
-    "Ningún semáforo puede ser activado por los peatones."
+    "Conviene virar a la izquierda cerca de un cambio de rasante, donde suele haber menos tráfico.",
+    "Si el señalizador no se apaga solo, puedes dejarlo así hasta el próximo viraje."
    ],
    "answers": 2,
    "explain": "Y planear pronto tu ubicación después de virar. Puede haber alguien oculto.",
@@ -13628,12 +13642,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Con varias pistas en tu dirección, eliges la derecha para virar a la derecha.",
     "Puedes entrar a una pista exclusiva de transporte público solo donde está permitido y es necesario para virar.",
-    "La señal FIN RESTRICCIÓN indica el comienzo de una nueva prohibición.",
-    "Todas las señales de advertencia tienen exactamente el mismo amarillo."
+    "Con varias pistas en tu dirección, puedes virar a la derecha desde cualquiera de ellas.",
+    "Puedes usar la pista exclusiva de transporte público para adelantar si va vacía."
    ],
    "answers": 2,
    "explain": "Y la izquierda para virar a la izquierda. Cuando la segregación es con línea discontinua.",
@@ -13644,13 +13658,13 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Después de ir rápido por autopista, al bajar a 50 km/h parece que el vehículo está casi detenido.",
     "Una velocidad razonable es la que te permite controlar el vehículo y detenerlo dentro de la distancia que alcanzas a ver.",
     "La autoridad puede modificar los límites de velocidad en determinadas vías con señales.",
-    "En zonas con trabajos en la vía conviene acelerar para pasar rápido.",
-    "La zona entre la línea de detención y el paso de peatones es para estacionar."
+    "Después de ir rápido por autopista, al bajar a 50 km/h la sensación de velocidad es exacta.",
+    "Una velocidad razonable es siempre la máxima permitida en la vía."
    ],
    "answers": 3,
    "explain": "El velocímetro se equivoca muy raras veces; es fácil dejarse engañar por la velocidad. Adapta tu velocidad al pavimento, clima, visibilidad, carga y tráfico. Instalando las señales correspondientes.",
@@ -13661,12 +13675,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "En una Zona de Tránsito Calmado debes reducir la velocidad a lo indicado en las señales.",
     "La luz y sombra de una calle arbolada en día soleado dificulta ver a otros y calcular distancias.",
-    "Un vehículo grande siempre vira dentro de una sola pista.",
-    "Si alguien va a cruzar un paso de cebra, puedes pasar antes si vas rápido."
+    "En una Zona de Tránsito Calmado puedes ir a 50 km/h si no hay peatones.",
+    "La luz y sombra de una calle arbolada en día soleado facilita ver a otros y calcular distancias."
    ],
    "answers": 2,
    "explain": "Es una situación de reducción obligatoria. Reduce la velocidad.",
@@ -13677,12 +13691,12 @@
    "unit": "u8",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Muchos siniestros en carretera ocurren sin que participe otro vehículo o peatón.",
     "Un vehículo prestado o arrendado que no conoces bien se debe conducir con calma.",
-    "Al ponerte en marcha después de detenerte, tienes preferencia sobre todos.",
-    "Pisar el freno ligeramente no enciende las luces de freno."
+    "En carretera, casi todos los siniestros involucran a otro vehículo.",
+    "Un vehículo prestado o arrendado se conduce igual que el propio desde el primer momento."
    ],
    "answers": 2,
    "explain": "Muchas personas creen ser más hábiles de lo que son. La conducción varía de un automóvil a otro.",
@@ -13693,13 +13707,13 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si un vehículo de una fila contraria puede salirse a adelantar, debes mantenerte a tu derecha y reducir la velocidad.",
     "Al adelantar, debes pensar que quien viene en contra va más rápido de lo que crees.",
     "Si alguien detrás tuyo ya empezó a adelantarte, debes esperar a que termine antes de adelantar.",
-    "Si el eje de calzada no está demarcado, puedes circular por cualquier lado.",
-    "Con clima adverso, la Regla de los Tres Segundos se reduce a uno."
+    "Al adelantar, conviene suponer que quien viene en contra va más lento de lo que crees.",
+    "Si alguien detrás tuyo ya empezó a adelantarte, puedes adelantar tú también al mismo tiempo."
    ],
    "answers": 3,
    "explain": "Desconfía siempre de los vehículos que vienen en sentido contrario. Y no cuentes con ayuda del que adelantas: puede acelerar. Mira los espejos y por encima del hombro.",
@@ -13710,12 +13724,12 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Adelantar un vehículo largo es más arriesgado.",
     "Si aparece un vehículo en contra o sientes inseguridad, debes interrumpir el adelantamiento.",
-    "En congestión conviene mantener el pie en el acelerador para avanzar rápido.",
-    "Detrás de un vehículo con patente extranjera conviene acortar la distancia."
+    "Adelantar un vehículo largo toma el mismo tiempo que adelantar un automóvil.",
+    "Si aparece un vehículo en contra durante el adelantamiento, conviene acelerar para terminarlo."
    ],
    "answers": 2,
    "explain": "Mantén espacio detrás de él para ver mejor hacia adelante. En lugar de hacerlo sin certeza.",
@@ -13726,12 +13740,12 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "No debes adelantar al acercarte a un cruce o paso de peatones sin semáforo.",
     "Ciclos y motos pueden sobrepasar por la misma pista a vehículos detenidos para llegar a la línea de detención.",
-    "En carretera de una pista por sentido, conviene ir cerca del eje central.",
-    "Puedes circular por la mitad izquierda de la calzada cuando quieras."
+    "Puedes adelantar al acercarte a un paso de peatones sin semáforo si no ves a nadie cruzando.",
+    "Ciclos y motos nunca pueden sobrepasar a vehículos detenidos ante un semáforo."
    ],
    "answers": 2,
    "explain": "Incluso si no necesitas traspasar el eje de calzada. A velocidad moderada y con precaución.",
@@ -13742,13 +13756,13 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si no hay estacionamiento fuera de la vía, debes estacionar al lado derecho en el sentido del tránsito.",
     "Al estacionar no debes dejar niños pequeños ni animales dentro del vehículo.",
     "No puedes estacionar a menos de 10 metros de la entrada de un hospital.",
-    "Para cambiar de pista basta con mirar el espejo retrovisor interior.",
-    "Cambiar de pista seguido no implica ningún riesgo."
+    "Puedes estacionar a 5 metros de la entrada de un hospital si es por poco tiempo.",
+    "Si no hay estacionamiento fuera de la vía, puedes estacionar en cualquier lado de la calzada."
    ],
    "answers": 3,
    "explain": "Al lado izquierdo solo si la señalización lo permite. Además: motor detenido, enganchado, freno de mano, sacar la llave y cerrar. Tampoco de un cuartel de bombas o posta.",
@@ -13759,12 +13773,12 @@
    "unit": "u9",
    "lesson": 1,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Donde solo está prohibido estacionar, puedes detenerte el tiempo mínimo para tomar o dejar pasajeros.",
     "Puedes detenerte en un lugar reservado a otro si permaneces en tu vehículo para irte cuando llegue.",
-    "El señalizador se apaga recién después de recorrer una cuadra.",
-    "Conviene virar a la izquierda justo antes de una curva con poca visibilidad."
+    "Donde solo está prohibido estacionar, también está prohibido detenerse un momento para tomar o dejar pasajeros.",
+    "Puedes dejar el vehículo en un lugar reservado a otro si vuelves en pocos minutos."
    ],
    "answers": 2,
    "explain": "Pero no donde la señal prohíbe estacionar y detenerse. Debes abandonar el lugar cuando llegue quien goza de la reserva.",
@@ -13775,13 +13789,13 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "De noche en una vía sin alumbrado, debes dejar encendidas las luces de estacionamiento.",
     "Si te detienes por una avería en un lugar no autorizado, debes instalar los dispositivos reflectantes.",
     "Al retroceder no debes confiar en los espejos para juzgar la distancia.",
-    "Para virar a la derecha conviene ubicarse en la pista izquierda.",
-    "Cualquier vehículo puede circular por la pista exclusiva de transporte público."
+    "Al retroceder, los espejos permiten juzgar bien la distancia.",
+    "Si te detienes por una avería, basta con encender las luces de emergencia, sin dispositivos reflectantes."
    ],
    "answers": 3,
    "explain": "Para ser visible. Y si es posible, mantener las luces de advertencia de peligro. Verifica que no haya peatones, especialmente niños.",
@@ -13792,12 +13806,12 @@
    "unit": "u9",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Antes de cruzar una vía férrea conviene apagar la radio para escuchar.",
     "En un cruce ferroviario, el tren tiene siempre la preferencia.",
-    "Al salir de una autopista, la sensación de velocidad siempre es exacta.",
-    "Una velocidad razonable es siempre la máxima permitida en la vía."
+    "En un cruce ferroviario sin barreras, el vehículo que llega primero tiene preferencia sobre el tren.",
+    "Si las barreras del cruce ferroviario están arriba, puedes cruzar sin mirar."
    ],
    "answers": 2,
    "explain": "Detente siempre, mira en ambas direcciones y escucha. La responsabilidad descansa completamente en ti.",
@@ -13808,12 +13822,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "El riesgo de siniestro es mayor de noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad.",
     "De noche o con niebla, el tráfico que viene en contra parece estar más lejos de lo que está.",
-    "Si hay alumbrado público puedes circular solo con las luces de estacionamiento.",
-    "En una zona urbana con alumbrado público puedes usar luces altas."
+    "De noche o con niebla, el tráfico que viene en contra parece estar más cerca de lo que está.",
+    "De noche el riesgo de siniestro es menor porque circulan menos vehículos."
    ],
    "answers": 2,
    "explain": "Los ojos tardan en acomodarse y aparecen efectos de ceguera. Se difuminan colores y contornos; cuidado al adelantar.",
@@ -13824,12 +13838,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Es aconsejable circular con luces bajas encendidas incluso de día.",
     "En vías interurbanas debes circular siempre con las luces encendidas, incluso de día.",
-    "Al entrar a la autopista, tienes prioridad sobre los que ya circulan por ella.",
-    "Si quedas detenido en la calzada de una autopista, debes colocar el triángulo en la calzada."
+    "En vías interurbanas, las luces solo son obligatorias de noche o con niebla.",
+    "De día está prohibido circular con las luces bajas encendidas."
    ],
    "answers": 2,
    "explain": "Así te haces más visible. Aunque no esté oscuro ni llueva.",
@@ -13840,13 +13854,13 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "De noche en una vía no urbana, no es necesario bajar las luces al cruzarte con peatones.",
     "En el momento mismo del encuentro conviene volver a luces altas para ver obstáculos a tu derecha.",
     "Al adelantar de noche, cambias a luces altas apenas no encandiles al que adelantas.",
-    "Cuando está nevando de noche conviene usar luces altas.",
-    "Con cadenas o neumáticos especiales se conduce sobre hielo tan seguro como en pavimento seco."
+    "Al adelantar de noche, debes mantener las luces bajas hasta terminar la maniobra.",
+    "En un encuentro nocturno, conviene mantener las luces bajas hasta que el otro vehículo esté lejos."
    ],
    "answers": 3,
    "explain": "Sí debes bajarlas con todo tipo de vehículos, incluidos ciclistas. Para recuperar visibilidad de peatones u obstáculos al costado derecho. Puede haber curvas u obstáculos que no verías con luces bajas.",
@@ -13857,12 +13871,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Cuando te adelantan de noche, bajas las luces cuando el otro aparece oblicuo a tu izquierda.",
     "Los vehículos a tracción animal deben llevar faroles con luz blanca adelante y roja atrás.",
-    "Con niebla, las luces altas mejoran la visibilidad.",
-    "De noche el riesgo de siniestro es menor porque hay menos vehículos."
+    "Los vehículos a tracción animal deben llevar faroles con luz roja adelante y blanca atrás.",
+    "Cuando te adelantan de noche, mantienes las luces altas para iluminar al otro vehículo."
    ],
    "answers": 2,
    "explain": "Mientras tanto ayúdale con luces altas. Uno en cada costado que sobresalga de su estructura.",
@@ -13873,12 +13887,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Las bicicletas deben tener reflectantes en sus ruedas, parte trasera y horquillas.",
     "Con carga pesada atrás, el volante se siente más liviano y el auto tiende a girar más.",
-    "De noche o con niebla, el tráfico que viene en contra parece estar más cerca.",
-    "De día está prohibido circular con las luces bajas encendidas."
+    "Con carga pesada atrás, el volante se siente más pesado y el vehículo tiende a girar menos.",
+    "Las bicicletas solo necesitan un reflectante en la parte trasera."
    ],
    "answers": 2,
    "explain": "Los camiones y transporte escolar usan huinchas retrorreflectantes. Con carga pesada adelante, tenderá a girar menos.",
@@ -13889,13 +13903,13 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Llevar objetos duros o pesados en el estante de atrás es peligroso.",
     "Para arrastrar un remolque ancho puedes instalar espejos extra o brazos de prolongación.",
     "Un remolque con frenos debe tener uno de emergencia que actúe solo si se rompe el enganche.",
-    "En vías interurbanas, de día, las luces deben ir apagadas.",
-    "De noche en vía no urbana, nunca es necesario bajar las luces ante un ciclista."
+    "Llevar objetos pesados en el estante de atrás es seguro si son pequeños.",
+    "El freno de emergencia del remolque debe actuar cada vez que frenas el vehículo."
    ],
    "answers": 3,
    "explain": "En un choque o frenada pueden transformarse en proyectiles. Retíralos cuando desenganches el remolque. Los frenos de empuje son los más corrientes.",
@@ -13906,12 +13920,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Antes de partir con remolque, el freno de estacionamiento del remolque debe estar suelto.",
     "Antes de usar una autopista, debes tener combustible para llegar al menos a la próxima estación de servicio.",
-    "Durante todo el encuentro nocturno debes mantener las luces altas.",
-    "Al adelantar de noche debes mantener siempre las luces bajas."
+    "Antes de partir con remolque, su freno de estacionamiento debe quedar puesto.",
+    "En una autopista hay estaciones de servicio cada pocos kilómetros, así que no hace falta revisar el combustible."
    ],
    "answers": 2,
    "explain": "También: carga bien distribuida, buen enganche, luces y espejos. Y presión correcta, aceite y agua.",
@@ -13922,12 +13936,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Usar una autopista sin un sistema de pago (TAG o pase diario) es sancionado.",
     "En autopista la regla de los tres segundos es imprescindible.",
-    "Cuando te adelantan de noche, debes apagar tus luces.",
-    "Los vehículos a tracción animal no necesitan llevar ninguna luz."
+    "En autopista bastan dos segundos de distancia porque todos van en el mismo sentido.",
+    "Usar una autopista sin TAG ni pase diario está permitido si pagas al salir."
    ],
    "answers": 2,
    "explain": "Averigua otras formas de pago si no tienes TAG. Conduce a velocidad constante y sin exceder los límites.",
@@ -13938,13 +13952,13 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "En autopista, después de muchos kilómetros crees ir más lento de lo que vas.",
     "Las señales especiales informan 300, 200 y 100 m antes de la pista de desaceleración.",
     "Antes de entrar a un túnel debes tener combustible suficiente.",
-    "Las bicicletas no necesitan reflectantes si circulan de día.",
-    "Con carga pesada atrás, el volante se siente más pesado y el auto gira menos."
+    "En autopista, después de muchos kilómetros crees ir más rápido de lo que vas.",
+    "Las señales especiales informan 1.000, 500 y 200 m antes de la pista de desaceleración."
    ],
    "answers": 3,
    "explain": "Controla constantemente el velocímetro. Son las balizas de acercamiento. Para no quedar detenido en su interior.",
@@ -13955,12 +13969,12 @@
    "unit": "u10",
    "lesson": 1,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Al entrar a un túnel conviene quitarse los lentes de sol.",
     "En un atochamiento dentro de un túnel debes encender de inmediato las luces de emergencia.",
-    "El estante de atrás es el mejor lugar para llevar objetos pesados.",
-    "Con remolque está prohibido agregar espejos extra."
+    "Al entrar a un túnel conviene ponerse los lentes de sol para no encandilarse con sus luces.",
+    "En un atochamiento dentro de un túnel debes encender las luces altas."
    ],
    "answers": 2,
    "explain": "Además enciende las luces, cierra las ventanas y activa la ventilación. Mantén distancia y, si estás detenido, apaga el motor.",
@@ -13971,12 +13985,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Al sobrepasar a un motociclista debes dejar la misma distancia lateral que dejarías a un automóvil.",
     "En autopistas, si vas más lento que la máxima, debes circular por la pista de la derecha.",
-    "Los remolques con frenos no necesitan freno de emergencia.",
-    "Para partir con remolque, su freno de estacionamiento debe ir puesto."
+    "Al sobrepasar a un motociclista puedes dejar menos distancia lateral que la que dejas a un automóvil.",
+    "En autopistas, si vas más lento que la máxima, debes circular por la pista del centro."
    ],
    "answers": 2,
    "explain": "Es parte de la conclusión del capítulo. Y no utilizar la berma para circular.",
@@ -13987,13 +14001,13 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Si el vehículo patina en lluvia, debes soltar completamente el freno.",
     "Al pasar charcos con las ruedas de un solo lado, debes reducir aún más la velocidad.",
     "Para quitar el vaho del parabrisas usas la calefacción y ventilación orientadas a él.",
-    "Para entrar a una autopista basta con tener combustible para unos pocos kilómetros.",
-    "Se puede usar una autopista sin TAG ni pase diario sin ninguna sanción."
+    "Si el vehículo patina en la lluvia, debes frenar a fondo.",
+    "Al pasar charcos con las ruedas de un solo lado, conviene acelerar para salir rápido."
    ],
    "answers": 3,
    "explain": "Para recuperar la tracción; frena suave y a pedaladas cortas. Para no perder estabilidad ni mojar a peatones o ciclistas. Y el desempañador de la luneta trasera.",
@@ -14004,12 +14018,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Los primeros copos de nieve son tan peligrosos como las primeras gotas de lluvia.",
     "Con nieve conviene seguir las huellas de otros vehículos y procurar no adelantar.",
-    "En autopista basta con mantener un segundo de distancia.",
-    "En autopista, después de muchos kilómetros sientes la velocidad mayor de la real."
+    "Los primeros copos de nieve son menos peligrosos que la nieve ya acumulada.",
+    "Con nieve conviene salirse de las huellas de otros vehículos para tener más agarre."
    ],
    "answers": 2,
    "explain": "Se forma un barrillo muy deslizante. Cuida de no dañar las partes bajas con los montículos centrales.",
@@ -14020,12 +14034,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Con nieve, las bajadas se hacen lento y en marcha baja, frenando con el motor.",
     "Al atardecer, donde la nieve tiene más brillo es posible que haya hielo.",
-    "Antes de la salida de una autopista no hay ninguna señal de aviso.",
-    "En un túnel no importa cuánto combustible lleves."
+    "Con nieve, las bajadas conviene hacerlas en neutro, frenando suave con el pedal.",
+    "Al atardecer, donde la nieve se ve opaca es posible que haya hielo."
    ],
    "answers": 2,
    "explain": "Usa los frenos lo imprescindible. La nieve comienza a congelarse rápidamente.",
@@ -14036,12 +14050,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Bajo cero es indispensable agregar anticongelante al líquido lavaparabrisas.",
     "Si la dirección se siente excesivamente ligera, como si flotara, puede haber hielo.",
-    "Al entrar a un túnel conviene ponerse los lentes de sol.",
-    "En un atochamiento dentro de un túnel conviene tocar la bocina para avanzar."
+    "Si la dirección se siente más pesada de lo normal, es señal de hielo en la calzada.",
+    "Bajo cero basta con agua en el depósito del lavaparabrisas."
    ],
    "answers": 2,
    "explain": "Si no, el agua puede helarse sobre el cristal. También puedes verificarlo frenando suave a baja velocidad.",
@@ -14052,12 +14066,12 @@
    "unit": "u10",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Con niebla densa no debes adelantar si no ves bien hacia adelante.",
     "El viento lateral fuerte puede provocar la salida del camino o el volcamiento.",
-    "Al sobrepasar a un motociclista basta con dejar unos pocos centímetros.",
-    "En autopistas, quien va más lento que la máxima debe circular por la pista izquierda."
+    "Con niebla densa puedes adelantar si enciendes las luces altas y los neblineros.",
+    "El viento lateral fuerte solo afecta a camiones y buses."
    ],
    "answers": 2,
    "explain": "Fíjate en las demarcaciones para seguir la trayectoria. Sobre todo en caminos de montaña.",
@@ -14068,12 +14082,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La forma de conducir influye en la emisión de dióxido de carbono, causante del efecto invernadero.",
     "La eficiencia energética es hacer lo mismo, pero gastando menos.",
-    "Al encender el motor conviene pisar el acelerador.",
-    "Frenar a último minuto ahorra tiempo en el viaje."
+    "La eficiencia energética consiste en hacer menos viajes, aunque cada uno gaste lo mismo.",
+    "El dióxido de carbono no tiene relación con el efecto invernadero."
    ],
    "answers": 2,
    "explain": "El efecto invernadero es la retención del calor por acumulación de gases. Por ejemplo, reunir varios trámites en un mismo viaje.",
@@ -14084,12 +14098,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Mientras conduces puedes seguir el GPS escuchando sus indicaciones por audio.",
     "Mientras más peso lleve el vehículo, mayor será el consumo de combustible.",
-    "Conviene apagar el motor en cada luz roja del semáforo.",
-    "La forma de conducir no influye en las emisiones de dióxido de carbono."
+    "Mientras conduces puedes mirar el GPS del celular si lo llevas en la mano.",
+    "El peso que lleva el vehículo solo influye en el consumo en carretera."
    ],
    "answers": 2,
    "explain": "No manipules el teléfono mientras conduces; programa la ruta antes. Saca objetos pesados que no necesitas.",
@@ -14100,13 +14114,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Un buen mantenimiento aumenta la vida útil de los componentes del vehículo.",
     "Acelerar a fondo genera un consumo excesivo de combustible.",
     "Las marchas más bajas consumen más combustible que las altas.",
-    "La eficiencia energética consiste en hacer menos viajes y trámites.",
-    "Mientras conduces puedes escribir la dirección en el GPS del celular."
+    "Las marchas más bajas consumen menos combustible que las altas.",
+    "Acelerar a fondo permite llegar antes a la marcha alta y ahorra combustible."
    ],
    "answers": 3,
    "explain": "También permite conducir seguro, mantener el rendimiento y tener el vehículo disponible. Acelera de manera suave. En marchas altas el motor trabaja a menores RPM.",
@@ -14117,13 +14131,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "En un auto automático, acelerar a fondo puede hacer que elija marchas más bajas y consuma más.",
     "Ir muy cerca del vehículo de adelante aumenta el consumo y el desgaste del vehículo.",
     "En adelantamientos y emergencias debe primar la seguridad por sobre la economía.",
-    "El peso que lleva el vehículo no influye en el consumo de combustible.",
-    "El mantenimiento del vehículo solo sirve para pasar la revisión técnica."
+    "En adelantamientos conviene priorizar la economía de combustible por sobre la seguridad.",
+    "Ir cerca del vehículo de adelante reduce el consumo de combustible."
    ],
    "answers": 3,
    "explain": "Si evitas acelerar a fondo, elige la marcha más alta posible. Obliga a frenar y acelerar repetidas veces. Se pueden obviar algunos consejos de Conducción Eficiente.",
@@ -14134,12 +14148,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Una conducción segura es la base para una Conducción Eficiente.",
     "El estrés aumenta el riesgo y también el consumo de combustible.",
-    "Acelerar a fondo reduce el consumo de combustible.",
-    "Las marchas más bajas consumen menos combustible que las altas."
+    "La Conducción Eficiente consiste en ir siempre lo más lento posible.",
+    "El estrés aumenta el riesgo, pero no influye en el consumo de combustible."
    ],
    "answers": 2,
    "explain": "Los principios de seguridad dan como resultado eficiencia. Quien conduce agresivo ignora las técnicas de eficiencia.",
@@ -14150,11 +14164,11 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Al detenerte a ayudar en un siniestro, debes avisar del peligro con luces de advertencia y reflectantes.",
     "En un siniestro con vehículos a combustión, debes apagar sus motores y no permitir que nadie fume.",
-    "Debes trasladar de inmediato a los lesionados a otro lugar.",
+    "Al detenerte a ayudar en un siniestro, lo primero es trasladar a los lesionados en tu vehículo a un centro de salud.",
     "A un motociclista accidentado debes quitarle el casco para que respire mejor."
    ],
    "answers": 2,
@@ -14166,12 +14180,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Al llamar a emergencias debes indicar el lugar exacto y la cantidad de vehículos y víctimas.",
     "Sin entrenamiento, no debes quitar la ropa al lesionado; busca abrigo para él.",
-    "Sostener el celular con el hombro cuenta como sistema de manos libres.",
-    "Ante una falla total de frenos conviene apagar el motor."
+    "Al llamar a emergencias basta con decir que hubo un choque; ellos ubican el lugar.",
+    "Sin entrenamiento, conviene quitar la ropa al lesionado para revisar sus heridas."
    ],
    "answers": 2,
    "explain": "Mantén la calma y sigue las indicaciones. E: exposición.",
@@ -14182,13 +14196,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Ante un camión con carga peligrosa siniestrado, conviene anotar el material antes de llamar a emergencias.",
     "Por la Ley Patente Cero Días, los vehículos nuevos se entregan con sus placas patentes instaladas.",
     "Los vehículos nuevos deben contar con su Certificado de Homologación Individual.",
-    "Al detenerte a ayudar en un siniestro, no hace falta señalizar el lugar.",
-    "En un siniestro, los motores de los vehículos deben dejarse encendidos."
+    "Ante un camión con carga peligrosa siniestrado, conviene acercarse a leer de cerca su rótulo.",
+    "Por la Ley Patente Cero Días, los vehículos nuevos pueden circular sin placas durante 30 días."
    ],
    "answers": 3,
    "explain": "No enciendas llamas ni fumes. Vigente desde febrero de 2023. Lo emite el 3CV del Ministerio de Transportes.",
@@ -14199,12 +14213,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La Ley No Chat también se aplica a quienes conducen ciclos.",
     "La ruta del GPS se debe programar antes de partir, con el vehículo estacionado.",
-    "Al llamar a emergencias basta con decir que hubo un choque, sin más datos.",
-    "Sin entrenamiento, debes quitarle toda la ropa al lesionado para revisarlo."
+    "La Ley No Chat solo se aplica a quienes conducen vehículos motorizados.",
+    "La ruta del GPS se puede programar mientras conduces si vas despacio."
    ],
    "answers": 2,
    "explain": "Incluye celulares y cualquier artefacto no incorporado de fábrica. Durante el trayecto puede recibir instrucciones por audio.",
@@ -14215,12 +14229,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Si tu licencia indica el uso de lentes, no puedes conducir sin ellos.",
     "Conducir bajo la influencia de estupefacientes se sanciona con suspensión de la licencia.",
-    "Ante un camión con carga peligrosa siniestrado, conviene acercarse a revisar la carga.",
-    "Por la Ley Patente Cero Días, los vehículos nuevos circulan sin placas los primeros meses."
+    "Si tu licencia indica el uso de lentes, puedes conducir sin ellos en trayectos cortos.",
+    "Conducir bajo la influencia de estupefacientes solo se sanciona con una multa."
    ],
    "answers": 2,
    "explain": "Las restricciones deben cumplirse en todo momento. Las suspensiones aumentan con reincidencia o si hay lesionados o fallecidos.",
@@ -14231,13 +14245,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "No respetar la señal PARE es una infracción gravísima.",
     "Exceder hasta en 10 km/h el límite de velocidad es una infracción menos grave.",
     "Conducir con una licencia falsa es un delito que puede ser sancionado con prisión.",
-    "Los vehículos nuevos no necesitan ningún certificado para circular.",
-    "La Ley No Chat no se aplica a quienes conducen ciclos."
+    "No respetar la señal PARE es una infracción grave.",
+    "Exceder hasta en 10 km/h el límite de velocidad no constituye infracción."
    ],
    "answers": 3,
    "explain": "El resto de las señales son infracción grave. De 11 a 20: grave; de 20 a 60: gravísima. También usar placas falsas o certificados falsos.",
@@ -14248,12 +14262,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Cuando el ABS funciona se siente un leve temblor en el pedal del freno.",
     "Al frenar fuerte conviene pisar el embrague antes de detenerte por completo.",
-    "La ruta del GPS se puede programar mientras conduces si vas despacio.",
-    "Las restricciones de la licencia, como usar lentes, son solo recomendaciones."
+    "Si sientes un leve temblor en el pedal al frenar con ABS, debes soltar el freno.",
+    "Al frenar fuerte conviene pisar el embrague apenas empiezas a frenar."
    ],
    "answers": 2,
    "explain": "No debes asustarte al notarlo. Así el motor no se detiene por las bajas revoluciones.",
@@ -14264,12 +14278,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Ante una falla de frenos puedes usar el freno de mano de forma suave y progresiva.",
     "El plomo es un metal pesado que provoca lesiones en el sistema nervioso central.",
-    "Conducir bajo la influencia de estupefacientes no tiene sanción.",
-    "No respetar la señal PARE es una infracción leve."
+    "Ante una falla total de frenos conviene tirar el freno de mano de golpe para detenerte rápido.",
+    "El plomo de los combustibles no afecta la salud de las personas."
    ],
    "answers": 2,
    "explain": "Con cuidado para no bloquear las ruedas. Es uno de los contaminantes emitidos por vehículos.",
@@ -14280,12 +14294,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "Mantener el motor en ralentí provoca emisiones innecesarias.",
     "Antes de cada viaje en un vehículo eléctrico conviene revisar la autonomía y planificar la carga.",
-    "Exceder hasta en 10 km/h el límite de velocidad no es infracción.",
-    "Conducir con una licencia falsa solo se sanciona con una multa."
+    "Mantener el motor en ralentí no produce emisiones.",
+    "Calentar el motor en ralentí varios minutos antes de partir reduce las emisiones."
    ],
    "answers": 2,
    "explain": "También las velocidades altas y las aceleraciones enérgicas. Así no te quedarás sin energía durante el trayecto.",
@@ -14296,12 +14310,12 @@
    "unit": "u7",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "No respetar una señal reglamentaria constituye una infracción a las normas de tránsito.",
     "Las señales informativas orientan y guían a las personas usuarias hacia sus destinos.",
-    "Un cruce con semáforo en luz intermitente se considera cruce regulado.",
-    "La calzada es la parte de la vía destinada solo a los peatones."
+    "No respetar una señal reglamentaria solo es infracción si hay un carabinero presente.",
+    "Las señales informativas advierten de peligros en la vía."
    ],
    "answers": 2,
    "explain": "Las reglamentarias notifican prioridades, prohibiciones, restricciones, obligaciones y autorizaciones. De la forma más segura, simple y directa posible.",
@@ -14312,12 +14326,12 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 2 de estas afirmaciones son correctas según el libro? Marque dos respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque dos respuestas",
    "options": [
     "La calzada es la parte de la vía destinada al uso de vehículos y animales.",
     "El derecho preferente de paso es la prerrogativa de un peatón o conductor para proseguir su marcha.",
-    "No respetar una señal reglamentaria no constituye infracción.",
-    "Las señales informativas prohíben maniobras a los conductores."
+    "La calzada es la parte de la vía destinada a vehículos y peatones.",
+    "El derecho preferente de paso solo lo tienen los vehículos de emergencia con la sirena encendida."
    ],
    "answers": 2,
    "explain": "La acera es para peatones. Definición del glosario.",
@@ -14328,13 +14342,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "Sobrepasar es pasar a otro vehículo sin traspasar el eje de la calzada.",
     "Un vehículo de transporte escolar está construido para más de siete personas sentadas.",
     "Los límites de la zona urbana los determinan y señalizan las Municipalidades.",
-    "El derecho preferente de paso solo lo tienen los vehículos de emergencia.",
-    "La licencia de conducir se puede obtener en cualquier comuna del país."
+    "Sobrepasar es pasar a otro vehículo cruzando el eje de la calzada.",
+    "Los límites de la zona urbana los determina y señaliza Carabineros en cada comuna del país."
    ],
    "answers": 3,
    "explain": "Adelantar es hacerlo por el costado izquierdo del eje. Destinado al transporte de escolares. La zona rural es la que excluye las urbanas.",
@@ -14345,13 +14359,13 @@
    "unit": "u11",
    "lesson": 2,
    "type": "multi",
-   "prompt": "¿Cuáles 3 de estas afirmaciones son correctas según el libro? Marque tres respuestas",
+   "prompt": "¿Cuáles de estas afirmaciones son correctas? Marque tres respuestas",
    "options": [
     "La licencia de conducir se obtiene en la comuna donde resides.",
     "Después de una segunda denegación, debes esperar 6 meses para cada nuevo proceso.",
     "En cada proceso tienes dos oportunidades para el examen teórico.",
-    "Sobrepasar es pasar a otro vehículo cruzando el eje de la calzada.",
-    "Un vehículo de transporte escolar está construido para un máximo de cuatro personas."
+    "En cada proceso tienes una sola oportunidad para el examen teórico.",
+    "Después de una segunda denegación, puedes volver a intentarlo a los 30 días."
    ],
    "answers": 3,
    "explain": "Consulta en tu Municipalidad horarios y documentos. La primera espera es de 30 días hábiles. Puedes repetir cada examen una sola vez dentro del proceso.",
@@ -14586,14 +14600,14 @@
    "unit": "u2",
    "lesson": 0,
    "type": "img",
-   "prompt": "Este dibujo del libro muestra un neumático con presión de aire…",
+   "prompt": "Este neumático tiene una presión de aire…",
    "options": [
     "Demasiado baja",
     "Correcta",
     "Demasiado alta",
     "Adecuada solo para carretera"
    ],
-   "explain": "El libro compara neumáticos con presión demasiado baja, correcta y demasiado alta.",
+   "explain": "Un neumático puede tener la presión demasiado baja, correcta o demasiado alta, y cada caso se nota en cómo apoya en la calzada.",
    "page": 18,
    "image": "img/figuras/p18_0.webp"
   },
@@ -14602,7 +14616,7 @@
    "unit": "u2",
    "lesson": 0,
    "type": "img",
-   "prompt": "Este dibujo del libro muestra un neumático con presión de aire…",
+   "prompt": "Este neumático tiene una presión de aire…",
    "options": [
     "Demasiado alta",
     "Correcta",
