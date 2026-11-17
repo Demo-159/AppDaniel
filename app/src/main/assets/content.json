@@ -3525,7 +3525,7 @@
    "prompt": "¿Qué indica la luz amarilla intermitente?",
    "options": [
     "Acercarte con precaución y velocidad reducida",
-    "Detenerte siempre antes del cruce",
+    "Detenerte siempre antes de entrar al cruce",
     "Ceder el paso como ante un Ceda el Paso",
     "Pasar sin detenerte: tienes preferencia"
    ],
@@ -3568,7 +3568,7 @@
    "options": [
     "Que no viene un tren, pero igual hay que mirar",
     "Que se acerca un tren y hay que detenerse",
-    "Que el cruce está cerrado por mantención",
+    "Que el cruce está cerrado por trabajos de mantención",
     "Que se puede cruzar sin necesidad de mirar"
    ],
    "explain": "El sistema de seguridad podría fallar: verifica siempre que el cruce esté despejado.",
@@ -3823,7 +3823,7 @@
     "Quien tiene el lado segmentado",
     "Quien tiene el lado continuo",
     "Ninguno de los dos",
-    "Ambos, con precaución"
+    "Ambos conductores, siempre con precaución"
    ],
    "explain": "Quien tiene la línea continua a su lado no puede cruzarla.",
    "page": 82
@@ -3977,7 +3977,7 @@
    "options": [
     "No tenga que cambiar trayectoria ni velocidad",
     "Pueda frenar suave, sin llegar a detenerse",
-    "Tenga que reducir solo un poco la velocidad",
+    "Tenga que reducir solo un poco su velocidad al llegar",
     "Pueda pasar inmediatamente después de ti"
    ],
    "explain": "Si tu maniobra obliga al otro a frenar, no cediste el paso.",
@@ -3991,7 +3991,7 @@
    "prompt": "Se acerca por detrás una ambulancia con sirena encendida. ¿Qué haces?",
    "options": [
     "Correrte a un lado y detenerte si es necesario",
-    "Acelerar para despejarle el camino más rápido",
+    "Acelerar para despejarle el camino lo más rápido posible",
     "Frenar en seco en el lugar donde estés",
     "Seguir igual, porque ella te adelantará"
    ],
@@ -4052,7 +4052,7 @@
     "En túneles, y a su entrada o salida",
     "Cerca de colegios",
     "En autopistas",
-    "En zonas residenciales de noche"
+    "En zonas residenciales durante toda la noche"
    ],
    "explain": "Tampoco cerca de ciclistas ni al pasar animales. Úsala solo si es estrictamente necesario.",
    "page": 87
@@ -4080,7 +4080,7 @@
    "prompt": "Regla de los tres segundos: pasas el punto de referencia antes de contar “mil tres”. Significa que…",
    "options": [
     "Vas muy cerca: suelta el acelerador",
-    "Vas a la distancia correcta",
+    "Vas a la distancia correcta para esa velocidad",
     "Vas demasiado lejos",
     "Debes adelantar"
    ],
@@ -4096,7 +4096,7 @@
    "options": [
     "El ancho de una puerta",
     "Medio metro",
-    "El ancho de un auto",
+    "El ancho completo de un automóvil",
     "Lo más cerca posible"
    ],
    "explain": "Alguien podría abrir una puerta o salir sin avisar.",
@@ -4111,7 +4111,7 @@
    "options": [
     "Ves sus neumáticos traseros",
     "Ves su placa patente",
-    "Hay unos 10 metros",
+    "Hay unos 10 metros entre ambos vehículos",
     "Casi tocas su parachoques"
    ],
    "explain": "Así tienes espacio para maniobrar si es necesario.",
@@ -4285,7 +4285,7 @@
    "prompt": "Dos vehículos que circulan en sentido contrario se aproximan a una velocidad igual a…",
    "options": [
     "La suma de ambas velocidades",
-    "La diferencia entre ambas",
+    "La diferencia entre ambas velocidades",
     "La del más rápido",
     "El promedio de ambas"
    ],
@@ -4390,7 +4390,7 @@
    "prompt": "Cuando otro vehículo te está adelantando, debes…",
    "options": [
     "Mantenerte a la derecha sin acelerar",
-    "Acelerar para facilitar la maniobra",
+    "Acelerar un poco para facilitar la maniobra",
     "Frenar fuerte para que pase rápido",
     "Correrte hacia la izquierda"
    ],
@@ -4405,7 +4405,7 @@
    "prompt": "¿Cuándo puedes sobrepasar por la derecha?",
    "options": [
     "Si el otro va a virar a la izquierda",
-    "Si el otro va bajo el límite",
+    "Si el otro va por debajo del límite de velocidad",
     "Si la berma está despejada",
     "Si el otro se demora en avanzar"
    ],
@@ -4557,7 +4557,7 @@
    "prompt": "¿Cuándo está permitido conducir marcha atrás?",
    "options": [
     "Para estacionar o incorporarte al tránsito",
-    "Para volver a una salida que pasaste",
+    "Para volver a una salida de la autopista que pasaste",
     "Para salir de un cruce que bloqueaste",
     "Para dejar pasar a quien adelanta"
    ],
@@ -4589,7 +4589,7 @@
     "Terminar de cruzar sin detenerte",
     "Detenerte antes del riel",
     "Retroceder rápidamente",
-    "Detenerte y esperar el tren"
+    "Detenerte sobre la vía y esperar que pase el tren"
    ],
    "explain": "Nunca te detengas en el cruce ni justo después de él.",
    "page": 107
@@ -4617,7 +4617,7 @@
    "prompt": "Tu vehículo se descompone sobre un cruce ferroviario. ¿Qué haces primero?",
    "options": [
     "Hacer salir a todas las personas",
-    "Intentar arrancar el motor",
+    "Intentar arrancar el motor varias veces",
     "Llamar a una grúa",
     "Empujar el vehículo"
    ],
@@ -9250,6 +9250,1106 @@
     "El año en que se acreditó la silla infantil",
     "El nombre del modelo de la silla infantil"
    ]
+  },
+  {
+   "id": "u7-32",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 77,
+   "explain": "Señales de Carabineros, semáforos, señalización (verticales y demarcaciones) y reglas del tránsito.",
+   "type": "mc",
+   "prompt": "¿De cuántas maneras se expresa el lenguaje del tránsito según el libro?",
+   "options": [
+    "Cuatro",
+    "Cinco",
+    "Tres",
+    "Siete"
+   ]
+  },
+  {
+   "id": "u7-33",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 77,
+   "explain": "Carabineros de Chile, Inspectores Fiscales e Inspectores Municipales.",
+   "type": "mc",
+   "prompt": "¿Quiénes velan por el cumplimiento de las normas de circulación?",
+   "options": [
+    "Carabineros e inspectores fiscales y municipales",
+    "Solo las escuelas de conductores del país",
+    "Solo los guardias de las autopistas urbanas",
+    "Las compañías de seguros de los vehículos"
+   ]
+  },
+  {
+   "id": "u7-34",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 77,
+   "explain": "De frente o de espalda: detención. Brazo en alto: advertencia. De costado: avanzar.",
+   "type": "mc",
+   "prompt": "Si ves a un carabinero de costado, significa que…",
+   "options": [
+    "Puedes avanzar",
+    "Debes detenerte",
+    "Debes retroceder",
+    "Debes estacionar"
+   ]
+  },
+  {
+   "id": "u7-35",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 78,
+   "explain": "Luz verde indica paso.",
+   "type": "tf",
+   "prompt": "Con luz verde puedes continuar o virar, salvo que una señal prohíba el viraje.",
+   "answer": true
+  },
+  {
+   "id": "u7-36",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 78,
+   "explain": "Los peatones que también enfrentan la luz verde tienen prioridad.",
+   "type": "tf",
+   "prompt": "Si vas a virar con luz verde, debes ceder el paso a peatones y ciclistas que cruzan.",
+   "answer": true
+  },
+  {
+   "id": "u7-37",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 78,
+   "explain": "No avances hasta que se encienda la luz verde.",
+   "type": "mc",
+   "prompt": "Con luz roja, ¿dónde debes detenerte?",
+   "options": [
+    "Antes de la línea de detención",
+    "Sobre el paso de peatones",
+    "Dentro del cruce, a la derecha",
+    "Después de la línea de detención"
+   ]
+  },
+  {
+   "id": "u7-38",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 79,
+   "explain": "Aun cuando enfrentes luz verde.",
+   "type": "tf",
+   "prompt": "Con semáforo con cabezal para ciclistas, al virar con luz verde los ciclistas tienen la preferencia.",
+   "answer": true
+  },
+  {
+   "id": "u7-39",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 79,
+   "explain": "Permiten a los peatones cruzar con seguridad.",
+   "type": "tf",
+   "prompt": "Algunos semáforos peatonales son activados por las personas.",
+   "answer": true
+  },
+  {
+   "id": "u7-40",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 80,
+   "explain": "La flecha muestra que la vía está abierta.",
+   "type": "mc",
+   "prompt": "En una señal de mensaje variable sobre la calzada, una equis roja indica que…",
+   "options": [
+    "La pista está cerrada",
+    "La pista es exclusiva para buses",
+    "Hay un cruce ferroviario",
+    "Debes adelantar por ahí"
+   ]
+  },
+  {
+   "id": "u7-41",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 80,
+   "explain": "Se exceptúan PARE, Ceda el Paso, Fin Restricción, entre otras.",
+   "type": "mc",
+   "prompt": "¿Qué forma suelen tener las señales reglamentarias?",
+   "options": [
+    "Circular o rectangular, con círculo rojo",
+    "Rombo amarillo con un símbolo negro al centro",
+    "Cuadrada azul con letras blancas",
+    "Triangular naranja con borde negro"
+   ]
+  },
+  {
+   "id": "u7-42",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 80,
+   "explain": "Por ejemplo, “No adelantar”.",
+   "type": "tf",
+   "prompt": "La señal FIN RESTRICCIÓN pone término a la restricción mostrada en su círculo.",
+   "answer": true
+  },
+  {
+   "id": "u7-43",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 81,
+   "explain": "Son de un color amarillo distinto al resto.",
+   "type": "tf",
+   "prompt": "Algunas señales de advertencia sobre usuarios vulnerables pueden ser de un amarillo levemente verde.",
+   "answer": true
+  },
+  {
+   "id": "u7-44",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 81,
+   "explain": "Personas, materiales o maquinaria pueden ser un riesgo.",
+   "type": "tf",
+   "prompt": "En zonas con trabajos en la vía debes moderar la velocidad.",
+   "answer": true
+  },
+  {
+   "id": "u7-45",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 83,
+   "explain": "Bajo ciertas condiciones de cruce semaforizado y ancho de calzada.",
+   "type": "tf",
+   "prompt": "Entre la línea de detención y el paso de peatones puede haber una zona de espera para ciclos y motos.",
+   "answer": true
+  },
+  {
+   "id": "u7-46",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 83,
+   "explain": "Los pasos de cebra son pasos peatonales en lugares no semaforizados.",
+   "type": "mc",
+   "prompt": "En un paso de cebra, ¿quién tiene prioridad?",
+   "options": [
+    "Las y los peatones",
+    "Los vehículos que vienen por la derecha",
+    "Los vehículos de mayor tamaño",
+    "Quien llegue primero al cruce"
+   ]
+  },
+  {
+   "id": "u7-47",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 84,
+   "explain": "Detente y espera a que finalice su maniobra.",
+   "type": "tf",
+   "prompt": "Un vehículo de gran tamaño puede necesitar más de una pista para virar.",
+   "answer": true
+  },
+  {
+   "id": "u8-26",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Es una de las obligaciones de ceder el paso.",
+   "type": "tf",
+   "prompt": "Si alguien se dispone a cruzar por un paso de cebra, debes detenerte y cederle el paso.",
+   "answer": true
+  },
+  {
+   "id": "u8-27",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Es otra obligación de ceder el paso.",
+   "type": "tf",
+   "prompt": "Al ponerte en marcha después de una detención, debes ceder el paso a vehículos y peatones.",
+   "answer": true
+  },
+  {
+   "id": "u8-28",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Carecerás de prioridad frente a los demás vehículos.",
+   "type": "tf",
+   "prompt": "Si tu pista se obstaculiza de repente, tienes prioridad para cambiarte de pista.",
+   "answer": false
+  },
+  {
+   "id": "u8-29",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Vehículos policiales, carros bomba, ambulancias y de la Policía de Investigaciones.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos es un vehículo de emergencia según el libro?",
+   "options": [
+    "Un carro bomba",
+    "Un taxi colectivo",
+    "Un bus interurbano",
+    "Un camión de carga"
+   ]
+  },
+  {
+   "id": "u8-30",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Debes seguir con precaución e interpretar las señales de los demás.",
+   "type": "tf",
+   "prompt": "Señalizar a tiempo te libera de la obligación de tener precaución.",
+   "answer": false
+  },
+  {
+   "id": "u8-31",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 85,
+   "explain": "Significa que va a virar a la izquierda; interpretarlo mal puede causar un siniestro.",
+   "type": "tf",
+   "prompt": "Si el vehículo de adelante pone el intermitente izquierdo, te está indicando que lo pases.",
+   "answer": false
+  },
+  {
+   "id": "u8-32",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 86,
+   "explain": "Brazo en ángulo recto hacia arriba: derecha. Brazo hacia abajo: disminución de velocidad o detención.",
+   "type": "mc",
+   "prompt": "Quien conduce saca el brazo extendido horizontalmente. ¿Qué indica?",
+   "options": [
+    "Viraje a la izquierda",
+    "Viraje a la derecha",
+    "Detención",
+    "Adelantamiento"
+   ]
+  },
+  {
+   "id": "u8-33",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 87,
+   "explain": "Las luces de freno se encienden automáticamente al pisar el pedal.",
+   "type": "tf",
+   "prompt": "Puedes avisar a quienes van detrás pisando ligeramente el freno para que se enciendan las luces.",
+   "answer": true
+  },
+  {
+   "id": "u8-34",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 87,
+   "explain": "Son las luces de retroceso.",
+   "type": "mc",
+   "prompt": "¿Cuándo se encienden las luces traseras blancas?",
+   "options": [
+    "Al retroceder",
+    "Al frenar",
+    "Al virar",
+    "Al estacionar"
+   ]
+  },
+  {
+   "id": "u8-35",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 87,
+   "explain": "Nunca en túneles, cerca de ciclistas ni al adelantar animales.",
+   "type": "mc",
+   "prompt": "¿Cuándo puedes usar la bocina?",
+   "options": [
+    "Solo para prevenir un siniestro",
+    "Para saludar a otros conductores",
+    "Para apurar al de adelante",
+    "Al adelantar a animales"
+   ]
+  },
+  {
+   "id": "u8-36",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 87,
+   "explain": "Siempre debes circular por la derecha.",
+   "type": "tf",
+   "prompt": "Si el eje de calzada no está demarcado, la calzada se divide en dos partes iguales y circulas por la derecha.",
+   "answer": true
+  },
+  {
+   "id": "u8-37",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 87,
+   "explain": "En carretera: metros iguales a los km/h; en ciudad puede ser la mitad.",
+   "type": "mc",
+   "prompt": "En el tránsito urbano, la distancia de seguimiento de la regla de metros = km/h puede…",
+   "options": [
+    "Reducirse a la mitad",
+    "Duplicarse siempre",
+    "Reducirse a cero",
+    "Triplicarse de noche"
+   ]
+  },
+  {
+   "id": "u8-38",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 88,
+   "explain": "Agrega un tiempo extra.",
+   "type": "tf",
+   "prompt": "Con clima o carretera adversos, debes agregar tiempo extra a la Regla de los Tres Segundos.",
+   "answer": true
+  },
+  {
+   "id": "u8-39",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 88,
+   "explain": "50 km/h: 15 m; 70 km/h: 20 m; 90 km/h: 25 m.",
+   "type": "mc",
+   "prompt": "Si el de adelante frena, en el segundo que tardas en reaccionar a 90 km/h recorres…",
+   "options": [
+    "Alrededor de 25 metros",
+    "Alrededor de 5 metros",
+    "Alrededor de 90 metros",
+    "Alrededor de 50 metros"
+   ]
+  },
+  {
+   "id": "u8-40",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 88,
+   "explain": "No les permite frenar a tiempo.",
+   "type": "mc",
+   "prompt": "¿A qué se deben por lo general los choques en serie?",
+   "options": [
+    "A guardar una distancia demasiado corta",
+    "A conducir con luces bajas durante el día",
+    "A circular por la pista derecha",
+    "A usar mal la bocina"
+   ]
+  },
+  {
+   "id": "u8-41",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 88,
+   "explain": "Debes permanecer atento y preparado para frenar.",
+   "type": "tf",
+   "prompt": "En congestión conviene tener el pie sobre el freno, listo para usarlo.",
+   "answer": true
+  },
+  {
+   "id": "u8-42",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 89,
+   "explain": "La ley exige dejar distancia suficiente para que otro pueda adelantar, salvo el cortejo fúnebre.",
+   "type": "mc",
+   "prompt": "¿Quiénes están eximidos de dejar espacio para que otro los adelante?",
+   "options": [
+    "Los vehículos de un cortejo fúnebre",
+    "Los buses de transporte público de pasajeros",
+    "Los vehículos de emergencia",
+    "Los camiones de carga"
+   ]
+  },
+  {
+   "id": "u8-43",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 89,
+   "explain": "Podría frenar sorpresivamente o virar inesperadamente por no conocer el lugar.",
+   "type": "tf",
+   "prompt": "Conviene aumentar la distancia detrás de un vehículo con patente extranjera en la ciudad.",
+   "answer": true
+  },
+  {
+   "id": "u8-44",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 89,
+   "explain": "Otros pueden equivocarse al adelantar.",
+   "type": "tf",
+   "prompt": "En carretera de una pista por sentido, debes ir lo más cerca posible del borde derecho.",
+   "answer": true
+  },
+  {
+   "id": "u8-45",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 90,
+   "explain": "Sitúate completamente dentro de una pista.",
+   "type": "tf",
+   "prompt": "Debes circular siempre por la mitad derecha de la calzada.",
+   "answer": true
+  },
+  {
+   "id": "u8-46",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 90,
+   "explain": "También para adelantar, si la derecha está impedida, en vías de un sentido o en autopistas.",
+   "type": "mc",
+   "prompt": "¿Cuándo puedes circular por la pista izquierda?",
+   "options": [
+    "En ciudad, con 3 o más pistas en tu sentido",
+    "Siempre que vayas más lento que el resto",
+    "Solo de noche cuando estás en carretera",
+    "Cuando quieras estacionar al otro lado"
+   ]
+  },
+  {
+   "id": "u8-47",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 90,
+   "explain": "No puedes pasar a la pista adyacente para ingresar de forma inmediata a una tercera.",
+   "type": "tf",
+   "prompt": "Puedes cambiarte de una pista a otra para pasar de inmediato a una tercera.",
+   "answer": false
+  },
+  {
+   "id": "u8-48",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 91,
+   "explain": "Y advertir con anticipación suficiente.",
+   "type": "tf",
+   "prompt": "Antes de cambiar de pista debes mirar los espejos y también por encima de tu hombro.",
+   "answer": true
+  },
+  {
+   "id": "u8-49",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 91,
+   "explain": "Evita los cambios de pista sin necesidad.",
+   "type": "tf",
+   "prompt": "Cada cambio de pista implica siempre un riesgo.",
+   "answer": true
+  },
+  {
+   "id": "u8-50",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 91,
+   "explain": "Si hay ciclovía, lo más cerca del elemento segregador; asegúrate de que no pasen ciclos.",
+   "type": "mc",
+   "prompt": "Para virar a la derecha, ¿dónde te ubicas?",
+   "options": [
+    "Lo más cerca posible del borde derecho",
+    "En el centro mismo de la calzada",
+    "Junto al eje central de la calzada",
+    "En la pista izquierda de la calzada"
+   ]
+  },
+  {
+   "id": "u8-51",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 91,
+   "explain": "Y planear pronto tu ubicación después de virar.",
+   "type": "tf",
+   "prompt": "Debes apagar el señalizador una vez terminado el viraje.",
+   "answer": true
+  },
+  {
+   "id": "u8-52",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 92,
+   "explain": "La distancia depende de la velocidad.",
+   "type": "mc",
+   "prompt": "En una carretera con máxima de 100 km/h, ¿con cuánta anticipación conviene preparar y señalizar un viraje?",
+   "options": [
+    "Unos 300 a 400 metros",
+    "Unos 10 metros",
+    "Unos 30 metros",
+    "Unos 2 kilómetros"
+   ]
+  },
+  {
+   "id": "u8-53",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 93,
+   "explain": "Por eso hay que mirar también lo que viene detrás.",
+   "type": "mc",
+   "prompt": "¿Qué tipo de siniestro es frecuente al virar a la izquierda?",
+   "options": [
+    "Choques por atrás",
+    "Volcamientos",
+    "Atropellos de ciclistas",
+    "Choques laterales en rotondas"
+   ]
+  },
+  {
+   "id": "u8-54",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 93,
+   "explain": "Puede haber alguien oculto.",
+   "type": "tf",
+   "prompt": "Conviene no virar a la izquierda cerca de un cambio de rasante o de una curva con poca visibilidad.",
+   "answer": true
+  },
+  {
+   "id": "u8-55",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 94,
+   "explain": "Se puede en vías de doble tránsito sin línea central continua o con bandejones, si no está prohibido.",
+   "type": "mc",
+   "prompt": "¿Qué es un viraje en “U”?",
+   "options": [
+    "Virar en 180° y tomar la dirección contraria",
+    "Virar 90° a la derecha en un cruce",
+    "Cambiarse dos pistas a la vez sin parar",
+    "Salir de una rotonda por la última salida"
+   ]
+  },
+  {
+   "id": "u8-56",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 94,
+   "explain": "Y la izquierda para virar a la izquierda.",
+   "type": "tf",
+   "prompt": "Con varias pistas en tu dirección, eliges la derecha para virar a la derecha.",
+   "answer": true
+  },
+  {
+   "id": "u8-57",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 95,
+   "explain": "Cuando la segregación es con línea discontinua.",
+   "type": "tf",
+   "prompt": "Puedes entrar a una pista exclusiva de transporte público solo donde está permitido y es necesario para virar.",
+   "answer": true
+  },
+  {
+   "id": "u8-58",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 95,
+   "explain": "Por ejemplo, de norte a sur en la mañana y de sur a norte en otros horarios.",
+   "type": "mc",
+   "prompt": "¿Qué es una pista de tránsito reversible?",
+   "options": [
+    "Una que cambia de sentido según el horario",
+    "Una exclusiva para retroceder despacio",
+    "Una reservada solo para los ciclistas",
+    "Una de emergencia para fallas de frenos"
+   ]
+  },
+  {
+   "id": "u8-59",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 95,
+   "explain": "Se habilitan en vías con pendiente muy pronunciada.",
+   "type": "mc",
+   "prompt": "¿Para qué sirven las pistas de emergencia en pendientes pronunciadas?",
+   "options": [
+    "Para fallas en el sistema de frenos",
+    "Para adelantar a los camiones lentos",
+    "Para estacionar de noche en la subida",
+    "Para que circule el transporte público"
+   ]
+  },
+  {
+   "id": "u8-60",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 96,
+   "explain": "El velocímetro se equivoca muy raras veces; es fácil dejarse engañar por la velocidad.",
+   "type": "tf",
+   "prompt": "Después de ir rápido por autopista, al bajar a 50 km/h parece que el vehículo está casi detenido.",
+   "answer": true
+  },
+  {
+   "id": "u8-61",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 96,
+   "explain": "Buses, camiones y transporte escolar: 90 km/h; buses interurbanos: 100 km/h.",
+   "type": "mc",
+   "prompt": "¿Cuál es la velocidad máxima de los buses interurbanos?",
+   "options": [
+    "100 km/h",
+    "90 km/h",
+    "120 km/h",
+    "80 km/h"
+   ]
+  },
+  {
+   "id": "u8-62",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 96,
+   "explain": "Instalando las señales correspondientes.",
+   "type": "tf",
+   "prompt": "La autoridad puede modificar los límites de velocidad en determinadas vías con señales.",
+   "answer": true
+  },
+  {
+   "id": "u8-63",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 96,
+   "explain": "También en zonas pobladas, curvas, caminos angostos, pavimento resbaladizo, etc.",
+   "type": "mc",
+   "prompt": "¿En cuál de estas situaciones debes reducir obligatoriamente la velocidad?",
+   "options": [
+    "Al acercarte a la cima de una cuesta",
+    "Al entrar a una autopista vacía",
+    "Al circular de día por recta",
+    "Al salir de un estacionamiento techado"
+   ]
+  },
+  {
+   "id": "u8-64",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 97,
+   "explain": "Es una situación de reducción obligatoria.",
+   "type": "tf",
+   "prompt": "En una Zona de Tránsito Calmado debes reducir la velocidad a lo indicado en las señales.",
+   "answer": true
+  },
+  {
+   "id": "u8-65",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 97,
+   "explain": "Reduce la velocidad.",
+   "type": "tf",
+   "prompt": "La luz y sombra de una calle arbolada en día soleado dificulta ver a otros y calcular distancias.",
+   "answer": true
+  },
+  {
+   "id": "u8-66",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 98,
+   "explain": "Muchas personas creen ser más hábiles de lo que son.",
+   "type": "tf",
+   "prompt": "Muchos siniestros en carretera ocurren sin que participe otro vehículo o peatón.",
+   "answer": true
+  },
+  {
+   "id": "u8-67",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 98,
+   "explain": "La conducción varía de un automóvil a otro.",
+   "type": "tf",
+   "prompt": "Un vehículo prestado o arrendado que no conoces bien se debe conducir con calma.",
+   "answer": true
+  },
+  {
+   "id": "u8-68",
+   "unit": "u8",
+   "lesson": 2,
+   "page": 98,
+   "explain": "El asfalto mojado también es más resbaladizo que el seco.",
+   "type": "mc",
+   "prompt": "¿Dónde es significativamente mayor la distancia de frenado?",
+   "options": [
+    "En un camino de ripio o grava",
+    "En asfalto seco",
+    "En una autopista nueva con asfalto seco",
+    "En una calle con semáforos"
+   ]
+  },
+  {
+   "id": "u9-26",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 99,
+   "explain": "Desconfía siempre de los vehículos que vienen en sentido contrario.",
+   "type": "tf",
+   "prompt": "Si un vehículo de una fila contraria puede salirse a adelantar, debes mantenerte a tu derecha y reducir la velocidad.",
+   "answer": true
+  },
+  {
+   "id": "u9-27",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 99,
+   "explain": "Nunca conduzcas demasiado cerca del eje: quien viene en contra puede haberse dormido.",
+   "type": "tf",
+   "prompt": "Conducir cerca del eje de calzada reduce el riesgo al cruzarte con otros vehículos.",
+   "answer": false
+  },
+  {
+   "id": "u9-28",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 99,
+   "explain": "En último caso, sal de la carretera hacia la derecha.",
+   "type": "mc",
+   "prompt": "Si el vehículo que viene de frente patina en pavimento resbaladizo, ¿qué haces?",
+   "options": [
+    "Reduces, te alejas del centro y no frenas en pánico",
+    "Frenas a fondo y giras hacia la izquierda",
+    "Aceleras para cruzarte antes que patine",
+    "Te detienes en el centro mismo de la vía"
+   ]
+  },
+  {
+   "id": "u9-29",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 99,
+   "explain": "Mira mucho más adelante a lo largo del borde derecho.",
+   "type": "tf",
+   "prompt": "Al cruzarte con otro vehículo, debes mirarlo fijamente para calcular su posición.",
+   "answer": false
+  },
+  {
+   "id": "u9-30",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 100,
+   "explain": "Es un gran error, y además crea estrés y prisa innecesaria.",
+   "type": "tf",
+   "prompt": "Ir siempre a la velocidad máxima permite ganar mucho tiempo en un viaje.",
+   "answer": false
+  },
+  {
+   "id": "u9-31",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 101,
+   "explain": "También: espacio libre, distancia necesaria, velocidad del otro y tu aceleración.",
+   "type": "mc",
+   "prompt": "Antes de adelantar, ¿qué pregunta debes hacerte?",
+   "options": [
+    "¿Qué gano con adelantar?",
+    "¿Quién me está mirando?",
+    "¿Qué hora es?",
+    "¿Cuánto combustible me queda?"
+   ]
+  },
+  {
+   "id": "u9-32",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 101,
+   "explain": "Y no cuentes con ayuda del que adelantas: puede acelerar.",
+   "type": "tf",
+   "prompt": "Al adelantar, debes pensar que quien viene en contra va más rápido de lo que crees.",
+   "answer": true
+  },
+  {
+   "id": "u9-33",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 101,
+   "explain": "Cada uno recorre 200 m: el siniestro es un hecho.",
+   "type": "mc",
+   "prompt": "A 90 km/h con otro a 90 km/h en contra a 350 m, un adelantamiento de 8 segundos…",
+   "options": [
+    "Termina en un siniestro",
+    "Termina sin problemas",
+    "Ahorra mucho tiempo",
+    "Es seguro si tocas la bocina"
+   ]
+  },
+  {
+   "id": "u9-34",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 101,
+   "explain": "Mira los espejos y por encima del hombro.",
+   "type": "tf",
+   "prompt": "Si alguien detrás tuyo ya empezó a adelantarte, debes esperar a que termine antes de adelantar.",
+   "answer": true
+  },
+  {
+   "id": "u9-35",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 101,
+   "explain": "Mantén espacio detrás de él para ver mejor hacia adelante.",
+   "type": "tf",
+   "prompt": "Adelantar un vehículo largo es más arriesgado.",
+   "answer": true
+  },
+  {
+   "id": "u9-36",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 102,
+   "explain": "Hazlo rápido pero sin sobrepasar el límite.",
+   "type": "tf",
+   "prompt": "Al adelantar puedes superar el límite de velocidad para terminar antes.",
+   "answer": false
+  },
+  {
+   "id": "u9-37",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 102,
+   "explain": "En lugar de hacerlo sin certeza.",
+   "type": "tf",
+   "prompt": "Si aparece un vehículo en contra o sientes inseguridad, debes interrumpir el adelantamiento.",
+   "answer": true
+  },
+  {
+   "id": "u9-38",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 103,
+   "explain": "Incluso si no necesitas traspasar el eje de calzada.",
+   "type": "tf",
+   "prompt": "No debes adelantar al acercarte a un cruce o paso de peatones sin semáforo.",
+   "answer": true
+  },
+  {
+   "id": "u9-39",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 103,
+   "explain": "Tampoco si alguien detrás ya inició un adelantamiento.",
+   "type": "tf",
+   "prompt": "Puedes adelantar aunque el vehículo de adelante haya señalizado que va a adelantar.",
+   "answer": false
+  },
+  {
+   "id": "u9-40",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 103,
+   "explain": "Y cuando el vehículo alcanzado va a virar a la izquierda.",
+   "type": "mc",
+   "prompt": "¿En qué otro caso puedes adelantar por la derecha?",
+   "options": [
+    "En vía urbana con 3 o más pistas en tu sentido",
+    "En carretera de una pista por sentido",
+    "Cuando el de adelante va más lento que tú",
+    "En curvas con buena visibilidad"
+   ]
+  },
+  {
+   "id": "u9-41",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 103,
+   "explain": "Legalmente no constituye adelantamiento; no se hace fuera de la calzada.",
+   "type": "mc",
+   "prompt": "¿Qué es una maniobra de sobrepaso?",
+   "options": [
+    "Ponerte adelante sin invadir la pista contraria",
+    "Adelantar cruzando el eje central de la calzada",
+    "Virar en U en una avenida",
+    "Retroceder para estacionar"
+   ]
+  },
+  {
+   "id": "u9-42",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 103,
+   "explain": "A velocidad moderada y con precaución.",
+   "type": "tf",
+   "prompt": "Ciclos y motos pueden sobrepasar por la misma pista a vehículos detenidos para llegar a la línea de detención.",
+   "answer": true
+  },
+  {
+   "id": "u9-43",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 104,
+   "explain": "Al lado izquierdo solo si la señalización lo permite.",
+   "type": "tf",
+   "prompt": "Si no hay estacionamiento fuera de la vía, debes estacionar al lado derecho en el sentido del tránsito.",
+   "answer": true
+  },
+  {
+   "id": "u9-44",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 104,
+   "explain": "Donde no haya berma, al costado derecho y lo más cerca de la cuneta.",
+   "type": "mc",
+   "prompt": "En caminos rurales, ¿dónde debes estacionar?",
+   "options": [
+    "Con todo el vehículo sobre la berma",
+    "Con la mitad del auto en la calzada",
+    "En el centro de la calzada",
+    "Al lado izquierdo del camino"
+   ]
+  },
+  {
+   "id": "u9-45",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 104,
+   "explain": "Además: motor detenido, enganchado, freno de mano, sacar la llave y cerrar.",
+   "type": "tf",
+   "prompt": "Al estacionar no debes dejar niños pequeños ni animales dentro del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u9-46",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 104,
+   "explain": "También en aceras, doble fila, cruces, ciclovías, puentes y túneles.",
+   "type": "mc",
+   "prompt": "¿Dónde está prohibido estacionar y detenerse?",
+   "options": [
+    "En la berma de caminos con 2 o más pistas por sentido",
+    "En un estacionamiento habilitado fuera de la vía",
+    "En la calle al lado derecho, donde no hay señal",
+    "Fuera de la vía pública, en un recinto privado"
+   ]
+  },
+  {
+   "id": "u9-47",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 105,
+   "explain": "También hoteles y salas de espectáculos.",
+   "type": "mc",
+   "prompt": "¿A qué distancia mínima de la puerta de una iglesia o colegio puedes estacionar en horas de afluencia?",
+   "options": [
+    "3 metros",
+    "10 metros",
+    "20 metros",
+    "1 metro"
+   ]
+  },
+  {
+   "id": "u9-48",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 105,
+   "explain": "También de Ceda el Paso y señales de advertencia de peligro.",
+   "type": "mc",
+   "prompt": "¿A qué distancia mínima de una señal PARE puedes estacionar?",
+   "options": [
+    "10 metros",
+    "5 metros",
+    "3 metros",
+    "20 metros"
+   ]
+  },
+  {
+   "id": "u9-49",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 105,
+   "explain": "Tampoco de un cuartel de bombas o posta.",
+   "type": "tf",
+   "prompt": "No puedes estacionar a menos de 10 metros de la entrada de un hospital.",
+   "answer": true
+  },
+  {
+   "id": "u9-50",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 106,
+   "explain": "Igual que de un cruce ferroviario a nivel.",
+   "type": "mc",
+   "prompt": "¿A qué distancia mínima de un paradero de locomoción colectiva puedes estacionar?",
+   "options": [
+    "20 metros",
+    "10 metros",
+    "5 metros",
+    "50 metros"
+   ]
+  },
+  {
+   "id": "u9-51",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 106,
+   "explain": "Debes abandonar el lugar cuando llegue quien goza de la reserva.",
+   "type": "tf",
+   "prompt": "Puedes detenerte en un lugar reservado a otro si permaneces en tu vehículo para irte cuando llegue.",
+   "answer": true
+  },
+  {
+   "id": "u9-52",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 106,
+   "explain": "Para ser visible.",
+   "type": "tf",
+   "prompt": "De noche en una vía sin alumbrado, debes dejar encendidas las luces de estacionamiento.",
+   "answer": true
+  },
+  {
+   "id": "u9-53",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 106,
+   "explain": "Y si es posible, mantener las luces de advertencia de peligro.",
+   "type": "tf",
+   "prompt": "Si te detienes por una avería en un lugar no autorizado, debes instalar los dispositivos reflectantes.",
+   "answer": true
+  },
+  {
+   "id": "u9-54",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 106,
+   "explain": "El chaleco debe ser amarillo con bandas de al menos 50 mm.",
+   "type": "mc",
+   "prompt": "¿Qué ancho mínimo deben tener las bandas reflectantes del chaleco?",
+   "options": [
+    "50 milímetros",
+    "10 milímetros",
+    "5 centímetros y medio",
+    "20 milímetros"
+   ]
+  },
+  {
+   "id": "u9-55",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 107,
+   "explain": "Solo con indicación expresa de Carabineros.",
+   "type": "tf",
+   "prompt": "Si pasaste la línea de detención, puedes retroceder en el cruce.",
+   "answer": false
+  },
+  {
+   "id": "u9-56",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 107,
+   "explain": "Verifica que no haya peatones, especialmente niños.",
+   "type": "tf",
+   "prompt": "Al retroceder no debes confiar en los espejos para juzgar la distancia.",
+   "answer": true
+  },
+  {
+   "id": "u9-57",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 107,
+   "explain": "Detente siempre, mira en ambas direcciones y escucha.",
+   "type": "tf",
+   "prompt": "Antes de cruzar una vía férrea conviene apagar la radio para escuchar.",
+   "answer": true
+  },
+  {
+   "id": "u9-58",
+   "unit": "u9",
+   "lesson": 2,
+   "page": 107,
+   "explain": "La responsabilidad descansa completamente en ti.",
+   "type": "tf",
+   "prompt": "En un cruce ferroviario, el tren tiene siempre la preferencia.",
+   "answer": true
   }
  ]
 }

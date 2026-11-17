@@ -1,0 +1,1548 @@
+{
+ "capitulo": 6,
+ "titulo": "Normas de circulación",
+ "unidad": "u7",
+ "unidades": [
+  "u8",
+  "u9"
+ ],
+ "sesiones": [
+  [
+   "c6s1",
+   "El lenguaje del tránsito y las señales de Carabineros"
+  ],
+  [
+   "c6s2",
+   "Los semáforos"
+  ],
+  [
+   "c6s3",
+   "Señales verticales"
+  ],
+  [
+   "c6s4",
+   "Demarcaciones"
+  ],
+  [
+   "c6s5",
+   "La obligación de ceder el paso"
+  ],
+  [
+   "c6s6",
+   "Signos y señales entre conductores"
+  ],
+  [
+   "c6s7",
+   "Ubicación del vehículo y distancias"
+  ],
+  [
+   "c6s8",
+   "Uso de las pistas y cambios de pista"
+  ],
+  [
+   "c6s9",
+   "Virajes y rotondas"
+  ],
+  [
+   "c6s10",
+   "Pistas especiales"
+  ],
+  [
+   "c6s11",
+   "La velocidad y sus límites"
+  ],
+  [
+   "c6s12",
+   "Encuentros con vehículos en sentido contrario"
+  ],
+  [
+   "c6s13",
+   "Adelantamientos"
+  ],
+  [
+   "c6s14",
+   "Estacionamiento y detención"
+  ],
+  [
+   "c6s15",
+   "Retroceso y cruces ferroviarios"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c6s1",
+   "cita": "Las señales de Carabineros de Chile. Los semáforos. La señalización del tránsito: señales verticales y demarcaciones viales. Las reglas del tránsito.",
+   "mc": "¿De cuántas maneras se expresa el lenguaje del tránsito según el libro?",
+   "o": [
+    "Cuatro",
+    "Cinco",
+    "Tres",
+    "Siete"
+   ],
+   "e": "Señales de Carabineros, semáforos, señalización (verticales y demarcaciones) y reglas del tránsito.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s1",
+   "cita": "Carabineros de Chile Inspectores Fiscales Inspectores Municipales",
+   "mc": "¿Quiénes velan por el cumplimiento de las normas de circulación?",
+   "o": [
+    "Carabineros e inspectores fiscales y municipales",
+    "Solo las escuelas de conductores del país",
+    "Solo los guardias de las autopistas urbanas",
+    "Las compañías de seguros de los vehículos"
+   ],
+   "e": "Carabineros de Chile, Inspectores Fiscales e Inspectores Municipales.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s1",
+   "cita": "En tal caso, las indicaciones dadas por Carabineros de Chile prevalecen sobre las demás.",
+   "q": [
+    "u7-01"
+   ]
+  },
+  {
+   "s": "c6s1",
+   "cita": "Carabineros vistos de frente o de espalda: indican detención.",
+   "q": [
+    "u7-02"
+   ]
+  },
+  {
+   "s": "c6s1",
+   "cita": "Carabinero con el brazo en alto: indica advertencia.",
+   "q": [
+    "u7-03"
+   ]
+  },
+  {
+   "s": "c6s1",
+   "cita": "Carabinera vista de costado: autoriza para avanzar.",
+   "mc": "Si ves a un carabinero de costado, significa que…",
+   "o": [
+    "Puedes avanzar",
+    "Debes detenerte",
+    "Debes retroceder",
+    "Debes estacionar"
+   ],
+   "e": "De frente o de espalda: detención. Brazo en alto: advertencia. De costado: avanzar.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "No respetar la indicación de la luz roja de un semáforo, es una infracción gravísima a la Ley de Tránsito.",
+   "q": [
+    "u7-11"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Luz verde: Indica paso. Los vehículos que la enfrentan pueden continuar en el mismo sentido o virar, a menos que en el lugar haya una señal de tránsito que prohíba algún viraje.",
+   "tf": "Con luz verde puedes continuar o virar, salvo que una señal prohíba el viraje.",
+   "a": true,
+   "e": "Luz verde indica paso.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "Aún teniendo luz verde, no avances si pasado el cruce no tienes a lo menos 10 metros expeditos en tu pista de circulación.",
+   "q": [
+    "u7-07"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Las y los peatones que también enfrentan la luz verde tienen prioridad para cruzar.",
+   "tf": "Si vas a virar con luz verde, debes ceder el paso a peatones y ciclistas que cruzan.",
+   "a": true,
+   "e": "Los peatones que también enfrentan la luz verde tienen prioridad.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "Luz roja: Indica detención. Los vehículos que enfrentan luz roja deben detenerse antes de la línea de detención",
+   "mc": "Con luz roja, ¿dónde debes detenerte?",
+   "o": [
+    "Antes de la línea de detención",
+    "Sobre el paso de peatones",
+    "Dentro del cruce, a la derecha",
+    "Después de la línea de detención"
+   ],
+   "e": "No avances hasta que se encienda la luz verde.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "Luz roja intermitente: Indica ceda el paso.",
+   "q": [
+    "u7-05"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Si la luz amarilla te sorprende tan próximo al cruce que ya no puedes detenerte con suficiente seguridad, continúa con precaución.",
+   "q": [
+    "u7-04"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Luz amarilla intermitente: Advierte peligro.",
+   "q": [
+    "u7-06"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Luz roja y flecha verde: Los vehículos que enfrenten estas luces podrán entrar cuidadosamente al cruce, pero sólo para continuar en la dirección indicada por la flecha",
+   "q": [
+    "u7-08"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "Si estás virando, aun cuando enfrentes luz verde, recuerda que tienen la preferencia.",
+   "tf": "Con semáforo con cabezal para ciclistas, al virar con luz verde los ciclistas tienen la preferencia.",
+   "a": true,
+   "e": "Aun cuando enfrentes luz verde.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "Algunos de estos semáforos son activados por las personas.",
+   "tf": "Algunos semáforos peatonales son activados por las personas.",
+   "a": true,
+   "e": "Permiten a los peatones cruzar con seguridad.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s2",
+   "cita": "Las señales luminosas en los cruces ferroviarios son de color blanco y rojo.",
+   "q": [
+    "u7-09"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "salvo que el color verde puede ser reemplazado por blanco.",
+   "q": [
+    "u7-10"
+   ]
+  },
+  {
+   "s": "c6s2",
+   "cita": "La equis, usualmente de color rojo, indica que la pista está cerrada. La flecha muestra que la vía está abierta al tránsito.",
+   "mc": "En una señal de mensaje variable sobre la calzada, una equis roja indica que…",
+   "o": [
+    "La pista está cerrada",
+    "La pista es exclusiva para buses",
+    "Hay un cruce ferroviario",
+    "Debes adelantar por ahí"
+   ],
+   "e": "La flecha muestra que la vía está abierta.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s3",
+   "cita": "Señales reglamentarias: tienen por finalidad notificar a las personas usuarias de la vía acerca de prioridades, prohibiciones, restricciones, obligaciones y autorizaciones.",
+   "q": [
+    "u7-12"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "Por lo general, estas señales tienen forma circular o rectangular, teniendo los símbolos y/o números inscritos dentro de un círculo u orla roja.",
+   "mc": "¿Qué forma suelen tener las señales reglamentarias?",
+   "o": [
+    "Circular o rectangular, con círculo rojo",
+    "Rombo amarillo con un símbolo negro al centro",
+    "Cuadrada azul con letras blancas",
+    "Triangular naranja con borde negro"
+   ],
+   "e": "Se exceptúan PARE, Ceda el Paso, Fin Restricción, entre otras.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s3",
+   "cita": "la señal FIN RESTRICCIÓN pone término a la restricción mostrada al interior del círculo.",
+   "tf": "La señal FIN RESTRICCIÓN pone término a la restricción mostrada en su círculo.",
+   "a": true,
+   "e": "Por ejemplo, “No adelantar”.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s3",
+   "cita": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro. Excepto la señal denominada Cruz de San Andrés.",
+   "q": [
+    "u7-13"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "que pueden ser de un color amarillo distinto al resto, con una tonalidad levemente verde.",
+   "tf": "Algunas señales de advertencia sobre usuarios vulnerables pueden ser de un amarillo levemente verde.",
+   "a": true,
+   "e": "Son de un color amarillo distinto al resto.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s3",
+   "cita": "debes evitar los adelantamientos una vez pasada la señal y tomar las precauciones del caso",
+   "q": [
+    "u7-19"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "en general, de color azul en el caso de Autopistas y Autovías y de color verde en otro tipo de vía.",
+   "q": [
+    "u7-16"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "las que informan sobre atractivos turísticos también pueden ser de color café.",
+   "q": [
+    "u7-17"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "Son de color naranja, con la excepción de la primera señal que advierte sobre los trabajos, la que es de color amarillo.",
+   "q": [
+    "u7-18"
+   ]
+  },
+  {
+   "s": "c6s3",
+   "cita": "La eventual presencia de personas trabajando, materiales como arena, piedras o ripio, incluso maquinaria, pueden ser un riesgo.",
+   "tf": "En zonas con trabajos en la vía debes moderar la velocidad.",
+   "a": true,
+   "e": "Personas, materiales o maquinaria pueden ser un riesgo.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s4",
+   "cita": "Puedes traspasar estas líneas y cambiar de pista advirtiendo previamente a las y los demás usuarios de la vía tu intención de hacerlo",
+   "q": [
+    "u7-23"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "Las líneas longitudinales continuas ( 2 ), pueden estar complementadas con tachas reflectantes de color rojo, e indican que no existen condiciones de seguridad para que pueda ser traspasada.",
+   "q": [
+    "u7-24"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "sólo puede ser traspasada por los vehículos que circulan por el lado en que esta es segmentada.",
+   "q": [
+    "u7-25"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "No debes circular por esta franja de seguridad lateral. Solo en áreas rurales, en caso de emergencia, podrás traspasar esta línea para permanecer en la berma.",
+   "q": [
+    "u7-31"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "tanto la demarcación del eje central como la de borde de calzada pueden ser de color amarillo",
+   "q": [
+    "u7-30"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "una franja amarilla continua, con el propósito de señalar la prohibición de estacionar a lo largo de esta",
+   "q": [
+    "u7-26"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "zona de espera especial para personas conductoras de ciclos y/o motociletas",
+   "tf": "Entre la línea de detención y el paso de peatones puede haber una zona de espera para ciclos y motos.",
+   "a": true,
+   "e": "Bajo ciertas condiciones de cruce semaforizado y ancho de calzada.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s4",
+   "cita": "¡No lo olvides! En un paso de cebra, las y los peatones tienen prioridad.",
+   "mc": "En un paso de cebra, ¿quién tiene prioridad?",
+   "o": [
+    "Las y los peatones",
+    "Los vehículos que vienen por la derecha",
+    "Los vehículos de mayor tamaño",
+    "Quien llegue primero al cruce"
+   ],
+   "e": "Los pasos de cebra son pasos peatonales en lugares no semaforizados.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s4",
+   "cita": "Aunque esta no esté pintada, imaginariamente se ubica a no menos de un metro antes de éstos.",
+   "q": [
+    "u7-28"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "Las personas que enfrenten esta demarcación sólo pueden cruzar cuando en la salida del cruce exista espacio suficiente para no quedar detenido en él.",
+   "q": [
+    "u7-27"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "No debes circular, menos aún estacionar, sobre estas áreas achuradas",
+   "q": [
+    "u7-29"
+   ]
+  },
+  {
+   "s": "c6s4",
+   "cita": "El espacio requerido para virar por un vehículo de gran tamaño puede exceder el ancho de una pista.",
+   "tf": "Un vehículo de gran tamaño puede necesitar más de una pista para virar.",
+   "a": true,
+   "e": "Detente y espera a que finalice su maniobra.",
+   "u": "u7"
+  },
+  {
+   "s": "c6s5",
+   "cita": "debes detener tu vehículo y permitir el paso de quienes circulan por la otra vía. Sólo podrás reanudar la marcha cuando no exista posibilidad alguna de siniestro.",
+   "q": [
+    "u7-14"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "debes reducir la velocidad hasta detenerte si es necesario y ceder el paso a los vehículos que circulan por la otra vía",
+   "q": [
+    "u7-15"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha.",
+   "q": [
+    "u8-01"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "cuando tengas el propósito de virar, carecerás de toda preferencia",
+   "q": [
+    "u8-02"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "Al incorporarte a una zona de tránsito en rotación –rotonda o minirrotonda- , debes ceder el paso a los vehículos que circulan por ella.",
+   "q": [
+    "u8-03"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "En las áreas rurales, cuando te aproximes a una vía principal por una secundaria, debes ceder el paso a los vehículos que circulen por la vía principal.",
+   "q": [
+    "u8-04"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "cita": "ceder el paso significa que quien tiene la preferencia en el uso de la vía no debe verse en la obligación de modificar su trayectoria ni su velocidad",
+   "q": [
+    "u8-05"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "u": "u8",
+   "cita": "Al aproximarte a un paso de cebra en el que alguien se disponga a cruzar, debes detenerte y cederle el paso.",
+   "tf": "Si alguien se dispone a cruzar por un paso de cebra, debes detenerte y cederle el paso.",
+   "a": true,
+   "e": "Es una de las obligaciones de ceder el paso."
+  },
+  {
+   "s": "c6s5",
+   "cita": "Al incorporarte a la circulación desde una vía particular, desde un inmueble o un estacionamiento, debes ceder el paso",
+   "q": [
+    "u8-07"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "u": "u8",
+   "cita": "Al ponerte en marcha después de una detención, debes ceder el paso a los vehículos en tránsito y a las y los peatones.",
+   "tf": "Al ponerte en marcha después de una detención, debes ceder el paso a vehículos y peatones.",
+   "a": true,
+   "e": "Es otra obligación de ceder el paso."
+  },
+  {
+   "s": "c6s5",
+   "u": "u8",
+   "cita": "Cuando la pista por la que circulas se ve sorpresivamente obstaculizada, también carecerás de prioridad frente a los demás vehículos, para poder cambiarte de pista.",
+   "tf": "Si tu pista se obstaculiza de repente, tienes prioridad para cambiarte de pista.",
+   "a": false,
+   "e": "Carecerás de prioridad frente a los demás vehículos."
+  },
+  {
+   "s": "c6s5",
+   "cita": "deberás cederles el derecho a vía, ya sea desplazándote hacia un lado en la calzada y deteniéndote si es necesario",
+   "q": [
+    "u8-06"
+   ]
+  },
+  {
+   "s": "c6s5",
+   "u": "u8",
+   "cita": "(vehículos policiales, carros bomba, ambulancias y pertenecientes a la Policía de Investigaciones)",
+   "mc": "¿Cuál de estos es un vehículo de emergencia según el libro?",
+   "o": [
+    "Un carro bomba",
+    "Un taxi colectivo",
+    "Un bus interurbano",
+    "Un camión de carga"
+   ],
+   "e": "Vehículos policiales, carros bomba, ambulancias y de la Policía de Investigaciones."
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "el hecho de que hagas señales a tiempo no te libera de la obligación de tener precaución.",
+   "tf": "Señalizar a tiempo te libera de la obligación de tener precaución.",
+   "a": false,
+   "e": "Debes seguir con precaución e interpretar las señales de los demás."
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "Si un vehículo hace señales con su intermitente izquierdo, significa que va a virar hacia la izquierda.",
+   "tf": "Si el vehículo de adelante pone el intermitente izquierdo, te está indicando que lo pases.",
+   "a": false,
+   "e": "Significa que va a virar a la izquierda; interpretarlo mal puede causar un siniestro."
+  },
+  {
+   "s": "c6s6",
+   "cita": "Recuerda siempre la secuencia espejo – señalización – maniobra.",
+   "q": [
+    "u8-08"
+   ]
+  },
+  {
+   "s": "c6s6",
+   "cita": "Señaliza con al menos 30 metros de anticipación cuando vayas a virar.",
+   "q": [
+    "u8-09"
+   ]
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "Brazo extendido horizontalmente indica viraje a la izquierda.",
+   "mc": "Quien conduce saca el brazo extendido horizontalmente. ¿Qué indica?",
+   "o": [
+    "Viraje a la izquierda",
+    "Viraje a la derecha",
+    "Detención",
+    "Adelantamiento"
+   ],
+   "e": "Brazo en ángulo recto hacia arriba: derecha. Brazo hacia abajo: disminución de velocidad o detención."
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "pisando ligeramente el pedal de freno para que las luces se enciendan.",
+   "tf": "Puedes avisar a quienes van detrás pisando ligeramente el freno para que se enciendan las luces.",
+   "a": true,
+   "e": "Las luces de freno se encienden automáticamente al pisar el pedal."
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "Las luces traseras blancas se encienden al retroceder.",
+   "mc": "¿Cuándo se encienden las luces traseras blancas?",
+   "o": [
+    "Al retroceder",
+    "Al frenar",
+    "Al virar",
+    "Al estacionar"
+   ],
+   "e": "Son las luces de retroceso."
+  },
+  {
+   "s": "c6s6",
+   "cita": "Nunca la utilices en un túnel, ni a la entrada o salida de este. Tampoco las uses cerca de personas ciclistas.",
+   "q": [
+    "u8-10"
+   ]
+  },
+  {
+   "s": "c6s6",
+   "u": "u8",
+   "cita": "Sólo para prevenir un siniestro y siempre que su uso sea estrictamente necesario, puedes hacer uso de la bocina",
+   "mc": "¿Cuándo puedes usar la bocina?",
+   "o": [
+    "Solo para prevenir un siniestro",
+    "Para saludar a otros conductores",
+    "Para apurar al de adelante",
+    "Al adelantar a animales"
+   ],
+   "e": "Nunca en túneles, cerca de ciclistas ni al adelantar animales."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "En ocasiones, el eje de calzada puede no estar demarcado. En este caso, la división de la calzada es en dos partes iguales y siempre debes circular por la derecha.",
+   "tf": "Si el eje de calzada no está demarcado, la calzada se divide en dos partes iguales y circulas por la derecha.",
+   "a": true,
+   "e": "Siempre debes circular por la derecha."
+  },
+  {
+   "s": "c6s7",
+   "cita": "Por ejemplo, si circulas a 80 km/h debes mantenerte a una distancia de unos 80 metros",
+   "q": [
+    "u8-11"
+   ]
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "En el tránsito urbano, dicha distancia puede reducirse a la mitad.",
+   "mc": "En el tránsito urbano, la distancia de seguimiento de la regla de metros = km/h puede…",
+   "o": [
+    "Reducirse a la mitad",
+    "Duplicarse siempre",
+    "Reducirse a cero",
+    "Triplicarse de noche"
+   ],
+   "e": "En carretera: metros iguales a los km/h; en ciudad puede ser la mitad."
+  },
+  {
+   "s": "c6s7",
+   "cita": "Si pasas el árbol antes de haber contado mil tres significa que la distancia que estás guardando es muy corta.",
+   "q": [
+    "u8-12"
+   ]
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "Agrega un tiempo extra si las condiciones climáticas o de la carretera son adversas.",
+   "tf": "Con clima o carretera adversos, debes agregar tiempo extra a la Regla de los Tres Segundos.",
+   "a": true,
+   "e": "Agrega un tiempo extra."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "En este tiempo recorrerás alrededor de 15 metros si vas a 50 km/h, de 20 metros si vas a 70 km/h y 25 metros si vas a 90 km/h.",
+   "mc": "Si el de adelante frena, en el segundo que tardas en reaccionar a 90 km/h recorres…",
+   "o": [
+    "Alrededor de 25 metros",
+    "Alrededor de 5 metros",
+    "Alrededor de 90 metros",
+    "Alrededor de 50 metros"
+   ],
+   "e": "50 km/h: 15 m; 70 km/h: 20 m; 90 km/h: 25 m."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "Por lo general, los choques en serie se deben a que las personas conductoras guardan una distancia demasiado corta",
+   "mc": "¿A qué se deben por lo general los choques en serie?",
+   "o": [
+    "A guardar una distancia demasiado corta",
+    "A conducir con luces bajas durante el día",
+    "A circular por la pista derecha",
+    "A usar mal la bocina"
+   ],
+   "e": "No les permite frenar a tiempo."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "cambia el pie desde el pedal del acelerador al del freno y mantenlo listo para utilizarlo.",
+   "tf": "En congestión conviene tener el pie sobre el freno, listo para usarlo.",
+   "a": true,
+   "e": "Debes permanecer atento y preparado para frenar."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "La misma ley exime de tal disposición sólo a los vehículos que marchan en caravana en un cortejo fúnebre.",
+   "mc": "¿Quiénes están eximidos de dejar espacio para que otro los adelante?",
+   "o": [
+    "Los vehículos de un cortejo fúnebre",
+    "Los buses de transporte público de pasajeros",
+    "Los vehículos de emergencia",
+    "Los camiones de carga"
+   ],
+   "e": "La ley exige dejar distancia suficiente para que otro pueda adelantar, salvo el cortejo fúnebre."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "Aumenta tu distancia si en la ciudad vas circulando detrás de un vehículo con patente extranjera.",
+   "tf": "Conviene aumentar la distancia detrás de un vehículo con patente extranjera en la ciudad.",
+   "a": true,
+   "e": "Podría frenar sorpresivamente o virar inesperadamente por no conocer el lugar."
+  },
+  {
+   "s": "c6s7",
+   "u": "u8",
+   "cita": "Cuando circules por una carretera de una pista por sentido, mantente lo más cerca posible del borde derecho de la calzada.",
+   "tf": "En carretera de una pista por sentido, debes ir lo más cerca posible del borde derecho.",
+   "a": true,
+   "e": "Otros pueden equivocarse al adelantar."
+  },
+  {
+   "s": "c6s7",
+   "cita": "Deja un espacio suficiente, equivalente al ancho de una puerta, al pasar cerca de vehículos estacionados.",
+   "q": [
+    "u8-13"
+   ]
+  },
+  {
+   "s": "c6s8",
+   "u": "u8",
+   "cita": "Sitúate completamente dentro de una pista, a fin de no obstaculizar el tránsito por la otra. Circula siempre por la mitad derecha de la calzada.",
+   "tf": "Debes circular siempre por la mitad derecha de la calzada.",
+   "a": true,
+   "e": "Sitúate completamente dentro de una pista."
+  },
+  {
+   "s": "c6s8",
+   "u": "u8",
+   "cita": "En el tránsito urbano, la calzada tenga demarcadas tres o más pistas de circulación en un mismo sentido.",
+   "mc": "¿Cuándo puedes circular por la pista izquierda?",
+   "o": [
+    "En ciudad, con 3 o más pistas en tu sentido",
+    "Siempre que vayas más lento que el resto",
+    "Solo de noche cuando estás en carretera",
+    "Cuando quieras estacionar al otro lado"
+   ],
+   "e": "También para adelantar, si la derecha está impedida, en vías de un sentido o en autopistas."
+  },
+  {
+   "s": "c6s8",
+   "u": "u8",
+   "cita": "pero no podrás pasar hacia aquella pista para ingresar de forma inmediata a una tercera.",
+   "tf": "Puedes cambiarte de una pista a otra para pasar de inmediato a una tercera.",
+   "a": false,
+   "e": "No puedes pasar a la pista adyacente para ingresar de forma inmediata a una tercera."
+  },
+  {
+   "s": "c6s8",
+   "u": "u8",
+   "cita": "Verificar a través del espejo retrovisor, de los espejos laterales y mirando por encima de tu hombro",
+   "tf": "Antes de cambiar de pista debes mirar los espejos y también por encima de tu hombro.",
+   "a": true,
+   "e": "Y advertir con anticipación suficiente."
+  },
+  {
+   "s": "c6s8",
+   "u": "u8",
+   "cita": "Evita los cambios de pista sin necesidad (cada desplazamiento implica siempre un riesgo).",
+   "tf": "Cada cambio de pista implica siempre un riesgo.",
+   "a": true,
+   "e": "Evita los cambios de pista sin necesidad."
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "Ubícate tan cerca como sea posible del borde derecho de la calzada, a menos que exista una ciclovía",
+   "mc": "Para virar a la derecha, ¿dónde te ubicas?",
+   "o": [
+    "Lo más cerca posible del borde derecho",
+    "En el centro mismo de la calzada",
+    "Junto al eje central de la calzada",
+    "En la pista izquierda de la calzada"
+   ],
+   "e": "Si hay ciclovía, lo más cerca del elemento segregador; asegúrate de que no pasen ciclos."
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "Debes apagar el señalizador una vez finalizado el viraje.",
+   "tf": "Debes apagar el señalizador una vez terminado el viraje.",
+   "a": true,
+   "e": "Y planear pronto tu ubicación después de virar."
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "En una carretera donde la velocidad máxima permitida sea 100 km/h puede tratarse de unos 300 a 400 metros.",
+   "mc": "En una carretera con máxima de 100 km/h, ¿con cuánta anticipación conviene preparar y señalizar un viraje?",
+   "o": [
+    "Unos 300 a 400 metros",
+    "Unos 10 metros",
+    "Unos 30 metros",
+    "Unos 2 kilómetros"
+   ],
+   "e": "La distancia depende de la velocidad."
+  },
+  {
+   "s": "c6s9",
+   "cita": "Si te ves en la obligación de detenerte, hazlo unos metros antes de la intersección con tus ruedas delanteras orientadas hacia adelante.",
+   "q": [
+    "u8-15"
+   ]
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "Una gran cantidad de los siniestros que se producen cuando un vehículo va a virar a la izquierda corresponden a choques por atrás.",
+   "mc": "¿Qué tipo de siniestro es frecuente al virar a la izquierda?",
+   "o": [
+    "Choques por atrás",
+    "Volcamientos",
+    "Atropellos de ciclistas",
+    "Choques laterales en rotondas"
+   ],
+   "e": "Por eso hay que mirar también lo que viene detrás."
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "El abstenerse de virar a la izquierda no sólo es conveniente cuando hay un cambio de rasante, sino que también cuando la vía hacia la cual deseas virar se encuentra cerca de una curva con escasa visibilidad.",
+   "tf": "Conviene no virar a la izquierda cerca de un cambio de rasante o de una curva con poca visibilidad.",
+   "a": true,
+   "e": "Puede haber alguien oculto."
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "Se denomina viraje en “U” a aquella maniobra mediante la cual el vehículo vira en 180º",
+   "mc": "¿Qué es un viraje en “U”?",
+   "o": [
+    "Virar en 180° y tomar la dirección contraria",
+    "Virar 90° a la derecha en un cruce",
+    "Cambiarse dos pistas a la vez sin parar",
+    "Salir de una rotonda por la última salida"
+   ],
+   "e": "Se puede en vías de doble tránsito sin línea central continua o con bandejones, si no está prohibido."
+  },
+  {
+   "s": "c6s9",
+   "cita": "A menos de 200 m de una curva, cima o gradiente, cruce ferroviario, puente, túnel y viaducto.",
+   "q": [
+    "u8-16"
+   ]
+  },
+  {
+   "s": "c6s9",
+   "u": "u8",
+   "cita": "elije la derecha para virar a la derecha y la izquierda para virar a la izquierda.",
+   "tf": "Con varias pistas en tu dirección, eliges la derecha para virar a la derecha.",
+   "a": true,
+   "e": "Y la izquierda para virar a la izquierda."
+  },
+  {
+   "s": "c6s9",
+   "cita": "Cuando circules por la rotonda, señaliza a la derecha tan pronto hayas pasado la salida inmediatamente anterior a la que utilizarás.",
+   "q": [
+    "u8-17"
+   ]
+  },
+  {
+   "s": "c6s10",
+   "u": "u8",
+   "cita": "No ingreses a ellas a menos que se encuentre permitido en lugares determinados en los que dicha segregación es con línea discontinua y sea estrictamente necesario para poder virar.",
+   "tf": "Puedes entrar a una pista exclusiva de transporte público solo donde está permitido y es necesario para virar.",
+   "a": true,
+   "e": "Cuando la segregación es con línea discontinua."
+  },
+  {
+   "s": "c6s10",
+   "u": "u8",
+   "cita": "Estas pistas o vías, son utilizadas a lo largo del día con sentidos de tránsito diferentes.",
+   "mc": "¿Qué es una pista de tránsito reversible?",
+   "o": [
+    "Una que cambia de sentido según el horario",
+    "Una exclusiva para retroceder despacio",
+    "Una reservada solo para los ciclistas",
+    "Una de emergencia para fallas de frenos"
+   ],
+   "e": "Por ejemplo, de norte a sur en la mañana y de sur a norte en otros horarios."
+  },
+  {
+   "s": "c6s10",
+   "u": "u8",
+   "cita": "Estas pistas se suelen habilitar en vías con pendiente muy pronunciada para el caso de emergencias derivadas de la falla del sistema de frenos de un vehículo.",
+   "mc": "¿Para qué sirven las pistas de emergencia en pendientes pronunciadas?",
+   "o": [
+    "Para fallas en el sistema de frenos",
+    "Para adelantar a los camiones lentos",
+    "Para estacionar de noche en la subida",
+    "Para que circule el transporte público"
+   ],
+   "e": "Se habilitan en vías con pendiente muy pronunciada."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "Cuando se ha frenado hasta 50 km/h, tendrás la falsa sensación de que el vehículo está casi detenido.",
+   "tf": "Después de ir rápido por autopista, al bajar a 50 km/h parece que el vehículo está casi detenido.",
+   "a": true,
+   "e": "El velocímetro se equivoca muy raras veces; es fácil dejarse engañar por la velocidad."
+  },
+  {
+   "s": "c6s11",
+   "cita": "A 50 km/h se necesitan unos 25 metros para detenerse si el pavimento es bueno y está seco. Si aumentas la velocidad a 100 km/h, requerirás unos 80 metros.",
+   "q": [
+    "u8-23"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "cita": "nunca superior a la que puedes mantener el control de tu vehículo y detenerlo dentro de una distancia que esté al alcance de tu vista",
+   "q": [
+    "u8-24"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "cita": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h.",
+   "q": [
+    "u8-18"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "cita": "la velocidad máxima permitida a los vehículos livianos es de 100 km/h.",
+   "q": [
+    "u8-19"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "cita": "Cuando hay 2 o más pistas en un mismo sentido, este límite aumenta a 120 km/h.",
+   "q": [
+    "u8-20"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "cita": "los buses, camiones y vehículos de transporte escolar no deben circular a más de 90 km/h",
+   "q": [
+    "u8-21"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "ni los buses interurbanos a más de 100 km/h.",
+   "mc": "¿Cuál es la velocidad máxima de los buses interurbanos?",
+   "o": [
+    "100 km/h",
+    "90 km/h",
+    "120 km/h",
+    "80 km/h"
+   ],
+   "e": "Buses, camiones y transporte escolar: 90 km/h; buses interurbanos: 100 km/h."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "No obstante, la autoridad puede modificar los límites antes indicados en determinadas vías instalando las señales correspondientes.",
+   "tf": "La autoridad puede modificar los límites de velocidad en determinadas vías con señales.",
+   "a": true,
+   "e": "Instalando las señales correspondientes."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "Al aproximarse a la cima de una cuesta.",
+   "mc": "¿En cuál de estas situaciones debes reducir obligatoriamente la velocidad?",
+   "o": [
+    "Al acercarte a la cima de una cuesta",
+    "Al entrar a una autopista vacía",
+    "Al circular de día por recta",
+    "Al salir de un estacionamiento techado"
+   ],
+   "e": "También en zonas pobladas, curvas, caminos angostos, pavimento resbaladizo, etc."
+  },
+  {
+   "s": "c6s11",
+   "cita": "Debes reducir tu velocidad a no más de 30 km/h cuando circules por las afueras de un colegio durante las horas de entrada y salida de clases.",
+   "q": [
+    "u8-22"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "Debes reducir tu velocidad a lo indicado en las señales mientras estés en una Zona de Tránsito Calmado.",
+   "tf": "En una Zona de Tránsito Calmado debes reducir la velocidad a lo indicado en las señales.",
+   "a": true,
+   "e": "Es una situación de reducción obligatoria."
+  },
+  {
+   "s": "c6s11",
+   "cita": "Conduces con precaución. Planificas con tiempo. Te muestras con desconfianza. Frenas a tiempo.",
+   "q": [
+    "u8-25"
+   ]
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "Reduce la velocidad ante la visibilidad cambiante por la luz y sombra en una calle arbolada en un día soleado.",
+   "tf": "La luz y sombra de una calle arbolada en día soleado dificulta ver a otros y calcular distancias.",
+   "a": true,
+   "e": "Reduce la velocidad."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "Muchos siniestros en carretera ocurren en solitario, esto es, sin que haya participación de algún otro vehículo o peatón.",
+   "tf": "Muchos siniestros en carretera ocurren sin que participe otro vehículo o peatón.",
+   "a": true,
+   "e": "Muchas personas creen ser más hábiles de lo que son."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "es importante que conduzcas con calma un vehículo prestado o arrendado que no conozcas bien.",
+   "tf": "Un vehículo prestado o arrendado que no conoces bien se debe conducir con calma.",
+   "a": true,
+   "e": "La conducción varía de un automóvil a otro."
+  },
+  {
+   "s": "c6s11",
+   "u": "u8",
+   "cita": "En un camino de ripio o grava, la distancia de frenado es significativamente mayor que en una carretera asfaltada.",
+   "mc": "¿Dónde es significativamente mayor la distancia de frenado?",
+   "o": [
+    "En un camino de ripio o grava",
+    "En asfalto seco",
+    "En una autopista nueva con asfalto seco",
+    "En una calle con semáforos"
+   ],
+   "e": "El asfalto mojado también es más resbaladizo que el seco."
+  },
+  {
+   "s": "c6s12",
+   "cita": "Si dos vehículos circulan en sentido contrario, éstos se aproximan a una velocidad igual a la suma de las velocidades de cada uno.",
+   "q": [
+    "u9-01"
+   ]
+  },
+  {
+   "s": "c6s12",
+   "u": "u9",
+   "cita": "Un vehículo que viene en una fila en sentido contrario puede salirse de ella para adelantar a otros vehículos. Medida: mantente a tu derecha y reduce la velocidad.",
+   "tf": "Si un vehículo de una fila contraria puede salirse a adelantar, debes mantenerte a tu derecha y reducir la velocidad.",
+   "a": true,
+   "e": "Desconfía siempre de los vehículos que vienen en sentido contrario."
+  },
+  {
+   "s": "c6s12",
+   "cita": "Medida: frena enérgicamente, haz señales con las luces y bocina. Por último, trata de moverte por la derecha.",
+   "q": [
+    "u9-02"
+   ]
+  },
+  {
+   "s": "c6s12",
+   "u": "u9",
+   "cita": "Medida: nunca conduzcas demasiado cerca del eje de calzada.",
+   "tf": "Conducir cerca del eje de calzada reduce el riesgo al cruzarte con otros vehículos.",
+   "a": false,
+   "e": "Nunca conduzcas demasiado cerca del eje: quien viene en contra puede haberse dormido."
+  },
+  {
+   "s": "c6s12",
+   "u": "u9",
+   "cita": "reduce la velocidad, aléjate del centro de la calzada y no frenes dejándote llevar por el pánico. En último caso, sal de la carretera hacia la derecha.",
+   "mc": "Si el vehículo que viene de frente patina en pavimento resbaladizo, ¿qué haces?",
+   "o": [
+    "Reduces, te alejas del centro y no frenas en pánico",
+    "Frenas a fondo y giras hacia la izquierda",
+    "Aceleras para cruzarte antes que patine",
+    "Te detienes en el centro mismo de la vía"
+   ],
+   "e": "En último caso, sal de la carretera hacia la derecha."
+  },
+  {
+   "s": "c6s12",
+   "u": "u9",
+   "cita": "No mires al vehículo que viene en sentido contrario. Trata de mirar mucho más adelante a lo largo del borde derecho de la calzada.",
+   "tf": "Al cruzarte con otro vehículo, debes mirarlo fijamente para calcular su posición.",
+   "a": false,
+   "e": "Mira mucho más adelante a lo largo del borde derecho."
+  },
+  {
+   "s": "c6s12",
+   "cita": "quien tenga obstáculos por su lado deberá dejar pasar a quien viene en sentido contrario",
+   "q": [
+    "u9-03"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "cita": "si conduces a 60 km/h y aumentas tu velocidad a 80 km/h, en diez kilómetros habrás ganado 2 minutos y 30 segundos.",
+   "q": [
+    "u9-04"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Pensar que el mantener la velocidad máxima permitida reporta una ganancia de tiempo muy significativa es un gran error",
+   "tf": "Ir siempre a la velocidad máxima permite ganar mucho tiempo en un viaje.",
+   "a": false,
+   "e": "Es un gran error, y además crea estrés y prisa innecesaria."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "¿Qué gano con adelantar?",
+   "mc": "Antes de adelantar, ¿qué pregunta debes hacerte?",
+   "o": [
+    "¿Qué gano con adelantar?",
+    "¿Quién me está mirando?",
+    "¿Qué hora es?",
+    "¿Cuánto combustible me queda?"
+   ],
+   "e": "También: espacio libre, distancia necesaria, velocidad del otro y tu aceleración."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Siempre que un vehículo venga en sentido contrario, piensa que lo hace a mayor velocidad que la que crees",
+   "tf": "Al adelantar, debes pensar que quien viene en contra va más rápido de lo que crees.",
+   "a": true,
+   "e": "Y no cuentes con ayuda del que adelantas: puede acelerar."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "El adelantamiento tarda 8 segundos. En ese tiempo, tú y el vehículo que viene en contra recorren cada uno 200 metros",
+   "mc": "A 90 km/h con otro a 90 km/h en contra a 350 m, un adelantamiento de 8 segundos…",
+   "o": [
+    "Termina en un siniestro",
+    "Termina sin problemas",
+    "Ahorra mucho tiempo",
+    "Es seguro si tocas la bocina"
+   ],
+   "e": "Cada uno recorre 200 m: el siniestro es un hecho."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Si la persona de atrás ya comenzó la maniobra, debes esperar hasta que esta termine.",
+   "tf": "Si alguien detrás tuyo ya empezó a adelantarte, debes esperar a que termine antes de adelantar.",
+   "a": true,
+   "e": "Mira los espejos y por encima del hombro."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Ten presente que adelantar un vehículo largo es más arriesgado.",
+   "tf": "Adelantar un vehículo largo es más arriesgado.",
+   "a": true,
+   "e": "Mantén espacio detrás de él para ver mejor hacia adelante."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Trata de adelantar rápidamente sin sobrepasar el límite de velocidad máxima permitida.",
+   "tf": "Al adelantar puedes superar el límite de velocidad para terminar antes.",
+   "a": false,
+   "e": "Hazlo rápido pero sin sobrepasar el límite."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Si aparece un vehículo en sentido contrario o sientes inseguridad, interrumpe el adelantamiento en lugar de hacerlo sin certeza.",
+   "tf": "Si aparece un vehículo en contra o sientes inseguridad, debes interrumpir el adelantamiento.",
+   "a": true,
+   "e": "En lugar de hacerlo sin certeza."
+  },
+  {
+   "s": "c6s13",
+   "cita": "No mires al vehículo que estás adelantando. Siempre hay un riesgo de guiar el vehículo hacia él si lo miras.",
+   "q": [
+    "u9-10"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "cita": "Vuelve hacia tu derecha una vez que veas en tu espejo retrovisor interior al vehículo adelantado y parte de la calzada adelante de él.",
+   "q": [
+    "u9-07"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "cita": "Facilita el adelantamiento manteniéndote lo más a la derecha posible. No aumentes tu velocidad.",
+   "q": [
+    "u9-08"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "cita": "Los adelantamientos deben efectuarse siempre por la izquierda.",
+   "q": [
+    "u9-05"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "cita": "Circules por un puente, viaducto, túnel o cruce ferroviario o al aproximarte a cualquiera de estos lugares desde una distancia mínima de 200 metros.",
+   "q": [
+    "u9-06"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Te aproximes a un cruce, o en el cruce mismo, o en un paso para peatones, a menos que estén regulados por un semáforo.",
+   "tf": "No debes adelantar al acercarte a un cruce o paso de peatones sin semáforo.",
+   "a": true,
+   "e": "Incluso si no necesitas traspasar el eje de calzada."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "La persona conductora del vehículo que va adelante tuyo haya señalizado que piensa adelantar o desplazarse hacia la izquierda.",
+   "tf": "Puedes adelantar aunque el vehículo de adelante haya señalizado que va a adelantar.",
+   "a": false,
+   "e": "Tampoco si alguien detrás ya inició un adelantamiento."
+  },
+  {
+   "s": "c6s13",
+   "cita": "Cuando el vehículo alcanzado esté realizando o esté a punto de efectuar un viraje a la izquierda.",
+   "q": [
+    "u9-09"
+   ]
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "Cuando circules por una vía urbana con tres o más pistas de circulación con un mismo sentido del tránsito.",
+   "mc": "¿En qué otro caso puedes adelantar por la derecha?",
+   "o": [
+    "En vía urbana con 3 o más pistas en tu sentido",
+    "En carretera de una pista por sentido",
+    "Cuando el de adelante va más lento que tú",
+    "En curvas con buena visibilidad"
+   ],
+   "e": "Y cuando el vehículo alcanzado va a virar a la izquierda."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "se entiende que sobrepasas a otro vehículo cuando te sitúas adelante de él sin invadir la pista del sentido contrario.",
+   "mc": "¿Qué es una maniobra de sobrepaso?",
+   "o": [
+    "Ponerte adelante sin invadir la pista contraria",
+    "Adelantar cruzando el eje central de la calzada",
+    "Virar en U en una avenida",
+    "Retroceder para estacionar"
+   ],
+   "e": "Legalmente no constituye adelantamiento; no se hace fuera de la calzada."
+  },
+  {
+   "s": "c6s13",
+   "u": "u9",
+   "cita": "siempre que los vehículos sobrepasados se encuentren detenidos.",
+   "tf": "Ciclos y motos pueden sobrepasar por la misma pista a vehículos detenidos para llegar a la línea de detención.",
+   "a": true,
+   "e": "A velocidad moderada y con precaución."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "estaciónate al lado derecho de la calzada en el sentido del tránsito. Sólo excepcionalmente y cuando la señalización lo permita, podrás estacionar al lado izquierdo.",
+   "tf": "Si no hay estacionamiento fuera de la vía, debes estacionar al lado derecho en el sentido del tránsito.",
+   "a": true,
+   "e": "Al lado izquierdo solo si la señalización lo permite."
+  },
+  {
+   "s": "c6s14",
+   "cita": "a no más de 30 centímetros de ella",
+   "q": [
+    "u9-11"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "cita": "dejando una distancia mínima de 60 centímetros respecto de otros vehículos estacionados.",
+   "q": [
+    "u9-12"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "En los caminos o vías rurales, estaciona de modo que todo el vehículo quede sobre la berma.",
+   "mc": "En caminos rurales, ¿dónde debes estacionar?",
+   "o": [
+    "Con todo el vehículo sobre la berma",
+    "Con la mitad del auto en la calzada",
+    "En el centro de la calzada",
+    "Al lado izquierdo del camino"
+   ],
+   "e": "Donde no haya berma, al costado derecho y lo más cerca de la cuneta."
+  },
+  {
+   "s": "c6s14",
+   "cita": "En vías con pendiente en subida, deja las ruedas orientadas hacia el interior de la calzada.",
+   "q": [
+    "u9-13"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "cita": "si estás estacionado en bajada, deja las ruedas orientadas hacia la cuneta.",
+   "q": [
+    "u9-14"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "Que no debes dejar niñas y/o niños pequeños ni animales dentro del vehículo.",
+   "tf": "Al estacionar no debes dejar niños pequeños ni animales dentro del vehículo.",
+   "a": true,
+   "e": "Además: motor detenido, enganchado, freno de mano, sacar la llave y cerrar."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "En las calzadas o bermas de caminos públicos de 2 o más pistas de circulación en un mismo sentido.",
+   "mc": "¿Dónde está prohibido estacionar y detenerse?",
+   "o": [
+    "En la berma de caminos con 2 o más pistas por sentido",
+    "En un estacionamiento habilitado fuera de la vía",
+    "En la calle al lado derecho, donde no hay señal",
+    "Fuera de la vía pública, en un recinto privado"
+   ],
+   "e": "También en aceras, doble fila, cruces, ciclovías, puentes y túneles."
+  },
+  {
+   "s": "c6s14",
+   "cita": "En el lugar en el que esté puesta esta señal no deberás estacionar.",
+   "q": [
+    "u7-22"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "cita": "Se estima que esta es adecuada si puedes ver los neumáticos traseros del vehículo de delante.",
+   "q": [
+    "u8-14"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "cita": "A menos de 5 metros de un grifo para incendios.",
+   "q": [
+    "u9-15"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "A menos de 3 metros de las puertas de iglesias, establecimientos educacionales, hoteles y salas de espectáculos",
+   "mc": "¿A qué distancia mínima de la puerta de una iglesia o colegio puedes estacionar en horas de afluencia?",
+   "o": [
+    "3 metros",
+    "10 metros",
+    "20 metros",
+    "1 metro"
+   ],
+   "e": "También hoteles y salas de espectáculos."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "A menos de 10 metros de una señal PARE, Ceda el Paso y señales de advertencia de peligro",
+   "mc": "¿A qué distancia mínima de una señal PARE puedes estacionar?",
+   "o": [
+    "10 metros",
+    "5 metros",
+    "3 metros",
+    "20 metros"
+   ],
+   "e": "También de Ceda el Paso y señales de advertencia de peligro."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "A menos de 10 metros de la entrada de un cuartel de bombas, posta de primeros auxilios y hospitales.",
+   "tf": "No puedes estacionar a menos de 10 metros de la entrada de un hospital.",
+   "a": true,
+   "e": "Tampoco de un cuartel de bombas o posta."
+  },
+  {
+   "s": "c6s14",
+   "cita": "A menos de 15 metros de la puerta principal de entrada a recintos militares, policiales o de Gendarmería de Chile.",
+   "q": [
+    "u9-16"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "A menos de 20 metros de una señal que indique una parada de vehículos de locomoción colectiva.",
+   "mc": "¿A qué distancia mínima de un paradero de locomoción colectiva puedes estacionar?",
+   "o": [
+    "20 metros",
+    "10 metros",
+    "5 metros",
+    "50 metros"
+   ],
+   "e": "Igual que de un cruce ferroviario a nivel."
+  },
+  {
+   "s": "c6s14",
+   "cita": "También podrás detenerte en un lugar donde esté prohibido estacionar, pero sólo por el tiempo mínimo para tomar o dejar pasajeros.",
+   "q": [
+    "u9-17"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "Podrás detenerte en un lugar reservado a otro vehículo, siempre que permanezcas en el tuyo",
+   "tf": "Puedes detenerte en un lugar reservado a otro si permaneces en tu vehículo para irte cuando llegue.",
+   "a": true,
+   "e": "Debes abandonar el lugar cuando llegue quien goza de la reserva."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "asegúrate de poder ser visible para las demás personas conductoras manteniendo siempre encendidas tus luces de estacionamiento.",
+   "tf": "De noche en una vía sin alumbrado, debes dejar encendidas las luces de estacionamiento.",
+   "a": true,
+   "e": "Para ser visible."
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "instalando en la calzada los dispositivos reflectantes de emergencia. Además, si es posible, mantén activadas tus luces de advertencia de peligro.",
+   "tf": "Si te detienes por una avería en un lugar no autorizado, debes instalar los dispositivos reflectantes.",
+   "a": true,
+   "e": "Y si es posible, mantener las luces de advertencia de peligro."
+  },
+  {
+   "s": "c6s14",
+   "cita": "Este debe ser de color amarillo y contar con bandas de material retrorreflectante de un ancho no inferior a 50 milímetros.",
+   "q": [
+    "u9-18"
+   ]
+  },
+  {
+   "s": "c6s14",
+   "u": "u9",
+   "cita": "bandas de material retrorreflectante de un ancho no inferior a 50 milímetros.",
+   "mc": "¿Qué ancho mínimo deben tener las bandas reflectantes del chaleco?",
+   "o": [
+    "50 milímetros",
+    "10 milímetros",
+    "5 centímetros y medio",
+    "20 milímetros"
+   ],
+   "e": "El chaleco debe ser amarillo con bandas de al menos 50 mm."
+  },
+  {
+   "s": "c6s15",
+   "cita": "Para mantener la libre circulación. Para incorporarte a la circulación. Para estacionar.",
+   "q": [
+    "u9-19"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "u": "u9",
+   "cita": "no debes retroceder en un cruce, aunque hayas traspasado la línea de detención, a menos que recibas una indicación expresa de Carabineros.",
+   "tf": "Si pasaste la línea de detención, puedes retroceder en el cruce.",
+   "a": false,
+   "e": "Solo con indicación expresa de Carabineros."
+  },
+  {
+   "s": "c6s15",
+   "u": "u9",
+   "cita": "Retrocede lentamente y con cuidado. No te confíes de los espejos para juzgar la distancia que tienes detrás.",
+   "tf": "Al retroceder no debes confiar en los espejos para juzgar la distancia.",
+   "a": true,
+   "e": "Verifica que no haya peatones, especialmente niños."
+  },
+  {
+   "s": "c6s15",
+   "u": "u9",
+   "cita": "apaga la radio de tu vehículo en caso de llevarla encendida.",
+   "tf": "Antes de cruzar una vía férrea conviene apagar la radio para escuchar.",
+   "a": true,
+   "e": "Detente siempre, mira en ambas direcciones y escucha."
+  },
+  {
+   "s": "c6s15",
+   "cita": "Un tren que marcha a 100 km/h necesitará entre 800 a 1.000 metros para detenerse.",
+   "q": [
+    "u9-20"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "u": "u9",
+   "cita": "El tren tiene siempre la preferencia y en la práctica nunca puede detenerse a tiempo. La responsabilidad descansa completamente en ti",
+   "tf": "En un cruce ferroviario, el tren tiene siempre la preferencia.",
+   "a": true,
+   "e": "La responsabilidad descansa completamente en ti."
+  },
+  {
+   "s": "c6s15",
+   "cita": "Si ya has comenzado a cruzar y se activan las señales luminosas o acústicas o escuchas la proximidad de un tren, no te detengas.",
+   "q": [
+    "u9-21"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "cita": "Nunca pases un cruce ferroviario si no dispones de espacio suficiente al otro lado",
+   "q": [
+    "u9-25"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "cita": "ni estaciones a menos de 20 metros de él.",
+   "q": [
+    "u9-22"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "cita": "Haz salir a todas las personas del vehículo.",
+   "q": [
+    "u9-23"
+   ]
+  },
+  {
+   "s": "c6s15",
+   "cita": "No obstante, no debes confiarte de estos sistemas; detente siempre, tómate tu tiempo para mirar en ambas direcciones",
+   "q": [
+    "u9-24"
+   ]
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Lo que ganas en minutos y segundos cada 10 kilómetros:",
+   "motivo": "tabla completa; se pregunta el ejemplo del texto (u9-04)"
+  }
+ ]
+}
