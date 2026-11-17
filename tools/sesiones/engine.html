@@ -17,7 +17,10 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 #veil{position:absolute;inset:0;background:#0E171C;opacity:0;transition:opacity .35s ease}
 #veil.on{opacity:1}
 .car,.nube,.gota{will-change:transform}
-#vig{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(14,23,28,.88) 0,rgba(14,23,28,.2) 20%,rgba(14,23,28,.15) 55%,rgba(14,23,28,.92) 100%)}
+#vig{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(14,23,28,.55) 0,rgba(14,23,28,0) 12%,rgba(14,23,28,0) 52%,rgba(14,23,28,.78) 72%,rgba(14,23,28,.95) 100%)}
+/* La escena explicativa ocupa toda la pantalla: su cielo y su suelo se extienden arriba y abajo. */
+#escena{position:absolute;top:0;bottom:0;left:0;right:0;max-width:460px;margin:0 auto;transition:opacity .25s}
+#escena.fuera{opacity:0}#escena svg{display:block;width:100%;height:100%}
 .car{animation:cruza linear infinite}.car.izq{animation-name:cruzaI}
 @keyframes cruza{from{transform:translateX(-220px)}to{transform:translateX(560px)}}
 @keyframes cruzaI{from{transform:translateX(560px)}to{transform:translateX(-220px)}}
@@ -102,7 +105,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 @keyframes vuela{from{transform:translate(0,0) scale(.4);opacity:1}to{transform:translate(var(--x),var(--y)) scale(1.1);opacity:0}}
 /* ---------- escenas explicativas (tipo "anim") ---------- */
 .anim{width:100%;display:flex;flex-direction:column;align-items:center;gap:12px}
-.anim svg{width:100%;max-height:44vh;border-radius:20px}
+.panel.abajo{margin-top:auto;padding:4px 0 6px}.panel.abajo .cap.big{font-size:27px}
 .cap{font-weight:900;font-size:17px;line-height:1.3;text-shadow:0 2px 12px rgba(0,0,0,.6)}.cap.big{font-size:30px;color:var(--gold)}
 .chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}.chips.col{flex-direction:column;align-items:stretch;width:100%}
 .chips span{background:rgba(30,43,50,.95);border:2px solid var(--line);border-radius:14px;padding:8px 12px;font-weight:900;font-size:16px}
@@ -138,7 +141,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.car,.nube,.gota,.gira,.dash,.dashv{animation:none!important}}
 </style></head><body>
-<div id="bg"><div id="bgl"></div><div id="veil"></div><div id="vig"></div></div>
+<div id="bg"><div id="bgl"></div><div id="escena" class="fuera"></div><div id="veil"></div><div id="vig"></div></div>
 <div class="start" id="start"><div class="big" id="sic"></div><h1 id="stitle"></h1><p id="ssub"></p><button class="btn g" id="go" style="max-width:320px">Empezar</button></div>
 <div class="app">
  <div class="top"><button class="x" onclick="location.href='index.html'" aria-label="Salir">✕</button><div class="bar"><i id="prog"></i></div><button class="cc" id="cc" aria-pressed="false">CC</button></div>
@@ -156,9 +159,9 @@ function sfx(kind){if(!AC)return;const t=AC.currentTime,g=AC.createGain();g.conn
   const notes=kind==='bien'?[660,990]:kind==='fin'?[523,659,784,1047]:[247,196];
  notes.forEach((hz,i)=>{const o=AC.createOscillator(),e=AC.createGain();o.type='sine';o.frequency.value=hz;o.connect(e);e.connect(g);const s=t+i*.11;
   e.gain.setValueAtTime(0,s);e.gain.linearRampToValueAtTime(kind==='mal'?.22:.32,s+.02);e.gain.exponentialRampToValueAtTime(.0001,s+.3);o.start(s);o.stop(s+.32)})}
-function marcas(text){if(!cur)return[];const t=(text||'').toLowerCase(),L=t.length||1;
+function marcas(text){if(!cur)return[];const zona=[...cur.querySelectorAll('[data-w],[data-h]'),...$('escena').querySelectorAll('[data-w],[data-h]')];const t=(text||'').toLowerCase(),L=t.length||1;
  const at=w=>{const i=t.indexOf(w.toLowerCase());return i<0?0:Math.max(0,i/L-.03)};
- return [...cur.querySelectorAll('[data-w],[data-h]')].flatMap(el=>[...(el.dataset.w?[{el,f:at(el.dataset.w),h:0}]:[]),...(el.dataset.h?[{el,f:at(el.dataset.h),h:1}]:[])])}
+ return zona.flatMap(el=>[...(el.dataset.w?[{el,f:at(el.dataset.w),h:0}]:[]),...(el.dataset.h?[{el,f:at(el.dataset.h),h:1}]:[])])}
 function marca(m){if(!m.h&&m.el.dataset.to&&!m.el.dataset.hecho){m.el.dataset.hecho=1;countUp(m.el,+m.el.dataset.to,1500)}m.el.classList.add(m.h?'off':'on');if(m.el.classList.contains('go'))m.el.classList.add('run');m.el.querySelectorAll('.go').forEach(g=>g.classList.add('run'))}
 function say(key){return new Promise(res=>{const a=S.audio[key];
  if(cc){$('bub').hidden=false;$('bub').textContent=S.textos[key]}
@@ -229,7 +232,23 @@ async function swap(html,bare){const w=document.createElement('div');w.className
  stage.appendChild(w);cur=w;w.offsetWidth;w.classList.remove('enter');return w}
 // los contadores con data-w cuentan cuando la voz dice su palabra (ver marca); los demás, al aparecer
 function animar(w){w.querySelectorAll('[data-to]:not([data-w])').forEach(el=>countUp(el,+el.dataset.to));requestAnimationFrame(()=>w.querySelectorAll('[data-ancho]').forEach(el=>el.style.width=el.dataset.ancho+'%'))}
-async function show(e){if(!e)return;const html=ESC[e.tipo](e);
+function colorBorde(svg,w,h,arriba){const rs=[...svg.querySelectorAll('rect')].filter(r=>+(r.getAttribute('width')||0)>=w*.95&&+(r.getAttribute('x')||0)<=1&&!r.classList.contains('ext'));
+ const y=r=>+(r.getAttribute('y')||0),hh=r=>+(r.getAttribute('height')||0);
+ const r=arriba?rs.find(r=>y(r)<=1):[...rs].reverse().find(r=>y(r)+hh(r)>=h-1);if(!r)return '#0E171C';
+ const f=r.getAttribute('fill')||'#0E171C',m=f.match(/url\(#([^)]+)\)/);if(!m)return f;
+ const st=svg.querySelectorAll('#'+m[1]+' stop');return st.length?st[arriba?0:st.length-1].getAttribute('stop-color'):'#0E171C'}
+function ajustar(){const E=$('escena'),svg=E.querySelector('svg');if(!svg)return;svg.querySelectorAll('.ext').forEach(x=>x.remove());
+ const [,,w,h]=(svg.dataset.vb||(svg.dataset.vb=svg.getAttribute('viewBox')||'0 0 360 230')).split(/\s+/).map(Number);
+ const tot=Math.max(h,w*E.clientHeight/Math.max(1,E.clientWidth)),top=Math.max(0,tot*.36-h/2),ns='http://www.w3.org/2000/svg';
+ const rect=(y,hh,c)=>{const r=document.createElementNS(ns,'rect');r.setAttribute('class','ext');r.setAttribute('x',-60);r.setAttribute('y',y);r.setAttribute('width',w+120);r.setAttribute('height',hh);r.setAttribute('fill',c);return r};
+ const cA=colorBorde(svg,w,h,1),cB=colorBorde(svg,w,h,0);svg.insertBefore(rect(h-1,tot-top-h+8,cB),svg.firstChild);svg.insertBefore(rect(-top-8,top+9,cA),svg.firstChild);
+ svg.setAttribute('viewBox',`0 ${(-top).toFixed(1)} ${w} ${tot.toFixed(1)}`);svg.setAttribute('preserveAspectRatio','xMidYMid slice')}
+addEventListener('resize',ajustar);
+async function ponerEscena(svg){const E=$('escena');if(!svg&&!E.firstChild)return;E.classList.add('fuera');await sleep(240);E.innerHTML='';if(svg){E.appendChild(svg);ajustar();E.offsetWidth;E.classList.remove('fuera')}}
+async function show(e){if(!e)return;
+ if(e.tipo==='anim'){const t=document.createElement('div');t.innerHTML=(ESCENAS[e.id]||(()=>'Falta la escena '+e.id))();const svg=t.querySelector('svg');if(svg)svg.remove();
+  const [,w]=await Promise.all([ponerEscena(svg),swap(`<div class="anim">${t.innerHTML}</div>`,true)]);w.classList.add('abajo');animar(w);animar($('escena'));return}
+ await ponerEscena(null);const html=ESC[e.tipo](e);
  if(e.sobre&&cur){const c=document.createElement('div');c.style.width='100%';c.style.animation='up .45s both';c.innerHTML=html;cur.appendChild(c);animar(c);return}
  animar(await swap(html,BARE[e.tipo]))}
 // escena del peatón: velocidad y supervivencia (datos del libro, capítulo 1)
@@ -256,7 +275,7 @@ async function elige(p){const it=p.elige;
  w.querySelectorAll('.opt').forEach(o=>o.disabled=true);
  if(+b.dataset.i===0){b.classList.add('good');sfx('bien');burst(w,['⭐','✨']);if(it.bien)await say(it.bien);return}
  b.classList.add('bad');sfx('mal');await sleep(500);w.querySelector('.opt[data-i="0"]').classList.add('good');if(it.mal)await say(it.mal)}
-async function desliza(p){const d=p.desliza;let v=d.desde;
+async function desliza(p){const d=p.desliza;let v=d.desde;await ponerEscena(null);
  const w=await swap(ESC[d.escena]({velocidad:v}));const draw=()=>{w.innerHTML=ESC[d.escena]({velocidad:v,quieto:1})};
  foot.innerHTML=`<div class="slider"><input type="range" min="${d.min}" max="${d.max}" step="${d.paso}" value="${v}" aria-label="${d.etiqueta||'Valor'}"></div>`;
  const inp=foot.querySelector('input');inp.oninput=()=>{v=+inp.value;draw()};
@@ -266,7 +285,7 @@ async function desliza(p){const d=p.desliza;let v=d.desde;
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a}
 // ---------- final: la práctica es una lección aparte de la app ----------
 // En la demo web abre index.html#practica=<id>; en Android, interceptar esa URL.
-async function fin(){const w=await swap(`<div style="font-size:76px;animation:pop .6s">🏆</div><h2 style="margin:0">¡Sesión completa!</h2><div class="sub">Ahora practica lo que acabas de aprender</div>`);
+async function fin(){await ponerEscena(null);const w=await swap(`<div style="font-size:76px;animation:pop .6s">🏆</div><h2 style="margin:0">¡Sesión completa!</h2><div class="sub">Ahora practica lo que acabas de aprender</div>`);
  w.style.position='relative';sfx('fin');burst(w,['🎉','⭐','✨','🚦']);
  foot.innerHTML=`<button class="btn g" onclick="location.href='index.html#practica=${S.id}'">Practicar lo aprendido</button><button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" onclick="location.href='index.html'">Volver al mapa</button>`}
 // ---------- bucle principal ----------

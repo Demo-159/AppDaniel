@@ -69,7 +69,7 @@ Object.assign(ESCENAS,{
   <div class="cap" data-w="mayoría">La mayoría de las muertes en el tránsito</div>`,
  // 8. Para reducir la posibilidad de un siniestro, evita los factores de riesgo (el libro los detalla)
  'c1-riesgos':()=>{const s=(x,y,ic,t,d)=>`<g data-w="evitar" style="transition-delay:${d}ms"><path d="M${x} ${y-30} L${x+30} ${y+22} H${x-30}Z" fill="#FFC800" stroke="#1A2329" stroke-width="3" stroke-linejoin="round"/><text x="${x}" y="${y+14}" font-size="22" text-anchor="middle">${ic}</text><text x="${x}" y="${y+42}" font-size="12" font-weight="900" fill="#F1F7FB" text-anchor="middle">${t}</text></g>`;
-  return `<svg viewBox="0 0 360 230"><rect width="360" height="90" fill="#E39A6E"/><path d="M0 90 Q90 70 180 82 T360 80 V230 H0Z" fill="#2F5D50"/><path d="M168 86 L192 86 L330 230 L30 230Z" fill="#39454C"/><line x1="180" y1="86" x2="180" y2="240" stroke="#F2D04A" stroke-width="4" stroke-dasharray="18 18" class="dashv"/>
+  return `<svg viewBox="0 0 360 230"><rect width="360" height="90" fill="#E39A6E"/><path d="M0 90 Q90 70 180 82 T360 80 V230 H0Z" fill="#2F5D50"/><path d="M168 86 L192 86 L330 230 L30 230Z" fill="#39454C"/><line x1="180" y1="86" x2="180" y2="240" stroke="#F2D04A" stroke-width="4" stroke-dasharray="18 18" class="dashv"/><rect y="228" width="360" height="2" fill="#39454C"/>
   <g transform="translate(180,196)"><rect x="-26" y="-4" width="52" height="24" rx="6" fill="#1CB0F6"/><path d="M-20 -4 L-15 -20 H15 L20 -4Z" fill="#1899D6"/><rect x="-24" y="4" width="10" height="5" rx="2" fill="#FFB3B3"/><rect x="14" y="4" width="10" height="5" rx="2" fill="#FFB3B3"/></g>
   ${s(48,70,'🍺','Alcohol',0)}${s(312,70,'📱','Distracciones',300)}${s(52,160,'😴','Sueño',600)}${s(308,160,'⏩','Velocidad',900)}</svg>
   <div class="cap big" data-w="factores">Factores de riesgo</div>
@@ -103,11 +103,11 @@ const cieloG=(a,b,h=230)=>{const id='s'+(++gid);return `<defs><linearGradient id
 // ---- lugares ----
 const L={
  hospital:(h=230)=>`${cieloG('#5E9BC0','#BFE0EE',h)}${ciudadBaja(71,170,'#8FA6BC')}<rect x="120" y="62" width="220" height="112" fill="#EEF3F5"/><rect x="120" y="54" width="220" height="10" fill="#C9D4D8"/>${grid(15,5,136,76,40,26,(x,y)=>`<rect x="${x}" y="${y}" width="24" height="16" rx="2" fill="#9FC7D6"/>`)}<rect x="208" y="140" width="44" height="34" fill="#5B8FA3"/><rect x="214" y="22" width="32" height="32" rx="6" fill="#fff"/><rect x="226" y="27" width="8" height="22" fill="#FF4B4B"/><rect x="219" y="34" width="22" height="8" fill="#FF4B4B"/><rect y="174" width="360" height="${h-174}" fill="#3A4852"/><line x1="-20" y1="204" x2="380" y2="204" stroke="#D9D9D9" stroke-width="3" stroke-dasharray="20 16"/>`,
- chile:(h=230)=>`${cieloG('#2C4E7A','#E7A07A',h)}<path d="M0 ${h} V140 Q40 130 70 150 T120 ${h}Z" fill="#2F6E9E"/><path d="M90 ${h} L110 120 L150 70 L190 104 L230 40 L270 92 L310 56 L360 100 V${h}Z" fill="#5C5470"/><path d="M219 56 L230 40 L241 56 L234 52 L227 58Z M299 70 L310 56 L321 70 L314 66Z M141 82 L150 70 L159 82Z" fill="#F4F1EA"/><path d="M60 ${h} Q120 150 200 168 T360 160 V${h}Z" fill="#3E6B55"/>`,
+ chile:(h=230)=>`${cieloG('#2C4E7A','#E7A07A',h)}<path d="M0 ${h} V140 Q40 130 70 150 T120 ${h}Z" fill="#2F6E9E"/><path d="M90 ${h} L110 120 L150 70 L190 104 L230 40 L270 92 L310 56 L360 100 V${h}Z" fill="#5C5470"/><path d="M219 56 L230 40 L241 56 L234 52 L227 58Z M299 70 L310 56 L321 70 L314 66Z M141 82 L150 70 L159 82Z" fill="#F4F1EA"/><path d="M60 ${h} Q120 150 200 168 T360 160 V${h}Z" fill="#3E6B55"/><rect y="${h-2}" width="360" height="2" fill="#3E6B55"/>`,
  espacio:(h=230)=>`${cieloG('#05091A','#16224A',h)}${estrellas(52,40,h)}`,
  plaza:(h=230)=>`${cieloG('#3B3060','#E39A6E',h)}<rect y="${h-70}" width="360" height="70" fill="#3B4A3F"/>${em(30,h-62,'🌳',40)}${em(334,h-66,'🌳',44)}`,
  sala:(h=230)=>`<rect width="360" height="${h}" fill="#C9D8DE"/><rect y="${h-50}" width="360" height="50" fill="#8FA3AE"/><rect x="250" y="30" width="80" height="60" rx="6" fill="#9FC7D6" stroke="#EEF3F5" stroke-width="5"/>`,
- carretera:(h=230)=>`${cieloG('#3E5C8A','#E39A6E',h)}<path d="M0 90 Q90 70 180 82 T360 80 V${h} H0Z" fill="#2F5D50"/><path d="M168 86 L192 86 L330 ${h} L30 ${h}Z" fill="#39454C"/><line x1="180" y1="86" x2="180" y2="${h+10}" stroke="#F2D04A" stroke-width="4" stroke-dasharray="18 18" class="dashv"/>`,
+ carretera:(h=230)=>`${cieloG('#3E5C8A','#E39A6E',h)}<path d="M0 90 Q90 70 180 82 T360 80 V${h} H0Z" fill="#2F5D50"/><path d="M168 86 L192 86 L330 ${h} L30 ${h}Z" fill="#39454C"/><line x1="180" y1="86" x2="180" y2="${h+10}" stroke="#F2D04A" stroke-width="4" stroke-dasharray="18 18" class="dashv"/><rect y="${h-2}" width="360" height="2" fill="#39454C"/>`,
 };
 // velocímetro 0–80 km/h con aguja animada
 const velo=(v,cx=180,cy=244,r=66)=>{const pt=(k,rr=r)=>{const t=Math.PI-k/80*Math.PI;return[(cx+rr*Math.cos(t)).toFixed(1),(cy-rr*Math.sin(t)).toFixed(1)]};
@@ -124,11 +124,13 @@ const vela=(x,y,s=22,a='')=>em(x,y,'🕯️',s,a);
 const fila10=(n,ic,ic2,w)=>`<div class="fila10">${Array.from({length:10},(_,i)=>`<span class="${i<n?'si':'no'}" data-w="${w}" style="transition-delay:${i*90}ms">${i<n?ic:ic2}</span>`).join('')}</div>`;
 Object.assign(ESCENAS,{
  // ---------- Sesión 2 ----------
- 'c1-3000':()=>{const c='g'+(++gid),k=`<path d="M30 20 q40 -30 80 -6 q24 34 -10 56 q-46 12 -70 -50Z M160 4 q46 -14 70 24 q10 46 -34 66 q-36 -12 -36 -90Z M290 40 q36 -24 58 12 q-12 34 -58 -12Z" fill="#46A86E"/>`,r=rnd(30);let b='';for(let i=0;i<18;i++)b+=`<text x="${(40+r()*280).toFixed(0)}" y="${(150+r()*70).toFixed(0)}" font-size="14" text-anchor="middle" class="boom" data-w="mueren" style="transition-delay:${i*110}ms;animation-delay:${i*110}ms">💥</text>`;
-  return `<svg viewBox="0 0 360 240">${L.espacio(240)}<defs><clipPath id="${c}"><circle cx="180" cy="430" r="300"/></clipPath></defs><circle cx="180" cy="430" r="310" fill="none" stroke="#7CC8FF" stroke-width="12" opacity=".25"/><circle cx="180" cy="430" r="300" fill="#1E64A8"/><g clip-path="url(#${c})"><g class="gira"><g transform="translate(0,150)">${k}</g><g transform="translate(400,150)">${k}</g></g></g>${b}
-  <g data-w="cada día"><circle cx="40" cy="38" r="22" fill="#1E2B32" stroke="#FFC800" stroke-width="2"/><g class="gira24" style="transform-origin:40px 38px"><line x1="40" y1="38" x2="40" y2="22" stroke="#FFC800" stroke-width="3" stroke-linecap="round"/></g>${lbl(40,76,'cada día',11,'#C9D4D8')}</g>
-  ${cuenta(200,70,3000,'tres mil','+')}</svg>
-  <div class="cap big" data-w="tres mil">Más de 3.000 personas mueren cada día en el mundo</div>`},
+ // Sin choques sobre el planeta: el emoji 🌎 cambia según el teléfono y caerían en el mar.
+ 'c1-3000':()=>`<svg viewBox="0 0 360 260">${L.espacio(260)}<circle cx="180" cy="160" r="104" fill="#7CC8FF" opacity=".18"/>
+  <g data-w="mueren"><circle cx="180" cy="160" r="102" fill="none" stroke="#FF4B4B" stroke-width="5" class="onda"/><circle cx="180" cy="160" r="102" fill="none" stroke="#FF4B4B" stroke-width="5" class="onda" style="animation-delay:.8s"/></g>
+  ${em(180,228,'🌎',190)}
+  <g data-w="cada día"><circle cx="44" cy="36" r="22" fill="#1E2B32" stroke="#FFC800" stroke-width="2"/><g class="gira24" style="transform-origin:44px 36px"><line x1="44" y1="36" x2="44" y2="20" stroke="#FFC800" stroke-width="3" stroke-linecap="round"/></g>${lbl(44,74,'cada día',11,'#C9D4D8')}</g>
+  ${cuenta(262,44,3000,'tres mil','+',30,'#FFC800',140)}</svg>
+  <div class="cap big" data-w="tres mil">Más de 3.000 personas mueren cada día en el mundo</div>`,
  'c1-jovenes':()=>`<svg viewBox="0 0 360 230">${calleMini('#E7A07A',21)}${['🧑','👩','🧑‍🦱','👱'].map((ic,i)=>em(40+i*36,150,ic,26)).join('')}<g transform="translate(220,222)">${auto('#FF4B4B')}</g>${boom(300,206,'primera',0,30)}
   <g data-w="primera" class="sube">${em(250,90,'🥇',54)}</g></svg>
   <div class="cap big" data-w="primera">1ª causa de muerte en los jóvenes</div><div class="cap" data-w="en el mundo">en el mundo</div>`,
