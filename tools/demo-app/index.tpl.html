@@ -69,6 +69,8 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 #tipRacha{position:fixed;z-index:55;top:58px;right:12px;background:#fff;color:#131F24;border-radius:14px;padding:10px 14px;font-weight:800;font-size:14px;width:190px;box-shadow:0 6px 20px rgba(0,0,0,.5);display:none}
 #tipRacha.on{display:block}#tipRacha:before{content:"";position:absolute;top:-8px;right:22px;border:8px solid transparent;border-top:0;border-bottom-color:#fff}
 #racha{cursor:pointer}
+.chip.logo{gap:9px;font-size:21px}
+.pill{display:flex;align-items:center;gap:6px;background:#3a2a10;border:2px solid var(--orange);color:var(--orange);border-radius:999px;padding:3px 12px 3px 9px;font-weight:900;font-size:17px}
 
 .qrow{display:flex;gap:10px}.qrow .btn{flex:1}#qprev{flex:0 0 auto;width:56px;padding:8px 0;font-size:26px;line-height:1;background:none;border:2px solid var(--line);box-shadow:none;color:var(--muted)}
 .foot.ok{background:#203A12;border-color:#203A12}.foot.ko{background:#3D1A1C;border-color:#3D1A1C}
@@ -96,7 +98,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 <!-- MAP -->
 <section class="view on" id="v-map">
- <div class="top"><div class="chip">Ruta B</div><div class="chip" id="racha" style="color:var(--orange)"></div></div>
+ <div class="top"><div class="chip logo"><svg width="32" height="32" viewBox="20 20 68 68" aria-hidden="true"><path d="M54,24 L84,54 L54,84 L24,54 Z" fill="#FFC800" stroke="#0b1418" stroke-width="4" stroke-linejoin="round"/><text x="54" y="66" text-anchor="middle" font-size="32" font-weight="900" fill="#131F24" font-family="Nunito">B</text></svg>Ruta B</div><div class="pill" id="racha" role="button" aria-label="Racha de días"></div></div>
  <div class="scroll" id="scroll"><div class="capbar" id="capbar"><div class="t"><small id="cbn"></small><b id="cbt"></b></div><span class="av" id="cba"></span></div><svg id="map" xmlns="http://www.w3.org/2000/svg" style="margin-top:-66px"></svg></div>
  <button class="seguir" id="seguir" hidden></button>
  <div class="pop" id="pop"><div class="tira" id="ptira"></div><div class="head"><div class="ic" id="pi"></div><div style="min-width:0"><span class="cap" id="pcap"></span><b id="pt"></b></div></div><div id="ps" class="muted" style="font-size:14px;margin-top:6px"></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
@@ -161,7 +163,7 @@ function migrar(){ // versiones anteriores guardaban una lista simple de fallada
 const hoy=()=>new Date().toISOString().slice(0,10);
 function estudiado(){if(!PR.dias.includes(hoy())){PR.dias.push(hoy());PR.dias=PR.dias.slice(-400)}guardar();racha()}
 function racha(){let n=0,d=new Date();const set=new Set(PR.dias);if(!set.has(hoy()))d.setDate(d.getDate()-1);
- while(set.has(d.toISOString().slice(0,10))){n++;d.setDate(d.getDate()-1)}$('racha').textContent=n?'🔥 '+n:'🔥 0'}
+ while(set.has(d.toISOString().slice(0,10))){n++;d.setDate(d.getDate()-1)}$('racha').innerHTML='<svg width="16" height="20" viewBox="0 0 16 20" aria-hidden="true"><path d="M8 0 C9 5 15 7 15 13 A7 7 0 0 1 1 13 C1 9 4 8 4 4 C6 6 7 7 8 0Z" fill="#FF9600"/><path d="M8 9 C9 12 11 12 11 15 A3 3 0 0 1 5 15 C5 13 7 12 8 9Z" fill="#FFC800"/></svg>'+n}
 // una parada está "estudiada" si se leyó o se hizo su sesión con tutor; sus preguntas ya se pueden preguntar
 const estudiada=sid=>!!(PR.leidas[sid]||PR.hechas[sid]);
 const qImg=q=>q.i?BANK.IMG[q.i]:'';
