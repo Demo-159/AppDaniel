@@ -2767,8 +2767,8 @@
    "options": [
     "Mayor sensibilidad a la luz y deslumbramientos",
     "Somnolencia profunda poco después de consumirlo",
-    "Mejor concentración durante las primeras horas",
-    "Reflejos más rápidos que los de una persona sobria"
+    "Visión doble solo al mirar de cerca",
+    "Pérdida del sentido del equilibrio al frenar"
    ],
    "explain": "También ilusiones ópticas, visión borrosa y agotamiento cuando pasan los efectos.",
    "page": 54
@@ -3698,9 +3698,9 @@
    "prompt": "Se acerca por detrás una ambulancia con sirena encendida. ¿Qué haces?",
    "options": [
     "Correrte a un lado y detenerte si es necesario",
-    "Acelerar para despejarle el camino lo más rápido posible",
-    "Frenar en seco en el lugar donde estés",
-    "Seguir igual, porque ella te adelantará"
+    "Detenerte en el acto, donde estés, para que pase",
+    "Seguir igual, porque ella te adelantará",
+    "Acelerar y correrte de pista apenas puedas"
    ],
    "explain": "Si es en un cruce, le cedes el paso.",
    "page": 85
@@ -5940,7 +5940,7 @@
    "options": [
     "Para que el motor frene y no se calienten los frenos",
     "Para gastar menos combustible durante toda la bajada",
-    "Para que el vehículo baje más rápido",
+    "Para que la dirección se sienta más firme",
     "Para que el ABS actúe antes al frenar"
    ]
   },
@@ -6899,9 +6899,9 @@
    "prompt": "¿Qué efecto de la marihuana causa cálculos errados de distancia?",
    "options": [
     "Altera la percepción del tiempo, espacio y velocidad",
-    "Mejora la visión en la oscuridad",
-    "Disminuye el tiempo de reacción del conductor",
-    "Produce más concentración al volante"
+    "Produce visión doble y pérdida del equilibrio",
+    "Reduce la visión periférica a menos de 30°",
+    "Provoca somnolencia profunda y microsueños"
    ]
   },
   {
@@ -8129,9 +8129,9 @@
    "prompt": "Con una carga pesada, ¿qué ocurre con el vehículo?",
    "options": [
     "Acelera más lento y frena en más distancia",
-    "Acelera más rápido y gira mucho menos",
-    "Frena en menos distancia que sin carga",
-    "Consume menos combustible en carretera"
+    "Acelera igual, pero frena en más distancia",
+    "Frena igual, pero gira más de lo esperado",
+    "Acelera más lento, pero frena en menos distancia"
    ]
   },
   {
@@ -8161,7 +8161,7 @@
     "Se eleva la parte trasera del auto y puede serpentear",
     "Las luces bajas encandilan a quienes vienen de frente",
     "Se carga hacia abajo la parte trasera del automóvil",
-    "Mejora la estabilidad del remolque en las curvas"
+    "El remolque frena antes que el auto en las bajadas"
    ]
   },
   {
@@ -12538,7 +12538,7 @@
     "La mayoría de las muertes producidas por siniestros de tránsito podría haberse evitado.",
     "Las personas que quedan con discapacidad de por vida por un siniestro aparecen en las cifras solo como “lesionados”.",
     "En Chile, para niñas y niños de 1 a 14 años, los siniestros de tránsito son la quinta causa de muerte.",
-    "La OMS considera los siniestros de tránsito un problema menor, propio de cada país y no de salud pública."
+    "La OMS considera los siniestros de tránsito sobre todo un problema de seguridad ciudadana."
    ],
    "answers": 2,
    "explain": "Evitando los factores de riesgo se reduce mucho la posibilidad de sufrir un siniestro. Por eso no se dimensiona bien la magnitud del problema.",
@@ -12585,8 +12585,8 @@
    "options": [
     "El aceite y su filtro se deben cambiar periódicamente según las recomendaciones del fabricante del vehículo.",
     "Una batería mal cargada dificulta arrancar, especialmente cuando la temperatura es baja.",
-    "Cuando el nivel de líquido de la batería está bajo, se rellena con agua de la llave o con refrigerante.",
-    "Si la correa del alternador está poco tensa, se genera más electricidad y la batería se sobrecarga."
+    "Cuando el nivel de líquido de la batería está bajo, se rellena con ácido de batería.",
+    "Si la correa del alternador está poco tensa, la batería se carga igual, pero el motor se calienta."
    ],
    "answers": 2,
    "explain": "Controla el nivel de aceite y cambia periódicamente el aceite y el filtro según el fabricante. Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente con frío.",
@@ -12601,7 +12601,7 @@
    "options": [
     "Si la luz de carga se enciende o parpadea durante la conducción, hay algún problema.",
     "El ácido de la batería es corrosivo: hay que cuidar la ropa y la piel.",
-    "Si un accesorio eléctrico deja de funcionar, lo primero es cambiar la batería por una nueva.",
+    "Si un accesorio eléctrico deja de funcionar, lo primero que se revisa es el alternador.",
     "Si el intermitente destella más rápido de lo habitual, lo más probable es que la batería esté sobrecargada."
    ],
    "answers": 2,
@@ -12619,7 +12619,7 @@
     "Para contaminar menos, conviene llenar el estanque cada vez que vayas a recargar combustible.",
     "Las frenadas y aceleraciones frecuentes causan alto consumo de combustible.",
     "Si al conducir sientes un fuerte olor a gasolina, conviene abrir las ventanas y seguir hasta el próximo servicentro.",
-    "Los vapores de la gasolina no son inflamables mientras no haya una llama directa cerca del estanque."
+    "Los vapores de la gasolina son inflamables, pero no dañan la salud."
    ],
    "answers": 3,
    "explain": "Usa el octanaje adecuado al motor, según el fabricante. Llenar el estanque cada vez que recargas contamina menos al liberar menos gases. Evita frenadas y aceleraciones frecuentes: causan alto consumo de combustible.",
@@ -12667,7 +12667,7 @@
     "El desgaste irregular de los neumáticos puede ser síntoma de amortiguadores en mal estado.",
     "Con amortiguadores en mal estado, la fatiga aparece con mayor facilidad en quien conduce.",
     "El freno de mano suele actuar directamente sobre las ruedas traseras.",
-    "La suspensión y la amortiguación sirven sobre todo para que el auto alcance más velocidad en recta.",
+    "La suspensión y la amortiguación sirven sobre todo para que el viaje sea cómodo para los pasajeros.",
     "La dirección se desalinea más rápido sobre todo por usar neumáticos de distinta marca."
    ],
    "answers": 3,
@@ -12699,8 +12699,8 @@
    "options": [
     "Cuando caduca el plazo del líquido de frenos, debes cambiar todo el contenido.",
     "El freno de mano debe mantener el vehículo quieto en una pendiente.",
-    "Si las ruedas se bloquean en una frenada brusca, la distancia de frenado disminuye y sigues controlando la dirección.",
-    "Es aceptable que el pedal de freno baje casi hasta el piso antes de empezar a frenar."
+    "Si las ruedas se bloquean en una frenada brusca, el vehículo se detiene en menos distancia.",
+    "Es normal que el pedal de freno baje más de la mitad de su recorrido antes de empezar a frenar."
    ],
    "answers": 2,
    "explain": "Respeta los plazos del fabricante; una vez que caducan, se cambia todo el contenido. Debe mantener el vehículo quieto en una pendiente o impedir que se ponga en marcha con el freno puesto.",
@@ -12716,7 +12716,7 @@
     "Los neumáticos son el único punto de apoyo del vehículo con la calzada.",
     "La presión de aire de los neumáticos debe ser constante durante todo el año.",
     "Circular a una velocidad moderada alarga la vida de los neumáticos.",
-    "La profundidad mínima aconsejable de los surcos de los neumáticos es de 1 mm, aunque sea por poco tiempo.",
+    "La profundidad mínima aconsejable de los surcos de los neumáticos es de 1,6 mm.",
     "Una baja presión en una rueda delantera hace que el vehículo tienda a torcer hacia el lado contrario."
    ],
    "answers": 3,
@@ -12766,7 +12766,7 @@
     "Un objeto suelto dentro del vehículo puede lesionar a alguien en una frenada brusca.",
     "Debes usar un calzado que te permita un adecuado control de los pedales.",
     "Con los espejos bien regulados, los puntos ciegos quedan solo delante del vehículo.",
-    "Para controlar tus luces bajas frente a una pared, conviene estacionarte a un metro de ella."
+    "Para controlar tus luces bajas frente a una pared, conviene estacionarte a unos 30 metros de ella."
    ],
    "answers": 3,
    "explain": "Asegúrate de que tus luces estén limpias, funcionen y estén bien ajustadas. No lleves objetos sueltos que puedan lesionar a alguien en una frenada brusca. Es una de las cosas de las que siempre debes asegurarte.",
@@ -12798,7 +12798,7 @@
     "Si no tienes buena visibilidad por los vidrios, debes activar el ventilador y el desempañador.",
     "A una velocidad demasiado alta, la fricción puede no ser suficiente para mantener el vehículo en la carretera.",
     "Al tomar el volante, los brazos deben quedar estirados, con los codos rectos, para tener más control.",
-    "La bocina no es uno de los elementos que se deben controlar antes de conducir, porque casi no se usa."
+    "Antes de conducir basta con revisar luces y frenos; la bocina se controla en la revisión técnica."
    ],
    "answers": 2,
    "explain": "Activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera. Al mover el volante desvías la trayectoria recta, pero a velocidad muy alta la fricción puede no bastar.",
@@ -12831,7 +12831,7 @@
     "La presión de aire de los neumáticos puede influir en que el auto gire más o menos de lo esperado.",
     "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles.",
     "En un auto de tracción delantera, si las ruedas patinan por acelerar demasiado, conviene frenar fuerte.",
-    "El centro de gravedad del vehículo es el punto donde se encuentra su menor peso."
+    "El centro de gravedad del vehículo está siempre en el centro de la carrocería, aunque lleve carga."
    ],
    "answers": 2,
    "explain": "La presión de los neumáticos afecta la tendencia al giro y la adherencia. En lo demás, se comportan igual que el resto de los vehículos.",
@@ -12864,7 +12864,7 @@
     "Conducir con ropa de mucho volumen favorece el efecto submarino.",
     "La incomodidad inicial del cinturón desaparece al usarlo habitualmente.",
     "La banda abdominal del cinturón debe ir sobre el abdomen, a la altura del ombligo.",
-    "La banda torácica del cinturón debe pasar sobre el cuello, lo más arriba posible."
+    "La banda torácica del cinturón debe pasar sobre el hombro, cerca del brazo."
    ],
    "answers": 3,
    "explain": "Con holguras recorrerás una mayor distancia durante el siniestro. El efecto submarino aparece con mayor facilidad si el cinturón no está bien ajustado al cuerpo. Muchas personas con el tiempo se sienten incómodas e inseguras cuando no lo usan.",
@@ -12961,7 +12961,7 @@
     "Peatones y ciclistas son usuarios vulnerables de la vía.",
     "Una de las claves de la Convivencia Vial es ver y ser visible.",
     "Conducir a la defensiva implica no dar por hecho que los demás se dieron cuenta de tu presencia.",
-    "La mejor virtud al conducir es la rapidez para llegar antes a destino.",
+    "La mejor virtud al conducir es la seguridad en uno mismo.",
     "Una velocidad adecuada y segura es la máxima permitida por la señalización de la vía."
    ],
    "answers": 3,
@@ -12978,7 +12978,7 @@
     "Solo debes conducir si te encuentras en las mejores condiciones físicas y mentales.",
     "La conducción debe adaptarse a las condiciones climáticas, ambientales y del pavimento.",
     "El principio fundamental en la conducción de un vehículo es la rapidez de reacción.",
-    "Dejar espacio para que otro vehículo te adelante es una muestra de debilidad al conducir."
+    "Dejar espacio para que otro te adelante corresponde solo en carretera, no en la ciudad."
    ],
    "answers": 2,
    "explain": "Es una de las claves para la Convivencia Vial. Es una de las claves para la Convivencia Vial.",
@@ -13026,8 +13026,8 @@
     "Si te distraes, tendrás menos tiempo para reaccionar ante un imprevisto.",
     "Salir de un túnel a la luz del sol puede producir un efecto de ceguera.",
     "Al conducir siempre existe la posibilidad de encontrar un obstáculo en la vía.",
-    "Las interpretaciones erróneas del entorno aparecen cuando los indicios de distancia y forma son muy claros.",
-    "Fumar o comer mientras conduces ayuda a mantener la atención en viajes largos."
+    "Las interpretaciones erróneas del entorno aparecen sobre todo a corta distancia, a menos de 10 metros.",
+    "Comer algo liviano mientras conduces es seguro si la vía es recta y hay poco tránsito."
    ],
    "answers": 3,
    "explain": "Tardarás más tiempo en recibir información. ¡Conducir requiere toda tu atención! También cuando al atardecer el sol da directamente a los ojos. Descubrir personas o animales en la vía puede ser muy difícil en ciertas circunstancias. Ten precaución.",
@@ -13190,7 +13190,7 @@
     "Al pedir la licencia se hace un examen médico que evalúa enfermedades que afectan la conducción.",
     "Si desarrollas una enfermedad después de obtener la licencia, debes preguntar al médico los riesgos de conducir.",
     "Las enfermedades del corazón son las que tienen mayor riesgo de provocar siniestros de tránsito.",
-    "Con una enfermedad crónica, conviene dejar el tratamiento los días en que vas a conducir."
+    "Con una enfermedad crónica, basta con tomar el tratamiento cuando aparecen los síntomas."
    ],
    "answers": 2,
    "explain": "La o el médico puede pedir un informe de especialista. Es tu responsabilidad.",
@@ -13222,7 +13222,7 @@
     "Para personas alérgicas, usar lentes de sol ayuda a proteger los ojos de alérgenos.",
     "Siempre debes evitar conducir cuando presentas síntomas de estrés.",
     "Existen antihistamínicos que no producen somnolencia y son más seguros para conducir.",
-    "A 90 km/h, durante un estornudo de un segundo el vehículo casi no avanza.",
+    "A 90 km/h, durante un estornudo de un segundo el vehículo recorre unos 5 metros.",
     "Si eres alérgico, conviene conducir al amanecer y por zonas húmedas, cuando hay menos tráfico."
    ],
    "answers": 3,
@@ -13239,7 +13239,7 @@
     "Algunos psicoestimulantes generan una fuerte y breve sensación de autoconfianza.",
     "En algunos países se prohíbe conducir mientras se consumen ciertos psicofármacos.",
     "El riesgo de conducir bajo algunos antihistamínicos es menor que el de conducir con sueño leve.",
-    "Los psicofármacos son medicamentos para los dolores musculares y las lesiones deportivas."
+    "Los psicofármacos son medicamentos para controlar la presión arterial."
    ],
    "answers": 2,
    "explain": "Tienen un efecto activador sobre el sistema nervioso central. Algunos disminuyen la atención y aumentan el tiempo de reacción.",
@@ -13289,7 +13289,7 @@
     "Una comida abundante puede favorecer la aparición de sueño al conducir.",
     "El café o las bebidas energéticas pueden producir un “efecto rebote” de sueño repentino.",
     "La somnolencia aparece con más facilidad entre las 9 y las 11 de la mañana.",
-    "Sentir frío y querer subir la calefacción es una señal de que estás bien descansado."
+    "Sentir frío al conducir indica que la calefacción está mal regulada, no que estés cansado."
    ],
    "answers": 3,
    "explain": "Peor aún si duermes menos de la mitad de lo que necesitas. Igual que el alcohol o algunos medicamentos. Cuando pasa el efecto del estimulante, el sueño puede aparecer de golpe.",
@@ -13304,7 +13304,7 @@
    "options": [
     "Con fatiga se puede frenar bruscamente al escuchar una bocina.",
     "Conducir por un camino desconocido favorece la aparición de la fatiga.",
-    "Los cambios de postura frecuentes muestran que la persona va cómoda y descansada.",
+    "Los cambios de postura frecuentes al conducir son normales y no indican fatiga.",
     "Una bebida energética elimina la fatiga y permite seguir conduciendo varias horas."
    ],
    "answers": 2,
@@ -13337,7 +13337,7 @@
     "Como persona conductora debes anticiparte a las posibles infracciones de los peatones.",
     "Los peatones pueden salir repentinamente detrás o delante de vehículos estacionados.",
     "La zona de incertidumbre es el espacio que queda libre delante de un vehículo detenido.",
-    "Si un auto está detenido antes de un paso de cebra en la pista de al lado, conviene adelantarlo rápido."
+    "Si un auto está detenido antes de un paso de cebra en la pista de al lado, lo más probable es que vaya a estacionar."
    ],
    "answers": 2,
    "explain": "Debes estar siempre alerta. Probablemente no te han visto.",
@@ -13353,7 +13353,7 @@
     "Algunas personas mayores tienen dificultad para distinguir bien los colores del semáforo.",
     "Una persona mayor podría devolverse o detenerse en la calzada al cruzar.",
     "En general, las personas mayores que conducen tienen gran experiencia y son prudentes.",
-    "Para cruzar una calle de 16 metros, una persona mayor necesita el mismo tiempo que una persona joven.",
+    "Para cruzar una calle de 16 metros, una persona mayor necesita apenas 1 segundo más que una joven.",
     "Ante peatones ebrios, conviene tocar la bocina para advertirles y seguir con cuidado."
    ],
    "answers": 3,
@@ -13484,7 +13484,7 @@
     "No respetar la luz roja de un semáforo es una infracción gravísima.",
     "Con luz verde puedes continuar o virar, salvo que una señal prohíba el viraje.",
     "La luz amarilla intermitente indica que debes detenerte por completo, igual que con luz roja.",
-    "Con luz roja debes detenerte sobre el paso de peatones, después de la línea de detención."
+    "Con luz roja debes detenerte justo antes del semáforo, aunque pases la línea de detención."
    ],
    "answers": 2,
    "explain": "Además se sanciona con suspensión de la licencia. Luz verde indica paso.",
@@ -13533,7 +13533,7 @@
     "En zonas con trabajos en la vía debes moderar la velocidad.",
     "Entre la línea de detención y el paso de peatones puede haber una zona de espera para ciclos y motos.",
     "Las señales informativas en autopistas y autovías son de color verde.",
-    "Después de pasar una señal de advertencia de peligro, es un buen momento para adelantar."
+    "Después de pasar una señal de advertencia de peligro, ya puedes retomar tu velocidad normal."
    ],
    "answers": 2,
    "explain": "Personas, materiales o maquinaria pueden ser un riesgo. Bajo ciertas condiciones de cruce semaforizado y ancho de calzada.",
@@ -13811,7 +13811,7 @@
     "Antes de cruzar una vía férrea conviene apagar la radio para escuchar.",
     "En un cruce ferroviario, el tren tiene siempre la preferencia.",
     "Un tren a 100 km/h necesita unos 100 metros para detenerse.",
-    "Si ya empezaste a cruzar la vía férrea y se activan las señales, debes detenerte sobre la vía."
+    "Si ya empezaste a cruzar la vía férrea y se activan las señales, debes retroceder."
    ],
    "answers": 2,
    "explain": "Detente siempre, mira en ambas direcciones y escucha. La responsabilidad descansa completamente en ti.",
@@ -13892,7 +13892,7 @@
     "Las bicicletas deben tener reflectantes en sus ruedas, parte trasera y horquillas.",
     "Con carga pesada atrás, el volante se siente más liviano y el auto tiende a girar más.",
     "Las luces que un vehículo proyecta hacia atrás son todas rojas, incluidas las de retroceso.",
-    "Con una carga pesada, el vehículo acelera más rápido y frena en menos distancia."
+    "Con una carga pesada, el vehículo frena en la misma distancia, aunque acelera más lento."
    ],
    "answers": 2,
    "explain": "Los camiones y transporte escolar usan huinchas retrorreflectantes. Con carga pesada adelante, tenderá a girar menos.",
@@ -13957,7 +13957,7 @@
     "En autopista, después de muchos kilómetros crees ir más lento de lo que vas.",
     "Las señales especiales informan 300, 200 y 100 m antes de la pista de desaceleración.",
     "Antes de entrar a un túnel debes tener combustible suficiente.",
-    "Si tu auto falla en una autopista, lo dejas en la pista y sales por la puerta del conductor.",
+    "Si tu auto falla en una autopista, lo orillas en la berma y te bajas por la puerta del conductor.",
     "En una autopista puedes detenerte en la berma para descansar o hablar por teléfono."
    ],
    "answers": 3,
@@ -14331,7 +14331,7 @@
     "La calzada es la parte de la vía destinada al uso de vehículos y animales.",
     "El derecho preferente de paso es la prerrogativa de un peatón o conductor para proseguir su marcha.",
     "La berma es la parte de la vía destinada a los peatones.",
-    "Una bicicleta con motor eléctrico auxiliar se considera ciclo aunque su asistencia funcione a 60 km/h."
+    "Una bicicleta con motor eléctrico auxiliar se considera ciclo aunque su asistencia llegue a 45 km/h."
    ],
    "answers": 2,
    "explain": "La acera es para peatones. Definición del glosario.",

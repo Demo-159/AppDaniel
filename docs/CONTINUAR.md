@@ -268,7 +268,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-3.6.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.7.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 

@@ -1,38 +1,38 @@
 {
  "m1-001": [
   "En Chile, para niñas y niños de 1 a 14 años, los siniestros de tránsito son la quinta causa de muerte.",
-  "La OMS considera los siniestros de tránsito un problema menor, propio de cada país y no de salud pública."
+  "La OMS considera los siniestros de tránsito sobre todo un problema de seguridad ciudadana."
  ],
  "m1-002": [
   "La mayor parte de las personas fallecidas en siniestros se registra en las vías urbanas, sobre todo en los cruces.",
   "Un peatón atropellado a 50 km/h tiene un 90% de probabilidad de sobrevivir."
  ],
  "m2-004": [
-  "Cuando el nivel de líquido de la batería está bajo, se rellena con agua de la llave o con refrigerante.",
-  "Si la correa del alternador está poco tensa, se genera más electricidad y la batería se sobrecarga."
+  "Cuando el nivel de líquido de la batería está bajo, se rellena con ácido de batería.",
+  "Si la correa del alternador está poco tensa, la batería se carga igual, pero el motor se calienta."
  ],
  "m2-005": [
-  "Si un accesorio eléctrico deja de funcionar, lo primero es cambiar la batería por una nueva.",
+  "Si un accesorio eléctrico deja de funcionar, lo primero que se revisa es el alternador.",
   "Si el intermitente destella más rápido de lo habitual, lo más probable es que la batería esté sobrecargada."
  ],
  "m2-006": [
   "Si al conducir sientes un fuerte olor a gasolina, conviene abrir las ventanas y seguir hasta el próximo servicentro.",
-  "Los vapores de la gasolina no son inflamables mientras no haya una llama directa cerca del estanque."
+  "Los vapores de la gasolina son inflamables, pero no dañan la salud."
  ],
  "m2-008": [
   "El monóxido de carbono de los gases de escape es fácil de detectar porque tiene un olor fuerte.",
   "Un ruido anormalmente alto del tubo de escape suele indicar que falta aceite en el motor."
  ],
  "m2-009": [
-  "La suspensión y la amortiguación sirven sobre todo para que el auto alcance más velocidad en recta.",
+  "La suspensión y la amortiguación sirven sobre todo para que el viaje sea cómodo para los pasajeros.",
   "La dirección se desalinea más rápido sobre todo por usar neumáticos de distinta marca."
  ],
  "m2-011": [
-  "Si las ruedas se bloquean en una frenada brusca, la distancia de frenado disminuye y sigues controlando la dirección.",
-  "Es aceptable que el pedal de freno baje casi hasta el piso antes de empezar a frenar."
+  "Si las ruedas se bloquean en una frenada brusca, el vehículo se detiene en menos distancia.",
+  "Es normal que el pedal de freno baje más de la mitad de su recorrido antes de empezar a frenar."
  ],
  "m2-012": [
-  "La profundidad mínima aconsejable de los surcos de los neumáticos es de 1 mm, aunque sea por poco tiempo.",
+  "La profundidad mínima aconsejable de los surcos de los neumáticos es de 1,6 mm.",
   "Una baja presión en una rueda delantera hace que el vehículo tienda a torcer hacia el lado contrario."
  ],
  "m2-013": [
@@ -45,11 +45,11 @@
  ],
  "m2-015": [
   "Con los espejos bien regulados, los puntos ciegos quedan solo delante del vehículo.",
-  "Para controlar tus luces bajas frente a una pared, conviene estacionarte a un metro de ella."
+  "Para controlar tus luces bajas frente a una pared, conviene estacionarte a unos 30 metros de ella."
  ],
  "m2-017": [
   "Al tomar el volante, los brazos deben quedar estirados, con los codos rectos, para tener más control.",
-  "La bocina no es uno de los elementos que se deben controlar antes de conducir, porque casi no se usa."
+  "Antes de conducir basta con revisar luces y frenos; la bocina se controla en la revisión técnica."
  ],
  "m2-018": [
   "Si duplicas la velocidad, la energía del movimiento se multiplica por 2.",
@@ -57,11 +57,11 @@
  ],
  "m2-019": [
   "En un auto de tracción delantera, si las ruedas patinan por acelerar demasiado, conviene frenar fuerte.",
-  "El centro de gravedad del vehículo es el punto donde se encuentra su menor peso."
+  "El centro de gravedad del vehículo está siempre en el centro de la carrocería, aunque lleve carga."
  ],
  "m2-021": [
   "La banda abdominal del cinturón debe ir sobre el abdomen, a la altura del ombligo.",
-  "La banda torácica del cinturón debe pasar sobre el cuello, lo más arriba posible."
+  "La banda torácica del cinturón debe pasar sobre el hombro, cerca del brazo."
  ],
  "m2-022": [
   "El airbag se infla en unos dos o tres segundos después del impacto.",
@@ -76,12 +76,12 @@
   "La velocidad inadecuada está presente en la mitad de los siniestros con víctimas."
  ],
  "m3-027": [
-  "La mejor virtud al conducir es la rapidez para llegar antes a destino.",
+  "La mejor virtud al conducir es la seguridad en uno mismo.",
   "Una velocidad adecuada y segura es la máxima permitida por la señalización de la vía."
  ],
  "m3-028": [
   "El principio fundamental en la conducción de un vehículo es la rapidez de reacción.",
-  "Dejar espacio para que otro vehículo te adelante es una muestra de debilidad al conducir."
+  "Dejar espacio para que otro te adelante corresponde solo en carretera, no en la ciudad."
  ],
  "m4-029": [
   "Las personas conductoras principiantes sufren siniestros sin otros vehículos con la misma frecuencia que las experimentadas.",
@@ -92,8 +92,8 @@
   "Los indicios del entorno para juzgar distancias se vuelven más importantes a menos de 10 metros."
  ],
  "m4-031": [
-  "Las interpretaciones erróneas del entorno aparecen cuando los indicios de distancia y forma son muy claros.",
-  "Fumar o comer mientras conduces ayuda a mantener la atención en viajes largos."
+  "Las interpretaciones erróneas del entorno aparecen sobre todo a corta distancia, a menos de 10 metros.",
+  "Comer algo liviano mientras conduces es seguro si la vía es recta y hay poco tránsito."
  ],
  "m4-033": [
   "La parte del ojo que transforma la luz en señales eléctricas que llegan al cerebro es la pupila.",
@@ -124,12 +124,12 @@
   "La hipertensión arterial no tiene riesgos para el tránsito si la persona se siente bien."
  ],
  "m4-043": [
-  "A 90 km/h, durante un estornudo de un segundo el vehículo casi no avanza.",
+  "A 90 km/h, durante un estornudo de un segundo el vehículo recorre unos 5 metros.",
   "Si eres alérgico, conviene conducir al amanecer y por zonas húmedas, cuando hay menos tráfico."
  ],
  "m4-044": [
   "El riesgo de conducir bajo algunos antihistamínicos es menor que el de conducir con sueño leve.",
-  "Los psicofármacos son medicamentos para los dolores musculares y las lesiones deportivas."
+  "Los psicofármacos son medicamentos para controlar la presión arterial."
  ],
  "m4-045": [
   "Los medicamentos para la alergia no afectan la conducción si se toman la noche anterior.",
@@ -141,10 +141,10 @@
  ],
  "m4-047": [
   "La somnolencia aparece con más facilidad entre las 9 y las 11 de la mañana.",
-  "Sentir frío y querer subir la calefacción es una señal de que estás bien descansado."
+  "Sentir frío al conducir indica que la calefacción está mal regulada, no que estés cansado."
  ],
  "m4-048": [
-  "Los cambios de postura frecuentes muestran que la persona va cómoda y descansada.",
+  "Los cambios de postura frecuentes al conducir son normales y no indican fatiga.",
   "Una bebida energética elimina la fatiga y permite seguir conduciendo varias horas."
  ],
  "m5-049": [
@@ -153,10 +153,10 @@
  ],
  "m5-050": [
   "La zona de incertidumbre es el espacio que queda libre delante de un vehículo detenido.",
-  "Si un auto está detenido antes de un paso de cebra en la pista de al lado, conviene adelantarlo rápido."
+  "Si un auto está detenido antes de un paso de cebra en la pista de al lado, lo más probable es que vaya a estacionar."
  ],
  "m5-051": [
-  "Para cruzar una calle de 16 metros, una persona mayor necesita el mismo tiempo que una persona joven.",
+  "Para cruzar una calle de 16 metros, una persona mayor necesita apenas 1 segundo más que una joven.",
   "Ante peatones ebrios, conviene tocar la bocina para advertirles y seguir con cuidado."
  ],
  "m5-052": [
@@ -185,7 +185,7 @@
  ],
  "m6-059": [
   "La luz amarilla intermitente indica que debes detenerte por completo, igual que con luz roja.",
-  "Con luz roja debes detenerte sobre el paso de peatones, después de la línea de detención."
+  "Con luz roja debes detenerte justo antes del semáforo, aunque pases la línea de detención."
  ],
  "m6-060": [
   "Con luz roja puedes detenerte después de la línea de detención si no hay peatones cruzando.",
@@ -197,7 +197,7 @@
  ],
  "m6-062": [
   "Las señales informativas en autopistas y autovías son de color verde.",
-  "Después de pasar una señal de advertencia de peligro, es un buen momento para adelantar."
+  "Después de pasar una señal de advertencia de peligro, ya puedes retomar tu velocidad normal."
  ],
  "m6-063": [
   "En un cruce sin semáforo, sin carabinero y sin señales, das la preferencia a quienes vienen por tu izquierda.",
@@ -261,7 +261,7 @@
  ],
  "m6-079": [
   "Un tren a 100 km/h necesita unos 100 metros para detenerse.",
-  "Si ya empezaste a cruzar la vía férrea y se activan las señales, debes detenerte sobre la vía."
+  "Si ya empezaste a cruzar la vía férrea y se activan las señales, debes retroceder."
  ],
  "m7-080": [
   "De noche conviene acortar la distancia con el vehículo de adelante para guiarte por sus luces.",
@@ -277,7 +277,7 @@
  ],
  "m7-084": [
   "Las luces que un vehículo proyecta hacia atrás son todas rojas, incluidas las de retroceso.",
-  "Con una carga pesada, el vehículo acelera más rápido y frena en menos distancia."
+  "Con una carga pesada, el vehículo frena en la misma distancia, aunque acelera más lento."
  ],
  "m7-085": [
   "Con licencia Clase B puedes arrastrar un remolque si el peso total no supera los 5.000 kg.",
@@ -292,7 +292,7 @@
   "Para facilitar el acceso a quienes entran a la autopista, conviene mantener tu velocidad para que calculen bien."
  ],
  "m7-088": [
-  "Si tu auto falla en una autopista, lo dejas en la pista y sales por la puerta del conductor.",
+  "Si tu auto falla en una autopista, lo orillas en la berma y te bajas por la puerta del conductor.",
   "En una autopista puedes detenerte en la berma para descansar o hablar por teléfono."
  ],
  "m7-089": [
@@ -369,7 +369,7 @@
  ],
  "m10-111": [
   "La berma es la parte de la vía destinada a los peatones.",
-  "Una bicicleta con motor eléctrico auxiliar se considera ciclo aunque su asistencia funcione a 60 km/h."
+  "Una bicicleta con motor eléctrico auxiliar se considera ciclo aunque su asistencia llegue a 45 km/h."
  ],
  "m10-112": [
   "Un triciclo motorizado de carga puede llevar hasta 500 kilogramos.",
@@ -381,6 +381,6 @@
  ],
  "m4-041": [
   "Las enfermedades del corazón son las que tienen mayor riesgo de provocar siniestros de tránsito.",
-  "Con una enfermedad crónica, conviene dejar el tratamiento los días en que vas a conducir."
+  "Con una enfermedad crónica, basta con tomar el tratamiento cuando aparecen los síntomas."
  ]
 }

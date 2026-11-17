@@ -183,5 +183,35 @@
   "Tocar la bocina y seguir con cuidado",
   "Mantener la velocidad y esquivarlos",
   "Encender las luces altas para que te vean"
+ ],
+ "u5-15": [
+  "Somnolencia profunda poco después de consumirlo",
+  "Visión doble solo al mirar de cerca",
+  "Pérdida del sentido del equilibrio al frenar"
+ ],
+ "u8-06": [
+  "Detenerte en el acto, donde estés, para que pase",
+  "Seguir igual, porque ella te adelantará",
+  "Acelerar y correrte de pista apenas puedas"
+ ],
+ "u5-44": [
+  "Produce visión doble y pérdida del equilibrio",
+  "Reduce la visión periférica a menos de 30°",
+  "Provoca somnolencia profunda y microsueños"
+ ],
+ "u10-44": [
+  "Acelera igual, pero frena en más distancia",
+  "Frena igual, pero gira más de lo esperado",
+  "Acelera más lento, pero frena en menos distancia"
+ ],
+ "u10-50": [
+  "Las luces bajas encandilan a quienes vienen de frente",
+  "Se carga hacia abajo la parte trasera del automóvil",
+  "El remolque frena antes que el auto en las bajadas"
+ ],
+ "u3-39": [
+  "Para gastar menos combustible durante toda la bajada",
+  "Para que la dirección se sienta más firme",
+  "Para que el ABS actúe antes al frenar"
  ]
 }
