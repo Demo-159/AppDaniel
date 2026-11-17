@@ -205,6 +205,8 @@ function finish(){clearInterval(TICK);const R=RUN;show('info');
  $('ifoot').innerHTML=(miss.length?'<button class="btn o" id="rep">Agregar lo fallado a mi repaso ⛽</button>':'')+'<button class="btn g" id="back">Volver al mapa</button>';
  $('back').onclick=()=>show('map');if($('rep'))$('rep').onclick=()=>{$('rep').textContent='✓ Agregado a tu repaso';$('rep').disabled=true}}
 $('qx').onclick=()=>{clearInterval(TICK);show('map')};
+// Botón atrás de Android (lo llama la app): true si cerró algo dentro de la página
+window.atras=()=>{if($('pop').classList.contains('on')){$('pop').classList.remove('on');return true}if(!$('v-map').classList.contains('on')){clearInterval(TICK);show('map');return true}return false};
 // al terminar una sesión con tutor se vuelve con #practica=<id>
 (()=>{const m=location.hash.match(/practica=(\w+)/);if(!m)return;history.replaceState(null,'',location.pathname);const p=STOPS.find(s=>s.sid===m[1]);if(p)practiceSession(p)})();
 </script></body></html>

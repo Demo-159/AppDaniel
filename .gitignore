@@ -6,3 +6,6 @@ local.properties
 *.iml
 .kotlin/
 captures/
+
+# contenido web de la app: lo genera tools/empaquetar_app.sh
+app/src/main/assets/web/

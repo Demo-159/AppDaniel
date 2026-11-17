@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por tools/icono/iconos.py -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.82" android:scaleY="0.82">
+        <path android:pathData="M54,22 L86,54 L54,86 L22,54 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="5" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        <path android:pathData="M 43.80,38.70 H 56.55 C 63.35,38.70 66.75,42.10 66.75,46.86 C 66.75,50.26 64.71,52.64 61.82,53.49 C 65.56,54.34 67.94,57.40 67.94,61.48 C 67.94,66.58 64.20,69.30 57.40,69.30 H 43.80 Z M 49.92,44.14 V 51.28 H 55.70 C 59.10,51.28 60.80,49.92 60.80,47.54 C 60.80,45.33 59.10,44.14 55.70,44.14 Z M 49.92,56.38 V 63.86 H 56.72 C 60.29,63.86 61.82,62.50 61.82,60.12 C 61.82,57.74 60.29,56.38 56.72,56.38 Z" android:fillColor="#FFFFFFFF" android:fillType="evenOdd"/>
+    </group>
+</vector>

@@ -200,6 +200,18 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
    "mejora la visión"); reescribirlas como errores plausibles del mismo tema.
 8. Generar un APK nuevo (`./gradlew assembleRelease`) y reemplazar `release/`.
 
+## 8b. App Android v2 (en curso)
+
+- `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
+  desde `assets/web` en un WebView, sin conexión. El botón atrás llama a `window.atras()` de la página.
+  Las pantallas nativas de la v1 (Compose) siguen en el código pero ya no se usan.
+- `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
+  aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
+- Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
+- Pendiente: compilar el APK. En la sesión de nov. 2026 Maven Central respondía 429 (límite de descargas)
+  y no se permitió usar un espejo; reintentar `./tools/empaquetar_app.sh`.
+- Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
+
 ## 9. Convenciones de trabajo
 
 - Commits en español, terminados con las líneas de atribución que indique el sistema. Push solo a la rama de trabajo.
