@@ -142,6 +142,13 @@ function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.backgrou
 $('scroll').addEventListener('click',e=>{if(!e.target.closest('.node'))$('pop').classList.remove('on')});
 requestAnimationFrame(()=>{const sc=$('scroll');sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2});
 
+/* ---------- SONIDOS (Web Audio, volumen bajo; mismas notas que las sesiones con tutor) ---------- */
+let AC=null;
+document.addEventListener('pointerdown',()=>{if(!AC)try{AC=new (window.AudioContext||window.webkitAudioContext)()}catch(e){}},{once:true});
+function sfx(kind){if(!AC)return;if(AC.state==='suspended')AC.resume();const t=AC.currentTime;
+ const notes=kind==='bien'?[[784,0],[1175,.1]]:kind==='fin'?[[523,0],[659,.12],[784,.24],[1047,.36]]:[[247,0],[196,.13]];
+ notes.forEach(([hz,d])=>{const o=AC.createOscillator(),e=AC.createGain();o.type=kind==='mal'?'triangle':'sine';o.frequency.value=hz;o.connect(e);e.connect(AC.destination);const st=t+d;
+  e.gain.setValueAtTime(0,st);e.gain.linearRampToValueAtTime(kind==='mal'?.05:.08,st+.015);e.gain.exponentialRampToValueAtTime(.0001,st+(kind==='fin'?.45:.32));o.start(st);o.stop(st+.5)})}
 /* ---------- QUESTION ENGINE ---------- */
 let RUN=null,TICK=null;
 function pick(n,units){let pool=BANK.Q.filter(q=>!units||units.includes(q.u));n=Math.min(n,pool.length);
@@ -176,14 +183,14 @@ function renderQ(){show('quiz');const R=RUN,q=R.qs[R.i];
  b.textContent=R.mode==='practice'?'Comprobar':(R.i===R.qs.length-1?'Terminar':'Siguiente');b.className='btn g';b.disabled=true;let sel=null;const picks=new Set();
  $('qbody').querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const k=+o.dataset.k;if(K>1){if(picks.has(k)){picks.delete(k);o.classList.remove('sel')}else if(picks.size<K){picks.add(k);o.classList.add('sel')}b.disabled=picks.size!==K}else{$('qbody').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=k;b.disabled=false}});
  b.onclick=()=>{const ok=K>1?[...picks].every(k=>k<K):sel===0;R.ans[R.i]={ok,sel};
-  if(R.mode==='practice'){$('qbody').querySelectorAll('.opt').forEach(o=>{o.onclick=null;const k=+o.dataset.k;if(k<K)o.classList.add('good');else if(k===sel||picks.has(k))o.classList.add('bad')});
+  if(R.mode==='practice'){sfx(ok?'bien':'mal');$('qbody').querySelectorAll('.opt').forEach(o=>{o.onclick=null;const k=+o.dataset.k;if(k<K)o.classList.add('good');else if(k===sel||picks.has(k))o.classList.add('bad')});
    F.className='foot '+(ok?'ok':'ko');$('qfb').innerHTML=`<div class="fbt" style="color:${ok?'var(--green)':'var(--red)'}">${ok?'¡Bien hecho!':(K>1?'Las correctas quedaron en verde ↑':'Respuesta correcta: '+q.o[0])}</div><div class="fbx">${q.e}${q.p?` <span class="muted">· Libro, pág. ${q.p}</span>`:''}</div>`;
    b.textContent='Continuar';b.className='btn '+(ok?'g':'r');b.onclick=next}
   else next()}}
 function next(){RUN.i++;if(RUN.i<RUN.qs.length)renderQ();else finish()}
 function finish(){clearInterval(TICK);const R=RUN;show('info');
  if(R.mode==='practice'){const c=R.ans.filter(a=>a&&a.ok).length;
-  const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${R.qs.length} correctas</div></div>`;
+  sfx('fin');const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${R.qs.length} correctas</div></div>`;
   $('ifoot').innerHTML='<button class="btn g" id="back">Volver al mapa</button>';$('back').onclick=()=>show('map');return}
  let pts=0,max=0;const per={};
  R.qs.forEach((q,i)=>{const v=R.dbl.has(i)?2:1;max+=v;const ok=R.ans[i]&&R.ans[i].ok;if(ok)pts+=v;const ch=BANK.U[q.u].c;(per[ch]=per[ch]||[0,0]);per[ch][1]++;if(ok)per[ch][0]++});
