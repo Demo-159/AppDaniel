@@ -238,6 +238,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
   se aplican con `multi_falsas/aplicar.py`, que también aplica `sin_libro.json` y verifica que no quede
   "libro"). **No volver a correr `multi.py`/`falsos.json`**: regeneraría las falsas absurdas. Ninguna Marque se
   delata por largo (0 de 113 con todas las verdaderas más largas).
+- **Auto del mapa (v2.7):** va sobre el camino, antes de la parada siguiente y girado según la curva (`objY=nx.y-126`, curva bézier de `camino()`). Por eso `GAP=260` y los carteles avanzan 220. El globo dice "EMPEZAR" solo en la primera parada de cada capítulo; en las demás, "CONTINUAR".
 - **Doble puntaje en el simulacro:** una pregunta de cada tema grave (alcohol y drogas, velocidad, protección:
   cinturón/casco/SRI), campo `g` calculado en `tools/demo-app/build.py`; si falta un tema se cambia una común.
 - **Lectura:** cada cita se muestra como la oración completa del libro, tomada de `tools/cobertura/libro_bloques.txt`
@@ -251,7 +252,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.6.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.7.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
