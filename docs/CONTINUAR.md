@@ -228,6 +228,10 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - **Emojis iguales en todos los teléfonos** (regla del usuario): las páginas incluyen Noto Color Emoji recortada
   a los emojis usados, más Noto Sans Math/Symbols 2 para ↑ → ↻ ≈ ✓ ✕ (`tools/demo-app/fuentes`, ver `LEEME.md`).
   **Al usar un emoji nuevo, regenerar la fuente** o se verá con el del teléfono. Nunito también va incluida.
+- **Orden de la ruta (v2.5):** se puede adelantar, pero se prioriza el orden: al tocar una parada posterior a la
+  siguiente, la ventana avisa "Te estás adelantando" con "Ir a la siguiente" (principal) y "Adelantarme igual".
+  La siguiente siempre es la primera sin hacer en el orden del libro. Botón flotante "Seguir en: …" cuando la
+  siguiente queda fuera de la pantalla.
 - Solo entran preguntas `mc`, `img` y `multi`; las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
 
 - `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
@@ -236,7 +240,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.4.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.5.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
