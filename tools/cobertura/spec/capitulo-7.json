@@ -1,0 +1,780 @@
+{
+ "capitulo": 7,
+ "titulo": "Conducción en circunstancias especiales",
+ "unidad": "u10",
+ "unidades": [
+  "u10"
+ ],
+ "sesiones": [
+  [
+   "c7s1",
+   "Conducción en la oscuridad"
+  ],
+  [
+   "c7s2",
+   "Encendido y manejo de luces"
+  ],
+  [
+   "c7s3",
+   "Las luces de otros vehículos"
+  ],
+  [
+   "c7s4",
+   "Conducción con carga"
+  ],
+  [
+   "c7s5",
+   "Conducción con remolque"
+  ],
+  [
+   "c7s6",
+   "Tomar la autopista y circular en ella"
+  ],
+  [
+   "c7s7",
+   "Detención, fallas y salida de la autopista"
+  ],
+  [
+   "c7s8",
+   "Conducción en túneles"
+  ],
+  [
+   "c7s9",
+   "La lluvia y el aquaplaning"
+  ],
+  [
+   "c7s10",
+   "La nieve"
+  ],
+  [
+   "c7s11",
+   "El hielo"
+  ],
+  [
+   "c7s12",
+   "La niebla y el viento fuerte"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c7s1",
+   "cita": "El riesgo de siniestro es mayor durante la noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad.",
+   "tf": "El riesgo de siniestro es mayor de noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad.",
+   "a": true,
+   "e": "Los ojos tardan en acomodarse y aparecen efectos de ceguera."
+  },
+  {
+   "s": "c7s1",
+   "cita": "Para prevenir siniestros, aumenta",
+   "mc": "De noche, para prevenir siniestros, ¿qué debes hacer con la distancia al vehículo de adelante?",
+   "o": [
+    "Aumentarla",
+    "Reducirla",
+    "Mantenerla igual que de día",
+    "Reducirla a la mitad"
+   ],
+   "e": "Aumenta la distancia entre tu vehículo y los que te anteceden."
+  },
+  {
+   "s": "c7s1",
+   "cita": "En estas condiciones, el tráfico que viene en sentido contrario parece encontrarse más lejos de lo que realmente está.",
+   "tf": "De noche o con niebla, el tráfico que viene en contra parece estar más lejos de lo que está.",
+   "a": true,
+   "e": "Se difuminan colores y contornos; cuidado al adelantar."
+  },
+  {
+   "s": "c7s1",
+   "cita": "La capacidad de reflejar la luz que tenga el obstáculo.",
+   "mc": "De noche, ¿de qué depende descubrir un obstáculo?",
+   "o": [
+    "De tus luces, tu vista y lo que refleja el obstáculo",
+    "Solo de la velocidad a la que va el vehículo",
+    "Solo de la hora exacta en que vas conduciendo",
+    "Solo del modelo y del año de tu vehículo"
+   ],
+   "e": "Potencia y ajuste de luces, capacidad visual, reflejo del obstáculo, lluvia o niebla, y luces del que viene en contra."
+  },
+  {
+   "s": "c7s1",
+   "cita": "con luces bajas 25 m 60 m 125 m con luces altas 150 m 300 m 450 m",
+   "q": [
+    "u10-04"
+   ]
+  },
+  {
+   "s": "c7s1",
+   "cita": "con luces altas 150 m 300 m 450 m",
+   "mc": "Con luces altas, ¿a qué distancia aproximada se ve a un peatón con ropa con reflectante?",
+   "o": [
+    "Unos 450 metros",
+    "Unos 125 metros",
+    "Unos 60 metros",
+    "Unos 25 metros"
+   ],
+   "e": "Luces bajas: 25, 60 y 125 m (oscura, clara, reflectante); altas: 150, 300 y 450 m."
+  },
+  {
+   "s": "c7s2",
+   "cita": "desde media hora después de la puesta de sol y hasta media hora antes de su salida",
+   "q": [
+    "u10-01"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "luces bajas en las vías urbanas y luces altas en los caminos y vías rurales.",
+   "q": [
+    "u10-02"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "resulta aconsejable que, incluso, durante el día los vehículos circulen con sus luces bajas encendidas",
+   "tf": "Es aconsejable circular con luces bajas encendidas incluso de día.",
+   "a": true,
+   "e": "Así te haces más visible."
+  },
+  {
+   "s": "c7s2",
+   "cita": "En vías interurbanas, aun cuando no esté oscuro, ni las condiciones de visibilidad sean reducidas por lluvia u otras causas, debes circular siempre con tus luces encendidas.",
+   "q": [
+    "u10-03"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "En ningún caso podrás circular con las luces de estacionamiento encendidas.",
+   "q": [
+    "u10-07"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "deberás cambiar a luces bajas para no cegar a quien lo conduce. Esto se refiere al encuentro con todo tipo de vehículos, es decir, también con ciclistas.",
+   "q": [
+    "u10-05"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "Dirige tu mirada a lo lejos hacia el borde derecho de la calzada.",
+   "q": [
+    "u10-06"
+   ]
+  },
+  {
+   "s": "c7s2",
+   "cita": "No es necesario que bajes las luces cuando te cruces con peatones.",
+   "tf": "De noche en una vía no urbana, no es necesario bajar las luces al cruzarte con peatones.",
+   "a": true,
+   "e": "Sí debes bajarlas con todo tipo de vehículos, incluidos ciclistas."
+  },
+  {
+   "s": "c7s2",
+   "cita": "También es importante que cambies a luces altas en el momento del encuentro propiamente tal",
+   "tf": "En el momento mismo del encuentro conviene volver a luces altas para ver obstáculos a tu derecha.",
+   "a": true,
+   "e": "Para recuperar visibilidad de peatones u obstáculos al costado derecho."
+  },
+  {
+   "s": "c7s2",
+   "cita": "Cuando alcances a un vehículo que va delante, cambia a luces bajas para no encandilar a la persona conductora a través de su espejo retrovisor.",
+   "mc": "Al alcanzar de noche a un vehículo que va delante, ¿qué luces usas?",
+   "o": [
+    "Luces bajas",
+    "Luces altas",
+    "Solo las de estacionamiento",
+    "Las neblineras traseras"
+   ],
+   "e": "Para no encandilarlo por su espejo; con buses y camiones, bájalas antes."
+  },
+  {
+   "s": "c7s2",
+   "cita": "Al adelantar, cambia a luces altas tan pronto tengas seguridad de no cegar a la persona conductora del vehículo que va adelante tuyo.",
+   "tf": "Al adelantar de noche, cambias a luces altas apenas no encandiles al que adelantas.",
+   "a": true,
+   "e": "Puede haber curvas u obstáculos que no verías con luces bajas."
+  },
+  {
+   "s": "c7s2",
+   "cita": "baja las luces cuando el vehículo aparezca oblicuamente a tu izquierda para evitar encandilar a la persona que lo conduce.",
+   "tf": "Cuando te adelantan de noche, bajas las luces cuando el otro aparece oblicuo a tu izquierda.",
+   "a": true,
+   "e": "Mientras tanto ayúdale con luces altas."
+  },
+  {
+   "s": "c7s2",
+   "cita": "Para asegurarte de ser visible, puedes encender también la iluminación interna.",
+   "mc": "Al estacionar de noche en una vía sin alumbrado, ¿qué puedes encender además de las luces de estacionamiento?",
+   "o": [
+    "La iluminación interna",
+    "Las luces altas",
+    "Las neblineras traseras",
+    "Nada más"
+   ],
+   "e": "Si hay falla, instala el triángulo y enciende las intermitentes."
+  },
+  {
+   "s": "c7s3",
+   "cita": "llevan, además, luces amarillas frontales en ambos extremos de la parte superior de la carrocería, que indican el ancho y altura máxima.",
+   "mc": "¿Qué indican las luces amarillas superiores de un camión o bus?",
+   "o": [
+    "Su ancho y altura máxima",
+    "Que va a virar",
+    "Que lleva carga peligrosa",
+    "Que va a detenerse"
+   ],
+   "e": "También llevan luces rojas en los extremos superiores traseros."
+  },
+  {
+   "s": "c7s3",
+   "cita": "Parte delantera: un foco que proyecta luces altas y bajas. Parte trasera: luz roja fija, luz de freno y dos luces destellantes de viraje.",
+   "mc": "De noche ves un solo foco adelante. ¿Qué vehículo puede ser?",
+   "o": [
+    "Una motocicleta o motoneta",
+    "Un automóvil de cuatro ruedas",
+    "Un camión de carga pesada",
+    "Un bus interurbano grande"
+   ],
+   "e": "Motos: un foco adelante; atrás luz roja fija, de freno y dos de viraje."
+  },
+  {
+   "s": "c7s3",
+   "cita": "Deben llevar un farol en la parte delantera de cada uno de los costados que sobresalga de su estructura y que proyecten luz blanca hacia adelante y luz roja hacia atrás.",
+   "tf": "Los vehículos a tracción animal deben llevar faroles con luz blanca adelante y roja atrás.",
+   "a": true,
+   "e": "Uno en cada costado que sobresalga de su estructura."
+  },
+  {
+   "s": "c7s3",
+   "cita": "Ten presente que todas las luces que los vehículos proyectan hacia adelante son blancas o amarillas, y las que proyectan hacia atrás son rojas",
+   "q": [
+    "u10-08"
+   ]
+  },
+  {
+   "s": "c7s3",
+   "cita": "la normativa indica que las bicicletas deben contar con reflectantes en sus ruedas, parte trasera y horquillas delanteras y traseras.",
+   "tf": "Las bicicletas deben tener reflectantes en sus ruedas, parte trasera y horquillas.",
+   "a": true,
+   "e": "Los camiones y transporte escolar usan huinchas retrorreflectantes."
+  },
+  {
+   "s": "c7s3",
+   "cita": "Al conducir por una zona urbana que posea alumbrado público, no debes llevar encendidas tus luces altas.",
+   "tf": "En una zona urbana con alumbrado público puedes usar luces altas.",
+   "a": false,
+   "e": "No debes llevar luces altas donde hay alumbrado público."
+  },
+  {
+   "s": "c7s4",
+   "cita": "La aceleración será más lenta y las distancias para detenerse aumentarán.",
+   "mc": "Con una carga pesada, ¿qué ocurre con el vehículo?",
+   "o": [
+    "Acelera más lento y frena en más distancia",
+    "Acelera más rápido y gira mucho menos",
+    "Frena en menos distancia que sin carga",
+    "Consume menos combustible en carretera"
+   ],
+   "e": "Además se ladea más en curvas y necesita más espacio para adelantar."
+  },
+  {
+   "s": "c7s4",
+   "cita": "Con una carga pesada en la parte posterior de tu automóvil sentirás el volante más liviano y el vehículo tenderá a girar más de lo esperado",
+   "tf": "Con carga pesada atrás, el volante se siente más liviano y el auto tiende a girar más.",
+   "a": true,
+   "e": "Con carga pesada adelante, tenderá a girar menos."
+  },
+  {
+   "s": "c7s4",
+   "cita": "Nunca lleves objetos duros, con puntas o pesados en el estante de atrás",
+   "tf": "Llevar objetos duros o pesados en el estante de atrás es peligroso.",
+   "a": true,
+   "e": "En un choque o frenada pueden transformarse en proyectiles."
+  },
+  {
+   "s": "c7s4",
+   "cita": "Si ves que a un vehículo se le cae algún objeto de su carga, da aviso a través de un teléfono SOS.",
+   "mc": "Si ves que a un vehículo se le cae parte de su carga, ¿qué haces?",
+   "o": [
+    "Avisar por un teléfono SOS",
+    "Detenerte a recogerla en la vía",
+    "Tocar la bocina y seguir",
+    "Seguirlo hasta que se detenga"
+   ],
+   "e": "Da aviso a través de un teléfono SOS."
+  },
+  {
+   "s": "c7s5",
+   "cita": "cuyo peso no exceda la tara de unidad motriz, y siempre que el peso total no supere los 3.500 kilogramos.",
+   "q": [
+    "u10-09"
+   ]
+  },
+  {
+   "s": "c7s5",
+   "cita": "instala en tu vehículo espejos retrovisores extra o prolonga los existentes mediante brazos especiales.",
+   "tf": "Para arrastrar un remolque ancho puedes instalar espejos extra o brazos de prolongación.",
+   "a": true,
+   "e": "Retíralos cuando desenganches el remolque."
+  },
+  {
+   "s": "c7s5",
+   "cita": "Cuando los remolques tienen capacidad de carga superior a 750 kilogramos, deben poseer frenos",
+   "q": [
+    "u10-10"
+   ]
+  },
+  {
+   "s": "c7s5",
+   "cita": "los remolques con frenos deben poseer uno para casos de emergencia, que funcione automáticamente al romperse el dispositivo de arrastre.",
+   "tf": "Un remolque con frenos debe tener uno de emergencia que actúe solo si se rompe el enganche.",
+   "a": true,
+   "e": "Los frenos de empuje son los más corrientes."
+  },
+  {
+   "s": "c7s5",
+   "cita": "Cuando la presión sobre la esfera es baja o nula, se eleva la parte trasera del automóvil.",
+   "mc": "Si la presión sobre la bola de arrastre es baja o nula…",
+   "o": [
+    "Se eleva la parte trasera del auto y puede serpentear",
+    "Las luces bajas encandilan a quienes vienen de frente",
+    "Se carga hacia abajo la parte trasera del automóvil",
+    "Mejora la estabilidad del remolque en las curvas"
+   ],
+   "e": "Disminuye la presión de las ruedas traseras; el remolque puede voltear."
+  },
+  {
+   "s": "c7s5",
+   "cita": "El freno de estacionamiento del remolque esté suelto.",
+   "tf": "Antes de partir con remolque, el freno de estacionamiento del remolque debe estar suelto.",
+   "a": true,
+   "e": "También: carga bien distribuida, buen enganche, luces y espejos."
+  },
+  {
+   "s": "c7s5",
+   "cita": "Si el remolque comienza a zigzaguear suelta el acelerador lentamente",
+   "q": [
+    "u10-11"
+   ]
+  },
+  {
+   "s": "c7s6",
+   "cita": "para poder llegar al menos hasta la próxima estación de servicio.",
+   "tf": "Antes de usar una autopista, debes tener combustible para llegar al menos a la próxima estación de servicio.",
+   "a": true,
+   "e": "Y presión correcta, aceite y agua."
+  },
+  {
+   "s": "c7s6",
+   "cita": "Debes permanecer en esta pista mientras adaptas tu velocidad al flujo de la autopista y hasta que se produzca una brecha",
+   "q": [
+    "u10-12"
+   ]
+  },
+  {
+   "s": "c7s6",
+   "cita": "Los vehículos que circulan por la autopista tienen la prioridad. En caso de no encontrar una brecha segura, detente hasta que esta se produzca.",
+   "tf": "Al entrar a la autopista, tienes prioridad sobre los que ya circulan por ella.",
+   "a": false,
+   "e": "Los que circulan por la autopista tienen la prioridad."
+  },
+  {
+   "s": "c7s6",
+   "cita": "Recuerda que el uso de autopistas sin contar con un sistema de pago es sancionado.",
+   "tf": "Usar una autopista sin un sistema de pago (TAG o pase diario) es sancionado.",
+   "a": true,
+   "e": "Averigua otras formas de pago si no tienes TAG."
+  },
+  {
+   "s": "c7s6",
+   "cita": "La regla de los tres segundos es imprescindible cuando se conduce a velocidades altas.",
+   "tf": "En autopista la regla de los tres segundos es imprescindible.",
+   "a": true,
+   "e": "Conduce a velocidad constante y sin exceder los límites."
+  },
+  {
+   "s": "c7s6",
+   "cita": "Aligerando la presión sobre el acelerador y dejando pasar a quien desee entrar.",
+   "mc": "¿Cómo facilitas el acceso a quienes entran a la autopista?",
+   "o": [
+    "Soltando el acelerador y dejándolos pasar",
+    "Acelerando para no dejarlos entrar",
+    "Tocando la bocina para avisar",
+    "Frenando en seco en tu pista"
+   ],
+   "e": "También aumentando tu velocidad sin exceder el máximo o cambiándote de pista."
+  },
+  {
+   "s": "c7s6",
+   "cita": "Por eso, es importante que constantemente controles tu velocidad mirando el velocímetro.",
+   "tf": "En autopista, después de muchos kilómetros crees ir más lento de lo que vas.",
+   "a": true,
+   "e": "Controla constantemente el velocímetro."
+  },
+  {
+   "s": "c7s7",
+   "cita": "No te detengas en una autopista, a menos que: Se produzca una emergencia. Te lo solicite Carabineros.",
+   "mc": "¿Cuándo puedes detenerte en una autopista?",
+   "o": [
+    "En una emergencia o si lo pide Carabineros",
+    "Para tomar fotos del paisaje en la berma",
+    "Para dejar a un pasajero en el acceso",
+    "Para revisar el celular un momento"
+   ],
+   "e": "No estaciones en ella, en sus bermas ni en sus accesos."
+  },
+  {
+   "s": "c7s7",
+   "cita": "Salir del vehículo por la puerta derecha asegurándote que tus pasajeros hagan lo mismo.",
+   "q": [
+    "u10-13"
+   ]
+  },
+  {
+   "s": "c7s7",
+   "cita": "No intentes colocar un triángulo u otro dispositivo reflectante en la calzada de la autopista, ni intentes realizar la más mínima reparación.",
+   "tf": "Si quedas detenido en la calzada de una autopista, debes colocar el triángulo en la calzada.",
+   "a": false,
+   "e": "No intentes colocarlo ni reparar nada; si sales, usa el chaleco."
+  },
+  {
+   "s": "c7s7",
+   "cita": "La pista de desaceleración para salir de la autopista se distingue por líneas segmentadas más anchas que lo normal",
+   "q": [
+    "u10-14"
+   ]
+  },
+  {
+   "s": "c7s7",
+   "cita": "Así, 80 km/h pueden parecerte como si fueras a 50 km/h.",
+   "mc": "Al salir de una autopista, 80 km/h pueden parecerte…",
+   "o": [
+    "50 km/h",
+    "120 km/h",
+    "100 km/h",
+    "30 km/h"
+   ],
+   "e": "Controla el velocímetro y reduce: muchas salidas tienen curvas pronunciadas."
+  },
+  {
+   "s": "c7s7",
+   "cita": "La distancia de 300 m, 200 m y 100 m al inicio de una pista de desaceleración para abandonar una autopista se informa con señales especiales.",
+   "tf": "Las señales especiales informan 300, 200 y 100 m antes de la pista de desaceleración.",
+   "a": true,
+   "e": "Son las balizas de acercamiento."
+  },
+  {
+   "s": "c7s8",
+   "cita": "asegúrate de tener combustible suficiente para no correr el riesgo de quedar con tu vehículo detenido en su interior.",
+   "tf": "Antes de entrar a un túnel debes tener combustible suficiente.",
+   "a": true,
+   "e": "Para no quedar detenido en su interior."
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si no vas con luces encendidas, préndelas al ingresar al túnel, aun cuando este posea buena iluminación.",
+   "mc": "¿Por qué debes encender las luces con anticipación al entrar a un túnel?",
+   "o": [
+    "Para que no confundan tus luces traseras con las de freno",
+    "Para ahorrar batería mientras estás dentro del túnel",
+    "Porque así lo exige el sistema de cobro del peaje",
+    "Para avisar a los demás que vas a adelantar"
+   ],
+   "e": "Aun cuando el túnel tenga buena iluminación."
+  },
+  {
+   "s": "c7s8",
+   "cita": "Quítate las gafas si las lleva puestas.",
+   "q": [
+    "u10-16"
+   ]
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si se produce un atochamiento, enciende tus luces de emergencia inmediatamente",
+   "tf": "En un atochamiento dentro de un túnel debes encender de inmediato las luces de emergencia.",
+   "a": true,
+   "e": "Mantén distancia y, si estás detenido, apaga el motor."
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si no puedes mover tu vehículo, permanece en él junto a sus demás ocupantes, con sus cinturones de seguridad puestos, y espera por asistencia.",
+   "q": [
+    "u10-15"
+   ]
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si requieres pedir asistencia hazlo exclusivamente desde un teléfono SOS, ya que los celulares no indican desde donde se está efectuando la llamada.",
+   "mc": "Dentro de un túnel, ¿por qué pedir ayuda desde un teléfono SOS y no desde el celular?",
+   "o": [
+    "El celular no indica desde dónde llamas",
+    "El celular no tiene señal nunca",
+    "Es más barato que el celular",
+    "Así lo exige la ley de autopistas"
+   ],
+   "e": "Pide asistencia exclusivamente desde un teléfono SOS."
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si es posible, sal del túnel. Si no puedes, desplázate hacia la derecha y apaga el motor. Abandona el vehículo inmediatamente.",
+   "mc": "Si tu vehículo se incendia dentro de un túnel y no puedes salir, ¿qué haces?",
+   "o": [
+    "Te orillas, apagas el motor y lo abandonas",
+    "Sigues hasta la salida a toda velocidad",
+    "Te quedas dentro con el cinturón puesto",
+    "Abres el capó para ver el problema"
+   ],
+   "e": "Usa un extintor o pide ayuda desde un teléfono de emergencia."
+  },
+  {
+   "s": "c7s8",
+   "cita": "Si sobrepasas a un/a motociclista debes dejar una distancia lateral de seguridad, la misma que dejarías para un automóvil.",
+   "tf": "Al sobrepasar a un motociclista debes dejar la misma distancia lateral que dejarías a un automóvil.",
+   "a": true,
+   "e": "Es parte de la conclusión del capítulo."
+  },
+  {
+   "s": "c7s8",
+   "cita": "En autopistas y carreteras debes circular por la pista de la derecha cuando tu velocidad sea inferior a la máxima permitida.",
+   "tf": "En autopistas, si vas más lento que la máxima, debes circular por la pista de la derecha.",
+   "a": true,
+   "e": "Y no utilizar la berma para circular."
+  },
+  {
+   "s": "c7s9",
+   "cita": "la primera regla de seguridad es preguntarse si desplazarse en tales condiciones con un vehículo es indispensable.",
+   "mc": "Con mal tiempo, ¿cuál es la primera regla de seguridad?",
+   "o": [
+    "Preguntarse si es indispensable viajar",
+    "Encender las luces altas",
+    "Ir más rápido para llegar antes",
+    "Inflar más los neumáticos"
+   ],
+   "e": "Si debes conducir, asegúrate de que el vehículo esté en perfecto estado."
+  },
+  {
+   "s": "c7s9",
+   "cita": "es con las primeras gotas de lluvia cuando más precauciones hay que tomar",
+   "q": [
+    "u10-17"
+   ]
+  },
+  {
+   "s": "c7s9",
+   "cita": "pisa ligera y suavemente y en forma repetida, el pedal de freno (efecto bombeo).",
+   "mc": "¿Cómo secas los frenos mojados por la lluvia?",
+   "o": [
+    "Pisando suave y repetido el pedal",
+    "Frenando a fondo una sola vez",
+    "Usando solo el freno de mano",
+    "Acelerando y soltando de golpe"
+   ],
+   "e": "Se llama efecto bombeo."
+  },
+  {
+   "s": "c7s9",
+   "cita": "En caso de que el vehículo comience a patinar, suelta el freno completamente para recuperar la tracción de las ruedas.",
+   "tf": "Si el vehículo patina en lluvia, debes soltar completamente el freno.",
+   "a": true,
+   "e": "Para recuperar la tracción; frena suave y a pedaladas cortas."
+  },
+  {
+   "s": "c7s9",
+   "cita": "Tu distancia de frenado será a lo menos el doble a la que sería en condiciones ideales",
+   "q": [
+    "u10-18"
+   ]
+  },
+  {
+   "s": "c7s9",
+   "cita": "Este fenómeno se conoce comúnmente con el nombre de “aquaplaning” o “hidroplaning”.",
+   "q": [
+    "u10-19"
+   ]
+  },
+  {
+   "s": "c7s9",
+   "cita": "el mejor consejo es moderar la velocidad",
+   "q": [
+    "u10-20"
+   ]
+  },
+  {
+   "s": "c7s9",
+   "cita": "Cuando no sea posible evitar los charcos, o haya que atravesarlos con las ruedas de un solo lado, reduce aún más la velocidad",
+   "tf": "Al pasar charcos con las ruedas de un solo lado, debes reducir aún más la velocidad.",
+   "a": true,
+   "e": "Para no perder estabilidad ni mojar a peatones o ciclistas."
+  },
+  {
+   "s": "c7s9",
+   "cita": "circula lentamente en primera y a velocidad constante.",
+   "mc": "Si debes pasar por un tramo inundado, ¿cómo lo haces?",
+   "o": [
+    "Lento, en primera y a velocidad constante",
+    "Rápido, para no quedarte detenido",
+    "En neutro, dejándote llevar",
+    "En la marcha más alta posible"
+   ],
+   "e": "Al salir, comprueba los frenos."
+  },
+  {
+   "s": "c7s9",
+   "cita": "comprueba la eficacia de tus frenos presionando el pedal ligeramente. Si no funcionan bien, sécalos frenando suavemente.",
+   "q": [
+    "u10-21"
+   ]
+  },
+  {
+   "s": "c7s9",
+   "cita": "Elimina el vaho del interior del parabrisas, haciendo uso del sistema de calefacción y ventilación, orientado al parabrisas",
+   "tf": "Para quitar el vaho del parabrisas usas la calefacción y ventilación orientadas a él.",
+   "a": true,
+   "e": "Y el desempañador de la luneta trasera."
+  },
+  {
+   "s": "c7s10",
+   "cita": "Cuando caen los primeros copos de nieve la conducción es tan peligrosa como cuando caen las primeras gotas de agua",
+   "tf": "Los primeros copos de nieve son tan peligrosos como las primeras gotas de lluvia.",
+   "a": true,
+   "e": "Se forma un barrillo muy deslizante."
+  },
+  {
+   "s": "c7s10",
+   "cita": "Utiliza cadenas, al menos, en las ruedas motrices, es decir, las de tracción.",
+   "q": [
+    "u10-24"
+   ]
+  },
+  {
+   "s": "c7s10",
+   "cita": "Sigue las huellas dejadas por los otros vehículos",
+   "tf": "Con nieve conviene seguir las huellas de otros vehículos y procurar no adelantar.",
+   "a": true,
+   "e": "Cuida de no dañar las partes bajas con los montículos centrales."
+  },
+  {
+   "s": "c7s10",
+   "cita": "Usa la marcha más alta que razonablemente sea posible emplear",
+   "mc": "Con nieve, ¿qué marcha conviene usar en general?",
+   "o": [
+    "La más alta razonablemente posible",
+    "Siempre la primera marcha",
+    "El neutro en todas las bajadas",
+    "Cambiar de marcha muy seguido"
+   ],
+   "e": "Así las ruedas motrices patinan menos; evita cambiar de marcha."
+  },
+  {
+   "s": "c7s10",
+   "cita": "Desciende las pendientes lentamente, a velocidad muy moderada y en una marcha baja.",
+   "tf": "Con nieve, las bajadas se hacen lento y en marcha baja, frenando con el motor.",
+   "a": true,
+   "e": "Usa los frenos lo imprescindible."
+  },
+  {
+   "s": "c7s10",
+   "cita": "donde hay más brillo está más dura y es posible que haya hielo.",
+   "tf": "Al atardecer, donde la nieve tiene más brillo es posible que haya hielo.",
+   "a": true,
+   "e": "La nieve comienza a congelarse rápidamente."
+  },
+  {
+   "s": "c7s10",
+   "cita": "es indispensable agregar anticongelante al líquido lavador.",
+   "tf": "Bajo cero es indispensable agregar anticongelante al líquido lavaparabrisas.",
+   "a": true,
+   "e": "Si no, el agua puede helarse sobre el cristal."
+  },
+  {
+   "s": "c7s10",
+   "cita": "no conviene encender las luces altas cuando esté nevando porque estas no atraviesan la cortina de copos de nieve",
+   "tf": "Cuando está nevando de noche conviene usar luces altas.",
+   "a": false,
+   "e": "No atraviesan la cortina de copos y pueden deslumbrarte."
+  },
+  {
+   "s": "c7s11",
+   "cita": "Las partes que reciben sombra son las primeras en congelarse y las últimas en descongelarse y secarse.",
+   "q": [
+    "u10-26"
+   ]
+  },
+  {
+   "s": "c7s11",
+   "cita": "Si notas que la dirección del vehículo está excesivamente ligera, como si flotara, ello es un indicio que debes tener en cuenta.",
+   "tf": "Si la dirección se siente excesivamente ligera, como si flotara, puede haber hielo.",
+   "a": true,
+   "e": "También puedes verificarlo frenando suave a baja velocidad."
+  },
+  {
+   "s": "c7s11",
+   "cita": "cuando la calzada está helada, la distancia de frenado puede aumentar hasta 10 veces por encima de lo normal",
+   "q": [
+    "u10-22"
+   ]
+  },
+  {
+   "s": "c7s11",
+   "cita": "la adherencia se puede mejorar con neumáticos especiales, o bien, circulando con cadenas.",
+   "tf": "Con cadenas o neumáticos especiales se conduce sobre hielo tan seguro como en pavimento seco.",
+   "a": false,
+   "e": "Mejoran la adherencia, pero nada da la seguridad de un pavimento seco."
+  },
+  {
+   "s": "c7s12",
+   "cita": "Mantén encendidas tus luces bajas. Estas, al proyectarse directamente hacia el suelo se ven más y mejor.",
+   "q": [
+    "u10-23"
+   ]
+  },
+  {
+   "s": "c7s12",
+   "cita": "No conviene utilizar luces altas, porque, al proyectarse paralelas sobre la calzada, las diminutas gotas de agua y partículas en suspensión no se dejan penetrar y reflejan la luz como un espejo.",
+   "tf": "Con niebla, las luces altas mejoran la visibilidad.",
+   "a": false,
+   "e": "Las gotas de agua reflejan la luz como un espejo."
+  },
+  {
+   "s": "c7s12",
+   "cita": "úsalas sólo cuando la niebla es espesa, ya que podrías deslumbrar.",
+   "mc": "¿Cuándo se usan las luces de niebla traseras?",
+   "o": [
+    "Solo cuando la niebla es espesa",
+    "Siempre que conduces de noche",
+    "En cualquier lluvia ligera",
+    "Al estacionar en la calle"
+   ],
+   "e": "Son importantes para ser visible, pero podrían deslumbrar."
+  },
+  {
+   "s": "c7s12",
+   "cita": "No adelantes a otros vehículos si la visibilidad es tan reducida que te impide una buena observación hacia adelante.",
+   "tf": "Con niebla densa no debes adelantar si no ves bien hacia adelante.",
+   "a": true,
+   "e": "Fíjate en las demarcaciones para seguir la trayectoria."
+  },
+  {
+   "s": "c7s12",
+   "cita": "El viento fuerte, principalmente cuando en caminos de montaña sopla de lado, es otro riesgo para la conducción, ya que puede provocar la salida del camino o volcamiento del vehículo.",
+   "tf": "El viento lateral fuerte puede provocar la salida del camino o el volcamiento.",
+   "a": true,
+   "e": "Sobre todo en caminos de montaña."
+  },
+  {
+   "s": "c7s12",
+   "cita": "sujeta el volante con firmeza y gíralo contra el viento.",
+   "q": [
+    "u10-25"
+   ]
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Desgraciadamente esta historia no es ficción",
+   "motivo": "relato introductorio"
+  }
+ ]
+}

@@ -10350,6 +10350,721 @@
    "type": "tf",
    "prompt": "En un cruce ferroviario, el tren tiene siempre la preferencia.",
    "answer": true
+  },
+  {
+   "id": "u10-27",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 109,
+   "explain": "Los ojos tardan en acomodarse y aparecen efectos de ceguera.",
+   "type": "tf",
+   "prompt": "El riesgo de siniestro es mayor de noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad.",
+   "answer": true
+  },
+  {
+   "id": "u10-28",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 109,
+   "explain": "Aumenta la distancia entre tu vehículo y los que te anteceden.",
+   "type": "mc",
+   "prompt": "De noche, para prevenir siniestros, ¿qué debes hacer con la distancia al vehículo de adelante?",
+   "options": [
+    "Aumentarla",
+    "Reducirla",
+    "Mantenerla igual que de día",
+    "Reducirla a la mitad"
+   ]
+  },
+  {
+   "id": "u10-29",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 109,
+   "explain": "Se difuminan colores y contornos; cuidado al adelantar.",
+   "type": "tf",
+   "prompt": "De noche o con niebla, el tráfico que viene en contra parece estar más lejos de lo que está.",
+   "answer": true
+  },
+  {
+   "id": "u10-30",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 109,
+   "explain": "Potencia y ajuste de luces, capacidad visual, reflejo del obstáculo, lluvia o niebla, y luces del que viene en contra.",
+   "type": "mc",
+   "prompt": "De noche, ¿de qué depende descubrir un obstáculo?",
+   "options": [
+    "De tus luces, tu vista y lo que refleja el obstáculo",
+    "Solo de la velocidad a la que va el vehículo",
+    "Solo de la hora exacta en que vas conduciendo",
+    "Solo del modelo y del año de tu vehículo"
+   ]
+  },
+  {
+   "id": "u10-31",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 110,
+   "explain": "Luces bajas: 25, 60 y 125 m (oscura, clara, reflectante); altas: 150, 300 y 450 m.",
+   "type": "mc",
+   "prompt": "Con luces altas, ¿a qué distancia aproximada se ve a un peatón con ropa con reflectante?",
+   "options": [
+    "Unos 450 metros",
+    "Unos 125 metros",
+    "Unos 60 metros",
+    "Unos 25 metros"
+   ]
+  },
+  {
+   "id": "u10-32",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 110,
+   "explain": "Así te haces más visible.",
+   "type": "tf",
+   "prompt": "Es aconsejable circular con luces bajas encendidas incluso de día.",
+   "answer": true
+  },
+  {
+   "id": "u10-33",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 111,
+   "explain": "Sí debes bajarlas con todo tipo de vehículos, incluidos ciclistas.",
+   "type": "tf",
+   "prompt": "De noche en una vía no urbana, no es necesario bajar las luces al cruzarte con peatones.",
+   "answer": true
+  },
+  {
+   "id": "u10-34",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 111,
+   "explain": "Para recuperar visibilidad de peatones u obstáculos al costado derecho.",
+   "type": "tf",
+   "prompt": "En el momento mismo del encuentro conviene volver a luces altas para ver obstáculos a tu derecha.",
+   "answer": true
+  },
+  {
+   "id": "u10-35",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 111,
+   "explain": "Para no encandilarlo por su espejo; con buses y camiones, bájalas antes.",
+   "type": "mc",
+   "prompt": "Al alcanzar de noche a un vehículo que va delante, ¿qué luces usas?",
+   "options": [
+    "Luces bajas",
+    "Luces altas",
+    "Solo las de estacionamiento",
+    "Las neblineras traseras"
+   ]
+  },
+  {
+   "id": "u10-36",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 111,
+   "explain": "Puede haber curvas u obstáculos que no verías con luces bajas.",
+   "type": "tf",
+   "prompt": "Al adelantar de noche, cambias a luces altas apenas no encandiles al que adelantas.",
+   "answer": true
+  },
+  {
+   "id": "u10-37",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 112,
+   "explain": "Mientras tanto ayúdale con luces altas.",
+   "type": "tf",
+   "prompt": "Cuando te adelantan de noche, bajas las luces cuando el otro aparece oblicuo a tu izquierda.",
+   "answer": true
+  },
+  {
+   "id": "u10-38",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 112,
+   "explain": "Si hay falla, instala el triángulo y enciende las intermitentes.",
+   "type": "mc",
+   "prompt": "Al estacionar de noche en una vía sin alumbrado, ¿qué puedes encender además de las luces de estacionamiento?",
+   "options": [
+    "La iluminación interna",
+    "Las luces altas",
+    "Las neblineras traseras",
+    "Nada más"
+   ]
+  },
+  {
+   "id": "u10-39",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 112,
+   "explain": "También llevan luces rojas en los extremos superiores traseros.",
+   "type": "mc",
+   "prompt": "¿Qué indican las luces amarillas superiores de un camión o bus?",
+   "options": [
+    "Su ancho y altura máxima",
+    "Que va a virar",
+    "Que lleva carga peligrosa",
+    "Que va a detenerse"
+   ]
+  },
+  {
+   "id": "u10-40",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 112,
+   "explain": "Motos: un foco adelante; atrás luz roja fija, de freno y dos de viraje.",
+   "type": "mc",
+   "prompt": "De noche ves un solo foco adelante. ¿Qué vehículo puede ser?",
+   "options": [
+    "Una motocicleta o motoneta",
+    "Un automóvil de cuatro ruedas",
+    "Un camión de carga pesada",
+    "Un bus interurbano grande"
+   ]
+  },
+  {
+   "id": "u10-41",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 113,
+   "explain": "Uno en cada costado que sobresalga de su estructura.",
+   "type": "tf",
+   "prompt": "Los vehículos a tracción animal deben llevar faroles con luz blanca adelante y roja atrás.",
+   "answer": true
+  },
+  {
+   "id": "u10-42",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 113,
+   "explain": "Los camiones y transporte escolar usan huinchas retrorreflectantes.",
+   "type": "tf",
+   "prompt": "Las bicicletas deben tener reflectantes en sus ruedas, parte trasera y horquillas.",
+   "answer": true
+  },
+  {
+   "id": "u10-43",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 113,
+   "explain": "No debes llevar luces altas donde hay alumbrado público.",
+   "type": "tf",
+   "prompt": "En una zona urbana con alumbrado público puedes usar luces altas.",
+   "answer": false
+  },
+  {
+   "id": "u10-44",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 113,
+   "explain": "Además se ladea más en curvas y necesita más espacio para adelantar.",
+   "type": "mc",
+   "prompt": "Con una carga pesada, ¿qué ocurre con el vehículo?",
+   "options": [
+    "Acelera más lento y frena en más distancia",
+    "Acelera más rápido y gira mucho menos",
+    "Frena en menos distancia que sin carga",
+    "Consume menos combustible en carretera"
+   ]
+  },
+  {
+   "id": "u10-45",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 113,
+   "explain": "Con carga pesada adelante, tenderá a girar menos.",
+   "type": "tf",
+   "prompt": "Con carga pesada atrás, el volante se siente más liviano y el auto tiende a girar más.",
+   "answer": true
+  },
+  {
+   "id": "u10-46",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 114,
+   "explain": "En un choque o frenada pueden transformarse en proyectiles.",
+   "type": "tf",
+   "prompt": "Llevar objetos duros o pesados en el estante de atrás es peligroso.",
+   "answer": true
+  },
+  {
+   "id": "u10-47",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 114,
+   "explain": "Da aviso a través de un teléfono SOS.",
+   "type": "mc",
+   "prompt": "Si ves que a un vehículo se le cae parte de su carga, ¿qué haces?",
+   "options": [
+    "Avisar por un teléfono SOS",
+    "Detenerte a recogerla en la vía",
+    "Tocar la bocina y seguir",
+    "Seguirlo hasta que se detenga"
+   ]
+  },
+  {
+   "id": "u10-48",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 114,
+   "explain": "Retíralos cuando desenganches el remolque.",
+   "type": "tf",
+   "prompt": "Para arrastrar un remolque ancho puedes instalar espejos extra o brazos de prolongación.",
+   "answer": true
+  },
+  {
+   "id": "u10-49",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 115,
+   "explain": "Los frenos de empuje son los más corrientes.",
+   "type": "tf",
+   "prompt": "Un remolque con frenos debe tener uno de emergencia que actúe solo si se rompe el enganche.",
+   "answer": true
+  },
+  {
+   "id": "u10-50",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 115,
+   "explain": "Disminuye la presión de las ruedas traseras; el remolque puede voltear.",
+   "type": "mc",
+   "prompt": "Si la presión sobre la bola de arrastre es baja o nula…",
+   "options": [
+    "Se eleva la parte trasera del auto y puede serpentear",
+    "Las luces bajas encandilan a quienes vienen de frente",
+    "Se carga hacia abajo la parte trasera del automóvil",
+    "Mejora la estabilidad del remolque en las curvas"
+   ]
+  },
+  {
+   "id": "u10-51",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 115,
+   "explain": "También: carga bien distribuida, buen enganche, luces y espejos.",
+   "type": "tf",
+   "prompt": "Antes de partir con remolque, el freno de estacionamiento del remolque debe estar suelto.",
+   "answer": true
+  },
+  {
+   "id": "u10-52",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 116,
+   "explain": "Y presión correcta, aceite y agua.",
+   "type": "tf",
+   "prompt": "Antes de usar una autopista, debes tener combustible para llegar al menos a la próxima estación de servicio.",
+   "answer": true
+  },
+  {
+   "id": "u10-53",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 116,
+   "explain": "Los que circulan por la autopista tienen la prioridad.",
+   "type": "tf",
+   "prompt": "Al entrar a la autopista, tienes prioridad sobre los que ya circulan por ella.",
+   "answer": false
+  },
+  {
+   "id": "u10-54",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 116,
+   "explain": "Averigua otras formas de pago si no tienes TAG.",
+   "type": "tf",
+   "prompt": "Usar una autopista sin un sistema de pago (TAG o pase diario) es sancionado.",
+   "answer": true
+  },
+  {
+   "id": "u10-55",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 116,
+   "explain": "Conduce a velocidad constante y sin exceder los límites.",
+   "type": "tf",
+   "prompt": "En autopista la regla de los tres segundos es imprescindible.",
+   "answer": true
+  },
+  {
+   "id": "u10-56",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 116,
+   "explain": "También aumentando tu velocidad sin exceder el máximo o cambiándote de pista.",
+   "type": "mc",
+   "prompt": "¿Cómo facilitas el acceso a quienes entran a la autopista?",
+   "options": [
+    "Soltando el acelerador y dejándolos pasar",
+    "Acelerando para no dejarlos entrar",
+    "Tocando la bocina para avisar",
+    "Frenando en seco en tu pista"
+   ]
+  },
+  {
+   "id": "u10-57",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 117,
+   "explain": "Controla constantemente el velocímetro.",
+   "type": "tf",
+   "prompt": "En autopista, después de muchos kilómetros crees ir más lento de lo que vas.",
+   "answer": true
+  },
+  {
+   "id": "u10-58",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 117,
+   "explain": "No estaciones en ella, en sus bermas ni en sus accesos.",
+   "type": "mc",
+   "prompt": "¿Cuándo puedes detenerte en una autopista?",
+   "options": [
+    "En una emergencia o si lo pide Carabineros",
+    "Para tomar fotos del paisaje en la berma",
+    "Para dejar a un pasajero en el acceso",
+    "Para revisar el celular un momento"
+   ]
+  },
+  {
+   "id": "u10-59",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 118,
+   "explain": "No intentes colocarlo ni reparar nada; si sales, usa el chaleco.",
+   "type": "tf",
+   "prompt": "Si quedas detenido en la calzada de una autopista, debes colocar el triángulo en la calzada.",
+   "answer": false
+  },
+  {
+   "id": "u10-60",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 118,
+   "explain": "Controla el velocímetro y reduce: muchas salidas tienen curvas pronunciadas.",
+   "type": "mc",
+   "prompt": "Al salir de una autopista, 80 km/h pueden parecerte…",
+   "options": [
+    "50 km/h",
+    "120 km/h",
+    "100 km/h",
+    "30 km/h"
+   ]
+  },
+  {
+   "id": "u10-61",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 118,
+   "explain": "Son las balizas de acercamiento.",
+   "type": "tf",
+   "prompt": "Las señales especiales informan 300, 200 y 100 m antes de la pista de desaceleración.",
+   "answer": true
+  },
+  {
+   "id": "u10-62",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 118,
+   "explain": "Para no quedar detenido en su interior.",
+   "type": "tf",
+   "prompt": "Antes de entrar a un túnel debes tener combustible suficiente.",
+   "answer": true
+  },
+  {
+   "id": "u10-63",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 119,
+   "explain": "Aun cuando el túnel tenga buena iluminación.",
+   "type": "mc",
+   "prompt": "¿Por qué debes encender las luces con anticipación al entrar a un túnel?",
+   "options": [
+    "Para que no confundan tus luces traseras con las de freno",
+    "Para ahorrar batería mientras estás dentro del túnel",
+    "Porque así lo exige el sistema de cobro del peaje",
+    "Para avisar a los demás que vas a adelantar"
+   ]
+  },
+  {
+   "id": "u10-64",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 119,
+   "explain": "Mantén distancia y, si estás detenido, apaga el motor.",
+   "type": "tf",
+   "prompt": "En un atochamiento dentro de un túnel debes encender de inmediato las luces de emergencia.",
+   "answer": true
+  },
+  {
+   "id": "u10-65",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 119,
+   "explain": "Pide asistencia exclusivamente desde un teléfono SOS.",
+   "type": "mc",
+   "prompt": "Dentro de un túnel, ¿por qué pedir ayuda desde un teléfono SOS y no desde el celular?",
+   "options": [
+    "El celular no indica desde dónde llamas",
+    "El celular no tiene señal nunca",
+    "Es más barato que el celular",
+    "Así lo exige la ley de autopistas"
+   ]
+  },
+  {
+   "id": "u10-66",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 119,
+   "explain": "Usa un extintor o pide ayuda desde un teléfono de emergencia.",
+   "type": "mc",
+   "prompt": "Si tu vehículo se incendia dentro de un túnel y no puedes salir, ¿qué haces?",
+   "options": [
+    "Te orillas, apagas el motor y lo abandonas",
+    "Sigues hasta la salida a toda velocidad",
+    "Te quedas dentro con el cinturón puesto",
+    "Abres el capó para ver el problema"
+   ]
+  },
+  {
+   "id": "u10-67",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 120,
+   "explain": "Es parte de la conclusión del capítulo.",
+   "type": "tf",
+   "prompt": "Al sobrepasar a un motociclista debes dejar la misma distancia lateral que dejarías a un automóvil.",
+   "answer": true
+  },
+  {
+   "id": "u10-68",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 120,
+   "explain": "Y no utilizar la berma para circular.",
+   "type": "tf",
+   "prompt": "En autopistas, si vas más lento que la máxima, debes circular por la pista de la derecha.",
+   "answer": true
+  },
+  {
+   "id": "u10-69",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 120,
+   "explain": "Si debes conducir, asegúrate de que el vehículo esté en perfecto estado.",
+   "type": "mc",
+   "prompt": "Con mal tiempo, ¿cuál es la primera regla de seguridad?",
+   "options": [
+    "Preguntarse si es indispensable viajar",
+    "Encender las luces altas",
+    "Ir más rápido para llegar antes",
+    "Inflar más los neumáticos"
+   ]
+  },
+  {
+   "id": "u10-70",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 121,
+   "explain": "Se llama efecto bombeo.",
+   "type": "mc",
+   "prompt": "¿Cómo secas los frenos mojados por la lluvia?",
+   "options": [
+    "Pisando suave y repetido el pedal",
+    "Frenando a fondo una sola vez",
+    "Usando solo el freno de mano",
+    "Acelerando y soltando de golpe"
+   ]
+  },
+  {
+   "id": "u10-71",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 121,
+   "explain": "Para recuperar la tracción; frena suave y a pedaladas cortas.",
+   "type": "tf",
+   "prompt": "Si el vehículo patina en lluvia, debes soltar completamente el freno.",
+   "answer": true
+  },
+  {
+   "id": "u10-72",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 121,
+   "explain": "Para no perder estabilidad ni mojar a peatones o ciclistas.",
+   "type": "tf",
+   "prompt": "Al pasar charcos con las ruedas de un solo lado, debes reducir aún más la velocidad.",
+   "answer": true
+  },
+  {
+   "id": "u10-73",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 122,
+   "explain": "Al salir, comprueba los frenos.",
+   "type": "mc",
+   "prompt": "Si debes pasar por un tramo inundado, ¿cómo lo haces?",
+   "options": [
+    "Lento, en primera y a velocidad constante",
+    "Rápido, para no quedarte detenido",
+    "En neutro, dejándote llevar",
+    "En la marcha más alta posible"
+   ]
+  },
+  {
+   "id": "u10-74",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 122,
+   "explain": "Y el desempañador de la luneta trasera.",
+   "type": "tf",
+   "prompt": "Para quitar el vaho del parabrisas usas la calefacción y ventilación orientadas a él.",
+   "answer": true
+  },
+  {
+   "id": "u10-75",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 122,
+   "explain": "Se forma un barrillo muy deslizante.",
+   "type": "tf",
+   "prompt": "Los primeros copos de nieve son tan peligrosos como las primeras gotas de lluvia.",
+   "answer": true
+  },
+  {
+   "id": "u10-76",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 123,
+   "explain": "Cuida de no dañar las partes bajas con los montículos centrales.",
+   "type": "tf",
+   "prompt": "Con nieve conviene seguir las huellas de otros vehículos y procurar no adelantar.",
+   "answer": true
+  },
+  {
+   "id": "u10-77",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 123,
+   "explain": "Así las ruedas motrices patinan menos; evita cambiar de marcha.",
+   "type": "mc",
+   "prompt": "Con nieve, ¿qué marcha conviene usar en general?",
+   "options": [
+    "La más alta razonablemente posible",
+    "Siempre la primera marcha",
+    "El neutro en todas las bajadas",
+    "Cambiar de marcha muy seguido"
+   ]
+  },
+  {
+   "id": "u10-78",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 123,
+   "explain": "Usa los frenos lo imprescindible.",
+   "type": "tf",
+   "prompt": "Con nieve, las bajadas se hacen lento y en marcha baja, frenando con el motor.",
+   "answer": true
+  },
+  {
+   "id": "u10-79",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 123,
+   "explain": "La nieve comienza a congelarse rápidamente.",
+   "type": "tf",
+   "prompt": "Al atardecer, donde la nieve tiene más brillo es posible que haya hielo.",
+   "answer": true
+  },
+  {
+   "id": "u10-80",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 123,
+   "explain": "Si no, el agua puede helarse sobre el cristal.",
+   "type": "tf",
+   "prompt": "Bajo cero es indispensable agregar anticongelante al líquido lavaparabrisas.",
+   "answer": true
+  },
+  {
+   "id": "u10-81",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 124,
+   "explain": "No atraviesan la cortina de copos y pueden deslumbrarte.",
+   "type": "tf",
+   "prompt": "Cuando está nevando de noche conviene usar luces altas.",
+   "answer": false
+  },
+  {
+   "id": "u10-82",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 124,
+   "explain": "También puedes verificarlo frenando suave a baja velocidad.",
+   "type": "tf",
+   "prompt": "Si la dirección se siente excesivamente ligera, como si flotara, puede haber hielo.",
+   "answer": true
+  },
+  {
+   "id": "u10-83",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 124,
+   "explain": "Mejoran la adherencia, pero nada da la seguridad de un pavimento seco.",
+   "type": "tf",
+   "prompt": "Con cadenas o neumáticos especiales se conduce sobre hielo tan seguro como en pavimento seco.",
+   "answer": false
+  },
+  {
+   "id": "u10-84",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 125,
+   "explain": "Las gotas de agua reflejan la luz como un espejo.",
+   "type": "tf",
+   "prompt": "Con niebla, las luces altas mejoran la visibilidad.",
+   "answer": false
+  },
+  {
+   "id": "u10-85",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 125,
+   "explain": "Son importantes para ser visible, pero podrían deslumbrar.",
+   "type": "mc",
+   "prompt": "¿Cuándo se usan las luces de niebla traseras?",
+   "options": [
+    "Solo cuando la niebla es espesa",
+    "Siempre que conduces de noche",
+    "En cualquier lluvia ligera",
+    "Al estacionar en la calle"
+   ]
+  },
+  {
+   "id": "u10-86",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 125,
+   "explain": "Fíjate en las demarcaciones para seguir la trayectoria.",
+   "type": "tf",
+   "prompt": "Con niebla densa no debes adelantar si no ves bien hacia adelante.",
+   "answer": true
+  },
+  {
+   "id": "u10-87",
+   "unit": "u10",
+   "lesson": 2,
+   "page": 125,
+   "explain": "Sobre todo en caminos de montaña.",
+   "type": "tf",
+   "prompt": "El viento lateral fuerte puede provocar la salida del camino o el volcamiento.",
+   "answer": true
   }
  ]
 }
