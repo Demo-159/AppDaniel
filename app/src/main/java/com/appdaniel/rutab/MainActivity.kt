@@ -7,7 +7,12 @@ import android.view.ViewGroup
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.FrameLayout
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
+import androidx.activity.enableEdgeToEdge
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.activity.OnBackPressedCallback
 
 /**
@@ -20,6 +25,9 @@ class MainActivity : ComponentActivity() {
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Barras de estado y navegación oscuras, del color de fondo de la app (sin franjas blancas)
+        val fondo = Color.parseColor("#131F24")
+        enableEdgeToEdge(SystemBarStyle.dark(fondo), SystemBarStyle.dark(fondo))
         super.onCreate(savedInstanceState)
         web = WebView(this).apply {
             layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
@@ -33,7 +41,13 @@ class MainActivity : ComponentActivity() {
                     !request.url.toString().startsWith("file:///android_asset/")
             }
         }
-        setContentView(web)
+        // La página no queda debajo de las barras: se deja su espacio, pintado del mismo fondo
+        val raiz = FrameLayout(this).apply { setBackgroundColor(fondo); addView(web) }
+        ViewCompat.setOnApplyWindowInsetsListener(raiz) { v, insets ->
+            val b = insets.getInsets(WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout())
+            v.setPadding(b.left, b.top, b.right, b.bottom); WindowInsetsCompat.CONSUMED
+        }
+        setContentView(raiz)
         if (savedInstanceState != null) web.restoreState(savedInstanceState)
         else web.loadUrl("file:///android_asset/web/index.html")
 
