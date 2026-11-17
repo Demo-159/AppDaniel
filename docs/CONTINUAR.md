@@ -29,7 +29,7 @@ El usuario habla español (Chile) y prueba todo desde el teléfono. Responde sie
 | Nada sin enseñar | **Ninguna pregunta puede aparecer sin haberse enseñado antes** (regla del usuario, obligatoria). Cada pregunta se practica en la última sesión de sus datos; la demo solo carga preguntas de sesiones con guion. Revisar cada capítulo nuevo con `python3 tools/sesiones/auditar.py N`. |
 | Práctica | Va **fuera** de la sesión con tutor, como lección aparte con el estilo de la app (Comprobar, franja verde/roja). La sesión termina con "Practicar lo aprendido" → `index.html#practica=<id>`. |
 | Preguntas en la sesión | Solo sobre lo que se acaba de enseñar, nunca antes de enseñarlo, sin hipotéticos ni frases de relleno ("Te toca a ti", "Veamos si quedó claro"). |
-| Transiciones | Sin sonido al cambiar de escena (sonaba raro) y sin desenfoque (se trababa en el teléfono). |
+| Transiciones | Sin sonido al cambiar de escena (sonaba raro), sin desenfoque, sin zoom y **un solo escenario a la vez**: oscurecer, cambiar y aclarar. Fundir dos SVG animados hacía que el teléfono los dibujara por bloques. |
 | Preguntas | Formato del examen real: **selección única con 4 opciones** y **"Marque dos/tres respuestas"**. **Sin verdadero/falso.** Preguntas con **imágenes del propio libro** (señales y figuras). |
 | Simulacro | Como el examen real: **35 preguntas, 3 de doble puntaje, 38 puntos, aprueba con 33, 45 minutos**, resultado por capítulo. |
 | Demos | Rápidos y poco producidos, para aprobar antes de pulir. Publicar como Artifact y dar el link. |
