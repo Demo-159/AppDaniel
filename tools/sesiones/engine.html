@@ -121,6 +121,11 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .avanza{stroke-dashoffset:220;animation:avanza 2s ease-out both}@keyframes avanza{from{stroke-dashoffset:220}to{stroke-dashoffset:0}}
 .errar{animation:errar 2.2s cubic-bezier(.4,0,1,1) both}@keyframes errar{from{transform:translateX(-90px)}to{transform:translateX(150px)}}
 .frena2{animation:frena2 2.6s cubic-bezier(.1,.6,.3,1) both}@keyframes frena2{from{transform:translateX(-90px)}to{transform:translateX(84px)}}
+.fila10{display:flex;gap:4px;justify-content:center;font-size:28px}.fila10 span.no{opacity:.2;filter:grayscale(1)}.fila10 span.no.on{opacity:.2}
+.llega{animation:llega 1.4s cubic-bezier(.2,.8,.3,1) both}@keyframes llega{from{transform:translateX(-120px)}}
+.llega2{animation:llega2 1.4s cubic-bezier(.2,.8,.3,1) both}@keyframes llega2{from{transform:translateX(120px)}}
+.vuela{animation:vuela2 1.2s ease-in both}@keyframes vuela2{from{transform:translate(-40px,30px);opacity:0}to{transform:none;opacity:1}}
+.choca{animation:choca 1.6s cubic-bezier(.5,0,1,1) both}@keyframes choca{from{transform:translateX(-170px)}to{transform:translateX(78px)}}
 .dado{transform-box:fill-box;transform-origin:center;animation:roll 1.8s cubic-bezier(.2,.7,.3,1) both}
 @keyframes roll{0%{transform:translate(-230px,-100px) rotate(-760deg)}60%{transform:translate(-18px,0) rotate(-60deg)}78%{transform:translate(0,-22px) rotate(-12deg)}100%{transform:none}}
 .boom,.boom2{transform-box:fill-box;transform-origin:center}.boom.on{animation:pop .5s both}
@@ -154,7 +159,7 @@ function sfx(kind){if(!AC)return;const t=AC.currentTime,g=AC.createGain();g.conn
 function marcas(text){if(!cur)return[];const t=(text||'').toLowerCase(),L=t.length||1;
  const at=w=>{const i=t.indexOf(w.toLowerCase());return i<0?0:Math.max(0,i/L-.03)};
  return [...cur.querySelectorAll('[data-w],[data-h]')].flatMap(el=>[...(el.dataset.w?[{el,f:at(el.dataset.w),h:0}]:[]),...(el.dataset.h?[{el,f:at(el.dataset.h),h:1}]:[])])}
-function marca(m){m.el.classList.add(m.h?'off':'on');if(m.el.classList.contains('go'))m.el.classList.add('run');m.el.querySelectorAll('.go').forEach(g=>g.classList.add('run'))}
+function marca(m){if(!m.h&&m.el.dataset.to&&!m.el.dataset.hecho){m.el.dataset.hecho=1;countUp(m.el,+m.el.dataset.to,1500)}m.el.classList.add(m.h?'off':'on');if(m.el.classList.contains('go'))m.el.classList.add('run');m.el.querySelectorAll('.go').forEach(g=>g.classList.add('run'))}
 function say(key){return new Promise(res=>{const a=S.audio[key];
  if(cc){$('bub').hidden=false;$('bub').textContent=S.textos[key]}
  const ms=marcas(S.textos[key]);let sync=false;
@@ -209,7 +214,7 @@ const ESC={
  titulo:e=>`<div class="titulo">${capSes.length?`<div class="kick">CAPÍTULO ${capSes[0]} · SESIÓN ${capSes[1]}</div>`:''}<div class="ic">${e.icono||'📘'}</div><h1>${e.texto}</h1></div>`,
  tarjeta:e=>`<div class="card"><div class="ic">${e.icono||'💡'}</div><div><b>${e.titulo}</b>${e.texto?`<span>${e.texto}</span>`:''}</div></div>`,
  cifra:e=>`<div class="cifra">${e.icono?`<div class="ic">${e.icono}</div>`:''}<div class="n" data-to="${e.valor}" data-pre="${e.prefijo||''}">${e.prefijo||''}0</div><div class="u">${e.unidad||''}</div>${e.sub?`<div class="s">${e.sub}</div>`:''}</div>`,
- barras:e=>`<div class="barras">${e.items.map(i=>`<div class="barra"><div class="l">${i.label}</div><div class="t"><i data-w="${i.valor/(e.max||100)*100}" style="background:${i.color||'var(--blue)'}"></i></div><div class="v">${i.texto||i.valor+(e.unidad||'')}</div></div>`).join('')}</div>${e.sub?`<div class="sub">${e.sub}</div>`:''}`,
+ barras:e=>`<div class="barras">${e.items.map(i=>`<div class="barra"><div class="l">${i.label}</div><div class="t"><i data-ancho="${i.valor/(e.max||100)*100}" style="background:${i.color||'var(--blue)'}"></i></div><div class="v">${i.texto||i.valor+(e.unidad||'')}</div></div>`).join('')}</div>${e.sub?`<div class="sub">${e.sub}</div>`:''}`,
  iconos:e=>`<div class="iconos" style="--s:${e.n<=12?52:e.n<=40?32:24}px">${Array.from({length:e.n},(_,i)=>`<span class="${i<(e.marcar??e.n)?'on':''}" style="animation-delay:${Math.min(i*25,1200)}ms">${i<(e.marcar??e.n)?(e.icono):(e.icono2||e.icono)}</span>`).join('')}</div>${e.sub?`<div class="sub">${e.sub}</div>`:''}`,
  lista:e=>`<div class="lista">${e.items.map((i,k)=>`<div style="animation-delay:${k*380}ms"><i>${i.icono}</i>${i.texto}</div>`).join('')}</div>`,
  vs:e=>`<div class="vs">${e.items.map((i,k)=>`<div class="${i.marca==='bien'?'si':i.marca==='mal'?'no':''}" style="animation-delay:${k*320}ms"><div class="ic">${i.icono}</div><b>${i.titulo}</b>${i.texto?`<span>${i.texto}</span>`:''}</div>`).join('')}</div>`,
@@ -222,7 +227,8 @@ let cur=null;
 async function swap(html,bare){const w=document.createElement('div');w.className='panel enter'+(bare?' bare':'');w.innerHTML=html;
  if(cur){const old=cur;old.classList.add('leave');await sleep(220);old.remove()}
  stage.appendChild(w);cur=w;w.offsetWidth;w.classList.remove('enter');return w}
-function animar(w){w.querySelectorAll('[data-to]').forEach(el=>countUp(el,+el.dataset.to));requestAnimationFrame(()=>w.querySelectorAll('[data-w]').forEach(el=>el.style.width=el.dataset.w+'%'))}
+// los contadores con data-w cuentan cuando la voz dice su palabra (ver marca); los demás, al aparecer
+function animar(w){w.querySelectorAll('[data-to]:not([data-w])').forEach(el=>countUp(el,+el.dataset.to));requestAnimationFrame(()=>w.querySelectorAll('[data-ancho]').forEach(el=>el.style.width=el.dataset.ancho+'%'))}
 async function show(e){if(!e)return;const html=ESC[e.tipo](e);
  if(e.sobre&&cur){const c=document.createElement('div');c.style.width='100%';c.style.animation='up .45s both';c.innerHTML=html;cur.appendChild(c);animar(c);return}
  animar(await swap(html,BARE[e.tipo]))}
