@@ -10,7 +10,8 @@
     "tipo": "titulo",
     "icono": "🌎",
     "texto": "Un problema en el mundo y en Chile"
-   }
+   },
+   "fondo": "mundo"
   },
   {
    "voz": "Cada día mueren más de tres mil personas en el mundo como consecuencia de los siniestros de tránsito.",
@@ -42,7 +43,8 @@
     "titulo": "Problema prioritario de salud pública",
     "texto": "según la OMS"
    },
-   "dato": "c1-09"
+   "dato": "c1-09",
+   "fondo": "hospital"
   },
   {
    "voz": "En Chile, entre el año y los catorce años de edad, los siniestros de tránsito son la primera causa de muerte.",
@@ -61,7 +63,8 @@
      }
     ]
    },
-   "dato": "c1-10"
+   "dato": "c1-10",
+   "fondo": "ciudad"
   },
   {
    "voz": "Y entre los quince y los veintinueve años son la segunda causa de muerte, después de los suicidios.",
@@ -87,7 +90,8 @@
     "icono": "♿",
     "titulo": "En las cifras aparecen solo como «lesionados»"
    },
-   "dato": "c1-12"
+   "dato": "c1-12",
+   "fondo": "hospital"
   },
   {
    "voz": "Por eso el libro advierte que, en general, no existe consciencia sobre la magnitud del problema de los siniestros.",
@@ -96,7 +100,8 @@
     "icono": "🙈",
     "titulo": "No existe consciencia de su magnitud"
    },
-   "dato": "c1-50"
+   "dato": "c1-50",
+   "fondo": "noche"
   }
  ]
 }

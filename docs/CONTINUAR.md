@@ -23,6 +23,9 @@ El usuario habla español (Chile) y prueba todo desde el teléfono. Responde sie
 | Sesión con tutor | Estilo "Synthesis Tutor": **como un video, pero interactivo**. Avanza sola (sin "Siguiente" a cada rato), voz + **gráficos** (no texto, no fórmulas), una interacción a mitad (elige / desliza), luego práctica. Al hacer la pregunta, la pregunta se ve en pantalla y hay opción de "explicar de nuevo" (más concisa). Datos clave aparecen en pantalla, no solo en la voz. Pocos elementos en pantalla a la vez. |
 | Voz | edge-tts **Giuseppe** (`it-IT-GiuseppeMultilingualNeural`) hablando **solo español neutro**. Velocidades siempre completas ("sesenta kilómetros por hora"). Sin muletillas ("Bueno", "A ver", "Mira", "Oye"). Con pausas, no apurada. |
 | Sonidos | Freno: suave y bajo (al usuario le molestó fuerte). |
+| Voz (nov. 2026) | **No cambiar la voz** (lo pidió explícitamente). Evitar la palabra "Exacto": con Giuseppe suena mal; usar "Así es". |
+| Producción | Las sesiones planas le parecieron "muy poco producidas": cada paso lleva `fondo` (escenario animado que cambia), transiciones, mascota Cono que habla y sonidos suaves. |
+| Distractores | Deben ser del **mismo tema** y plausibles; nada de opciones de otro tema que delaten la correcta. |
 | Preguntas | Formato del examen real: **selección única con 4 opciones** y **"Marque dos/tres respuestas"**. **Sin verdadero/falso.** Preguntas con **imágenes del propio libro** (señales y figuras). |
 | Simulacro | Como el examen real: **35 preguntas, 3 de doble puntaje, 38 puntos, aprueba con 33, 45 minutos**, resultado por capítulo. |
 | Demos | Rápidos y poco producidos, para aprobar antes de pulir. Publicar como Artifact y dar el link. |
@@ -123,6 +126,10 @@ como un video interactivo. Es la forma de producir las 115 sesiones.
 | `imagen` | `src` (ruta dentro de `app/src/main/assets`, p. ej. `img/figuras/p21_0.webp`), `sub` |
 | `peaton` | `velocidad` (supervivencia del peatón según el libro, p. 9) |
 
+Cada paso puede llevar `"fondo"`: `ciudad`, `noche`, `lluvia`, `carretera`, `cruce`, `hospital` o `mundo`
+(ilustraciones SVG animadas en `BG` de `engine.html`). Si un paso no lo trae, hereda el del paso anterior.
+Cambia de escenario cuando cambia el tema de lo que se dice (p. ej. lluvia/noche al hablar de cuándo ocurren).
+
 Para un tema que necesite otra animación (p. ej. auto frenando para distancia de detención), agrega una
 escena nueva a `ESC` en `engine.html` y documéntala aquí. Mantén la estética: fondo oscuro, pocos elementos.
 
@@ -178,7 +185,10 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 5. Que las 3 preguntas dobles del simulacro salgan de temas graves: alcohol, velocidad, casco, cinturón, SRI
    (sistemas de retención infantil).
 6. Redibujar o recortar mejor las figuras de materiales peligrosos y de ruedas en pendiente (se ven mal).
-7. Pasada de revisión de calidad de todo el banco contra el libro.
+7. Pasada de revisión de calidad de todo el banco contra el libro. Hecho: distractores de otro tema en
+   77 preguntas mc/img (`tools/cobertura/distractores/`, se aplican con `aplicar.py`). Falta: las
+   preguntas "Marque dos/tres" (`multi`) tienen afirmaciones falsas demasiado obvias ("nunca", "siempre",
+   "mejora la visión"); reescribirlas como errores plausibles del mismo tema.
 8. Generar un APK nuevo (`./gradlew assembleRelease`) y reemplazar `release/`.
 
 ## 9. Convenciones de trabajo

@@ -10,7 +10,8 @@
     "tipo": "titulo",
     "icono": "🚶",
     "texto": "La velocidad y los peatones"
-   }
+   },
+   "fondo": "cruce"
   },
   {
    "voz": "Mueve la velocidad del auto, desde treinta hasta sesenta y cinco kilómetros por hora, y mira qué le pasa al peatón.",
@@ -58,7 +59,8 @@
     "sub": "al subir de 30 a 50 km/h",
     "icono": "⚠️"
    },
-   "dato": "c1-27"
+   "dato": "c1-27",
+   "fondo": "ciudad"
   },
   {
    "voz": "Una pregunta para fijarlo. A treinta kilómetros por hora o menos, ¿cuántos peatones de cada diez sobreviven a un impacto?",
@@ -71,7 +73,8 @@
     ],
     "bien": "Así es: nueve de cada diez, es decir, el noventa por ciento.",
     "mal": "Fíjate bien: a treinta kilómetros por hora o menos, sobreviven nueve de cada diez peatones."
-   }
+   },
+   "fondo": "cruce"
   }
  ]
 }

@@ -10,7 +10,8 @@
     "tipo": "titulo",
     "icono": "🕐",
     "texto": "¿Cuándo y por qué ocurren?"
-   }
+   },
+   "fondo": "noche"
   },
   {
    "voz": "Hay más siniestralidad los fines de semana, normales o largos, durante la noche y la madrugada, y cuando hay escaso flujo de vehículos.",
@@ -43,7 +44,8 @@
     "sub": "tiene falla humana",
     "icono": "🧠"
    },
-   "dato": "c1-32"
+   "dato": "c1-32",
+   "fondo": "ciudad"
   },
   {
    "voz": "Participan mayormente jóvenes de dieciocho a veintinueve años, que son cerca del veintinueve por ciento de las personas conductoras fallecidas.",
@@ -55,7 +57,8 @@
     "sub": "tiene entre 18 y 29 años",
     "icono": "🧑"
    },
-   "dato": "c1-33"
+   "dato": "c1-33",
+   "fondo": "carretera"
   },
   {
    "voz": "Además, cerca del setenta y nueve por ciento de las personas conductoras fallecidas en siniestros son hombres.",
@@ -88,7 +91,8 @@
      }
     ]
    },
-   "dato": "c1-35"
+   "dato": "c1-35",
+   "fondo": "noche"
   },
   {
    "voz": "Te pregunto: ¿cuál de estos es uno de los factores con mayor incidencia en los siniestros de tránsito?",
@@ -111,7 +115,8 @@
     "titulo": "Fallecidos: dentro de 48 horas",
     "texto": "así cuenta Carabineros"
    },
-   "dato": "c1-36"
+   "dato": "c1-36",
+   "fondo": "hospital"
   }
  ]
 }

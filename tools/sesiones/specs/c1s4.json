@@ -11,7 +11,8 @@
     "icono": "🇨🇱",
     "texto": "Siniestros en Chile"
    },
-   "dato": "c1-52"
+   "dato": "c1-52",
+   "fondo": "ciudad"
   },
   {
    "voz": "Cada año se registran en Chile más de ochenta y dos mil siniestros de tránsito.",
@@ -22,7 +23,8 @@
     "prefijo": "+",
     "icono": "💥"
    },
-   "dato": "c1-18"
+   "dato": "c1-18",
+   "fondo": "carretera"
   },
   {
    "voz": "Como consecuencia, fallecen aproximadamente mil seiscientas personas al año.",
@@ -33,7 +35,8 @@
     "prefijo": "",
     "icono": "🕯️"
    },
-   "dato": "c1-19"
+   "dato": "c1-19",
+   "fondo": "noche"
   },
   {
    "voz": "Eso significa que cada día mueren entre cuatro y cinco personas en las vías públicas.",
@@ -43,7 +46,8 @@
     "n": 5,
     "sub": "entre 4 y 5 personas mueren cada día"
    },
-   "dato": "c1-20"
+   "dato": "c1-20",
+   "fondo": "lluvia"
   },
   {
    "voz": "En promedio, cuatrocientas cincuenta de ellas son atropelladas.",
@@ -55,7 +59,8 @@
     "sub": "de quienes fallecen",
     "icono": "🚶"
    },
-   "dato": "c1-21"
+   "dato": "c1-21",
+   "fondo": "cruce"
   },
   {
    "voz": "Y unas siete mil setecientas personas resultan con lesiones graves cada año.",
@@ -66,7 +71,8 @@
     "prefijo": "",
     "icono": "🚑"
    },
-   "dato": "c1-23"
+   "dato": "c1-23",
+   "fondo": "hospital"
   },
   {
    "voz": "¿Dónde ocurren? Aproximadamente el ochenta por ciento de los siniestros se produce en zonas urbanas, la mayoría en cruces o intersecciones.",
@@ -87,11 +93,13 @@
     "unidad": "%",
     "sub": "Dónde ocurren los siniestros"
    },
-   "dato": "c1-24"
+   "dato": "c1-24",
+   "fondo": "ciudad"
   },
   {
    "voz": "Solo un veinte por ciento ocurre en zonas no urbanas, es decir, rurales.",
-   "dato": "c1-25"
+   "dato": "c1-25",
+   "fondo": "carretera"
   },
   {
    "voz": "Ahora piensa: si la mayoría de los siniestros ocurre en la ciudad, ¿dónde crees que muere la mayor parte de las personas?",
@@ -117,7 +125,8 @@
     "sub": "en su mayoría, menos graves que en carretera",
     "icono": "🏙️"
    },
-   "dato": "c1-26"
+   "dato": "c1-26",
+   "fondo": "ciudad"
   }
  ]
 }

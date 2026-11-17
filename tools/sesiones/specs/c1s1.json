@@ -10,7 +10,8 @@
     "tipo": "titulo",
     "icono": "🎲",
     "texto": "¿Accidente o siniestro?"
-   }
+   },
+   "fondo": "ciudad"
   },
   {
    "voz": "El libro define accidente como un suceso eventual del que involuntariamente resulta un daño: algo casual e impredecible.",
@@ -41,7 +42,8 @@
      }
     ]
    },
-   "dato": "c1-03"
+   "dato": "c1-03",
+   "fondo": "lluvia"
   },
   {
    "voz": "Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
@@ -51,7 +53,8 @@
     "titulo": "Tienen poco de azarosos",
     "texto": "Se conocen sus causas"
    },
-   "dato": "c1-48"
+   "dato": "c1-48",
+   "fondo": "noche"
   },
   {
    "voz": "Piensa un momento. Si un siniestro fuera un suceso eventual, ¿de qué dependería la probabilidad de sufrir uno?",
@@ -65,7 +68,8 @@
     "bien": "Así es. Dependería solo del tiempo que pasas al volante, pero el libro aclara que no es así.",
     "mal": "No exactamente. Si fuera pura suerte, dependería solo del tiempo que pasas al volante, y eso no es lo que ocurre."
    },
-   "dato": "c1-05"
+   "dato": "c1-05",
+   "fondo": "ciudad"
   },
   {
    "voz": "Por eso se cambió el concepto por siniestros: para relevar sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
@@ -75,7 +79,8 @@
     "titulo": "Siniestro",
     "texto": "Destaca sus efectos y nuestra responsabilidad"
    },
-   "dato": "c1-02"
+   "dato": "c1-02",
+   "fondo": "cruce"
   },
   {
    "voz": "La mayoría de las muertes producidas por los siniestros de tránsito podría haberse evitado.",
@@ -84,7 +89,8 @@
     "icono": "✅",
     "titulo": "La mayoría de las muertes se podía evitar"
    },
-   "dato": "c1-04"
+   "dato": "c1-04",
+   "fondo": "hospital"
   },
   {
    "voz": "Para reducir la posibilidad de sufrir un siniestro, debes evitar los factores de riesgo, que el libro detalla capítulo a capítulo.",
@@ -93,7 +99,8 @@
     "icono": "⚠️",
     "titulo": "Evita los factores de riesgo"
    },
-   "dato": "c1-49"
+   "dato": "c1-49",
+   "fondo": "carretera"
   },
   {
    "voz": "Además, conducir implica responsabilidad colectiva: si alguien conduce ebrio o sin cinturón y sufre un siniestro, nos afecta a todas y todos.",
@@ -114,7 +121,8 @@
      }
     ]
    },
-   "dato": "c1-06"
+   "dato": "c1-06",
+   "fondo": "noche"
   },
   {
    "voz": "En resumen: los siniestros no son mala suerte. Tienen causas, y la mayoría se puede evitar.",
@@ -122,7 +130,8 @@
     "tipo": "tarjeta",
     "icono": "🧠",
     "titulo": "Siniestro: tiene causas y se puede evitar"
-   }
+   },
+   "fondo": "ciudad"
   }
  ]
 }
