@@ -14,17 +14,20 @@ Object.assign(ESCENAS,{
   <div class="cap big">Accidente</div>
   <div class="cap" data-w="suceso">“Suceso eventual del que involuntariamente resulta un daño”</div>
   <div class="chips"><span data-w="casual">🎲 casual</span><span data-w="impredecible">❓ impredecible</span></div>`,
- // 2. Si fueran casuales, ¿por qué aumentan con lluvia, de noche y con alcohol?
+ // 2. Aumentan con lluvia; de noche hay más fallecidos aunque circulan menos vehículos; y con alcohol
  'c1-aumentan':()=>`<svg viewBox="0 0 360 230">${calleMini()}
   <rect width="360" height="152" fill="#0B1430" data-w="noche" style="--o:.8"/><g data-w="noche">${estrellas(9,14,110)}<circle cx="300" cy="40" r="16" fill="#F4F1DE"/></g>
   <g data-w="llueve">${lluviaMini()}</g>
+  <g data-h="menos vehículos"><g transform="translate(0,182)"><g class="car izq" style="animation-duration:5.5s;animation-delay:-2s"><g transform="translate(72,0) scale(-1,1)">${auto('#FFC800',1)}</g></g></g>
+   <g transform="translate(0,222)"><g class="car" style="animation-duration:7s;animation-delay:-4s">${auto('#58CC02',1)}</g></g></g>
   <g transform="translate(0,222)"><g class="car" style="animation-duration:6s">${auto('#1CB0F6',1)}</g></g>
   <g data-w="alcohol"><g transform="translate(210,182)"><g class="zig"><g transform="translate(72,0) scale(-1,1)">${auto('#FF4B4B')}</g><text x="36" y="-42" font-size="22" text-anchor="middle">🍺</text></g></g></g>
-  ${boom(300,178,'casuales')}${boom(70,172,'llueve',250)}${boom(230,214,'llueve',800)}${boom(150,176,'noche',200)}${boom(320,214,'noche',700)}${boom(40,212,'alcohol',500)}${boom(130,214,'alcohol',1000)}${boom(330,180,'alcohol',1500)}</svg>
+  ${boom(300,178,'aumentan')}${boom(70,172,'llueve',250)}${boom(230,214,'llueve',800)}${boom(150,176,'fallecidas',0)}${boom(320,214,'fallecidas',600)}${boom(40,212,'alcohol',500)}${boom(130,214,'alcohol',1000)}${boom(330,180,'alcohol',1500)}</svg>
   <div class="chips"><span data-w="llueve">🌧️ Lluvia</span><span data-w="noche">🌙 Noche</span><span data-w="alcohol">🍺 Alcohol</span></div>
-  <div class="cap" data-w="aumentan">💥 Los siniestros aumentan</div>`,
+  <div class="cap" data-w="menos vehículos">🌙 De noche hay menos autos… y más fallecidos</div>
+  <div class="cap big" data-w="aumentan">💥 Los siniestros aumentan</div>`,
  // 3. Tienen poco de azarosos o de impredecibles
- 'c1-poco-azar':()=>`<svg viewBox="0 0 360 200"><g transform="translate(86,100)">${cara(.85)}</g>
+ 'c1-poco-azar':()=>`<div class="cap" data-w="casualidad">Si fueran pura casualidad, eso no pasaría</div><svg viewBox="0 0 360 200"><g transform="translate(86,100)">${cara(.85)}</g>
   <g data-w="azarosos" stroke="#FF4B4B" stroke-width="11" stroke-linecap="round"><line x1="36" y1="50" x2="136" y2="150"/><line x1="136" y1="50" x2="36" y2="150"/></g>
   <g data-w="impredecibles"><text x="236" y="58" font-size="32" text-anchor="middle">🌧️</text><text x="236" y="112" font-size="32" text-anchor="middle">🌙</text><text x="236" y="166" font-size="32" text-anchor="middle">🍺</text>
    <path d="M260 47 L304 92 M260 101 H304 M260 155 L304 110" stroke="#FFC800" stroke-width="4" stroke-linecap="round"/><text x="326" y="112" font-size="34" text-anchor="middle">💥</text></g></svg>

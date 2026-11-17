@@ -22,7 +22,7 @@
    "dato": "c1-01"
   },
   {
-   "voz": "Pero si los siniestros fueran casuales, ¿por qué aumentan cuando llueve, de noche y cuando las personas han bebido alcohol?",
+   "voz": "Sin embargo, los siniestros aumentan cuando llueve. De noche hay muchas personas fallecidas, aunque es cuando circulan menos vehículos. Y quienes han bebido alcohol tienen más siniestros.",
    "escena": {
     "tipo": "anim",
     "id": "c1-aumentan"
@@ -30,7 +30,7 @@
    "dato": "c1-03"
   },
   {
-   "voz": "Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
+   "voz": "Si fueran pura casualidad, eso no pasaría. Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
    "escena": {
     "tipo": "anim",
     "id": "c1-poco-azar"
@@ -46,16 +46,16 @@
    "dato": "c1-05"
   },
   {
-   "voz": "¿Qué muestra que los siniestros no son casuales?",
+   "voz": "Los siniestros aumentan con lluvia, de noche y con alcohol. ¿Qué nos dice eso?",
    "elige": {
-    "pregunta": "¿Qué muestra que los siniestros no son casuales?",
+    "pregunta": "Los siniestros aumentan con lluvia, de noche y con alcohol. ¿Qué nos dice eso?",
     "opciones": [
-     "Aumentan con lluvia, de noche y con alcohol",
-     "Ocurren por igual a cualquier hora del día",
-     "Les ocurren solo a quienes tienen mala suerte"
+     "Que no son pura casualidad: tienen causas",
+     "Que son cuestión de mala suerte",
+     "Que dependen solo del tiempo al volante"
     ],
-    "bien": "Así es: aumentan cuando llueve, de noche y cuando las personas han bebido alcohol.",
-    "mal": "Recuerda: aumentan cuando llueve, de noche y cuando las personas han bebido alcohol."
+    "bien": "Así es: no son pura casualidad, porque tienen causas.",
+    "mal": "No. Si aumentan con lluvia, de noche y con alcohol, es porque tienen causas: no son pura casualidad."
    }
   },
   {
