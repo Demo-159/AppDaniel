@@ -7125,6 +7125,1576 @@
    "type": "tf",
    "prompt": "El apoya cabezas debe ajustarse para cada persona, también en los asientos traseros.",
    "answer": true
+  },
+  {
+   "id": "u4-20",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "Conductores, usuarios, peatones y pasajeros se respetan entre sí, con una interacción armoniosa y segura.",
+   "type": "mc",
+   "prompt": "¿Qué es una buena Convivencia Vial?",
+   "options": [
+    "Que todos los usuarios de las vías se respeten entre sí",
+    "Que los vehículos siempre tengan preferencia de paso",
+    "Que cada persona circule a la velocidad que prefiera",
+    "Que solo los peatones respeten las señales del tránsito"
+   ]
+  },
+  {
+   "id": "u4-21",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "Respeto, solidaridad, comprensión, perdón y tolerancia.",
+   "type": "tf",
+   "prompt": "Según el libro, el perdón y la tolerancia son parte de los valores de la Educación Vial.",
+   "answer": true
+  },
+  {
+   "id": "u4-22",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "La eliminación total de los siniestros, partiendo por reducirlos y minimizar sus consecuencias.",
+   "type": "mc",
+   "prompt": "¿Cuál es la meta de la Seguridad Vial?",
+   "options": [
+    "La eliminación total de los siniestros de tránsito",
+    "Que cada conductor tenga su propio seguro",
+    "Que haya más autopistas en todo el país",
+    "Aumentar las multas cada año en todo el país"
+   ]
+  },
+  {
+   "id": "u4-23",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "Suele ser subjetiva y poco realista, y el riesgo percibido es prácticamente nulo.",
+   "type": "mc",
+   "prompt": "En la mayoría de las personas conductoras, la percepción del riesgo suele estar…",
+   "options": [
+    "Por debajo del riesgo real",
+    "Por encima del riesgo real",
+    "Igual al riesgo real",
+    "Medida por un instrumento"
+   ]
+  },
+  {
+   "id": "u4-24",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "La imprudencia y la falta de práctica de quienes conducen.",
+   "type": "mc",
+   "prompt": "Según el libro, ¿cuál es el mayor riesgo a la hora de conducir?",
+   "options": [
+    "La imprudencia y la falta de práctica",
+    "El mal estado de las carreteras",
+    "La lluvia y la niebla en invierno",
+    "Los vehículos antiguos en las calles"
+   ]
+  },
+  {
+   "id": "u4-25",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "Para combatir el crecimiento de la siniestralidad todas y todos debemos colaborar.",
+   "type": "tf",
+   "prompt": "El primer paso para combatir la siniestralidad es eliminar la idea de que los siniestros solo le ocurren a los demás.",
+   "answer": true
+  },
+  {
+   "id": "u4-26",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "Cerca del 90%: errores de personas conductoras con una equivocada percepción del riesgo.",
+   "type": "mc",
+   "prompt": "¿Qué porcentaje de los siniestros con víctimas es producto de fallas humanas?",
+   "options": [
+    "Cerca del 90%",
+    "Cerca del 50%",
+    "Cerca del 25%",
+    "Cerca del 10%"
+   ]
+  },
+  {
+   "id": "u4-27",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 33,
+   "explain": "También atenta contra la Convivencia Vial y pone en riesgo a todas las personas.",
+   "type": "tf",
+   "prompt": "No respetar una luz roja es solo una infracción a la Ley de Tránsito, sin otras consecuencias.",
+   "answer": false
+  },
+  {
+   "id": "u4-28",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Distracciones; alcohol y drogas; fatiga, sueño, fármacos o estrés; y velocidad inadecuada.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos es uno de los principales factores de riesgo según el libro?",
+   "options": [
+    "Las distracciones",
+    "Los vehículos de color oscuro",
+    "Las calles de un solo sentido",
+    "Los semáforos con cuenta regresiva"
+   ]
+  },
+  {
+   "id": "u4-29",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Es uno de los principales factores de riesgo.",
+   "type": "tf",
+   "prompt": "El alcohol y las drogas disminuyen las facultades para conducir.",
+   "answer": true
+  },
+  {
+   "id": "u4-30",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Junto con la fatiga, el cansancio, el sueño y el consumo de fármacos.",
+   "type": "tf",
+   "prompt": "Conducir en situaciones de estrés es un factor de riesgo.",
+   "answer": true
+  },
+  {
+   "id": "u4-31",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Para reducir las probabilidades de un siniestro se deben eliminar, en lo posible, los factores de riesgo.",
+   "type": "tf",
+   "prompt": "Los factores de riesgo pueden generar la pérdida de control del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u4-32",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "No quedan impunes: pueden desencadenar un siniestro donde tú y otras personas serán afectadas.",
+   "type": "tf",
+   "prompt": "Si nadie te fiscaliza, una imprudencia no tiene consecuencias.",
+   "answer": false
+  },
+  {
+   "id": "u4-33",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Quien se pasa una luz roja sabe lo que significa; esa conducta debilita el principio de confianza.",
+   "type": "mc",
+   "prompt": "Pasarse una luz roja del semáforo, ¿qué principio debilita?",
+   "options": [
+    "El principio de confianza",
+    "El principio de autoridad",
+    "El principio de velocidad",
+    "El principio de gravedad"
+   ]
+  },
+  {
+   "id": "u4-34",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Por eso es indispensable en la educación social e individual.",
+   "type": "tf",
+   "prompt": "La Educación Vial es para todos, porque todos seremos peatones, ciclistas o conductores en algún momento.",
+   "answer": true
+  },
+  {
+   "id": "u4-35",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Es mucho más que calles o carreteras: es un espacio de convivencia social.",
+   "type": "mc",
+   "prompt": "Según el libro, el Entorno Vial es…",
+   "options": [
+    "Un espacio de convivencia social",
+    "Solo el conjunto de calles y carreteras",
+    "El lugar donde se estacionan los vehículos",
+    "La señalización instalada en las vías"
+   ]
+  },
+  {
+   "id": "u4-36",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 34,
+   "explain": "Se espera que todos respeten su sentido de circulación, los semáforos y cedan el paso cuando corresponde.",
+   "type": "tf",
+   "prompt": "Sin el principio de confianza nadie se atrevería a conducir su automóvil.",
+   "answer": true
+  },
+  {
+   "id": "u4-37",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Quienes conducen son integrantes de la circulación junto con ellos.",
+   "type": "tf",
+   "prompt": "Peatones y ciclistas son usuarios vulnerables de la vía.",
+   "answer": true
+  },
+  {
+   "id": "u4-38",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Debes estar pendiente a las condiciones del tránsito practicando la conducción defensiva y preventiva.",
+   "type": "mc",
+   "prompt": "Como todas las personas pueden equivocarse, debes practicar la conducción…",
+   "options": [
+    "Defensiva y preventiva",
+    "Rápida y decidida",
+    "Competitiva y firme",
+    "Automática y relajada"
+   ]
+  },
+  {
+   "id": "u4-39",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Ceder el paso, dejar espacio para que te adelanten y tener consideración con los usuarios vulnerables.",
+   "type": "mc",
+   "prompt": "¿Cuál de estas es una acción de solidaridad al conducir?",
+   "options": [
+    "Dejar espacio para que te adelanten",
+    "Tocar la bocina para apurar a otros",
+    "Acelerar cuando te quieren adelantar",
+    "Cambiar de pista sin señalizar"
+   ]
+  },
+  {
+   "id": "u4-40",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Tu prisa no debe poner en riesgo tu vida ni la de las demás personas.",
+   "type": "mc",
+   "prompt": "Una velocidad adecuada y segura es la que te permite…",
+   "options": [
+    "Mantener el control y reaccionar a tiempo",
+    "Llegar antes que los demás vehículos",
+    "Ir siempre al límite máximo permitido",
+    "Adelantar a todos los vehículos lentos"
+   ]
+  },
+  {
+   "id": "u4-41",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "La prevención será siempre tu principal defensa.",
+   "type": "tf",
+   "prompt": "Una de las claves de la Convivencia Vial es ver y ser visible.",
+   "answer": true
+  },
+  {
+   "id": "u4-42",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Es una de las claves para la Convivencia Vial.",
+   "type": "tf",
+   "prompt": "Solo debes conducir si te encuentras en las mejores condiciones físicas y mentales.",
+   "answer": true
+  },
+  {
+   "id": "u4-43",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 35,
+   "explain": "Es una de las claves para la Convivencia Vial.",
+   "type": "tf",
+   "prompt": "La conducción debe adaptarse a las condiciones climáticas, ambientales y del pavimento.",
+   "answer": true
+  },
+  {
+   "id": "u4-44",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 37,
+   "explain": "Las reglas no siempre aclaran cómo resolver una situación; lo decisivo se adquiere con experiencia.",
+   "type": "tf",
+   "prompt": "El sentido común, el buen juicio y la responsabilidad al conducir se adquieren con horas al volante.",
+   "answer": true
+  },
+  {
+   "id": "u4-45",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 37,
+   "explain": "Perspectiva lineal: el punto donde parecen juntarse se ve más alejado de lo real.",
+   "type": "mc",
+   "prompt": "¿Qué efecto visual hace que las líneas convergentes parezcan juntarse más lejos de lo real?",
+   "options": [
+    "Perspectiva lineal",
+    "Densidad de pauta",
+    "Tamaño relativo",
+    "Sobrecubrimiento"
+   ]
+  },
+  {
+   "id": "u4-46",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 37,
+   "explain": "Densidad de pauta: con más objetos, se perciben más lejanos de lo que están.",
+   "type": "mc",
+   "prompt": "Cuando hay mayor densidad de objetos y estos se perciben más lejanos, el efecto se llama…",
+   "options": [
+    "Densidad de pauta",
+    "Perspectiva lineal",
+    "Visión de túnel",
+    "Sobrecubrimiento"
+   ]
+  },
+  {
+   "id": "u4-47",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 37,
+   "explain": "Objetos del mismo tamaño se perciben distintos por la distancia: el más lejano parece más pequeño.",
+   "type": "mc",
+   "prompt": "En el efecto de tamaño relativo, el objeto más distante se interpreta como…",
+   "options": [
+    "De menor tamaño",
+    "De mayor tamaño",
+    "Más cercano",
+    "Más rápido"
+   ]
+  },
+  {
+   "id": "u4-48",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 37,
+   "explain": "Es uno de los efectos visuales en la conducción.",
+   "type": "tf",
+   "prompt": "En el sobrecubrimiento, un objeto que cubre a otro parece estar más cerca del ojo.",
+   "answer": true
+  },
+  {
+   "id": "u4-49",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Surgen cuando los indicios de distancia y forma son insuficientes o poco claros; son comunes y peligrosas.",
+   "type": "mc",
+   "prompt": "¿Cuándo surgen las interpretaciones erróneas del entorno?",
+   "options": [
+    "Cuando los indicios de distancia y forma son poco claros",
+    "Cuando conduces con mucha experiencia al volante",
+    "Solo cuando hay mucho tráfico en la vía principal",
+    "Solo cuando el vehículo está en mal estado técnico"
+   ]
+  },
+  {
+   "id": "u4-50",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Hacen que parezca encontrarse a mayor distancia de la real.",
+   "type": "tf",
+   "prompt": "Los focos sucios o con poca luz hacen que un vehículo parezca más cerca de lo que está.",
+   "answer": false
+  },
+  {
+   "id": "u4-51",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "La percepción estereoscópica funciona en distancias cortas; sobre 50 m importan más los indicios del entorno.",
+   "type": "mc",
+   "prompt": "¿Desde qué distancia los indicios del entorno se vuelven más importantes para juzgar distancias?",
+   "options": [
+    "Sobre los 50 m",
+    "Sobre los 5 m",
+    "Sobre los 200 m",
+    "Sobre los 500 m"
+   ]
+  },
+  {
+   "id": "u4-52",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Con niebla, oscuridad o encandilamiento los indicios faltan o son confusos.",
+   "type": "tf",
+   "prompt": "Una buena regla es desconfiar de las propias percepciones y no conducir con cansancio.",
+   "answer": true
+  },
+  {
+   "id": "u4-53",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Pueden perder con mayor facilidad el control del vehículo.",
+   "type": "tf",
+   "prompt": "Hacer dos cosas a la vez al conducir es especialmente riesgoso para quienes tienen poca experiencia.",
+   "answer": true
+  },
+  {
+   "id": "u4-54",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Problemas emocionales, la radio, el teléfono, fumar o comer al conducir influyen negativamente.",
+   "type": "mc",
+   "prompt": "¿Qué influye negativamente en la seguridad según el libro?",
+   "options": [
+    "Fumar o comer mientras conduces",
+    "Llevar las dos manos en el volante",
+    "Mantener distancia con el de adelante",
+    "Mirar los espejos con frecuencia"
+   ]
+  },
+  {
+   "id": "u4-55",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 39,
+   "explain": "Tardarás más tiempo en recibir información. ¡Conducir requiere toda tu atención!",
+   "type": "tf",
+   "prompt": "Si te distraes, tendrás menos tiempo para reaccionar ante un imprevisto.",
+   "answer": true
+  },
+  {
+   "id": "u4-56",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 40,
+   "explain": "Entre quien reacciona más rápido y quien conduce más lento, se detiene primero quien va más lento.",
+   "type": "mc",
+   "prompt": "¿Quién logra detener el vehículo primero?",
+   "options": [
+    "Quien conduce a baja velocidad",
+    "Quien tiene menor tiempo de reacción",
+    "Quien tiene más años al volante",
+    "Quien frena con el freno de mano"
+   ]
+  },
+  {
+   "id": "u4-57",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 40,
+   "explain": "Es falso: solo en la reacción simple, que no es frecuente en el tránsito.",
+   "type": "tf",
+   "prompt": "Las personas jóvenes reaccionan con mayor rapidez en cualquier situación del tránsito.",
+   "answer": false
+  },
+  {
+   "id": "u4-58",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 40,
+   "explain": "Mirar directamente los focos produce una ceguera temporal con 0 metros de visibilidad.",
+   "type": "mc",
+   "prompt": "Durante un efecto de ceguera temporal, ¿cuál es la distancia de visibilidad?",
+   "options": [
+    "0 metros",
+    "15 metros",
+    "50 metros",
+    "70 metros"
+   ]
+  },
+  {
+   "id": "u4-59",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 40,
+   "explain": "También cuando al atardecer el sol da directamente a los ojos.",
+   "type": "tf",
+   "prompt": "Salir de un túnel a la luz del sol puede producir un efecto de ceguera.",
+   "answer": true
+  },
+  {
+   "id": "u4-60",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 41,
+   "explain": "Descubrir personas o animales en la vía puede ser muy difícil en ciertas circunstancias. Ten precaución.",
+   "type": "tf",
+   "prompt": "Al conducir siempre existe la posibilidad de encontrar un obstáculo en la vía.",
+   "answer": true
+  },
+  {
+   "id": "u4-61",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 41,
+   "explain": "No depende de la casualidad: la influyen las expectativas, necesidades y el estado de vigilancia.",
+   "type": "mc",
+   "prompt": "¿Qué influye en cómo el cerebro selecciona la información al conducir?",
+   "options": [
+    "Las expectativas, necesidades y estado de vigilancia",
+    "La casualidad y la suerte de cada momento",
+    "Solo la cantidad de luz que hay durante el día",
+    "Solo la velocidad a la que circula el vehículo"
+   ]
+  },
+  {
+   "id": "u4-62",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 41,
+   "explain": "Lo que no se espera ver no se descubrirá o tardará mucho más en descubrirse.",
+   "type": "tf",
+   "prompt": "Por la percepción selectiva se pueden pasar por alto circunstancias importantes del tránsito.",
+   "answer": true
+  },
+  {
+   "id": "u4-63",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 41,
+   "explain": "Domina una especie de mecanismo de represión.",
+   "type": "tf",
+   "prompt": "El apuro hace que se deje fuera de la conciencia lo que parece no venir al caso.",
+   "answer": true
+  },
+  {
+   "id": "u4-64",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 42,
+   "explain": "Dependen de la habilidad de cada persona.",
+   "type": "tf",
+   "prompt": "Hacia dónde, en qué orden y por cuánto tiempo mira quien conduce varía con la experiencia.",
+   "answer": true
+  },
+  {
+   "id": "u4-65",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 42,
+   "explain": "La pupila varía de tamaño y aumenta en la oscuridad.",
+   "type": "mc",
+   "prompt": "¿Qué parte del ojo regula la entrada de luz?",
+   "options": [
+    "La pupila",
+    "La retina",
+    "El cristalino",
+    "La mácula ciega"
+   ]
+  },
+  {
+   "id": "u4-66",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 42,
+   "explain": "Está donde el nervio óptico entra en el ojo; lo que se refleja ahí no se percibe.",
+   "type": "mc",
+   "prompt": "¿Cómo se llama el punto del ojo sin células visuales?",
+   "options": [
+    "Mácula ciega",
+    "Mácula lútea",
+    "Pupila",
+    "Cristalino"
+   ]
+  },
+  {
+   "id": "u4-67",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 42,
+   "explain": "Las señales viajan por el nervio óptico al cerebro.",
+   "type": "mc",
+   "prompt": "¿Qué parte del ojo transforma la luz en señales eléctricas?",
+   "options": [
+    "La retina",
+    "La pupila",
+    "El cristalino",
+    "La mácula ciega"
+   ]
+  },
+  {
+   "id": "u4-68",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Incluso en personas con visión normal.",
+   "type": "mc",
+   "prompt": "En las partes externas de la visión periférica, la nitidez visual es…",
+   "options": [
+    "Menos del 0,1%",
+    "Cerca del 50%",
+    "Cerca del 90%",
+    "Igual a la directa"
+   ]
+  },
+  {
+   "id": "u4-69",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Lo principal es la compenetración entre visión directa y periférica.",
+   "type": "mc",
+   "prompt": "Las cosas se descubren con la visión periférica y se reconocen con…",
+   "options": [
+    "La visión directa",
+    "La visión nocturna",
+    "La mácula ciega",
+    "El espejo retrovisor"
+   ]
+  },
+  {
+   "id": "u4-70",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Una reducción significativa puede causar dificultades de orientación.",
+   "type": "mc",
+   "prompt": "Normalmente, ¿de cuánto es el campo visual?",
+   "options": [
+    "Algo más de 180°",
+    "Cerca de 90°",
+    "Cerca de 30°",
+    "Exactamente 360°"
+   ]
+  },
+  {
+   "id": "u4-71",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Las personas con experiencia aprovechan más su visión periférica.",
+   "type": "tf",
+   "prompt": "Quienes recién empiezan a conducir suelen concentrar su mirada en objetos fijos cerca del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u4-72",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Y tomar las medidas que te indique.",
+   "type": "tf",
+   "prompt": "Si percibes una alteración en tu vista, debes consultar al médico.",
+   "answer": true
+  },
+  {
+   "id": "u4-73",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "Puedes equivocarte al juzgar la distancia de frenado.",
+   "type": "mc",
+   "prompt": "¿Por qué es riesgoso subestimar la velocidad?",
+   "options": [
+    "Porque juzgas mal la distancia de frenado",
+    "Porque gastas más combustible",
+    "Porque desgastas más los neumáticos",
+    "Porque se calienta más el motor"
+   ]
+  },
+  {
+   "id": "u4-74",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 43,
+   "explain": "También la conducción monótona por una carretera recta.",
+   "type": "tf",
+   "prompt": "La marcha silenciosa de los autos modernos facilita no advertir la velocidad a la que vas.",
+   "answer": true
+  },
+  {
+   "id": "u4-75",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 44,
+   "explain": "No solo por la velocidad.",
+   "type": "tf",
+   "prompt": "La visión de túnel también aparece por estrés o consumo de medicamentos o drogas.",
+   "answer": true
+  },
+  {
+   "id": "u4-76",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 44,
+   "explain": "130 km/h: 30°; 100 km/h: 42°; 65 km/h: 70°; 35 km/h: 100°.",
+   "type": "mc",
+   "prompt": "A 35 km/h, ¿de cuánto es aproximadamente el campo visual?",
+   "options": [
+    "100°",
+    "110°",
+    "70°",
+    "42°"
+   ]
+  },
+  {
+   "id": "u4-77",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 44,
+   "explain": "El cerebro supone que ambos van a la misma velocidad.",
+   "type": "tf",
+   "prompt": "El error al estimar el punto de cruce aumenta cuanto mayor es la diferencia de velocidad entre los vehículos.",
+   "answer": true
+  },
+  {
+   "id": "u4-78",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 45,
+   "explain": "También: capacidad sobrevalorada, exhibicionismo en grupo, asumir riesgo e influencia de la publicidad.",
+   "type": "mc",
+   "prompt": "¿Cuál es una característica que hace más vulnerables a las personas jóvenes?",
+   "options": [
+    "Excesiva necesidad de autoafirmación",
+    "Exceso de experiencia al conducir",
+    "Mucha prudencia en grupo",
+    "Poca confianza en su control"
+   ]
+  },
+  {
+   "id": "u4-79",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 45,
+   "explain": "Es una de sus particularidades.",
+   "type": "tf",
+   "prompt": "La publicidad que incita al riesgo influye en las personas conductoras jóvenes.",
+   "answer": true
+  },
+  {
+   "id": "u4-80",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 45,
+   "explain": "Es uno de los 5 factores de la evaluación y aceptación del peligro.",
+   "type": "mc",
+   "prompt": "Creer que conduces mejor que el resto y culpar a los demás corresponde al factor…",
+   "options": [
+    "Atribuciones sobre el comportamiento",
+    "Nivel de control",
+    "Experiencia en la conducción",
+    "Actitud frente al tránsito"
+   ]
+  },
+  {
+   "id": "u4-81",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 46,
+   "explain": "Los jóvenes no siempre saben dónde está ese límite.",
+   "type": "tf",
+   "prompt": "Basta exceder solo un poco la velocidad para superar el límite de la capacidad y cometer un error.",
+   "answer": true
+  },
+  {
+   "id": "u4-82",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 46,
+   "explain": "Antes de alcanzar una identidad se buscan los límites y se pueden cometer errores fatales.",
+   "type": "tf",
+   "prompt": "Probar la velocidad máxima del vehículo puede ser un error fatal en la búsqueda de identidad.",
+   "answer": true
+  },
+  {
+   "id": "u4-83",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 47,
+   "explain": "Por eso el autocontrol es una muestra de madurez.",
+   "type": "tf",
+   "prompt": "La agresividad hace juzgar mal una situación y lleva a decisiones impulsivas.",
+   "answer": true
+  },
+  {
+   "id": "u4-84",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 47,
+   "explain": "Debes mantener la atención y concentración durante largo tiempo.",
+   "type": "mc",
+   "prompt": "Según el libro, ¿cuál es un ejemplo recurrente de distracción?",
+   "options": [
+    "Querer ver una notificación del celular",
+    "Mirar el espejo retrovisor central",
+    "Revisar el velocímetro del tablero",
+    "Usar el intermitente para virar"
+   ]
+  },
+  {
+   "id": "u4-85",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 48,
+   "explain": "Raciocinio y decisión, adaptarse a la realidad, identidad, responsabilidad, autocontrol, empatía y manejo de la presión social.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos es un requisito para una conducción segura según el libro?",
+   "options": [
+    "La empatía",
+    "La rapidez",
+    "La competitividad",
+    "La osadía"
+   ]
+  },
+  {
+   "id": "u4-86",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 47,
+   "explain": "Comprensión, generosidad y tolerancia.",
+   "type": "tf",
+   "prompt": "La empatía al conducir lleva a tener consideración con ciclistas, motociclistas y peatones.",
+   "answer": true
+  },
+  {
+   "id": "u4-87",
+   "unit": "u4",
+   "lesson": 2,
+   "page": 48,
+   "explain": "No asumen su responsabilidad, no modifican su conducta ni aprenden de la experiencia.",
+   "type": "mc",
+   "prompt": "Culpar a otros y no ver el propio comportamiento corresponde a…",
+   "options": [
+    "No asumir la culpa",
+    "Formación de reacción",
+    "Validación",
+    "Impulsividad"
+   ]
+  },
+  {
+   "id": "u5-27",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 50,
+   "explain": "La Ley Tolerancia Cero (2012) redujo los niveles permitidos y aumentó las sanciones.",
+   "type": "mc",
+   "prompt": "¿Cómo se conoce la modificación de 2012 que redujo los niveles de alcohol permitidos?",
+   "options": [
+    "Ley Tolerancia Cero",
+    "Ley Emilia",
+    "Ley de Tránsito Joven",
+    "Ley CONASET"
+   ]
+  },
+  {
+   "id": "u5-28",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 50,
+   "explain": "Con daños materiales, personas fallecidas y/o con lesiones.",
+   "type": "tf",
+   "prompt": "Las sanciones por alcohol aumentan si hay reincidencia o si se participa en un siniestro.",
+   "answer": true
+  },
+  {
+   "id": "u5-29",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 50,
+   "explain": "Entre 0,3 y 0,5 g/l: el doble; entre 0,5 y 0,8 g/l: cinco veces.",
+   "type": "mc",
+   "prompt": "Con una alcoholemia entre 0,3 y 0,5 g/l, el riesgo de siniestro es…",
+   "options": [
+    "El doble",
+    "Cinco veces mayor",
+    "Igual que sin beber",
+    "Diez veces mayor"
+   ]
+  },
+  {
+   "id": "u5-30",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 51,
+   "explain": "La reincidencia, conducir con licencia cancelada o inhabilitada, o conductores de transporte en sus funciones.",
+   "type": "mc",
+   "prompt": "Según la Ley Emilia, ¿cuál de estos se considera delito calificado?",
+   "options": [
+    "Conducir con licencia cancelada o inhabilitada",
+    "Conducir sin revisión técnica vigente",
+    "Estacionar en un lugar prohibido",
+    "Conducir con luces bajas de día"
+   ]
+  },
+  {
+   "id": "u5-31",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 51,
+   "explain": "Los primeros efectos son psicológicos: atención, percepción y procesamiento de información.",
+   "type": "mc",
+   "prompt": "¿Qué órgano es afectado por el alcohol mucho más que otros?",
+   "options": [
+    "El cerebro",
+    "El estómago",
+    "Los pulmones",
+    "El corazón"
+   ]
+  },
+  {
+   "id": "u5-32",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 51,
+   "explain": "Disminuyen inhibiciones, aumenta la autoconfianza y la tendencia a sobreestimar la propia capacidad.",
+   "type": "mc",
+   "prompt": "Con apenas 0,1 g/l de alcohol en la sangre…",
+   "options": [
+    "Se afecta el comportamiento y la conducta",
+    "No se produce ningún efecto en el cuerpo",
+    "Solo aparece la visión doble al conducir",
+    "Mejora la concentración y la atención"
+   ]
+  },
+  {
+   "id": "u5-33",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 51,
+   "explain": "La visión directa puede parecer normal, pero la periférica disminuye.",
+   "type": "tf",
+   "prompt": "Después de unos tragos, la visión periférica disminuye aunque la persona no lo note.",
+   "answer": true
+  },
+  {
+   "id": "u5-34",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 51,
+   "explain": "Los músculos del ojo, del cristalino y la pupila comienzan a fallar.",
+   "type": "tf",
+   "prompt": "A mayores concentraciones de alcohol puede aparecer visión doble.",
+   "answer": true
+  },
+  {
+   "id": "u5-35",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Alcoholemia (muestra de sangre) o prueba espirométrica de Carabineros.",
+   "type": "mc",
+   "prompt": "¿Cómo se conoce la tasa de alcohol de una persona?",
+   "options": [
+    "Con una muestra de sangre o prueba espirométrica",
+    "Con un examen de la vista en el lugar",
+    "Preguntándole cuánto bebió",
+    "Midiendo su temperatura corporal"
+   ]
+  },
+  {
+   "id": "u5-36",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Por diferencias fisiológicas, es más probable que la mujer obtenga una tasa más alta.",
+   "type": "mc",
+   "prompt": "Un hombre y una mujer de igual peso beben lo mismo. ¿Quién tendrá probablemente mayor alcoholemia?",
+   "options": [
+    "La mujer",
+    "El hombre",
+    "Ambos exactamente igual",
+    "Depende solo de la bebida"
+   ]
+  },
+  {
+   "id": "u5-37",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Ese punto máximo se llama meseta en la curva de la alcoholemia.",
+   "type": "tf",
+   "prompt": "Si se bebe en poco tiempo, el punto máximo de alcohol en el organismo será mayor.",
+   "answer": true
+  },
+  {
+   "id": "u5-38",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Se detecta a los 5 minutos y llega a su máximo, en promedio, a la hora.",
+   "type": "mc",
+   "prompt": "¿Cuánto tarda el alcohol en detectarse en la sangre después de beberlo?",
+   "options": [
+    "5 minutos",
+    "1 hora",
+    "30 segundos",
+    "3 horas"
+   ]
+  },
+  {
+   "id": "u5-39",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Aumenta muy rápido hasta su máximo, en promedio, a la hora.",
+   "type": "mc",
+   "prompt": "En promedio, ¿cuándo se alcanza el nivel máximo de alcohol después de beber?",
+   "options": [
+    "A la hora",
+    "A los 5 minutos",
+    "A las 8 horas",
+    "Al día siguiente"
+   ]
+  },
+  {
+   "id": "u5-40",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 52,
+   "explain": "Dormir pocas horas no garantiza la metabolización total del alcohol.",
+   "type": "tf",
+   "prompt": "Dormir unas pocas horas garantiza eliminar todo el alcohol.",
+   "answer": false
+  },
+  {
+   "id": "u5-41",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 53,
+   "explain": "El alimento reduce el paso del alcohol a la sangre; las bebidas carbonatadas aumentan la absorción.",
+   "type": "mc",
+   "prompt": "¿Qué aumenta la absorción del alcohol por el estómago?",
+   "options": [
+    "Mezclarlo con bebidas carbonatadas",
+    "Comer antes o mientras se bebe",
+    "Beber más lentamente",
+    "Tomar agua entre tragos"
+   ]
+  },
+  {
+   "id": "u5-42",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 53,
+   "explain": "Además, son más peligrosos en las personas conductoras principiantes.",
+   "type": "mc",
+   "prompt": "¿Quiénes perciben con mayor intensidad los efectos del alcohol?",
+   "options": [
+    "Menores de 18 y mayores de 65 años",
+    "Personas de 30 a 50 años",
+    "Solo las personas de mayor peso",
+    "Solo quienes beben cerveza"
+   ]
+  },
+  {
+   "id": "u5-43",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 53,
+   "explain": "Es el mayor riesgo de conducir bajo sus efectos.",
+   "type": "tf",
+   "prompt": "Todas las drogas actúan sobre el cerebro y pueden alterar la percepción y el tiempo de reacción.",
+   "answer": true
+  },
+  {
+   "id": "u5-44",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 53,
+   "explain": "También produce fuertes somnolencias y aumenta el tiempo de reacción.",
+   "type": "mc",
+   "prompt": "¿Qué efecto de la marihuana causa cálculos errados de distancia?",
+   "options": [
+    "Altera la percepción del tiempo, espacio y velocidad",
+    "Mejora la visión en la oscuridad",
+    "Disminuye el tiempo de reacción del conductor",
+    "Produce más concentración al volante"
+   ]
+  },
+  {
+   "id": "u5-45",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 54,
+   "explain": "Es rápido e intenso.",
+   "type": "mc",
+   "prompt": "El efecto de fumar pasta base aparece en…",
+   "options": [
+    "Segundos y dura algunos minutos",
+    "Horas y dura varios días",
+    "Una hora y dura una semana",
+    "Minutos y dura todo el día"
+   ]
+  },
+  {
+   "id": "u5-46",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 54,
+   "explain": "Euforia, disforia, consumo ininterrumpido, y sicosis y alucinaciones.",
+   "type": "mc",
+   "prompt": "¿Cuántas etapas se distinguen al consumir pasta base?",
+   "options": [
+    "Cuatro",
+    "Cinco",
+    "Tres",
+    "Siete"
+   ]
+  },
+  {
+   "id": "u5-47",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 54,
+   "explain": "Falta de coordinación, mareos, pupilas dilatadas, temblores, náuseas y/o vómitos.",
+   "type": "tf",
+   "prompt": "Los riesgos de la pasta base para la conducción son altos en todas sus etapas.",
+   "answer": true
+  },
+  {
+   "id": "u5-48",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 54,
+   "explain": "Podrían ocasionar maniobras evasivas bruscas y peligrosas.",
+   "type": "tf",
+   "prompt": "El éxtasis puede producir flashes en la periferia del campo visual.",
+   "answer": true
+  },
+  {
+   "id": "u5-49",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 56,
+   "explain": "La o el médico puede pedir un informe de especialista.",
+   "type": "tf",
+   "prompt": "Al pedir la licencia se hace un examen médico que evalúa enfermedades que afectan la conducción.",
+   "answer": true
+  },
+  {
+   "id": "u5-50",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 56,
+   "explain": "Es tu responsabilidad.",
+   "type": "tf",
+   "prompt": "Si desarrollas una enfermedad después de obtener la licencia, debes preguntar al médico los riesgos de conducir.",
+   "answer": true
+  },
+  {
+   "id": "u5-51",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 56,
+   "explain": "También: conocer tu enfermedad, los efectos de tus medicamentos y evitar conducir en crisis.",
+   "type": "mc",
+   "prompt": "Con una enfermedad crónica, ¿qué disminuye el riesgo de un siniestro?",
+   "options": [
+    "No abandonar el tratamiento sin indicación médica",
+    "Conducir solo durante las crisis",
+    "Tomar alcohol con los medicamentos",
+    "Cambiar la dosis según cómo te sientas"
+   ]
+  },
+  {
+   "id": "u5-52",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 57,
+   "explain": "Principalmente en fase sintomática y sin el debido tratamiento.",
+   "type": "mc",
+   "prompt": "¿Qué riesgo para el tránsito tiene la hipertensión arterial?",
+   "options": [
+    "Mareos y pérdida repentina de conciencia",
+    "Irritación ocular y estornudos seguidos",
+    "Visión doble y alucinaciones visuales",
+    "Euforia y conducta muy competitiva"
+   ]
+  },
+  {
+   "id": "u5-53",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 57,
+   "explain": "Además, pérdida de concentración y descoordinación de movimientos.",
+   "type": "mc",
+   "prompt": "¿Qué enfermedad tiene como riesgo la posibilidad de ataques repentinos?",
+   "options": [
+    "Epilepsia",
+    "Rinitis alérgica",
+    "Bronquitis crónica",
+    "Arritmia"
+   ]
+  },
+  {
+   "id": "u5-54",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 57,
+   "explain": "Y pérdida de atención.",
+   "type": "tf",
+   "prompt": "La apnea obstructiva del sueño puede provocar somnolencia al conducir.",
+   "answer": true
+  },
+  {
+   "id": "u5-55",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 58,
+   "explain": "Unos 25 metros sin poder prestar atención a la vía.",
+   "type": "mc",
+   "prompt": "A 90 km/h, ¿cuánto recorre el vehículo durante un estornudo de un segundo?",
+   "options": [
+    "Unos 25 metros",
+    "Unos 5 metros",
+    "Unos 90 metros",
+    "Unos 2 metros"
+   ]
+  },
+  {
+   "id": "u5-56",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 58,
+   "explain": "Algunos síntomas pueden causar errores de cálculo de distancias y menor concentración.",
+   "type": "tf",
+   "prompt": "Los antihistamínicos para la alergia pueden provocar somnolencia al volante.",
+   "answer": true
+  },
+  {
+   "id": "u5-57",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 58,
+   "explain": "En ambos casos se producen grandes concentraciones de polen.",
+   "type": "mc",
+   "prompt": "Si eres alérgico, ¿cuándo conviene evitar conducir?",
+   "options": [
+    "Al amanecer y por zonas húmedas",
+    "Al mediodía por la ciudad",
+    "En días nublados sin viento",
+    "De noche con luces bajas"
+   ]
+  },
+  {
+   "id": "u5-58",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 58,
+   "explain": "También: no abrir ventanas, cuidado con el aire acondicionado y no automedicarse.",
+   "type": "tf",
+   "prompt": "Para personas alérgicas, usar lentes de sol ayuda a proteger los ojos de alérgenos.",
+   "answer": true
+  },
+  {
+   "id": "u5-59",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 58,
+   "explain": "Ante situaciones amenazantes o que demandan un gran esfuerzo.",
+   "type": "mc",
+   "prompt": "Según el libro, ¿qué es el estrés?",
+   "options": [
+    "Un mecanismo de defensa del organismo",
+    "Una enfermedad causada por el tránsito",
+    "Un efecto del alcohol en el cerebro",
+    "Un tipo de medicamento sedante"
+   ]
+  },
+  {
+   "id": "u5-60",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 59,
+   "explain": "Cierto grado de estrés puede contribuir a mejorar el rendimiento; el exceso es lo peligroso.",
+   "type": "tf",
+   "prompt": "Todo estrés es negativo para la conducción.",
+   "answer": false
+  },
+  {
+   "id": "u5-61",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 59,
+   "explain": "Bajo estrés pueden aparecer reacciones impulsivas, pasividad o pánico.",
+   "type": "tf",
+   "prompt": "Siempre debes evitar conducir cuando presentas síntomas de estrés.",
+   "answer": true
+  },
+  {
+   "id": "u5-62",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 59,
+   "explain": "Por la mayor probabilidad de somnolencia y fatiga.",
+   "type": "mc",
+   "prompt": "Con depresión, ¿qué no se recomienda?",
+   "options": [
+    "Conducir de noche o en entornos monótonos",
+    "Consultar a un especialista",
+    "Seguir el tratamiento indicado",
+    "Descansar bien antes de conducir"
+   ]
+  },
+  {
+   "id": "u5-63",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 60,
+   "explain": "Nunca los mezcles con alcohol u otros medicamentos.",
+   "type": "tf",
+   "prompt": "Existen antihistamínicos que no producen somnolencia y son más seguros para conducir.",
+   "answer": true
+  },
+  {
+   "id": "u5-64",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 60,
+   "explain": "Para depresión, ansiedad o trastornos del sueño; muchos alteran la conducción.",
+   "type": "mc",
+   "prompt": "¿Qué son los psicofármacos?",
+   "options": [
+    "Medicamentos para enfermedades mentales",
+    "Medicamentos para el dolor de cabeza",
+    "Vitaminas para mejorar la atención",
+    "Medicamentos para la presión arterial"
+   ]
+  },
+  {
+   "id": "u5-65",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 60,
+   "explain": "Se usan para trastornos psicóticos como la esquizofrenia.",
+   "type": "mc",
+   "prompt": "¿Qué tipo de psicofármaco puede provocar sueño e hipotensión?",
+   "options": [
+    "Neurolépticos o antipsicóticos",
+    "Psicoestimulantes y anfetaminas",
+    "Antihistamínicos sin somnolencia",
+    "Analgésicos de uso común"
+   ]
+  },
+  {
+   "id": "u5-66",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 60,
+   "explain": "Tienen un efecto activador sobre el sistema nervioso central.",
+   "type": "tf",
+   "prompt": "Algunos psicoestimulantes generan una fuerte y breve sensación de autoconfianza.",
+   "answer": true
+  },
+  {
+   "id": "u5-67",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 60,
+   "explain": "Algunos disminuyen la atención y aumentan el tiempo de reacción.",
+   "type": "tf",
+   "prompt": "En algunos países se prohíbe conducir mientras se consumen ciertos psicofármacos.",
+   "answer": true
+  },
+  {
+   "id": "u5-68",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 61,
+   "explain": "Así podrás adoptar los cuidados necesarios.",
+   "type": "tf",
+   "prompt": "Antes de consumir medicamentos debes consultar al médico sobre sus riesgos para conducir.",
+   "answer": true
+  },
+  {
+   "id": "u5-69",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 62,
+   "explain": "Es una causa importante, sobre todo en carreteras.",
+   "type": "tf",
+   "prompt": "El cansancio provoca siniestros principalmente en carreteras.",
+   "answer": true
+  },
+  {
+   "id": "u5-70",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 62,
+   "explain": "Los riesgos por somnolencia aparecen mucho antes.",
+   "type": "tf",
+   "prompt": "Los siniestros por sueño ocurren solo cuando la persona se queda dormida al volante.",
+   "answer": false
+  },
+  {
+   "id": "u5-71",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 62,
+   "explain": "Puede aparecer en el día por muchas causas.",
+   "type": "tf",
+   "prompt": "El sueño al volante solo aparece de noche.",
+   "answer": false
+  },
+  {
+   "id": "u5-72",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 62,
+   "explain": "El de adelante frena y no se alcanza a frenar a tiempo.",
+   "type": "mc",
+   "prompt": "¿Qué tipo de siniestro explica el aumento del tiempo de reacción por sueño?",
+   "options": [
+    "Colisiones por alcance",
+    "Volcamientos en curvas",
+    "Choques en estacionamientos",
+    "Atropellos en pasos de cebra"
+   ]
+  },
+  {
+   "id": "u5-73",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 62,
+   "explain": "La visión se vuelve borrosa y cuesta enfocar.",
+   "type": "tf",
+   "prompt": "Con sueño es más fácil sufrir un deslumbramiento por luces altas.",
+   "answer": true
+  },
+  {
+   "id": "u5-74",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 63,
+   "explain": "Además, estar sentado todo el tiempo empeora la circulación.",
+   "type": "mc",
+   "prompt": "¿Cuál es quizás la causa más corriente del cansancio al conducir?",
+   "options": [
+    "Esfuerzo físico y monotonía",
+    "Exceso de luz solar",
+    "Falta de combustible",
+    "Conducir en la ciudad"
+   ]
+  },
+  {
+   "id": "u5-75",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 63,
+   "explain": "Debes detenerte a descansar mucho antes de esos síntomas.",
+   "type": "tf",
+   "prompt": "En las fases finales del cansancio aparecen movimientos involuntarios de la cabeza.",
+   "answer": true
+  },
+  {
+   "id": "u5-76",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 63,
+   "explain": "Nunca permitas que tu apuro arriesgue tu vida.",
+   "type": "tf",
+   "prompt": "Si sientes cansancio, mientras buscas dónde detenerte debes dejar entrar aire fresco.",
+   "answer": true
+  },
+  {
+   "id": "u5-77",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 63,
+   "explain": "Peor aún si duermes menos de la mitad de lo que necesitas.",
+   "type": "tf",
+   "prompt": "Dormir una o dos horas menos durante pocos días produce gran somnolencia.",
+   "answer": true
+  },
+  {
+   "id": "u5-78",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 64,
+   "explain": "El tránsito monótono favorece el sueño; las vías con cambios constantes mantienen activo.",
+   "type": "mc",
+   "prompt": "¿Qué tipo de tránsito favorece la somnolencia?",
+   "options": [
+    "Una carretera recta y sin tráfico de noche",
+    "Una calle urbana con mucho tráfico",
+    "Un camino con muchas curvas de día",
+    "Un cruce con semáforos en la ciudad"
+   ]
+  },
+  {
+   "id": "u5-79",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 64,
+   "explain": "Igual que el alcohol o algunos medicamentos.",
+   "type": "tf",
+   "prompt": "Una comida abundante puede favorecer la aparición de sueño al conducir.",
+   "answer": true
+  },
+  {
+   "id": "u5-80",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 64,
+   "explain": "Es una de las causas más frecuentes de siniestros, sobre todo en conductores profesionales.",
+   "type": "mc",
+   "prompt": "¿Qué es la fatiga según el libro?",
+   "options": [
+    "Cansancio extremo del cuerpo o la mente",
+    "Un tipo de sueño de pocos segundos",
+    "El efecto del alcohol en la visión",
+    "Una reacción de pánico al conducir"
+   ]
+  },
+  {
+   "id": "u5-81",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 65,
+   "explain": "Reacciones bruscas y desproporcionadas ante sonidos repentinos.",
+   "type": "tf",
+   "prompt": "Con fatiga se puede frenar bruscamente al escuchar una bocina.",
+   "answer": true
+  },
+  {
+   "id": "u5-82",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 65,
+   "explain": "También estiramientos, bostezos, rascarse o conductas lúdicas como cantar o silbar.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos es un movimiento indicador de fatiga?",
+   "options": [
+    "Cambios de postura frecuentes",
+    "Mirar los espejos seguido",
+    "Usar el intermitente",
+    "Mantener la distancia"
+   ]
+  },
+  {
+   "id": "u5-83",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 66,
+   "explain": "Conducir mucho tiempo seguido sin descansar o descansando mal.",
+   "type": "mc",
+   "prompt": "¿Cuál es la principal causa de fatiga al volante?",
+   "options": [
+    "Conducir mucho tiempo sin descansar",
+    "Conducir con lentes de sol",
+    "Conducir con poco tráfico de día",
+    "Conducir un auto automático"
+   ]
+  },
+  {
+   "id": "u5-84",
+   "unit": "u5",
+   "lesson": 2,
+   "page": 65,
+   "explain": "Obliga a prestar atención durante todo el recorrido.",
+   "type": "tf",
+   "prompt": "Conducir por un camino desconocido favorece la aparición de la fatiga.",
+   "answer": true
   }
  ]
 }

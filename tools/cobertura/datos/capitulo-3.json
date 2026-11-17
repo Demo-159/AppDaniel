@@ -1,0 +1,311 @@
+{
+ "capitulo": 3,
+ "titulo": "Convivencia Vial",
+ "unidades": [
+  "u4"
+ ],
+ "paginas": [
+  33,
+  35
+ ],
+ "sesiones": [
+  {
+   "id": "c3s1",
+   "titulo": "Convivencia y Educación Vial"
+  },
+  {
+   "id": "c3s2",
+   "titulo": "Percepción del riesgo"
+  },
+  {
+   "id": "c3s3",
+   "titulo": "Principales factores de riesgo"
+  },
+  {
+   "id": "c3s4",
+   "titulo": "El principio de confianza y el Entorno Vial"
+  },
+  {
+   "id": "c3s5",
+   "titulo": "Claves para la Convivencia Vial"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c3-01",
+   "p": 33,
+   "s": "c3s1",
+   "q": [
+    "u4-20"
+   ],
+   "cita": "Una buena Convivencia Vial es aquella en donde las personas conductoras de vehículos, usuarias de las vías, peatones y pasajeros, se respeten entre sí, resultando una interacción armoniosa y segura."
+  },
+  {
+   "id": "c3-02",
+   "p": 33,
+   "s": "c3s1",
+   "q": [
+    "u4-21"
+   ],
+   "cita": "La Educación Vial es la adquisición de valores imprescindibles para la conducción, que trata de inculcar hábitos y actitudes positivas de convivencia como el respeto (respeto a tu vida y la de las demás personas), la solidaridad, la comprensión, el perdón y la tolerancia."
+  },
+  {
+   "id": "c3-03",
+   "p": 33,
+   "s": "c3s1",
+   "q": [
+    "u4-01"
+   ],
+   "cita": "Además, es la incorporación de normas de comportamiento (Ley de Tránsito) y el conocimiento de un catálogo de señales que afectan al tránsito. Todo esto con el fin de contribuir a la Seguridad Vial."
+  },
+  {
+   "id": "c3-04",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-22"
+   ],
+   "cita": "La meta de la Seguridad Vial es la eliminación total de los siniestros de tránsito, partiendo de la reducción de los mismos y la minimización de sus consecuencias."
+  },
+  {
+   "id": "c3-05",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-23"
+   ],
+   "cita": "Dicha percepción, en la mayoría de las personas conductoras suele estar por debajo del riesgo real, pues suele ser una percepción subjetiva y poco realista, lo cual produce que el riesgo percibido sea prácticamente nulo."
+  },
+  {
+   "id": "c3-06",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-24"
+   ],
+   "cita": "La imprudencia y la falta de práctica de quienes conducen son el mayor riesgo a la hora de conducir."
+  },
+  {
+   "id": "c3-07",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-25"
+   ],
+   "cita": "El primer paso es eliminar la idea de que “los siniestros de tránsito solo le ocurren a los demás”."
+  },
+  {
+   "id": "c3-08",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-26"
+   ],
+   "cita": "Cerca del 90% de los siniestros de tránsito con"
+  },
+  {
+   "id": "c3-09",
+   "p": 33,
+   "s": "c3s2",
+   "q": [
+    "u4-27"
+   ],
+   "cita": "Al no respetar una luz roja de un semáforo o un paso de peatones señalizado, no solo se está cometiendo una infracción a la Ley de Tránsito, sino que se está atentando contra la Convivencia Vial"
+  },
+  {
+   "id": "c3-10",
+   "p": 34,
+   "s": "c3s3",
+   "q": [
+    "u4-28"
+   ],
+   "cita": "Las distracciones son un factor importante y una de las principales causas de siniestros."
+  },
+  {
+   "id": "c3-11",
+   "p": 34,
+   "s": "c3s3",
+   "q": [
+    "u4-29"
+   ],
+   "cita": "Alcohol y drogas, que disminuyen las facultades para conducir."
+  },
+  {
+   "id": "c3-12",
+   "p": 34,
+   "s": "c3s3",
+   "q": [
+    "u4-30"
+   ],
+   "cita": "Fatiga, cansancio, sueño o somnolencia, el consumo de fármacos o conducir en situaciones de estrés."
+  },
+  {
+   "id": "c3-13",
+   "p": 34,
+   "s": "c3s3",
+   "q": [
+    "u4-04"
+   ],
+   "cita": "Velocidad inadecuada, presente en la cuarta parte de los siniestros con víctimas."
+  },
+  {
+   "id": "c3-14",
+   "p": 34,
+   "s": "c3s3",
+   "q": [
+    "u4-31"
+   ],
+   "cita": "Todos estos factores de riego pueden generar la pérdida de control del vehículo."
+  },
+  {
+   "id": "c3-15",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-03"
+   ],
+   "cita": "principio de confianza que lo inspira, donde todas las personas conductoras esperan que cada integrante del tránsito cumpla con su papel"
+  },
+  {
+   "id": "c3-16",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-32"
+   ],
+   "cita": "Debes ser consciente de que estas acciones o infracciones no quedan impunes, a pesar de que no siempre te fiscalizarán y sancionarán"
+  },
+  {
+   "id": "c3-17",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-33"
+   ],
+   "cita": "Quien se pasa una luz de un semáforo en rojo, no desconoce el significado reglamentario de esa luz"
+  },
+  {
+   "id": "c3-18",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-34"
+   ],
+   "cita": "todas y todos seremos peatones, ciclistas, usuarios de vehículos o conductores en distintos momentos de nuestras vidas."
+  },
+  {
+   "id": "c3-19",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-35"
+   ],
+   "cita": "Las vías por donde circulan los vehículos conforman el Entorno Vial. Pero este Entorno Vial es mucho más que calles o carreteras por las que se puede circular. Este es un espacio de convivencia social"
+  },
+  {
+   "id": "c3-20",
+   "p": 34,
+   "s": "c3s4",
+   "q": [
+    "u4-36"
+   ],
+   "cita": "Sin este principio no se podría salir a la calle, si no se confiara en que las demás personas cumplirán su rol, nadie se atrevería a conducir su automóvil."
+  },
+  {
+   "id": "c3-21",
+   "p": 35,
+   "s": "c3s4",
+   "q": [
+    "u4-37"
+   ],
+   "cita": "Quienes conducen automóviles deben ser conscientes de que son integrantes de la circulación, junto con peatones y ciclistas, que son las y los usuarios vulnerables."
+  },
+  {
+   "id": "c3-22",
+   "p": 35,
+   "s": "c3s4",
+   "q": [
+    "u4-02"
+   ],
+   "cita": "La precaución es el principio fundamental en la conducción de un vehículo."
+  },
+  {
+   "id": "c3-23",
+   "p": 35,
+   "s": "c3s4",
+   "q": [
+    "u4-38"
+   ],
+   "cita": "Debemos ser conscientes y admitir que todas las personas pueden equivocarse y cometer errores, por lo tanto, debes estar pendiente a las condiciones del tránsito practicando la conducción defensiva y preventiva"
+  },
+  {
+   "id": "c3-24",
+   "p": 35,
+   "s": "c3s4",
+   "q": [
+    "u4-06"
+   ],
+   "cita": "En el Entorno Vial, la solidaridad es la mejor virtud que se puede tener al conducir un vehículo."
+  },
+  {
+   "id": "c3-25",
+   "p": 35,
+   "s": "c3s4",
+   "q": [
+    "u4-39"
+   ],
+   "cita": "ceder el paso, dejar espacio suficiente para permitir que te adelanten, tener consideración con las y los usuarios vulnerables"
+  },
+  {
+   "id": "c3-26",
+   "p": 35,
+   "s": "c3s5",
+   "q": [
+    "u4-40"
+   ],
+   "cita": "Debes conducir siempre a una velocidad adecuada y segura, la que te permite mantener el control del vehículo y reaccionar a tiempo ante cualquier situación imprevista."
+  },
+  {
+   "id": "c3-27",
+   "p": 35,
+   "s": "c3s5",
+   "q": [
+    "u4-41"
+   ],
+   "cita": "Recuerda siempre ver y ser visible. La prevención será siempre su principal defensa."
+  },
+  {
+   "id": "c3-28",
+   "p": 35,
+   "s": "c3s5",
+   "q": [
+    "u4-05"
+   ],
+   "cita": "No des por hecho que las demás personas conductoras se hayan dado cuenta de tu presencia. Conduce a la defensiva."
+  },
+  {
+   "id": "c3-29",
+   "p": 35,
+   "s": "c3s5",
+   "q": [
+    "u4-42"
+   ],
+   "cita": "Conduce sólo si te encuentras en las mejores condiciones físicas y mentales."
+  },
+  {
+   "id": "c3-30",
+   "p": 35,
+   "s": "c3s5",
+   "q": [
+    "u4-43"
+   ],
+   "cita": "Adapta tu conducción a las condiciones climáticas, ambientales y del pavimento."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "El parque automotriz del país ha crecido incesantemente en los últimos años, por lo que también ha aumentado el número de siniestros que se producen.",
+   "motivo": "contexto general, sin cifra"
+  }
+ ]
+}

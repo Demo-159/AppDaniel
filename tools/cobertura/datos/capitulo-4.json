@@ -1,0 +1,1402 @@
+{
+ "capitulo": 4,
+ "titulo": "La persona en el tránsito",
+ "unidades": [
+  "u4",
+  "u5"
+ ],
+ "paginas": [
+  37,
+  66
+ ],
+ "sesiones": [
+  {
+   "id": "c4s1",
+   "titulo": "Experiencia y efectos visuales"
+  },
+  {
+   "id": "c4s2",
+   "titulo": "Interpretaciones erróneas"
+  },
+  {
+   "id": "c4s3",
+   "titulo": "Falta de concentración"
+  },
+  {
+   "id": "c4s4",
+   "titulo": "Capacidad de reacción"
+  },
+  {
+   "id": "c4s5",
+   "titulo": "Capacidad visual y visibilidad"
+  },
+  {
+   "id": "c4s6",
+   "titulo": "Percepción selectiva"
+  },
+  {
+   "id": "c4s7",
+   "titulo": "Localización y el ojo humano"
+  },
+  {
+   "id": "c4s8",
+   "titulo": "Procesamiento limitado de información"
+  },
+  {
+   "id": "c4s9",
+   "titulo": "Las personas conductoras jóvenes"
+  },
+  {
+   "id": "c4s10",
+   "titulo": "Requisitos para una conducción segura"
+  },
+  {
+   "id": "c4s11",
+   "titulo": "Conductas que implican riesgos"
+  },
+  {
+   "id": "c4s12",
+   "titulo": "Alcohol: Ley Tolerancia Cero y Ley Emilia"
+  },
+  {
+   "id": "c4s13",
+   "titulo": "Efectos del alcohol en el organismo"
+  },
+  {
+   "id": "c4s14",
+   "titulo": "Cómo varía la tasa de alcohol en la sangre"
+  },
+  {
+   "id": "c4s15",
+   "titulo": "Las drogas y estupefacientes"
+  },
+  {
+   "id": "c4s16",
+   "titulo": "Enfermedades que pueden afectar a la conducción"
+  },
+  {
+   "id": "c4s17",
+   "titulo": "Alergias, estrés y depresión"
+  },
+  {
+   "id": "c4s18",
+   "titulo": "Medicamentos que pueden afectar a la conducción"
+  },
+  {
+   "id": "c4s19",
+   "titulo": "Cansancio y sueño"
+  },
+  {
+   "id": "c4s20",
+   "titulo": "Fatiga al volante"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c4-01",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-44"
+   ],
+   "cita": "Lo decisivo en muchos casos es el sentido común, el buen juicio y la responsabilidad. Esto se adquiere a través de la experiencia en la conducción, traducida en horas al volante."
+  },
+  {
+   "id": "c4-02",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-07"
+   ],
+   "cita": "las personas conductoras principiantes sufren siniestros de tránsito (en los que no se ven involucrados otros vehículos) con una frecuencia 10 veces mayor"
+  },
+  {
+   "id": "c4-03",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-45"
+   ],
+   "cita": "Perspectiva lineal: las líneas convergentes parecieran encontrarse en un punto que está más alejado de lo que realmente se encuentra."
+  },
+  {
+   "id": "c4-04",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-46"
+   ],
+   "cita": "Densidad de pauta: sucede cuando hay mayor densidad de objetos, provocando que estos se perciban más lejanos de lo que se encuentran."
+  },
+  {
+   "id": "c4-05",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-47"
+   ],
+   "cita": "El objeto más distante se interpretará como uno de menor tamaño pero realmente no es así."
+  },
+  {
+   "id": "c4-06",
+   "p": 37,
+   "s": "c4s1",
+   "q": [
+    "u4-48"
+   ],
+   "cita": "Sobrecubrimiento: un objeto que cubre a otro parece hallarse más cerca del ojo."
+  },
+  {
+   "id": "c4-07",
+   "p": 39,
+   "s": "c4s2",
+   "q": [
+    "u4-49"
+   ],
+   "cita": "Estas interpretaciones erróneas del entorno, que son bastante comunes, pueden ser muy peligrosas. Surgen cuando los indicios en cuanto a distancia y forma son insuficientes o poco claros."
+  },
+  {
+   "id": "c4-08",
+   "p": 39,
+   "s": "c4s2",
+   "q": [
+    "u4-50"
+   ],
+   "cita": "cuando los focos sucios o con luz poco potente de un vehículo hacen que este parezca encontrarse a mayor distancia de la real."
+  },
+  {
+   "id": "c4-09",
+   "p": 39,
+   "s": "c4s2",
+   "q": [
+    "u4-51"
+   ],
+   "cita": "A distancias superiores a los 50 m los indicios y pistas del entorno adquieren más importancia a la hora de juzgar distancias."
+  },
+  {
+   "id": "c4-10",
+   "p": 39,
+   "s": "c4s2",
+   "q": [
+    "u4-52"
+   ],
+   "cita": "una buena regla es mostrar desconfianza de las propias percepciones y no conducir cuando exista cansancio."
+  },
+  {
+   "id": "c4-11",
+   "p": 39,
+   "s": "c4s3",
+   "q": [
+    "u4-53"
+   ],
+   "cita": "Hacer dos cosas al mismo tiempo puede resultar muy riesgoso, especialmente tratándose de personas conductoras con poca experiencia en conducción."
+  },
+  {
+   "id": "c4-12",
+   "p": 39,
+   "s": "c4s3",
+   "q": [
+    "u4-54"
+   ],
+   "cita": "no debes conducir si sientes molestia o disgusto por algo que te ha sucedido y evita las discusiones mientras conduces."
+  },
+  {
+   "id": "c4-13",
+   "p": 39,
+   "s": "c4s3",
+   "q": [
+    "u4-55"
+   ],
+   "cita": "Si te distraes tendrás menos tiempo para reaccionar ante un imprevisto, ya que tardarás más tiempo en recibir información."
+  },
+  {
+   "id": "c4-14",
+   "p": 40,
+   "s": "c4s4",
+   "q": [
+    "u4-56"
+   ],
+   "cita": "en una comparación entre quien tiene un menor tiempo de reacción y quien conduce a baja velocidad, es este último quien logrará detener el vehículo primero."
+  },
+  {
+   "id": "c4-15",
+   "p": 40,
+   "s": "c4s4",
+   "q": [
+    "u4-57"
+   ],
+   "cita": "Con frecuencia se piensa que las y los conductores jóvenes reaccionan en cualquier situación con mayor rapidez que quienes tienen más edad. Esto es falso."
+  },
+  {
+   "id": "c4-16",
+   "p": 40,
+   "s": "c4s4",
+   "q": [
+    "u4-08"
+   ],
+   "cita": "El grupo de edad “más rápido” corresponde a quienes tienen entre 35 y 50 años."
+  },
+  {
+   "id": "c4-17",
+   "p": 40,
+   "s": "c4s5",
+   "q": [
+    "u4-58"
+   ],
+   "cita": "Cuando se produce un efecto de ceguera temporal, la distancia de visibilidad es de 0 metros."
+  },
+  {
+   "id": "c4-18",
+   "p": 40,
+   "s": "c4s5",
+   "q": [
+    "u4-59"
+   ],
+   "cita": "cuando tras conducir en un túnel se sale a la luz del sol, o cuando al atardecer el sol da directamente a los ojos."
+  },
+  {
+   "id": "c4-19",
+   "p": 40,
+   "s": "c4s5",
+   "q": [
+    "u4-09"
+   ],
+   "cita": "la distancia de visibilidad en un cruce de vehículos que van con luces bajas no supera los 15 o 20 metros; cuando no hay tal cruce es posible ver las demarcaciones de la calzada hasta unos 70 metros."
+  },
+  {
+   "id": "c4-20",
+   "p": 41,
+   "s": "c4s5",
+   "q": [
+    "u4-10"
+   ],
+   "cita": "La ropa oscura refleja sólo el 5% de la luz; la ropa blanca un 80%, y los materiales reflectantes entre un 90 y 98%."
+  },
+  {
+   "id": "c4-21",
+   "p": 41,
+   "s": "c4s5",
+   "q": [
+    "u4-60"
+   ],
+   "cita": "siempre existirá la posibilidad de encontrar un obstáculo en la vía. Ten precaución."
+  },
+  {
+   "id": "c4-22",
+   "p": 41,
+   "s": "c4s6",
+   "q": [
+    "u4-11"
+   ],
+   "cita": "Las personas funcionan de tal manera que descubren lo que están dispuestas a ver, esto es, lo que esperan encontrar."
+  },
+  {
+   "id": "c4-23",
+   "p": 41,
+   "s": "c4s6",
+   "q": [
+    "u4-61"
+   ],
+   "cita": "Esta selección e interpretación no dependen de la casualidad, sino que se ven influenciadas por las expectativas, necesidades y por el estado de vigilancia."
+  },
+  {
+   "id": "c4-24",
+   "p": 41,
+   "s": "c4s6",
+   "q": [
+    "u4-62"
+   ],
+   "cita": "A causa de la percepción selectiva se corre"
+  },
+  {
+   "id": "c4-25",
+   "p": 41,
+   "s": "c4s6",
+   "q": [
+    "u4-63"
+   ],
+   "cita": "La necesidad de llegar pronto al destino tiene como efecto que todo lo que “no viene al caso” no tenga cabida en la conciencia."
+  },
+  {
+   "id": "c4-26",
+   "p": 42,
+   "s": "c4s7",
+   "q": [
+    "u4-64"
+   ],
+   "cita": "¿Hacia dónde, en qué orden y durante cuánto tiempo mira el conductor? Estos tres factores dependen de la habilidad de cada persona y van variando con la experiencia."
+  },
+  {
+   "id": "c4-27",
+   "p": 42,
+   "s": "c4s7",
+   "q": [
+    "u4-65"
+   ],
+   "cita": "La pupila regula la entrada de luz variando de tamaño; esta aumenta en la oscuridad."
+  },
+  {
+   "id": "c4-28",
+   "p": 42,
+   "s": "c4s7",
+   "q": [
+    "u4-66"
+   ],
+   "cita": "En el punto en que el nervio óptico entra en el ojo se encuentra la llamada mancha o mácula ciega. En esta no hay células visuales"
+  },
+  {
+   "id": "c4-29",
+   "p": 42,
+   "s": "c4s7",
+   "q": [
+    "u4-67"
+   ],
+   "cita": "La retina cubre gran parte del extremo posterior del ojo y contiene células que transforman los rayos de luz en señales eléctricas"
+  },
+  {
+   "id": "c4-30",
+   "p": 43,
+   "s": "c4s7",
+   "q": [
+    "u4-68"
+   ],
+   "cita": "En las partes externas de la visión periférica, la agudeza o nitidez visual es menos del 0,1%"
+  },
+  {
+   "id": "c4-31",
+   "p": 43,
+   "s": "c4s7",
+   "q": [
+    "u4-69"
+   ],
+   "cita": "Se descubren las cosas con la visión periférica y se reconocen con la visión directa."
+  },
+  {
+   "id": "c4-32",
+   "p": 43,
+   "s": "c4s7",
+   "q": [
+    "u4-70"
+   ],
+   "cita": "Normalmente se tiene un campo visual de algo más de 180º."
+  },
+  {
+   "id": "c4-33",
+   "p": 43,
+   "s": "c4s7",
+   "q": [
+    "u4-71"
+   ],
+   "cita": "Las personas conductoras con experiencia, aprovechan su visión periférica más que quienes conducen recientemente."
+  },
+  {
+   "id": "c4-34",
+   "p": 43,
+   "s": "c4s7",
+   "q": [
+    "u4-72"
+   ],
+   "cita": "es fundamental que si percibes cualquier tipo de alteración en tu vista, consultes al médico"
+  },
+  {
+   "id": "c4-35",
+   "p": 43,
+   "s": "c4s8",
+   "q": [
+    "u4-73"
+   ],
+   "cita": "Subestimar la velocidad puede ser muy riesgoso, sobre todo porque puedes equivocarte al juzgar la distancia de frenado."
+  },
+  {
+   "id": "c4-36",
+   "p": 43,
+   "s": "c4s8",
+   "q": [
+    "u4-74"
+   ],
+   "cita": "Los automóviles modernos tienen una marcha bastante silenciosa y sin vibraciones, lo que facilita el no advertir la velocidad a la cual se conduce."
+  },
+  {
+   "id": "c4-37",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-12"
+   ],
+   "cita": "denominado visión de túnel, en donde el campo visual se reduce a medida que aumenta la velocidad."
+  },
+  {
+   "id": "c4-38",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-75"
+   ],
+   "cita": "Este efecto de visión de túnel se presenta también cuando la persona que conduce se encuentra en estado de estrés, por consumo de medicamentos o drogas."
+  },
+  {
+   "id": "c4-39",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-13"
+   ],
+   "cita": "A: 130 km/h 30°"
+  },
+  {
+   "id": "c4-40",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-76"
+   ],
+   "cita": "D: 35 km/h 100°"
+  },
+  {
+   "id": "c4-41",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-14"
+   ],
+   "cita": "la estimación del lugar en el que se cruzarán los vehículos resulta ser una estimación del punto medio de la distancia entre ambos"
+  },
+  {
+   "id": "c4-42",
+   "p": 44,
+   "s": "c4s8",
+   "q": [
+    "u4-77"
+   ],
+   "cita": "La magnitud del error, que es la diferencia en metros entre PR y PE, aumentará mientras mayor sea la diferencia de velocidad entre tu vehículo y el que viene en dirección opuesta."
+  },
+  {
+   "id": "c4-43",
+   "p": 45,
+   "s": "c4s9",
+   "q": [
+    "u4-15"
+   ],
+   "cita": "Para optar a una Licencia de Conducir es necesario haber cumplido 18 años (o excepcionalmente 17)"
+  },
+  {
+   "id": "c4-44",
+   "p": 45,
+   "s": "c4s9",
+   "q": [
+    "u4-78"
+   ],
+   "cita": "Excesiva necesidad de autoafirmación, lo que las hace más competitivas y dispuestas a no obedecer las normas del tránsito."
+  },
+  {
+   "id": "c4-45",
+   "p": 45,
+   "s": "c4s9",
+   "q": [
+    "u4-79"
+   ],
+   "cita": "Influencia de la publicidad, especialmente por aquella que incita al riesgo."
+  },
+  {
+   "id": "c4-46",
+   "p": 45,
+   "s": "c4s9",
+   "q": [
+    "u4-16"
+   ],
+   "cita": "Existen 5 factores que influyen en la evaluación y aceptación del peligro"
+  },
+  {
+   "id": "c4-47",
+   "p": 45,
+   "s": "c4s9",
+   "q": [
+    "u4-80"
+   ],
+   "cita": "Atribuciones sobre el comportamiento. Muchas personas jóvenes creen que conducen mejor que el resto, por lo que le atribuyen los errores a las demás personas."
+  },
+  {
+   "id": "c4-48",
+   "p": 46,
+   "s": "c4s9",
+   "q": [
+    "u4-81"
+   ],
+   "cita": "basta que la velocidad se exceda sólo un poco para que el límite de la capacidad se vea superado rápidamente, y la persona conductora cometa un error."
+  },
+  {
+   "id": "c4-49",
+   "p": 46,
+   "s": "c4s10",
+   "q": [
+    "u4-82"
+   ],
+   "cita": "probar cuál es la velocidad máxima del vehículo, tratar de pasar una curva cerrada a 80 km/h o tratar de batir la marca de tiempo"
+  },
+  {
+   "id": "c4-50",
+   "p": 46,
+   "s": "c4s10",
+   "q": [
+    "u4-19"
+   ],
+   "cita": "Dominar la eventual irritación o ira, incluso cuando otra persona usuaria de la vía haya tenido una conducta incorrecta, o tu la percibas así, es primordial para tomar buenas decisiones."
+  },
+  {
+   "id": "c4-51",
+   "p": 47,
+   "s": "c4s10",
+   "q": [
+    "u4-83"
+   ],
+   "cita": "La agresividad provoca que se perciba y juzge erróneamente una situación y además, lleva a tomar decisiones impulsivas."
+  },
+  {
+   "id": "c4-52",
+   "p": 47,
+   "s": "c4s10",
+   "q": [
+    "u4-84"
+   ],
+   "cita": "Un ejemplo recurrente de distracción que disminuye tu atención en la ruta, es querer ver una notificación en tu celular."
+  },
+  {
+   "id": "c4-53",
+   "p": 47,
+   "s": "c4s10",
+   "q": [
+    "u4-18"
+   ],
+   "cita": "La influencia del grupo puede ser altamente negativa y contribuir a que efectues acciones imprevistas."
+  },
+  {
+   "id": "c4-54",
+   "p": 48,
+   "s": "c4s10",
+   "q": [
+    "u4-85"
+   ],
+   "cita": "Capacidad de raciocinio y decisión Capacidad de adaptarse a la realidad La identidad Responsabilidad Autocontrol La empatía Manejo de la presión social"
+  },
+  {
+   "id": "c4-55",
+   "p": 47,
+   "s": "c4s10",
+   "q": [
+    "u4-86"
+   ],
+   "cita": "tengamos consideración con las y los usuarios vulnerables, es decir, ciclistas, motociclistas y peatones."
+  },
+  {
+   "id": "c4-56",
+   "p": 48,
+   "s": "c4s11",
+   "q": [
+    "u4-17"
+   ],
+   "cita": "La impulsividad, que significa que se actúa sin pensar, no previendo las consecuencias, es casi siempre negativa."
+  },
+  {
+   "id": "c4-57",
+   "p": 48,
+   "s": "c4s11",
+   "q": [
+    "u4-87"
+   ],
+   "cita": "Evaden su culpa con pretextos"
+  },
+  {
+   "id": "c4-58",
+   "p": 49,
+   "s": "c4s11",
+   "q": [
+    "u4-17"
+   ],
+   "cita": "generando la disminución de la consciencia del riesgo y aumentando la tendencia a correrlos"
+  },
+  {
+   "id": "c4-59",
+   "p": 49,
+   "s": "c4s11",
+   "q": [
+    "u4-17"
+   ],
+   "cita": "no es raro que uno de los sentimientos se vea fortalecido en exceso y el resultado sea que una persona insegura muestre un comportamiento agresivo."
+  },
+  {
+   "id": "c4-60",
+   "p": 49,
+   "s": "c4s11",
+   "q": [
+    "u4-17"
+   ],
+   "cita": "Sentir que eres superior al resto o pensar que tienes más derechos, lleva con frecuencia a pensar que algunas acciones de otras personas, son desafíos o provocaciones"
+  },
+  {
+   "id": "c4-61",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-27"
+   ],
+   "cita": "En el año 2012 fue promulgada la modificación a la Ley de Tránsito, conocida como Ley Tolerancia Cero"
+  },
+  {
+   "id": "c4-62",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-01"
+   ],
+   "cita": "Bajo la influencia del alcohol 0,31 - 0,79 gramos por mil de alcohol en la sangre."
+  },
+  {
+   "id": "c4-63",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-02"
+   ],
+   "cita": "Estado de ebriedad 0,8 o más gramos por mil de alcohol en la sangre. Sanción: multas, cancelación de licencia y presidio (cárcel)."
+  },
+  {
+   "id": "c4-64",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-28"
+   ],
+   "cita": "Las sanciones aumentan significativamente en caso de reincidencia, o si la persona conductora, además de haber bebido participa en un siniestro"
+  },
+  {
+   "id": "c4-65",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-05"
+   ],
+   "cita": "Con una alcoholemia entre 0,3 y 0,5 g/l el riesgo de sufrir un siniestro es el doble que si no hubiera bebido. En cambio, si se llega a una alcoholemia entre 0,5 y 0,8 g/l, el riesgo es cinco veces más que si no hubiera bebido."
+  },
+  {
+   "id": "c4-66",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-29"
+   ],
+   "cita": "Con una alcoholemia entre 0,3 y 0,5 g/l el riesgo de sufrir un siniestro es el doble"
+  },
+  {
+   "id": "c4-67",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-03"
+   ],
+   "cita": "Sin daño ni lesiones 1era vez 3 meses"
+  },
+  {
+   "id": "c4-68",
+   "p": 50,
+   "s": "c4s12",
+   "q": [
+    "u5-04"
+   ],
+   "cita": "1era vez 2 años 2da vez 5 años 3era vez Cancelación"
+  },
+  {
+   "id": "c4-69",
+   "p": 51,
+   "s": "c4s12",
+   "q": [
+    "u5-06"
+   ],
+   "cita": "Una modificación legal en el año 2014, conocida como Ley Emilia, sanciona con cárcel efectiva de al menos un año"
+  },
+  {
+   "id": "c4-70",
+   "p": 51,
+   "s": "c4s12",
+   "q": [
+    "u5-30"
+   ],
+   "cita": "La conducción con licencia cancelada o inhabilitada."
+  },
+  {
+   "id": "c4-71",
+   "p": 51,
+   "s": "c4s12",
+   "q": [
+    "u5-12"
+   ],
+   "cita": "se negase injustificadamente a realizarse las pruebas de detección de alcohol"
+  },
+  {
+   "id": "c4-72",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-31"
+   ],
+   "cita": "El cerebro es afectado por el alcohol mucho más que otros órganos del cuerpo."
+  },
+  {
+   "id": "c4-73",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-32"
+   ],
+   "cita": "Con pequeñas concentraciones de este (0,1 gramo por mil de alcohol en la sangre), se afecta el comportamiento y la conducta"
+  },
+  {
+   "id": "c4-74",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-07"
+   ],
+   "cita": "La única tasa de alcohol segura para conducir es “0”."
+  },
+  {
+   "id": "c4-75",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-33"
+   ],
+   "cita": "lo que no se percibe es que la visión periférica sí disminuye"
+  },
+  {
+   "id": "c4-76",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-34"
+   ],
+   "cita": "A mayores concentraciones de alcohol, la visión empeora, sobre todo en forma de visión doble."
+  },
+  {
+   "id": "c4-77",
+   "p": 51,
+   "s": "c4s13",
+   "q": [
+    "u5-09"
+   ],
+   "cita": "La visión periférica, la atención, el tiempo de reacción y la capacidad de interpretación y decisión se ven influidas antes que la parte motriz"
+  },
+  {
+   "id": "c4-78",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-35"
+   ],
+   "cita": "se requiere analizar una muestra de sangre (alcoholemia) o efectuar una prueba espirométrica con equipos especiales usados por Carabineros de Chile."
+  },
+  {
+   "id": "c4-79",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-11"
+   ],
+   "cita": "si dos personas beben exactamente la misma cantidad, aquella que tenga menor peso va a tener una mayor tasa de alcohol en la sangre."
+  },
+  {
+   "id": "c4-80",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-36"
+   ],
+   "cita": "es más probable que la mujer obtenga una tasa de alcoholemia más alta que el hombre."
+  },
+  {
+   "id": "c4-81",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-37"
+   ],
+   "cita": "El punto máximo que alcance el alcohol en el organismo, llamado meseta en la curva de la alcoholemia, será mayor si se bebe en poco tiempo."
+  },
+  {
+   "id": "c4-82",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-38"
+   ],
+   "cita": "El alcohol se detecta en la sangre 5 minutos después de haber sido ingerido."
+  },
+  {
+   "id": "c4-83",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-39"
+   ],
+   "cita": "el que se alcanza, en promedio, a la hora después de haber bebido."
+  },
+  {
+   "id": "c4-84",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-10"
+   ],
+   "cita": "la presencia de alcohol disminuye a razón de entre 0,10 a 0,15 g de alcohol por litro de sangre por hora."
+  },
+  {
+   "id": "c4-85",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-08"
+   ],
+   "cita": "La metabolización no se puede apresurar."
+  },
+  {
+   "id": "c4-86",
+   "p": 52,
+   "s": "c4s14",
+   "q": [
+    "u5-40"
+   ],
+   "cita": "dormir pocas horas no garantiza la metabolización total del alcohol"
+  },
+  {
+   "id": "c4-87",
+   "p": 53,
+   "s": "c4s14",
+   "q": [
+    "u5-41"
+   ],
+   "cita": "El alimento reduce la cantidad de alcohol que pasa del estómago a la sangre. Debes saber que la mezcla de alcohol con bebidas carbonatadas aumenta la absorción por el estómago."
+  },
+  {
+   "id": "c4-88",
+   "p": 53,
+   "s": "c4s14",
+   "q": [
+    "u5-42"
+   ],
+   "cita": "Los menores de 18 años y los mayores de 65 años perciben con mayor intensidad los efectos del alcohol."
+  },
+  {
+   "id": "c4-89",
+   "p": 53,
+   "s": "c4s15",
+   "q": [
+    "u5-43"
+   ],
+   "cita": "todas ellas actúan sobre el cerebro y pueden alterar la percepción, la cognición, la atención, el equilibrio, la coordinación, el tiempo de reacción"
+  },
+  {
+   "id": "c4-90",
+   "p": 53,
+   "s": "c4s15",
+   "q": [
+    "u5-13"
+   ],
+   "cita": "Se clasifica como depresor, alucinógeno. No es estimulante."
+  },
+  {
+   "id": "c4-91",
+   "p": 53,
+   "s": "c4s15",
+   "q": [
+    "u5-44"
+   ],
+   "cita": "Se altera la percepción del tiempo, del espacio y de la velocidad, lo que causa cálculos errados de distancia."
+  },
+  {
+   "id": "c4-92",
+   "p": 53,
+   "s": "c4s15",
+   "q": [
+    "u5-14"
+   ],
+   "cita": "Produce un comportamiento más competitivo e incluso agresivo."
+  },
+  {
+   "id": "c4-93",
+   "p": 54,
+   "s": "c4s15",
+   "q": [
+    "u5-45"
+   ],
+   "cita": "Su efecto después de fumar es rápido e intenso, aparece en un lapso de segundos y dura algunos minutos."
+  },
+  {
+   "id": "c4-94",
+   "p": 54,
+   "s": "c4s15",
+   "q": [
+    "u5-46"
+   ],
+   "cita": "Al consumir pasta base, se pueden distinguir cuatro etapas"
+  },
+  {
+   "id": "c4-95",
+   "p": 54,
+   "s": "c4s15",
+   "q": [
+    "u5-47"
+   ],
+   "cita": "En todas sus etapas los riesgos para la conducción son altos y evidentes."
+  },
+  {
+   "id": "c4-96",
+   "p": 54,
+   "s": "c4s15",
+   "q": [
+    "u5-15"
+   ],
+   "cita": "Períodos de mayor sensibilidad a la luz, por lo tanto mayor tendencia a los deslumbramientos."
+  },
+  {
+   "id": "c4-97",
+   "p": 54,
+   "s": "c4s15",
+   "q": [
+    "u5-48"
+   ],
+   "cita": "Ilusiones ópticas, como flashes en la periferia del campo visual, lo que podría ocasionar la acción de maniobras evasivas bruscas y peligrosas."
+  },
+  {
+   "id": "c4-98",
+   "p": 55,
+   "s": "c4s15",
+   "q": [
+    "u5-16"
+   ],
+   "cita": "Esperar que los efectos desaparezcan o disminuyan no es una garantía para volver a conducir de forma segura."
+  },
+  {
+   "id": "c4-99",
+   "p": 56,
+   "s": "c4s16",
+   "q": [
+    "u5-18"
+   ],
+   "cita": "seguidos de adicciones a medicamentos (de forma similar a la adicción a drogas) y la diabetes."
+  },
+  {
+   "id": "c4-100",
+   "p": 56,
+   "s": "c4s16",
+   "q": [
+    "u5-49"
+   ],
+   "cita": "se te realizará un examen médico donde se evaluarán las enfermedades y/o condiciones que pueden afectar a la conducción."
+  },
+  {
+   "id": "c4-101",
+   "p": 56,
+   "s": "c4s16",
+   "q": [
+    "u5-50"
+   ],
+   "cita": "es tu responsabilidad preguntar al médico tratante acerca de las consecuencias y riesgos de conducir."
+  },
+  {
+   "id": "c4-102",
+   "p": 56,
+   "s": "c4s16",
+   "q": [
+    "u5-51"
+   ],
+   "cita": "No modificar ni abandonar el tratamiento sin prescripción médica. No consumir alcohol mientras consumes medicamentos."
+  },
+  {
+   "id": "c4-103",
+   "p": 57,
+   "s": "c4s16",
+   "q": [
+    "u5-19"
+   ],
+   "cita": "Se aconseja conducir luego de 3 meses después del evento."
+  },
+  {
+   "id": "c4-104",
+   "p": 57,
+   "s": "c4s16",
+   "q": [
+    "u5-52"
+   ],
+   "cita": "Hipertensión arterial Mareos; pérdida repentina de conciencia."
+  },
+  {
+   "id": "c4-105",
+   "p": 57,
+   "s": "c4s16",
+   "q": [
+    "u5-53"
+   ],
+   "cita": "Epilepsia Pérdida de concentración; descoordinación de movimientos; posibilidad de ataques repentinos."
+  },
+  {
+   "id": "c4-106",
+   "p": 57,
+   "s": "c4s16",
+   "q": [
+    "u5-54"
+   ],
+   "cita": "Apnea obstructiva del sueño Pérdida de atención; somnolencia."
+  },
+  {
+   "id": "c4-107",
+   "p": 58,
+   "s": "c4s17",
+   "q": [
+    "u5-55"
+   ],
+   "cita": "En un viaje por carretera circulando a 90 km/h, durante un estornudo de un segundo de duración, el vehículo recorre unos 25 metros"
+  },
+  {
+   "id": "c4-108",
+   "p": 58,
+   "s": "c4s17",
+   "q": [
+    "u5-56"
+   ],
+   "cita": "los antihistamínicos ingeridos habitualmente para aliviar estos síntomas, pueden provocar una mayor somnolencia al volante."
+  },
+  {
+   "id": "c4-109",
+   "p": 58,
+   "s": "c4s17",
+   "q": [
+    "u5-57"
+   ],
+   "cita": "Evitar conducir al amanecer y por zonas húmedas, ya que en ambos casos se producen grandes concentraciones de polen."
+  },
+  {
+   "id": "c4-110",
+   "p": 58,
+   "s": "c4s17",
+   "q": [
+    "u5-58"
+   ],
+   "cita": "Usar lentes de sol, ya que protegen los ojos de alérgenos."
+  },
+  {
+   "id": "c4-111",
+   "p": 58,
+   "s": "c4s17",
+   "q": [
+    "u5-59"
+   ],
+   "cita": "El estrés es un mecanismo de defensa del organismo ante situaciones amenazantes o que demandan un gran esfuerzo."
+  },
+  {
+   "id": "c4-112",
+   "p": 59,
+   "s": "c4s17",
+   "q": [
+    "u5-60"
+   ],
+   "cita": "cierto grado de estrés puede contribuir a mejorar el rendimiento."
+  },
+  {
+   "id": "c4-113",
+   "p": 59,
+   "s": "c4s17",
+   "q": [
+    "u5-61"
+   ],
+   "cita": "Una persona conductora dominada por el pánico no tiene posibilidad de resolver por sí misma la situación."
+  },
+  {
+   "id": "c4-114",
+   "p": 59,
+   "s": "c4s17",
+   "q": [
+    "u5-62"
+   ],
+   "cita": "La depresión conlleva mayor probabilidad de sufrir estados de somnolencia y de fatiga, por lo que no se recomienda conducir de noche, ni durante mucho tiempo, ni en entornos monótonos."
+  },
+  {
+   "id": "c4-115",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-17"
+   ],
+   "cita": "Se ha comprobado que el riesgo de conducir bajo los efectos de algunos de estos medicamentos es equivalente al riesgo de conducir con una tasa de alcohol en la sangre de 0,5 g/l a 0,8 g/l"
+  },
+  {
+   "id": "c4-116",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-63"
+   ],
+   "cita": "Hoy existen antihistamínicos que no producen somnolencia, por lo tanto, son más seguros para la conducción."
+  },
+  {
+   "id": "c4-117",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-64"
+   ],
+   "cita": "Son aquellos medicamentos usados para el tratamiento de enfermedades mentales, tales como depresión, ansiedad o trastornos del sueño."
+  },
+  {
+   "id": "c4-118",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-65"
+   ],
+   "cita": "Neurolépticos o antipsicóticos: se usan en el tratamiento de trastornos de tipo psicótico, como la esquizofrenia. Pueden provocar sueño e hipotensión."
+  },
+  {
+   "id": "c4-119",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-66"
+   ],
+   "cita": "existen algunos tipos de anfetaminas que generan una efímera y fuerte sensación de autoconfianza."
+  },
+  {
+   "id": "c4-120",
+   "p": 60,
+   "s": "c4s18",
+   "q": [
+    "u5-67"
+   ],
+   "cita": "Algunos de estos medicamentos generan efectos tan fuertes en el organismo que, en algunos países se prohíbe conducir mientras se consumen."
+  },
+  {
+   "id": "c4-121",
+   "p": 61,
+   "s": "c4s18",
+   "q": [
+    "u5-68"
+   ],
+   "cita": "Cuando vayas a consumir medicamentos, en especial los antes mencionados, debes consultar al médico sobre los posibles riesgos para la conducción"
+  },
+  {
+   "id": "c4-122",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-20"
+   ],
+   "cita": "entre el 15 y el 30% del total de los siniestros de tránsito ocurre porque el factor sueño está asociado"
+  },
+  {
+   "id": "c4-123",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-69"
+   ],
+   "cita": "El cansancio es una causa importante de siniestros de tránsito, principalmente de los que se registran en carreteras."
+  },
+  {
+   "id": "c4-124",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-70"
+   ],
+   "cita": "Los riesgos de tener un siniestro por somnolencia aparecen mucho antes."
+  },
+  {
+   "id": "c4-125",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-71"
+   ],
+   "cita": "Otra creencia popular es creer que el sueño sólo aparece de noche, cuando el sueño puede aparecer en el día por muchas causas."
+  },
+  {
+   "id": "c4-126",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-72"
+   ],
+   "cita": "Aumenta el tiempo de reacción. Esto explica siniestros como colisiones por alcance"
+  },
+  {
+   "id": "c4-127",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-21"
+   ],
+   "cita": "Pueden presentarse microsueños, que son períodos de algunos segundos en que la persona conductora, sin darse cuenta, se queda ligeramente dormida"
+  },
+  {
+   "id": "c4-128",
+   "p": 62,
+   "s": "c4s19",
+   "q": [
+    "u5-73"
+   ],
+   "cita": "Es más fácil sufrir un deslumbramiento cuando otro vehículo lleva luces altas cuando se tiene sueño."
+  },
+  {
+   "id": "c4-129",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-74"
+   ],
+   "cita": "la causa más corriente es quizás una combinación de esfuerzo físico y monotonía."
+  },
+  {
+   "id": "c4-130",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-26"
+   ],
+   "cita": "No es extraño que la persona conductora tenga la boca seca y empiece a sentir frío. Esta última sensación es traicionera"
+  },
+  {
+   "id": "c4-131",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-75"
+   ],
+   "cita": "En las fases finales, los músculos de la nuca se relajan, lo que provoca movimientos involuntarios de la cabeza."
+  },
+  {
+   "id": "c4-132",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-76"
+   ],
+   "cita": "mientras buscas un lugar para detenerte, asegúrate de que entre aire fresco a tu vehículo."
+  },
+  {
+   "id": "c4-133",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-22"
+   ],
+   "cita": "La madrugada, especialmente entre las 3 y las 5 horas, y las primeras horas de la tarde, entre las 14 y las 16 horas"
+  },
+  {
+   "id": "c4-134",
+   "p": 63,
+   "s": "c4s19",
+   "q": [
+    "u5-77"
+   ],
+   "cita": "Si duermes una o dos horas menos, en pocos días experimentarás una gran somnolencia."
+  },
+  {
+   "id": "c4-135",
+   "p": 64,
+   "s": "c4s19",
+   "q": [
+    "u5-78"
+   ],
+   "cita": "Conducir de noche por una carretera recta y sin tráfico, durante muchos kilómetros, favorece la somnolencia."
+  },
+  {
+   "id": "c4-136",
+   "p": 64,
+   "s": "c4s19",
+   "q": [
+    "u5-79"
+   ],
+   "cita": "El alcohol o algunos medicamentos, pueden favorecer la aparición de sueño. Lo mismo puede ocurrir al consumir una comida abundante."
+  },
+  {
+   "id": "c4-137",
+   "p": 64,
+   "s": "c4s19",
+   "q": [
+    "u5-24"
+   ],
+   "cita": "cuando cesa su efecto, se puede producir un efecto rebote, es decir, el sueño aparecerá repentinamente."
+  },
+  {
+   "id": "c4-138",
+   "p": 64,
+   "s": "c4s20",
+   "q": [
+    "u5-80"
+   ],
+   "cita": "La fatiga es cansancio extremo del cuerpo o la mente"
+  },
+  {
+   "id": "c4-139",
+   "p": 65,
+   "s": "c4s20",
+   "q": [
+    "u5-81"
+   ],
+   "cita": "Posibilidad de experimentar reacciones bruscas y desproporcionadas ante sonidos repentinos, como frenar de forma brusca al escuchar una bocina."
+  },
+  {
+   "id": "c4-140",
+   "p": 65,
+   "s": "c4s20",
+   "q": [
+    "u5-82"
+   ],
+   "cita": "Aparecen movimientos indicadores de fatiga: cambios de postura frecuentes, estiramientos, bostezos, constantes acomodos en el asiento"
+  },
+  {
+   "id": "c4-141",
+   "p": 66,
+   "s": "c4s20",
+   "q": [
+    "u5-83"
+   ],
+   "cita": "Conducir mucho tiempo seguido sin descansar o descansando de forma inadecuada, es la principal causa de fatiga al volante."
+  },
+  {
+   "id": "c4-142",
+   "p": 65,
+   "s": "c4s20",
+   "q": [
+    "u5-84"
+   ],
+   "cita": "Conducir por un camino no conocido, ya que obliga a prestar atención durante todo el recorrido."
+  },
+  {
+   "id": "c4-143",
+   "p": 66,
+   "s": "c4s20",
+   "q": [
+    "u5-25"
+   ],
+   "cita": "20 o 30 minutos de sueño son suficientes en la mayoría de los casos."
+  },
+  {
+   "id": "c4-144",
+   "p": 66,
+   "s": "c4s20",
+   "q": [
+    "u5-23"
+   ],
+   "cita": "En viajes largos, descansa al menos 20 a 30 minutos cada 2 horas o 200 kilómetros de conducción, como máximo."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Puedes ver esta historia animada pinchando aquí",
+   "motivo": "referencia a material externo"
+  },
+  {
+   "cita": "Tabla sobre los efectos que provocan ciertos medicamentos",
+   "motivo": "tabla sin texto legible en la extracción; se cubren los medicamentos en el texto"
+  }
+ ]
+}
