@@ -1173,9 +1173,9 @@
    "prompt": "¿Qué muestra que los siniestros de tránsito no son casuales?",
    "options": [
     "Que aumentan con lluvia, de noche y con alcohol",
-    "Que se reparten igual a toda hora del día",
-    "Que dependen solo del tiempo al volante",
-    "Que afectan por igual a todos los conductores"
+    "Que la mayoría ocurre en carreteras y autopistas",
+    "Que se deben sobre todo a fallas mecánicas",
+    "Que disminuyen de noche, cuando hay menos tránsito"
    ],
    "explain": "Si fueran accidentales, no aumentarían en esas condiciones. Tienen causas conocidas.",
    "page": 6
@@ -1411,9 +1411,9 @@
    "prompt": "En el Sistema Seguro, en vez de solo corregir los errores humanos, ¿qué se busca?",
    "options": [
     "Abordar el riesgo inherente a la circulación",
-    "Endurecer las multas hasta eliminar los errores",
-    "Formar conductores que nunca se equivoquen",
-    "Permitir conducir solo a personas expertas"
+    "Aumentar los controles policiales en las vías",
+    "Exigir más horas de clases para la licencia",
+    "Reducir la cantidad de vehículos en circulación"
    ],
    "explain": "En vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación.",
    "page": 9
@@ -1471,9 +1471,9 @@
    "prompt": "¿Cómo califica la OMS la situación de las personas involucradas en siniestros de tránsito?",
    "options": [
     "Un problema prioritario de salud pública",
-    "Un problema menor de orden público",
-    "Un asunto que solo afecta a cada país",
-    "Un problema solo de infraestructura vial"
+    "Un problema de seguridad ciudadana",
+    "Un problema de educación vial",
+    "Un problema de infraestructura vial"
    ],
    "explain": "La OMS la califica como un problema prioritario de salud pública en todo el mundo.",
    "page": 6
@@ -1576,9 +1576,9 @@
    "prompt": "Según el Sistema Seguro, ¿entre quiénes existe una responsabilidad compartida?",
    "options": [
     "Quienes diseñan, construyen, administran y usan las vías",
-    "Solo las personas que conducen vehículos motorizados",
-    "Solo Carabineros y los jueces de policía local",
-    "Solo las municipalidades y el Ministerio"
+    "Las personas que conducen y las que van a pie",
+    "Carabineros, municipalidades y jueces de policía local",
+    "Los fabricantes de vehículos y las escuelas de conductores"
    ],
    "explain": "Entre quienes diseñan, construyen, administran y usan las vías y los vehículos, junto con quienes brindan atención luego del siniestro.",
    "page": 9
@@ -1844,9 +1844,9 @@
    "prompt": "El servofreno, que aumenta la fuerza de frenado, funciona solo…",
    "options": [
     "Con el motor en marcha",
-    "Con el auto detenido",
-    "Solo sobre 40 km/h",
-    "Solo con el freno de mano suelto"
+    "Con el freno de mano suelto",
+    "Sobre los 20 km/h",
+    "Con el contacto puesto, aunque el motor esté apagado"
    ],
    "explain": "Por eso hay que tener cuidado si el motor se detiene en una bajada o al ser remolcado.",
    "page": 16
@@ -2721,9 +2721,9 @@
    "prompt": "Si tras un siniestro te niegas sin justificación a hacerte la prueba de alcohol…",
    "options": [
     "Suspensión, multas y posible cárcel",
-    "Solo una multa leve",
-    "Solo una citación al juzgado",
-    "Nada, si no hubo lesionados"
+    "Una multa y la retención del vehículo",
+    "Suspensión de la licencia por un mes",
+    "Una citación al juzgado, sin otra sanción"
    ],
    "explain": "Las penas pueden ser efectivas según las consecuencias del siniestro.",
    "page": 51
@@ -3150,9 +3150,9 @@
    "prompt": "¿Con qué sistemas se puede anclar un SRI al vehículo?",
    "options": [
     "ISOFIX, LATCH o el cinturón",
-    "Solo con ISOFIX, nunca con cinturón",
+    "Solo con ISOFIX o LATCH",
     "Solo con el cinturón de seguridad",
-    "Siempre con ISOFIX y cinturón a la vez"
+    "Con correas al apoyacabezas"
    ],
    "explain": "Bien instalado, cualquiera de los tres es seguro por sí solo.",
    "page": 75
@@ -3181,8 +3181,8 @@
    "options": [
     "En cabina simple, con el airbag desactivado",
     "En cabina simple, con el airbag activado",
-    "Nunca, en ningún vehículo",
-    "Siempre que vaya mirando hacia atrás"
+    "Si el niño va mirando hacia adelante",
+    "En cualquier auto, con el asiento atrás del todo"
    ],
    "explain": "El airbag inflándose a gran velocidad puede herir gravemente al niño.",
    "page": 30
@@ -3227,7 +3227,7 @@
     "Advertencia: prepararse para el cambio",
     "Avanzar con precaución por el cruce",
     "Detención inmediata para todos los carriles",
-    "Que solo se puede virar a la derecha"
+    "Paso libre para quienes van de frente"
    ],
    "explain": "Equivale a la luz amarilla.",
    "page": 77
@@ -4857,9 +4857,9 @@
    "prompt": "¿Qué consecuencias tiene darse a la fuga sin avisar a la autoridad?",
    "options": [
     "Delito con cárcel e inhabilidad",
-    "Solo una multa leve",
-    "Solo suspensión por un mes",
-    "Una amonestación escrita"
+    "Una infracción grave con multa",
+    "Suspensión de la licencia por un mes",
+    "Una infracción gravísima, sin cárcel"
    ],
    "explain": "Detenerse, ayudar y avisar es obligatorio.",
    "page": 136
@@ -4932,9 +4932,9 @@
    "prompt": "La Ley No Chat prohíbe manipular el celular mientras conduces…",
    "options": [
     "Incluso detenido en luz roja o en un taco",
-    "Solo en carretera",
-    "Solo sobre 50 km/h",
-    "Solo con el vehículo en movimiento"
+    "Solo con el vehículo en movimiento",
+    "Solo cuando hay pasajeros a bordo",
+    "Salvo para usarlo como GPS en la mano"
    ],
    "explain": "Programa el GPS antes de partir, con el auto estacionado.",
    "page": 141
@@ -5114,9 +5114,9 @@
    "prompt": "¿Qué puede utilizar el motor para funcionar?",
    "options": [
     "Gasolina, petróleo diesel, gas y/o electricidad",
-    "Solo gasolina de alto octanaje, sin mezcla",
-    "Solo petróleo diesel o gasolina común",
-    "Solo electricidad guardada en la batería"
+    "Gasolina o petróleo diesel, pero no gas",
+    "Gasolina, gas o diesel, pero no electricidad",
+    "Electricidad o gasolina, pero no petróleo diesel"
    ]
   },
   {
@@ -5204,9 +5204,9 @@
    "prompt": "Los vapores de la gasolina…",
    "options": [
     "Pueden ser cancerígenos y son inflamables",
-    "Son inofensivos siempre que el motor esté apagado",
-    "Solo son peligrosos en días calurosos",
-    "No son inflamables al aire libre"
+    "Son inflamables, pero no dañan la salud",
+    "Son tóxicos, pero no inflamables al aire libre",
+    "Solo son peligrosos en lugares cerrados"
    ]
   },
   {
@@ -5430,8 +5430,8 @@
    "options": [
     "Se mantiene cierto efecto de frenado en el otro",
     "Se pierde todo el efecto de frenado",
-    "Solo funciona el freno de mano",
-    "El vehículo se detiene de inmediato solo"
+    "Solo queda el freno de mano para detenerte",
+    "Se activa el ABS para compensar la falla"
    ]
   },
   {
@@ -5534,9 +5534,9 @@
    "prompt": "¿Cuándo conviene probar los frenos a baja velocidad?",
    "options": [
     "Tras vías inundadas, lavar el auto o tenerlo guardado",
-    "Solo antes de un viaje largo por carretera",
-    "Solo cuando el vehículo es nuevo",
-    "Solo después de cambiar los neumáticos"
+    "Antes de cada viaje largo por carretera",
+    "Después de cambiar los neumáticos o las pastillas",
+    "Cuando se enciende la luz del ABS"
    ]
   },
   {
@@ -6374,9 +6374,9 @@
    "prompt": "¿Cuál de estas es una acción de solidaridad al conducir?",
    "options": [
     "Dejar espacio para que te adelanten",
-    "Tocar la bocina para apurar a otros",
-    "Acelerar cuando te quieren adelantar",
-    "Cambiar de pista sin señalizar"
+    "Mantener tu velocidad para no entorpecer el tránsito",
+    "Ir por la pista izquierda para dejar libre la derecha",
+    "Hacer valer siempre tu preferencia de paso"
    ]
   },
   {
@@ -6389,9 +6389,9 @@
    "prompt": "Una velocidad adecuada y segura es la que te permite…",
    "options": [
     "Mantener el control y reaccionar a tiempo",
-    "Llegar antes que los demás vehículos",
-    "Ir siempre al límite máximo permitido",
-    "Adelantar a todos los vehículos lentos"
+    "Llegar a tiempo sin apurar a los demás",
+    "Ir al ritmo del resto del tránsito",
+    "Circular al límite máximo permitido"
    ]
   },
   {
@@ -6449,9 +6449,9 @@
    "prompt": "¿Cuándo surgen las interpretaciones erróneas del entorno?",
    "options": [
     "Cuando los indicios de distancia y forma son poco claros",
-    "Cuando conduces con mucha experiencia al volante",
-    "Solo cuando hay mucho tráfico en la vía principal",
-    "Solo cuando el vehículo está en mal estado técnico"
+    "Cuando conduces de noche con las luces bajas puestas",
+    "Cuando hay mucho tráfico y debes frenar seguido",
+    "Cuando vas a menos de 50 km/h por calles conocidas"
    ]
   },
   {
@@ -6525,8 +6525,8 @@
    "options": [
     "Las expectativas, necesidades y estado de vigilancia",
     "La experiencia y los años al volante",
-    "Solo la cantidad de luz que hay durante el día",
-    "Solo la velocidad a la que circula el vehículo"
+    "La cantidad de luz y el estado del clima",
+    "La velocidad y el tipo de vía por la que circulas"
    ]
   },
   {
@@ -6794,9 +6794,9 @@
    "prompt": "Con apenas 0,1 g/l de alcohol en la sangre…",
    "options": [
     "Se afecta el comportamiento y la conducta",
-    "No se produce ningún efecto en el cuerpo",
-    "Solo aparece la visión doble al conducir",
-    "Mejora la concentración y la atención"
+    "Todavía no se produce ningún efecto",
+    "Solo se afecta la visión periférica",
+    "Aparece la visión doble"
    ]
   },
   {
@@ -6885,8 +6885,8 @@
    "options": [
     "Menores de 18 y mayores de 65 años",
     "Personas de 30 a 50 años",
-    "Solo las personas de mayor peso",
-    "Solo quienes beben cerveza"
+    "Las personas de mayor peso",
+    "Quienes beben de forma habitual"
    ]
   },
   {
@@ -7170,8 +7170,8 @@
    "options": [
     "Niños, peatones, ciclistas y motociclistas",
     "Conductores de camiones y de buses",
-    "Solo conductores con poca experiencia",
-    "Solo conductores de vehículos antiguos"
+    "Conductores con poca experiencia",
+    "Personas mayores que conducen"
    ]
   },
   {
@@ -7229,9 +7229,9 @@
    "prompt": "Ante peatones ebrios, ¿qué debes hacer?",
    "options": [
     "Reducir la velocidad y darles la preferencia",
-    "Tocar la bocina para que se aparten",
-    "Acelerar para pasar rápido",
-    "Encender las luces altas"
+    "Tocar la bocina y seguir con cuidado",
+    "Mantener la velocidad y esquivarlos",
+    "Encender las luces altas para que te vean"
    ]
   },
   {
@@ -7259,9 +7259,9 @@
    "prompt": "¿Cómo debes actuar con personas mayores que conducen?",
    "options": [
     "Darles tiempo suficiente y no presionarlas",
-    "Tocar la bocina para que avancen",
-    "Adelantarlas siempre que puedas",
-    "Pegarte a su vehículo para apurarlas"
+    "Adelantarlas en cuanto haya espacio",
+    "Mantener una distancia corta para que te vean",
+    "Avisarles con un toque de bocina antes de pasar"
    ]
   },
   {
@@ -7335,8 +7335,8 @@
    "options": [
     "Quien usa bicicleta, scooter, patines u otro ciclo",
     "Solo quien usa una bicicleta con pedales",
-    "Solo quien compite en carreras",
-    "Quien camina junto a una bicicleta"
+    "Quien usa bicicleta o motocicleta",
+    "Quien usa bicicleta, pero no scooter ni patines"
    ]
   },
   {
@@ -7499,9 +7499,9 @@
    "prompt": "¿Quiénes velan por el cumplimiento de las normas de circulación?",
    "options": [
     "Carabineros e inspectores fiscales y municipales",
-    "Solo las escuelas de conductores del país",
-    "Solo los guardias de las autopistas urbanas",
-    "Los jueces de policía local en la vía"
+    "Carabineros y los guardias de las autopistas",
+    "Los jueces de policía local y las municipalidades",
+    "Carabineros y las escuelas de conductores"
    ]
   },
   {
@@ -7709,9 +7709,9 @@
    "prompt": "¿Cuándo puedes circular por la pista izquierda?",
    "options": [
     "En ciudad, con 3 o más pistas en tu sentido",
-    "Siempre que vayas más lento que el resto",
-    "Solo de noche cuando estás en carretera",
-    "Cuando quieras estacionar al otro lado"
+    "Siempre que no vayas más lento que el resto",
+    "En carretera, cuando no hay nadie adelante",
+    "Cuando vas a virar a la derecha más adelante"
    ]
   },
   {
@@ -8039,9 +8039,9 @@
    "prompt": "De noche, ¿de qué depende descubrir un obstáculo?",
    "options": [
     "De tus luces, tu vista y lo que refleja el obstáculo",
-    "Solo de la velocidad a la que va el vehículo",
-    "Solo de la potencia de tus luces altas",
-    "Solo del alumbrado público de la vía"
+    "De la velocidad y la potencia de tus luces",
+    "Del alumbrado público y del color del vehículo",
+    "De tus luces altas y del estado del parabrisas"
    ]
   },
   {
@@ -8309,9 +8309,9 @@
    "prompt": "Con nieve, ¿qué marcha conviene usar en general?",
    "options": [
     "La más alta razonablemente posible",
-    "Siempre la primera marcha",
-    "El neutro en todas las bajadas",
-    "Cambiar de marcha muy seguido"
+    "La primera, para tener más fuerza",
+    "La segunda, en todo momento",
+    "Una marcha baja y acelerar seguido"
    ]
   },
   {
@@ -8339,9 +8339,9 @@
    "prompt": "¿Qué es la Conducción Eficiente?",
    "options": [
     "Una forma de conducir con mayor rendimiento energético",
-    "Conducir siempre a la velocidad máxima permitida",
-    "Usar solo vehículos eléctricos en la ciudad",
-    "Conducir en marchas bajas para cuidar el motor"
+    "Conducir lo más lento posible para gastar menos",
+    "Conducir en marchas bajas para cuidar el motor",
+    "Usar el aire acondicionado solo en carretera"
    ]
   },
   {
@@ -8564,9 +8564,9 @@
    "prompt": "¿Qué revisa la revisión técnica?",
    "options": [
     "Dirección, frenos, luces, neumáticos y combustión",
-    "Solo el estado de la pintura y la carrocería",
-    "Solo el kilometraje que marca el odómetro",
-    "Solo los gases y el ruido del escape"
+    "Dirección, frenos y luces, pero no los neumáticos",
+    "Los gases del escape y el estado de la carrocería",
+    "Frenos y neumáticos, pero no las emisiones"
    ]
   },
   {
@@ -8609,9 +8609,9 @@
    "prompt": "Recibes una llamada importante y no tienes manos libres. ¿Qué haces?",
    "options": [
     "Te detienes en un lugar seguro y contestas",
-    "Contestas rápido sin soltar el volante",
-    "Contestas solo si vas despacio",
-    "Contestas solo en una luz roja"
+    "Contestas con el altavoz, sin tomar el teléfono",
+    "Contestas cuando te detienes en una luz roja",
+    "Contestas si vas despacio y en una calle tranquila"
    ]
   },
   {
@@ -8834,9 +8834,9 @@
    "prompt": "¿Cuál es la diferencia entre estacionar y detenerse?",
    "options": [
     "Estacionar dura más que dejar o recibir pasajeros",
-    "Estacionar solo se permite en recintos privados",
-    "Detenerse solo se permite con las luces de emergencia",
-    "Detenerse dura más que estacionar"
+    "Detenerse dura más que estacionar",
+    "Estacionar se permite solo en recintos privados",
+    "Detenerse requiere encender las luces de emergencia"
    ]
   },
   {
@@ -8909,9 +8909,9 @@
    "prompt": "¿Qué exámenes se rinden en la Municipalidad para obtener la licencia?",
    "options": [
     "Visual, auditivo, reacción, médico, teórico y práctico",
-    "Solo el examen teórico y el práctico de manejo",
-    "Solo un examen médico general con un doctor",
-    "Solo un examen de la vista con lentes puestos"
+    "Teórico, práctico y médico, sin examen auditivo",
+    "Visual, médico y práctico, sin examen teórico",
+    "Teórico y práctico; el médico se hace en una clínica"
    ]
   },
   {
@@ -14811,9 +14811,9 @@
    "prompt": "¿Qué indica esta línea blanca discontinua (1)?",
    "options": [
     "Puedes traspasarla con precaución",
-    "No puedes traspasarla nunca",
+    "Solo puedes traspasarla para virar",
     "Prohibido estacionar a su lado",
-    "Es solo para buses"
+    "Indica una pista exclusiva para buses"
    ],
    "explain": "Puedes cambiar de pista advirtiendo antes y sin imponer riesgos.",
    "page": 82,
@@ -14844,8 +14844,8 @@
    "options": [
     "Quien circula por el lado segmentado",
     "Quien circula por el lado continuo",
-    "Nadie, en ningún caso",
-    "Todos, con precaución"
+    "Solo los vehículos de emergencia",
+    "Ambos lados, con precaución"
    ],
    "explain": "Solo los vehículos del lado en que la línea es segmentada.",
    "page": 82,
@@ -15068,8 +15068,8 @@
    "options": [
     "Sí, pero permaneciendo en el vehículo",
     "Sí, todo el tiempo que quieras",
-    "No, nunca",
-    "Solo de noche"
+    "Solo para cargar o descargar",
+    "No, ni siquiera para detenerte"
    ],
    "explain": "Debes permanecer en tu vehículo para retirarlo cuando llegue quien goza de la reserva.",
    "page": 105,

@@ -243,6 +243,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
   y reemplaza a los otros archivos). Control: similitud verdadera/falsa ≤ 0,6 y ninguna con todas las verdaderas más largas.
   Además, la falsa debe ser un error **creíble** (cifra vecina, procedimiento parecido), nunca algo absurdo
   como "el riesgo es el mismo que sin alcohol" (v3.0).
+- **Distractores creíbles (v3.6):** `tools/cobertura/distractores/zz_creibles.json` reemplaza alternativas absurdas ("solo", "nunca", "un problema menor") de 40 preguntas de alternativas por errores creíbles.
 - **Encabezado (v3.5):** rombo amarillo con la B + "Ruta B"; la racha va en una píldora naranja con llama dibujada (`.pill#racha`).
 - **Barras del sistema oscuras (v3.4):** `colors.xml` bg = #131F24 (antes un blanco de un diseño viejo), tema
   `Theme.Material.NoActionBar` y `enableEdgeToEdge(SystemBarStyle.dark)` con padding de insets en `MainActivity`.
@@ -267,7 +268,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-3.5.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.6.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
