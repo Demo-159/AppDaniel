@@ -1,5 +1,10 @@
 package com.appdaniel.rutab.ui.screens
 
+import android.graphics.BitmapFactory
+import androidx.compose.foundation.Image
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.layout.ContentScale
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
@@ -136,6 +141,10 @@ fun LessonScreen(vm: AppViewModel) {
                     Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) { SignView(it, 140.dp) }
                     Spacer(Modifier.height(18.dp))
                 }
+                q.image?.let {
+                    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) { BookImage(it) }
+                    Spacer(Modifier.height(18.dp))
+                }
                 when (q.type) {
                     "order" -> OrderAnswer(q, order, orderPicked, locked = fb != null)
                     "match" -> MatchAnswer(q, key, locked = fb != null) { ok ->
@@ -198,6 +207,18 @@ fun LessonScreen(vm: AppViewModel) {
     }
 }
 
+/** Imagen del libro guardada en assets (señales y figuras). */
+@Composable
+private fun BookImage(path: String) {
+    val ctx = LocalContext.current
+    val bmp = remember(path) {
+        runCatching { ctx.assets.open(path).use { BitmapFactory.decodeStream(it)?.asImageBitmap() } }.getOrNull()
+    }
+    if (bmp != null) {
+        Image(bmp, contentDescription = null, contentScale = ContentScale.Fit, modifier = Modifier.fillMaxWidth().height(180.dp))
+    }
+}
+
 @Composable
 private fun QuestionTag(q: Question, s: Session) {
     val (text, color) = when {
@@ -207,6 +228,8 @@ private fun QuestionTag(q: Question, s: Session) {
         q.type == "order" -> "🧩 ORDENA LOS PASOS" to MaterialTheme.colorScheme.tertiary
         q.type == "tf" -> "⚖️ VERDADERO O FALSO" to MaterialTheme.colorScheme.tertiary
         q.sign != null -> "🚦 SEÑAL" to GoGreen
+        q.image?.startsWith("img/senales/") == true -> "🚦 SEÑAL DEL LIBRO" to GoGreen
+        q.image != null -> "🖼️ MIRA LA IMAGEN" to MaterialTheme.colorScheme.tertiary
         s.kind == SessionKind.REVIEW -> "🧠 REPASO" to Color(0xFF7048E8)
         else -> "❓ ELIGE LA RESPUESTA" to MaterialTheme.colorScheme.tertiary
     }

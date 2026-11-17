@@ -17,6 +17,7 @@ norm = lambda s: re.sub(r"\s+", " ", s).strip()
 libro = norm(open(os.path.join(ROOT, "tools/cobertura/libro.txt"), encoding="utf-8").read())
 content = json.load(open(os.path.join(ROOT, "app/src/main/assets/content.json"), encoding="utf-8"))
 preguntas = {q["id"]: q for q in content["questions"]}
+senales = {(s["img"], s["label"]) for s in json.load(open(os.path.join(ROOT, "tools/cobertura/senales.json"), encoding="utf-8"))}
 
 errores = []
 usadas_total, unidades_total = set(), set()
@@ -26,7 +27,12 @@ for path in sorted(glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-
     sesiones = {s["id"]: s["titulo"] for s in cap["sesiones"]}
     usadas = set()
     for d in cap["datos"]:
-        if norm(d["cita"]) not in libro:
+        if "img" in d:  # dato visual: imagen recortada del libro + nombre impreso bajo ella
+            if not os.path.exists(os.path.join(ROOT, "app/src/main/assets", d["img"])):
+                errores.append(f"{d['id']}: falta la imagen {d['img']}")
+            if (d["img"], d["etiqueta"]) not in senales:
+                errores.append(f"{d['id']}: la etiqueta no coincide con la extraída del libro")
+        elif norm(d["cita"]) not in libro:
             errores.append(f"{d['id']}: la cita no aparece textual en el libro")
         if not d["q"]:
             errores.append(f"{d['id']}: sin pregunta")

@@ -35,6 +35,7 @@ data class Scene(val v: String, val h: String, val t: String)
  *  - tf: verdadero/falso, usa [answer].
  *  - order: ordenar [items] (vienen en el orden correcto).
  *  - match: unir parejas [pairs].
+ *  - img: opción múltiple con una imagen del libro en [image] (ruta dentro de assets).
  */
 @Serializable
 data class Question(
@@ -50,8 +51,10 @@ data class Question(
     val explain: String,
     val page: Int,
     val sign: String? = null,
+    /** Imagen tomada del libro (p. ej. "img/senales/s000.webp"), dentro de assets. */
+    val image: String? = null,
 ) {
-    val isChoice get() = type == "mc" || type == "sign"
+    val isChoice get() = type == "mc" || type == "sign" || type == "img"
 
     fun correctAnswerText(): String = when (type) {
         "tf" -> if (answer == true) "Verdadero" else "Falso"

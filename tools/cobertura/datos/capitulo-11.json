@@ -1,0 +1,2018 @@
+{
+ "capitulo": 11,
+ "titulo": "Anexo 1: Señales de tránsito verticales (imágenes)",
+ "unidades": [],
+ "paginas": [
+  150,
+  160
+ ],
+ "sesiones": [
+  {
+   "id": "a1s1",
+   "titulo": "Señales reglamentarias"
+  },
+  {
+   "id": "a1s2",
+   "titulo": "Señales de advertencia de peligro"
+  },
+  {
+   "id": "a1s3",
+   "titulo": "Señales informativas"
+  },
+  {
+   "id": "a1s4",
+   "titulo": "Señales transitorias"
+  }
+ ],
+ "datos": [
+  {
+   "id": "a1-000",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s000",
+    "u7-st000"
+   ],
+   "img": "img/senales/s000.webp",
+   "etiqueta": "PARE"
+  },
+  {
+   "id": "a1-001",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s001"
+   ],
+   "img": "img/senales/s001.webp",
+   "etiqueta": "CEDA EL PASO"
+  },
+  {
+   "id": "a1-002",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s002"
+   ],
+   "img": "img/senales/s002.webp",
+   "etiqueta": "PARE NIÑOS"
+  },
+  {
+   "id": "a1-003",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s003"
+   ],
+   "img": "img/senales/s003.webp",
+   "etiqueta": "NO ENTRAR"
+  },
+  {
+   "id": "a1-004",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s004"
+   ],
+   "img": "img/senales/s004.webp",
+   "etiqueta": "NO VIRAR IZQUIERDA"
+  },
+  {
+   "id": "a1-005",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s005"
+   ],
+   "img": "img/senales/s005.webp",
+   "etiqueta": "NO VIRAR DERECHA"
+  },
+  {
+   "id": "a1-006",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s006"
+   ],
+   "img": "img/senales/s006.webp",
+   "etiqueta": "NO VIRAR EN U"
+  },
+  {
+   "id": "a1-007",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s007",
+    "u7-st007"
+   ],
+   "img": "img/senales/s007.webp",
+   "etiqueta": "NO ADELANTAR"
+  },
+  {
+   "id": "a1-008",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s008"
+   ],
+   "img": "img/senales/s008.webp",
+   "etiqueta": "NO CAMBIAR DE PISTA"
+  },
+  {
+   "id": "a1-009",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s009"
+   ],
+   "img": "img/senales/s009.webp",
+   "etiqueta": "PREFERENCIA CICLISTAS AL VIRAR DERECHA"
+  },
+  {
+   "id": "a1-010",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s010"
+   ],
+   "img": "img/senales/s010.webp",
+   "etiqueta": "PREFERENCIA CICLISTAS AL VIRAR IZQUIERDA"
+  },
+  {
+   "id": "a1-011",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s011"
+   ],
+   "img": "img/senales/s011.webp",
+   "etiqueta": "PREFERENCIA CICLISTAS AL CAMBIAR DE PISTA"
+  },
+  {
+   "id": "a1-012",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s012"
+   ],
+   "img": "img/senales/s012.webp",
+   "etiqueta": "PREFERENCIA CICLISTAS AL CAMBIAR DE PISTA"
+  },
+  {
+   "id": "a1-013",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s013"
+   ],
+   "img": "img/senales/s013.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE VEHÍCULOS DE CARGA"
+  },
+  {
+   "id": "a1-014",
+   "p": 150,
+   "s": "a1s1",
+   "q": [
+    "u7-s014",
+    "u7-st014"
+   ],
+   "img": "img/senales/s014.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE VEHÍCULOS MOTORIZADOS"
+  },
+  {
+   "id": "a1-015",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s015"
+   ],
+   "img": "img/senales/s015.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE CARROS DE MANO"
+  },
+  {
+   "id": "a1-016",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s016"
+   ],
+   "img": "img/senales/s016.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE BUSES"
+  },
+  {
+   "id": "a1-017",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s017"
+   ],
+   "img": "img/senales/s017.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE BICICLETAS"
+  },
+  {
+   "id": "a1-018",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s018"
+   ],
+   "img": "img/senales/s018.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE MOTOCICLETAS"
+  },
+  {
+   "id": "a1-019",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s019"
+   ],
+   "img": "img/senales/s019.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE MAQUINARIA AGRÍCOLA"
+  },
+  {
+   "id": "a1-020",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s020"
+   ],
+   "img": "img/senales/s020.webp",
+   "etiqueta": "PROHIBIDA CIRCULACIÓN DE VEHÍCULOS DE TRACCIÓN ANIMAL"
+  },
+  {
+   "id": "a1-021",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s021",
+    "u7-st021"
+   ],
+   "img": "img/senales/s021.webp",
+   "etiqueta": "SILENCIO"
+  },
+  {
+   "id": "a1-022",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s022"
+   ],
+   "img": "img/senales/s022.webp",
+   "etiqueta": "NO BLOQUEAR CRUCE"
+  },
+  {
+   "id": "a1-023",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s023"
+   ],
+   "img": "img/senales/s023.webp",
+   "etiqueta": "PROHIBIDO ESTACIONAR Y DETENERSE"
+  },
+  {
+   "id": "a1-024",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s024"
+   ],
+   "img": "img/senales/s024.webp",
+   "etiqueta": "PROHIBIDO ESTACIONAR"
+  },
+  {
+   "id": "a1-025",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s025"
+   ],
+   "img": "img/senales/s025.webp",
+   "etiqueta": "PROHIBIDO ESTACIONAR"
+  },
+  {
+   "id": "a1-026",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s026"
+   ],
+   "img": "img/senales/s026.webp",
+   "etiqueta": "NO PEATONES"
+  },
+  {
+   "id": "a1-027",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s027"
+   ],
+   "img": "img/senales/s027.webp",
+   "etiqueta": "VELOCIDAD MÁXIMA"
+  },
+  {
+   "id": "a1-028",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s028",
+    "u7-st028"
+   ],
+   "img": "img/senales/s028.webp",
+   "etiqueta": "VELOCIDAD MÍNIMA"
+  },
+  {
+   "id": "a1-029",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s029"
+   ],
+   "img": "img/senales/s029.webp",
+   "etiqueta": "VELOCIDAD MÁXIMA ZONA 30"
+  },
+  {
+   "id": "a1-030",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s030"
+   ],
+   "img": "img/senales/s030.webp",
+   "etiqueta": "LARGO MÁXIMO"
+  },
+  {
+   "id": "a1-031",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s031"
+   ],
+   "img": "img/senales/s031.webp",
+   "etiqueta": "PESO MÁXIMO PERMITIDO"
+  },
+  {
+   "id": "a1-032",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s032"
+   ],
+   "img": "img/senales/s032.webp",
+   "etiqueta": "PESO MÁXIMO POR EJE"
+  },
+  {
+   "id": "a1-033",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s033"
+   ],
+   "img": "img/senales/s033.webp",
+   "etiqueta": "ALTURA MÁXIMA"
+  },
+  {
+   "id": "a1-034",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s034"
+   ],
+   "img": "img/senales/s034.webp",
+   "etiqueta": "ANCHO MÁXIMO"
+  },
+  {
+   "id": "a1-035",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s035",
+    "u7-st035"
+   ],
+   "img": "img/senales/s035.webp",
+   "etiqueta": "FIN PROHIBICIÓN O RESTRICCIÓN"
+  },
+  {
+   "id": "a1-036",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s036"
+   ],
+   "img": "img/senales/s036.webp",
+   "etiqueta": "SOLO TELEVÍA O SISTEMA COMPLEMENTARIO"
+  },
+  {
+   "id": "a1-037",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s037"
+   ],
+   "img": "img/senales/s037.webp",
+   "etiqueta": "TRÁNSITO EN UN SOLO SENTIDO"
+  },
+  {
+   "id": "a1-038",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s038"
+   ],
+   "img": "img/senales/s038.webp",
+   "etiqueta": "TRÁNSITO EN AMBOS SENTIDOS"
+  },
+  {
+   "id": "a1-039",
+   "p": 151,
+   "s": "a1s1",
+   "q": [
+    "u7-s039"
+   ],
+   "img": "img/senales/s039.webp",
+   "etiqueta": "TRÁNSITO PEATONAL"
+  },
+  {
+   "id": "a1-040",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s040"
+   ],
+   "img": "img/senales/s040.webp",
+   "etiqueta": "TRÁNSITO DE PEATONES"
+  },
+  {
+   "id": "a1-041",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s041"
+   ],
+   "img": "img/senales/s041.webp",
+   "etiqueta": "MANTENGA SU DERECHA"
+  },
+  {
+   "id": "a1-042",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s042",
+    "u7-st042"
+   ],
+   "img": "img/senales/s042.webp",
+   "etiqueta": "VEHÍCULO PESADO MANTENGA SU DERECHA"
+  },
+  {
+   "id": "a1-043",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s043"
+   ],
+   "img": "img/senales/s043.webp",
+   "etiqueta": "DIRECCIÓN OBLIGADA"
+  },
+  {
+   "id": "a1-044",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s044"
+   ],
+   "img": "img/senales/s044.webp",
+   "etiqueta": "PREFERENCIA AL SENTIDO CONTRARIO"
+  },
+  {
+   "id": "a1-045",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s045"
+   ],
+   "img": "img/senales/s045.webp",
+   "etiqueta": "CIRCULACIÓN EN AMBOS SENTIDOS"
+  },
+  {
+   "id": "a1-046",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s046"
+   ],
+   "img": "img/senales/s046.webp",
+   "etiqueta": "MINIRROTONDA"
+  },
+  {
+   "id": "a1-047",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s047"
+   ],
+   "img": "img/senales/s047.webp",
+   "etiqueta": "PASO OBLIGADO DERECHA"
+  },
+  {
+   "id": "a1-048",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s048"
+   ],
+   "img": "img/senales/s048.webp",
+   "etiqueta": "PASO OBLIGADO IZQUIERDA"
+  },
+  {
+   "id": "a1-049",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s049",
+    "u7-st049"
+   ],
+   "img": "img/senales/s049.webp",
+   "etiqueta": "PASO VÉRTICE"
+  },
+  {
+   "id": "a1-050",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s050"
+   ],
+   "img": "img/senales/s050.webp",
+   "etiqueta": "CONTROL"
+  },
+  {
+   "id": "a1-051",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s051"
+   ],
+   "img": "img/senales/s051.webp",
+   "etiqueta": "USO OBLIGATORIO DE CADENAS"
+  },
+  {
+   "id": "a1-052",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s052"
+   ],
+   "img": "img/senales/s052.webp",
+   "etiqueta": "LUCES ENCENDIDAS"
+  },
+  {
+   "id": "a1-053",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s053"
+   ],
+   "img": "img/senales/s053.webp",
+   "etiqueta": "SOLO MOTOCICLETAS"
+  },
+  {
+   "id": "a1-054",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s054"
+   ],
+   "img": "img/senales/s054.webp",
+   "etiqueta": "VÍA SEGREGADA BUSES"
+  },
+  {
+   "id": "a1-055",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s055"
+   ],
+   "img": "img/senales/s055.webp",
+   "etiqueta": "VÍA SEGREGADA BUSES"
+  },
+  {
+   "id": "a1-056",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s056",
+    "u7-st056"
+   ],
+   "img": "img/senales/s056.webp",
+   "etiqueta": "SOLO TRANSPORTE PÚBLICO"
+  },
+  {
+   "id": "a1-057",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s057"
+   ],
+   "img": "img/senales/s057.webp",
+   "etiqueta": "SUPERFICIE SEGREGADA MOTORIZADOS - CICLOS"
+  },
+  {
+   "id": "a1-058",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s058"
+   ],
+   "img": "img/senales/s058.webp",
+   "etiqueta": "SUPERFICIE SEGREGADA PEATONES-CICLOS"
+  },
+  {
+   "id": "a1-059",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s059"
+   ],
+   "img": "img/senales/s059.webp",
+   "etiqueta": "ESTACIONAMIENTO RESERVADO"
+  },
+  {
+   "id": "a1-060",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s060"
+   ],
+   "img": "img/senales/s060.webp",
+   "etiqueta": "PERMITIDO VIRAR DERECHA CON LUZ ROJA"
+  },
+  {
+   "id": "a1-061",
+   "p": 152,
+   "s": "a1s1",
+   "q": [
+    "u7-s061"
+   ],
+   "img": "img/senales/s061.webp",
+   "etiqueta": "PERMITIDO VIRAR IZQUIERDA CON LUZ ROJA"
+  },
+  {
+   "id": "a1-062",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s062"
+   ],
+   "img": "img/senales/s062.webp",
+   "etiqueta": "CURVA A LA DERECHA"
+  },
+  {
+   "id": "a1-063",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s063",
+    "u7-st063"
+   ],
+   "img": "img/senales/s063.webp",
+   "etiqueta": "CURVA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-064",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s064"
+   ],
+   "img": "img/senales/s064.webp",
+   "etiqueta": "CURVA CERRADA A LA DERECHA"
+  },
+  {
+   "id": "a1-065",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s065"
+   ],
+   "img": "img/senales/s065.webp",
+   "etiqueta": "CURVA CERRADA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-066",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s066"
+   ],
+   "img": "img/senales/s066.webp",
+   "etiqueta": "ZONA DE CURVAS A LA DERECHA"
+  },
+  {
+   "id": "a1-067",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s067"
+   ],
+   "img": "img/senales/s067.webp",
+   "etiqueta": "ZONA DE CURVAS A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-068",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s068"
+   ],
+   "img": "img/senales/s068.webp",
+   "etiqueta": "CURVA Y CONTRACURVA A LA DERECHA"
+  },
+  {
+   "id": "a1-069",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s069"
+   ],
+   "img": "img/senales/s069.webp",
+   "etiqueta": "CURVA Y CONTRACURVA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-070",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s070",
+    "u7-st070"
+   ],
+   "img": "img/senales/s070.webp",
+   "etiqueta": "CURVA Y CONTRACURVA CERRADA A LA DERECHA"
+  },
+  {
+   "id": "a1-071",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s071"
+   ],
+   "img": "img/senales/s071.webp",
+   "etiqueta": "CURVA Y CONTRACURVA CERRADA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-072",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s072"
+   ],
+   "img": "img/senales/s072.webp",
+   "etiqueta": "CURVA MUY CERRADA A LA DERECHA"
+  },
+  {
+   "id": "a1-073",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s073"
+   ],
+   "img": "img/senales/s073.webp",
+   "etiqueta": "CURVA MUY CERRADA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-074",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s074"
+   ],
+   "img": "img/senales/s074.webp",
+   "etiqueta": "PENDIENTE FUERTE EN BAJADA"
+  },
+  {
+   "id": "a1-075",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s075"
+   ],
+   "img": "img/senales/s075.webp",
+   "etiqueta": "PENDIENTE FUERTE EN BAJADA"
+  },
+  {
+   "id": "a1-076",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s076"
+   ],
+   "img": "img/senales/s076.webp",
+   "etiqueta": "PROXIMIDAD DE TÚNEL"
+  },
+  {
+   "id": "a1-077",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s077",
+    "u7-st077"
+   ],
+   "img": "img/senales/s077.webp",
+   "etiqueta": "PENDIENTE FUERTE EN SUBIDA"
+  },
+  {
+   "id": "a1-078",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s078"
+   ],
+   "img": "img/senales/s078.webp",
+   "etiqueta": "PENDIENTE FUERTE EN SUBIDA"
+  },
+  {
+   "id": "a1-079",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s079"
+   ],
+   "img": "img/senales/s079.webp",
+   "etiqueta": "RIBERA SIN PROTECCIÓN"
+  },
+  {
+   "id": "a1-080",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s080"
+   ],
+   "img": "img/senales/s080.webp",
+   "etiqueta": "AEROPUERTO O AERÓDROMO"
+  },
+  {
+   "id": "a1-081",
+   "p": 153,
+   "s": "a1s2",
+   "q": [
+    "u7-s081"
+   ],
+   "img": "img/senales/s081.webp",
+   "etiqueta": "VIENTO LATERAL"
+  },
+  {
+   "id": "a1-082",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s082"
+   ],
+   "img": "img/senales/s082.webp",
+   "etiqueta": "ANGOSTAMIENTO A AMBOS LADOS"
+  },
+  {
+   "id": "a1-083",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s083"
+   ],
+   "img": "img/senales/s083.webp",
+   "etiqueta": "ANGOSTAMIENTO A LA DERECHA"
+  },
+  {
+   "id": "a1-084",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s084",
+    "u7-st084"
+   ],
+   "img": "img/senales/s084.webp",
+   "etiqueta": "ANGOSTAMIENTO A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-085",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s085"
+   ],
+   "img": "img/senales/s085.webp",
+   "etiqueta": "PUENTE ANGOSTO"
+  },
+  {
+   "id": "a1-086",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s086"
+   ],
+   "img": "img/senales/s086.webp",
+   "etiqueta": "ENSANCHAMIENTO A AMBOS LADOS"
+  },
+  {
+   "id": "a1-087",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s087"
+   ],
+   "img": "img/senales/s087.webp",
+   "etiqueta": "ENSANCHAMIENTO A LA DERECHA"
+  },
+  {
+   "id": "a1-088",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s088"
+   ],
+   "img": "img/senales/s088.webp",
+   "etiqueta": "ENSANCHAMIENTO A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-089",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s089"
+   ],
+   "img": "img/senales/s089.webp",
+   "etiqueta": "PESO MÁXIMO"
+  },
+  {
+   "id": "a1-090",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s090"
+   ],
+   "img": "img/senales/s090.webp",
+   "etiqueta": "ALTURA MÁXIMA"
+  },
+  {
+   "id": "a1-091",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s091",
+    "u7-st091"
+   ],
+   "img": "img/senales/s091.webp",
+   "etiqueta": "ANCHO MÁXIMO"
+  },
+  {
+   "id": "a1-092",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s092"
+   ],
+   "img": "img/senales/s092.webp",
+   "etiqueta": "LARGO MÁXIMO"
+  },
+  {
+   "id": "a1-093",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s093"
+   ],
+   "img": "img/senales/s093.webp",
+   "etiqueta": "INICIO DE MEDIANA"
+  },
+  {
+   "id": "a1-094",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s094"
+   ],
+   "img": "img/senales/s094.webp",
+   "etiqueta": "PROXIMIDAD DE CABLES DE ALTA TENSIÓN"
+  },
+  {
+   "id": "a1-095",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s095"
+   ],
+   "img": "img/senales/s095.webp",
+   "etiqueta": "RESALTO"
+  },
+  {
+   "id": "a1-096",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s096"
+   ],
+   "img": "img/senales/s096.webp",
+   "etiqueta": "UBICACIÓN RESALTO"
+  },
+  {
+   "id": "a1-097",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s097"
+   ],
+   "img": "img/senales/s097.webp",
+   "etiqueta": "RESALTOS SUCESIVOS"
+  },
+  {
+   "id": "a1-098",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s098",
+    "u7-st098"
+   ],
+   "img": "img/senales/s098.webp",
+   "etiqueta": "BADÉN"
+  },
+  {
+   "id": "a1-099",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s099"
+   ],
+   "img": "img/senales/s099.webp",
+   "etiqueta": "PROYECCIÓN DE GRAVILLA"
+  },
+  {
+   "id": "a1-100",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s100"
+   ],
+   "img": "img/senales/s100.webp",
+   "etiqueta": "ZONA DE AVALANCHA"
+  },
+  {
+   "id": "a1-101",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s101"
+   ],
+   "img": "img/senales/s101.webp",
+   "etiqueta": "PELIGRO"
+  },
+  {
+   "id": "a1-102",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s102"
+   ],
+   "img": "img/senales/s102.webp",
+   "etiqueta": "BARRERAS"
+  },
+  {
+   "id": "a1-103",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s103"
+   ],
+   "img": "img/senales/s103.webp",
+   "etiqueta": "SEÑAL FIN MEDIANA"
+  },
+  {
+   "id": "a1-104",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s104"
+   ],
+   "img": "img/senales/s104.webp",
+   "etiqueta": "CRUCE FERROVIARIO A NIVEL SIN BARRERAS"
+  },
+  {
+   "id": "a1-105",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s105",
+    "u7-st105"
+   ],
+   "img": "img/senales/s105.webp",
+   "etiqueta": "CRUCE FERROVIARIO A NIVEL CON BARRERAS"
+  },
+  {
+   "id": "a1-106",
+   "p": 154,
+   "s": "a1s2",
+   "q": [
+    "u7-s106"
+   ],
+   "img": "img/senales/s106.webp",
+   "etiqueta": "CRUZ DE SAN ANDRÉS"
+  },
+  {
+   "id": "a1-107",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s107"
+   ],
+   "img": "img/senales/s107.webp",
+   "etiqueta": "PROXIMIDAD ROTONDA"
+  },
+  {
+   "id": "a1-108",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s108"
+   ],
+   "img": "img/senales/s108.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-109",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s109"
+   ],
+   "img": "img/senales/s109.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-110",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s110"
+   ],
+   "img": "img/senales/s110.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-111",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s111"
+   ],
+   "img": "img/senales/s111.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-112",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s112",
+    "u7-st112"
+   ],
+   "img": "img/senales/s112.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-113",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s113"
+   ],
+   "img": "img/senales/s113.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-114",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s114"
+   ],
+   "img": "img/senales/s114.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-115",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s115"
+   ],
+   "img": "img/senales/s115.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-116",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s116"
+   ],
+   "img": "img/senales/s116.webp",
+   "etiqueta": "CRUCES BIFURCACIONES Y CONVERGENCIAS"
+  },
+  {
+   "id": "a1-117",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s117"
+   ],
+   "img": "img/senales/s117.webp",
+   "etiqueta": "DOS SENTIDOS DE TRÁNSITO"
+  },
+  {
+   "id": "a1-118",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s118"
+   ],
+   "img": "img/senales/s118.webp",
+   "etiqueta": "CICLISTAS EN LA VÍA"
+  },
+  {
+   "id": "a1-119",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s119",
+    "u7-st119"
+   ],
+   "img": "img/senales/s119.webp",
+   "etiqueta": "MAQUINARIA AGRÍCOLA"
+  },
+  {
+   "id": "a1-120",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s120"
+   ],
+   "img": "img/senales/s120.webp",
+   "etiqueta": "CARRETELAS EN LA VÍA"
+  },
+  {
+   "id": "a1-121",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s121"
+   ],
+   "img": "img/senales/s121.webp",
+   "etiqueta": "ANIMALES EN LA VÍA"
+  },
+  {
+   "id": "a1-122",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s122"
+   ],
+   "img": "img/senales/s122.webp",
+   "etiqueta": "ANIMALES EN LA VÍA"
+  },
+  {
+   "id": "a1-123",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s123"
+   ],
+   "img": "img/senales/s123.webp",
+   "etiqueta": "ZONA DE PEATONES"
+  },
+  {
+   "id": "a1-124",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s124"
+   ],
+   "img": "img/senales/s124.webp",
+   "etiqueta": "PROXIMIDAD DE PASO DE CEBRA"
+  },
+  {
+   "id": "a1-125",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s125"
+   ],
+   "img": "img/senales/s125.webp",
+   "etiqueta": "ZONA DE ESCUELA"
+  },
+  {
+   "id": "a1-126",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s126",
+    "u7-st126"
+   ],
+   "img": "img/senales/s126.webp",
+   "etiqueta": "NIÑOS JUGANDO"
+  },
+  {
+   "id": "a1-127",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s127"
+   ],
+   "img": "img/senales/s127.webp",
+   "etiqueta": "PROXIMIDAD DE SEMÁFORO"
+  },
+  {
+   "id": "a1-128",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s128"
+   ],
+   "img": "img/senales/s128.webp",
+   "etiqueta": "PROXIMIDAD DE SEÑAL “CEDA EL PASO”"
+  },
+  {
+   "id": "a1-129",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s129"
+   ],
+   "img": "img/senales/s129.webp",
+   "etiqueta": "PROXIMIDAD DE SEÑAL “PARE”"
+  },
+  {
+   "id": "a1-130",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s130"
+   ],
+   "img": "img/senales/s130.webp",
+   "etiqueta": "CRUCE CICLISTA"
+  },
+  {
+   "id": "a1-131",
+   "p": 155,
+   "s": "a1s2",
+   "q": [
+    "u7-s131"
+   ],
+   "img": "img/senales/s131.webp",
+   "etiqueta": "SALIDA CARRO BOMBEROS"
+  },
+  {
+   "id": "a1-132",
+   "p": 156,
+   "s": "a1s2",
+   "q": [
+    "u7-s132"
+   ],
+   "img": "img/senales/s132.webp",
+   "etiqueta": "ZONA DE DERRUMBES"
+  },
+  {
+   "id": "a1-133",
+   "p": 156,
+   "s": "a1s2",
+   "q": [
+    "u7-s133",
+    "u7-st133"
+   ],
+   "img": "img/senales/s133.webp",
+   "etiqueta": "PAVIMENTO RESBALADIZO"
+  },
+  {
+   "id": "a1-134",
+   "p": 156,
+   "s": "a1s2",
+   "q": [
+    "u7-s134"
+   ],
+   "img": "img/senales/s134.webp",
+   "etiqueta": "DESNIVEL SEVERO"
+  },
+  {
+   "id": "a1-135",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s135"
+   ],
+   "img": "img/senales/s135.webp",
+   "etiqueta": "RUTA ALTERNATIVA"
+  },
+  {
+   "id": "a1-136",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s136"
+   ],
+   "img": "img/senales/s136.webp",
+   "etiqueta": "SALIDA INMEDIATA"
+  },
+  {
+   "id": "a1-137",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s137"
+   ],
+   "img": "img/senales/s137.webp",
+   "etiqueta": "BALIZAS DE ACERCAMIENTO"
+  },
+  {
+   "id": "a1-138",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s138"
+   ],
+   "img": "img/senales/s138.webp",
+   "etiqueta": "NOMBRE Y NUMERACIÓN DE CALLE"
+  },
+  {
+   "id": "a1-139",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s139"
+   ],
+   "img": "img/senales/s139.webp",
+   "etiqueta": "DE CONFIRMACIÓN"
+  },
+  {
+   "id": "a1-140",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s140",
+    "u7-st140"
+   ],
+   "img": "img/senales/s140.webp",
+   "etiqueta": "DE DIRECCIÓN"
+  },
+  {
+   "id": "a1-141",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s141"
+   ],
+   "img": "img/senales/s141.webp",
+   "etiqueta": "DE LOCALIZACIÓN"
+  },
+  {
+   "id": "a1-142",
+   "p": 156,
+   "s": "a1s3",
+   "q": [
+    "u7-s142"
+   ],
+   "img": "img/senales/s142.webp",
+   "etiqueta": "ESCUDO NUMERACIÓN DE CAMINOS"
+  },
+  {
+   "id": "a1-143",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s143"
+   ],
+   "img": "img/senales/s143.webp",
+   "etiqueta": "AEROPUERTO"
+  },
+  {
+   "id": "a1-144",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s144"
+   ],
+   "img": "img/senales/s144.webp",
+   "etiqueta": "ALIMENTACIÓN RESTAURANT"
+  },
+  {
+   "id": "a1-145",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s145"
+   ],
+   "img": "img/senales/s145.webp",
+   "etiqueta": "ALOJAMIENTO"
+  },
+  {
+   "id": "a1-146",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s146"
+   ],
+   "img": "img/senales/s146.webp",
+   "etiqueta": "TELÉFONO PÚBLICO"
+  },
+  {
+   "id": "a1-147",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s147",
+    "u7-st147"
+   ],
+   "img": "img/senales/s147.webp",
+   "etiqueta": "PRIMEROS AUXILIOS HOSPITAL"
+  },
+  {
+   "id": "a1-148",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s148"
+   ],
+   "img": "img/senales/s148.webp",
+   "etiqueta": "SERVICIOS HIGIÉNICOS"
+  },
+  {
+   "id": "a1-149",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s149"
+   ],
+   "img": "img/senales/s149.webp",
+   "etiqueta": "ACANTILADO"
+  },
+  {
+   "id": "a1-150",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s150"
+   ],
+   "img": "img/senales/s150.webp",
+   "etiqueta": "CASINO"
+  },
+  {
+   "id": "a1-151",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s151"
+   ],
+   "img": "img/senales/s151.webp",
+   "etiqueta": "CABALGATA"
+  },
+  {
+   "id": "a1-152",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s152"
+   ],
+   "img": "img/senales/s152.webp",
+   "etiqueta": "ARTESANÍA"
+  },
+  {
+   "id": "a1-153",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s153"
+   ],
+   "img": "img/senales/s153.webp",
+   "etiqueta": "BUCEO"
+  },
+  {
+   "id": "a1-154",
+   "p": 157,
+   "s": "a1s3",
+   "q": [
+    "u7-s154",
+    "u7-st154"
+   ],
+   "img": "img/senales/s154.webp",
+   "etiqueta": "CANOPY/TIROLESA"
+  },
+  {
+   "id": "a1-155",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s155"
+   ],
+   "img": "img/senales/s155.webp",
+   "etiqueta": "SALIDA LATERAL DERECHA"
+  },
+  {
+   "id": "a1-156",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s156"
+   ],
+   "img": "img/senales/s156.webp",
+   "etiqueta": "INICIO DE AUTOPISTA"
+  },
+  {
+   "id": "a1-157",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s157"
+   ],
+   "img": "img/senales/s157.webp",
+   "etiqueta": "FIN DE AUTOPISTA"
+  },
+  {
+   "id": "a1-158",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s158"
+   ],
+   "img": "img/senales/s158.webp",
+   "etiqueta": "RETORNO EN AUTOPISTA"
+  },
+  {
+   "id": "a1-159",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s159"
+   ],
+   "img": "img/senales/s159.webp",
+   "etiqueta": "TELÉFONO DE EMERGENCIA"
+  },
+  {
+   "id": "a1-160",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s160"
+   ],
+   "img": "img/senales/s160.webp",
+   "etiqueta": "AUTOPISTA CON TELEVÍA O SISTEMA COMPLEMENTARIO"
+  },
+  {
+   "id": "a1-161",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s161",
+    "u7-st161"
+   ],
+   "img": "img/senales/s161.webp",
+   "etiqueta": "ESTACIONAMIENTO PERMITIDO"
+  },
+  {
+   "id": "a1-162",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s162"
+   ],
+   "img": "img/senales/s162.webp",
+   "etiqueta": "PLAZA DE PEAJE"
+  },
+  {
+   "id": "a1-163",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s163"
+   ],
+   "img": "img/senales/s163.webp",
+   "etiqueta": "PARADA MIXTA"
+  },
+  {
+   "id": "a1-164",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s164"
+   ],
+   "img": "img/senales/s164.webp",
+   "etiqueta": "PISTA SOLO BUSES"
+  },
+  {
+   "id": "a1-165",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s165"
+   ],
+   "img": "img/senales/s165.webp",
+   "etiqueta": "CONTROL FOTOGRÁFICO"
+  },
+  {
+   "id": "a1-166",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s166"
+   ],
+   "img": "img/senales/s166.webp",
+   "etiqueta": "CONTROL CON CÁMARA"
+  },
+  {
+   "id": "a1-167",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s167"
+   ],
+   "img": "img/senales/s167.webp",
+   "etiqueta": "ZONA ESPERA ESPECIAL CICLOS"
+  },
+  {
+   "id": "a1-168",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s168",
+    "u7-st168"
+   ],
+   "img": "img/senales/s168.webp",
+   "etiqueta": "ZONA ESPERA ESPECIAL CICLOS"
+  },
+  {
+   "id": "a1-169",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s169"
+   ],
+   "img": "img/senales/s169.webp",
+   "etiqueta": "ZONA DE ESPERA ADELANTADA MOTOS"
+  },
+  {
+   "id": "a1-170",
+   "p": 158,
+   "s": "a1s3",
+   "q": [
+    "u7-s170"
+   ],
+   "img": "img/senales/s170.webp",
+   "etiqueta": "ZONA DE ESPERA ADELANTADA MOTOS"
+  },
+  {
+   "id": "a1-171",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s171"
+   ],
+   "img": "img/senales/s171.webp",
+   "etiqueta": "ZONA 30"
+  },
+  {
+   "id": "a1-172",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s172"
+   ],
+   "img": "img/senales/s172.webp",
+   "etiqueta": "FIN ZONA 30"
+  },
+  {
+   "id": "a1-173",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s173"
+   ],
+   "img": "img/senales/s173.webp",
+   "etiqueta": "SOLO BICICLETAS"
+  },
+  {
+   "id": "a1-174",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s174"
+   ],
+   "img": "img/senales/s174.webp",
+   "etiqueta": "INICIO CICLOBANDA"
+  },
+  {
+   "id": "a1-175",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s175",
+    "u7-st175"
+   ],
+   "img": "img/senales/s175.webp",
+   "etiqueta": "FIN CICLOBANDA"
+  },
+  {
+   "id": "a1-176",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s176"
+   ],
+   "img": "img/senales/s176.webp",
+   "etiqueta": "FIN CICLOVÍA"
+  },
+  {
+   "id": "a1-177",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s177"
+   ],
+   "img": "img/senales/s177.webp",
+   "etiqueta": "CICLOCALLE"
+  },
+  {
+   "id": "a1-178",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s178"
+   ],
+   "img": "img/senales/s178.webp",
+   "etiqueta": "SUPERFICIE SEGREGADA MOTORIZADOS-CICLOS"
+  },
+  {
+   "id": "a1-179",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s179"
+   ],
+   "img": "img/senales/s179.webp",
+   "etiqueta": "SUPERFICIE SEGREGADA MOTORIZADOS-CICLOS"
+  },
+  {
+   "id": "a1-180",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s180"
+   ],
+   "img": "img/senales/s180.webp",
+   "etiqueta": "ZONA ESPERA ESPECIAL CICLOS"
+  },
+  {
+   "id": "a1-181",
+   "p": 159,
+   "s": "a1s3",
+   "q": [
+    "u7-s181"
+   ],
+   "img": "img/senales/s181.webp",
+   "etiqueta": "ZONA ESPERA ESPECIAL CICLOS"
+  },
+  {
+   "id": "a1-182",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s182",
+    "u7-st182"
+   ],
+   "img": "img/senales/s182.webp",
+   "etiqueta": "TRABAJOS EN LA VÍA"
+  },
+  {
+   "id": "a1-183",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s183"
+   ],
+   "img": "img/senales/s183.webp",
+   "etiqueta": "FIN TRABAJOS EN LA VÍA"
+  },
+  {
+   "id": "a1-184",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s184"
+   ],
+   "img": "img/senales/s184.webp",
+   "etiqueta": "BANDERERO"
+  },
+  {
+   "id": "a1-185",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s185"
+   ],
+   "img": "img/senales/s185.webp",
+   "etiqueta": "TRÁNSITO DE MAQUINARIA"
+  },
+  {
+   "id": "a1-186",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s186"
+   ],
+   "img": "img/senales/s186.webp",
+   "etiqueta": "CURVA A LA DERECHA"
+  },
+  {
+   "id": "a1-187",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s187"
+   ],
+   "img": "img/senales/s187.webp",
+   "etiqueta": "CURVA MUY CERRADA A LA IZQUIERDA"
+  },
+  {
+   "id": "a1-188",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s188"
+   ],
+   "img": "img/senales/s188.webp",
+   "etiqueta": "BADÉN"
+  },
+  {
+   "id": "a1-189",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s189",
+    "u7-st189"
+   ],
+   "img": "img/senales/s189.webp",
+   "etiqueta": "ANCHO MÁXIMO"
+  },
+  {
+   "id": "a1-190",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s190"
+   ],
+   "img": "img/senales/s190.webp",
+   "etiqueta": "ZONA DE DERRUMBES"
+  },
+  {
+   "id": "a1-191",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s191"
+   ],
+   "img": "img/senales/s191.webp",
+   "etiqueta": "PROYECCIÓN DE GRAVILLA"
+  },
+  {
+   "id": "a1-192",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s192"
+   ],
+   "img": "img/senales/s192.webp",
+   "etiqueta": "PELIGRO"
+  },
+  {
+   "id": "a1-193",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s193"
+   ],
+   "img": "img/senales/s193.webp",
+   "etiqueta": "DESVÍO"
+  },
+  {
+   "id": "a1-194",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s194"
+   ],
+   "img": "img/senales/s194.webp",
+   "etiqueta": "PROXIMIDAD DE DESVÍO"
+  },
+  {
+   "id": "a1-195",
+   "p": 160,
+   "s": "a1s4",
+   "q": [
+    "u7-s195"
+   ],
+   "img": "img/senales/s195.webp",
+   "etiqueta": "FIN DE DESVÍO"
+  }
+ ],
+ "sin_dato": []
+}

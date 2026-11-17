@@ -12150,6 +12150,3590 @@
    "type": "tf",
    "prompt": "En cada proceso tienes dos oportunidades para el examen teórico.",
    "answer": true
+  },
+  {
+   "id": "u7-s000",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "PARE",
+    "PARE niños",
+    "Control",
+    "Silencio"
+   ],
+   "explain": "Es la señal PARE (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s000.webp"
+  },
+  {
+   "id": "u7-st000",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«PARE» es una señal reglamentaria.",
+   "page": 150,
+   "image": "img/senales/s000.webp"
+  },
+  {
+   "id": "u7-s001",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ceda el paso",
+    "Paso vértice",
+    "Paso obligado derecha",
+    "Paso obligado izquierda"
+   ],
+   "explain": "Es la señal Ceda el paso (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s001.webp"
+  },
+  {
+   "id": "u7-s002",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "PARE niños",
+    "PARE",
+    "No peatones",
+    "No entrar"
+   ],
+   "explain": "Es la señal PARE niños (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s002.webp"
+  },
+  {
+   "id": "u7-s003",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No entrar",
+    "PARE niños",
+    "Silencio",
+    "Control"
+   ],
+   "explain": "Es la señal No entrar (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s003.webp"
+  },
+  {
+   "id": "u7-s004",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No virar izquierda",
+    "Permitido virar izquierda con luz roja",
+    "Preferencia ciclistas al virar izquierda",
+    "No virar derecha"
+   ],
+   "explain": "Es la señal No virar izquierda (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s004.webp"
+  },
+  {
+   "id": "u7-s005",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No virar derecha",
+    "Permitido virar derecha con luz roja",
+    "Preferencia ciclistas al virar derecha",
+    "No virar izquierda"
+   ],
+   "explain": "Es la señal No virar derecha (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s005.webp"
+  },
+  {
+   "id": "u7-s006",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No virar en u",
+    "No virar derecha",
+    "No virar izquierda",
+    "Permitido virar derecha con luz roja"
+   ],
+   "explain": "Es la señal No virar en u (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s006.webp"
+  },
+  {
+   "id": "u7-s007",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No adelantar",
+    "Ceda el paso",
+    "Paso vértice",
+    "Ancho máximo"
+   ],
+   "explain": "Es la señal No adelantar (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s007.webp"
+  },
+  {
+   "id": "u7-st007",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«No adelantar» es una señal reglamentaria.",
+   "page": 150,
+   "image": "img/senales/s007.webp"
+  },
+  {
+   "id": "u7-s008",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No cambiar de pista",
+    "Preferencia ciclistas al cambiar de pista",
+    "Mantenga su derecha",
+    "Peso máximo por eje"
+   ],
+   "explain": "Es la señal No cambiar de pista (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s008.webp"
+  },
+  {
+   "id": "u7-s009",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Preferencia ciclistas al virar derecha",
+    "Preferencia ciclistas al virar izquierda",
+    "Permitido virar derecha con luz roja",
+    "Preferencia ciclistas al cambiar de pista"
+   ],
+   "explain": "Es la señal Preferencia ciclistas al virar derecha (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s009.webp"
+  },
+  {
+   "id": "u7-s010",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Preferencia ciclistas al virar izquierda",
+    "Preferencia ciclistas al virar derecha",
+    "Preferencia ciclistas al cambiar de pista",
+    "Permitido virar izquierda con luz roja"
+   ],
+   "explain": "Es la señal Preferencia ciclistas al virar izquierda (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s010.webp"
+  },
+  {
+   "id": "u7-s011",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Preferencia ciclistas al cambiar de pista",
+    "Preferencia ciclistas al virar izquierda",
+    "Preferencia ciclistas al virar derecha",
+    "No cambiar de pista"
+   ],
+   "explain": "Es la señal Preferencia ciclistas al cambiar de pista (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s011.webp"
+  },
+  {
+   "id": "u7-s012",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Preferencia ciclistas al cambiar de pista",
+    "Preferencia ciclistas al virar izquierda",
+    "Preferencia ciclistas al virar derecha",
+    "No cambiar de pista"
+   ],
+   "explain": "Es la señal Preferencia ciclistas al cambiar de pista (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s012.webp"
+  },
+  {
+   "id": "u7-s013",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de vehículos de carga",
+    "Prohibida circulación de vehículos motorizados",
+    "Prohibida circulación de vehículos de tracción animal",
+    "Prohibida circulación de maquinaria agrícola"
+   ],
+   "explain": "Es la señal Prohibida circulación de vehículos de carga (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s013.webp"
+  },
+  {
+   "id": "u7-s014",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de vehículos motorizados",
+    "Prohibida circulación de vehículos de carga",
+    "Prohibida circulación de vehículos de tracción animal",
+    "Prohibida circulación de maquinaria agrícola"
+   ],
+   "explain": "Es la señal Prohibida circulación de vehículos motorizados (reglamentaria).",
+   "page": 150,
+   "image": "img/senales/s014.webp"
+  },
+  {
+   "id": "u7-st014",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Prohibida circulación de vehículos motorizados» es una señal reglamentaria.",
+   "page": 150,
+   "image": "img/senales/s014.webp"
+  },
+  {
+   "id": "u7-s015",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de carros de mano",
+    "Prohibida circulación de motocicletas",
+    "Prohibida circulación de vehículos de carga",
+    "Prohibida circulación de bicicletas"
+   ],
+   "explain": "Es la señal Prohibida circulación de carros de mano (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s015.webp"
+  },
+  {
+   "id": "u7-s016",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de buses",
+    "Prohibida circulación de bicicletas",
+    "Prohibida circulación de motocicletas",
+    "Prohibida circulación de carros de mano"
+   ],
+   "explain": "Es la señal Prohibida circulación de buses (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s016.webp"
+  },
+  {
+   "id": "u7-s017",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de bicicletas",
+    "Prohibida circulación de motocicletas",
+    "Prohibida circulación de carros de mano",
+    "Prohibida circulación de buses"
+   ],
+   "explain": "Es la señal Prohibida circulación de bicicletas (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s017.webp"
+  },
+  {
+   "id": "u7-s018",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de motocicletas",
+    "Prohibida circulación de bicicletas",
+    "Prohibida circulación de carros de mano",
+    "Prohibida circulación de vehículos de carga"
+   ],
+   "explain": "Es la señal Prohibida circulación de motocicletas (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s018.webp"
+  },
+  {
+   "id": "u7-s019",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de maquinaria agrícola",
+    "Prohibida circulación de vehículos de carga",
+    "Prohibida circulación de vehículos motorizados",
+    "Prohibida circulación de carros de mano"
+   ],
+   "explain": "Es la señal Prohibida circulación de maquinaria agrícola (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s019.webp"
+  },
+  {
+   "id": "u7-s020",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibida circulación de vehículos de tracción animal",
+    "Prohibida circulación de vehículos motorizados",
+    "Prohibida circulación de vehículos de carga",
+    "Prohibida circulación de maquinaria agrícola"
+   ],
+   "explain": "Es la señal Prohibida circulación de vehículos de tracción animal (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s020.webp"
+  },
+  {
+   "id": "u7-s021",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Silencio",
+    "No entrar",
+    "Control",
+    "PARE niños"
+   ],
+   "explain": "Es la señal Silencio (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s021.webp"
+  },
+  {
+   "id": "u7-st021",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Silencio» es una señal reglamentaria.",
+   "page": 151,
+   "image": "img/senales/s021.webp"
+  },
+  {
+   "id": "u7-s022",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No bloquear cruce",
+    "Solo motocicletas",
+    "Tránsito peatonal",
+    "Velocidad máxima"
+   ],
+   "explain": "Es la señal No bloquear cruce (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s022.webp"
+  },
+  {
+   "id": "u7-s023",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibido estacionar y detenerse",
+    "Prohibido estacionar",
+    "Preferencia al sentido contrario",
+    "Prohibida circulación de buses"
+   ],
+   "explain": "Es la señal Prohibido estacionar y detenerse (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s023.webp"
+  },
+  {
+   "id": "u7-s024",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibido estacionar",
+    "Prohibido estacionar y detenerse",
+    "Tránsito de peatones",
+    "Vía segregada buses"
+   ],
+   "explain": "Es la señal Prohibido estacionar (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s024.webp"
+  },
+  {
+   "id": "u7-s025",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Prohibido estacionar",
+    "Prohibido estacionar y detenerse",
+    "Tránsito de peatones",
+    "Peso máximo por eje"
+   ],
+   "explain": "Es la señal Prohibido estacionar (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s025.webp"
+  },
+  {
+   "id": "u7-s026",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "No peatones",
+    "Tránsito de peatones",
+    "Superficie segregada peatones-ciclos",
+    "No adelantar"
+   ],
+   "explain": "Es la señal No peatones (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s026.webp"
+  },
+  {
+   "id": "u7-s027",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Velocidad máxima",
+    "Velocidad máxima Zona 30",
+    "Velocidad mínima",
+    "Altura máxima"
+   ],
+   "explain": "Es la señal Velocidad máxima (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s027.webp"
+  },
+  {
+   "id": "u7-s028",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Velocidad mínima",
+    "Velocidad máxima",
+    "Velocidad máxima Zona 30",
+    "Luces encendidas"
+   ],
+   "explain": "Es la señal Velocidad mínima (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s028.webp"
+  },
+  {
+   "id": "u7-st028",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Velocidad mínima» es una señal reglamentaria.",
+   "page": 151,
+   "image": "img/senales/s028.webp"
+  },
+  {
+   "id": "u7-s029",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Velocidad máxima Zona 30",
+    "Velocidad máxima",
+    "Velocidad mínima",
+    "Estacionamiento reservado"
+   ],
+   "explain": "Es la señal Velocidad máxima Zona 30 (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s029.webp"
+  },
+  {
+   "id": "u7-s030",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Largo máximo",
+    "Ancho máximo",
+    "Peso máximo por eje",
+    "Peso máximo permitido"
+   ],
+   "explain": "Es la señal Largo máximo (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s030.webp"
+  },
+  {
+   "id": "u7-s031",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Peso máximo permitido",
+    "Peso máximo por eje",
+    "Ancho máximo",
+    "Largo máximo"
+   ],
+   "explain": "Es la señal Peso máximo permitido (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s031.webp"
+  },
+  {
+   "id": "u7-s032",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Peso máximo por eje",
+    "Peso máximo permitido",
+    "Largo máximo",
+    "Ancho máximo"
+   ],
+   "explain": "Es la señal Peso máximo por eje (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s032.webp"
+  },
+  {
+   "id": "u7-s033",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Altura máxima",
+    "Velocidad máxima",
+    "Velocidad máxima Zona 30",
+    "No virar en u"
+   ],
+   "explain": "Es la señal Altura máxima (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s033.webp"
+  },
+  {
+   "id": "u7-s034",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ancho máximo",
+    "Largo máximo",
+    "Peso máximo por eje",
+    "Peso máximo permitido"
+   ],
+   "explain": "Es la señal Ancho máximo (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s034.webp"
+  },
+  {
+   "id": "u7-s035",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin prohibición o restricción",
+    "Circulación en ambos sentidos",
+    "Prohibida circulación de buses",
+    "Tránsito en un solo sentido"
+   ],
+   "explain": "Es la señal Fin prohibición o restricción (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s035.webp"
+  },
+  {
+   "id": "u7-st035",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Fin prohibición o restricción» es una señal reglamentaria.",
+   "page": 151,
+   "image": "img/senales/s035.webp"
+  },
+  {
+   "id": "u7-s036",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Solo televía o sistema complementario",
+    "Tránsito en un solo sentido",
+    "Solo transporte público",
+    "Prohibida circulación de motocicletas"
+   ],
+   "explain": "Es la señal Solo televía o sistema complementario (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s036.webp"
+  },
+  {
+   "id": "u7-s037",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Tránsito en un solo sentido",
+    "Tránsito en ambos sentidos",
+    "Solo transporte público",
+    "Preferencia al sentido contrario"
+   ],
+   "explain": "Es la señal Tránsito en un solo sentido (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s037.webp"
+  },
+  {
+   "id": "u7-s038",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Tránsito en ambos sentidos",
+    "Circulación en ambos sentidos",
+    "Tránsito en un solo sentido",
+    "Tránsito de peatones"
+   ],
+   "explain": "Es la señal Tránsito en ambos sentidos (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s038.webp"
+  },
+  {
+   "id": "u7-s039",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Tránsito peatonal",
+    "Tránsito de peatones",
+    "Tránsito en ambos sentidos",
+    "Tránsito en un solo sentido"
+   ],
+   "explain": "Es la señal Tránsito peatonal (reglamentaria).",
+   "page": 151,
+   "image": "img/senales/s039.webp"
+  },
+  {
+   "id": "u7-s040",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Tránsito de peatones",
+    "Tránsito peatonal",
+    "Tránsito en ambos sentidos",
+    "Tránsito en un solo sentido"
+   ],
+   "explain": "Es la señal Tránsito de peatones (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s040.webp"
+  },
+  {
+   "id": "u7-s041",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Mantenga su derecha",
+    "Vehículo pesado mantenga su derecha",
+    "Paso obligado derecha",
+    "No virar derecha"
+   ],
+   "explain": "Es la señal Mantenga su derecha (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s041.webp"
+  },
+  {
+   "id": "u7-s042",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Vehículo pesado mantenga su derecha",
+    "Mantenga su derecha",
+    "Permitido virar derecha con luz roja",
+    "Preferencia ciclistas al virar derecha"
+   ],
+   "explain": "Es la señal Vehículo pesado mantenga su derecha (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s042.webp"
+  },
+  {
+   "id": "u7-st042",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Vehículo pesado mantenga su derecha» es una señal reglamentaria.",
+   "page": 152,
+   "image": "img/senales/s042.webp"
+  },
+  {
+   "id": "u7-s043",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Dirección obligada",
+    "No virar izquierda",
+    "No bloquear cruce",
+    "No cambiar de pista"
+   ],
+   "explain": "Es la señal Dirección obligada (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s043.webp"
+  },
+  {
+   "id": "u7-s044",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Preferencia al sentido contrario",
+    "Tránsito en un solo sentido",
+    "Preferencia ciclistas al virar derecha",
+    "Preferencia ciclistas al virar izquierda"
+   ],
+   "explain": "Es la señal Preferencia al sentido contrario (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s044.webp"
+  },
+  {
+   "id": "u7-s045",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Circulación en ambos sentidos",
+    "Tránsito en ambos sentidos",
+    "Prohibida circulación de buses",
+    "Prohibida circulación de bicicletas"
+   ],
+   "explain": "Es la señal Circulación en ambos sentidos (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s045.webp"
+  },
+  {
+   "id": "u7-s046",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Minirrotonda",
+    "Paso vértice",
+    "Ceda el paso",
+    "Ancho máximo"
+   ],
+   "explain": "Es la señal Minirrotonda (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s046.webp"
+  },
+  {
+   "id": "u7-s047",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Paso obligado derecha",
+    "Paso obligado izquierda",
+    "Mantenga su derecha",
+    "No virar derecha"
+   ],
+   "explain": "Es la señal Paso obligado derecha (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s047.webp"
+  },
+  {
+   "id": "u7-s048",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Paso obligado izquierda",
+    "Paso obligado derecha",
+    "No virar izquierda",
+    "Paso vértice"
+   ],
+   "explain": "Es la señal Paso obligado izquierda (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s048.webp"
+  },
+  {
+   "id": "u7-s049",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Paso vértice",
+    "Ceda el paso",
+    "Paso obligado derecha",
+    "Paso obligado izquierda"
+   ],
+   "explain": "Es la señal Paso vértice (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s049.webp"
+  },
+  {
+   "id": "u7-st049",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Paso vértice» es una señal reglamentaria.",
+   "page": 152,
+   "image": "img/senales/s049.webp"
+  },
+  {
+   "id": "u7-s050",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Control",
+    "Silencio",
+    "No entrar",
+    "PARE niños"
+   ],
+   "explain": "Es la señal Control (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s050.webp"
+  },
+  {
+   "id": "u7-s051",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Uso obligatorio de cadenas",
+    "Tránsito en ambos sentidos",
+    "Estacionamiento reservado",
+    "Tránsito en un solo sentido"
+   ],
+   "explain": "Es la señal Uso obligatorio de cadenas (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s051.webp"
+  },
+  {
+   "id": "u7-s052",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Luces encendidas",
+    "No virar derecha",
+    "Velocidad máxima",
+    "Velocidad mínima"
+   ],
+   "explain": "Es la señal Luces encendidas (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s052.webp"
+  },
+  {
+   "id": "u7-s053",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Solo motocicletas",
+    "Solo transporte público",
+    "Tránsito en un solo sentido",
+    "Solo televía o sistema complementario"
+   ],
+   "explain": "Es la señal Solo motocicletas (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s053.webp"
+  },
+  {
+   "id": "u7-s054",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Vía segregada buses",
+    "Prohibida circulación de buses",
+    "Superficie segregada peatones-ciclos",
+    "Superficie segregada motorizados - ciclos"
+   ],
+   "explain": "Es la señal Vía segregada buses (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s054.webp"
+  },
+  {
+   "id": "u7-s055",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Vía segregada buses",
+    "Prohibida circulación de buses",
+    "Superficie segregada peatones-ciclos",
+    "Superficie segregada motorizados - ciclos"
+   ],
+   "explain": "Es la señal Vía segregada buses (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s055.webp"
+  },
+  {
+   "id": "u7-s056",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Solo transporte público",
+    "Tránsito en un solo sentido",
+    "Solo motocicletas",
+    "Solo televía o sistema complementario"
+   ],
+   "explain": "Es la señal Solo transporte público (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s056.webp"
+  },
+  {
+   "id": "u7-st056",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Solo transporte público» es una señal reglamentaria.",
+   "page": 152,
+   "image": "img/senales/s056.webp"
+  },
+  {
+   "id": "u7-s057",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Superficie segregada motorizados - ciclos",
+    "Superficie segregada peatones-ciclos",
+    "Prohibida circulación de vehículos motorizados",
+    "Vía segregada buses"
+   ],
+   "explain": "Es la señal Superficie segregada motorizados - ciclos (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s057.webp"
+  },
+  {
+   "id": "u7-s058",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Superficie segregada peatones-ciclos",
+    "Superficie segregada motorizados - ciclos",
+    "Tránsito de peatones",
+    "Vía segregada buses"
+   ],
+   "explain": "Es la señal Superficie segregada peatones-ciclos (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s058.webp"
+  },
+  {
+   "id": "u7-s059",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Estacionamiento reservado",
+    "Tránsito en ambos sentidos",
+    "Velocidad máxima Zona 30",
+    "Uso obligatorio de cadenas"
+   ],
+   "explain": "Es la señal Estacionamiento reservado (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s059.webp"
+  },
+  {
+   "id": "u7-s060",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Permitido virar derecha con luz roja",
+    "Permitido virar izquierda con luz roja",
+    "Preferencia ciclistas al virar derecha",
+    "No virar derecha"
+   ],
+   "explain": "Es la señal Permitido virar derecha con luz roja (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s060.webp"
+  },
+  {
+   "id": "u7-s061",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Permitido virar izquierda con luz roja",
+    "Permitido virar derecha con luz roja",
+    "Preferencia ciclistas al virar izquierda",
+    "No virar izquierda"
+   ],
+   "explain": "Es la señal Permitido virar izquierda con luz roja (reglamentaria).",
+   "page": 152,
+   "image": "img/senales/s061.webp"
+  },
+  {
+   "id": "u7-s062",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva a la derecha",
+    "Curva cerrada a la derecha",
+    "Curva muy cerrada a la derecha",
+    "Curva y contracurva a la derecha"
+   ],
+   "explain": "Es la señal Curva a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s062.webp"
+  },
+  {
+   "id": "u7-s063",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva a la izquierda",
+    "Curva cerrada a la izquierda",
+    "Curva muy cerrada a la izquierda",
+    "Curva y contracurva a la izquierda"
+   ],
+   "explain": "Es la señal Curva a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s063.webp"
+  },
+  {
+   "id": "u7-st063",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Curva a la izquierda» es una señal de advertencia.",
+   "page": 153,
+   "image": "img/senales/s063.webp"
+  },
+  {
+   "id": "u7-s064",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva cerrada a la derecha",
+    "Curva muy cerrada a la derecha",
+    "Curva y contracurva cerrada a la derecha",
+    "Curva cerrada a la izquierda"
+   ],
+   "explain": "Es la señal Curva cerrada a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s064.webp"
+  },
+  {
+   "id": "u7-s065",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva cerrada a la izquierda",
+    "Curva muy cerrada a la izquierda",
+    "Curva y contracurva cerrada a la izquierda",
+    "Curva muy cerrada a la derecha"
+   ],
+   "explain": "Es la señal Curva cerrada a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s065.webp"
+  },
+  {
+   "id": "u7-s066",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de curvas a la derecha",
+    "Zona de curvas a la izquierda",
+    "Ensanchamiento a la derecha",
+    "Curva cerrada a la derecha"
+   ],
+   "explain": "Es la señal Zona de curvas a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s066.webp"
+  },
+  {
+   "id": "u7-s067",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de curvas a la izquierda",
+    "Zona de curvas a la derecha",
+    "Ensanchamiento a la izquierda",
+    "Angostamiento a la izquierda"
+   ],
+   "explain": "Es la señal Zona de curvas a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s067.webp"
+  },
+  {
+   "id": "u7-s068",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva y contracurva a la derecha",
+    "Curva y contracurva cerrada a la derecha",
+    "Curva y contracurva a la izquierda",
+    "Curva muy cerrada a la derecha"
+   ],
+   "explain": "Es la señal Curva y contracurva a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s068.webp"
+  },
+  {
+   "id": "u7-s069",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva y contracurva a la izquierda",
+    "Curva y contracurva cerrada a la izquierda",
+    "Curva muy cerrada a la izquierda",
+    "Curva y contracurva a la derecha"
+   ],
+   "explain": "Es la señal Curva y contracurva a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s069.webp"
+  },
+  {
+   "id": "u7-s070",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva y contracurva cerrada a la derecha",
+    "Curva y contracurva cerrada a la izquierda",
+    "Curva y contracurva a la derecha",
+    "Curva muy cerrada a la derecha"
+   ],
+   "explain": "Es la señal Curva y contracurva cerrada a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s070.webp"
+  },
+  {
+   "id": "u7-st070",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Curva y contracurva cerrada a la derecha» es una señal de advertencia.",
+   "page": 153,
+   "image": "img/senales/s070.webp"
+  },
+  {
+   "id": "u7-s071",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva y contracurva cerrada a la izquierda",
+    "Curva y contracurva cerrada a la derecha",
+    "Curva y contracurva a la izquierda",
+    "Curva muy cerrada a la izquierda"
+   ],
+   "explain": "Es la señal Curva y contracurva cerrada a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s071.webp"
+  },
+  {
+   "id": "u7-s072",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva muy cerrada a la derecha",
+    "Curva cerrada a la derecha",
+    "Curva y contracurva cerrada a la derecha",
+    "Curva y contracurva a la derecha"
+   ],
+   "explain": "Es la señal Curva muy cerrada a la derecha (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s072.webp"
+  },
+  {
+   "id": "u7-s073",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva muy cerrada a la izquierda",
+    "Curva cerrada a la izquierda",
+    "Curva y contracurva cerrada a la izquierda",
+    "Curva y contracurva a la izquierda"
+   ],
+   "explain": "Es la señal Curva muy cerrada a la izquierda (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s073.webp"
+  },
+  {
+   "id": "u7-s074",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pendiente fuerte en bajada",
+    "Pendiente fuerte en subida",
+    "Proximidad de señal “PARE”",
+    "Curva cerrada a la derecha"
+   ],
+   "explain": "Es la señal Pendiente fuerte en bajada (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s074.webp"
+  },
+  {
+   "id": "u7-s075",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pendiente fuerte en bajada",
+    "Pendiente fuerte en subida",
+    "Proximidad de señal “PARE”",
+    "Angostamiento a la derecha"
+   ],
+   "explain": "Es la señal Pendiente fuerte en bajada (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s075.webp"
+  },
+  {
+   "id": "u7-s076",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de túnel",
+    "Proximidad rotonda",
+    "Proximidad de semáforo",
+    "Proximidad de señal “PARE”"
+   ],
+   "explain": "Es la señal Proximidad de túnel (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s076.webp"
+  },
+  {
+   "id": "u7-s077",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pendiente fuerte en subida",
+    "Pendiente fuerte en bajada",
+    "Proximidad de señal “PARE”",
+    "Curva cerrada a la derecha"
+   ],
+   "explain": "Es la señal Pendiente fuerte en subida (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s077.webp"
+  },
+  {
+   "id": "u7-st077",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Pendiente fuerte en subida» es una señal de advertencia.",
+   "page": 153,
+   "image": "img/senales/s077.webp"
+  },
+  {
+   "id": "u7-s078",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pendiente fuerte en subida",
+    "Pendiente fuerte en bajada",
+    "Proximidad de señal “PARE”",
+    "Angostamiento a la derecha"
+   ],
+   "explain": "Es la señal Pendiente fuerte en subida (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s078.webp"
+  },
+  {
+   "id": "u7-s079",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ribera sin protección",
+    "Salida carro bomberos",
+    "Pavimento resbaladizo",
+    "Curva a la izquierda"
+   ],
+   "explain": "Es la señal Ribera sin protección (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s079.webp"
+  },
+  {
+   "id": "u7-s080",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Aeropuerto o aeródromo",
+    "Proximidad de semáforo",
+    "Proyección de gravilla",
+    "Pavimento resbaladizo"
+   ],
+   "explain": "Es la señal Aeropuerto o aeródromo (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s080.webp"
+  },
+  {
+   "id": "u7-s081",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Viento lateral",
+    "Cruce ciclista",
+    "Puente angosto",
+    "Altura máxima"
+   ],
+   "explain": "Es la señal Viento lateral (de advertencia).",
+   "page": 153,
+   "image": "img/senales/s081.webp"
+  },
+  {
+   "id": "u7-s082",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Angostamiento a ambos lados",
+    "Ensanchamiento a ambos lados",
+    "Angostamiento a la derecha",
+    "Angostamiento a la izquierda"
+   ],
+   "explain": "Es la señal Angostamiento a ambos lados (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s082.webp"
+  },
+  {
+   "id": "u7-s083",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Angostamiento a la derecha",
+    "Curva cerrada a la derecha",
+    "Zona de curvas a la derecha",
+    "Ensanchamiento a la derecha"
+   ],
+   "explain": "Es la señal Angostamiento a la derecha (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s083.webp"
+  },
+  {
+   "id": "u7-s084",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Angostamiento a la izquierda",
+    "Curva cerrada a la izquierda",
+    "Zona de curvas a la izquierda",
+    "Ensanchamiento a la izquierda"
+   ],
+   "explain": "Es la señal Angostamiento a la izquierda (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s084.webp"
+  },
+  {
+   "id": "u7-st084",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Angostamiento a la izquierda» es una señal de advertencia.",
+   "page": 154,
+   "image": "img/senales/s084.webp"
+  },
+  {
+   "id": "u7-s085",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Puente angosto",
+    "Viento lateral",
+    "Cruce ciclista",
+    "Desnivel severo"
+   ],
+   "explain": "Es la señal Puente angosto (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s085.webp"
+  },
+  {
+   "id": "u7-s086",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ensanchamiento a ambos lados",
+    "Angostamiento a ambos lados",
+    "Ensanchamiento a la izquierda",
+    "Ensanchamiento a la derecha"
+   ],
+   "explain": "Es la señal Ensanchamiento a ambos lados (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s086.webp"
+  },
+  {
+   "id": "u7-s087",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ensanchamiento a la derecha",
+    "Zona de curvas a la derecha",
+    "Ensanchamiento a ambos lados",
+    "Angostamiento a la derecha"
+   ],
+   "explain": "Es la señal Ensanchamiento a la derecha (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s087.webp"
+  },
+  {
+   "id": "u7-s088",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ensanchamiento a la izquierda",
+    "Zona de curvas a la izquierda",
+    "Angostamiento a la izquierda",
+    "Curva cerrada a la izquierda"
+   ],
+   "explain": "Es la señal Ensanchamiento a la izquierda (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s088.webp"
+  },
+  {
+   "id": "u7-s089",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Peso máximo",
+    "Largo máximo",
+    "Ancho máximo",
+    "Altura máxima"
+   ],
+   "explain": "Es la señal Peso máximo (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s089.webp"
+  },
+  {
+   "id": "u7-s090",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Altura máxima",
+    "Niños jugando",
+    "Ancho máximo",
+    "Puente angosto"
+   ],
+   "explain": "Es la señal Altura máxima (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s090.webp"
+  },
+  {
+   "id": "u7-s091",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ancho máximo",
+    "Largo máximo",
+    "Peso máximo",
+    "Altura máxima"
+   ],
+   "explain": "Es la señal Ancho máximo (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s091.webp"
+  },
+  {
+   "id": "u7-st091",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Ancho máximo» es una señal de advertencia.",
+   "page": 154,
+   "image": "img/senales/s091.webp"
+  },
+  {
+   "id": "u7-s092",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Largo máximo",
+    "Ancho máximo",
+    "Peso máximo",
+    "Altura máxima"
+   ],
+   "explain": "Es la señal Largo máximo (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s092.webp"
+  },
+  {
+   "id": "u7-s093",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Inicio de mediana",
+    "Señal fin mediana",
+    "Zona de avalancha",
+    "Ubicación resalto"
+   ],
+   "explain": "Es la señal Inicio de mediana (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s093.webp"
+  },
+  {
+   "id": "u7-s094",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de cables de alta tensión",
+    "Proximidad de señal “Ceda el Paso”",
+    "Proximidad de paso de cebra",
+    "Proximidad de señal “PARE”"
+   ],
+   "explain": "Es la señal Proximidad de cables de alta tensión (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s094.webp"
+  },
+  {
+   "id": "u7-s095",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Resalto",
+    "Ubicación resalto",
+    "Peligro",
+    "Barreras"
+   ],
+   "explain": "Es la señal Resalto (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s095.webp"
+  },
+  {
+   "id": "u7-s096",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ubicación resalto",
+    "Resalto",
+    "Zona de derrumbes",
+    "Inicio de mediana"
+   ],
+   "explain": "Es la señal Ubicación resalto (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s096.webp"
+  },
+  {
+   "id": "u7-s097",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Resaltos sucesivos",
+    "Curva a la derecha",
+    "Animales en la vía",
+    "Proximidad rotonda"
+   ],
+   "explain": "Es la señal Resaltos sucesivos (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s097.webp"
+  },
+  {
+   "id": "u7-s098",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Badén",
+    "Peligro",
+    "Resalto",
+    "Barreras"
+   ],
+   "explain": "Es la señal Badén (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s098.webp"
+  },
+  {
+   "id": "u7-st098",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Badén» es una señal de advertencia.",
+   "page": 154,
+   "image": "img/senales/s098.webp"
+  },
+  {
+   "id": "u7-s099",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proyección de gravilla",
+    "Proximidad de semáforo",
+    "Aeropuerto o aeródromo",
+    "Pavimento resbaladizo"
+   ],
+   "explain": "Es la señal Proyección de gravilla (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s099.webp"
+  },
+  {
+   "id": "u7-s100",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de avalancha",
+    "Zona de derrumbes",
+    "Zona de peatones",
+    "Zona de escuela"
+   ],
+   "explain": "Es la señal Zona de avalancha (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s100.webp"
+  },
+  {
+   "id": "u7-s101",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Peligro",
+    "Resalto",
+    "Barreras",
+    "Badén"
+   ],
+   "explain": "Es la señal Peligro (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s101.webp"
+  },
+  {
+   "id": "u7-s102",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Barreras",
+    "Cruce ferroviario a nivel sin barreras",
+    "Cruce ferroviario a nivel con barreras",
+    "Peligro"
+   ],
+   "explain": "Es la señal Barreras (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s102.webp"
+  },
+  {
+   "id": "u7-s103",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Señal fin mediana",
+    "Inicio de mediana",
+    "Proximidad de señal “PARE”",
+    "Proximidad de señal “Ceda el Paso”"
+   ],
+   "explain": "Es la señal Señal fin mediana (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s103.webp"
+  },
+  {
+   "id": "u7-s104",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruce ferroviario a nivel sin barreras",
+    "Cruce ferroviario a nivel con barreras",
+    "Cruce ciclista",
+    "Barreras"
+   ],
+   "explain": "Es la señal Cruce ferroviario a nivel sin barreras (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s104.webp"
+  },
+  {
+   "id": "u7-s105",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruce ferroviario a nivel con barreras",
+    "Cruce ferroviario a nivel sin barreras",
+    "Cruce ciclista",
+    "Barreras"
+   ],
+   "explain": "Es la señal Cruce ferroviario a nivel con barreras (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s105.webp"
+  },
+  {
+   "id": "u7-st105",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Cruce ferroviario a nivel con barreras» es una señal de advertencia.",
+   "page": 154,
+   "image": "img/senales/s105.webp"
+  },
+  {
+   "id": "u7-s106",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruz de San Andrés",
+    "Resaltos sucesivos",
+    "Curva a la derecha",
+    "Proximidad rotonda"
+   ],
+   "explain": "Es la señal Cruz de San Andrés (de advertencia).",
+   "page": 154,
+   "image": "img/senales/s106.webp"
+  },
+  {
+   "id": "u7-s107",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad rotonda",
+    "Proximidad de túnel",
+    "Proximidad de semáforo",
+    "Proximidad de señal “PARE”"
+   ],
+   "explain": "Es la señal Proximidad rotonda (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s107.webp"
+  },
+  {
+   "id": "u7-s108",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Curva y contracurva a la izquierda",
+    "Cruce ferroviario a nivel con barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s108.webp"
+  },
+  {
+   "id": "u7-s109",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Cruce ferroviario a nivel con barreras",
+    "Curva y contracurva a la izquierda"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s109.webp"
+  },
+  {
+   "id": "u7-s110",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Cruce ferroviario a nivel con barreras",
+    "Cruce ferroviario a nivel sin barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s110.webp"
+  },
+  {
+   "id": "u7-s111",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Proximidad de señal “Ceda el Paso”",
+    "Cruce ferroviario a nivel con barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s111.webp"
+  },
+  {
+   "id": "u7-s112",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Curva y contracurva a la izquierda",
+    "Cruce ferroviario a nivel con barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s112.webp"
+  },
+  {
+   "id": "u7-st112",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Cruces bifurcaciones y convergencias» es una señal de advertencia.",
+   "page": 155,
+   "image": "img/senales/s112.webp"
+  },
+  {
+   "id": "u7-s113",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Cruce ferroviario a nivel con barreras",
+    "Proximidad de señal “Ceda el Paso”"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s113.webp"
+  },
+  {
+   "id": "u7-s114",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Curva y contracurva a la izquierda",
+    "Cruce ferroviario a nivel con barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s114.webp"
+  },
+  {
+   "id": "u7-s115",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Proximidad de señal “Ceda el Paso”",
+    "Curva y contracurva a la izquierda"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s115.webp"
+  },
+  {
+   "id": "u7-s116",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruces bifurcaciones y convergencias",
+    "Proximidad de cables de alta tensión",
+    "Proximidad de señal “Ceda el Paso”",
+    "Cruce ferroviario a nivel sin barreras"
+   ],
+   "explain": "Es la señal Cruces bifurcaciones y convergencias (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s116.webp"
+  },
+  {
+   "id": "u7-s117",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Dos sentidos de tránsito",
+    "Proyección de gravilla",
+    "Proximidad de semáforo",
+    "Curva cerrada a la derecha"
+   ],
+   "explain": "Es la señal Dos sentidos de tránsito (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s117.webp"
+  },
+  {
+   "id": "u7-s118",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ciclistas en la vía",
+    "Maquinaria agrícola",
+    "Proximidad de túnel",
+    "Resaltos sucesivos"
+   ],
+   "explain": "Es la señal Ciclistas en la vía (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s118.webp"
+  },
+  {
+   "id": "u7-s119",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Maquinaria agrícola",
+    "Ciclistas en la vía",
+    "Proximidad de túnel",
+    "Cruz de San Andrés"
+   ],
+   "explain": "Es la señal Maquinaria agrícola (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s119.webp"
+  },
+  {
+   "id": "u7-st119",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Maquinaria agrícola» es una señal de advertencia.",
+   "page": 155,
+   "image": "img/senales/s119.webp"
+  },
+  {
+   "id": "u7-s120",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Carretelas en la vía",
+    "Curva a la izquierda",
+    "Proximidad de túnel",
+    "Pavimento resbaladizo"
+   ],
+   "explain": "Es la señal Carretelas en la vía (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s120.webp"
+  },
+  {
+   "id": "u7-s121",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Animales en la vía",
+    "Proximidad rotonda",
+    "Cruz de San Andrés",
+    "Curva a la derecha"
+   ],
+   "explain": "Es la señal Animales en la vía (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s121.webp"
+  },
+  {
+   "id": "u7-s122",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Animales en la vía",
+    "Curva a la derecha",
+    "Resaltos sucesivos",
+    "Cruz de San Andrés"
+   ],
+   "explain": "Es la señal Animales en la vía (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s122.webp"
+  },
+  {
+   "id": "u7-s123",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de peatones",
+    "Zona de escuela",
+    "Zona de derrumbes",
+    "Zona de avalancha"
+   ],
+   "explain": "Es la señal Zona de peatones (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s123.webp"
+  },
+  {
+   "id": "u7-s124",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de paso de cebra",
+    "Proximidad de señal “Ceda el Paso”",
+    "Proximidad de señal “PARE”",
+    "Proximidad de semáforo"
+   ],
+   "explain": "Es la señal Proximidad de paso de cebra (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s124.webp"
+  },
+  {
+   "id": "u7-s125",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de escuela",
+    "Zona de peatones",
+    "Zona de avalancha",
+    "Zona de derrumbes"
+   ],
+   "explain": "Es la señal Zona de escuela (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s125.webp"
+  },
+  {
+   "id": "u7-s126",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Niños jugando",
+    "Altura máxima",
+    "Cruce ciclista",
+    "Viento lateral"
+   ],
+   "explain": "Es la señal Niños jugando (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s126.webp"
+  },
+  {
+   "id": "u7-st126",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Niños jugando» es una señal de advertencia.",
+   "page": 155,
+   "image": "img/senales/s126.webp"
+  },
+  {
+   "id": "u7-s127",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de semáforo",
+    "Proximidad de túnel",
+    "Proximidad rotonda",
+    "Proximidad de señal “PARE”"
+   ],
+   "explain": "Es la señal Proximidad de semáforo (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s127.webp"
+  },
+  {
+   "id": "u7-s128",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de señal “Ceda el Paso”",
+    "Proximidad de paso de cebra",
+    "Proximidad de señal “PARE”",
+    "Proximidad de cables de alta tensión"
+   ],
+   "explain": "Es la señal Proximidad de señal “Ceda el Paso” (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s128.webp"
+  },
+  {
+   "id": "u7-s129",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de señal “PARE”",
+    "Proximidad de señal “Ceda el Paso”",
+    "Proximidad de paso de cebra",
+    "Proximidad de semáforo"
+   ],
+   "explain": "Es la señal Proximidad de señal “PARE” (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s129.webp"
+  },
+  {
+   "id": "u7-s130",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cruce ciclista",
+    "Cruce ferroviario a nivel sin barreras",
+    "Cruce ferroviario a nivel con barreras",
+    "Puente angosto"
+   ],
+   "explain": "Es la señal Cruce ciclista (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s130.webp"
+  },
+  {
+   "id": "u7-s131",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Salida carro bomberos",
+    "Ribera sin protección",
+    "Pavimento resbaladizo",
+    "Curva a la izquierda"
+   ],
+   "explain": "Es la señal Salida carro bomberos (de advertencia).",
+   "page": 155,
+   "image": "img/senales/s131.webp"
+  },
+  {
+   "id": "u7-s132",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de derrumbes",
+    "Zona de avalancha",
+    "Zona de peatones",
+    "Zona de escuela"
+   ],
+   "explain": "Es la señal Zona de derrumbes (de advertencia).",
+   "page": 156,
+   "image": "img/senales/s132.webp"
+  },
+  {
+   "id": "u7-s133",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pavimento resbaladizo",
+    "Salida carro bomberos",
+    "Ribera sin protección",
+    "Curva a la izquierda"
+   ],
+   "explain": "Es la señal Pavimento resbaladizo (de advertencia).",
+   "page": 156,
+   "image": "img/senales/s133.webp"
+  },
+  {
+   "id": "u7-st133",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "De advertencia",
+    "Reglamentaria",
+    "Informativa",
+    "Transitoria"
+   ],
+   "explain": "«Pavimento resbaladizo» es una señal de advertencia.",
+   "page": 156,
+   "image": "img/senales/s133.webp"
+  },
+  {
+   "id": "u7-s134",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Desnivel severo",
+    "Zona de escuela",
+    "Viento lateral",
+    "Cruce ciclista"
+   ],
+   "explain": "Es la señal Desnivel severo (de advertencia).",
+   "page": 156,
+   "image": "img/senales/s134.webp"
+  },
+  {
+   "id": "u7-s135",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ruta alternativa",
+    "Teléfono público",
+    "Salida inmediata",
+    "Pista solo buses"
+   ],
+   "explain": "Es la señal Ruta alternativa (informativa).",
+   "page": 156,
+   "image": "img/senales/s135.webp"
+  },
+  {
+   "id": "u7-s136",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Salida inmediata",
+    "Salida lateral derecha",
+    "Ruta alternativa",
+    "Teléfono público"
+   ],
+   "explain": "Es la señal Salida inmediata (informativa).",
+   "page": 156,
+   "image": "img/senales/s136.webp"
+  },
+  {
+   "id": "u7-s137",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Balizas de acercamiento",
+    "Alimentación restaurant",
+    "Teléfono de emergencia",
+    "Salida lateral derecha"
+   ],
+   "explain": "Es la señal Balizas de acercamiento (informativa).",
+   "page": 156,
+   "image": "img/senales/s137.webp"
+  },
+  {
+   "id": "u7-s138",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Nombre y numeración de calle",
+    "Escudo numeración de caminos",
+    "Zona espera especial ciclos",
+    "Primeros auxilios hospital"
+   ],
+   "explain": "Es la señal Nombre y numeración de calle (informativa).",
+   "page": 156,
+   "image": "img/senales/s138.webp"
+  },
+  {
+   "id": "u7-s139",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "De confirmación",
+    "De localización",
+    "Solo bicicletas",
+    "Canopy/tirolesa"
+   ],
+   "explain": "Es la señal De confirmación (informativa).",
+   "page": 156,
+   "image": "img/senales/s139.webp"
+  },
+  {
+   "id": "u7-s140",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "De dirección",
+    "Parada mixta",
+    "Fin ciclovía",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal De dirección (informativa).",
+   "page": 156,
+   "image": "img/senales/s140.webp"
+  },
+  {
+   "id": "u7-st140",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«De dirección» es una señal informativa.",
+   "page": 156,
+   "image": "img/senales/s140.webp"
+  },
+  {
+   "id": "u7-s141",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "De localización",
+    "De confirmación",
+    "Solo bicicletas",
+    "Canopy/tirolesa"
+   ],
+   "explain": "Es la señal De localización (informativa).",
+   "page": 156,
+   "image": "img/senales/s141.webp"
+  },
+  {
+   "id": "u7-s142",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Escudo numeración de caminos",
+    "Nombre y numeración de calle",
+    "Zona espera especial ciclos",
+    "Primeros auxilios hospital"
+   ],
+   "explain": "Es la señal Escudo numeración de caminos (informativa).",
+   "page": 156,
+   "image": "img/senales/s142.webp"
+  },
+  {
+   "id": "u7-s143",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Aeropuerto",
+    "Ciclocalle",
+    "Acantilado",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Aeropuerto (informativa).",
+   "page": 157,
+   "image": "img/senales/s143.webp"
+  },
+  {
+   "id": "u7-s144",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Alimentación restaurant",
+    "Balizas de acercamiento",
+    "Teléfono de emergencia",
+    "Salida lateral derecha"
+   ],
+   "explain": "Es la señal Alimentación restaurant (informativa).",
+   "page": 157,
+   "image": "img/senales/s144.webp"
+  },
+  {
+   "id": "u7-s145",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Alojamiento",
+    "Fin Zona 30",
+    "Acantilado",
+    "Parada mixta"
+   ],
+   "explain": "Es la señal Alojamiento (informativa).",
+   "page": 157,
+   "image": "img/senales/s145.webp"
+  },
+  {
+   "id": "u7-s146",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Teléfono público",
+    "Teléfono de emergencia",
+    "Fin de autopista",
+    "Salida inmediata"
+   ],
+   "explain": "Es la señal Teléfono público (informativa).",
+   "page": 157,
+   "image": "img/senales/s146.webp"
+  },
+  {
+   "id": "u7-s147",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Primeros auxilios hospital",
+    "Zona espera especial ciclos",
+    "Estacionamiento permitido",
+    "Nombre y numeración de calle"
+   ],
+   "explain": "Es la señal Primeros auxilios hospital (informativa).",
+   "page": 157,
+   "image": "img/senales/s147.webp"
+  },
+  {
+   "id": "u7-st147",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«Primeros auxilios hospital» es una señal informativa.",
+   "page": 157,
+   "image": "img/senales/s147.webp"
+  },
+  {
+   "id": "u7-s148",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Servicios higiénicos",
+    "Retorno en autopista",
+    "Inicio de autopista",
+    "Control fotográfico"
+   ],
+   "explain": "Es la señal Servicios higiénicos (informativa).",
+   "page": 157,
+   "image": "img/senales/s148.webp"
+  },
+  {
+   "id": "u7-s149",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Acantilado",
+    "Ciclocalle",
+    "Aeropuerto",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Acantilado (informativa).",
+   "page": 157,
+   "image": "img/senales/s149.webp"
+  },
+  {
+   "id": "u7-s150",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Casino",
+    "Zona 30",
+    "Buceo",
+    "Cabalgata"
+   ],
+   "explain": "Es la señal Casino (informativa).",
+   "page": 157,
+   "image": "img/senales/s150.webp"
+  },
+  {
+   "id": "u7-s151",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Cabalgata",
+    "Artesanía",
+    "Ciclocalle",
+    "Acantilado"
+   ],
+   "explain": "Es la señal Cabalgata (informativa).",
+   "page": 157,
+   "image": "img/senales/s151.webp"
+  },
+  {
+   "id": "u7-s152",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Artesanía",
+    "Cabalgata",
+    "Acantilado",
+    "Aeropuerto"
+   ],
+   "explain": "Es la señal Artesanía (informativa).",
+   "page": 157,
+   "image": "img/senales/s152.webp"
+  },
+  {
+   "id": "u7-s153",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Buceo",
+    "Casino",
+    "Zona 30",
+    "Cabalgata"
+   ],
+   "explain": "Es la señal Buceo (informativa).",
+   "page": 157,
+   "image": "img/senales/s153.webp"
+  },
+  {
+   "id": "u7-s154",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Canopy/tirolesa",
+    "De confirmación",
+    "De localización",
+    "Solo bicicletas"
+   ],
+   "explain": "Es la señal Canopy/tirolesa (informativa).",
+   "page": 157,
+   "image": "img/senales/s154.webp"
+  },
+  {
+   "id": "u7-st154",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«Canopy/tirolesa» es una señal informativa.",
+   "page": 157,
+   "image": "img/senales/s154.webp"
+  },
+  {
+   "id": "u7-s155",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Salida lateral derecha",
+    "Salida inmediata",
+    "Teléfono de emergencia",
+    "Balizas de acercamiento"
+   ],
+   "explain": "Es la señal Salida lateral derecha (informativa).",
+   "page": 158,
+   "image": "img/senales/s155.webp"
+  },
+  {
+   "id": "u7-s156",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Inicio de autopista",
+    "Retorno en autopista",
+    "Inicio ciclobanda",
+    "Fin de autopista"
+   ],
+   "explain": "Es la señal Inicio de autopista (informativa).",
+   "page": 158,
+   "image": "img/senales/s156.webp"
+  },
+  {
+   "id": "u7-s157",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin de autopista",
+    "Inicio de autopista",
+    "Retorno en autopista",
+    "Autopista con televía o sistema complementario"
+   ],
+   "explain": "Es la señal Fin de autopista (informativa).",
+   "page": 158,
+   "image": "img/senales/s157.webp"
+  },
+  {
+   "id": "u7-s158",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Retorno en autopista",
+    "Inicio de autopista",
+    "Fin de autopista",
+    "Autopista con televía o sistema complementario"
+   ],
+   "explain": "Es la señal Retorno en autopista (informativa).",
+   "page": 158,
+   "image": "img/senales/s158.webp"
+  },
+  {
+   "id": "u7-s159",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Teléfono de emergencia",
+    "Teléfono público",
+    "Salida lateral derecha",
+    "Alimentación restaurant"
+   ],
+   "explain": "Es la señal Teléfono de emergencia (informativa).",
+   "page": 158,
+   "image": "img/senales/s159.webp"
+  },
+  {
+   "id": "u7-s160",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Autopista con televía o sistema complementario",
+    "Retorno en autopista",
+    "Inicio de autopista",
+    "Superficie segregada motorizados-ciclos"
+   ],
+   "explain": "Es la señal Autopista con televía o sistema complementario (informativa).",
+   "page": 158,
+   "image": "img/senales/s160.webp"
+  },
+  {
+   "id": "u7-s161",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Estacionamiento permitido",
+    "Primeros auxilios hospital",
+    "Zona espera especial ciclos",
+    "Alimentación restaurant"
+   ],
+   "explain": "Es la señal Estacionamiento permitido (informativa).",
+   "page": 158,
+   "image": "img/senales/s161.webp"
+  },
+  {
+   "id": "u7-st161",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«Estacionamiento permitido» es una señal informativa.",
+   "page": 158,
+   "image": "img/senales/s161.webp"
+  },
+  {
+   "id": "u7-s162",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Plaza de peaje",
+    "Fin ciclobanda",
+    "Canopy/tirolesa",
+    "De localización"
+   ],
+   "explain": "Es la señal Plaza de peaje (informativa).",
+   "page": 158,
+   "image": "img/senales/s162.webp"
+  },
+  {
+   "id": "u7-s163",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Parada mixta",
+    "Fin ciclovía",
+    "De dirección",
+    "Alojamiento"
+   ],
+   "explain": "Es la señal Parada mixta (informativa).",
+   "page": 158,
+   "image": "img/senales/s163.webp"
+  },
+  {
+   "id": "u7-s164",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Pista solo buses",
+    "Solo bicicletas",
+    "Salida inmediata",
+    "Teléfono público"
+   ],
+   "explain": "Es la señal Pista solo buses (informativa).",
+   "page": 158,
+   "image": "img/senales/s164.webp"
+  },
+  {
+   "id": "u7-s165",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Control fotográfico",
+    "Control con cámara",
+    "Inicio de autopista",
+    "Servicios higiénicos"
+   ],
+   "explain": "Es la señal Control fotográfico (informativa).",
+   "page": 158,
+   "image": "img/senales/s165.webp"
+  },
+  {
+   "id": "u7-s166",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Control con cámara",
+    "Control fotográfico",
+    "Inicio ciclobanda",
+    "Inicio de autopista"
+   ],
+   "explain": "Es la señal Control con cámara (informativa).",
+   "page": 158,
+   "image": "img/senales/s166.webp"
+  },
+  {
+   "id": "u7-s167",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos",
+    "Superficie segregada motorizados-ciclos",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Zona espera especial ciclos (informativa).",
+   "page": 158,
+   "image": "img/senales/s167.webp"
+  },
+  {
+   "id": "u7-s168",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos",
+    "Superficie segregada motorizados-ciclos",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Zona espera especial ciclos (informativa).",
+   "page": 158,
+   "image": "img/senales/s168.webp"
+  },
+  {
+   "id": "u7-st168",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«Zona espera especial ciclos» es una señal informativa.",
+   "page": 158,
+   "image": "img/senales/s168.webp"
+  },
+  {
+   "id": "u7-s169",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de espera adelantada motos",
+    "Zona espera especial ciclos",
+    "Fin Zona 30",
+    "Zona 30"
+   ],
+   "explain": "Es la señal Zona de espera adelantada motos (informativa).",
+   "page": 158,
+   "image": "img/senales/s169.webp"
+  },
+  {
+   "id": "u7-s170",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de espera adelantada motos",
+    "Zona espera especial ciclos",
+    "Fin Zona 30",
+    "Zona 30"
+   ],
+   "explain": "Es la señal Zona de espera adelantada motos (informativa).",
+   "page": 158,
+   "image": "img/senales/s170.webp"
+  },
+  {
+   "id": "u7-s171",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona 30",
+    "Fin Zona 30",
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos"
+   ],
+   "explain": "Es la señal Zona 30 (informativa).",
+   "page": 159,
+   "image": "img/senales/s171.webp"
+  },
+  {
+   "id": "u7-s172",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin Zona 30",
+    "Zona 30",
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos"
+   ],
+   "explain": "Es la señal Fin Zona 30 (informativa).",
+   "page": 159,
+   "image": "img/senales/s172.webp"
+  },
+  {
+   "id": "u7-s173",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Solo bicicletas",
+    "Pista solo buses",
+    "Canopy/tirolesa",
+    "De localización"
+   ],
+   "explain": "Es la señal Solo bicicletas (informativa).",
+   "page": 159,
+   "image": "img/senales/s173.webp"
+  },
+  {
+   "id": "u7-s174",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Inicio ciclobanda",
+    "Inicio de autopista",
+    "Fin ciclobanda",
+    "Teléfono público"
+   ],
+   "explain": "Es la señal Inicio ciclobanda (informativa).",
+   "page": 159,
+   "image": "img/senales/s174.webp"
+  },
+  {
+   "id": "u7-s175",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin ciclobanda",
+    "Inicio ciclobanda",
+    "Plaza de peaje",
+    "Canopy/tirolesa"
+   ],
+   "explain": "Es la señal Fin ciclobanda (informativa).",
+   "page": 159,
+   "image": "img/senales/s175.webp"
+  },
+  {
+   "id": "u7-st175",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Informativa",
+    "Reglamentaria",
+    "De advertencia",
+    "Transitoria"
+   ],
+   "explain": "«Fin ciclobanda» es una señal informativa.",
+   "page": 159,
+   "image": "img/senales/s175.webp"
+  },
+  {
+   "id": "u7-s176",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin ciclovía",
+    "De dirección",
+    "Parada mixta",
+    "Alojamiento"
+   ],
+   "explain": "Es la señal Fin ciclovía (informativa).",
+   "page": 159,
+   "image": "img/senales/s176.webp"
+  },
+  {
+   "id": "u7-s177",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ciclocalle",
+    "Acantilado",
+    "Aeropuerto",
+    "Artesanía"
+   ],
+   "explain": "Es la señal Ciclocalle (informativa).",
+   "page": 159,
+   "image": "img/senales/s177.webp"
+  },
+  {
+   "id": "u7-s178",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Superficie segregada motorizados-ciclos",
+    "Zona espera especial ciclos",
+    "Autopista con televía o sistema complementario",
+    "Zona de espera adelantada motos"
+   ],
+   "explain": "Es la señal Superficie segregada motorizados-ciclos (informativa).",
+   "page": 159,
+   "image": "img/senales/s178.webp"
+  },
+  {
+   "id": "u7-s179",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Superficie segregada motorizados-ciclos",
+    "Zona espera especial ciclos",
+    "Autopista con televía o sistema complementario",
+    "Zona de espera adelantada motos"
+   ],
+   "explain": "Es la señal Superficie segregada motorizados-ciclos (informativa).",
+   "page": 159,
+   "image": "img/senales/s179.webp"
+  },
+  {
+   "id": "u7-s180",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos",
+    "Superficie segregada motorizados-ciclos",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Zona espera especial ciclos (informativa).",
+   "page": 159,
+   "image": "img/senales/s180.webp"
+  },
+  {
+   "id": "u7-s181",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona espera especial ciclos",
+    "Zona de espera adelantada motos",
+    "Superficie segregada motorizados-ciclos",
+    "Fin Zona 30"
+   ],
+   "explain": "Es la señal Zona espera especial ciclos (informativa).",
+   "page": 159,
+   "image": "img/senales/s181.webp"
+  },
+  {
+   "id": "u7-s182",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Trabajos en la vía",
+    "Fin trabajos en la vía",
+    "Curva a la derecha",
+    "Zona de derrumbes"
+   ],
+   "explain": "Es la señal Trabajos en la vía (transitoria).",
+   "page": 160,
+   "image": "img/senales/s182.webp"
+  },
+  {
+   "id": "u7-st182",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Transitoria",
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa"
+   ],
+   "explain": "«Trabajos en la vía» es una señal transitoria.",
+   "page": 160,
+   "image": "img/senales/s182.webp"
+  },
+  {
+   "id": "u7-s183",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin trabajos en la vía",
+    "Trabajos en la vía",
+    "Proyección de gravilla",
+    "Tránsito de maquinaria"
+   ],
+   "explain": "Es la señal Fin trabajos en la vía (transitoria).",
+   "page": 160,
+   "image": "img/senales/s183.webp"
+  },
+  {
+   "id": "u7-s184",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Banderero",
+    "Peligro",
+    "Desvío",
+    "Ancho máximo"
+   ],
+   "explain": "Es la señal Banderero (transitoria).",
+   "page": 160,
+   "image": "img/senales/s184.webp"
+  },
+  {
+   "id": "u7-s185",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Tránsito de maquinaria",
+    "Proyección de gravilla",
+    "Fin trabajos en la vía",
+    "Proximidad de desvío"
+   ],
+   "explain": "Es la señal Tránsito de maquinaria (transitoria).",
+   "page": 160,
+   "image": "img/senales/s185.webp"
+  },
+  {
+   "id": "u7-s186",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva a la derecha",
+    "Curva muy cerrada a la izquierda",
+    "Trabajos en la vía",
+    "Zona de derrumbes"
+   ],
+   "explain": "Es la señal Curva a la derecha (transitoria).",
+   "page": 160,
+   "image": "img/senales/s186.webp"
+  },
+  {
+   "id": "u7-s187",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Curva muy cerrada a la izquierda",
+    "Curva a la derecha",
+    "Fin trabajos en la vía",
+    "Curva cerrada a la izquierda"
+   ],
+   "explain": "Es la señal Curva muy cerrada a la izquierda (transitoria).",
+   "page": 160,
+   "image": "img/senales/s187.webp"
+  },
+  {
+   "id": "u7-s188",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Badén",
+    "Desvío",
+    "Peligro",
+    "Banderero"
+   ],
+   "explain": "Es la señal Badén (transitoria).",
+   "page": 160,
+   "image": "img/senales/s188.webp"
+  },
+  {
+   "id": "u7-s189",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Ancho máximo",
+    "Fin de desvío",
+    "Banderero",
+    "Zona de derrumbes"
+   ],
+   "explain": "Es la señal Ancho máximo (transitoria).",
+   "page": 160,
+   "image": "img/senales/s189.webp"
+  },
+  {
+   "id": "u7-st189",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de señal es esta?",
+   "options": [
+    "Transitoria",
+    "Reglamentaria",
+    "De advertencia",
+    "Informativa"
+   ],
+   "explain": "«Ancho máximo» es una señal transitoria.",
+   "page": 160,
+   "image": "img/senales/s189.webp"
+  },
+  {
+   "id": "u7-s190",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Zona de derrumbes",
+    "Curva a la derecha",
+    "Trabajos en la vía",
+    "Proximidad de desvío"
+   ],
+   "explain": "Es la señal Zona de derrumbes (transitoria).",
+   "page": 160,
+   "image": "img/senales/s190.webp"
+  },
+  {
+   "id": "u7-s191",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proyección de gravilla",
+    "Fin trabajos en la vía",
+    "Tránsito de maquinaria",
+    "Proximidad de desvío"
+   ],
+   "explain": "Es la señal Proyección de gravilla (transitoria).",
+   "page": 160,
+   "image": "img/senales/s191.webp"
+  },
+  {
+   "id": "u7-s192",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Peligro",
+    "Desvío",
+    "Badén",
+    "Banderero"
+   ],
+   "explain": "Es la señal Peligro (transitoria).",
+   "page": 160,
+   "image": "img/senales/s192.webp"
+  },
+  {
+   "id": "u7-s193",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Desvío",
+    "Fin de desvío",
+    "Proximidad de desvío",
+    "Badén"
+   ],
+   "explain": "Es la señal Desvío (transitoria).",
+   "page": 160,
+   "image": "img/senales/s193.webp"
+  },
+  {
+   "id": "u7-s194",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Proximidad de desvío",
+    "Fin de desvío",
+    "Desvío",
+    "Proyección de gravilla"
+   ],
+   "explain": "Es la señal Proximidad de desvío (transitoria).",
+   "page": 160,
+   "image": "img/senales/s194.webp"
+  },
+  {
+   "id": "u7-s195",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta señal?",
+   "options": [
+    "Fin de desvío",
+    "Desvío",
+    "Proximidad de desvío",
+    "Ancho máximo"
+   ],
+   "explain": "Es la señal Fin de desvío (transitoria).",
+   "page": 160,
+   "image": "img/senales/s195.webp"
   }
  ]
 }

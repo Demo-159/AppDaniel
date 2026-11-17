@@ -80,6 +80,7 @@ class ScreenshotTest {
     @Test fun lessonSignCeda() { val vm = lessonWith("u7-15"); shot("11_senal_ceda") { LessonScreen(vm) } }
     @Test fun lessonMatch() { val vm = lessonWith("u11-09"); shot("12_unir_parejas") { LessonScreen(vm) } }
     @Test fun lessonOrder() { val vm = lessonWith("u11-10"); shot("13_ordenar") { LessonScreen(vm) } }
+    @Test fun lessonImage() { val vm = lessonWith("u7-s104"); shot("15_imagen_senal") { LessonScreen(vm) } }
     @Test fun lessonTf() { val vm = lessonWith("u5-08"); shot("14_verdadero_falso") { LessonScreen(vm) } }
 
     @Test fun result() {
