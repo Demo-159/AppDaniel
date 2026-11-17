@@ -237,6 +237,10 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
   se aplican con `multi_falsas/aplicar.py`, que también aplica `sin_libro.json` y verifica que no quede
   "libro"). **No volver a correr `multi.py`/`falsos.json`**: regeneraría las falsas absurdas. Ninguna Marque se
   delata por largo (0 de 113 con todas las verdaderas más largas).
+- **Falsas sin espejo (v2.9):** en las "Marque dos/tres", las falsas NO pueden ser la misma frase de una verdadera
+  dada vuelta (el usuario lo encontró "ridículo": se adivina comparando el par). Cada falsa trata otro dato de la
+  misma página o sesión, alterado. Están en `tools/cobertura/multi_falsas/zz_sin_espejo.json` (se aplica al final
+  y reemplaza a los otros archivos). Control: similitud verdadera/falsa ≤ 0,6 y ninguna con todas las verdaderas más largas.
 - **Auto del mapa (v2.7):** va sobre el camino, antes de la parada siguiente y girado según la curva (`objY=nx.y-126`, curva bézier de `camino()`). Por eso `GAP=260` y los carteles avanzan 220. El globo dice "EMPEZAR" solo en la primera parada de cada capítulo; en las demás, "CONTINUAR".
 - **Doble puntaje en el simulacro (v2.8):** 3 preguntas de 3 categorías importantes distintas, sorteadas en cada
   simulacro y evitando las del anterior (`PR.ultDobles`). 14 categorías en `GRAVES` de `tools/demo-app/build.py`
@@ -252,7 +256,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.8.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.9.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
