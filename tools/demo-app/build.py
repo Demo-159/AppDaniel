@@ -52,17 +52,38 @@ for c in caps:
         L = LEC.setdefault(d["s"], [])
         if not any(x["c"] == e["c"] for x in L): L.append(e)   # varias citas pueden estar en la misma oración
 Q = []
+GRAVES = (  # (código, expresión): alcohol y drogas, protección, velocidad, distancias, adelantamiento,
+    # preferencia de paso, peatones, ciclistas y motos, distracciones, cansancio, noche y clima,
+    # ferrocarril, emergencias, semáforo y Carabineros
+    ("a", r"alcohol|ebri|droga|estupefac|marihuana|cocaína|alcoholemia"),
+    ("p", r"cinturón|casco|retención infantil|\bSRI\b|silla|airbag|bolsa de aire|apoyacabeza"),
+    ("v", r"velocidad|km/h"),
+    ("d", r"distancia de (detención|frenado|reacción|seguimiento)|dos segundos|tres segundos|tiempo normal de reacción"),
+    ("ad", r"adelant"),
+    ("pr", r"preferencia|derecho a paso|ceda el paso|\bpare\b|rotonda|intersecci"),
+    ("pe", r"peat|paso de cebra|cruce peatonal|escolar"),
+    ("vu", r"ciclist|bicicleta|motociclist|motocicleta"),
+    ("di", r"celular|teléfono|distrac"),
+    ("c", r"cansancio|fatiga|sueño|somnolencia|dormi"),
+    ("n", r"noche|lluvia|niebla|neblina|encandil|luces altas|luz alta|hidroplan|aquaplan|nieve|hielo"),
+    ("f", r"ferroca|línea férrea|\btren"),
+    ("e", r"primeros auxilios|herido|\b133\b|triángulo|baliza"),
+    ("s", r"semáforo|carabiner|luz roja|luz amarilla"),
+)
+# preguntas que caen en una categoría solo por una palabra, pero no son de las importantes
+NO_GRAVE = r"glosario|combustible|gastando|cargar gasolina|Teléfono público|estacionar|estacionamiento|Balizas de acercamiento"
 for q in content["questions"]:
     if q["type"] not in ("mc", "img", "multi") or q["id"] not in ses: continue
     s = max(ses[q["id"]], key=orden.get)
     e = {"id": q["id"], "s": s, "q": q["prompt"], "o": q["options"], "e": q["explain"], "p": q["page"]}
     if q["type"] == "multi": e["k"] = q["answers"]
     if q.get("image"): e["i"] = img(q["image"])
-    # tema grave, para las 3 preguntas de doble puntaje del simulacro: a = alcohol y drogas,
-    # p = protección (cinturón, casco, sillas para niños), v = velocidad
-    txt = q["prompt"] + " " + " ".join(q["options"][:q.get("answers", 1)]) + " " + q["explain"]
-    for g, rx in (("a", r"alcohol|ebri|droga|estupefac|marihuana|cocaína"), ("p", r"cinturón|casco|retención infantil|\bSRI\b|silla"), ("v", r"velocidad|km/h")):
-        if re.search(rx, txt, re.I): e["g"] = g; break
+    # categoría importante, para las 3 preguntas de doble puntaje del simulacro (cambian en cada uno;
+    # la app no le dice al alumno cuáles son). Se mira el enunciado y las respuestas correctas.
+    txt = q["prompt"] + " " + " ".join(q["options"][:q.get("answers", 1)])
+    if not re.search(NO_GRAVE, txt, re.I):
+        for g, rx in GRAVES:
+            if re.search(rx, txt, re.I): e["g"] = g; break
     Q.append(e)
 bank = {"C": C, "L": LEC, "Q": Q, "IMG": IMG}
 fuente = base64.b64encode(open(os.path.join(HERE, "fuentes/Nunito-latin.woff2"), "rb").read()).decode()  # Nunito, licencia OFL (fuentes/OFL.txt)
