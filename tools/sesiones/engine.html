@@ -10,7 +10,7 @@ html,body{margin:0;height:100%;overflow:hidden}
 body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;justify-content:center}
 /* ---------- escenario de fondo ---------- */
 #bg{position:fixed;inset:0;overflow:hidden;background:#0E171C}
-.bgl{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.bgl{position:absolute;inset:0;opacity:0;transition:opacity 1s ease}
 .bgl.on{opacity:1}
 .bgl svg{position:absolute;inset:0;width:100%;height:100%;transform-origin:50% 80%;animation:kb 22s ease-in-out infinite alternate}
 @keyframes kb{from{transform:scale(1.03)}to{transform:scale(1.12) translateY(-10px)}}
@@ -38,10 +38,10 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .bar{flex:1;height:14px;border-radius:9px;background:rgba(55,70,79,.85);overflow:hidden}.bar i{display:block;height:100%;width:0;background:var(--green);border-radius:9px;transition:width .6s}
 .cc{font-size:12px;color:var(--muted);background:rgba(19,31,36,.6);border:1px solid var(--line);border-radius:8px;padding:3px 7px;font-family:var(--ui);font-weight:900;cursor:pointer}.cc.on{color:var(--ink);border-color:var(--ink)}
 .stage{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;text-align:center}
-.panel{width:100%;max-height:100%;overflow:auto;display:flex;flex-direction:column;align-items:center;gap:14px;background:rgba(14,23,28,.74);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.09);border-radius:24px;padding:20px 16px;box-shadow:0 24px 60px rgba(0,0,0,.4);transition:transform .5s cubic-bezier(.2,.8,.2,1),opacity .5s,filter .5s}
-.panel.bare{background:none;border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
-.panel.enter{opacity:0;transform:translateX(46px) scale(.95);filter:blur(5px)}
-.panel.leave{opacity:0;transform:translateX(-46px) scale(.95);filter:blur(5px);transition-duration:.28s}
+.panel{width:100%;max-height:100%;overflow:auto;display:flex;flex-direction:column;align-items:center;gap:14px;background:rgba(14,23,28,.88);border:1px solid rgba(255,255,255,.09);border-radius:24px;padding:20px 16px;box-shadow:0 24px 60px rgba(0,0,0,.4);transition:transform .4s cubic-bezier(.2,.8,.2,1),opacity .4s}
+.panel.bare{background:none;border:0;box-shadow:none}
+.panel.enter{opacity:0;transform:translateY(18px)}
+.panel.leave{opacity:0;transform:translateY(-12px);transition-duration:.22s}
 .panel svg{width:100%;height:auto}
 .card{width:100%;display:flex;align-items:center;gap:14px;text-align:left}
 .card .ic{font-size:42px;flex:none;width:64px;height:64px;display:grid;place-items:center;border-radius:20px;background:rgba(255,200,0,.14);animation:pop .5s}
@@ -100,10 +100,10 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.bgl svg,.car,.nube,.gota,.gira,.dash,.dashv{animation:none!important}}
 </style></head><body>
-<div id="bg"><div class="bgl" id="bgA"></div><div class="bgl" id="bgB"></div><div id="vig"></div></div>
+<div id="bg"><div id="vig"></div></div>
 <div class="start" id="start"><div class="big" id="sic"></div><h1 id="stitle"></h1><p id="ssub"></p><button class="btn g" id="go" style="max-width:320px">Empezar</button></div>
 <div class="app">
- <div class="top"><button class="x" onclick="history.back()" aria-label="Salir">✕</button><div class="bar"><i id="prog"></i></div><button class="cc" id="cc" aria-pressed="false">CC</button></div>
+ <div class="top"><button class="x" onclick="location.href='index.html'" aria-label="Salir">✕</button><div class="bar"><i id="prog"></i></div><button class="cc" id="cc" aria-pressed="false">CC</button></div>
  <div class="stage" id="stage"></div>
  <div class="tutor"><div class="cono" id="cono" aria-hidden="true"><svg viewBox="0 0 60 66"><ellipse cx="30" cy="62" rx="24" ry="4" fill="#000" opacity=".3"/><path d="M24 5 Q30 1 36 5 L50 54 H10 Z" fill="#FF9600"/><path d="M19 21 H41 L43.6 30 H16.4Z" fill="#fff"/><rect x="6" y="52" width="48" height="9" rx="3" fill="#E8740C"/><circle cx="24.5" cy="39" r="3" fill="#1A1A1A"/><circle cx="35.5" cy="39" r="3" fill="#1A1A1A"/><circle cx="25.4" cy="38" r="1" fill="#fff"/><circle cx="36.4" cy="38" r="1" fill="#fff"/><ellipse class="mouth" cx="30" cy="46.5" rx="3.6" ry="1.8" fill="#7A2E00"/></svg></div><div id="bub" class="bub" hidden></div></div>
  <div id="foot"></div>
@@ -115,10 +115,7 @@ $('cc').onclick=()=>{cc=!cc;$('cc').classList.toggle('on',cc);$('cc').setAttribu
 // ---------- sonidos suaves (Web Audio, volumen bajo) ----------
 let AC=null;
 function sfx(kind){if(!AC)return;const t=AC.currentTime,g=AC.createGain();g.connect(AC.destination);
- if(kind==='whoosh'){const n=AC.createBufferSource(),b=AC.createBuffer(1,AC.sampleRate*.5,AC.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;n.buffer=b;
-  const f=AC.createBiquadFilter();f.type='bandpass';f.Q.value=1.2;f.frequency.setValueAtTime(300,t);f.frequency.exponentialRampToValueAtTime(1600,t+.45);
-  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.035,t+.15);g.gain.linearRampToValueAtTime(0,t+.5);n.connect(f);f.connect(g);n.start(t);n.stop(t+.5);return}
- const notes=kind==='bien'?[660,990]:kind==='fin'?[523,659,784,1047]:[247,196];
+  const notes=kind==='bien'?[660,990]:kind==='fin'?[523,659,784,1047]:[247,196];
  notes.forEach((hz,i)=>{const o=AC.createOscillator(),e=AC.createGain();o.type='sine';o.frequency.value=hz;o.connect(e);e.connect(g);const s=t+i*.11;
   e.gain.setValueAtTime(0,s);e.gain.linearRampToValueAtTime(kind==='mal'?.04:.06,s+.02);e.gain.exponentialRampToValueAtTime(.0001,s+.3);o.start(s);o.stop(s+.32)})}
 function say(key){return new Promise(res=>{const a=S.audio[key];
@@ -155,8 +152,10 @@ const BG={
  mundo:()=>{const c='c'+(++gid),k=`<path d="M30 20 q40 -30 80 -6 q24 34 -10 56 q-46 12 -70 -50Z M160 4 q46 -14 70 24 q10 46 -34 66 q-36 -12 -36 -90Z M290 40 q36 -24 58 12 q-12 34 -58 -12Z" fill="#46A86E"/>`;
   return `${cielo('#05091A','#121C40','#1C2A55')}${estrellas(52,90,620)}<defs><clipPath id="${c}"><circle cx="200" cy="1080" r="420"/></clipPath></defs><circle cx="200" cy="1080" r="432" fill="none" stroke="#7CC8FF" stroke-width="16" opacity=".22"/><circle cx="200" cy="1080" r="420" fill="#1E64A8"/><g clip-path="url(#${c})"><g class="gira"><g transform="translate(0,690)">${k}</g><g transform="translate(400,690)">${k}</g></g><circle cx="200" cy="1080" r="420" fill="none" stroke="#fff" stroke-width="60" opacity=".06"/></g>`},
 };
-let bgName=null,front=$('bgA'),back=$('bgB');
-function setBg(n){if(!n||n===bgName||!BG[n])return;const first=!bgName;bgName=n;back.innerHTML=`<svg viewBox="0 0 400 860" preserveAspectRatio="xMidYMax slice">${BG[n]()}</svg>`;back.classList.add('on');front.classList.remove('on');[front,back]=[back,front];if(!first)sfx('whoosh')}
+let bgName=null;
+function setBg(n){if(!n||n===bgName||!BG[n])return;bgName=n;const bg=$('bg'),old=[...bg.querySelectorAll('.bgl')];
+ const l=document.createElement('div');l.className='bgl';l.innerHTML=`<svg viewBox="0 0 400 860" preserveAspectRatio="xMidYMax slice">${BG[n]()}</svg>`;
+ bg.insertBefore(l,$('vig'));l.offsetWidth;l.classList.add('on');setTimeout(()=>old.forEach(o=>o.remove()),1100)}
 // ---------- escenas ----------
 const capSes=(S.id.match(/c(\d+)s(\d+)/)||[]).slice(1);
 const ESC={
@@ -173,7 +172,7 @@ const ESC={
 const BARE={titulo:1};
 let cur=null;
 async function swap(html,bare){const w=document.createElement('div');w.className='panel enter'+(bare?' bare':'');w.innerHTML=html;
- if(cur){const old=cur;old.classList.add('leave');await sleep(280);old.remove()}
+ if(cur){const old=cur;old.classList.add('leave');await sleep(220);old.remove()}
  stage.appendChild(w);cur=w;w.offsetWidth;w.classList.remove('enter');return w}
 function animar(w){w.querySelectorAll('[data-to]').forEach(el=>countUp(el,+el.dataset.to));requestAnimationFrame(()=>w.querySelectorAll('[data-w]').forEach(el=>el.style.width=el.dataset.w+'%'))}
 async function show(e){if(!e)return;const html=ESC[e.tipo](e);
@@ -208,21 +207,11 @@ async function desliza(p){const d=p.desliza;let v=d.desde;
  await new Promise(r=>{const c=()=>{if(v>=d.hasta){inp.removeEventListener('input',c);r()}};inp.addEventListener('input',c);c()});
  foot.innerHTML=''}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a}
-// ---------- práctica al final ----------
-async function practica(){const qs=shuffle(S.practica).slice(0,S.maxPractica||4);let ok=0;
- for(const q of qs){const K=q.k||1,picks=new Set();let sel=null;
-  const w=await swap(`<div style="width:100%;text-align:left"><div style="color:var(--gold);font-weight:900;font-size:13px;letter-spacing:1px">PRÁCTICA${K>1?' · MARCA '+K:''}</div><div style="font-weight:900;font-size:19px;margin:6px 0">${q.q}</div>${q.i?`<img class="img" style="display:block;margin:0 auto 8px;max-height:150px" src="${q.i}">`:''}<div class="choices">${shuffle(q.o.map((o,i)=>({o,i}))).map(x=>`<button class="opt" data-i="${x.i}">${x.o}</button>`).join('')}</div><div class="pfb"></div></div>`);
-  foot.innerHTML='<button class="btn g" id="chk" disabled>Comprobar</button>';const chk=$('chk');
-  w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const i=+o.dataset.i;if(K>1){if(picks.has(i)){picks.delete(i);o.classList.remove('sel')}else if(picks.size<K){picks.add(i);o.classList.add('sel')}chk.disabled=picks.size!==K}else{w.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=i;chk.disabled=false}});
-  await new Promise(r=>chk.onclick=r);
-  const good=K>1?[...picks].every(i=>i<K):sel===0;if(good)ok++;sfx(good?'bien':'mal');
-  w.querySelectorAll('.opt').forEach(o=>{o.onclick=null;const i=+o.dataset.i;if(i<K)o.classList.add('good');else if(i===sel||picks.has(i))o.classList.add('bad')});
-  w.querySelector('.pfb').innerHTML=`<div class="fb" style="background:${good?'#203A12':'#3D1A1C'};color:${good?'var(--green)':'var(--red)'}">${good?'¡Bien hecho!':'Revisa las correctas en verde'}<div style="color:var(--ink);font-weight:800;font-size:14px;margin-top:4px">${q.e} <span style="color:var(--muted)">· Libro, pág. ${q.p}</span></div></div>`;
-  w.querySelector('.pfb').scrollIntoView({behavior:'smooth',block:'nearest'});
-  foot.innerHTML='<button class="btn" id="nx">Continuar</button>';await new Promise(r=>$('nx').onclick=r)}
- const w=await swap(`<div style="font-size:76px;animation:pop .6s">🏆</div><h2 style="margin:0">¡Sesión completa!</h2><div class="sub">${ok} de ${qs.length} correctas en la práctica</div>`);
+// ---------- final: la práctica es una lección aparte de la app ----------
+// En la demo web abre index.html#practica=<id>; en Android, interceptar esa URL.
+async function fin(){const w=await swap(`<div style="font-size:76px;animation:pop .6s">🏆</div><h2 style="margin:0">¡Sesión completa!</h2><div class="sub">Ahora practica lo que acabas de aprender</div>`);
  w.style.position='relative';sfx('fin');burst(w,['🎉','⭐','✨','🚦']);
- foot.innerHTML='<button class="btn g" onclick="history.back()">Volver al mapa</button>'}
+ foot.innerHTML=`<button class="btn g" onclick="location.href='index.html#practica=${S.id}'">Practicar lo aprendido</button><button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" onclick="location.href='index.html'">Volver al mapa</button>`}
 // ---------- bucle principal ----------
 const FONDO=(()=>{let f=S.pasos.find(p=>p.fondo)?.fondo||'ciudad';return S.pasos.map(p=>f=p.fondo||f)})();
 async function run(){const P=S.pasos;
@@ -230,7 +219,7 @@ async function run(){const P=S.pasos;
   if(p.elige)await elige(p);
   else if(p.desliza)await desliza(p);
   else{await show(p.escena);if(p.voz)await say(p.voz);if(p.pausa)await sleep(p.pausa)}}
- $('prog').style.width='90%';$('bub').hidden=true;await practica();$('prog').style.width='100%'}
+ $('prog').style.width='100%';$('bub').hidden=true;await fin()}
 setBg(FONDO[0]);
 $('sic').textContent=S.icono||'📘';$('stitle').textContent=S.titulo;$('ssub').textContent=`Sesión con tutor · ${S.minutos||3} min · con sonido 🔊`;
 $('go').onclick=()=>{try{AC=new (window.AudioContext||window.webkitAudioContext)()}catch(e){}

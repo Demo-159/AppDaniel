@@ -104,8 +104,6 @@ def build(sid, check):
     datos = datos_por_sesion().get(sid, [])
     err = reglas(spec, datos)
     if err: print(f"✗ {sid}:\n  " + "\n  ".join(err)); return False
-    content = json.load(open(os.path.join(ROOT, "app/src/main/assets/content.json"), encoding="utf-8"))
-    Q = {q["id"]: q for q in content["questions"]}
     aud, txt, malas = {}, {}, []
     for t in dict.fromkeys(textos(spec)):
         key = "a" + hashlib.sha1(t.encode()).hexdigest()[:8]
@@ -124,21 +122,13 @@ def build(sid, check):
     for p in spec["pasos"]:
         src = (p.get("escena") or {}).get("src")
         if src: imgs[src] = b64(os.path.join(ROOT, "app/src/main/assets", src), "image/webp")
-    practica = []
-    for qid in dict.fromkeys(q for x in datos for q in x["q"]):
-        q = Q.get(qid)
-        if not q or q["type"] not in ("mc", "img", "multi"): continue
-        e = {"q": q["prompt"], "o": q["options"], "e": q["explain"], "p": q["page"]}
-        if q["type"] == "multi": e["k"] = q["answers"]
-        if q.get("image"): e["i"] = b64(os.path.join(ROOT, "app/src/main/assets", q["image"]), "image/webp")
-        practica.append(e)
     S = {"id": sid, "titulo": spec["titulo"], "icono": spec.get("icono"), "minutos": spec.get("minutos", 3),
-         "pasos": pasos, "audio": aud, "textos": txt, "imagenes": imgs, "practica": practica, "maxPractica": spec.get("practica", 4)}
+         "pasos": pasos, "audio": aud, "textos": txt, "imagenes": imgs}
     html = open(os.path.join(HERE, "engine.html"), encoding="utf-8").read()
     html = html.replace("<script>\nconst S=window.SESSION", "<script>window.SESSION=" + json.dumps(S, ensure_ascii=False) + ";</script>\n<script>\nconst S=window.SESSION", 1)
     os.makedirs(DIST, exist_ok=True)
     open(os.path.join(DIST, sid + ".html"), "w", encoding="utf-8").write(html)
-    print(f"✓ {sid}: {len(pasos)} pasos, {len(aud)} audios, {len(practica)} preguntas de práctica, {len(datos)} datos del libro")
+    print(f"✓ {sid}: {len(pasos)} pasos, {len(aud)} audios, {len(datos)} datos del libro")
     for m in malas: print("  ⚠ voz:", m)
     return not malas
 

@@ -95,7 +95,7 @@
    "fondo": "noche"
   },
   {
-   "voz": "Te pregunto: ¿cuál de estos es uno de los factores con mayor incidencia en los siniestros de tránsito?",
+   "voz": "¿Cuál de estos es uno de los factores con mayor incidencia en los siniestros de tránsito?",
    "elige": {
     "pregunta": "¿Cuál es uno de los factores de mayor incidencia en los siniestros?",
     "opciones": [

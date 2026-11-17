@@ -63,7 +63,7 @@
    "fondo": "ciudad"
   },
   {
-   "voz": "Una pregunta para fijarlo. A treinta kilómetros por hora o menos, ¿cuántos peatones de cada diez sobreviven a un impacto?",
+   "voz": "A treinta kilómetros por hora o menos, ¿cuántos peatones de cada diez sobreviven a un impacto?",
    "elige": {
     "pregunta": "A 30 km/h o menos, ¿cuántos peatones sobreviven a un impacto?",
     "opciones": [

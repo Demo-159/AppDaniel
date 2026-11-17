@@ -81,7 +81,7 @@
    "fondo": "cruce"
   },
   {
-   "voz": "Te toca a ti. La ambulancia, el tratamiento y la rehabilitación de un herido, ¿qué tipo de costo son?",
+   "voz": "La ambulancia, el tratamiento y la rehabilitación de un herido, ¿qué tipo de costo son?",
    "elige": {
     "pregunta": "La ambulancia y la rehabilitación son costos…",
     "opciones": [

@@ -26,6 +26,10 @@ El usuario habla español (Chile) y prueba todo desde el teléfono. Responde sie
 | Voz (nov. 2026) | **No cambiar la voz** (lo pidió explícitamente). Evitar la palabra "Exacto": con Giuseppe suena mal; usar "Así es". |
 | Producción | Las sesiones planas le parecieron "muy poco producidas": cada paso lleva `fondo` (escenario animado que cambia), transiciones, mascota Cono que habla y sonidos suaves. |
 | Distractores | Deben ser del **mismo tema** y plausibles; nada de opciones de otro tema que delaten la correcta. |
+| Nada sin enseñar | **Ninguna pregunta puede aparecer sin haberse enseñado antes** (regla del usuario, obligatoria). Cada pregunta se practica en la última sesión de sus datos; la demo solo carga preguntas de sesiones con guion. Revisar cada capítulo nuevo con `python3 tools/sesiones/auditar.py N`. |
+| Práctica | Va **fuera** de la sesión con tutor, como lección aparte con el estilo de la app (Comprobar, franja verde/roja). La sesión termina con "Practicar lo aprendido" → `index.html#practica=<id>`. |
+| Preguntas en la sesión | Solo sobre lo que se acaba de enseñar, nunca antes de enseñarlo, sin hipotéticos ni frases de relleno ("Te toca a ti", "Veamos si quedó claro"). |
+| Transiciones | Sin sonido al cambiar de escena (sonaba raro) y sin desenfoque (se trababa en el teléfono). |
 | Preguntas | Formato del examen real: **selección única con 4 opciones** y **"Marque dos/tres respuestas"**. **Sin verdadero/falso.** Preguntas con **imágenes del propio libro** (señales y figuras). |
 | Simulacro | Como el examen real: **35 preguntas, 3 de doble puntaje, 38 puntos, aprueba con 33, 45 minutos**, resultado por capítulo. |
 | Demos | Rápidos y poco producidos, para aprobar antes de pulir. Publicar como Artifact y dar el link. |
@@ -97,8 +101,9 @@ Convierte un guion JSON en una página HTML autónoma (voz, imágenes y práctic
 como un video interactivo. Es la forma de producir las 115 sesiones.
 
 ### Archivos
-- `engine.html`: reproductor genérico. Lee `window.SESSION`. Escenas, interacciones, subtítulos (CC),
-  barra de progreso, práctica final con "Volver al mapa" (`history.back()`).
+- `engine.html`: reproductor genérico. Lee `window.SESSION`. Escenarios, escenas, interacciones,
+  subtítulos (CC), barra de progreso. Al final: "Practicar lo aprendido" (`index.html#practica=<id>`).
+- `auditar.py N`: muestra lo que enseña cada sesión del capítulo N y las preguntas que se practican ahí.
 - `build.py`: valida el guion, genera audio (con caché en `.cache/`), arma `dist/<id>.html`.
 - `specs/<id>.json`: un guion por sesión. Hechos: `c1s1`…`c1s7` (capítulo 1 completo).
 - `dist/` y `.cache/` están en `.gitignore`.
@@ -139,8 +144,9 @@ escena nueva a `ESC` en `engine.html` y documéntala aquí. Mantén la estética
 3. La voz no dice "km/h" ni empieza con muletillas. (En pantalla sí se puede escribir "km/h".)
 
 Lo que **no** verifica y debes cuidar tú: que la frase de la voz diga lo mismo que la cita del libro (misma
-formulación y matices), español neutro, y que la práctica sea sobre lo enseñado. La práctica final se arma
-sola con las preguntas `mc`/`img`/`multi` ligadas a los datos de la sesión.
+formulación y matices), español neutro, y que cada pregunta pida algo que la sesión dice o muestra
+(revisar con `auditar.py`). La práctica la arma la demo de la app con las preguntas `mc`/`img`/`multi`
+cuya última sesión es esa.
 
 ### Uso
 ```bash

@@ -57,19 +57,28 @@
    "fondo": "noche"
   },
   {
-   "voz": "Piensa un momento. Si un siniestro fuera un suceso eventual, ¿de qué dependería la probabilidad de sufrir uno?",
-   "elige": {
-    "pregunta": "Si un siniestro fuera pura casualidad, ¿de qué dependería sufrir uno?",
-    "opciones": [
-     "Solo del tiempo que pasas al volante",
-     "De tu experiencia al conducir",
-     "Del estado de tu vehículo"
-    ],
-    "bien": "Así es. Dependería solo del tiempo que pasas al volante, pero el libro aclara que no es así.",
-    "mal": "No exactamente. Si fuera pura suerte, dependería solo del tiempo que pasas al volante, y eso no es lo que ocurre."
+   "voz": "Si un siniestro fuera un suceso eventual, la probabilidad de sufrirlo dependería solo del tiempo que pasamos al volante. Pero no es así.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "⏳",
+    "titulo": "No depende solo del tiempo al volante",
+    "texto": "Si fuera casual, sí dependería solo de eso"
    },
    "dato": "c1-05",
    "fondo": "ciudad"
+  },
+  {
+   "voz": "¿Qué muestra que los siniestros no son casuales?",
+   "elige": {
+    "pregunta": "¿Qué muestra que los siniestros no son casuales?",
+    "opciones": [
+     "Aumentan con lluvia, de noche y con alcohol",
+     "Ocurren por igual a cualquier hora del día",
+     "Les ocurren solo a quienes tienen mala suerte"
+    ],
+    "bien": "Así es: aumentan cuando llueve, de noche y cuando las personas han bebido alcohol.",
+    "mal": "Recuerda: aumentan cuando llueve, de noche y cuando las personas han bebido alcohol."
+   }
   },
   {
    "voz": "Por eso se cambió el concepto por siniestros: para relevar sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",

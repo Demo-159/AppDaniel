@@ -56,7 +56,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 <section class="view on" id="v-map">
  <div class="top"><div class="chip">Ruta B</div><div class="chip" style="color:var(--orange)">🔥 4</div></div>
  <div class="scroll" id="scroll"><svg id="map" xmlns="http://www.w3.org/2000/svg"></svg></div>
- <div class="pop" id="pop"><div class="head"><div class="ic" id="pi"></div><div><b id="pt"></b><span id="ps"></span></div></div><button class="btn" id="pb"></button></div>
+ <div class="pop" id="pop"><div class="head"><div class="ic" id="pi"></div><div><b id="pt"></b><span id="ps"></span></div></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
 </section>
 
 <!-- QUIZ (repaso / prueba de capítulo / simulacro) -->
@@ -80,17 +80,19 @@ const CHN={'Capítulo 1':'Cap. 1','Capítulo 2':'Cap. 2','Capítulo 3':'Cap. 3',
 /* ---------- MAP ---------- */
 const STOPS=[
  {sign:1,ch:'Capítulo 1',t:'Los siniestros de tránsito'},
- {n:'Estadísticas de siniestros en Chile',ic:'📊',s:'done',k:3},
- {n:'Sistema Seguro',ic:'🛡️',s:'done',k:3},
- {sign:1,ch:'Capítulo 2',t:'Los principios de la conducción'},
- {n:'Los espejos',ic:'🪞',s:'done',k:2},
- {n:'La energía del movimiento',ic:'⚡',s:'done',k:2},
+ {n:'¿Accidente o siniestro?',ic:'🎲',s:'ses',sid:'c1s1',m:3},
+ {n:'Un problema en el mundo y en Chile',ic:'🌎',s:'next',sid:'c1s2',m:3},
+ {n:'Los costos de los siniestros',ic:'💸',s:'ses',sid:'c1s3',m:3},
+ {n:'Cuántos siniestros y dónde ocurren',ic:'🇨🇱',s:'ses',sid:'c1s4',m:4},
+ {n:'La velocidad y los peatones',ic:'🚶',s:'ses',sid:'c1s5',m:3},
+ {n:'Cuándo ocurren y por qué',ic:'🕐',s:'ses',sid:'c1s6',m:3},
+ {n:'Sistema Seguro',ic:'🛡️',s:'ses',sid:'c1s7',m:4},
  {n:'Repaso',ic:'⛽',s:'review'},
- {n:'Distancia de reacción',ic:'⏱️',s:'next',href:'sesion.html'},
- {n:'Distancia de frenado',ic:'🛑',s:'todo'},
- {n:'Distancia de detención',ic:'📏',s:'todo'},
- {n:'El cinturón de seguridad',ic:'🔒',s:'todo'},
- {n:'Prueba del capítulo 2',ic:'🏁',s:'test',units:['u2','u3']},
+ {n:'Prueba del capítulo 1',ic:'🏁',s:'test',units:['u1']},
+ {sign:1,ch:'Capítulo 2',t:'Los principios de la conducción'},
+ {n:'Los espejos',ic:'🪞',s:'todo'},
+ {n:'La energía del movimiento',ic:'⚡',s:'todo'},
+ {n:'Distancia de reacción',ic:'⏱️',s:'todo'},
  {sign:1,ch:'Capítulo 3',t:'Convivencia Vial'},
  {n:'Convivencia Vial',ic:'🤝',s:'todo'},
  {sign:1,ch:'Examen',t:'Simulacro del examen real'},
@@ -109,13 +111,13 @@ STOPS.filter(s=>s.sign).forEach(s=>{const g=el('g',{transform:`translate(${W/2},
  el('rect',{x:-140,y:-30,width:280,height:62,rx:14,fill:'#1E2B32'},g);
  el('text',{y:-8,'font-size':14,'font-weight':900,fill:'#9AB0BC','text-anchor':'middle'},g).textContent=s.ch.toUpperCase();
  el('text',{y:16,'font-size':17,'font-weight':900,fill:'#fff','text-anchor':'middle'},g).textContent=s.t});
-const COL={done:['#58CC02','#46A302'],review:['#FF9600','#CC7800'],next:['#1CB0F6','#1899D6'],todo:['#37464F','#2A363D'],test:['#FFC800','#C99E00'],exam:['#CE82FF','#A568CC']};
+const COL={ses:['#1CB0F6','#1899D6'],done:['#58CC02','#46A302'],review:['#FF9600','#CC7800'],next:['#1CB0F6','#1899D6'],todo:['#37464F','#2A363D'],test:['#FFC800','#C99E00'],exam:['#CE82FF','#A568CC']};
 pts.forEach(p=>{const g=el('g',{class:'node',transform:`translate(${p.x},${p.y})`,tabindex:0,role:'button','aria-label':p.n});
  const [c,cd]=COL[p.s];
  if(p.s==='next')el('circle',{class:'pulse',r:42,fill:'none',stroke:c,'stroke-width':4},g);
  el('ellipse',{cx:0,cy:8,rx:36,ry:34,fill:cd},g);el('circle',{r:36,fill:c},g);
  el('text',{y:p.s==='done'?13:11,'font-size':p.s==='done'?32:30,'font-weight':900,fill:'#fff','text-anchor':'middle',opacity:p.s==='todo'?.4:1},g).textContent=p.s==='done'?'✓':p.ic;
- if(p.s==='next'||p.s==='exam')el('text',{y:62,'font-size':16,'font-weight':900,fill:'#F1F7FB','text-anchor':'middle'},g).textContent=p.n;
+ if(p.s==='next'||p.s==='ses'||p.s==='exam')el('text',{y:62,'font-size':16,'font-weight':900,fill:'#F1F7FB','text-anchor':'middle'},g).textContent=p.n;
  g.onclick=()=>pop(p);g.onkeydown=e=>{if(e.key==='Enter')pop(p)}});
 // car on the road before the next stop, facing down
 const nx=pts.find(p=>p.s==='next'),pv=pts[pts.indexOf(nx)-1];let best=null;
@@ -129,28 +131,33 @@ el('g',{class:'bob'},el('g',{transform:`translate(${best.q.x},${best.q.y}) rotat
 function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.background=COL[p.s][0];$('pt').textContent=p.n;
  const m={done:['Hecha · repaso en '+(p.k===3?'14 días':'3 días'),'Practicar','g',()=>practice()],
   review:['5 preguntas de lo que estás por olvidar','Cargar combustible','o',()=>practice()],
-  next:['Sesión con tutor · 4 min','Empezar','',()=>{location.href='sesion.html'}],
-  todo:['En este demo solo está hecha Distancia de reacción','Entendido','',null],
-  test:['10 preguntas de todo el capítulo','Hacer la prueba','y',()=>exam({n:10,units:p.units,dbl:0,mins:0,pass:.8,title:'Prueba del capítulo 2'})],
+  next:['Sesión con tutor · '+p.m+' min','Sesión con tutor','',()=>{location.href=p.sid+'.html'},'Practicar',()=>practiceSession(p)],
+  ses:['Sesión con tutor · '+p.m+' min','Sesión con tutor','',()=>{location.href=p.sid+'.html'},'Practicar',()=>practiceSession(p)],
+  todo:['Aún no está hecha: en el demo solo está el capítulo 1','Entendido','',null],
+  test:['10 preguntas de lo que estudiaste en el capítulo','Hacer la prueba','y',()=>exam({n:10,units:p.units,dbl:0,mins:0,pass:.8,title:p.n})],
   exam:['35 preguntas · 38 puntos · aprueba con 33','Ver simulacro','',()=>examIntro()]}[p.s];
  $('ps').textContent=m[0];const b=$('pb');b.textContent=m[1];b.className='btn '+m[2];P.classList.add('on');
- b.onclick=()=>{P.classList.remove('on');m[3]&&m[3]()}}
+ b.onclick=()=>{P.classList.remove('on');m[3]&&m[3]()}
+ const b2=$('pb2');b2.hidden=!m[4];if(m[4]){b2.textContent=m[4];b2.onclick=()=>{P.classList.remove('on');m[5]()}}}
 $('scroll').addEventListener('click',e=>{if(!e.target.closest('.node'))$('pop').classList.remove('on')});
 requestAnimationFrame(()=>{const sc=$('scroll');sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2});
 
 /* ---------- QUESTION ENGINE ---------- */
 let RUN=null,TICK=null;
-function pick(n,units){let pool=BANK.Q.filter(q=>!units||units.includes(q.u));
+function pick(n,units){let pool=BANK.Q.filter(q=>!units||units.includes(q.u));n=Math.min(n,pool.length);
  if(units)return shuffle(pool).slice(0,n);
  // spread across all units, like the real exam covers the whole book
  const by={};pool.forEach(q=>(by[q.u]=by[q.u]||[]).push(q));const keys=Object.keys(by);let out=[],i=0;
  const sh={};keys.forEach(k=>sh[k]=shuffle(by[k]));
  while(out.length<n){const k=keys[i++%keys.length];if(sh[k].length)out.push(sh[k].pop())}return shuffle(out)}
-function practice(){RUN={mode:'practice',qs:pick(5,['u1','u2','u3']),i:0,ans:[]};$('qtime').textContent='';renderQ()}
+function practice(){RUN={mode:'practice',qs:pick(5),i:0,ans:[]};$('qtime').textContent='';renderQ()}
+// práctica de una sesión: solo preguntas de lo que esa sesión terminó de enseñar
+function practiceSession(p){const qs=shuffle(BANK.Q.filter(q=>q.s===p.sid)).slice(0,8);if(!qs.length)return;
+ RUN={mode:'practice',tag:'<span class="tag" style="color:var(--blue)">✏️ PRÁCTICA · '+p.n.toUpperCase()+'</span>',fin:['✏️','¡Práctica completa!'],qs,i:0,ans:[]};$('qtime').textContent='';renderQ()}
 function examIntro(){show('info');
  $('ibody').innerHTML=`<div class="center"><div class="big">🏆</div><div class="q">Simulacro del examen</div><div class="muted">Igual que el examen teórico clase B</div>
  <div class="facts"><div><b>35</b><span>preguntas</span></div><div><b>38</b><span>puntos (3 valen doble)</span></div><div><b>33</b><span>puntos para aprobar</span></div><div><b>45:00</b><span>minutos</span></div></div>
- <div class="muted" style="font-size:13px">No verás si acertaste hasta el final. Las preguntas son de la app, basadas en el libro; el banco oficial no es público.</div></div>`;
+ <div class="muted" style="font-size:13px">Por ahora solo pregunta lo que ya estudiaste (capítulo 1). No verás si acertaste hasta el final. Las preguntas son de la app, basadas en el libro; el banco oficial no es público.</div></div>`;
  $('ifoot').innerHTML='<button class="btn" id="go">Comenzar</button><button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" id="back">Volver al mapa</button>';
  $('go').onclick=()=>exam({n:35,dbl:3,mins:45,passPts:33,title:'Simulacro del examen'});$('back').onclick=()=>show('map')}
 function exam(o){const qs=pick(o.n,o.units);const dbl=new Set(shuffle([...qs.keys()]).slice(0,o.dbl));
@@ -161,21 +168,21 @@ function exam(o){const qs=pick(o.n,o.units);const dbl=new Set(shuffle([...qs.key
 function renderQ(){show('quiz');const R=RUN,q=R.qs[R.i];
  $('qbar').style.width=(R.i/R.qs.length*100)+'%';
  if(!q.ord)q.ord=shuffle([...q.o.keys()]);const K=q.k||1;
- const tag=R.mode==='practice'?'<span class="tag" style="color:var(--orange)">⛽ REPASO</span>':
-  `<span class="tag" style="color:var(--muted)">PREGUNTA ${R.i+1} DE ${R.qs.length}</span>${R.dbl&&R.dbl.has(R.i)?'<span class="dbl">DOBLE PUNTAJE</span>':''}`;
+ const tag=R.tag||(R.mode==='practice'?'<span class="tag" style="color:var(--orange)">⛽ REPASO</span>':
+  `<span class="tag" style="color:var(--muted)">PREGUNTA ${R.i+1} DE ${R.qs.length}</span>${R.dbl&&R.dbl.has(R.i)?'<span class="dbl">DOBLE PUNTAJE</span>':''}`);
  $('qbody').innerHTML=`<div>${tag}${K>1?`<span class="dbl" style="background:var(--blue);color:#fff">MARCA ${K}</span>`:''}</div><div class="q">${q.q}</div>`+(q.i?`<img src="${q.i}" alt="" style="display:block;margin:0 auto 6px;max-height:170px;max-width:80%;border-radius:12px;background:#fff;padding:6px">`:'')+q.ord.map(k=>`<button class="opt" data-k="${k}">${q.o[k]}</button>`).join('');
  const F=$('qfoot');F.className='foot';$('qfb').innerHTML='';const b=$('qbtn');
  b.textContent=R.mode==='practice'?'Comprobar':(R.i===R.qs.length-1?'Terminar':'Siguiente');b.className='btn g';b.disabled=true;let sel=null;const picks=new Set();
  $('qbody').querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const k=+o.dataset.k;if(K>1){if(picks.has(k)){picks.delete(k);o.classList.remove('sel')}else if(picks.size<K){picks.add(k);o.classList.add('sel')}b.disabled=picks.size!==K}else{$('qbody').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=k;b.disabled=false}});
  b.onclick=()=>{const ok=K>1?[...picks].every(k=>k<K):sel===0;R.ans[R.i]={ok,sel};
   if(R.mode==='practice'){$('qbody').querySelectorAll('.opt').forEach(o=>{o.onclick=null;const k=+o.dataset.k;if(k<K)o.classList.add('good');else if(k===sel||picks.has(k))o.classList.add('bad')});
-   F.className='foot '+(ok?'ok':'ko');$('qfb').innerHTML=`<div class="fbt" style="color:${ok?'var(--green)':'var(--red)'}">${ok?'¡Bien hecho!':(K>1?'Las correctas quedaron en verde ↑':'Respuesta correcta: '+q.o[0])}</div><div class="fbx">${K>1?'':q.e}${q.p?` <span class="muted">· Libro, pág. ${q.p}</span>`:''}</div>`;
+   F.className='foot '+(ok?'ok':'ko');$('qfb').innerHTML=`<div class="fbt" style="color:${ok?'var(--green)':'var(--red)'}">${ok?'¡Bien hecho!':(K>1?'Las correctas quedaron en verde ↑':'Respuesta correcta: '+q.o[0])}</div><div class="fbx">${q.e}${q.p?` <span class="muted">· Libro, pág. ${q.p}</span>`:''}</div>`;
    b.textContent='Continuar';b.className='btn '+(ok?'g':'r');b.onclick=next}
   else next()}}
 function next(){RUN.i++;if(RUN.i<RUN.qs.length)renderQ();else finish()}
 function finish(){clearInterval(TICK);const R=RUN;show('info');
  if(R.mode==='practice'){const c=R.ans.filter(a=>a&&a.ok).length;
-  $('ibody').innerHTML=`<div class="center"><div class="big">⛽</div><div class="q">¡Tanque lleno!</div><div class="muted">${c} de ${R.qs.length} correctas</div></div>`;
+  const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${R.qs.length} correctas</div></div>`;
   $('ifoot').innerHTML='<button class="btn g" id="back">Volver al mapa</button>';$('back').onclick=()=>show('map');return}
  let pts=0,max=0;const per={};
  R.qs.forEach((q,i)=>{const v=R.dbl.has(i)?2:1;max+=v;const ok=R.ans[i]&&R.ans[i].ok;if(ok)pts+=v;const ch=BANK.U[q.u].c;(per[ch]=per[ch]||[0,0]);per[ch][1]++;if(ok)per[ch][0]++});
@@ -189,4 +196,6 @@ function finish(){clearInterval(TICK);const R=RUN;show('info');
  $('ifoot').innerHTML=(miss.length?'<button class="btn o" id="rep">Agregar lo fallado a mi repaso ⛽</button>':'')+'<button class="btn g" id="back">Volver al mapa</button>';
  $('back').onclick=()=>show('map');if($('rep'))$('rep').onclick=()=>{$('rep').textContent='✓ Agregado a tu repaso';$('rep').disabled=true}}
 $('qx').onclick=()=>{clearInterval(TICK);show('map')};
+// al terminar una sesión con tutor se vuelve con #practica=<id>
+(()=>{const m=location.hash.match(/practica=(\w+)/);if(!m)return;history.replaceState(null,'',location.pathname);const p=STOPS.find(s=>s.sid===m[1]);if(p)practiceSession(p)})();
 </script></body></html>

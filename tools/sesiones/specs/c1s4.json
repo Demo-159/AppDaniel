@@ -102,7 +102,28 @@
    "fondo": "carretera"
   },
   {
-   "voz": "Ahora piensa: si la mayoría de los siniestros ocurre en la ciudad, ¿dónde crees que muere la mayor parte de las personas?",
+   "voz": "Pero la mayor parte de las personas fallecidas por siniestros de tránsito se produce en vías interurbanas o no urbanas.",
+   "escena": {
+    "tipo": "vs",
+    "items": [
+     {
+      "icono": "🏙️",
+      "titulo": "Ciudad",
+      "texto": "Más siniestros"
+     },
+     {
+      "icono": "🛣️",
+      "titulo": "Fuera de la ciudad",
+      "texto": "Más personas fallecidas",
+      "marca": "mal"
+     }
+    ]
+   },
+   "dato": "c1-22",
+   "fondo": "carretera"
+  },
+  {
+   "voz": "¿Dónde se produce la mayor parte de las personas fallecidas?",
    "elige": {
     "pregunta": "¿Dónde se produce la mayor parte de las personas fallecidas?",
     "opciones": [
@@ -110,10 +131,9 @@
      "En los cruces de la ciudad",
      "En calles residenciales"
     ],
-    "bien": "Así es. Aunque fuera de la ciudad hay menos siniestros, ahí se produce la mayor parte de las personas fallecidas.",
-    "mal": "Es sorprendente, pero no. La mayor parte de las personas fallecidas se produce en vías interurbanas o no urbanas."
-   },
-   "dato": "c1-22"
+    "bien": "Así es: en vías interurbanas o no urbanas, aunque ahí ocurran menos siniestros.",
+    "mal": "Recuerda: la mayor parte se produce en vías interurbanas o no urbanas."
+   }
   },
   {
    "voz": "En cambio, en las zonas urbanas se produce la mayor cantidad de lesionados, sobre treinta y cinco mil al año, aunque en su mayoría de menor gravedad que en carreteras.",
