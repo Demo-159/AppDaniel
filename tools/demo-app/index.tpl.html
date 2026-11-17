@@ -148,7 +148,8 @@ document.addEventListener('pointerdown',()=>{if(!AC)try{AC=new (window.AudioCont
 function sfx(kind){if(!AC)return;if(AC.state==='suspended')AC.resume();const t=AC.currentTime;
  const notes=kind==='bien'?[[784,0],[1175,.1]]:kind==='fin'?[[523,0],[659,.12],[784,.24],[1047,.36]]:[[247,0],[196,.13]];
  notes.forEach(([hz,d])=>{const o=AC.createOscillator(),e=AC.createGain();o.type=kind==='mal'?'triangle':'sine';o.frequency.value=hz;o.connect(e);e.connect(AC.destination);const st=t+d;
-  e.gain.setValueAtTime(0,st);e.gain.linearRampToValueAtTime(kind==='mal'?.05:.08,st+.015);e.gain.exponentialRampToValueAtTime(.0001,st+(kind==='fin'?.45:.32));o.start(st);o.stop(st+.5)})}
+  e.gain.setValueAtTime(0,st);e.gain.linearRampToValueAtTime(kind==='mal'?.22:.32,st+.015);e.gain.exponentialRampToValueAtTime(.0001,st+(kind==='fin'?.45:.32));o.start(st);o.stop(st+.5);
+  if(kind!=='mal'){const o2=AC.createOscillator();o2.type='triangle';o2.frequency.value=hz*2;const e2=AC.createGain();o2.connect(e2);e2.connect(AC.destination);e2.gain.setValueAtTime(0,st);e2.gain.linearRampToValueAtTime(.06,st+.015);e2.gain.exponentialRampToValueAtTime(.0001,st+.25);o2.start(st);o2.stop(st+.3)}})}
 /* ---------- QUESTION ENGINE ---------- */
 let RUN=null,TICK=null;
 function pick(n,units){let pool=BANK.Q.filter(q=>!units||units.includes(q.u));n=Math.min(n,pool.length);

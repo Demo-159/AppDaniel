@@ -142,7 +142,7 @@ let AC=null;
 function sfx(kind){if(!AC)return;const t=AC.currentTime,g=AC.createGain();g.connect(AC.destination);
   const notes=kind==='bien'?[660,990]:kind==='fin'?[523,659,784,1047]:[247,196];
  notes.forEach((hz,i)=>{const o=AC.createOscillator(),e=AC.createGain();o.type='sine';o.frequency.value=hz;o.connect(e);e.connect(g);const s=t+i*.11;
-  e.gain.setValueAtTime(0,s);e.gain.linearRampToValueAtTime(kind==='mal'?.04:.06,s+.02);e.gain.exponentialRampToValueAtTime(.0001,s+.3);o.start(s);o.stop(s+.32)})}
+  e.gain.setValueAtTime(0,s);e.gain.linearRampToValueAtTime(kind==='mal'?.22:.32,s+.02);e.gain.exponentialRampToValueAtTime(.0001,s+.3);o.start(s);o.stop(s+.32)})}
 function marcas(text){if(!cur)return[];const t=(text||'').toLowerCase(),L=t.length||1;
  const at=w=>{const i=t.indexOf(w.toLowerCase());return i<0?0:Math.max(0,i/L-.03)};
  return [...cur.querySelectorAll('[data-w],[data-h]')].flatMap(el=>[...(el.dataset.w?[{el,f:at(el.dataset.w),h:0}]:[]),...(el.dataset.h?[{el,f:at(el.dataset.h),h:1}]:[])])}
