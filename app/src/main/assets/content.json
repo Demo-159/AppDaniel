@@ -12554,7 +12554,7 @@
     "En las vías urbanas se produce la mayor cantidad de lesionados, aunque en general con lesiones menos graves que en carretera.",
     "Según el Sistema Seguro, el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto.",
     "La mayor parte de las personas fallecidas en siniestros se registra en las vías urbanas, sobre todo en los cruces.",
-    "Un peatón atropellado a 30 km/h o menos tiene apenas un 10% de probabilidad de sobrevivir."
+    "Un peatón atropellado a 50 km/h tiene un 90% de probabilidad de sobrevivir."
    ],
    "answers": 2,
    "explain": "En ciudad hay más de 35.000 lesionados al año; en carretera las lesiones suelen ser más graves. Es uno de sus principios: el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto antes de que el daño ocurra.",
@@ -12618,7 +12618,7 @@
     "Debes usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
     "Para contaminar menos, conviene llenar el estanque cada vez que vayas a recargar combustible.",
     "Las frenadas y aceleraciones frecuentes causan alto consumo de combustible.",
-    "Si al conducir sientes un fuerte olor a gasolina, puedes seguir: es normal mientras el motor esté caliente.",
+    "Si al conducir sientes un fuerte olor a gasolina, conviene abrir las ventanas y seguir hasta el próximo servicentro.",
     "Los vapores de la gasolina no son inflamables mientras no haya una llama directa cerca del estanque."
    ],
    "answers": 3,
@@ -12651,7 +12651,7 @@
     "Conducir presionando el embrague más tiempo del necesario reduce el control sobre el vehículo.",
     "Los vehículos con caja de cambios automática no tienen pedal de embrague.",
     "El monóxido de carbono de los gases de escape es fácil de detectar porque tiene un olor fuerte.",
-    "Un ruido anormalmente alto del tubo de escape es normal cuando el motor está recién encendido."
+    "Un ruido anormalmente alto del tubo de escape suele indicar que falta aceite en el motor."
    ],
    "answers": 2,
    "explain": "El embrague interrumpe la transmisión de energía a las ruedas; abusar de él reduce el control. Las cajas se clasifican en automática y manual; los vehículos automáticos carecen de pedal de embrague.",
@@ -12668,7 +12668,7 @@
     "Con amortiguadores en mal estado, la fatiga aparece con mayor facilidad en quien conduce.",
     "El freno de mano suele actuar directamente sobre las ruedas traseras.",
     "La suspensión y la amortiguación sirven sobre todo para que el auto alcance más velocidad en recta.",
-    "Topar soleras o caer en hoyos no influye en la alineación de la dirección del vehículo."
+    "La dirección se desalinea más rápido sobre todo por usar neumáticos de distinta marca."
    ],
    "answers": 3,
    "explain": "Es uno de los síntomas de amortiguadores en mal estado. Disminuye el confort y la fatiga aparece con mayor facilidad. Suele actuar directamente sobre las ruedas traseras, bloqueándolas.",
@@ -12733,7 +12733,7 @@
     "Cuando llevas una carga muy pesada, conviene aumentar levemente la presión de los neumáticos.",
     "Subir escalones o veredas con el vehículo puede deformar las llantas y cortar los neumáticos.",
     "La presión de los neumáticos se mide mejor después de un viaje largo, con los neumáticos calientes.",
-    "Si revienta un neumático delantero, conviene frenar fuerte y soltar el volante para que se enderece solo."
+    "Si revienta un neumático delantero, conviene frenar fuerte y girar hacia el lado contrario al que se va el auto."
    ],
    "answers": 2,
    "explain": "Aumenta levemente la presión cuando llevas una carga muy pesada. Pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos.",
@@ -12749,7 +12749,7 @@
     "Las luces exteriores sirven para ver y también para ser visto por las demás personas.",
     "Los automóviles deben tener una tercera luz de freno al centro de la luneta trasera.",
     "Los espejos laterales convexos muestran los objetos más cerca y más grandes de lo que son en realidad.",
-    "Las luces neblineras se pueden usar siempre de noche, aunque la visibilidad sea buena."
+    "Las luces neblineras se pueden usar con lluvia normal para que los demás te vean mejor."
    ],
    "answers": 2,
    "explain": "Los vehículos deben tener focos y luces exteriores para ver y ser visto, y para advertir maniobras. Automóviles, jeeps, furgones, station wagon, camionetas y transporte escolar.",
@@ -12765,7 +12765,7 @@
     "Un mal ajuste de los focos puede encandilar a otras personas y causar un siniestro.",
     "Un objeto suelto dentro del vehículo puede lesionar a alguien en una frenada brusca.",
     "Debes usar un calzado que te permita un adecuado control de los pedales.",
-    "Con los espejos bien regulados no queda ninguna zona alrededor del vehículo que no puedas ver.",
+    "Con los espejos bien regulados, los puntos ciegos quedan solo delante del vehículo.",
     "Para controlar tus luces bajas frente a una pared, conviene estacionarte a un metro de ella."
    ],
    "answers": 3,
@@ -12797,7 +12797,7 @@
    "options": [
     "Si no tienes buena visibilidad por los vidrios, debes activar el ventilador y el desempañador.",
     "A una velocidad demasiado alta, la fricción puede no ser suficiente para mantener el vehículo en la carretera.",
-    "Al tomar el volante, los brazos deben quedar completamente estirados para tener más control.",
+    "Al tomar el volante, los brazos deben quedar estirados, con los codos rectos, para tener más control.",
     "La bocina no es uno de los elementos que se deben controlar antes de conducir, porque casi no se usa."
    ],
    "answers": 2,
@@ -12814,8 +12814,8 @@
     "La experiencia en conducción permite tener mejores tiempos de reacción.",
     "La distancia de frenado es distinta en asfalto seco y en asfalto mojado.",
     "Quien planifica su conducción y reduce a tiempo la velocidad usa menos el freno y aumenta su seguridad.",
-    "Si duplicas la velocidad, la energía del movimiento solo se duplica.",
-    "Un vehículo que se aproxima a una curva tiende a girar solo hacia el interior de la curva."
+    "Si duplicas la velocidad, la energía del movimiento se multiplica por 2.",
+    "Un vehículo que se aproxima a una curva tiende a girar hacia el interior de ella."
    ],
    "answers": 3,
    "explain": "Existe la variable relacionada a la experiencia, que permite tener mejores tiempos de reacción. La distancia de frenado cambia según la velocidad y el estado del asfalto, seco o mojado. Disminuir a tiempo la presión sobre el acelerador hace usar menos el freno y aumenta la seguridad.",
@@ -12830,7 +12830,7 @@
    "options": [
     "La presión de aire de los neumáticos puede influir en que el auto gire más o menos de lo esperado.",
     "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles.",
-    "En un auto de tracción delantera, si las ruedas patinan por acelerar demasiado, conviene acelerar más.",
+    "En un auto de tracción delantera, si las ruedas patinan por acelerar demasiado, conviene frenar fuerte.",
     "El centro de gravedad del vehículo es el punto donde se encuentra su menor peso."
    ],
    "answers": 2,
@@ -12927,8 +12927,8 @@
    "options": [
     "El alcohol y las drogas disminuyen las facultades para conducir.",
     "Conducir en situaciones de estrés es un factor de riesgo.",
-    "El principio de confianza consiste en suponer que las demás personas siempre cometerán errores.",
-    "La velocidad inadecuada está presente en muy pocos siniestros con víctimas, casi siempre en carretera."
+    "El principio de confianza consiste en confiar en que tu vehículo responderá bien en cualquier situación.",
+    "La velocidad inadecuada está presente en la mitad de los siniestros con víctimas."
    ],
    "answers": 2,
    "explain": "Es uno de los principales factores de riesgo. Junto con la fatiga, el cansancio, el sueño y el consumo de fármacos.",
@@ -12962,7 +12962,7 @@
     "Una de las claves de la Convivencia Vial es ver y ser visible.",
     "Conducir a la defensiva implica no dar por hecho que los demás se dieron cuenta de tu presencia.",
     "La mejor virtud al conducir es la rapidez para llegar antes a destino.",
-    "Una velocidad adecuada y segura es la máxima que permite la vía, sin importar las condiciones."
+    "Una velocidad adecuada y segura es la máxima permitida por la señalización de la vía."
    ],
    "answers": 3,
    "explain": "Quienes conducen son integrantes de la circulación junto con ellos. La prevención será siempre tu principal defensa. Es una de las claves de la Convivencia Vial.",
@@ -13009,8 +13009,8 @@
    "options": [
     "Una buena regla es desconfiar de las propias percepciones y no conducir con cansancio.",
     "Hacer dos cosas a la vez al conducir es especialmente riesgoso para quienes tienen poca experiencia.",
-    "Fumar o comer mientras conduces no influye en la seguridad si mantienes una mano en el volante.",
-    "Los indicios del entorno para juzgar distancias solo importan en los primeros metros delante del vehículo."
+    "Comer mientras conduces es aceptable en carretera si el tránsito es fluido.",
+    "Los indicios del entorno para juzgar distancias se vuelven más importantes a menos de 10 metros."
    ],
    "answers": 2,
    "explain": "Con niebla, oscuridad o encandilamiento los indicios faltan o son confusos. Pueden perder con mayor facilidad el control del vehículo.",
@@ -13092,7 +13092,7 @@
     "El error al estimar el punto de cruce aumenta cuanto mayor es la diferencia de velocidad entre los vehículos.",
     "La publicidad que incita al riesgo influye en las personas conductoras jóvenes.",
     "Al aumentar la velocidad, el campo visual se amplía y se ve mejor lo que pasa a los lados.",
-    "A 130 km/h el campo visual es aproximadamente de 100°, igual que a 35 km/h."
+    "A 130 km/h, el campo visual es aproximadamente de 100°."
    ],
    "answers": 2,
    "explain": "El cerebro supone que ambos van a la misma velocidad. Es una de sus particularidades.",
@@ -13140,8 +13140,8 @@
    "options": [
     "Las sanciones por alcohol aumentan si hay reincidencia o si se participa en un siniestro.",
     "Después de unos tragos, la visión periférica disminuye aunque la persona no lo note.",
-    "El estado de ebriedad comienza con una alcoholemia de 0,3 g/l.",
-    "Con una alcoholemia entre 0,3 y 0,5 g/l, el riesgo de sufrir un siniestro es el mismo que sin alcohol."
+    "El estado de ebriedad comienza con una alcoholemia de 0,5 g/l.",
+    "Con una alcoholemia entre 0,3 y 0,5 g/l, el riesgo de sufrir un siniestro es cinco veces mayor."
    ],
    "answers": 2,
    "explain": "Con daños materiales, personas fallecidas y/o con lesiones. La visión directa puede parecer normal, pero la periférica disminuye.",
@@ -13156,7 +13156,7 @@
    "options": [
     "A mayores concentraciones de alcohol puede aparecer visión doble.",
     "Si se bebe en poco tiempo, el punto máximo de alcohol en el organismo será mayor.",
-    "Con apenas 0,1 g/l de alcohol en la sangre no se produce ningún efecto en la conducta.",
+    "Con 0,1 g/l de alcohol en la sangre todavía no se afecta el comportamiento; eso empieza sobre 0,3 g/l.",
     "El alcohol afecta a todos los órganos por igual; el cerebro no es más afectado que los demás."
    ],
    "answers": 2,
@@ -13205,7 +13205,7 @@
    "options": [
     "La apnea obstructiva del sueño puede provocar somnolencia al conducir.",
     "Los antihistamínicos para la alergia pueden provocar somnolencia al volante.",
-    "Después de un infarto, se aconseja volver a conducir apenas se sale del hospital.",
+    "Después de un infarto, se aconseja esperar una semana antes de volver a conducir.",
     "La hipertensión arterial no tiene riesgos para el tránsito si la persona se siente bien."
    ],
    "answers": 2,
@@ -13254,8 +13254,8 @@
    "options": [
     "Antes de consumir medicamentos debes consultar al médico sobre sus riesgos para conducir.",
     "El cansancio provoca siniestros principalmente en carreteras.",
-    "Si un medicamento no dice nada sobre la conducción, se puede asumir que no tiene ningún riesgo.",
-    "El cansancio solo es peligroso en viajes de más de diez horas seguidas."
+    "Los medicamentos para la alergia no afectan la conducción si se toman la noche anterior.",
+    "El cansancio aparece sobre todo en los primeros minutos del viaje."
    ],
    "answers": 2,
    "explain": "Así podrás adoptar los cuidados necesarios. Es una causa importante, sobre todo en carreteras.",
@@ -13271,8 +13271,8 @@
     "Con sueño es más fácil sufrir un deslumbramiento por luces altas.",
     "En las fases finales del cansancio aparecen movimientos involuntarios de la cabeza.",
     "Si sientes cansancio, mientras buscas dónde detenerte debes dejar entrar aire fresco.",
-    "Los microsueños duran varios minutos y la persona siempre se da cuenta de ellos.",
-    "Según datos internacionales, el sueño se asocia a menos del 2% de los siniestros."
+    "Los microsueños son periodos de sueño de varios minutos.",
+    "Según datos internacionales, el sueño se asocia a cerca del 5% de los siniestros."
    ],
    "answers": 3,
    "explain": "La visión se vuelve borrosa y cuesta enfocar. Debes detenerte a descansar mucho antes de esos síntomas. Nunca permitas que tu apuro arriesgue tu vida.",
@@ -13305,7 +13305,7 @@
     "Con fatiga se puede frenar bruscamente al escuchar una bocina.",
     "Conducir por un camino desconocido favorece la aparición de la fatiga.",
     "Los cambios de postura frecuentes muestran que la persona va cómoda y descansada.",
-    "La fatiga solo aparece después de conducir de noche."
+    "Una bebida energética elimina la fatiga y permite seguir conduciendo varias horas."
    ],
    "answers": 2,
    "explain": "Reacciones bruscas y desproporcionadas ante sonidos repentinos. Obliga a prestar atención durante todo el recorrido.",
@@ -13320,7 +13320,7 @@
    "options": [
     "Entre las infracciones de peatones destacan bajar sorpresivamente a la calzada y cruzar de manera indebida.",
     "Peatones con audífonos o pendientes del celular pueden bajar a la calzada sin cuidado.",
-    "Los atropellos son cerca del 15% de los siniestros y representan menos del 5% de las personas fallecidas.",
+    "Los atropellos son cerca del 15% de los siniestros y también cerca del 15% de las personas fallecidas.",
     "Al pasar junto a un bus detenido en una parada puedes mantener la velocidad si la pista está libre."
    ],
    "answers": 2,
@@ -13354,7 +13354,7 @@
     "Una persona mayor podría devolverse o detenerse en la calzada al cruzar.",
     "En general, las personas mayores que conducen tienen gran experiencia y son prudentes.",
     "Para cruzar una calle de 16 metros, una persona mayor necesita el mismo tiempo que una persona joven.",
-    "Ante peatones ebrios, conviene tocar la bocina y mantener la velocidad para que se aparten."
+    "Ante peatones ebrios, conviene tocar la bocina para advertirles y seguir con cuidado."
    ],
    "answers": 3,
    "explain": "Es uno de los problemas que encuentran en la vía. O descender inesperadamente a la calzada. Aunque la edad trae alteraciones que pueden afectar la conducción.",
@@ -13402,8 +13402,8 @@
     "Por la falta de carrocería, los siniestros en motocicleta resultan fácilmente fatales.",
     "Los triciclos motorizados de carga suelen circular a velocidad reducida y sin carrocería.",
     "Un ciclista en la acera podría incorporarse a la calzada sin previo aviso.",
-    "Al pasar a una persona ciclista basta con dejar medio metro de distancia lateral.",
-    "Cerca de animales o personas a caballo conviene tocar la bocina para que se aparten."
+    "Al pasar a una persona ciclista debes dejar una distancia lateral mínima de 1 metro.",
+    "Cerca de animales o personas a caballo conviene hacer un cambio de luces para avisarles."
    ],
    "answers": 3,
    "explain": "La probabilidad de muerte es mucho más alta que en un vehículo cerrado. Las motos son pequeñas y difíciles de ver. Mantén la atención.",
@@ -13419,7 +13419,7 @@
     "Los ciclos no tienen espejos retrovisores.",
     "Una persona ciclista puede usar un cruce peatonal para cruzar una intersección.",
     "Si vas a virar a la derecha y hay un ciclista delante tuyo cerca del cruce, conviene adelantarlo antes de virar.",
-    "Solo se considera ciclista a quien usa una bicicleta; los scooters y patines no son ciclos."
+    "Quien usa scooter o patines se considera peatón, no ciclista."
    ],
    "answers": 2,
    "explain": "Además, pueden quedar en tus puntos ciegos. Ten cuidado de noche: no siempre llevan luces.",
@@ -13452,7 +13452,7 @@
     "Para usar solo el cinturón, el niño debe apoyar completamente la espalda y los pies en el piso.",
     "El SRI se debe usar desde el primer viaje, incluso al salir del centro de salud donde nace el bebé.",
     "Los menores de 12 años pueden viajar en el asiento delantero si usan el cinturón.",
-    "El SRI es obligatorio solo hasta los 4 años de edad, sin importar la estatura ni el peso del niño."
+    "El Sistema de Retención Infantil es obligatorio hasta los 6 años inclusive, aunque el niño sea pequeño."
    ],
    "answers": 3,
    "explain": "Es exigible a los vehículos particulares. Si no se cumple, necesita un SRI. Debe usarse desde que nacen hasta que puedan usar el cinturón directamente.",
@@ -13467,8 +13467,8 @@
    "options": [
     "El uso incorrecto del cinturón puede lesionar órganos como hígado, intestinos, vejiga y riñones.",
     "La instalación de un SRI no debe interferir con el sistema de retención de los demás pasajeros.",
-    "El SRI debe instalarse mirando hacia adelante desde los primeros meses de vida.",
-    "Un SRI mal instalado protege igual que uno bien instalado si el viaje es corto y dentro de la ciudad."
+    "Cuando un niño ya usa el cinturón, la banda superior debe pasar cerca del cuello para que no se suelte.",
+    "Se recomienda instalar el SRI a contramarcha (mirando hacia atrás) solo hasta los 6 meses."
    ],
    "answers": 2,
    "explain": "Lesiones que pueden comprometer seriamente la vida. Todos deben viajar con un sistema adecuado.",
@@ -13483,7 +13483,7 @@
    "options": [
     "No respetar la luz roja de un semáforo es una infracción gravísima.",
     "Con luz verde puedes continuar o virar, salvo que una señal prohíba el viraje.",
-    "La luz amarilla intermitente indica que debes acelerar para cruzar antes de que cambie a roja.",
+    "La luz amarilla intermitente indica que debes detenerte por completo, igual que con luz roja.",
     "Con luz roja debes detenerte sobre el paso de peatones, después de la línea de detención."
    ],
    "answers": 2,
@@ -13565,7 +13565,7 @@
     "Al ponerte en marcha después de una detención, debes ceder el paso a vehículos y peatones.",
     "Puedes avisar a quienes van detrás pisando ligeramente el freno para que se enciendan las luces.",
     "Si el eje de calzada no está demarcado, la calzada se divide en dos partes iguales y circulas por la derecha.",
-    "Si se acerca por detrás una ambulancia con sirena encendida, debes acelerar para despejarle el camino.",
+    "Si se acerca una ambulancia con sirena, debes mantener tu pista y velocidad para no confundirla.",
     "En un área rural, quien llega por un camino secundario tiene preferencia sobre quien va por la vía principal."
    ],
    "answers": 3,
@@ -13597,7 +13597,7 @@
    "options": [
     "Conviene aumentar la distancia detrás de un vehículo con patente extranjera en la ciudad.",
     "En carretera de una pista por sentido, debes ir lo más cerca posible del borde derecho.",
-    "Al pasar junto a vehículos estacionados basta con dejar unos pocos centímetros de espacio lateral.",
+    "Al pasar junto a vehículos estacionados basta con dejar unos 30 cm de espacio lateral.",
     "Los buses de transporte público están eximidos de dejar espacio para que otro los adelante."
    ],
    "answers": 2,
@@ -13646,8 +13646,8 @@
    "options": [
     "Con varias pistas en tu dirección, eliges la derecha para virar a la derecha.",
     "Puedes entrar a una pista exclusiva de transporte público solo donde está permitido y es necesario para virar.",
-    "El viraje en U está permitido en los cruces si no viene ningún vehículo.",
-    "En una rotonda señalizas a la derecha apenas entras, aunque tu salida esté lejos."
+    "El viraje en U está permitido a 100 metros de una curva si hay buena visibilidad.",
+    "En una rotonda señalizas a la derecha en el momento en que entras a ella."
    ],
    "answers": 2,
    "explain": "Y la izquierda para virar a la izquierda. Cuando la segregación es con línea discontinua.",
@@ -13713,7 +13713,7 @@
     "Al adelantar, debes pensar que quien viene en contra va más rápido de lo que crees.",
     "Si alguien detrás tuyo ya empezó a adelantarte, debes esperar a que termine antes de adelantar.",
     "Si un auto viene de frente invadiendo tu pista, conviene correrte a la izquierda.",
-    "Si el vehículo que viene de frente patina en pavimento resbaladizo, conviene frenar a fondo de inmediato."
+    "Si el vehículo que viene de frente patina, conviene tocar la bocina y mantener tu posición en la pista."
    ],
    "answers": 3,
    "explain": "Desconfía siempre de los vehículos que vienen en sentido contrario. Y no cuentes con ayuda del que adelantas: puede acelerar. Mira los espejos y por encima del hombro.",
@@ -13729,7 +13729,7 @@
     "Adelantar un vehículo largo es más arriesgado.",
     "Si aparece un vehículo en contra o sientes inseguridad, debes interrumpir el adelantamiento.",
     "A 90 km/h, con otro a 90 km/h en contra a 350 m, alcanzas a terminar un adelantamiento de 8 segundos.",
-    "Antes de adelantar basta con preguntarte si el motor tiene potencia suficiente."
+    "Antes de adelantar, la pregunta clave es si el vehículo de adelante va bajo el límite de velocidad."
    ],
    "answers": 2,
    "explain": "Mantén espacio detrás de él para ver mejor hacia adelante. En lugar de hacerlo sin certeza.",
@@ -13762,7 +13762,7 @@
     "Al estacionar no debes dejar niños pequeños ni animales dentro del vehículo.",
     "No puedes estacionar a menos de 10 metros de la entrada de un hospital.",
     "Al estacionar en una calle en subida, las ruedas se dejan giradas hacia la cuneta.",
-    "Entre tu vehículo y otros estacionados basta con dejar unos 10 cm."
+    "Entre tu vehículo y otros estacionados debes dejar al menos 30 cm."
    ],
    "answers": 3,
    "explain": "Al lado izquierdo solo si la señalización lo permite. Además: motor detenido, enganchado, freno de mano, sacar la llave y cerrar. Tampoco de un cuartel de bombas o posta.",
@@ -13777,8 +13777,8 @@
    "options": [
     "Donde solo está prohibido estacionar, puedes detenerte el tiempo mínimo para tomar o dejar pasajeros.",
     "Puedes detenerte en un lugar reservado a otro si permaneces en tu vehículo para irte cuando llegue.",
-    "Puedes estacionar a 5 metros de un paradero de locomoción colectiva si no viene ningún bus en ese momento.",
-    "Conducir marcha atrás está permitido en cualquier tramo de la vía, siempre que vayas despacio."
+    "Puedes estacionar a 10 metros de un paradero de locomoción colectiva, si no tapas la entrada del bus.",
+    "Conducir marcha atrás está permitido para salir de un taco o para volver si te equivocaste de pista."
    ],
    "answers": 2,
    "explain": "Pero no donde la señal prohíbe estacionar y detenerse. Debes abandonar el lugar cuando llegue quien goza de la reserva.",
@@ -13794,7 +13794,7 @@
     "De noche en una vía sin alumbrado, debes dejar encendidas las luces de estacionamiento.",
     "Si te detienes por una avería en un lugar no autorizado, debes instalar los dispositivos reflectantes.",
     "Al retroceder no debes confiar en los espejos para juzgar la distancia.",
-    "Si bajas del auto por una emergencia en la vía, basta con encender las luces interiores.",
+    "Si bajas del auto por una emergencia en la vía, debes usar un chaleco reflectante naranjo.",
     "Puedes estacionar a 5 metros de la entrada de un recinto militar o policial."
    ],
    "answers": 3,
@@ -13827,7 +13827,7 @@
     "El riesgo de siniestro es mayor de noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad.",
     "De noche o con niebla, el tráfico que viene en contra parece estar más lejos de lo que está.",
     "De noche conviene acortar la distancia con el vehículo de adelante para guiarte por sus luces.",
-    "De noche, descubrir un obstáculo depende solo de la potencia de tus luces."
+    "De noche, descubrir un obstáculo depende principalmente de la potencia de tus luces."
    ],
    "answers": 2,
    "explain": "Los ojos tardan en acomodarse y aparecen efectos de ceguera. Se difuminan colores y contornos; cuidado al adelantar.",
@@ -13875,7 +13875,7 @@
    "options": [
     "Cuando te adelantan de noche, bajas las luces cuando el otro aparece oblicuo a tu izquierda.",
     "Los vehículos a tracción animal deben llevar faroles con luz blanca adelante y roja atrás.",
-    "Si de noche ves un solo foco adelante, se trata siempre de un auto con una luz quemada.",
+    "Si de noche ves un solo foco adelante, lo más probable es que sea un camión.",
     "Las luces amarillas superiores de un camión o bus indican que el vehículo va a virar o detenerse."
    ],
    "answers": 2,
@@ -13908,7 +13908,7 @@
     "Llevar objetos duros o pesados en el estante de atrás es peligroso.",
     "Para arrastrar un remolque ancho puedes instalar espejos extra o brazos de prolongación.",
     "Un remolque con frenos debe tener uno de emergencia que actúe solo si se rompe el enganche.",
-    "Con licencia Clase B puedes arrastrar cualquier remolque, sin importar su peso total.",
+    "Con licencia Clase B puedes arrastrar un remolque si el peso total no supera los 5.000 kg.",
     "Si ves que a un vehículo se le cae parte de su carga, conviene adelantarlo y hacerle señas con las luces."
    ],
    "answers": 3,
@@ -13924,8 +13924,8 @@
    "options": [
     "Antes de partir con remolque, el freno de estacionamiento del remolque debe estar suelto.",
     "Antes de usar una autopista, debes tener combustible para llegar al menos a la próxima estación de servicio.",
-    "Si el remolque empieza a zigzaguear, conviene frenar a fondo de inmediato para detener el movimiento.",
-    "Todo remolque debe tener frenos propios, aunque su capacidad de carga sea de solo 100 kilogramos."
+    "Si el remolque empieza a zigzaguear, conviene acelerar un poco para que se estabilice y vuelva a su línea.",
+    "Un remolque debe tener frenos propios desde los 300 kg de capacidad de carga."
    ],
    "answers": 2,
    "explain": "También: carga bien distribuida, buen enganche, luces y espejos. Y presión correcta, aceite y agua.",
@@ -13941,7 +13941,7 @@
     "Usar una autopista sin un sistema de pago (TAG o pase diario) es sancionado.",
     "En autopista la regla de los tres segundos es imprescindible.",
     "Para entrar a una autopista te detienes al final de la pista de aceleración y esperas.",
-    "Para facilitar el acceso a quienes entran a la autopista conviene acelerar y cerrarles el espacio."
+    "Para facilitar el acceso a quienes entran a la autopista, conviene mantener tu velocidad para que calculen bien."
    ],
    "answers": 2,
    "explain": "Averigua otras formas de pago si no tienes TAG. Conduce a velocidad constante y sin exceder los límites.",
@@ -13973,7 +13973,7 @@
    "options": [
     "Al entrar a un túnel conviene quitarse los lentes de sol.",
     "En un atochamiento dentro de un túnel debes encender de inmediato las luces de emergencia.",
-    "Si tu vehículo falla dentro de un túnel, conviene bajarte y caminar por la pista hasta la salida.",
+    "Si tu vehículo falla dentro de un túnel, conviene llamar desde el celular y esperar fuera del vehículo.",
     "Dentro de un túnel, pedir ayuda por celular es mejor que usar el teléfono SOS."
    ],
    "answers": 2,
@@ -14023,7 +14023,7 @@
     "Los primeros copos de nieve son tan peligrosos como las primeras gotas de lluvia.",
     "Con nieve conviene seguir las huellas de otros vehículos y procurar no adelantar.",
     "Para pasar por un tramo inundado conviene ir rápido para no quedar detenido en el agua.",
-    "Después de pasar por un tramo inundado, los frenos se secan solos y no hace falta revisarlos."
+    "Después de pasar por un tramo inundado, conviene frenar fuerte una vez para secar los frenos."
    ],
    "answers": 2,
    "explain": "Se forma un barrillo muy deslizante. Cuida de no dañar las partes bajas con los montículos centrales.",
@@ -14038,7 +14038,7 @@
    "options": [
     "Con nieve, las bajadas se hacen lento y en marcha baja, frenando con el motor.",
     "Al atardecer, donde la nieve tiene más brillo es posible que haya hielo.",
-    "Con nieve, las cadenas se ponen solo en las ruedas que no son motrices del vehículo.",
+    "Con nieve, las cadenas se ponen como mínimo en las cuatro ruedas.",
     "Con nieve conviene usar en general la marcha más baja posible, aunque vayas en plano."
    ],
    "answers": 2,
@@ -14071,7 +14071,7 @@
     "Con niebla densa no debes adelantar si no ves bien hacia adelante.",
     "El viento lateral fuerte puede provocar la salida del camino o el volcamiento.",
     "Con niebla se usan las luces altas para ver más lejos.",
-    "Las luces de niebla traseras se usan siempre de noche, aunque no haya niebla."
+    "Las luces de niebla traseras se usan con cualquier niebla, aunque sea leve."
    ],
    "answers": 2,
    "explain": "Fíjate en las demarcaciones para seguir la trayectoria. Sobre todo en caminos de montaña.",
@@ -14120,7 +14120,7 @@
     "Acelerar a fondo genera un consumo excesivo de combustible.",
     "Las marchas más bajas consumen más combustible que las altas.",
     "Un filtro de combustible en mal estado puede aumentar el consumo en un 20%.",
-    "Un filtro de aire sucio no influye en el rendimiento del vehículo."
+    "Un filtro de aire sucio puede perjudicar el rendimiento hasta en un 15%."
    ],
    "answers": 3,
    "explain": "También permite conducir seguro, mantener el rendimiento y tener el vehículo disponible. Acelera de manera suave. En marchas altas el motor trabaja a menores RPM.",
@@ -14152,8 +14152,8 @@
    "options": [
     "Una conducción segura es la base para una Conducción Eficiente.",
     "El estrés aumenta el riesgo y también el consumo de combustible.",
-    "Revisar los filtros del vehículo no influye en el consumo de combustible.",
-    "Ir a alta velocidad no cambia el rendimiento de combustible."
+    "Un filtro de combustible en mal estado puede aumentar el consumo en un 5%.",
+    "A altas velocidades, el rendimiento de combustible se reduce apenas en un 1%."
    ],
    "answers": 2,
    "explain": "Los principios de seguridad dan como resultado eficiencia. Quien conduce agresivo ignora las técnicas de eficiencia.",
@@ -14185,7 +14185,7 @@
     "Al llamar a emergencias debes indicar el lugar exacto y la cantidad de vehículos y víctimas.",
     "Sin entrenamiento, no debes quitar la ropa al lesionado; busca abrigo para él.",
     "En un vehículo eléctrico o híbrido siniestrado, la línea de alto voltaje se reconoce por su aislante de color verde.",
-    "Darse a la fuga sin avisar a la autoridad se sanciona solo con una multa."
+    "Darse a la fuga sin avisar a la autoridad es una infracción grave, pero no un delito."
    ],
    "answers": 2,
    "explain": "Mantén la calma y sigue las indicaciones. E: exposición.",
@@ -14251,7 +14251,7 @@
     "Exceder hasta en 10 km/h el límite de velocidad es una infracción menos grave.",
     "Conducir con una licencia falsa es un delito que puede ser sancionado con prisión.",
     "Conducir sin cinturón o sin que los pasajeros lo usen es una infracción leve.",
-    "Conducir con la placa patente oculta es una infracción leve que solo se sanciona con una advertencia."
+    "Conducir con la placa patente oculta es una infracción grave."
    ],
    "answers": 3,
    "explain": "El resto de las señales son infracción grave. De 11 a 20: grave; de 20 a 60: gravísima. También usar placas falsas o certificados falsos.",
@@ -14282,8 +14282,8 @@
    "options": [
     "Ante una falla de frenos puedes usar el freno de mano de forma suave y progresiva.",
     "El plomo es un metal pesado que provoca lesiones en el sistema nervioso central.",
-    "Ante una falla total de frenos, lo primero es apagar el motor y sacar la llave.",
-    "Si nada funciona ante una falla total de frenos, conviene chocar de frente contra otro vehículo."
+    "Ante una falla total de frenos, lo primero es apagar el motor para que el vehículo se detenga.",
+    "Si nada funciona ante una falla total de frenos, conviene poner neutro y dejar que el auto ruede."
    ],
    "answers": 2,
    "explain": "Con cuidado para no bloquear las ruedas. Es uno de los contaminantes emitidos por vehículos.",
@@ -14298,8 +14298,8 @@
    "options": [
     "Mantener el motor en ralentí provoca emisiones innecesarias.",
     "Antes de cada viaje en un vehículo eléctrico conviene revisar la autonomía y planificar la carga.",
-    "El dióxido de carbono de los vehículos no contribuye al efecto invernadero.",
-    "Un vehículo eléctrico no necesita planificar sus viajes porque su autonomía es ilimitada."
+    "El contaminante de los vehículos que más contribuye al efecto invernadero es el monóxido de carbono.",
+    "Con un vehículo eléctrico basta con cargarlo una vez por semana, sin planificar cada viaje."
    ],
    "answers": 2,
    "explain": "También las velocidades altas y las aceleraciones enérgicas. Así no te quedarás sin energía durante el trayecto.",
@@ -14347,8 +14347,8 @@
     "Sobrepasar es pasar a otro vehículo sin traspasar el eje de la calzada.",
     "Un vehículo de transporte escolar está construido para más de siete personas sentadas.",
     "Los límites de la zona urbana los determinan y señalizan las Municipalidades.",
-    "Un triciclo motorizado de carga puede llevar hasta 2.000 kilogramos.",
-    "Un vehículo de transporte escolar es cualquier automóvil que lleve a un solo niño al colegio."
+    "Un triciclo motorizado de carga puede llevar hasta 500 kilogramos.",
+    "Un ciclo es cualquier vehículo de dos ruedas, incluidas las motocicletas."
    ],
    "answers": 3,
    "explain": "Adelantar es hacerlo por el costado izquierdo del eje. Destinado al transporte de escolares. La zona rural es la que excluye las urbanas.",
