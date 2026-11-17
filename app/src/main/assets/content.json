@@ -8695,6 +8695,561 @@
    "type": "tf",
    "prompt": "Conducir por un camino desconocido favorece la aparición de la fatiga.",
    "answer": true
+  },
+  {
+   "id": "u6-22",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Niñas y niños, peatones en general (sobre todo personas mayores), ciclistas, motociclistas, entre otras.",
+   "type": "mc",
+   "prompt": "¿Quiénes son usuarios más vulnerables en las vías según el libro?",
+   "options": [
+    "Niños, peatones, ciclistas y motociclistas",
+    "Conductores de camiones y de buses",
+    "Solo conductores con poca experiencia",
+    "Solo conductores de vehículos antiguos"
+   ]
+  },
+  {
+   "id": "u6-23",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Junto con sus pasajeros, representan casi la mitad de las víctimas mortales (OMS).",
+   "type": "mc",
+   "prompt": "En el mundo, peatones, ciclistas y motociclistas son…",
+   "options": [
+    "Casi la mitad de las víctimas mortales",
+    "Cerca del 10% de las víctimas mortales",
+    "Cerca del 90% de las víctimas mortales",
+    "Una parte muy pequeña de las víctimas"
+   ]
+  },
+  {
+   "id": "u6-24",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Tienden a moverse de forma más impredecible, por eso es difícil anticiparse.",
+   "type": "mc",
+   "prompt": "¿Cómo se llama el espacio que rodea a los usuarios vulnerables cuando circulan por la vía?",
+   "options": [
+    "Zona de incertidumbre",
+    "Zona de seguridad",
+    "Punto ciego",
+    "Zona de detención"
+   ]
+  },
+  {
+   "id": "u6-25",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Por ejemplo, no usar pasos peatonales o pasarelas, o no respetar semáforos.",
+   "type": "tf",
+   "prompt": "Entre las infracciones de peatones destacan bajar sorpresivamente a la calzada y cruzar de manera indebida.",
+   "answer": true
+  },
+  {
+   "id": "u6-26",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Ten mucha precaución.",
+   "type": "tf",
+   "prompt": "Peatones con audífonos o pendientes del celular pueden bajar a la calzada sin cuidado.",
+   "answer": true
+  },
+  {
+   "id": "u6-27",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Debes estar siempre alerta.",
+   "type": "tf",
+   "prompt": "Como persona conductora debes anticiparte a las posibles infracciones de los peatones.",
+   "answer": true
+  },
+  {
+   "id": "u6-28",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 68,
+   "explain": "Probablemente no te han visto.",
+   "type": "tf",
+   "prompt": "Los peatones pueden salir repentinamente detrás o delante de vehículos estacionados.",
+   "answer": true
+  },
+  {
+   "id": "u6-29",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "Calles comerciales concurridas, áreas residenciales, cerca de colegios, carros de venta o pequeños poblados.",
+   "type": "mc",
+   "prompt": "¿Dónde debes conducir con cuidado y a baja velocidad por la presencia de peatones?",
+   "options": [
+    "En calles comerciales y cerca de colegios",
+    "Solo en autopistas de alta velocidad",
+    "Solo en caminos rurales de noche",
+    "Solo en estacionamientos techados"
+   ]
+  },
+  {
+   "id": "u6-30",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "Es mejor darles la preferencia que provocar un siniestro.",
+   "type": "mc",
+   "prompt": "Ante peatones ebrios, ¿qué debes hacer?",
+   "options": [
+    "Reducir la velocidad y darles la preferencia",
+    "Tocar la bocina para que se aparten",
+    "Acelerar para pasar rápido",
+    "Encender las luces altas"
+   ]
+  },
+  {
+   "id": "u6-31",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "Pueden tener dificultades auditivas; dales tiempo para cruzar.",
+   "type": "tf",
+   "prompt": "Siempre puedes asumir que los peatones escuchan tu vehículo.",
+   "answer": false
+  },
+  {
+   "id": "u6-32",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "También: exceso de ruido, menor movilidad, distinguir colores del semáforo y orientación.",
+   "type": "mc",
+   "prompt": "¿Cuál es un problema que enfrentan las personas mayores en la vía pública?",
+   "options": [
+    "Dificultad para apreciar la velocidad de los vehículos",
+    "Exceso de pasos peatonales en todos sus barrios",
+    "Calles demasiado angostas para caminar tranquilos",
+    "Semáforos con luces que cambian demasiado lento"
+   ]
+  },
+  {
+   "id": "u6-33",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "Es uno de los problemas que encuentran en la vía.",
+   "type": "tf",
+   "prompt": "Algunas personas mayores tienen dificultad para distinguir bien los colores del semáforo.",
+   "answer": true
+  },
+  {
+   "id": "u6-34",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "O descender inesperadamente a la calzada.",
+   "type": "tf",
+   "prompt": "Una persona mayor podría devolverse o detenerse en la calzada al cruzar.",
+   "answer": true
+  },
+  {
+   "id": "u6-35",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 69,
+   "explain": "Aunque la edad trae alteraciones que pueden afectar la conducción.",
+   "type": "tf",
+   "prompt": "En general, las personas mayores que conducen tienen gran experiencia y son prudentes.",
+   "answer": true
+  },
+  {
+   "id": "u6-36",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "Tienen más riesgo en situaciones que exigen respuesta rápida.",
+   "type": "mc",
+   "prompt": "¿Cómo debes actuar con personas mayores que conducen?",
+   "options": [
+    "Darles tiempo suficiente y no presionarlas",
+    "Tocar la bocina para que avancen",
+    "Adelantarlas siempre que puedas",
+    "Pegarte a su vehículo para apurarlas"
+   ]
+  },
+  {
+   "id": "u6-37",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "Es tu responsabilidad que no ocurra un siniestro.",
+   "type": "tf",
+   "prompt": "Muchos siniestros ocurren cuando niñas y niños cruzan repentinamente la calle corriendo.",
+   "answer": true
+  },
+  {
+   "id": "u6-38",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "Tienen una estatura pequeña.",
+   "type": "mc",
+   "prompt": "¿Por qué un niño puede no ser visto detrás de un vehículo estacionado?",
+   "options": [
+    "Por su estatura pequeña",
+    "Porque usa ropa muy clara",
+    "Porque camina muy despacio",
+    "Porque siempre va acompañado"
+   ]
+  },
+  {
+   "id": "u6-39",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "También actúan impulsivamente y todo es juego.",
+   "type": "tf",
+   "prompt": "Niñas y niños tienen dificultad para juzgar la distancia y la velocidad.",
+   "answer": true
+  },
+  {
+   "id": "u6-40",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "También en áreas residenciales, cerca de colegios y de carros de golosinas o helados.",
+   "type": "mc",
+   "prompt": "¿Cuándo debes estar preparado para detener tu vehículo por presencia de niños?",
+   "options": [
+    "Al pasar un transporte escolar detenido",
+    "Al circular por una autopista vacía",
+    "Al estacionar en un subterráneo",
+    "Al cargar combustible en la noche"
+   ]
+  },
+  {
+   "id": "u6-41",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "Mantente preparado para detenerte.",
+   "type": "tf",
+   "prompt": "Cerca de un carro de helados los niños se interesan más en este que en el tránsito.",
+   "answer": true
+  },
+  {
+   "id": "u6-42",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 70,
+   "explain": "Donde es más frecuente encontrarlas.",
+   "type": "mc",
+   "prompt": "En zonas rurales, ¿dónde debes prestar más atención a personas a caballo?",
+   "options": [
+    "En las curvas a la derecha",
+    "En las rectas largas",
+    "En los puentes",
+    "En las bajadas"
+   ]
+  },
+  {
+   "id": "u6-43",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Mantén una distancia lateral prudente.",
+   "type": "tf",
+   "prompt": "Si un jinete va en tu dirección y vienen muchos vehículos en contra, debes esperar antes de adelantarle.",
+   "answer": true
+  },
+  {
+   "id": "u6-44",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "La probabilidad de muerte es mucho más alta que en un vehículo cerrado.",
+   "type": "tf",
+   "prompt": "Por la falta de carrocería, los siniestros en motocicleta resultan fácilmente fatales.",
+   "answer": true
+  },
+  {
+   "id": "u6-45",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Por las altas velocidades es difícil percibirlas a tiempo.",
+   "type": "mc",
+   "prompt": "¿Dónde son frecuentes las colisiones con motociclistas?",
+   "options": [
+    "En intersecciones",
+    "En estacionamientos",
+    "En túneles",
+    "En peajes"
+   ]
+  },
+  {
+   "id": "u6-46",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Las motos son pequeñas y difíciles de ver.",
+   "type": "tf",
+   "prompt": "Los triciclos motorizados de carga suelen circular a velocidad reducida y sin carrocería.",
+   "answer": true
+  },
+  {
+   "id": "u6-47",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Todos los ciclos son vehículos y deben cumplir la normativa de tránsito.",
+   "type": "mc",
+   "prompt": "Según el libro, ¿quién es una persona ciclista?",
+   "options": [
+    "Quien usa bicicleta, scooter, patines u otro ciclo",
+    "Solo quien usa una bicicleta con pedales",
+    "Solo quien compite en carreras",
+    "Quien camina junto a una bicicleta"
+   ]
+  },
+  {
+   "id": "u6-48",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Por eso debes dejar al menos 1,5 metros de espacio lateral.",
+   "type": "mc",
+   "prompt": "¿Cuándo es más probable que un ciclista se desvíe o tambalee?",
+   "options": [
+    "Con viento fuerte o en subidas",
+    "En bajadas con poco tráfico",
+    "En calles planas de día",
+    "Cuando lleva casco puesto"
+   ]
+  },
+  {
+   "id": "u6-49",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 71,
+   "explain": "Mantén la atención.",
+   "type": "tf",
+   "prompt": "Un ciclista en la acera podría incorporarse a la calzada sin previo aviso.",
+   "answer": true
+  },
+  {
+   "id": "u6-50",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 72,
+   "explain": "Además, pueden quedar en tus puntos ciegos.",
+   "type": "tf",
+   "prompt": "Los ciclos no tienen espejos retrovisores.",
+   "answer": true
+  },
+  {
+   "id": "u6-51",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 72,
+   "explain": "Ten cuidado de noche: no siempre llevan luces.",
+   "type": "tf",
+   "prompt": "Una persona ciclista puede usar un cruce peatonal para cruzar una intersección.",
+   "answer": true
+  },
+  {
+   "id": "u6-52",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 72,
+   "explain": "Así evitas que choque contra la puerta.",
+   "type": "tf",
+   "prompt": "Antes de abrir la puerta cerca de una ciclovía, debes mirar si viene un ciclista.",
+   "answer": true
+  },
+  {
+   "id": "u6-53",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Impiden que las puertas puedan ser abiertas desde el interior.",
+   "type": "mc",
+   "prompt": "¿Para qué sirven los seguros de niños en las puertas?",
+   "options": [
+    "Impiden abrirlas desde el interior",
+    "Impiden que se rayen los vidrios",
+    "Bloquean las ventanas eléctricas",
+    "Mantienen el auto con alarma activa"
+   ]
+  },
+  {
+   "id": "u6-54",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "En todo tipo de viaje.",
+   "type": "tf",
+   "prompt": "Es obligación de la persona conductora usar el SRI al transportar niñas y niños.",
+   "answer": true
+  },
+  {
+   "id": "u6-55",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Fallecieron 497; el 45% como pasajero de un vehículo; 36.221 resultaron con lesiones.",
+   "type": "mc",
+   "prompt": "De los menores de 12 años fallecidos en siniestros en la última década en Chile, ¿qué porcentaje iba como pasajero?",
+   "options": [
+    "El 45%",
+    "El 15%",
+    "El 80%",
+    "El 5%"
+   ]
+  },
+  {
+   "id": "u6-56",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Desde 2006; en marzo de 2016 y marzo de 2017 aumentaron las exigencias.",
+   "type": "mc",
+   "prompt": "¿Desde qué año es obligatorio trasladar a niñas y niños en SRI?",
+   "options": [
+    "2006",
+    "2016",
+    "2017",
+    "2012"
+   ]
+  },
+  {
+   "id": "u6-57",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Hasta 8 años inclusive, o 135 cm o menos y 33 kg.",
+   "type": "mc",
+   "prompt": "Además de la edad, ¿qué estatura y peso obligan a usar SRI?",
+   "options": [
+    "Hasta 135 cm y 33 kg",
+    "Hasta 100 cm y 20 kg",
+    "Hasta 150 cm y 45 kg",
+    "Hasta 120 cm y 25 kg"
+   ]
+  },
+  {
+   "id": "u6-58",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Es exigible a los vehículos particulares.",
+   "type": "tf",
+   "prompt": "La obligación de usar SRI no rige en el transporte público ni en el transporte escolar.",
+   "answer": true
+  },
+  {
+   "id": "u6-59",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 73,
+   "explain": "Falta gravísima: multa de 1,5 a 3 UTM y suspensión de 5 a 45 días.",
+   "type": "mc",
+   "prompt": "¿Qué suspensión de licencia arriesga quien no usa el SRI cuando corresponde?",
+   "options": [
+    "De 5 a 45 días",
+    "De 3 a 6 meses",
+    "De 1 a 2 años",
+    "De 1 a 3 días"
+   ]
+  },
+  {
+   "id": "u6-60",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 74,
+   "explain": "La banda inferior va sobre los muslos, no sobre el abdomen; espalda apoyada y pies en el piso.",
+   "type": "mc",
+   "prompt": "Cuando un niño ya usa el cinturón, ¿por dónde debe pasar la banda superior?",
+   "options": [
+    "Por la mitad del hombro y pecho",
+    "Por encima del cuello",
+    "Por debajo del brazo",
+    "Por detrás de la espalda"
+   ]
+  },
+  {
+   "id": "u6-61",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 74,
+   "explain": "Debe ir bien ajustada sobre la parte superior de los muslos.",
+   "type": "tf",
+   "prompt": "En un niño, la banda inferior del cinturón debe ir sobre el abdomen.",
+   "answer": false
+  },
+  {
+   "id": "u6-62",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 74,
+   "explain": "Si no se cumple, necesita un SRI.",
+   "type": "tf",
+   "prompt": "Para usar solo el cinturón, el niño debe apoyar completamente la espalda y los pies en el piso.",
+   "answer": true
+  },
+  {
+   "id": "u6-63",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 74,
+   "explain": "Fíjalo según el manual y sujeta al niño con el arnés o el cinturón.",
+   "type": "mc",
+   "prompt": "¿Qué produce un SRI mal instalado?",
+   "options": [
+    "Una falsa sensación de seguridad",
+    "Más protección que uno bien puesto",
+    "Menor consumo de combustible",
+    "Una multa automática"
+   ]
+  },
+  {
+   "id": "u6-64",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 74,
+   "explain": "Lesiones que pueden comprometer seriamente la vida.",
+   "type": "tf",
+   "prompt": "El uso incorrecto del cinturón puede lesionar órganos como hígado, intestinos, vejiga y riñones.",
+   "answer": true
+  },
+  {
+   "id": "u6-65",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 75,
+   "explain": "Todos deben viajar con un sistema adecuado.",
+   "type": "tf",
+   "prompt": "La instalación de un SRI no debe interferir con el sistema de retención de los demás pasajeros.",
+   "answer": true
+  },
+  {
+   "id": "u6-66",
+   "unit": "u6",
+   "lesson": 2,
+   "page": 75,
+   "explain": "ASN: acreditación SRI; luego marca, modelo, año y número correlativo.",
+   "type": "mc",
+   "prompt": "En el código de acreditación de un SRI, ¿qué indica “3CV”?",
+   "options": [
+    "El Centro de Control y Certificación Vehicular",
+    "La marca del fabricante de la silla infantil",
+    "El año en que se acreditó la silla infantil",
+    "El nombre del modelo de la silla infantil"
+   ]
   }
  ]
 }

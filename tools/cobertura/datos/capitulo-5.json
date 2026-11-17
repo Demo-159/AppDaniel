@@ -1,0 +1,647 @@
+{
+ "capitulo": 5,
+ "titulo": "Las y los usuarios vulnerables",
+ "unidades": [
+  "u6"
+ ],
+ "paginas": [
+  30,
+  75
+ ],
+ "sesiones": [
+  {
+   "id": "c5s1",
+   "titulo": "Quiénes son los usuarios vulnerables y los peatones"
+  },
+  {
+   "id": "c5s2",
+   "titulo": "Cómo actuar frente a peatones"
+  },
+  {
+   "id": "c5s3",
+   "titulo": "Personas de edad avanzada"
+  },
+  {
+   "id": "c5s4",
+   "titulo": "Las niñas y niños en la vía"
+  },
+  {
+   "id": "c5s5",
+   "titulo": "Vehículos a tracción animal y motociclistas"
+  },
+  {
+   "id": "c5s6",
+   "titulo": "Personas ciclistas"
+  },
+  {
+   "id": "c5s7",
+   "titulo": "Niñas y niños en el automóvil: la ley"
+  },
+  {
+   "id": "c5s8",
+   "titulo": "Uso correcto y elección del SRI"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c5-01",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-22"
+   ],
+   "cita": "Estas corresponden a niñas y niños, peatones en general (particularmente personas mayores), personas ciclistas, motociclistas, entre otras."
+  },
+  {
+   "id": "c5-02",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-23"
+   ],
+   "cita": "Peatones, ciclistas y motociclistas, junto con sus pasajeros, representan casi la mitad de las víctimas mortales por causa del tránsito en el mundo."
+  },
+  {
+   "id": "c5-03",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-01"
+   ],
+   "cita": "En Chile, los atropellos representan aproximadamente el 15% de los siniestros, sin embargo, las personas atropelladas fallecidas en estos siniestros corresponden aproximadamente al 28% del total de fallecidas."
+  },
+  {
+   "id": "c5-04",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-24"
+   ],
+   "cita": "La alta siniestralidad de estas personas usuarias de las vías se relaciona con su comportamiento en la zona de incertidumbre"
+  },
+  {
+   "id": "c5-05",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-25"
+   ],
+   "cita": "entre las que destacan descender sorpresivamente a la calzada y cruzar de manera indebida, es decir, no utilizar los pasos peatonales, pasarelas o no respetar los semáforos."
+  },
+  {
+   "id": "c5-06",
+   "p": 68,
+   "s": "c5s1",
+   "q": [
+    "u6-26"
+   ],
+   "cita": "Muchas personas escuchan música por audífonos a modo tal, que se encuentran aisladas acústicamente de todo lo que les rodea."
+  },
+  {
+   "id": "c5-07",
+   "p": 68,
+   "s": "c5s2",
+   "q": [
+    "u6-27"
+   ],
+   "cita": "Estar siempre alerta y anticiparte a las posibles infracciones de las y los peatones."
+  },
+  {
+   "id": "c5-08",
+   "p": 68,
+   "s": "c5s2",
+   "q": [
+    "u6-02"
+   ],
+   "cita": "en la pista derecha hay un vehículo detenido antes de un paso de cebra, debes disminuir la velocidad y prepararte para detener tu vehículo"
+  },
+  {
+   "id": "c5-09",
+   "p": 68,
+   "s": "c5s2",
+   "q": [
+    "u6-03"
+   ],
+   "cita": "Al pasar cerca de un bus detenido en una parada, debes disminuir tu velocidad ya que un peatón podría aparecer sorpresivamente"
+  },
+  {
+   "id": "c5-10",
+   "p": 68,
+   "s": "c5s2",
+   "q": [
+    "u6-28"
+   ],
+   "cita": "Considera que peatones pueden salir repentinamente detrás o adelante de vehículos estacionados."
+  },
+  {
+   "id": "c5-11",
+   "p": 69,
+   "s": "c5s2",
+   "q": [
+    "u6-29"
+   ],
+   "cita": "especialmente en calles comerciales muy concurridas, áreas residenciales, cerca de establecimientos educacionales y de carros de venta o tiendas móviles"
+  },
+  {
+   "id": "c5-12",
+   "p": 69,
+   "s": "c5s2",
+   "q": [
+    "u6-30"
+   ],
+   "cita": "Ante la presencia de personas ebrias, reduce tu velocidad, es mejor darles la preferencia que provocar un siniestro."
+  },
+  {
+   "id": "c5-13",
+   "p": 69,
+   "s": "c5s2",
+   "q": [
+    "u6-05"
+   ],
+   "cita": "Quienes sufren de algún impedimento no tienen la obligación de mostrarlo."
+  },
+  {
+   "id": "c5-14",
+   "p": 69,
+   "s": "c5s2",
+   "q": [
+    "u6-31"
+   ],
+   "cita": "no asumas que las personas pueden escuchar tu vehículo: pueden tener dificultades auditivas."
+  },
+  {
+   "id": "c5-15",
+   "p": 69,
+   "s": "c5s3",
+   "q": [
+    "u6-32"
+   ],
+   "cita": "Dificultad para apreciar la velocidad de los vehículos."
+  },
+  {
+   "id": "c5-16",
+   "p": 69,
+   "s": "c5s3",
+   "q": [
+    "u6-33"
+   ],
+   "cita": "En ocasiones existe dificultad para distinguir bien los colores del semáforo."
+  },
+  {
+   "id": "c5-17",
+   "p": 69,
+   "s": "c5s3",
+   "q": [
+    "u6-04"
+   ],
+   "cita": "Una persona mayor puede necesitar 4 segundos más que una persona joven para cruzar una calle de 16 metros de ancho."
+  },
+  {
+   "id": "c5-18",
+   "p": 69,
+   "s": "c5s3",
+   "q": [
+    "u6-34"
+   ],
+   "cita": "Una persona mayor, al cruzar la calle, podría devolverse antes de alcanzar la vereda, o detenerse en la calzada"
+  },
+  {
+   "id": "c5-19",
+   "p": 69,
+   "s": "c5s3",
+   "q": [
+    "u6-35"
+   ],
+   "cita": "las personas mayores que conducen un vehículo poseen gran experiencia al volante y son prudentes al conducir."
+  },
+  {
+   "id": "c5-20",
+   "p": 70,
+   "s": "c5s3",
+   "q": [
+    "u6-36"
+   ],
+   "cita": "en situaciones donde existe tiempo suficiente para reaccionar, tienen los mismos problemas que otras personas más jóvenes. Por ello, hay que darles tiempo suficiente y no presionarlos a actuar."
+  },
+  {
+   "id": "c5-21",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-37"
+   ],
+   "cita": "Muchos siniestros ocurren cuando las niñas y niños cruzan repentinamente la calle corriendo."
+  },
+  {
+   "id": "c5-22",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-38"
+   ],
+   "cita": "Tienen una estatura pequeña: por eso, con facilidad pueden no ser vistos cuando juegan detrás de un vehículo estacionado."
+  },
+  {
+   "id": "c5-23",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-06"
+   ],
+   "cita": "la vista no se desarrolla completamente hasta los 15 años de edad. Su campo visual es limitado y ven sólo una cosa a la vez."
+  },
+  {
+   "id": "c5-24",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-39"
+   ],
+   "cita": "Tienen dificultad para juzgar la distancia y la velocidad."
+  },
+  {
+   "id": "c5-25",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-07"
+   ],
+   "cita": "Comienzan a actuar con seguridad en el tránsito entre los 9 y 12 años de edad."
+  },
+  {
+   "id": "c5-26",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-40"
+   ],
+   "cita": "Cuando pases a un vehículo de transporte escolar detenido: puede haber niñas y niños subiendo o bajando."
+  },
+  {
+   "id": "c5-27",
+   "p": 70,
+   "s": "c5s4",
+   "q": [
+    "u6-41"
+   ],
+   "cita": "Cuando te encuentres cerca de un carro o vehículo en el que se vendan golosinas o helados."
+  },
+  {
+   "id": "c5-28",
+   "p": 70,
+   "s": "c5s5",
+   "q": [
+    "u6-42"
+   ],
+   "cita": "debes prestar más atención a la presencia de estas, especialmente en las curvas a la derecha."
+  },
+  {
+   "id": "c5-29",
+   "p": 71,
+   "s": "c5s5",
+   "q": [
+    "u6-43"
+   ],
+   "cita": "muchos vehículos en contra, no te acerques demasiado y espera hasta que los vehículos hayan pasado para adelantarle. Mantén una distancia lateral prudente."
+  },
+  {
+   "id": "c5-30",
+   "p": 71,
+   "s": "c5s5",
+   "q": [
+    "u6-12"
+   ],
+   "cita": "No hagas señales luminosas o acústicas ni aceleres el motor en cercanía de animales ya que estos pueden asustarse fácilmente"
+  },
+  {
+   "id": "c5-31",
+   "p": 71,
+   "s": "c5s5",
+   "q": [
+    "u6-44"
+   ],
+   "cita": "la falta de carrocería produce que los siniestros sufridos en este tipo de vehículo resulten fácilmente fatales."
+  },
+  {
+   "id": "c5-32",
+   "p": 71,
+   "s": "c5s5",
+   "q": [
+    "u6-45"
+   ],
+   "cita": "Son frecuentes las colisiones que se producen en intersecciones con la participación de motociclistas"
+  },
+  {
+   "id": "c5-33",
+   "p": 71,
+   "s": "c5s5",
+   "q": [
+    "u6-46"
+   ],
+   "cita": "Considera también, la presencia de triciclos motorizados de carga, que suelen circular a una velocidad reducida"
+  },
+  {
+   "id": "c5-34",
+   "p": 71,
+   "s": "c5s6",
+   "q": [
+    "u6-47"
+   ],
+   "cita": "Se entiende como persona ciclista a toda aquella que utiliza algún ciclo para transportarse, ya sea una bicicleta, un scooter, patines, entre otros. Todos estos son vehículos y deben transitar bajo la normativa de tránsito."
+  },
+  {
+   "id": "c5-35",
+   "p": 71,
+   "s": "c5s6",
+   "q": [
+    "u6-09"
+   ],
+   "cita": "El elemento de seguridad principal de las y los ciclistas es el casco. Este reduce hasta tres veces la probabilidad de sufrir lesiones en la cabeza"
+  },
+  {
+   "id": "c5-36",
+   "p": 71,
+   "s": "c5s6",
+   "q": [
+    "u6-08"
+   ],
+   "cita": "la normativa indica que debes dejar un espacio lateral de al menos 1,5 metros"
+  },
+  {
+   "id": "c5-37",
+   "p": 71,
+   "s": "c5s6",
+   "q": [
+    "u6-48"
+   ],
+   "cita": "Ello puede ocurrir con mayor probabilidad cuando existe viento fuerte o en subidas a causa del mayor esfuerzo desarrollado al pedalear."
+  },
+  {
+   "id": "c5-38",
+   "p": 71,
+   "s": "c5s6",
+   "q": [
+    "u6-49"
+   ],
+   "cita": "Ante la proximidad de una persona ciclista en la acera, mantén atención, ya que podría no verte e incorporarse en la calzada sin previo aviso."
+  },
+  {
+   "id": "c5-39",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-10"
+   ],
+   "cita": "No adelantes a una persona ciclista antes o en un cruce, y especialmente si vas a virar a la derecha. Espera que esta haya pasado la intersección. Recuerda que al virar, pierdes tu preferencia."
+  },
+  {
+   "id": "c5-40",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-50"
+   ],
+   "cita": "Ten presente que los ciclos no tienen espejos retrovisores."
+  },
+  {
+   "id": "c5-41",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-51"
+   ],
+   "cita": "Recuerda que una persona ciclista también puede utilizar un cruce peatonal para cruzar una intersección."
+  },
+  {
+   "id": "c5-42",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-11"
+   ],
+   "cita": "Brazo izquierdo extendido hacia abajo."
+  },
+  {
+   "id": "c5-43",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-13"
+   ],
+   "cita": "no puedes circular, detenerte ni estacionar en las ciclovías."
+  },
+  {
+   "id": "c5-44",
+   "p": 72,
+   "s": "c5s6",
+   "q": [
+    "u6-52"
+   ],
+   "cita": "Si tuvieses que bajar de tu vehículo cercano a una, procura mirar si viene una persona ciclista antes de abrir la puerta."
+  },
+  {
+   "id": "c5-45",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-53"
+   ],
+   "cita": "no olvides utilizar en las puertas los seguros de niños, que impiden que estas puedan ser abiertas desde el interior del vehículo."
+  },
+  {
+   "id": "c5-46",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-54"
+   ],
+   "cita": "Es tu obligación, como persona conductora, hacer uso de este al momento de transportar a niñas y niños en un automóvil."
+  },
+  {
+   "id": "c5-47",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-55"
+   ],
+   "cita": "En Chile, durante la última década, fallecieron 497 niñas, niños y adolescentes menores de 12 años, el 45% murió en calidad de pasajero de un vehículo en siniestros de tránsito y 36.221 resultaron con lesiones."
+  },
+  {
+   "id": "c5-48",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-56"
+   ],
+   "cita": "Desde 2006, el traslado de niñas y niños en SRI es obligatorio."
+  },
+  {
+   "id": "c5-49",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-14"
+   ],
+   "cita": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero (excepto en vehículos de cabina simple)"
+  },
+  {
+   "id": "c5-50",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-15"
+   ],
+   "cita": "transportar niñas y niños de hasta 8 años inclusive (es decir, hasta un día antes de cumplir los 9 años), o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso, en Sistemas de Retención Infantil."
+  },
+  {
+   "id": "c5-51",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-57"
+   ],
+   "cita": "o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso"
+  },
+  {
+   "id": "c5-52",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-58"
+   ],
+   "cita": "exceptuándose de esta obligación al transporte público, transporte escolar y vehículos de similares características."
+  },
+  {
+   "id": "c5-53",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-16"
+   ],
+   "cita": "El incumplimiento de estas medidas es sancionado como una falta gravísima y la multa es de 1,5 a 3 UTM y la suspensión de la Licencia de Conducir de 5 a 45 días."
+  },
+  {
+   "id": "c5-54",
+   "p": 73,
+   "s": "c5s7",
+   "q": [
+    "u6-59"
+   ],
+   "cita": "la multa es de 1,5 a 3 UTM y la suspensión de la Licencia de Conducir de 5 a 45 días."
+  },
+  {
+   "id": "c5-55",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-60"
+   ],
+   "cita": "El cinturón debe pasar por la mitad del hombro y pecho."
+  },
+  {
+   "id": "c5-56",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-61"
+   ],
+   "cita": "La banda inferior debe estar bien ajustada sobre la parte superior de los muslos y no debe quedar sobre el abdomen."
+  },
+  {
+   "id": "c5-57",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-62"
+   ],
+   "cita": "Los pies deben apoyarse completamente en el piso del vehículo."
+  },
+  {
+   "id": "c5-58",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-63"
+   ],
+   "cita": "un dispositivo mal instalado no brinda la protección necesaria para que las niñas y niños viajen seguros, generando una falsa sensación de seguridad."
+  },
+  {
+   "id": "c5-59",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-19"
+   ],
+   "cita": "Estos dispositivos deben utilizarse desde el primer viaje de las niñas y niños; es decir, desde que nacen"
+  },
+  {
+   "id": "c5-60",
+   "p": 74,
+   "s": "c5s8",
+   "q": [
+    "u6-64"
+   ],
+   "cita": "El uso incorrecto del cinturón de seguridad, genera lesiones importantes en los órganos ubicados en la zona abdominal como hígado, intestinos, vejiga y riñones"
+  },
+  {
+   "id": "c5-61",
+   "p": 75,
+   "s": "c5s8",
+   "q": [
+    "u6-17"
+   ],
+   "cita": "(mínimo hasta los dos años)."
+  },
+  {
+   "id": "c5-62",
+   "p": 75,
+   "s": "c5s8",
+   "q": [
+    "u6-65"
+   ],
+   "cita": "la instalación de un SRI no debe interferir con el correcto ajuste del correspondiente a las y los demás pasajeros."
+  },
+  {
+   "id": "c5-63",
+   "p": 75,
+   "s": "c5s8",
+   "q": [
+    "u6-18"
+   ],
+   "cita": "Si están correctamente instalados, cualquiera de los tres es seguro por sí mismo, por lo que no se requiere utilizar dos sistemas al mismo tiempo"
+  },
+  {
+   "id": "c5-64",
+   "p": 75,
+   "s": "c5s8",
+   "q": [
+    "u6-20"
+   ],
+   "cita": "La etiqueta debe ir pegada a la silla, es de color amarillo con letras negras y mide 9,5 cm de alto y 7,5 cm de ancho."
+  },
+  {
+   "id": "c5-65",
+   "p": 75,
+   "s": "c5s8",
+   "q": [
+    "u6-66"
+   ],
+   "cita": "3CV: Centro de Control y Certificación Vehicular del Ministerio de Transportes y Telecomunicaciones."
+  },
+  {
+   "id": "c5-66",
+   "p": 30,
+   "s": "c5s8",
+   "q": [
+    "u6-21"
+   ],
+   "cita": "Nunca debes poner un Sistema de Retención Infantil en el asiento delantero"
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Si eres ciclista y quieres obtener más información respecto a la conducción segura en ciclos, te invitamos a revisar la Guía para ciclistas en Chile",
+   "motivo": "referencia a material externo"
+  }
+ ]
+}
