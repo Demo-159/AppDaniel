@@ -82,7 +82,7 @@ Object.assign(ESCENAS,{
   <text x="140" y="98" font-size="20" data-w="cinturón">🔓</text>
   <text x="180" y="112" font-size="34" text-anchor="middle" class="boom" data-w="siniestro">💥</text>
   ${nodo(60,50,'🚑','Atención','afecta',0)}${nodo(300,50,'🏥','Salud','afecta',300)}${nodo(60,200,'👨‍👩‍👧','Familias','afecta',600)}${nodo(300,200,'👥','Todos','afecta',900)}</svg>
-  <div class="cap" data-w="decisión personal">¿Una “decisión personal”?</div>
+  <div class="cap" data-w="decisión personal">No es solo una decisión personal</div>
   <div class="cap big" data-w="pagamos">Todos pagamos su decisión</div>`,
  // 10. Resumen
  'c1-resumen':()=>`<div class="swap"><span class="tach">🎲 Mala suerte<i data-w="mala suerte"></i></span></div>
