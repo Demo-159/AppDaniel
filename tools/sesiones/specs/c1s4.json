@@ -5,148 +5,98 @@
  "minutos": 4,
  "pasos": [
   {
-   "voz": "Ahora veamos las cifras de Chile, que son el promedio de los últimos cinco años, hasta el año dos mil veintidós.",
+   "voz": "Ahora veamos las cifras de Chile. Son el promedio de los últimos cinco años, hasta el año dos mil veintidós.",
    "escena": {
-    "tipo": "titulo",
-    "icono": "🇨🇱",
-    "texto": "Siniestros en Chile"
+    "tipo": "anim",
+    "id": "c1-cinco"
    },
    "dato": "c1-52",
-   "fondo": "ciudad"
+   "fondo": "liso"
   },
   {
    "voz": "Cada año se registran en Chile más de ochenta y dos mil siniestros de tránsito.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 82000,
-    "unidad": "siniestros al año",
-    "prefijo": "+",
-    "icono": "💥"
+    "tipo": "anim",
+    "id": "c1-82mil"
    },
-   "dato": "c1-18",
-   "fondo": "carretera"
+   "dato": "c1-18"
   },
   {
    "voz": "Como consecuencia, fallecen aproximadamente mil seiscientas personas al año.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 1600,
-    "unidad": "personas fallecidas al año",
-    "prefijo": "",
-    "icono": "🕯️"
+    "tipo": "anim",
+    "id": "c1-1600"
    },
-   "dato": "c1-19",
-   "fondo": "noche"
+   "dato": "c1-19"
   },
   {
    "voz": "Eso significa que cada día mueren entre cuatro y cinco personas en las vías públicas.",
    "escena": {
-    "tipo": "iconos",
-    "icono": "🕯️",
-    "n": 5,
-    "sub": "entre 4 y 5 personas mueren cada día"
+    "tipo": "anim",
+    "id": "c1-dia"
    },
-   "dato": "c1-20",
-   "fondo": "lluvia"
+   "dato": "c1-20"
   },
   {
    "voz": "En promedio, cuatrocientas cincuenta de ellas son atropelladas.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 450,
-    "unidad": "personas atropelladas al año",
-    "prefijo": "",
-    "sub": "de quienes fallecen",
-    "icono": "🚶"
+    "tipo": "anim",
+    "id": "c1-atropellos"
    },
-   "dato": "c1-21",
-   "fondo": "cruce"
+   "dato": "c1-21"
   },
   {
-   "voz": "Y unas siete mil setecientas personas resultan con lesiones graves cada año.",
+   "voz": "Además, unas siete mil setecientas personas resultan con lesiones graves cada año.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 7700,
-    "unidad": "lesionados graves al año",
-    "prefijo": "",
-    "icono": "🚑"
+    "tipo": "anim",
+    "id": "c1-graves"
    },
-   "dato": "c1-23",
-   "fondo": "hospital"
+   "dato": "c1-23"
   },
   {
-   "voz": "¿Dónde ocurren? Aproximadamente el ochenta por ciento de los siniestros se produce en zonas urbanas, la mayoría en cruces o intersecciones.",
+   "voz": "¿Dónde ocurren? Cerca del ochenta por ciento de los siniestros se produce en zonas urbanas, y la mayoría de ellos, en cruces o intersecciones.",
    "escena": {
-    "tipo": "barras",
-    "items": [
-     {
-      "label": "🏙️ Urbano",
-      "valor": 80,
-      "color": "var(--blue)"
-     },
-     {
-      "label": "🌾 Rural",
-      "valor": 20,
-      "color": "var(--gold)"
-     }
-    ],
-    "unidad": "%",
-    "sub": "Dónde ocurren los siniestros"
+    "tipo": "anim",
+    "id": "c1-urbano"
    },
-   "dato": "c1-24",
-   "fondo": "ciudad"
+   "dato": "c1-24"
   },
   {
    "voz": "Solo un veinte por ciento ocurre en zonas no urbanas, es decir, rurales.",
-   "dato": "c1-25",
-   "fondo": "carretera"
-  },
-  {
-   "voz": "Pero la mayor parte de las personas fallecidas por siniestros de tránsito se produce en vías interurbanas o no urbanas.",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "🏙️",
-      "titulo": "Ciudad",
-      "texto": "Más siniestros"
-     },
-     {
-      "icono": "🛣️",
-      "titulo": "Fuera de la ciudad",
-      "texto": "Más personas fallecidas",
-      "marca": "mal"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-rural"
    },
-   "dato": "c1-22",
-   "fondo": "carretera"
+   "dato": "c1-25"
   },
   {
-   "voz": "¿Dónde se produce la mayor parte de las personas fallecidas?",
+   "voz": "Pero la mayor parte de las personas fallecidas se produce fuera de la ciudad, en vías interurbanas o no urbanas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-fallecidos-ruta"
+   },
+   "dato": "c1-22"
+  },
+  {
+   "voz": "En cambio, en las zonas urbanas se produce la mayor cantidad de lesionados, sobre treinta y cinco mil al año, aunque en su mayoría con lesiones menos graves que en carretera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-lesionados-urb"
+   },
+   "dato": "c1-26"
+  },
+  {
+   "voz": "En Chile, ¿dónde ocurre la mayoría de los siniestros, y dónde la mayor parte de las personas fallecidas?",
    "elige": {
-    "pregunta": "¿Dónde se produce la mayor parte de las personas fallecidas?",
+    "pregunta": "¿Dónde ocurre la mayoría de los siniestros, y dónde la mayoría de los fallecidos?",
     "opciones": [
-     "En vías interurbanas o no urbanas",
-     "En los cruces de la ciudad",
-     "En calles residenciales"
+     "Siniestros en la ciudad; fallecidos fuera de ella",
+     "Siniestros fuera de la ciudad; fallecidos en ella",
+     "Ambos, sobre todo en la ciudad"
     ],
-    "bien": "Así es: en vías interurbanas o no urbanas, aunque ahí ocurran menos siniestros.",
-    "mal": "Recuerda: la mayor parte se produce en vías interurbanas o no urbanas."
+    "bien": "Así es: la mayoría de los siniestros ocurre en la ciudad, pero la mayor parte de las personas fallecidas, fuera de ella.",
+    "mal": "La mayoría de los siniestros ocurre en la ciudad, pero la mayor parte de las personas fallecidas, fuera de ella."
    }
-  },
-  {
-   "voz": "En cambio, en las zonas urbanas se produce la mayor cantidad de lesionados, sobre treinta y cinco mil al año, aunque en su mayoría de menor gravedad que en carreteras.",
-   "escena": {
-    "tipo": "cifra",
-    "valor": 35000,
-    "unidad": "lesionados al año en zonas urbanas",
-    "prefijo": "+",
-    "sub": "en su mayoría, menos graves que en carretera",
-    "icono": "🏙️"
-   },
-   "dato": "c1-26",
-   "fondo": "ciudad"
   }
  ]
 }

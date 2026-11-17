@@ -5,103 +5,82 @@
  "minutos": 3,
  "pasos": [
   {
-   "voz": "Ahora vamos a mirar qué tan grande es este problema, primero en el mundo y después en Chile.",
+   "voz": "Ahora vamos a ver qué tan grande es este problema: primero en el mundo y después en Chile.",
    "escena": {
     "tipo": "titulo",
     "icono": "🌎",
     "texto": "Un problema en el mundo y en Chile"
    },
-   "fondo": "mundo"
+   "fondo": "liso"
   },
   {
    "voz": "Cada día mueren más de tres mil personas en el mundo como consecuencia de los siniestros de tránsito.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 3000,
-    "unidad": "personas cada día",
-    "prefijo": "+",
-    "sub": "fallecen en el mundo",
-    "icono": "🌎"
+    "tipo": "anim",
+    "id": "c1-3000"
    },
    "dato": "c1-07"
   },
   {
    "voz": "En el mundo, los siniestros de tránsito son la primera causa de muerte en los jóvenes.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🧑",
-    "titulo": "1ª causa de muerte en los jóvenes",
-    "texto": "en el mundo"
+    "tipo": "anim",
+    "id": "c1-jovenes"
    },
    "dato": "c1-08"
   },
   {
-   "voz": "Por eso la Organización Mundial de la Salud lo califica como un problema prioritario de salud pública en todo el mundo.",
+   "voz": "Por eso, organizaciones como la Organización Mundial de la Salud lo califican como un problema prioritario de salud pública en todo el mundo.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🏥",
-    "titulo": "Problema prioritario de salud pública",
-    "texto": "según la OMS"
+    "tipo": "anim",
+    "id": "c1-oms"
    },
-   "dato": "c1-09",
-   "fondo": "hospital"
+   "dato": "c1-09"
   },
   {
-   "voz": "En Chile, entre el año y los catorce años de edad, los siniestros de tránsito son la primera causa de muerte.",
+   "voz": "En Chile, para niñas y niños de entre uno y catorce años, los siniestros de tránsito son la primera causa de muerte.",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "🧒",
-      "titulo": "1 a 14 años",
-      "texto": "1ª causa de muerte"
-     },
-     {
-      "icono": "🧑",
-      "titulo": "15 a 29 años",
-      "texto": "2ª causa, tras los suicidios"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-edad1"
    },
-   "dato": "c1-10",
-   "fondo": "ciudad"
+   "dato": "c1-10"
   },
   {
-   "voz": "Y entre los quince y los veintinueve años son la segunda causa de muerte, después de los suicidios.",
+   "voz": "Y para jóvenes de entre quince y veintinueve años, son la segunda causa de muerte, después de los suicidios.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-edad2"
+   },
    "dato": "c1-11"
   },
   {
-   "voz": "Para las personas de quince a veintinueve años, ¿qué lugar ocupan los siniestros entre las causas de muerte?",
+   "voz": "¿En qué grupo de edad los siniestros de tránsito son la primera causa de muerte en Chile?",
    "elige": {
-    "pregunta": "En Chile, para personas de 15 a 29 años, los siniestros de tránsito son…",
+    "pregunta": "En Chile, ¿en qué grupo de edad los siniestros son la 1ª causa de muerte?",
     "opciones": [
-     "La 2ª causa de muerte, tras los suicidios",
-     "La 1ª causa de muerte",
-     "La 3ª causa de muerte"
+     "De 1 a 14 años",
+     "De 15 a 29 años",
+     "De 30 a 44 años"
     ],
-    "bien": "Muy bien: son la segunda causa de muerte, después de los suicidios.",
-    "mal": "Revisa de nuevo: entre los quince y los veintinueve años, son la segunda causa, después de los suicidios."
+    "bien": "Así es: de uno a catorce años. Entre los quince y los veintinueve son la segunda causa, después de los suicidios.",
+    "mal": "Es de uno a catorce años. Entre los quince y los veintinueve son la segunda causa, después de los suicidios."
    }
   },
   {
-   "voz": "Y hay algo que las cifras no muestran: quienes quedan con discapacidad de por vida aparecen solo como lesionados.",
+   "voz": "Además, no es posible saber cuántas personas quedan con una discapacidad de por vida por un siniestro: en las cifras aparecen solo como lesionados.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "♿",
-    "titulo": "En las cifras aparecen solo como «lesionados»"
+    "tipo": "anim",
+    "id": "c1-lesionados"
    },
-   "dato": "c1-12",
-   "fondo": "hospital"
+   "dato": "c1-12"
   },
   {
-   "voz": "Por eso el libro advierte que, en general, no existe consciencia sobre la magnitud del problema de los siniestros.",
+   "voz": "Y el libro advierte que, en general, no existe consciencia sobre la magnitud del problema de los siniestros de tránsito.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🙈",
-    "titulo": "No existe consciencia de su magnitud"
+    "tipo": "anim",
+    "id": "c1-iceberg"
    },
-   "dato": "c1-50",
-   "fondo": "noche"
+   "dato": "c1-50"
   }
  ]
 }

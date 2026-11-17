@@ -11,99 +11,76 @@
     "icono": "💸",
     "texto": "Los costos de los siniestros"
    },
-   "fondo": "ciudad"
+   "fondo": "liso"
   },
   {
-   "voz": "En promedio, por cada persona fallecida en un siniestro, unas cien personas cercanas sufren dolor: familiares y amigos.",
+   "voz": "Hay estudios que indican que, en promedio, por cada persona fallecida, unas cien personas cercanas sufren dolor, como familiares y amigos.",
    "escena": {
-    "tipo": "iconos",
-    "icono": "🧍",
-    "n": 100,
-    "sub": "unas 100 personas sufren por cada fallecido"
+    "tipo": "anim",
+    "id": "c1-100"
    },
-   "dato": "c1-13",
-   "fondo": "lluvia"
+   "dato": "c1-13"
   },
   {
-   "voz": "Además, se estima que en Chile los costos de los siniestros alcanzan el dos por ciento del producto interno bruto, según la OMS.",
+   "voz": "Además, se estima que en Chile los costos de los siniestros alcanzan el dos por ciento del producto interno bruto, según cifras de la OMS: dos de cada cien pesos.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 2,
-    "unidad": "% del PIB",
-    "prefijo": "",
-    "sub": "costo de los siniestros en Chile",
-    "icono": "📉"
+    "tipo": "anim",
+    "id": "c1-pib"
    },
-   "dato": "c1-14",
-   "fondo": "ciudad"
+   "dato": "c1-14"
   },
   {
-   "voz": "Si sacas la cuenta, cada persona paga una media de poco más de seis millones de pesos al año por estos costos.",
+   "voz": "Si sacas la cuenta, cada persona paga en promedio poco más de seis millones de pesos al año, solo considerando los costos que se pueden valorizar.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 6,
-    "unidad": "millones de pesos al año",
-    "prefijo": "+",
-    "sub": "paga en promedio cada persona",
-    "icono": "💸"
+    "tipo": "anim",
+    "id": "c1-6millones"
    },
    "dato": "c1-15"
   },
   {
    "voz": "El libro agrupa estos costos en cuatro tipos: materiales, de salud, administrativos y humanos.",
    "escena": {
-    "tipo": "lista",
-    "items": [
-     {
-      "icono": "🚗",
-      "texto": "Materiales: vehículos y propiedad"
-     },
-     {
-      "icono": "🚑",
-      "texto": "De salud: ambulancia y rehabilitación"
-     },
-     {
-      "icono": "👮",
-      "texto": "Administrativos: policía, seguros, jueces"
-     },
-     {
-      "icono": "💔",
-      "texto": "Humanos: sufrimiento y productividad"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-costos"
    },
-   "dato": "c1-16",
-   "fondo": "hospital"
+   "dato": "c1-16"
   },
   {
-   "voz": "Por ejemplo, el trabajo de policía y bomberos, la gestión de seguros y los jueces son costos administrativos.",
-   "dato": "c1-51",
-   "fondo": "cruce"
+   "voz": "Por ejemplo, el trabajo de policía y bomberos, la gestión de seguros y los jueces y abogados son costos administrativos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-admin"
+   },
+   "dato": "c1-51"
+  },
+  {
+   "voz": "Y los costos humanos son la productividad que se pierde y el sufrimiento físico y psicológico de las personas lesionadas, sus familiares y amigos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-humanos"
+   }
   },
   {
    "voz": "La ambulancia, el tratamiento y la rehabilitación de un herido, ¿qué tipo de costo son?",
    "elige": {
-    "pregunta": "La ambulancia y la rehabilitación son costos…",
+    "pregunta": "La ambulancia, el tratamiento y la rehabilitación de un herido son costos…",
     "opciones": [
      "De salud",
      "Materiales",
      "Administrativos",
      "Humanos"
     ],
-    "bien": "Correcto: son costos de salud.",
-    "mal": "No es ese. La ambulancia y la rehabilitación son costos de salud."
-   },
-   "fondo": "hospital"
+    "bien": "Así es: son costos de salud.",
+    "mal": "Son costos de salud: primeros auxilios, ambulancia, tratamiento y rehabilitación."
+   }
   },
   {
-   "voz": "Y recuerda que no todos estos costos se pueden valorizar en dinero, como el sufrimiento de las personas lesionadas y de sus familias.",
+   "voz": "Y no todos estos costos se pueden valorizar en dinero, como el sufrimiento de las personas lesionadas y de sus familias.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "💔",
-    "titulo": "No todo se puede medir en dinero"
+    "tipo": "anim",
+    "id": "c1-sinprecio"
    },
-   "dato": "c1-17",
-   "fondo": "lluvia"
+   "dato": "c1-17"
   }
  ]
 }

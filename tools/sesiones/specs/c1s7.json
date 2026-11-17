@@ -11,172 +11,116 @@
     "icono": "🛡️",
     "texto": "Sistema Seguro"
    },
-   "fondo": "carretera"
+   "fondo": "liso"
   },
   {
-   "voz": "La primera Política Nacional de Seguridad de Tránsito de Chile es de mil novecientos noventa y tres.",
+   "voz": "La primera Política Nacional de Seguridad de Tránsito de Chile es de mil novecientos noventa y tres. Desde entonces se ha trabajado con fuerza para disminuir los siniestros.",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "📜",
-      "titulo": "1993",
-      "texto": "Primera Política Nacional"
-     },
-     {
-      "icono": "🛡️",
-      "titulo": "2017",
-      "texto": "Sistema Seguro"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-t1993"
    },
-   "dato": "c1-37",
-   "fondo": "ciudad"
+   "dato": "c1-37"
   },
   {
-   "voz": "Con nuevos desafíos, como el aumento de ciclistas y el crecimiento de vehículos y motocicletas, se buscaron nuevos enfoques.",
+   "voz": "Después aparecieron nuevos desafíos, como el aumento de ciclistas y el crecimiento del parque de vehículos y de motocicletas. Por eso se buscaron nuevos enfoques.",
    "escena": {
-    "tipo": "lista",
-    "items": [
-     {
-      "icono": "🚲",
-      "texto": "Más ciclistas"
-     },
-     {
-      "icono": "🚗",
-      "texto": "Más vehículos"
-     },
-     {
-      "icono": "🏍️",
-      "texto": "Más motocicletas"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-desafios"
    },
-   "dato": "c1-38",
-   "fondo": "cruce"
+   "dato": "c1-38"
   },
   {
    "voz": "Desde el año dos mil diecisiete, la nueva política está alineada con el enfoque de Sistema Seguro.",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "📜",
-      "titulo": "1993",
-      "texto": "Primera Política Nacional"
-     },
-     {
-      "icono": "🛡️",
-      "titulo": "2017",
-      "texto": "Sistema Seguro",
-      "marca": "si"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-t2017"
    },
-   "dato": "c1-39",
-   "fondo": "ciudad"
+   "dato": "c1-39"
   },
   {
-   "voz": "Este enfoque establece como principio ético que las muertes y lesiones graves en el tránsito son inaceptables.",
+   "voz": "Este enfoque establece como principio ético que las muertes y lesiones graves en el tránsito son inaceptables. Por lo tanto, el tránsito debe diseñarse y usarse para que nadie pierda la vida ni resulte gravemente herido.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "0️⃣",
-    "titulo": "Visión Cero",
-    "texto": "Muertes y lesiones graves: inaceptables"
+    "tipo": "anim",
+    "id": "c1-inaceptable"
    },
-   "dato": "c1-40",
-   "fondo": "mundo"
+   "dato": "c1-40"
   },
   {
-   "voz": "Por eso es conocido mundialmente con el nombre de Visión Cero.",
+   "voz": "Este enfoque es conocido en todo el mundo como Visión Cero.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-vision0"
+   },
    "dato": "c1-41"
   },
   {
-   "voz": "Supone un cambio de paradigma: los seres humanos cometemos errores, y la mayoría de los siniestros se producen por una equivocación.",
+   "voz": "Esto supone un cambio de paradigma: los seres humanos cometemos errores, y la mayoría de los siniestros se producen por una equivocación.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🤷",
-    "titulo": "Errar es humano",
-    "texto": "La mayoría de los siniestros: una equivocación"
+    "tipo": "anim",
+    "id": "c1-error"
    },
-   "dato": "c1-53",
-   "fondo": "cruce"
+   "dato": "c1-53"
   },
   {
-   "voz": "Así que, en vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación.",
+   "voz": "Así que, en vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación, con un sistema completo que apoye y guíe el comportamiento humano.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🏗️",
-    "titulo": "Abordar el riesgo de circular",
-    "texto": "en vez de solo corregir errores"
+    "tipo": "anim",
+    "id": "c1-riesgo"
    },
-   "dato": "c1-42",
-   "fondo": "carretera"
+   "dato": "c1-42"
   },
   {
-   "voz": "Y si un siniestro ocurre, busca que las fuerzas del impacto no excedan los límites que el cuerpo humano puede resistir.",
+   "voz": "Y si un siniestro ocurre, busca que las fuerzas del impacto no superen los límites que el cuerpo humano puede resistir antes de sufrir lesiones graves o la muerte.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🫀",
-    "titulo": "El impacto no debe superar lo que el cuerpo resiste"
+    "tipo": "anim",
+    "id": "c1-limite"
    },
-   "dato": "c1-43",
-   "fondo": "hospital"
+   "dato": "c1-43"
   },
   {
-   "voz": "Sus principios son cuatro. El primero: los seres humanos cometemos errores, que pueden terminar en un siniestro de tránsito.",
+   "voz": "Sus principios son cuatro. El primero: errar es humano. Los seres humanos cometemos errores, que pueden terminar en un siniestro de tránsito.",
    "escena": {
-    "tipo": "lista",
-    "items": [
-     {
-      "icono": "🤷",
-      "texto": "Errar es humano"
-     },
-     {
-      "icono": "🫀",
-      "texto": "El cuerpo tiene límites"
-     },
-     {
-      "icono": "🤝",
-      "texto": "Responsabilidad compartida"
-     },
-     {
-      "icono": "🧱",
-      "texto": "Si una parte falla, otra protege"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-p1"
    },
-   "dato": "c1-44",
-   "fondo": "ciudad"
+   "dato": "c1-44"
   },
   {
    "voz": "El segundo: el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto.",
-   "dato": "c1-45",
-   "fondo": "hospital"
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-p2"
+   },
+   "dato": "c1-45"
   },
   {
-   "voz": "El tercero: hay una responsabilidad compartida entre quienes diseñan, construyen, administran y usan las vías y los vehículos, y quienes atienden después del siniestro.",
-   "dato": "c1-46",
-   "fondo": "cruce"
+   "voz": "El tercero: la responsabilidad es compartida entre quienes diseñan, construyen, administran y usan las vías y los vehículos, y quienes atienden después de un siniestro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-p3"
+   },
+   "dato": "c1-46"
   },
   {
    "voz": "Y el cuarto: todos los componentes deben estar fortalecidos, para que si uno falla, los demás sigan protegiendo a las personas.",
-   "dato": "c1-47",
-   "fondo": "carretera"
+   "escena": {
+    "tipo": "anim",
+    "id": "c1-p4"
+   },
+   "dato": "c1-47"
   },
   {
-   "voz": "¿Con qué nombre se conoce mundialmente el enfoque de Sistema Seguro?",
+   "voz": "Según el Sistema Seguro, si una parte del sistema falla, ¿qué debería ocurrir?",
    "elige": {
-    "pregunta": "¿Con qué nombre se conoce mundialmente el Sistema Seguro?",
+    "pregunta": "Según el Sistema Seguro, si una parte del sistema falla…",
     "opciones": [
-     "Visión Cero",
-     "Tolerancia Cero",
-     "Ruta Segura"
+     "Las otras partes siguen protegiendo a las personas",
+     "Todo el sistema deja de proteger",
+     "La responsabilidad pasa solo a quien conduce"
     ],
-    "bien": "Así es, Visión Cero: ninguna muerte ni lesión grave es aceptable.",
-    "mal": "Casi. Se conoce como Visión Cero, porque ninguna muerte ni lesión grave es aceptable."
-   },
-   "fondo": "mundo"
+    "bien": "Así es: si una parte falla, las demás siguen protegiendo a las personas.",
+    "mal": "Si una parte falla, las demás deben seguir protegiendo a las personas: por eso todos los componentes deben estar fortalecidos."
+   }
   }
  ]
 }

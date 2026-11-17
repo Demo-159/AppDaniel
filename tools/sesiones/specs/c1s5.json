@@ -11,7 +11,7 @@
     "icono": "🚶",
     "texto": "La velocidad y los peatones"
    },
-   "fondo": "cruce"
+   "fondo": "liso"
   },
   {
    "voz": "Mueve la velocidad del auto, desde treinta hasta sesenta y cinco kilómetros por hora, y mira qué le pasa al peatón.",
@@ -28,53 +28,47 @@
   {
    "voz": "A treinta kilómetros por hora o menos, los peatones tienen un noventa por ciento de posibilidades de sobrevivir a un impacto.",
    "escena": {
-    "tipo": "peaton",
-    "velocidad": 30
+    "tipo": "anim",
+    "id": "c1-v30"
    },
    "dato": "c1-28"
   },
   {
    "voz": "A cuarenta y cinco kilómetros por hora o más, tienen menos del cincuenta por ciento de probabilidades de sobrevivir.",
    "escena": {
-    "tipo": "peaton",
-    "velocidad": 45
+    "tipo": "anim",
+    "id": "c1-v45"
    },
    "dato": "c1-29"
   },
   {
    "voz": "Y a sesenta y cinco kilómetros por hora, lo más probable es que un peatón atropellado muera.",
    "escena": {
-    "tipo": "peaton",
-    "velocidad": 65
+    "tipo": "anim",
+    "id": "c1-v65"
    },
    "dato": "c1-30"
   },
   {
-   "voz": "Por eso, cuando la velocidad sube de treinta a cincuenta kilómetros por hora, la probabilidad de que un peatón muera atropellado se multiplica por ocho.",
+   "voz": "Por eso, si la velocidad sube de treinta a cincuenta kilómetros por hora, la probabilidad de que un peatón atropellado muera se multiplica por ocho.",
    "escena": {
-    "tipo": "cifra",
-    "valor": 8,
-    "unidad": "veces más probable que muera",
-    "prefijo": "×",
-    "sub": "al subir de 30 a 50 km/h",
-    "icono": "⚠️"
+    "tipo": "anim",
+    "id": "c1-x8"
    },
-   "dato": "c1-27",
-   "fondo": "ciudad"
+   "dato": "c1-27"
   },
   {
-   "voz": "A treinta kilómetros por hora o menos, ¿cuántos peatones de cada diez sobreviven a un impacto?",
+   "voz": "Si un auto sube de treinta a cincuenta kilómetros por hora, ¿qué pasa con la probabilidad de que un peatón atropellado muera?",
    "elige": {
-    "pregunta": "A 30 km/h o menos, ¿cuántos peatones sobreviven a un impacto?",
+    "pregunta": "Si un auto sube de 30 a 50 km/h, la probabilidad de que un peatón atropellado muera…",
     "opciones": [
-     "9 de cada 10",
-     "5 de cada 10",
-     "7 de cada 10"
+     "Se multiplica por ocho",
+     "Se multiplica por dos",
+     "Se multiplica por cuatro"
     ],
-    "bien": "Así es: nueve de cada diez, es decir, el noventa por ciento.",
-    "mal": "Fíjate bien: a treinta kilómetros por hora o menos, sobreviven nueve de cada diez peatones."
-   },
-   "fondo": "cruce"
+    "bien": "Así es: se multiplica por ocho.",
+    "mal": "Se multiplica por ocho al subir de treinta a cincuenta kilómetros por hora."
+   }
   }
  ]
 }

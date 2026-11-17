@@ -113,6 +113,14 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .tach i[data-w]{opacity:1}
 [data-h]{transition:opacity .35s}[data-h].off{opacity:0}
 .go{animation-play-state:paused!important}.go.run{animation-play-state:running!important}
+.aguja{transform-box:view-box;animation:aguja 1.3s cubic-bezier(.3,1.5,.5,1) both}@keyframes aguja{from{transform:rotate(0)}to{transform:rotate(var(--a))}}
+.gira24{transform-box:view-box;animation:g24 2.4s linear infinite}@keyframes g24{to{transform:rotate(360deg)}}
+.sube.on{animation:sube .7s cubic-bezier(.3,1.4,.5,1) both}@keyframes sube{from{transform:translateY(40px)}to{transform:none}}
+.sello{transform-box:fill-box;transform-origin:center}.sello.on{animation:sello .45s cubic-bezier(.3,1.6,.5,1) both}@keyframes sello{from{transform:scale(2.2)}to{transform:scale(1)}}
+.late{transform-box:fill-box;transform-origin:center;animation:late 1s ease-in-out infinite alternate}@keyframes late{to{transform:scale(1.35)}}
+.avanza{stroke-dashoffset:220;animation:avanza 2s ease-out both}@keyframes avanza{from{stroke-dashoffset:220}to{stroke-dashoffset:0}}
+.errar{animation:errar 2.2s cubic-bezier(.4,0,1,1) both}@keyframes errar{from{transform:translateX(-90px)}to{transform:translateX(150px)}}
+.frena2{animation:frena2 2.6s cubic-bezier(.1,.6,.3,1) both}@keyframes frena2{from{transform:translateX(-90px)}to{transform:translateX(84px)}}
 .dado{transform-box:fill-box;transform-origin:center;animation:roll 1.8s cubic-bezier(.2,.7,.3,1) both}
 @keyframes roll{0%{transform:translate(-230px,-100px) rotate(-760deg)}60%{transform:translate(-18px,0) rotate(-60deg)}78%{transform:translate(0,-22px) rotate(-12deg)}100%{transform:none}}
 .boom,.boom2{transform-box:fill-box;transform-origin:center}.boom.on{animation:pop .5s both}
