@@ -541,5 +541,8 @@
    "cita": "Personas fallecidas 37% 63% Cantidad de siniestros 20% 80%",
    "motivo": "gráfico sin rótulos de qué porcentaje corresponde a cada zona; se usan solo los valores que el texto explica (c1-22, c1-24, c1-25)"
   }
+ ],
+ "unidades": [
+  "u1"
  ]
 }

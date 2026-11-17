@@ -17,9 +17,9 @@ norm = lambda s: re.sub(r"\s+", " ", s).strip()
 libro = norm(open(os.path.join(ROOT, "tools/cobertura/libro.txt"), encoding="utf-8").read())
 content = json.load(open(os.path.join(ROOT, "app/src/main/assets/content.json"), encoding="utf-8"))
 preguntas = {q["id"]: q for q in content["questions"]}
-UNIDADES = {1: ["u1"]}  # capítulo -> unidades de la app cuyas preguntas debe respaldar
 
 errores = []
+usadas_total, unidades_total = set(), set()
 for path in sorted(glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-*.json"))):
     cap = json.load(open(path, encoding="utf-8"))
     n = cap["capitulo"]
@@ -39,15 +39,22 @@ for path in sorted(glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-
     for x in cap.get("sin_dato", []):
         if norm(x["cita"]) not in libro:
             errores.append(f"sin_dato: la cita no aparece textual en el libro: {x['cita'][:40]}…")
-    sueltas = [q for q, v in preguntas.items() if v["unit"] in UNIDADES.get(n, []) and q not in usadas]
-    for q in sueltas:
-        errores.append(f"{q}: pregunta sin dato del libro que la respalde")
+    usadas_total |= usadas
+    unidades_total |= set(cap.get("unidades", ["u1"] if n == 1 else []))
 
     print(f"\nCapítulo {n}: {cap['titulo']} (págs. {cap['paginas'][0]}–{cap['paginas'][1]})")
     print(f"  {len(cap['datos'])} datos · {len(usadas)} preguntas · {len(sesiones)} sesiones")
     for sid, t in sesiones.items():
         ds = [d for d in cap["datos"] if d["s"] == sid]
         print(f"  {sid}  {t:<50} {len(ds):>2} datos  {sum(len(d['q']) for d in ds):>2} preguntas")
+
+# toda pregunta de las unidades revisadas debe estar respaldada por algún dato del libro
+for q, v in preguntas.items():
+    if v["unit"] in unidades_total and q not in usadas_total:
+        errores.append(f"{q}: pregunta sin dato del libro que la respalde")
+pend = sorted({v["unit"] for v in preguntas.values()} - unidades_total, key=lambda u: int(u[1:]))
+if pend:
+    print("\nUnidades aún sin revisar por dato:", ", ".join(pend))
 
 if errores:
     print("\nERRORES:")

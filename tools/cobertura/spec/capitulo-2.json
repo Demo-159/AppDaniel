@@ -1,0 +1,1799 @@
+{
+ "capitulo": 2,
+ "titulo": "Los principios de la conducción",
+ "unidad": "u2",
+ "unidades": [
+  "u2",
+  "u3"
+ ],
+ "sesiones": [
+  [
+   "c2s1",
+   "El panel de instrumentos"
+  ],
+  [
+   "c2s2",
+   "El motor y el sistema de lubricación"
+  ],
+  [
+   "c2s3",
+   "El sistema eléctrico"
+  ],
+  [
+   "c2s4",
+   "El combustible y la refrigeración"
+  ],
+  [
+   "c2s5",
+   "El escape y la transmisión"
+  ],
+  [
+   "c2s6",
+   "La dirección, la suspensión y la amortiguación"
+  ],
+  [
+   "c2s7",
+   "Los frenos"
+  ],
+  [
+   "c2s8",
+   "Los neumáticos"
+  ],
+  [
+   "c2s9",
+   "Las luces"
+  ],
+  [
+   "c2s10",
+   "Los espejos y antes de conducir"
+  ],
+  [
+   "c2s11",
+   "La energía del movimiento y las curvas"
+  ],
+  [
+   "c2s12",
+   "La distancia de reacción"
+  ],
+  [
+   "c2s13",
+   "La distancia de frenado y de detención"
+  ],
+  [
+   "c2s14",
+   "La fuerza de gravedad y las características del vehículo"
+  ],
+  [
+   "c2s15",
+   "Seguridad activa y pasiva; el cinturón"
+  ],
+  [
+   "c2s16",
+   "Uso correcto del cinturón y efecto submarino"
+  ],
+  [
+   "c2s17",
+   "Excusas para no usar el cinturón"
+  ],
+  [
+   "c2s18",
+   "El airbag"
+  ],
+  [
+   "c2s19",
+   "Los apoya cabezas"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c2s1",
+   "cita": "debes conocer el panel de instrumentos, ya que es el medio de comunicación que fue diseñado para alertarte sobre el estado de los principales sistemas del vehículo",
+   "mc": "¿Para qué fue diseñado el panel de instrumentos?",
+   "o": [
+    "Para alertarte sobre el estado de los sistemas del vehículo",
+    "Para mostrar solo la velocidad y la hora del viaje en curso",
+    "Para controlar la radio y el aire acondicionado",
+    "Para registrar las multas recibidas por el vehículo"
+   ],
+   "e": "Es el medio de comunicación diseñado para alertarte sobre el estado de los principales sistemas del vehículo."
+  },
+  {
+   "s": "c2s1",
+   "cita": "Tacómetro: Velocidad del motor en revoluciones por minuto.",
+   "q": [
+    "u2-01"
+   ]
+  },
+  {
+   "s": "c2s1",
+   "cita": "Testigos color rojo: Informan atención inmediata, avería grave.",
+   "mc": "Un testigo de color rojo en el panel informa…",
+   "o": [
+    "Atención inmediata, avería grave",
+    "Un posible problema a revisar",
+    "La puesta en funcionamiento",
+    "Que el viaje terminó sin fallas"
+   ],
+   "e": "Testigos rojos: atención inmediata, avería grave. Amarillos o ámbar: posible problema. Verdes: puesta en funcionamiento."
+  },
+  {
+   "s": "c2s1",
+   "cita": "Testigos color verde: Indican la puesta en funcionamiento.",
+   "mc": "Un testigo de color verde en el panel indica…",
+   "o": [
+    "La puesta en funcionamiento",
+    "Atención inmediata, avería grave",
+    "Un posible problema a revisar",
+    "Que falta combustible en el estanque"
+   ],
+   "e": "Los testigos verdes indican la puesta en funcionamiento."
+  },
+  {
+   "s": "c2s1",
+   "cita": "Odómetro: Indica la distancia total o parcial recorrida por el vehículo.",
+   "q": [
+    "u2-01"
+   ]
+  },
+  {
+   "s": "c2s1",
+   "cita": "Velocímetro: Mide y muestra el valor de la rapidez instantánea del vehículo.",
+   "q": [
+    "u2-01"
+   ]
+  },
+  {
+   "s": "c2s1",
+   "cita": "Testigos color amarillo o ámbar: Advierten sobre un posible problema a revisar.",
+   "q": [
+    "u2-02"
+   ]
+  },
+  {
+   "s": "c2s2",
+   "cita": "El motor es la parte del vehículo que permite el funcionamiento de todos sus sistemas. Generalmente se sitúa en la parte delantera y para funcionar puede utilizar gasolina, petróleo diesel, gas y/o electricidad.",
+   "mc": "¿Qué puede utilizar el motor para funcionar?",
+   "o": [
+    "Gasolina, petróleo diesel, gas y/o electricidad",
+    "Solo gasolina de alto octanaje, sin mezcla",
+    "Solo petróleo diesel o gasolina común",
+    "Solo electricidad guardada en la batería"
+   ],
+   "e": "El motor generalmente se sitúa adelante y puede utilizar gasolina, petróleo diesel, gas y/o electricidad."
+  },
+  {
+   "s": "c2s2",
+   "cita": "Se trata del sistema encargado de distribuir aceite a todas las partes móviles dentro del motor con el objetivo de reducir el desgaste y la fricción entre las superficies de los componentes.",
+   "mc": "¿Cuál es el objetivo del sistema de lubricación?",
+   "o": [
+    "Reducir el desgaste y la fricción del motor",
+    "Enfriar el motor con agua destilada",
+    "Producir la energía eléctrica del auto",
+    "Expulsar al exterior los gases de la combustión"
+   ],
+   "e": "Distribuye aceite a las partes móviles del motor para reducir el desgaste y la fricción."
+  },
+  {
+   "s": "c2s2",
+   "cita": "Si esta se enciende, debes detener el motor de inmediato y no ponerlo en marcha hasta haberlo reparado, ya que le puedes causar averías graves.",
+   "q": [
+    "u2-03"
+   ]
+  },
+  {
+   "s": "c2s2",
+   "cita": "Te recomendamos controlar el nivel de aceite y agregar más si el nivel está bajo. Además, cambiar periódicamente el aceite y el filtro, según las recomendaciones del fabricante del vehículo.",
+   "tf": "El aceite y su filtro se deben cambiar periódicamente según las recomendaciones del fabricante del vehículo.",
+   "a": true,
+   "e": "Controla el nivel de aceite y cambia periódicamente el aceite y el filtro según el fabricante."
+  },
+  {
+   "s": "c2s3",
+   "cita": "Esta energía es producida por el alternador y almacenada en la batería.",
+   "q": [
+    "u2-07"
+   ]
+  },
+  {
+   "s": "c2s3",
+   "cita": "Cuando esta correa está poco tensa, se genera menos electricidad, generando una disminución en la carga de la batería.",
+   "mc": "Si la correa del alternador está poco tensa…",
+   "o": [
+    "Se genera menos electricidad y baja la carga de la batería",
+    "Se enciende la luz de presión de aceite",
+    "El motor se calienta demasiado y hierve el refrigerante",
+    "Los frenos pierden fuerza al presionarlos"
+   ],
+   "e": "Con la correa poco tensa se genera menos electricidad y disminuye la carga de la batería."
+  },
+  {
+   "s": "c2s3",
+   "cita": "Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente cuando la temperatura es baja.",
+   "tf": "Una batería mal cargada dificulta arrancar, especialmente cuando la temperatura es baja.",
+   "a": true,
+   "e": "Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente con frío."
+  },
+  {
+   "s": "c2s3",
+   "cita": "Cuando el motor de tu vehículo no se enciende al darle contacto es muy probable que la batería se encuentre descargada o desconectada.",
+   "mc": "Si el motor no se enciende al darle contacto, lo más probable es que…",
+   "o": [
+    "La batería esté descargada o desconectada",
+    "Se haya quemado una ampolleta del tablero",
+    "El nivel de aceite del motor esté bajo",
+    "Un neumático delantero tenga poca presión"
+   ],
+   "e": "Es muy probable que la batería esté descargada o desconectada."
+  },
+  {
+   "s": "c2s3",
+   "cita": "todos los accesorios que utilizan electricidad están casi siempre provistos de fusibles para impedir incendios o daños en el sistema eléctrico. Por lo que, si alguna unidad eléctrica deja de funcionar, lo primero que debes revisar es si se ha fundido algún fusible.",
+   "q": [
+    "u2-08"
+   ]
+  },
+  {
+   "s": "c2s3",
+   "cita": "si alguna no enciende o si la luz de control de los intermitentes destella en forma más rápida que lo habitual, es probable que una ampolleta se haya quemado.",
+   "q": [
+    "u2-09"
+   ]
+  },
+  {
+   "s": "c2s3",
+   "cita": "El nivel de líquido en la batería. Agrega agua destilada cuando sea necesario.",
+   "mc": "¿Qué se agrega a la batería cuando su nivel de líquido está bajo?",
+   "o": [
+    "Agua destilada",
+    "Líquido de frenos",
+    "Aceite de motor",
+    "Agua de la llave"
+   ],
+   "e": "Controla el nivel de líquido en la batería y agrega agua destilada cuando sea necesario."
+  },
+  {
+   "s": "c2s3",
+   "cita": "La luz de carga durante la conducción. Si se enciende o parpadea es porque hay algún problema.",
+   "tf": "Si la luz de carga se enciende o parpadea durante la conducción, hay algún problema.",
+   "a": true,
+   "e": "Si la luz de carga se enciende o parpadea es porque hay algún problema."
+  },
+  {
+   "s": "c2s3",
+   "cita": "¡Ten precaución! El ácido de la batería es corrosivo; cuidado con tu ropa y piel.",
+   "tf": "El ácido de la batería es corrosivo: hay que cuidar la ropa y la piel.",
+   "a": true,
+   "e": "El ácido de la batería es corrosivo; cuidado con tu ropa y piel."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Si al conducir sientes un fuerte olor a gasolina debes detenerte para investigar la causa del problema. Así puedes prevenir el riesgo de incendio en tu vehículo.",
+   "mc": "Si al conducir sientes un fuerte olor a gasolina, debes…",
+   "o": [
+    "Detenerte para investigar la causa",
+    "Abrir las ventanas y seguir conduciendo",
+    "Acelerar para llegar pronto al taller",
+    "Apagar el aire acondicionado"
+   ],
+   "e": "Debes detenerte para investigar la causa; así previenes el riesgo de incendio."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Apagar el motor del vehículo. Evitar la inhalación de vapores emanados por la gasolina. No encender cigarrillos. No hablar por celular.",
+   "q": [
+    "u2-06"
+   ]
+  },
+  {
+   "s": "c2s4",
+   "cita": "Recuerda usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
+   "tf": "Debes usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
+   "a": true,
+   "e": "Usa el octanaje adecuado al motor, según el fabricante."
+  },
+  {
+   "s": "c2s4",
+   "cita": "En el indicador de combustible, la letra E significa vacío, del inglés “Empty”, y la letra F indica, estanque lleno, del inglés “Full”.",
+   "q": [
+    "u2-04"
+   ]
+  },
+  {
+   "s": "c2s4",
+   "cita": "Los vapores de la gasolina pueden ser cancerígenos y además son inflamables.",
+   "mc": "Según el libro, los vapores de la gasolina…",
+   "o": [
+    "Pueden ser cancerígenos y son inflamables",
+    "Son inofensivos siempre que el motor esté apagado",
+    "Solo son peligrosos en días calurosos",
+    "No son inflamables al aire libre"
+   ],
+   "e": "Evita abrir la tapa más de lo necesario: los vapores pueden ser cancerígenos y son inflamables."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Llenar el estanque de combustible cada vez que vayas a recargar. Contaminará menos al liberar menos gases.",
+   "tf": "Para contaminar menos, conviene llenar el estanque cada vez que vayas a recargar combustible.",
+   "a": true,
+   "e": "Llenar el estanque cada vez que recargas contamina menos al liberar menos gases."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Evitar frenadas y aceleraciones frecuentes ya que causan alto consumo de combustible.",
+   "tf": "Las frenadas y aceleraciones frecuentes causan alto consumo de combustible.",
+   "a": true,
+   "e": "Evita frenadas y aceleraciones frecuentes: causan alto consumo de combustible."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Este proceso utiliza un líquido refrigerante (agua destilada más un anticongelante) que circula de manera constante por canales en el bloque del motor y pasa desde ahí al radiador.",
+   "mc": "¿De qué está compuesto el líquido refrigerante?",
+   "o": [
+    "Agua destilada más un anticongelante",
+    "Aceite de motor más agua",
+    "Líquido de frenos más agua",
+    "Agua de la llave más alcohol para que no se congele"
+   ],
+   "e": "El líquido refrigerante es agua destilada más un anticongelante."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Cuando hay una obstrucción del sistema de refrigeración, poco líquido refrigerante y/o una correa de la bomba de agua rota o mal tensada, la temperatura del motor se eleva. Si esto sucede, debes detener la marcha y reparar la avería.",
+   "mc": "Si la temperatura del motor se eleva, debes…",
+   "o": [
+    "Detener la marcha y reparar la avería",
+    "Seguir conduciendo con el motor acelerado",
+    "Agregar aceite y continuar el viaje",
+    "Apagar las luces y seguir más lento"
+   ],
+   "e": "Si la temperatura del motor se eleva, debes detener la marcha y reparar la avería."
+  },
+  {
+   "s": "c2s4",
+   "cita": "Hoy en día, la mayoría de los vehículos tiene ventilador eléctrico que se activa al subir la temperatura (especialmente al circular a baja velocidad). Si esto no sucede, puede deberse a un contacto defectuoso, que la correa del ventilador esté dañada o a un fusible dañado.",
+   "mc": "Si el ventilador eléctrico no se activa al subir la temperatura, puede deberse a…",
+   "o": [
+    "Un contacto defectuoso, la correa dañada o un fusible",
+    "Que el estanque de combustible está casi vacío o con aire",
+    "Que los neumáticos tienen demasiada presión",
+    "Que las luces altas están encendidas"
+   ],
+   "e": "Puede deberse a un contacto defectuoso, a que la correa del ventilador esté dañada o a un fusible dañado."
+  },
+  {
+   "s": "c2s4",
+   "cita": "En el indicador de temperatura, la letra C significa frío, del inglés “Cold”, y la letra H, caliente, del inglés “Hot”.",
+   "q": [
+    "u2-05"
+   ]
+  },
+  {
+   "s": "c2s4",
+   "cita": "a temperaturas bajo cero, el líquido refrigerante debe contener una cantidad suficiente de anticongelante que impida que el motor y el radiador se dañen por efecto de la congelación del agua",
+   "tf": "A temperaturas bajo cero, el refrigerante debe tener suficiente anticongelante para que el motor y el radiador no se dañen.",
+   "a": true,
+   "e": "El anticongelante impide que el motor y el radiador se dañen por la congelación del agua."
+  },
+  {
+   "s": "c2s5",
+   "cita": "Se trata del conjunto de elementos y conductos que facilitan la expulsión al exterior de los gases que se han generado en la combustión, con el fin de mejorar el rendimiento del motor y su sonoridad.",
+   "mc": "¿Qué hace el sistema de escape?",
+   "o": [
+    "Expulsa al exterior los gases de la combustión",
+    "Distribuye aceite a las partes del motor",
+    "Transmite la potencia que genera el motor a las ruedas",
+    "Enfría el motor con líquido refrigerante"
+   ],
+   "e": "Facilita la expulsión al exterior de los gases de la combustión, para mejorar el rendimiento del motor y su sonoridad."
+  },
+  {
+   "s": "c2s5",
+   "cita": "monóxido de carbono, un componente venenoso, incoloro",
+   "q": [
+    "u2-10"
+   ]
+  },
+  {
+   "s": "c2s5",
+   "cita": "Un ruido anormalmente alto",
+   "mc": "Un ruido anormalmente alto del tubo de escape suele ser señal de…",
+   "o": [
+    "Roturas u orificios en el silenciador",
+    "Que el motor está bien lubricado y sin desgaste",
+    "Que el estanque está lleno",
+    "Que la batería está cargada"
+   ],
+   "e": "Un ruido anormalmente alto del tubo de escape suele ser una señal de roturas o de orificios en el silenciador."
+  },
+  {
+   "s": "c2s5",
+   "cita": "lo mismo puede ocurrir, al conducir con el portaequipaje abierto.",
+   "tf": "Conducir con el portaequipaje abierto puede hacer que el monóxido de carbono entre al interior del vehículo.",
+   "a": true,
+   "e": "El gas puede penetrar en el interior del vehículo; lo mismo puede ocurrir al conducir con el portaequipaje abierto."
+  },
+  {
+   "s": "c2s5",
+   "cita": "Los primeros síntomas de intoxicación con monóxido de carbono, son el dolor de cabeza y los vómitos. A la menor señal de intoxicación, sal del vehículo y respira aire fresco.",
+   "q": [
+    "u2-11"
+   ]
+  },
+  {
+   "s": "c2s5",
+   "cita": "Es el sistema encargado de transferir la potencia que genera el motor a las ruedas del vehículo. Hay vehículos de tracción delantera y de tracción trasera. También hay vehículos de tracción en las cuatro ruedas.",
+   "mc": "¿Qué hace la transmisión?",
+   "o": [
+    "Transfiere la potencia del motor a las ruedas",
+    "Transmite el movimiento del volante a las ruedas",
+    "Mantiene el contacto del neumático con la calzada",
+    "Reduce la velocidad hasta detener el vehículo"
+   ],
+   "e": "La transmisión transfiere la potencia que genera el motor a las ruedas."
+  },
+  {
+   "s": "c2s5",
+   "cita": "a través del embrague, el sistema (pedal) que permite la transmisión o interrupción de la energía hacia las ruedas de tracción.",
+   "mc": "¿Qué permite el embrague?",
+   "o": [
+    "Transmitir o interrumpir la energía a las ruedas",
+    "Aumentar la fuerza de frenado del pedal",
+    "Medir las revoluciones del motor",
+    "Mantener el vehículo quieto cuando está en una pendiente"
+   ],
+   "e": "El embrague es el sistema (pedal) que permite la transmisión o interrupción de la energía hacia las ruedas de tracción."
+  },
+  {
+   "s": "c2s5",
+   "cita": "Debes saber que al conducir presionando el embrague durante un tiempo mayor al necesario se reduce el control sobre el vehículo.",
+   "q": [
+    "u2-12"
+   ]
+  },
+  {
+   "s": "c2s5",
+   "cita": "Existen diversos tipos de caja de cambios, clasificados en automática y manual, estas son diferenciadas por el uso de la palanca de cambios y, en el caso de los vehículos automáticos, carecer de pedal de embrague.",
+   "tf": "Los vehículos con caja de cambios automática no tienen pedal de embrague.",
+   "a": true,
+   "e": "Las cajas se clasifican en automática y manual; los vehículos automáticos carecen de pedal de embrague."
+  },
+  {
+   "s": "c2s5",
+   "cita": "La caja de cambios multiplica la fuerza del motor. Esta puede tener 3, 4, 5 o más marchas. Cada marcha se utiliza en un rango de velocidades, lo que permite optimizar el uso de combustible.",
+   "mc": "¿Qué permite usar cada marcha en un rango de velocidades?",
+   "o": [
+    "Optimizar el uso de combustible",
+    "Frenar sin usar el pedal de freno",
+    "Cargar la batería más rápido",
+    "Evitar el desgaste de los neumáticos"
+   ],
+   "e": "La caja de cambios multiplica la fuerza del motor; cada marcha en su rango permite optimizar el uso de combustible."
+  },
+  {
+   "s": "c2s6",
+   "cita": "El sistema de dirección se encarga de transmitir el movimiento del volante hacia las ruedas. Para que este proceso requiera el mínimo esfuerzo humano, existe un mecanismo auxiliar llamado servodirección.",
+   "mc": "¿Cómo se llama el mecanismo que reduce el esfuerzo para mover el volante?",
+   "o": [
+    "Servodirección",
+    "Servofrenos",
+    "Alternadores",
+    "Tacómetro"
+   ],
+   "e": "La servodirección es el mecanismo auxiliar para que mover la dirección requiera el mínimo esfuerzo."
+  },
+  {
+   "s": "c2s6",
+   "cita": "la dirección se desalinea con mayor rapidez cuando el vehículo es sometido a sobrecargas, así como cuando topa contra el borde de una solera u otro obstáculo, o cae en hoyos. Esto provoca que las ruedas produzcan vibraciones y aumente el desgaste de los neumáticos.",
+   "mc": "¿Qué hace que la dirección se desalinee más rápido?",
+   "o": [
+    "Sobrecargas, topar soleras o caer en hoyos",
+    "Conducir de noche con luces bajas",
+    "Cargar combustible con el motor del vehículo apagado",
+    "Usar el freno de mano al estacionar"
+   ],
+   "e": "Se desalinea con sobrecargas, al topar el borde de una solera u otro obstáculo, o al caer en hoyos; provoca vibraciones y desgaste de neumáticos."
+  },
+  {
+   "s": "c2s6",
+   "cita": "sentir la dirección pesada, escuchar un chirrido excesivo al doblar o, si al conducir por un terreno plano, el vehículo tiende a irse hacia un lado.",
+   "q": [
+    "u2-13"
+   ]
+  },
+  {
+   "s": "c2s6",
+   "cita": "Estos sistemas son los encargados de mantener en todo momento el contacto entre los neumáticos y la superficie de la calzada, garantizando la estabilidad del vehículo y proporcionando confort a la persona conductora.",
+   "mc": "¿Qué función cumplen la suspensión y la amortiguación?",
+   "o": [
+    "Mantener el contacto de los neumáticos con la calzada",
+    "Transmitir la potencia que genera el motor a las ruedas",
+    "Reducir la velocidad hasta detener el vehículo",
+    "Distribuir aceite a todas las partes del motor"
+   ],
+   "e": "Mantienen en todo momento el contacto entre los neumáticos y la calzada, dando estabilidad y confort."
+  },
+  {
+   "s": "c2s6",
+   "cita": "Al frenar, el vehículo se inclina hacia adelante y se levanta de atrás de forma excesiva.",
+   "q": [
+    "u2-14"
+   ]
+  },
+  {
+   "s": "c2s6",
+   "cita": "Circulando de noche, las luces oscilan de forma llamativa.",
+   "mc": "¿Cuál de estos es un síntoma de amortiguadores en mal estado?",
+   "o": [
+    "De noche, las luces oscilan de forma llamativa",
+    "El testigo de aceite se enciende cada vez que frenas",
+    "El motor no enciende al darle contacto",
+    "El intermitente destella más rápido"
+   ],
+   "e": "Otros síntomas: se balancea mucho, rebota, se notan los baches y el viento lateral, desgaste irregular, y de noche las luces oscilan."
+  },
+  {
+   "s": "c2s6",
+   "cita": "Los neumáticos se desgastan irregularmente.",
+   "tf": "El desgaste irregular de los neumáticos puede ser síntoma de amortiguadores en mal estado.",
+   "a": true,
+   "e": "Es uno de los síntomas de amortiguadores en mal estado."
+  },
+  {
+   "s": "c2s6",
+   "cita": "Aumento de la distancia de frenado, sobre todo con pavimento irregular o mojado (si además, el vehículo dispone de frenos ABS, este sistema perderá efectividad).",
+   "mc": "Un amortiguador en malas condiciones puede provocar…",
+   "o": [
+    "Aumento de la distancia de frenado",
+    "Mayor estabilidad en las curvas",
+    "Menor consumo de combustible",
+    "Menos fatiga para quien conduce en viajes largos"
+   ],
+   "e": "Aumenta la distancia de frenado, se pierde estabilidad y el ABS pierde efectividad; además aumenta la fatiga."
+  },
+  {
+   "s": "c2s6",
+   "cita": "Disminución del confort durante la conducción. La fatiga aparece con mayor facilidad en quien conduce.",
+   "tf": "Con amortiguadores en mal estado, la fatiga aparece con mayor facilidad en quien conduce.",
+   "a": true,
+   "e": "Disminuye el confort y la fatiga aparece con mayor facilidad."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Todos los vehículos tienen dos sistemas de frenos, que actúan independientemente uno del otro:",
+   "mc": "¿Cuántos sistemas de frenos independientes tienen todos los vehículos?",
+   "o": [
+    "Dos",
+    "Uno",
+    "Tres",
+    "Cuatro"
+   ],
+   "e": "El freno de servicio (pedal) y el freno de estacionamiento, que actúan independientemente."
+  },
+  {
+   "s": "c2s7",
+   "cita": "los vehículos modernos están equipados con sistemas de frenos de dos circuitos. Así, si se produce una falla en un circuito, se mantiene cierto efecto de frenado en el otro.",
+   "mc": "En un vehículo moderno con frenos de dos circuitos, si falla un circuito…",
+   "o": [
+    "Se mantiene cierto efecto de frenado en el otro",
+    "Se pierde todo el efecto de frenado",
+    "Solo funciona el freno de mano",
+    "El vehículo se detiene de inmediato solo"
+   ],
+   "e": "Los antiguos tienen un solo circuito; los modernos tienen dos, y si falla uno se mantiene cierto efecto de frenado en el otro."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Muchos automóviles poseen un sistema de servofrenos, que aumenta considerablemente la fuerza de frenado. Esta tecnología funciona sólo con el motor en marcha. Por eso hay que tener cuidado al ser remolcado o si el motor se detiene en una bajada.",
+   "q": [
+    "u2-15"
+   ]
+  },
+  {
+   "s": "c2s7",
+   "cita": "Su función es inmovilizar el vehículo cuando está estacionado para evitar que se desplace accidentalmente, especialmente en pendientes.",
+   "mc": "¿Cuál es la función del freno de estacionamiento?",
+   "o": [
+    "Inmovilizar el vehículo estacionado",
+    "Aumentar la fuerza del freno de servicio",
+    "Evitar que las ruedas se bloqueen al frenar",
+    "Frenar con el motor en las bajadas"
+   ],
+   "e": "También llamado freno de mano o de emergencia, inmoviliza el vehículo estacionado, especialmente en pendientes."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Este freno suele actuar directamente sobre las ruedas traseras, bloqueándolas para impedir el movimiento.",
+   "tf": "El freno de mano suele actuar directamente sobre las ruedas traseras.",
+   "a": true,
+   "e": "Suele actuar directamente sobre las ruedas traseras, bloqueándolas."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Si circulas por una calle inundada, o si has lavado el vehículo recientemente debes eliminar, también frenando, la eventual humedad en los tambores",
+   "mc": "Después de circular por una calle inundada o lavar el vehículo, debes…",
+   "o": [
+    "Frenar para eliminar la humedad de los tambores",
+    "Inflar los neumáticos con más presión que la recomendada",
+    "Desconectar la batería unos minutos",
+    "Agregar líquido de frenos"
+   ],
+   "e": "Debes eliminar, frenando, la eventual humedad en los tambores; también conviene probar los frenos a baja velocidad bajo cero."
+  },
+  {
+   "s": "c2s7",
+   "cita": "existen 2 tipos de frenos, los convencionales y los frenos antibloqueo o ABS. Estos funcionan de forma distinta por lo que es de suma importancia saber qué tipo de frenos tiene el vehículo en el que te desplazas.",
+   "tf": "Es muy importante saber si el vehículo tiene frenos convencionales o ABS, porque funcionan de forma distinta.",
+   "a": true,
+   "e": "Existen frenos convencionales y ABS; funcionan distinto."
+  },
+  {
+   "s": "c2s7",
+   "cita": "uno de los mayores riesgos ante una frenada brusca es que las ruedas del vehículo se bloqueen y se deslicen sobre el pavimento. Cuando esto ocurre la distancia de frenado aumentará notablemente. Además, en estas condiciones es imposible controlar la dirección del vehículo",
+   "mc": "Si las ruedas se bloquean en una frenada brusca…",
+   "o": [
+    "Aumenta la distancia de frenado y no controlas la dirección",
+    "Se acorta la distancia de frenado y giras mejor",
+    "El vehículo se detiene en línea recta y seguro",
+    "El ABS se apaga y el motor deja de funcionar"
+   ],
+   "e": "La distancia de frenado aumenta notablemente y es imposible controlar la dirección."
+  },
+  {
+   "s": "c2s7",
+   "cita": "El ABS (sistema de frenado antibloqueo) detecta el instante en que las ruedas se bloquean y reduce ligeramente la presión sobre los frenos, mientras se mantiene presionado a fondo el pedal de freno. Permite que las ruedas sigan girando y que la persona conductora mantenga el control sobre la dirección del vehículo.",
+   "q": [
+    "u2-16"
+   ]
+  },
+  {
+   "s": "c2s7",
+   "cita": "Si el ABS llegase a fallar, los frenos seguirán funcionando.",
+   "tf": "Si el ABS falla, los frenos dejan de funcionar.",
+   "a": false,
+   "e": "Si el ABS llegase a fallar, los frenos seguirán funcionando."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Este no se consume, por lo tanto, si disminuye es porque hay algún defecto mecánico.",
+   "q": [
+    "u2-17"
+   ]
+  },
+  {
+   "s": "c2s7",
+   "cita": "Lo aceptable es que usted pueda presionar el pedal hasta más arriba de la mitad de su distancia al piso.",
+   "mc": "¿Hasta dónde es aceptable poder presionar el pedal de freno?",
+   "o": [
+    "Hasta más arriba de la mitad de su distancia al piso",
+    "Hasta tocar completamente el piso del vehículo",
+    "Hasta un cuarto de su distancia al piso",
+    "Hasta que se encienda la luz de freno trasera"
+   ],
+   "e": "La carrera del pedal no debe ser demasiado larga: lo aceptable es más arriba de la mitad de su distancia al piso."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Si están mal ajustados, en una frenada brusca, el efecto irregular puede hacer que el vehículo se desvíe hacia un costado.",
+   "tf": "Si los frenos están mal ajustados, en una frenada brusca el vehículo puede desviarse hacia un costado.",
+   "a": true,
+   "e": "Los frenos deben actuar en forma pareja sobre las cuatro ruedas."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Que la posición del pedal no descienda cuando lo tienes fuertemente presionado. Si ello sucede, puede haber fugas.",
+   "mc": "Si el pedal de freno desciende cuando lo tienes fuertemente presionado, puede haber…",
+   "o": [
+    "Fugas",
+    "Aire en los neumáticos",
+    "Una ampolleta quemada",
+    "Exceso de aceite"
+   ],
+   "e": "Si la posición del pedal desciende al presionarlo fuerte, puede haber fugas."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Que el pedal se sienta rígido y no elástico. Si el pedal cede en su punto de presión, probablemente haya entrado aire al sistema.",
+   "mc": "Si el pedal de freno se siente elástico y cede, probablemente…",
+   "o": [
+    "Entró aire al sistema de frenos",
+    "La batería está descargada o mal conectada",
+    "El refrigerante está bajo",
+    "El embrague está gastado"
+   ],
+   "e": "El pedal debe sentirse rígido; si cede, probablemente haya entrado aire al sistema."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Los plazos del líquido de frenos, indicados por el fabricante del vehículo. Una vez que caducan, debes cambiar todo el contenido.",
+   "tf": "Cuando caduca el plazo del líquido de frenos, debes cambiar todo el contenido.",
+   "a": true,
+   "e": "Respeta los plazos del fabricante; una vez que caducan, se cambia todo el contenido."
+  },
+  {
+   "s": "c2s7",
+   "cita": "Que el freno de mano funcione correctamente. Este debe mantener el vehículo quieto en una pendiente o impedir que se pueda poner en marcha con el freno puesto.",
+   "tf": "El freno de mano debe mantener el vehículo quieto en una pendiente.",
+   "a": true,
+   "e": "Debe mantener el vehículo quieto en una pendiente o impedir que se ponga en marcha con el freno puesto."
+  },
+  {
+   "s": "c2s7",
+   "cita": "El funcionamiento de los frenos mediante pruebas de frenado a baja velocidad si has: circulado por vías inundadas, lavado el vehículo o si el vehículo ha estado guardado por un largo tiempo.",
+   "mc": "¿Cuándo conviene probar los frenos a baja velocidad?",
+   "o": [
+    "Tras vías inundadas, lavar el auto o tenerlo guardado",
+    "Cada vez que cargas combustible",
+    "Solo cuando se enciende el testigo de aceite",
+    "Después de cada viaje por la ciudad"
+   ],
+   "e": "Si circulaste por vías inundadas, lavaste el vehículo o estuvo guardado largo tiempo."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Los neumáticos son el único punto de apoyo del vehículo con la calzada, por esto, es de vital importancia controlarlos regularmente.",
+   "tf": "Los neumáticos son el único punto de apoyo del vehículo con la calzada.",
+   "a": true,
+   "e": "Por eso es de vital importancia controlarlos regularmente."
+  },
+  {
+   "s": "c2s8",
+   "cita": "los neumáticos son los que requieren mayor revisión de parte de la persona conductora.",
+   "mc": "¿Qué elemento del vehículo requiere mayor revisión de parte de quien conduce?",
+   "o": [
+    "Los neumáticos",
+    "El tubo de escape",
+    "El odómetro",
+    "La radio"
+   ],
+   "e": "De los distintos elementos del vehículo, los neumáticos son los que requieren mayor revisión."
+  },
+  {
+   "s": "c2s8",
+   "cita": "deben tener una profundidad aconsejable mínima de 3 mm. Cuando la profundidad de tales dibujos es muy baja (inferior a 1,6 mm) empeora la fricción con el pavimento mojado",
+   "q": [
+    "u2-18"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "Además, es importante revisar la presión del aire en ellos. Esta debe ser constante durante todo el año.",
+   "tf": "La presión de aire de los neumáticos debe ser constante durante todo el año.",
+   "a": true,
+   "e": "Es importante revisar la presión del aire; debe ser constante durante todo el año."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Una baja presión de aire en una rueda delantera hace que el vehículo tienda a torcer hacia ese lado.",
+   "mc": "Una baja presión de aire en una rueda delantera hace que el vehículo…",
+   "o": [
+    "Tienda a torcer hacia ese lado",
+    "Frene mejor en pavimento mojado",
+    "Consuma menos combustible",
+    "Tenga la dirección más liviana"
+   ],
+   "e": "El vehículo tiende a torcer hacia el lado de la rueda con baja presión."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Un desgaste notorio en la zona central de la banda de rodamiento significa que los neumáticos se han usado con exceso de aire, mientras que un desgaste sólo en los extremos de la banda indica que se han usado con menor presión de aire que la recomendada.",
+   "q": [
+    "u2-19"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "Un desgaste irregular puede deberse a problemas de alineamiento, de amortiguación o a que has estado conduciendo con una presión de aire inadecuada.",
+   "mc": "Un desgaste notorio solo en la zona central de la banda indica que el neumático se usó…",
+   "o": [
+    "Con exceso de aire",
+    "Con menos aire del recomendado",
+    "Con la dirección desalineada",
+    "Sin carga en el vehículo"
+   ],
+   "e": "Desgaste central: exceso de aire. Desgaste en los extremos: menos presión que la recomendada."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Si al ir conduciendo se revienta un neumático trasero, debes girar el volante hacia el lado en que se desvía la cola del vehículo.",
+   "q": [
+    "u2-20"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "se revienta un neumático delantero, debes frenar de forma suave sosteniendo el volante firmemente. En ambos casos, debes detenerte lentamente al costado de la vía.",
+   "q": [
+    "u2-21"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "Controlar la presión de los neumáticos cuando estos estén fríos y respetar las recomendaciones del fabricante. Si la presión se ajusta cuando los neumáticos están calientes, se tendrá una presión inferior a la adecuada.",
+   "q": [
+    "u2-22"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "Circular a una velocidad moderada alarga la vida de los neumáticos.",
+   "tf": "Circular a una velocidad moderada alarga la vida de los neumáticos.",
+   "a": true,
+   "e": "Circular a velocidad moderada alarga la vida de los neumáticos."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Tener en cuenta que situaciones como circular con carga, o por un pavimento en mal estado o un clima caluroso, pueden acelerar el desgaste de los neumáticos.",
+   "mc": "¿Qué situaciones pueden acelerar el desgaste de los neumáticos?",
+   "o": [
+    "Carga, pavimento en mal estado o clima caluroso",
+    "Conducir de noche con luces bajas",
+    "Cargar combustible con el estanque lleno",
+    "Usar el aire acondicionado en invierno con frío"
+   ],
+   "e": "Circular con carga, por pavimento en mal estado o con clima caluroso acelera el desgaste."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Aumentar levemente la presión de los neumáticos cuando llevas una carga muy pesada.",
+   "tf": "Cuando llevas una carga muy pesada, conviene aumentar levemente la presión de los neumáticos.",
+   "a": true,
+   "e": "Aumenta levemente la presión cuando llevas una carga muy pesada."
+  },
+  {
+   "s": "c2s8",
+   "cita": "vibraciones al circular, por ejemplo), es bueno buscar asesoría de un profesional. Podría haber un problema de desbalanceo.",
+   "mc": "Si notas vibraciones al circular, podría haber un problema de…",
+   "o": [
+    "Desbalanceo",
+    "Octanaje",
+    "Lubricación",
+    "Refrigeración"
+   ],
+   "e": "Busca asesoría de un profesional; podría haber un problema de desbalanceo."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Los neumáticos deben ser cambiados al menos cada 5 años. Aunque tengan poco uso y su dibujo esté bien, el material envejece y pierden sus propiedades para rodar con seguridad.",
+   "q": [
+    "u2-23"
+   ]
+  },
+  {
+   "s": "c2s8",
+   "cita": "Si subes escalones o veredas con tu vehículo, pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos.",
+   "tf": "Subir escalones o veredas con el vehículo puede deformar las llantas y cortar los neumáticos.",
+   "a": true,
+   "e": "Pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Cuando dejes la rueda de repuesto, asegúrate que esta se encuentre con la presión más alta sugerida y, si tuvieras que usarla, no exceder la velocidad máxima indicada por el fabricante.",
+   "mc": "¿Con qué presión debes dejar la rueda de repuesto?",
+   "o": [
+    "Con la presión más alta sugerida",
+    "Con la presión más baja sugerida",
+    "Sin aire, para inflarla al usarla",
+    "Con la mitad de la presión normal"
+   ],
+   "e": "Con la presión más alta sugerida; si la usas, no excedas la velocidad máxima indicada por el fabricante."
+  },
+  {
+   "s": "c2s8",
+   "cita": "Puedes encontrar información sobre la presión de aire apropiada para los neumáticos de tu vehículo en el manual del fabricante o en una tabla que generalmente está adosada al marco de la puerta de quien conduce, en la guantera o en el compartimento del motor.",
+   "mc": "¿Dónde puedes encontrar la presión de aire apropiada para tus neumáticos?",
+   "o": [
+    "En el manual o en una tabla en la puerta del conductor",
+    "En el odómetro del panel de instrumentos",
+    "En la etiqueta del envase del líquido de frenos",
+    "En el permiso de circulación del vehículo"
+   ],
+   "e": "En el manual del fabricante o en una tabla en el marco de la puerta de quien conduce, la guantera o el compartimento del motor."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Todos los vehículos deben estar provistos de focos y luces exteriores para poder ver y ser visto por las demás personas",
+   "tf": "Las luces exteriores sirven para ver y también para ser visto por las demás personas.",
+   "a": true,
+   "e": "Los vehículos deben tener focos y luces exteriores para ver y ser visto, y para advertir maniobras."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Parte delantera: Dos focos que proyecten luces altas y bajas, dos luces de estacionamiento y dos luces destellantes de viraje.",
+   "mc": "¿Qué luces debe tener un automóvil en su parte delantera?",
+   "o": [
+    "Dos focos altos/bajos, dos de estacionamiento y dos de viraje",
+    "Dos focos de luz alta y una luz de placa patente",
+    "Dos luces rojas fijas y dos luces de retroceso",
+    "Dos luces de freno y dos luces neblineras"
+   ],
+   "e": "Adelante: dos focos de luces altas y bajas, dos de estacionamiento y dos destellantes de viraje."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Adicionalmente, debe contar con una tercera luz de freno ubicada al centro de la luneta trasera",
+   "tf": "Los automóviles deben tener una tercera luz de freno al centro de la luneta trasera.",
+   "a": true,
+   "e": "Automóviles, jeeps, furgones, station wagon, camionetas y transporte escolar."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Parte trasera: Dos luces de estacionamiento, dos luces destellantes de viraje, dos luces de retroceso, dos luces rojas fijas, dos luces de freno y una luz que ilumine la placa patente del vehículo.",
+   "mc": "¿Cuál de estas luces debe tener un automóvil en su parte trasera?",
+   "o": [
+    "Una luz que ilumine la placa patente",
+    "Dos focos de luces altas",
+    "Dos luces neblineras obligatorias",
+    "Un foco central de luz alta"
+   ],
+   "e": "Atrás: dos de estacionamiento, dos de viraje, dos de retroceso, dos rojas fijas, dos de freno y una luz de placa patente."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Un mal ajuste puede encandilar a las demás personas usuarias de la vía y causar un siniestro.",
+   "tf": "Un mal ajuste de los focos puede encandilar a otras personas y causar un siniestro.",
+   "a": true,
+   "e": "Asegúrate de que tus luces estén limpias, funcionen y estén bien ajustadas."
+  },
+  {
+   "s": "c2s9",
+   "cita": "a unos 10 m de una pared o algo similar, luego encender tus luces bajas y verificar que el alto de la luz proyectada en la pared sea inferior a la altura de los faros de tu vehículo respecto del nivel del suelo.",
+   "mc": "Para controlar tus luces bajas frente a una pared, ¿a qué distancia te estacionas?",
+   "o": [
+    "A unos 10 m",
+    "A unos 2 m",
+    "A unos 30 m",
+    "A unos 50 m"
+   ],
+   "e": "A unos 10 m de una pared: la luz proyectada debe quedar más baja que la altura de los faros."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Luces de advertencia de peligro: Las luces intermitentes de advertencia de peligro sólo deben utilizarse cuando el vehículo se encuentra detenido a consecuencia de una falla o avería",
+   "q": [
+    "u2-24"
+   ]
+  },
+  {
+   "s": "c2s9",
+   "cita": "Deben usarse sólo por el tiempo que sea necesario para que las demás personas noten tu advertencia, nunca como una excusa para un estacionamiento peligroso o ilegal.",
+   "tf": "Las luces de advertencia de peligro permiten estacionar donde está prohibido.",
+   "a": false,
+   "e": "Nunca deben usarse como excusa para un estacionamiento peligroso o ilegal."
+  },
+  {
+   "s": "c2s9",
+   "cita": "Estas pueden usarse sólo cuando la visibilidad se encuentre considerablemente reducida, ya sea a consecuencia de la niebla o de una lluvia torrencial, y deben apagarse tan pronto mejore la visibilidad.",
+   "mc": "¿Cuándo se pueden usar las luces neblineras?",
+   "o": [
+    "Con visibilidad muy reducida por niebla o lluvia torrencial",
+    "Siempre que se conduzca de noche por la ciudad",
+    "Al estacionar el vehículo junto a la calzada",
+    "Para advertir que vas a adelantar a otro vehículo"
+   ],
+   "e": "Solo con visibilidad considerablemente reducida por niebla o lluvia torrencial; se apagan apenas mejora."
+  },
+  {
+   "s": "c2s10",
+   "cita": "La mayoría de los espejos laterales son convexos, por lo que las imágenes se visualizan más lejanas y/o más pequeñas de lo que están en la realidad.",
+   "q": [
+    "u2-25"
+   ]
+  },
+  {
+   "s": "c2s10",
+   "cita": "aun cuando tus espejos estén muy bien regulados, al conducir siempre existirá una zona sobre la cual no tendrás visión. Estos sectores son denominados puntos ciegos o ángulos muertos",
+   "mc": "¿Cómo se llaman las zonas que no ves aunque tus espejos estén bien regulados?",
+   "o": [
+    "Puntos ciegos o ángulos muertos",
+    "Zonas de seguridad lateral",
+    "Distancias de reacción",
+    "Zonas de detención total"
+   ],
+   "e": "Siempre existirá una zona sin visión: los puntos ciegos o ángulos muertos."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Debes tener especial precaución con las y los usuarios vulnerables, es decir, con peatones, ciclistas y motociclistas. Recuerda que estos no cuentan con una carrocería para protegerse",
+   "mc": "¿Quiénes son las y los usuarios vulnerables?",
+   "o": [
+    "Peatones, ciclistas y motociclistas",
+    "Conductores de buses, camiones y camionetas",
+    "Conductores de autos eléctricos",
+    "Pasajeros del asiento trasero"
+   ],
+   "e": "Peatones, ciclistas y motociclistas: no cuentan con una carrocería para protegerse."
+  },
+  {
+   "s": "c2s10",
+   "cita": "ANTES DE CONDUCIR, CONTROLA: Cinturones de seguridad Neumáticos Espejos Limpiaparabrisas Desempañador luneta trasera Puertas Ventilación Luces Bocina Líquido limpiaparabrisas Frenos",
+   "mc": "¿Cuál de estos elementos debes controlar antes de conducir?",
+   "o": [
+    "La bocina",
+    "El odómetro",
+    "La radio",
+    "El encendedor"
+   ],
+   "e": "Antes de conducir controla: cinturones, neumáticos, espejos, limpiaparabrisas, desempañador, puertas, ventilación, luces, bocina, líquido limpiaparabrisas y frenos."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Que al tomar el volante, tus brazos queden ligeramente flexionados.",
+   "mc": "Al tomar el volante, tus brazos deben quedar…",
+   "o": [
+    "Ligeramente flexionados",
+    "Completamente estirados",
+    "Doblados en ángulo recto",
+    "Apoyados en las rodillas"
+   ],
+   "e": "Al tomar el volante, tus brazos deben quedar ligeramente flexionados."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Llevar los dispositivos reflectantes para casos de emergencia, extintor de incendio, rueda de repuesto y herramientas necesarias para su cambio.",
+   "mc": "¿Qué elementos debes llevar siempre en el vehículo?",
+   "o": [
+    "Reflectantes, extintor, rueda de repuesto y herramientas",
+    "Un bidón con combustible de reserva bien lleno",
+    "Un juego extra de luces neblineras y ampolletas",
+    "Una batería de repuesto siempre cargada al máximo"
+   ],
+   "e": "Dispositivos reflectantes, extintor de incendio, rueda de repuesto y herramientas para su cambio."
+  },
+  {
+   "s": "c2s10",
+   "cita": "No llevar algún objeto suelto en el vehículo, que pueda lesionar a alguien en caso de una frenada brusca.",
+   "tf": "Un objeto suelto dentro del vehículo puede lesionar a alguien en una frenada brusca.",
+   "a": true,
+   "e": "No lleves objetos sueltos que puedan lesionar a alguien en una frenada brusca."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Tener calzado que te permita un adecuado control de los pedales.",
+   "tf": "Debes usar un calzado que te permita un adecuado control de los pedales.",
+   "a": true,
+   "e": "Es una de las cosas de las que siempre debes asegurarte."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Mirar a tu alrededor y chequear los puntos ciegos antes de poner tu vehículo en movimiento.",
+   "tf": "Antes de poner el vehículo en movimiento debes mirar alrededor y chequear los puntos ciegos.",
+   "a": true,
+   "e": "Siempre debes chequear los puntos ciegos antes de moverte."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Tener las puertas cerradas. Si llevas niñas y/o niños, asegúrate de que vayan bien sujetos y que no puedan abrir las puertas desde el interior.",
+   "tf": "Si llevas niñas o niños, debes asegurarte de que no puedan abrir las puertas desde el interior.",
+   "a": true,
+   "e": "Deben ir bien sujetos y no poder abrir las puertas desde el interior."
+  },
+  {
+   "s": "c2s10",
+   "cita": "Si no es así, activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera.",
+   "tf": "Si no tienes buena visibilidad por los vidrios, debes activar el ventilador y el desempañador.",
+   "a": true,
+   "e": "Activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera."
+  },
+  {
+   "s": "c2s11",
+   "u": "u3",
+   "cita": "un vehículo que se aproxima a una curva tiende a continuar su desplazamiento en línea recta.",
+   "mc": "Un vehículo que se aproxima a una curva tiende a…",
+   "o": [
+    "Continuar en línea recta",
+    "Girar solo hacia la curva",
+    "Frenar por sí mismo",
+    "Salir hacia el lado de adentro"
+   ],
+   "e": "Por la fuerza de inercia tiende a seguir recto; si la velocidad es muy alta, la fricción puede no bastar."
+  },
+  {
+   "s": "c2s11",
+   "u": "u3",
+   "cita": "si conduces a una velocidad demasiado alta, la fricción puede no ser suficiente para mantener al vehículo en la carretera.",
+   "tf": "A una velocidad demasiado alta, la fricción puede no ser suficiente para mantener el vehículo en la carretera.",
+   "a": true,
+   "e": "Al mover el volante desvías la trayectoria recta, pero a velocidad muy alta la fricción puede no bastar."
+  },
+  {
+   "s": "c2s11",
+   "cita": "Al aumentar la velocidad al doble, la energía del movimiento aumenta 4 veces",
+   "q": [
+    "u3-01"
+   ]
+  },
+  {
+   "s": "c2s11",
+   "cita": "Al enfrentarte a una curva, reduce la velocidad con tiempo antes de que comience la curva y acelera suavemente a la salida de la misma.",
+   "q": [
+    "u3-06"
+   ]
+  },
+  {
+   "s": "c2s11",
+   "u": "u3",
+   "cita": "que estimes bien el radio de una curva y que prestes atención a los obstáculos que puedas encontrar, como hojas caídas, derrames de combustible o alguna otra cosa que pueda hacer que la carretera esté resbaladiza.",
+   "mc": "¿Cuál de estos puede hacer que la carretera esté resbaladiza en una curva?",
+   "o": [
+    "Hojas caídas o derrames de combustible",
+    "Las líneas de demarcación recién pintadas en la vía",
+    "Las señales de curva peligrosa",
+    "Los reflectantes de la berma"
+   ],
+   "e": "Presta atención a obstáculos como hojas caídas, derrames de combustible u otra cosa resbaladiza."
+  },
+  {
+   "s": "c2s11",
+   "u": "u3",
+   "cita": "La magnitud de la fuerza centrífuga o fuerza lateral que en una curva tiende a sacar al vehículo de la carretera, depende directamente de la velocidad y de lo cerrada que sea la curva.",
+   "mc": "¿De qué depende la fuerza centrífuga que tiende a sacar al vehículo en una curva?",
+   "o": [
+    "De la velocidad y de lo cerrada que sea la curva",
+    "Solo del peso de las personas que viajan en el auto",
+    "Del color y del modelo del vehículo",
+    "De la hora del día en que conduces"
+   ],
+   "e": "Depende directamente de la velocidad y de lo cerrada que sea la curva."
+  },
+  {
+   "s": "c2s12",
+   "u": "u3",
+   "cita": "La distancia de reacción es la distancia que recorre el vehículo (manteniendo su trayectoria y velocidad)",
+   "mc": "¿Qué es la distancia de reacción?",
+   "o": [
+    "Lo que recorre el vehículo mientras reaccionas",
+    "Lo que recorre desde que frenas hasta detenerte",
+    "La distancia que dejas con el vehículo de adelante",
+    "Lo que recorre el vehículo en una curva"
+   ],
+   "e": "Es la distancia que recorre el vehículo, manteniendo trayectoria y velocidad, mientras la persona reacciona."
+  },
+  {
+   "s": "c2s12",
+   "u": "u3",
+   "cita": "Esta, depende del tiempo de reacción de la persona y de la velocidad a la que circula.",
+   "mc": "¿De qué depende la distancia de reacción?",
+   "o": [
+    "Del tiempo de reacción y de la velocidad",
+    "Del estado de los frenos y de los neumáticos",
+    "Solo de la pendiente de la calzada",
+    "Del peso de la carga del vehículo"
+   ],
+   "e": "Depende del tiempo de reacción de la persona y de la velocidad a la que circula."
+  },
+  {
+   "s": "c2s12",
+   "cita": "Un tiempo normal de reacción es un segundo.",
+   "q": [
+    "u3-03"
+   ]
+  },
+  {
+   "s": "c2s12",
+   "u": "u3",
+   "cita": "En este segundo, un vehículo a 36 km/h recorre 10 metros, 20 metros si lo hace a 72 km/h, etc.",
+   "mc": "En un segundo de reacción, un vehículo a 36 km/h recorre…",
+   "o": [
+    "10 metros",
+    "36 metros",
+    "3 metros",
+    "20 metros"
+   ],
+   "e": "A 36 km/h recorre 10 metros en un segundo; a 72 km/h, 20 metros."
+  },
+  {
+   "s": "c2s12",
+   "u": "u3",
+   "cita": "Además, existe la variable relacionada a la experiencia en conducción, que permite tener mejores tiempo de reacción.",
+   "tf": "La experiencia en conducción permite tener mejores tiempos de reacción.",
+   "a": true,
+   "e": "Existe la variable relacionada a la experiencia, que permite tener mejores tiempos de reacción."
+  },
+  {
+   "s": "c2s12",
+   "cita": "Puedes estimar aproximadamente la distancia de reacción, multiplicando por tres la primera cifra de la",
+   "q": [
+    "u3-04"
+   ]
+  },
+  {
+   "s": "c2s12",
+   "u": "u3",
+   "cita": "Este ejercicio es válido hasta los 99 km/h. Para velocidades sobre 100 km/h, debes considerear los 2 primeros dígitos",
+   "mc": "Para estimar la distancia de reacción a 110 km/h, ¿qué número multiplicas por tres?",
+   "o": [
+    "11",
+    "1",
+    "10",
+    "110"
+   ],
+   "e": "Sobre 100 km/h se consideran los 2 primeros dígitos: 11 × 3 = 33 m."
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "La distancia de detención (S) es la suma de la distancia de reacción (R) y la distancia de frenado (F).",
+   "q": [
+    "u3-02"
+   ]
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "La distancia de frenado es la distancia que recorre el vehículo desde que se presiona el pedal de freno hasta su detención total.",
+   "mc": "¿Qué es la distancia de frenado?",
+   "o": [
+    "Lo que recorre desde que presionas el freno hasta detenerte",
+    "Lo que recorre mientras la persona reacciona",
+    "La suma de la distancia de reacción y detención",
+    "Lo que recorre antes de ver el peligro en la vía"
+   ],
+   "e": "Es la distancia desde que se presiona el pedal de freno hasta la detención total."
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "Esta depende de la velocidad, del estado de la calzada, de la pendiente, del estado de los frenos y neumáticos, y de la forma de frenar.",
+   "mc": "¿Cuál de estos factores influye en la distancia de frenado?",
+   "o": [
+    "El estado de la calzada",
+    "El color del vehículo",
+    "La hora del día",
+    "La radio encendida"
+   ],
+   "e": "Depende de la velocidad, la calzada, la pendiente, frenos y neumáticos, y la forma de frenar."
+  },
+  {
+   "s": "c2s13",
+   "cita": "La distancia de frenado crece al cuadrado con el aumento de la velocidad. Así, si duplicas la velocidad, la distancia de frenado aumenta cuatro veces; si la triplica, la distancia de frenado aumenta 9 veces, etc.",
+   "q": [
+    "u3-05"
+   ]
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "Distancia de frenado, asfalto seco. Distancia de frenado, asfalto mojado.",
+   "tf": "La distancia de frenado es distinta en asfalto seco y en asfalto mojado.",
+   "a": true,
+   "e": "El libro compara la distancia de frenado según velocidad y estado del asfalto, seco o mojado."
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "La persona conductora que planifica su conducción disminuyendo a tiempo la presión sobre el acelerador y reduciendo su velocidad, hace menos uso del pedal de frenos y aumenta su seguridad.",
+   "tf": "Quien planifica su conducción y reduce a tiempo la velocidad usa menos el freno y aumenta su seguridad.",
+   "a": true,
+   "e": "Disminuir a tiempo la presión sobre el acelerador hace usar menos el freno y aumenta la seguridad."
+  },
+  {
+   "s": "c2s13",
+   "u": "u3",
+   "cita": "al comenzar a frenar se debe presionar el freno con la mayor fuerza posible. Si el vehículo no cuenta con frenos ABS y se bloquean las ruedas, hay que reducir en seguida la presión sobre el pedal de freno soltándolo.",
+   "mc": "En un vehículo sin ABS, si se bloquean las ruedas al frenar fuerte, debes…",
+   "o": [
+    "Reducir en seguida la presión soltando el pedal",
+    "Mantener el pedal a fondo hasta detenerte",
+    "Tirar del freno de mano con fuerza",
+    "Girar el volante hacia el lado contrario"
+   ],
+   "e": "Al comenzar a frenar se presiona con la mayor fuerza; sin ABS, si se bloquean las ruedas, se suelta el pedal."
+  },
+  {
+   "s": "c2s14",
+   "u": "u3",
+   "cita": "cuando veas señales que adviertan sobre pendientes pronunciadas, tómate tiempo para bajarlas. A veces, es necesario conducir en una marcha baja para que el motor vaya frenando y no se calienten los frenos.",
+   "mc": "En una bajada pronunciada, ¿por qué conviene usar una marcha baja?",
+   "o": [
+    "Para que el motor frene y no se calienten los frenos",
+    "Para gastar menos combustible durante toda la bajada",
+    "Para que el vehículo baje más rápido",
+    "Para cargar mejor la batería"
+   ],
+   "e": "A veces es necesario conducir en marcha baja para que el motor vaya frenando y no se calienten los frenos."
+  },
+  {
+   "s": "c2s14",
+   "cita": "Recuerda nunca desenganchar el motor ya que pierdes el control del vehículo.",
+   "q": [
+    "u3-07"
+   ]
+  },
+  {
+   "s": "c2s14",
+   "u": "u3",
+   "cita": "¿Tiene tracción delantera, trasera o en las cuatro ruedas? ¿Qué tipo de sistema de frenos tiene? ¿Dónde está ubicado su centro de gravedad?",
+   "mc": "Antes de conducir un auto desconocido, ¿qué debes preguntarte?",
+   "o": [
+    "Su tracción, sus frenos y su centro de gravedad",
+    "Su color, su marca y su año de fabricación",
+    "Su consumo, su radio y su alarma",
+    "Su precio, su seguro y su placa patente"
+   ],
+   "e": "¿Tracción delantera, trasera o 4x4? ¿Qué sistema de frenos? ¿Dónde está su centro de gravedad?"
+  },
+  {
+   "s": "c2s14",
+   "u": "u3",
+   "cita": "desplazamiento del centro de gravedad del vehículo, es decir el punto donde se encuentra su mayor peso.",
+   "mc": "¿Qué es el centro de gravedad del vehículo?",
+   "o": [
+    "El punto donde se encuentra su mayor peso",
+    "El punto donde está ubicado el volante",
+    "La mitad exacta del largo del auto",
+    "El lugar donde se carga el combustible"
+   ],
+   "e": "El centro de gravedad es el punto donde se encuentra su mayor peso."
+  },
+  {
+   "s": "c2s14",
+   "cita": "si colocas una carga pesada en su parte trasera, tenderá a girar más de lo esperado",
+   "q": [
+    "u3-10"
+   ]
+  },
+  {
+   "s": "c2s14",
+   "cita": "lo que puede llevar a perder el control del vehículo y no poder girar. Si esto sucede, deja de acelerar y retoma tu trayectoria.",
+   "q": [
+    "u3-08"
+   ]
+  },
+  {
+   "s": "c2s14",
+   "cita": "Otro factor que puede influir en que un vehículo gire más o menos de lo esperado es la presión de aire en sus neumáticos.",
+   "q": [
+    "u3-13"
+   ]
+  },
+  {
+   "s": "c2s14",
+   "cita": "En estas circunstancias, continúa acelerando y gira la dirección hacia la trayectoria.",
+   "q": [
+    "u3-09"
+   ]
+  },
+  {
+   "s": "c2s14",
+   "u": "u3",
+   "cita": "Un vehículo con tracción en las cuatro ruedas proporciona una posibilidad de conducción considerablemente mejor en pavimentos difíciles.",
+   "tf": "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles.",
+   "a": true,
+   "e": "En lo demás, se comportan igual que el resto de los vehículos."
+  },
+  {
+   "s": "c2s15",
+   "cita": "Son los sistemas que sirven para prevenir la ocurrencia de un siniestro de tránsito. Por ejemplo: neumáticos, frenos y luces.",
+   "q": [
+    "u3-12"
+   ]
+  },
+  {
+   "s": "c2s15",
+   "cita": "Son los componentes de seguridad del vehículo que contribuyen a evitar o reducir las consecuencias de un siniestro de tránsito. Por ejemplo, el cinturón de seguridad y el airbag.",
+   "q": [
+    "u3-11"
+   ]
+  },
+  {
+   "s": "c2s15",
+   "u": "u3",
+   "cita": "Los cinturones de seguridad tienen la función de salvar vidas y disminuir las posibilidades de sufrir lesiones en un siniestro. Además, brindan mayor comodidad, mejor control y contribuyen a reducir el cansancio.",
+   "tf": "Además de salvar vidas, el cinturón contribuye a reducir el cansancio.",
+   "a": true,
+   "e": "Brinda mayor comodidad, mejor control y contribuye a reducir el cansancio."
+  },
+  {
+   "s": "c2s15",
+   "u": "u3",
+   "cita": "Nunca permitas que dos personas viajen sujetas con un mismo cinturón.",
+   "tf": "Dos personas pueden viajar sujetas con un mismo cinturón si son de poco peso.",
+   "a": false,
+   "e": "Nunca permitas que dos personas viajen sujetas con un mismo cinturón."
+  },
+  {
+   "s": "c2s15",
+   "cita": "El uso de este elemento en los asientos traseros, es obligatorio sólo si el vehículo tiene un año de fabricación 2002 o posterior.",
+   "q": [
+    "u3-15"
+   ]
+  },
+  {
+   "s": "c2s15",
+   "cita": "Un choque a 50 km/h sin llevar puesto el cinturón de seguridad, es como tirarse a la calle desde un cuarto piso sin red de seguridad.",
+   "q": [
+    "u3-14"
+   ]
+  },
+  {
+   "s": "c2s15",
+   "u": "u3",
+   "cita": "Si la velocidad es de 70 km/h, ello equivale a lanzarse desde un séptimo piso.",
+   "mc": "Chocar a 70 km/h sin cinturón equivale a lanzarse desde…",
+   "o": [
+    "Un séptimo piso",
+    "Un cuarto piso",
+    "Un piso 11",
+    "Un segundo piso"
+   ],
+   "e": "50 km/h: cuarto piso; 70 km/h: séptimo piso; 90 km/h: piso 11."
+  },
+  {
+   "s": "c2s15",
+   "u": "u3",
+   "cita": "Chocar a una velocidad de 90 km/h provoca los mismos efectos que una caída desde el piso 11.",
+   "mc": "Chocar a 90 km/h provoca los mismos efectos que una caída desde…",
+   "o": [
+    "El piso 11",
+    "El cuarto piso",
+    "El séptimo piso",
+    "El piso 20"
+   ],
+   "e": "Chocar a 90 km/h equivale a una caída desde el piso 11."
+  },
+  {
+   "s": "c2s15",
+   "u": "u3",
+   "cita": "Después de sufrir un siniestro, el cinturón podría estar dañado y su uso ya no ser seguro. En este caso deberás reemplazarlo por uno nuevo.",
+   "tf": "Después de un siniestro, el cinturón podría estar dañado y habría que reemplazarlo.",
+   "a": true,
+   "e": "Su uso podría ya no ser seguro; revísalo y reemplázalo."
+  },
+  {
+   "s": "c2s16",
+   "cita": "La banda toráxica debe pasar sobre la clavícula, a medio camino entre el hombro y el cuello, y debe descender por el centro del pecho.",
+   "q": [
+    "u3-17"
+   ]
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "Si se coloca sobre el hombro, puede deslizarse hacia fuera durante el siniestro y reducir al mínimo su eficacia.",
+   "mc": "Si la banda toráxica se coloca sobre el hombro…",
+   "o": [
+    "Puede deslizarse hacia fuera y perder eficacia",
+    "Protege mejor el cuello de la persona en el siniestro",
+    "Evita el efecto submarino",
+    "Reduce la distancia de frenado"
+   ],
+   "e": "Puede deslizarse hacia fuera durante el siniestro y reducir al mínimo su eficacia; sobre el cuello puede causar graves lesiones."
+  },
+  {
+   "s": "c2s16",
+   "cita": "La banda abdominal debe colocarse sobre los huesos de la cadera, siempre por debajo del abdomen, incluso en el caso de una persona embarazada.",
+   "q": [
+    "u3-16"
+   ]
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "Una vez abrochado el cinturón, debes estirarlo ligeramente hacia arriba para que quede bien ceñido a tu cuerpo.",
+   "mc": "Una vez abrochado el cinturón, debes…",
+   "o": [
+    "Estirarlo ligeramente hacia arriba",
+    "Soltarlo un poco para estar cómodo",
+    "Pasarlo por detrás de la espalda",
+    "Torcerlo para que no se suelte"
+   ],
+   "e": "Estíralo ligeramente hacia arriba para que quede bien ceñido; que no esté enganchado ni torcido."
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "Si el cinturón tiene holguras, recorrerás una mayor distancia durante el siniestro, pudiendo impactar contra el volante o el parabrisas.",
+   "tf": "Si el cinturón tiene holguras, puedes impactar contra el volante o el parabrisas en un siniestro.",
+   "a": true,
+   "e": "Con holguras recorrerás una mayor distancia durante el siniestro."
+  },
+  {
+   "s": "c2s16",
+   "cita": "El uso adecuado del cinturón de seguridad evita el llamado efecto submarino, el cual se produce cuando la persona, durante frenadas bruscas o siniestros, se desliza por debajo de la banda abdominal.",
+   "q": [
+    "u3-18"
+   ]
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "no reclinar el asiento en exceso, ya que no debes conducir “semi-acostado/a”.",
+   "mc": "Para evitar el efecto submarino, ¿qué debes hacer?",
+   "o": [
+    "No reclinar el asiento en exceso",
+    "Usar un almohadón en el asiento",
+    "Soltar un poco el cinturón",
+    "Conducir con ropa abrigada y gruesa"
+   ],
+   "e": "No reclines el asiento en exceso, no uses toallas ni almohadones, tensa bien el cinturón y evita ropa de mucho volumen."
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "No pongas toallas o almohadones (tanto sobre el asiento como detrás de la espalda), o algunas fundas especiales.",
+   "tf": "Poner almohadones sobre el asiento ayuda a evitar el efecto submarino.",
+   "a": false,
+   "e": "Toallas, almohadones o algunas fundas favorecen el deslizamiento de la persona."
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "Por esta razón también evita conducir con ropa de mucho volumen.",
+   "tf": "Conducir con ropa de mucho volumen favorece el efecto submarino.",
+   "a": true,
+   "e": "El efecto submarino aparece con mayor facilidad si el cinturón no está bien ajustado al cuerpo."
+  },
+  {
+   "s": "c2s16",
+   "u": "u3",
+   "cita": "Las personas que se ven impulsadas hacia adelante desde el asiento trasero no sólo se lesionan a sí mismas, sino que también pueden lesionar a la persona conductora o a quien viaje en el asiento delantero.",
+   "tf": "Las consecuencias de no usar el cinturón en el asiento trasero son solo para quien no lo usa.",
+   "a": false,
+   "e": "Pueden lesionar también a la persona conductora o a quien viaje adelante."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "El estudio de miles de siniestros demuestra que las personas que no usan el cinturón, tienen el doble de probabilidad de fallecer en ellos.",
+   "mc": "Quienes no usan el cinturón tienen ¿cuánta probabilidad de fallecer en un siniestro?",
+   "o": [
+    "El doble",
+    "La mitad",
+    "El triple",
+    "La misma"
+   ],
+   "e": "El estudio de miles de siniestros demuestra que tienen el doble de probabilidad de fallecer."
+  },
+  {
+   "s": "c2s17",
+   "cita": "la probabilidad de sufrir una lesión medular aumenta en un 1.300% y la probabilidad de resultar fallecida aumenta en un 300%",
+   "q": [
+    "u3-20"
+   ]
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "la probabilidad de sufrir una lesión medular aumenta en un 1.300%",
+   "mc": "Si sales eyectado por no usar cinturón, la probabilidad de una lesión medular aumenta en…",
+   "o": [
+    "1.300%",
+    "300%",
+    "100%",
+    "1.000%"
+   ],
+   "e": "Lesión medular: +1.300%; morir: +300%. Es mucho más seguro quedar dentro del vehículo."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "Los estudios y estadísticas revelan que cada 1 millón, sólo en un siniestro, llevar el cinturón de segu-",
+   "mc": "¿En cuántos siniestros puede ser negativo llevar el cinturón?",
+   "o": [
+    "En uno de cada millón",
+    "En uno de cada cien",
+    "En uno de cada mil",
+    "En la mitad de los casos"
+   ],
+   "e": "Cada 1 millón, sólo en un siniestro llevar el cinturón puede ser negativo."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "Cerca del 80% de los siniestros con víctimas, ocurren en zonas urbanas. Por ejemplo, un golpe frontal a tan sólo 30 o 40 km/h podría resultar mortal con facilidad",
+   "tf": "En ciudad no hace falta el cinturón porque a 30 o 40 km/h un golpe frontal no es mortal.",
+   "a": false,
+   "e": "Un golpe frontal a 30 o 40 km/h podría resultar mortal con facilidad; cerca del 80% de los siniestros con víctimas son urbanos."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "la mayoría de los siniestros con víctimas se producen a pocos kilómetros de sus casas.",
+   "mc": "¿Dónde se producen la mayoría de los siniestros con víctimas?",
+   "o": [
+    "A pocos kilómetros de sus casas",
+    "En carreteras lejanas, de noche y con poco tráfico",
+    "En autopistas a alta velocidad",
+    "En estacionamientos públicos"
+   ],
+   "e": "Por eso hay que usar el cinturón en todos los desplazamientos, incluso los cortos."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "Ningún dispositivo de seguridad del vehículo es capaz de sustituir al cinturón",
+   "tf": "Si el vehículo tiene muchos sistemas de seguridad, el cinturón no es tan importante.",
+   "a": false,
+   "e": "Ningún dispositivo puede sustituir al cinturón; todos funcionan de forma complementaria a él."
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "En la medida en que uses habitualmente tu cinturón de seguridad, desaparecerá esa incomodidad inicial",
+   "tf": "La incomodidad inicial del cinturón desaparece al usarlo habitualmente.",
+   "a": true,
+   "e": "Muchas personas con el tiempo se sienten incómodas e inseguras cuando no lo usan."
+  },
+  {
+   "s": "c2s17",
+   "cita": "Las personas embarazadas también deben ponerse el cinturón de seguridad, debido a que el riesgo de lesionar y perder el bebé durante un siniestro es mayor si no lo usan",
+   "q": [
+    "u3-19"
+   ]
+  },
+  {
+   "s": "c2s17",
+   "u": "u3",
+   "cita": "En un siniestro, las personas de los asientos traseros que van sin cinturón pueden salir eyectadas, pudiendo golpear mortalmente a las demás personas",
+   "mc": "¿Por qué es importante el cinturón en los asientos traseros?",
+   "o": [
+    "Sin él pueden golpear mortalmente a otros",
+    "Porque los asientos traseros no tienen airbag",
+    "Porque lo exige solo en carreteras",
+    "Porque reduce el consumo de combustible"
+   ],
+   "e": "Pueden salir eyectadas y golpear mortalmente a las demás personas."
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "El airbag es una bolsa de aire que se infla en apenas unas milésimas de segundo al producirse un impacto. Hay diferentes tipos: laterales, para la cabeza, frontales, traseros, entre otros.",
+   "mc": "¿En cuánto tiempo se infla el airbag al producirse un impacto?",
+   "o": [
+    "En unas milésimas de segundo",
+    "En unos dos segundos completos",
+    "En medio minuto o un poco más",
+    "En un segundo exacto"
+   ],
+   "e": "Se infla en apenas unas milésimas de segundo; hay airbags laterales, para la cabeza, frontales, traseros, etc."
+  },
+  {
+   "s": "c2s18",
+   "cita": "El airbag no es eficaz si no se utiliza junto con el cinturón de seguridad.",
+   "q": [
+    "u3-22"
+   ]
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "Evita el impacto de las y los ocupantes contra algunos elementos del interior del vehículo: el volante, el tablero, el parabrisas o las ventanas.",
+   "mc": "¿Cuál es una forma en que el airbag protege a los ocupantes?",
+   "o": [
+    "Evita el impacto contra el volante o el tablero",
+    "Impide que el vehículo derrape",
+    "Reduce la distancia de reacción",
+    "Mantiene el vehículo dentro de su pista"
+   ],
+   "e": "Frena suavemente a los ocupantes, evita impactos contra el interior y protege cara y ojos de fragmentos."
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "Protege la cara y los ojos de los fragmentos de cristal u otros elementos que pueden desprenderse",
+   "tf": "El airbag protege la cara y los ojos de los fragmentos de cristal.",
+   "a": true,
+   "e": "Por ejemplo, de fragmentos que se desprenden del parabrisas."
+  },
+  {
+   "s": "c2s18",
+   "cita": "la bolsa de aire se infla a una velocidad de hasta 300 km/h",
+   "q": [
+    "u3-21"
+   ]
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "La eficacia del airbag frontal se basa en la combinación del uso del cinturón de seguridad, una buena posición de las manos frente al volante y la regulación del apoya cabezas al nivel de las orejas.",
+   "mc": "¿A qué nivel debe regularse el apoya cabezas para que el airbag frontal sea eficaz?",
+   "o": [
+    "Al nivel de las orejas",
+    "Al nivel del cuello",
+    "Al nivel de los hombros",
+    "Al nivel de la boca"
+   ],
+   "e": "Cinturón, buena posición de las manos y apoya cabezas al nivel de las orejas."
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "puede llegar a reducir un 20% la probabilidad de sufrir lesiones mortales.",
+   "mc": "El airbag frontal junto al cinturón puede reducir la probabilidad de lesiones mortales en…",
+   "o": [
+    "Un 20%",
+    "Un 50%",
+    "Un 5%",
+    "Un 90%"
+   ],
+   "e": "Se ha estimado que puede llegar a reducirla un 20%."
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "Cuando el sistema de airbag presente fallas en su estado de reposo, se prenderá el testigo del airbag y este debe ser revisado a la brevedad.",
+   "tf": "Si se prende el testigo del airbag, el sistema debe revisarse a la brevedad.",
+   "a": true,
+   "e": "El testigo indica fallas en su estado de reposo."
+  },
+  {
+   "s": "c2s18",
+   "u": "u3",
+   "cita": "Nunca debes poner un Sistema de Retención Infantil en el asiento delantero, con excepción de los vehículos con cabina simple, siempre y cuando se haya desactivado el airbag previamente.",
+   "mc": "¿Cuándo se puede poner un Sistema de Retención Infantil en el asiento delantero?",
+   "o": [
+    "En cabina simple, con el airbag desactivado",
+    "Siempre que el niño tenga más de 2 años",
+    "Si el viaje es corto y por ciudad",
+    "Si el airbag está activado"
+   ],
+   "e": "Nunca, salvo en vehículos con cabina simple y con el airbag desactivado previamente."
+  },
+  {
+   "s": "c2s19",
+   "u": "u3",
+   "cita": "Este movimiento se denomina efecto latigazo.",
+   "mc": "¿Cómo se llama el violento cambio de dirección del cuello en un impacto por atrás?",
+   "o": [
+    "Efecto latigazo",
+    "Efecto submarino",
+    "Efecto túnel",
+    "Efecto rebote"
+   ],
+   "e": "Si la cabeza no está apoyada, el cuello toma forma de “s” y luego va hacia atrás: el efecto latigazo."
+  },
+  {
+   "s": "c2s19",
+   "u": "u3",
+   "cita": "La forma de prevenir este efecto y las lesiones cervicales asociadas, es usando los apoya cabezas.",
+   "mc": "¿Cómo se previene el efecto latigazo?",
+   "o": [
+    "Usando bien los apoya cabezas",
+    "Reclinando el asiento hacia atrás",
+    "Soltando el cinturón al frenar",
+    "Usando un almohadón en la espalda"
+   ],
+   "e": "La forma de prevenirlo y sus lesiones cervicales es usando los apoya cabezas."
+  },
+  {
+   "s": "c2s19",
+   "u": "u3",
+   "cita": "si se dañan las vértebras cervicales, la persona podría llegar a sufrir algún tipo de discapacidad irreversible, como una tetraplejia.",
+   "tf": "El latigazo cervical puede causar una discapacidad irreversible, como una tetraplejia.",
+   "a": true,
+   "e": "Si se dañan las vértebras cervicales."
+  },
+  {
+   "s": "c2s19",
+   "cita": "El borde superior del apoya cabezas debe quedar situado entre el límite superior de la cabeza y la altura de los ojos.",
+   "q": [
+    "u3-23"
+   ]
+  },
+  {
+   "s": "c2s19",
+   "u": "u3",
+   "cita": "Nunca debes ubicarlo por debajo de tu cabeza, esto produce que su efectividad se reduzca drásticamente.",
+   "tf": "El apoya cabezas debe ajustarse para cada persona, también en los asientos traseros.",
+   "a": true,
+   "e": "Se ajusta a cada persona, adelante y atrás; nunca por debajo de la cabeza."
+  },
+  {
+   "s": "c2s19",
+   "cita": "La separación entre la cabeza y el apoya cabezas debe ser la mínima posible y nunca superior a 4 cm.",
+   "q": [
+    "u3-24"
+   ]
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Indicador de combustible Indicador de temperatura del líquido refrigerante",
+   "motivo": "rótulos de la imagen del panel; su contenido está en c2 (E/F y C/H)"
+  },
+  {
+   "cita": "Si bien algunas de las verificaciones recomendadas puedes efectuarla tú, en otros casos debes acudir a un taller mecánico.",
+   "motivo": "indicación general"
+  }
+ ]
+}

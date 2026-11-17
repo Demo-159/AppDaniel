@@ -2204,7 +2204,7 @@
    "type": "mc",
    "prompt": "¿Cómo debes tomar una curva?",
    "options": [
-    "Frenar antes de entrar y acelerar suave al salir",
+    "Reducir la velocidad antes y acelerar suave al salir",
     "Frenar dentro de la curva y acelerar al salir",
     "Mantener la misma velocidad toda la curva",
     "Acelerar al entrar para ganar estabilidad"
@@ -2244,7 +2244,7 @@
    "type": "mc",
    "prompt": "En un auto de tracción trasera las ruedas pierden fricción y hay coletazos. ¿Qué haces?",
    "options": [
-    "Acelerar suave y girar hacia la trayectoria",
+    "Seguir acelerando y girar hacia la trayectoria",
     "Soltar el acelerador y frenar a fondo",
     "Girar al lado contrario y frenar",
     "Poner neutro y esperar que se estabilice"
@@ -5445,6 +5445,1686 @@
    ],
    "explain": "Planifica tus cargas revisando la autonomía antes de cada viaje.",
    "page": 148
+  },
+  {
+   "id": "u2-26",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 11,
+   "explain": "Es el medio de comunicación diseñado para alertarte sobre el estado de los principales sistemas del vehículo.",
+   "type": "mc",
+   "prompt": "¿Para qué fue diseñado el panel de instrumentos?",
+   "options": [
+    "Para alertarte sobre el estado de los sistemas del vehículo",
+    "Para mostrar solo la velocidad y la hora del viaje en curso",
+    "Para controlar la radio y el aire acondicionado",
+    "Para registrar las multas recibidas por el vehículo"
+   ]
+  },
+  {
+   "id": "u2-27",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 11,
+   "explain": "Testigos rojos: atención inmediata, avería grave. Amarillos o ámbar: posible problema. Verdes: puesta en funcionamiento.",
+   "type": "mc",
+   "prompt": "Un testigo de color rojo en el panel informa…",
+   "options": [
+    "Atención inmediata, avería grave",
+    "Un posible problema a revisar",
+    "La puesta en funcionamiento",
+    "Que el viaje terminó sin fallas"
+   ]
+  },
+  {
+   "id": "u2-28",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 11,
+   "explain": "Los testigos verdes indican la puesta en funcionamiento.",
+   "type": "mc",
+   "prompt": "Un testigo de color verde en el panel indica…",
+   "options": [
+    "La puesta en funcionamiento",
+    "Atención inmediata, avería grave",
+    "Un posible problema a revisar",
+    "Que falta combustible en el estanque"
+   ]
+  },
+  {
+   "id": "u2-29",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 11,
+   "explain": "El motor generalmente se sitúa adelante y puede utilizar gasolina, petróleo diesel, gas y/o electricidad.",
+   "type": "mc",
+   "prompt": "¿Qué puede utilizar el motor para funcionar?",
+   "options": [
+    "Gasolina, petróleo diesel, gas y/o electricidad",
+    "Solo gasolina de alto octanaje, sin mezcla",
+    "Solo petróleo diesel o gasolina común",
+    "Solo electricidad guardada en la batería"
+   ]
+  },
+  {
+   "id": "u2-30",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Distribuye aceite a las partes móviles del motor para reducir el desgaste y la fricción.",
+   "type": "mc",
+   "prompt": "¿Cuál es el objetivo del sistema de lubricación?",
+   "options": [
+    "Reducir el desgaste y la fricción del motor",
+    "Enfriar el motor con agua destilada",
+    "Producir la energía eléctrica del auto",
+    "Expulsar al exterior los gases de la combustión"
+   ]
+  },
+  {
+   "id": "u2-31",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Controla el nivel de aceite y cambia periódicamente el aceite y el filtro según el fabricante.",
+   "type": "tf",
+   "prompt": "El aceite y su filtro se deben cambiar periódicamente según las recomendaciones del fabricante del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u2-32",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Con la correa poco tensa se genera menos electricidad y disminuye la carga de la batería.",
+   "type": "mc",
+   "prompt": "Si la correa del alternador está poco tensa…",
+   "options": [
+    "Se genera menos electricidad y baja la carga de la batería",
+    "Se enciende la luz de presión de aceite",
+    "El motor se calienta demasiado y hierve el refrigerante",
+    "Los frenos pierden fuerza al presionarlos"
+   ]
+  },
+  {
+   "id": "u2-33",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente con frío.",
+   "type": "tf",
+   "prompt": "Una batería mal cargada dificulta arrancar, especialmente cuando la temperatura es baja.",
+   "answer": true
+  },
+  {
+   "id": "u2-34",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Es muy probable que la batería esté descargada o desconectada.",
+   "type": "mc",
+   "prompt": "Si el motor no se enciende al darle contacto, lo más probable es que…",
+   "options": [
+    "La batería esté descargada o desconectada",
+    "Se haya quemado una ampolleta del tablero",
+    "El nivel de aceite del motor esté bajo",
+    "Un neumático delantero tenga poca presión"
+   ]
+  },
+  {
+   "id": "u2-35",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Controla el nivel de líquido en la batería y agrega agua destilada cuando sea necesario.",
+   "type": "mc",
+   "prompt": "¿Qué se agrega a la batería cuando su nivel de líquido está bajo?",
+   "options": [
+    "Agua destilada",
+    "Líquido de frenos",
+    "Aceite de motor",
+    "Agua de la llave"
+   ]
+  },
+  {
+   "id": "u2-36",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "Si la luz de carga se enciende o parpadea es porque hay algún problema.",
+   "type": "tf",
+   "prompt": "Si la luz de carga se enciende o parpadea durante la conducción, hay algún problema.",
+   "answer": true
+  },
+  {
+   "id": "u2-37",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 12,
+   "explain": "El ácido de la batería es corrosivo; cuidado con tu ropa y piel.",
+   "type": "tf",
+   "prompt": "El ácido de la batería es corrosivo: hay que cuidar la ropa y la piel.",
+   "answer": true
+  },
+  {
+   "id": "u2-38",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Debes detenerte para investigar la causa; así previenes el riesgo de incendio.",
+   "type": "mc",
+   "prompt": "Si al conducir sientes un fuerte olor a gasolina, debes…",
+   "options": [
+    "Detenerte para investigar la causa",
+    "Abrir las ventanas y seguir conduciendo",
+    "Acelerar para llegar pronto al taller",
+    "Apagar el aire acondicionado"
+   ]
+  },
+  {
+   "id": "u2-39",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Usa el octanaje adecuado al motor, según el fabricante.",
+   "type": "tf",
+   "prompt": "Debes usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
+   "answer": true
+  },
+  {
+   "id": "u2-40",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Evita abrir la tapa más de lo necesario: los vapores pueden ser cancerígenos y son inflamables.",
+   "type": "mc",
+   "prompt": "Según el libro, los vapores de la gasolina…",
+   "options": [
+    "Pueden ser cancerígenos y son inflamables",
+    "Son inofensivos siempre que el motor esté apagado",
+    "Solo son peligrosos en días calurosos",
+    "No son inflamables al aire libre"
+   ]
+  },
+  {
+   "id": "u2-41",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Llenar el estanque cada vez que recargas contamina menos al liberar menos gases.",
+   "type": "tf",
+   "prompt": "Para contaminar menos, conviene llenar el estanque cada vez que vayas a recargar combustible.",
+   "answer": true
+  },
+  {
+   "id": "u2-42",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Evita frenadas y aceleraciones frecuentes: causan alto consumo de combustible.",
+   "type": "tf",
+   "prompt": "Las frenadas y aceleraciones frecuentes causan alto consumo de combustible.",
+   "answer": true
+  },
+  {
+   "id": "u2-43",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "El líquido refrigerante es agua destilada más un anticongelante.",
+   "type": "mc",
+   "prompt": "¿De qué está compuesto el líquido refrigerante?",
+   "options": [
+    "Agua destilada más un anticongelante",
+    "Aceite de motor más agua",
+    "Líquido de frenos más agua",
+    "Agua de la llave más alcohol para que no se congele"
+   ]
+  },
+  {
+   "id": "u2-44",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Si la temperatura del motor se eleva, debes detener la marcha y reparar la avería.",
+   "type": "mc",
+   "prompt": "Si la temperatura del motor se eleva, debes…",
+   "options": [
+    "Detener la marcha y reparar la avería",
+    "Seguir conduciendo con el motor acelerado",
+    "Agregar aceite y continuar el viaje",
+    "Apagar las luces y seguir más lento"
+   ]
+  },
+  {
+   "id": "u2-45",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "Puede deberse a un contacto defectuoso, a que la correa del ventilador esté dañada o a un fusible dañado.",
+   "type": "mc",
+   "prompt": "Si el ventilador eléctrico no se activa al subir la temperatura, puede deberse a…",
+   "options": [
+    "Un contacto defectuoso, la correa dañada o un fusible",
+    "Que el estanque de combustible está casi vacío o con aire",
+    "Que los neumáticos tienen demasiada presión",
+    "Que las luces altas están encendidas"
+   ]
+  },
+  {
+   "id": "u2-46",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 13,
+   "explain": "El anticongelante impide que el motor y el radiador se dañen por la congelación del agua.",
+   "type": "tf",
+   "prompt": "A temperaturas bajo cero, el refrigerante debe tener suficiente anticongelante para que el motor y el radiador no se dañen.",
+   "answer": true
+  },
+  {
+   "id": "u2-47",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 14,
+   "explain": "Facilita la expulsión al exterior de los gases de la combustión, para mejorar el rendimiento del motor y su sonoridad.",
+   "type": "mc",
+   "prompt": "¿Qué hace el sistema de escape?",
+   "options": [
+    "Expulsa al exterior los gases de la combustión",
+    "Distribuye aceite a las partes del motor",
+    "Transmite la potencia que genera el motor a las ruedas",
+    "Enfría el motor con líquido refrigerante"
+   ]
+  },
+  {
+   "id": "u2-48",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 14,
+   "explain": "Un ruido anormalmente alto del tubo de escape suele ser una señal de roturas o de orificios en el silenciador.",
+   "type": "mc",
+   "prompt": "Un ruido anormalmente alto del tubo de escape suele ser señal de…",
+   "options": [
+    "Roturas u orificios en el silenciador",
+    "Que el motor está bien lubricado y sin desgaste",
+    "Que el estanque está lleno",
+    "Que la batería está cargada"
+   ]
+  },
+  {
+   "id": "u2-49",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 14,
+   "explain": "El gas puede penetrar en el interior del vehículo; lo mismo puede ocurrir al conducir con el portaequipaje abierto.",
+   "type": "tf",
+   "prompt": "Conducir con el portaequipaje abierto puede hacer que el monóxido de carbono entre al interior del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u2-50",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 14,
+   "explain": "La transmisión transfiere la potencia que genera el motor a las ruedas.",
+   "type": "mc",
+   "prompt": "¿Qué hace la transmisión?",
+   "options": [
+    "Transfiere la potencia del motor a las ruedas",
+    "Transmite el movimiento del volante a las ruedas",
+    "Mantiene el contacto del neumático con la calzada",
+    "Reduce la velocidad hasta detener el vehículo"
+   ]
+  },
+  {
+   "id": "u2-51",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 14,
+   "explain": "El embrague es el sistema (pedal) que permite la transmisión o interrupción de la energía hacia las ruedas de tracción.",
+   "type": "mc",
+   "prompt": "¿Qué permite el embrague?",
+   "options": [
+    "Transmitir o interrumpir la energía a las ruedas",
+    "Aumentar la fuerza de frenado del pedal",
+    "Medir las revoluciones del motor",
+    "Mantener el vehículo quieto cuando está en una pendiente"
+   ]
+  },
+  {
+   "id": "u2-52",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "Las cajas se clasifican en automática y manual; los vehículos automáticos carecen de pedal de embrague.",
+   "type": "tf",
+   "prompt": "Los vehículos con caja de cambios automática no tienen pedal de embrague.",
+   "answer": true
+  },
+  {
+   "id": "u2-53",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "La caja de cambios multiplica la fuerza del motor; cada marcha en su rango permite optimizar el uso de combustible.",
+   "type": "mc",
+   "prompt": "¿Qué permite usar cada marcha en un rango de velocidades?",
+   "options": [
+    "Optimizar el uso de combustible",
+    "Frenar sin usar el pedal de freno",
+    "Cargar la batería más rápido",
+    "Evitar el desgaste de los neumáticos"
+   ]
+  },
+  {
+   "id": "u2-54",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "La servodirección es el mecanismo auxiliar para que mover la dirección requiera el mínimo esfuerzo.",
+   "type": "mc",
+   "prompt": "¿Cómo se llama el mecanismo que reduce el esfuerzo para mover el volante?",
+   "options": [
+    "Servodirección",
+    "Servofrenos",
+    "Alternadores",
+    "Tacómetro"
+   ]
+  },
+  {
+   "id": "u2-55",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "Se desalinea con sobrecargas, al topar el borde de una solera u otro obstáculo, o al caer en hoyos; provoca vibraciones y desgaste de neumáticos.",
+   "type": "mc",
+   "prompt": "¿Qué hace que la dirección se desalinee más rápido?",
+   "options": [
+    "Sobrecargas, topar soleras o caer en hoyos",
+    "Conducir de noche con luces bajas",
+    "Cargar combustible con el motor del vehículo apagado",
+    "Usar el freno de mano al estacionar"
+   ]
+  },
+  {
+   "id": "u2-56",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "Mantienen en todo momento el contacto entre los neumáticos y la calzada, dando estabilidad y confort.",
+   "type": "mc",
+   "prompt": "¿Qué función cumplen la suspensión y la amortiguación?",
+   "options": [
+    "Mantener el contacto de los neumáticos con la calzada",
+    "Transmitir la potencia que genera el motor a las ruedas",
+    "Reducir la velocidad hasta detener el vehículo",
+    "Distribuir aceite a todas las partes del motor"
+   ]
+  },
+  {
+   "id": "u2-57",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "Otros síntomas: se balancea mucho, rebota, se notan los baches y el viento lateral, desgaste irregular, y de noche las luces oscilan.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos es un síntoma de amortiguadores en mal estado?",
+   "options": [
+    "De noche, las luces oscilan de forma llamativa",
+    "El testigo de aceite se enciende cada vez que frenas",
+    "El motor no enciende al darle contacto",
+    "El intermitente destella más rápido"
+   ]
+  },
+  {
+   "id": "u2-58",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 15,
+   "explain": "Es uno de los síntomas de amortiguadores en mal estado.",
+   "type": "tf",
+   "prompt": "El desgaste irregular de los neumáticos puede ser síntoma de amortiguadores en mal estado.",
+   "answer": true
+  },
+  {
+   "id": "u2-59",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Aumenta la distancia de frenado, se pierde estabilidad y el ABS pierde efectividad; además aumenta la fatiga.",
+   "type": "mc",
+   "prompt": "Un amortiguador en malas condiciones puede provocar…",
+   "options": [
+    "Aumento de la distancia de frenado",
+    "Mayor estabilidad en las curvas",
+    "Menor consumo de combustible",
+    "Menos fatiga para quien conduce en viajes largos"
+   ]
+  },
+  {
+   "id": "u2-60",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Disminuye el confort y la fatiga aparece con mayor facilidad.",
+   "type": "tf",
+   "prompt": "Con amortiguadores en mal estado, la fatiga aparece con mayor facilidad en quien conduce.",
+   "answer": true
+  },
+  {
+   "id": "u2-61",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "El freno de servicio (pedal) y el freno de estacionamiento, que actúan independientemente.",
+   "type": "mc",
+   "prompt": "¿Cuántos sistemas de frenos independientes tienen todos los vehículos?",
+   "options": [
+    "Dos",
+    "Uno",
+    "Tres",
+    "Cuatro"
+   ]
+  },
+  {
+   "id": "u2-62",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Los antiguos tienen un solo circuito; los modernos tienen dos, y si falla uno se mantiene cierto efecto de frenado en el otro.",
+   "type": "mc",
+   "prompt": "En un vehículo moderno con frenos de dos circuitos, si falla un circuito…",
+   "options": [
+    "Se mantiene cierto efecto de frenado en el otro",
+    "Se pierde todo el efecto de frenado",
+    "Solo funciona el freno de mano",
+    "El vehículo se detiene de inmediato solo"
+   ]
+  },
+  {
+   "id": "u2-63",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "También llamado freno de mano o de emergencia, inmoviliza el vehículo estacionado, especialmente en pendientes.",
+   "type": "mc",
+   "prompt": "¿Cuál es la función del freno de estacionamiento?",
+   "options": [
+    "Inmovilizar el vehículo estacionado",
+    "Aumentar la fuerza del freno de servicio",
+    "Evitar que las ruedas se bloqueen al frenar",
+    "Frenar con el motor en las bajadas"
+   ]
+  },
+  {
+   "id": "u2-64",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Suele actuar directamente sobre las ruedas traseras, bloqueándolas.",
+   "type": "tf",
+   "prompt": "El freno de mano suele actuar directamente sobre las ruedas traseras.",
+   "answer": true
+  },
+  {
+   "id": "u2-65",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Debes eliminar, frenando, la eventual humedad en los tambores; también conviene probar los frenos a baja velocidad bajo cero.",
+   "type": "mc",
+   "prompt": "Después de circular por una calle inundada o lavar el vehículo, debes…",
+   "options": [
+    "Frenar para eliminar la humedad de los tambores",
+    "Inflar los neumáticos con más presión que la recomendada",
+    "Desconectar la batería unos minutos",
+    "Agregar líquido de frenos"
+   ]
+  },
+  {
+   "id": "u2-66",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 16,
+   "explain": "Existen frenos convencionales y ABS; funcionan distinto.",
+   "type": "tf",
+   "prompt": "Es muy importante saber si el vehículo tiene frenos convencionales o ABS, porque funcionan de forma distinta.",
+   "answer": true
+  },
+  {
+   "id": "u2-67",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "La distancia de frenado aumenta notablemente y es imposible controlar la dirección.",
+   "type": "mc",
+   "prompt": "Si las ruedas se bloquean en una frenada brusca…",
+   "options": [
+    "Aumenta la distancia de frenado y no controlas la dirección",
+    "Se acorta la distancia de frenado y giras mejor",
+    "El vehículo se detiene en línea recta y seguro",
+    "El ABS se apaga y el motor deja de funcionar"
+   ]
+  },
+  {
+   "id": "u2-68",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Si el ABS llegase a fallar, los frenos seguirán funcionando.",
+   "type": "tf",
+   "prompt": "Si el ABS falla, los frenos dejan de funcionar.",
+   "answer": false
+  },
+  {
+   "id": "u2-69",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "La carrera del pedal no debe ser demasiado larga: lo aceptable es más arriba de la mitad de su distancia al piso.",
+   "type": "mc",
+   "prompt": "¿Hasta dónde es aceptable poder presionar el pedal de freno?",
+   "options": [
+    "Hasta más arriba de la mitad de su distancia al piso",
+    "Hasta tocar completamente el piso del vehículo",
+    "Hasta un cuarto de su distancia al piso",
+    "Hasta que se encienda la luz de freno trasera"
+   ]
+  },
+  {
+   "id": "u2-70",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Los frenos deben actuar en forma pareja sobre las cuatro ruedas.",
+   "type": "tf",
+   "prompt": "Si los frenos están mal ajustados, en una frenada brusca el vehículo puede desviarse hacia un costado.",
+   "answer": true
+  },
+  {
+   "id": "u2-71",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Si la posición del pedal desciende al presionarlo fuerte, puede haber fugas.",
+   "type": "mc",
+   "prompt": "Si el pedal de freno desciende cuando lo tienes fuertemente presionado, puede haber…",
+   "options": [
+    "Fugas",
+    "Aire en los neumáticos",
+    "Una ampolleta quemada",
+    "Exceso de aceite"
+   ]
+  },
+  {
+   "id": "u2-72",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "El pedal debe sentirse rígido; si cede, probablemente haya entrado aire al sistema.",
+   "type": "mc",
+   "prompt": "Si el pedal de freno se siente elástico y cede, probablemente…",
+   "options": [
+    "Entró aire al sistema de frenos",
+    "La batería está descargada o mal conectada",
+    "El refrigerante está bajo",
+    "El embrague está gastado"
+   ]
+  },
+  {
+   "id": "u2-73",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Respeta los plazos del fabricante; una vez que caducan, se cambia todo el contenido.",
+   "type": "tf",
+   "prompt": "Cuando caduca el plazo del líquido de frenos, debes cambiar todo el contenido.",
+   "answer": true
+  },
+  {
+   "id": "u2-74",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Debe mantener el vehículo quieto en una pendiente o impedir que se ponga en marcha con el freno puesto.",
+   "type": "tf",
+   "prompt": "El freno de mano debe mantener el vehículo quieto en una pendiente.",
+   "answer": true
+  },
+  {
+   "id": "u2-75",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 17,
+   "explain": "Si circulaste por vías inundadas, lavaste el vehículo o estuvo guardado largo tiempo.",
+   "type": "mc",
+   "prompt": "¿Cuándo conviene probar los frenos a baja velocidad?",
+   "options": [
+    "Tras vías inundadas, lavar el auto o tenerlo guardado",
+    "Cada vez que cargas combustible",
+    "Solo cuando se enciende el testigo de aceite",
+    "Después de cada viaje por la ciudad"
+   ]
+  },
+  {
+   "id": "u2-76",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 18,
+   "explain": "Por eso es de vital importancia controlarlos regularmente.",
+   "type": "tf",
+   "prompt": "Los neumáticos son el único punto de apoyo del vehículo con la calzada.",
+   "answer": true
+  },
+  {
+   "id": "u2-77",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 18,
+   "explain": "De los distintos elementos del vehículo, los neumáticos son los que requieren mayor revisión.",
+   "type": "mc",
+   "prompt": "¿Qué elemento del vehículo requiere mayor revisión de parte de quien conduce?",
+   "options": [
+    "Los neumáticos",
+    "El tubo de escape",
+    "El odómetro",
+    "La radio"
+   ]
+  },
+  {
+   "id": "u2-78",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 18,
+   "explain": "Es importante revisar la presión del aire; debe ser constante durante todo el año.",
+   "type": "tf",
+   "prompt": "La presión de aire de los neumáticos debe ser constante durante todo el año.",
+   "answer": true
+  },
+  {
+   "id": "u2-79",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 18,
+   "explain": "El vehículo tiende a torcer hacia el lado de la rueda con baja presión.",
+   "type": "mc",
+   "prompt": "Una baja presión de aire en una rueda delantera hace que el vehículo…",
+   "options": [
+    "Tienda a torcer hacia ese lado",
+    "Frene mejor en pavimento mojado",
+    "Consuma menos combustible",
+    "Tenga la dirección más liviana"
+   ]
+  },
+  {
+   "id": "u2-80",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Desgaste central: exceso de aire. Desgaste en los extremos: menos presión que la recomendada.",
+   "type": "mc",
+   "prompt": "Un desgaste notorio solo en la zona central de la banda indica que el neumático se usó…",
+   "options": [
+    "Con exceso de aire",
+    "Con menos aire del recomendado",
+    "Con la dirección desalineada",
+    "Sin carga en el vehículo"
+   ]
+  },
+  {
+   "id": "u2-81",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Circular a velocidad moderada alarga la vida de los neumáticos.",
+   "type": "tf",
+   "prompt": "Circular a una velocidad moderada alarga la vida de los neumáticos.",
+   "answer": true
+  },
+  {
+   "id": "u2-82",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Circular con carga, por pavimento en mal estado o con clima caluroso acelera el desgaste.",
+   "type": "mc",
+   "prompt": "¿Qué situaciones pueden acelerar el desgaste de los neumáticos?",
+   "options": [
+    "Carga, pavimento en mal estado o clima caluroso",
+    "Conducir de noche con luces bajas",
+    "Cargar combustible con el estanque lleno",
+    "Usar el aire acondicionado en invierno con frío"
+   ]
+  },
+  {
+   "id": "u2-83",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Aumenta levemente la presión cuando llevas una carga muy pesada.",
+   "type": "tf",
+   "prompt": "Cuando llevas una carga muy pesada, conviene aumentar levemente la presión de los neumáticos.",
+   "answer": true
+  },
+  {
+   "id": "u2-84",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Busca asesoría de un profesional; podría haber un problema de desbalanceo.",
+   "type": "mc",
+   "prompt": "Si notas vibraciones al circular, podría haber un problema de…",
+   "options": [
+    "Desbalanceo",
+    "Octanaje",
+    "Lubricación",
+    "Refrigeración"
+   ]
+  },
+  {
+   "id": "u2-85",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos.",
+   "type": "tf",
+   "prompt": "Subir escalones o veredas con el vehículo puede deformar las llantas y cortar los neumáticos.",
+   "answer": true
+  },
+  {
+   "id": "u2-86",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "Con la presión más alta sugerida; si la usas, no excedas la velocidad máxima indicada por el fabricante.",
+   "type": "mc",
+   "prompt": "¿Con qué presión debes dejar la rueda de repuesto?",
+   "options": [
+    "Con la presión más alta sugerida",
+    "Con la presión más baja sugerida",
+    "Sin aire, para inflarla al usarla",
+    "Con la mitad de la presión normal"
+   ]
+  },
+  {
+   "id": "u2-87",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 19,
+   "explain": "En el manual del fabricante o en una tabla en el marco de la puerta de quien conduce, la guantera o el compartimento del motor.",
+   "type": "mc",
+   "prompt": "¿Dónde puedes encontrar la presión de aire apropiada para tus neumáticos?",
+   "options": [
+    "En el manual o en una tabla en la puerta del conductor",
+    "En el odómetro del panel de instrumentos",
+    "En la etiqueta del envase del líquido de frenos",
+    "En el permiso de circulación del vehículo"
+   ]
+  },
+  {
+   "id": "u2-88",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Los vehículos deben tener focos y luces exteriores para ver y ser visto, y para advertir maniobras.",
+   "type": "tf",
+   "prompt": "Las luces exteriores sirven para ver y también para ser visto por las demás personas.",
+   "answer": true
+  },
+  {
+   "id": "u2-89",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Adelante: dos focos de luces altas y bajas, dos de estacionamiento y dos destellantes de viraje.",
+   "type": "mc",
+   "prompt": "¿Qué luces debe tener un automóvil en su parte delantera?",
+   "options": [
+    "Dos focos altos/bajos, dos de estacionamiento y dos de viraje",
+    "Dos focos de luz alta y una luz de placa patente",
+    "Dos luces rojas fijas y dos luces de retroceso",
+    "Dos luces de freno y dos luces neblineras"
+   ]
+  },
+  {
+   "id": "u2-90",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Automóviles, jeeps, furgones, station wagon, camionetas y transporte escolar.",
+   "type": "tf",
+   "prompt": "Los automóviles deben tener una tercera luz de freno al centro de la luneta trasera.",
+   "answer": true
+  },
+  {
+   "id": "u2-91",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Atrás: dos de estacionamiento, dos de viraje, dos de retroceso, dos rojas fijas, dos de freno y una luz de placa patente.",
+   "type": "mc",
+   "prompt": "¿Cuál de estas luces debe tener un automóvil en su parte trasera?",
+   "options": [
+    "Una luz que ilumine la placa patente",
+    "Dos focos de luces altas",
+    "Dos luces neblineras obligatorias",
+    "Un foco central de luz alta"
+   ]
+  },
+  {
+   "id": "u2-92",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Asegúrate de que tus luces estén limpias, funcionen y estén bien ajustadas.",
+   "type": "tf",
+   "prompt": "Un mal ajuste de los focos puede encandilar a otras personas y causar un siniestro.",
+   "answer": true
+  },
+  {
+   "id": "u2-93",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "A unos 10 m de una pared: la luz proyectada debe quedar más baja que la altura de los faros.",
+   "type": "mc",
+   "prompt": "Para controlar tus luces bajas frente a una pared, ¿a qué distancia te estacionas?",
+   "options": [
+    "A unos 10 m",
+    "A unos 2 m",
+    "A unos 30 m",
+    "A unos 50 m"
+   ]
+  },
+  {
+   "id": "u2-94",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Nunca deben usarse como excusa para un estacionamiento peligroso o ilegal.",
+   "type": "tf",
+   "prompt": "Las luces de advertencia de peligro permiten estacionar donde está prohibido.",
+   "answer": false
+  },
+  {
+   "id": "u2-95",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Solo con visibilidad considerablemente reducida por niebla o lluvia torrencial; se apagan apenas mejora.",
+   "type": "mc",
+   "prompt": "¿Cuándo se pueden usar las luces neblineras?",
+   "options": [
+    "Con visibilidad muy reducida por niebla o lluvia torrencial",
+    "Siempre que se conduzca de noche por la ciudad",
+    "Al estacionar el vehículo junto a la calzada",
+    "Para advertir que vas a adelantar a otro vehículo"
+   ]
+  },
+  {
+   "id": "u2-96",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Siempre existirá una zona sin visión: los puntos ciegos o ángulos muertos.",
+   "type": "mc",
+   "prompt": "¿Cómo se llaman las zonas que no ves aunque tus espejos estén bien regulados?",
+   "options": [
+    "Puntos ciegos o ángulos muertos",
+    "Zonas de seguridad lateral",
+    "Distancias de reacción",
+    "Zonas de detención total"
+   ]
+  },
+  {
+   "id": "u2-97",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 21,
+   "explain": "Peatones, ciclistas y motociclistas: no cuentan con una carrocería para protegerse.",
+   "type": "mc",
+   "prompt": "¿Quiénes son las y los usuarios vulnerables?",
+   "options": [
+    "Peatones, ciclistas y motociclistas",
+    "Conductores de buses, camiones y camionetas",
+    "Conductores de autos eléctricos",
+    "Pasajeros del asiento trasero"
+   ]
+  },
+  {
+   "id": "u2-98",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Antes de conducir controla: cinturones, neumáticos, espejos, limpiaparabrisas, desempañador, puertas, ventilación, luces, bocina, líquido limpiaparabrisas y frenos.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos elementos debes controlar antes de conducir?",
+   "options": [
+    "La bocina",
+    "El odómetro",
+    "La radio",
+    "El encendedor"
+   ]
+  },
+  {
+   "id": "u2-99",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Al tomar el volante, tus brazos deben quedar ligeramente flexionados.",
+   "type": "mc",
+   "prompt": "Al tomar el volante, tus brazos deben quedar…",
+   "options": [
+    "Ligeramente flexionados",
+    "Completamente estirados",
+    "Doblados en ángulo recto",
+    "Apoyados en las rodillas"
+   ]
+  },
+  {
+   "id": "u2-100",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Dispositivos reflectantes, extintor de incendio, rueda de repuesto y herramientas para su cambio.",
+   "type": "mc",
+   "prompt": "¿Qué elementos debes llevar siempre en el vehículo?",
+   "options": [
+    "Reflectantes, extintor, rueda de repuesto y herramientas",
+    "Un bidón con combustible de reserva bien lleno",
+    "Un juego extra de luces neblineras y ampolletas",
+    "Una batería de repuesto siempre cargada al máximo"
+   ]
+  },
+  {
+   "id": "u2-101",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "No lleves objetos sueltos que puedan lesionar a alguien en una frenada brusca.",
+   "type": "tf",
+   "prompt": "Un objeto suelto dentro del vehículo puede lesionar a alguien en una frenada brusca.",
+   "answer": true
+  },
+  {
+   "id": "u2-102",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Es una de las cosas de las que siempre debes asegurarte.",
+   "type": "tf",
+   "prompt": "Debes usar un calzado que te permita un adecuado control de los pedales.",
+   "answer": true
+  },
+  {
+   "id": "u2-103",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Siempre debes chequear los puntos ciegos antes de moverte.",
+   "type": "tf",
+   "prompt": "Antes de poner el vehículo en movimiento debes mirar alrededor y chequear los puntos ciegos.",
+   "answer": true
+  },
+  {
+   "id": "u2-104",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Deben ir bien sujetos y no poder abrir las puertas desde el interior.",
+   "type": "tf",
+   "prompt": "Si llevas niñas o niños, debes asegurarte de que no puedan abrir las puertas desde el interior.",
+   "answer": true
+  },
+  {
+   "id": "u2-105",
+   "unit": "u2",
+   "lesson": 2,
+   "page": 22,
+   "explain": "Activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera.",
+   "type": "tf",
+   "prompt": "Si no tienes buena visibilidad por los vidrios, debes activar el ventilador y el desempañador.",
+   "answer": true
+  },
+  {
+   "id": "u3-25",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Por la fuerza de inercia tiende a seguir recto; si la velocidad es muy alta, la fricción puede no bastar.",
+   "type": "mc",
+   "prompt": "Un vehículo que se aproxima a una curva tiende a…",
+   "options": [
+    "Continuar en línea recta",
+    "Girar solo hacia la curva",
+    "Frenar por sí mismo",
+    "Salir hacia el lado de adentro"
+   ]
+  },
+  {
+   "id": "u3-26",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Al mover el volante desvías la trayectoria recta, pero a velocidad muy alta la fricción puede no bastar.",
+   "type": "tf",
+   "prompt": "A una velocidad demasiado alta, la fricción puede no ser suficiente para mantener el vehículo en la carretera.",
+   "answer": true
+  },
+  {
+   "id": "u3-27",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Presta atención a obstáculos como hojas caídas, derrames de combustible u otra cosa resbaladiza.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos puede hacer que la carretera esté resbaladiza en una curva?",
+   "options": [
+    "Hojas caídas o derrames de combustible",
+    "Las líneas de demarcación recién pintadas en la vía",
+    "Las señales de curva peligrosa",
+    "Los reflectantes de la berma"
+   ]
+  },
+  {
+   "id": "u3-28",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Depende directamente de la velocidad y de lo cerrada que sea la curva.",
+   "type": "mc",
+   "prompt": "¿De qué depende la fuerza centrífuga que tiende a sacar al vehículo en una curva?",
+   "options": [
+    "De la velocidad y de lo cerrada que sea la curva",
+    "Solo del peso de las personas que viajan en el auto",
+    "Del color y del modelo del vehículo",
+    "De la hora del día en que conduces"
+   ]
+  },
+  {
+   "id": "u3-29",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Es la distancia que recorre el vehículo, manteniendo trayectoria y velocidad, mientras la persona reacciona.",
+   "type": "mc",
+   "prompt": "¿Qué es la distancia de reacción?",
+   "options": [
+    "Lo que recorre el vehículo mientras reaccionas",
+    "Lo que recorre desde que frenas hasta detenerte",
+    "La distancia que dejas con el vehículo de adelante",
+    "Lo que recorre el vehículo en una curva"
+   ]
+  },
+  {
+   "id": "u3-30",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Depende del tiempo de reacción de la persona y de la velocidad a la que circula.",
+   "type": "mc",
+   "prompt": "¿De qué depende la distancia de reacción?",
+   "options": [
+    "Del tiempo de reacción y de la velocidad",
+    "Del estado de los frenos y de los neumáticos",
+    "Solo de la pendiente de la calzada",
+    "Del peso de la carga del vehículo"
+   ]
+  },
+  {
+   "id": "u3-31",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "A 36 km/h recorre 10 metros en un segundo; a 72 km/h, 20 metros.",
+   "type": "mc",
+   "prompt": "En un segundo de reacción, un vehículo a 36 km/h recorre…",
+   "options": [
+    "10 metros",
+    "36 metros",
+    "3 metros",
+    "20 metros"
+   ]
+  },
+  {
+   "id": "u3-32",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 23,
+   "explain": "Existe la variable relacionada a la experiencia, que permite tener mejores tiempos de reacción.",
+   "type": "tf",
+   "prompt": "La experiencia en conducción permite tener mejores tiempos de reacción.",
+   "answer": true
+  },
+  {
+   "id": "u3-33",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "Sobre 100 km/h se consideran los 2 primeros dígitos: 11 × 3 = 33 m.",
+   "type": "mc",
+   "prompt": "Para estimar la distancia de reacción a 110 km/h, ¿qué número multiplicas por tres?",
+   "options": [
+    "11",
+    "1",
+    "10",
+    "110"
+   ]
+  },
+  {
+   "id": "u3-34",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "Es la distancia desde que se presiona el pedal de freno hasta la detención total.",
+   "type": "mc",
+   "prompt": "¿Qué es la distancia de frenado?",
+   "options": [
+    "Lo que recorre desde que presionas el freno hasta detenerte",
+    "Lo que recorre mientras la persona reacciona",
+    "La suma de la distancia de reacción y detención",
+    "Lo que recorre antes de ver el peligro en la vía"
+   ]
+  },
+  {
+   "id": "u3-35",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "Depende de la velocidad, la calzada, la pendiente, frenos y neumáticos, y la forma de frenar.",
+   "type": "mc",
+   "prompt": "¿Cuál de estos factores influye en la distancia de frenado?",
+   "options": [
+    "El estado de la calzada",
+    "El color del vehículo",
+    "La hora del día",
+    "La radio encendida"
+   ]
+  },
+  {
+   "id": "u3-36",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "El libro compara la distancia de frenado según velocidad y estado del asfalto, seco o mojado.",
+   "type": "tf",
+   "prompt": "La distancia de frenado es distinta en asfalto seco y en asfalto mojado.",
+   "answer": true
+  },
+  {
+   "id": "u3-37",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "Disminuir a tiempo la presión sobre el acelerador hace usar menos el freno y aumenta la seguridad.",
+   "type": "tf",
+   "prompt": "Quien planifica su conducción y reduce a tiempo la velocidad usa menos el freno y aumenta su seguridad.",
+   "answer": true
+  },
+  {
+   "id": "u3-38",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 24,
+   "explain": "Al comenzar a frenar se presiona con la mayor fuerza; sin ABS, si se bloquean las ruedas, se suelta el pedal.",
+   "type": "mc",
+   "prompt": "En un vehículo sin ABS, si se bloquean las ruedas al frenar fuerte, debes…",
+   "options": [
+    "Reducir en seguida la presión soltando el pedal",
+    "Mantener el pedal a fondo hasta detenerte",
+    "Tirar del freno de mano con fuerza",
+    "Girar el volante hacia el lado contrario"
+   ]
+  },
+  {
+   "id": "u3-39",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 25,
+   "explain": "A veces es necesario conducir en marcha baja para que el motor vaya frenando y no se calienten los frenos.",
+   "type": "mc",
+   "prompt": "En una bajada pronunciada, ¿por qué conviene usar una marcha baja?",
+   "options": [
+    "Para que el motor frene y no se calienten los frenos",
+    "Para gastar menos combustible durante toda la bajada",
+    "Para que el vehículo baje más rápido",
+    "Para cargar mejor la batería"
+   ]
+  },
+  {
+   "id": "u3-40",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 25,
+   "explain": "¿Tracción delantera, trasera o 4x4? ¿Qué sistema de frenos? ¿Dónde está su centro de gravedad?",
+   "type": "mc",
+   "prompt": "Antes de conducir un auto desconocido, ¿qué debes preguntarte?",
+   "options": [
+    "Su tracción, sus frenos y su centro de gravedad",
+    "Su color, su marca y su año de fabricación",
+    "Su consumo, su radio y su alarma",
+    "Su precio, su seguro y su placa patente"
+   ]
+  },
+  {
+   "id": "u3-41",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 25,
+   "explain": "El centro de gravedad es el punto donde se encuentra su mayor peso.",
+   "type": "mc",
+   "prompt": "¿Qué es el centro de gravedad del vehículo?",
+   "options": [
+    "El punto donde se encuentra su mayor peso",
+    "El punto donde está ubicado el volante",
+    "La mitad exacta del largo del auto",
+    "El lugar donde se carga el combustible"
+   ]
+  },
+  {
+   "id": "u3-42",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 25,
+   "explain": "En lo demás, se comportan igual que el resto de los vehículos.",
+   "type": "tf",
+   "prompt": "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles.",
+   "answer": true
+  },
+  {
+   "id": "u3-43",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 26,
+   "explain": "Brinda mayor comodidad, mejor control y contribuye a reducir el cansancio.",
+   "type": "tf",
+   "prompt": "Además de salvar vidas, el cinturón contribuye a reducir el cansancio.",
+   "answer": true
+  },
+  {
+   "id": "u3-44",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 26,
+   "explain": "Nunca permitas que dos personas viajen sujetas con un mismo cinturón.",
+   "type": "tf",
+   "prompt": "Dos personas pueden viajar sujetas con un mismo cinturón si son de poco peso.",
+   "answer": false
+  },
+  {
+   "id": "u3-45",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 26,
+   "explain": "50 km/h: cuarto piso; 70 km/h: séptimo piso; 90 km/h: piso 11.",
+   "type": "mc",
+   "prompt": "Chocar a 70 km/h sin cinturón equivale a lanzarse desde…",
+   "options": [
+    "Un séptimo piso",
+    "Un cuarto piso",
+    "Un piso 11",
+    "Un segundo piso"
+   ]
+  },
+  {
+   "id": "u3-46",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 26,
+   "explain": "Chocar a 90 km/h equivale a una caída desde el piso 11.",
+   "type": "mc",
+   "prompt": "Chocar a 90 km/h provoca los mismos efectos que una caída desde…",
+   "options": [
+    "El piso 11",
+    "El cuarto piso",
+    "El séptimo piso",
+    "El piso 20"
+   ]
+  },
+  {
+   "id": "u3-47",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 26,
+   "explain": "Su uso podría ya no ser seguro; revísalo y reemplázalo.",
+   "type": "tf",
+   "prompt": "Después de un siniestro, el cinturón podría estar dañado y habría que reemplazarlo.",
+   "answer": true
+  },
+  {
+   "id": "u3-48",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 27,
+   "explain": "Puede deslizarse hacia fuera durante el siniestro y reducir al mínimo su eficacia; sobre el cuello puede causar graves lesiones.",
+   "type": "mc",
+   "prompt": "Si la banda toráxica se coloca sobre el hombro…",
+   "options": [
+    "Puede deslizarse hacia fuera y perder eficacia",
+    "Protege mejor el cuello de la persona en el siniestro",
+    "Evita el efecto submarino",
+    "Reduce la distancia de frenado"
+   ]
+  },
+  {
+   "id": "u3-49",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 27,
+   "explain": "Estíralo ligeramente hacia arriba para que quede bien ceñido; que no esté enganchado ni torcido.",
+   "type": "mc",
+   "prompt": "Una vez abrochado el cinturón, debes…",
+   "options": [
+    "Estirarlo ligeramente hacia arriba",
+    "Soltarlo un poco para estar cómodo",
+    "Pasarlo por detrás de la espalda",
+    "Torcerlo para que no se suelte"
+   ]
+  },
+  {
+   "id": "u3-50",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 27,
+   "explain": "Con holguras recorrerás una mayor distancia durante el siniestro.",
+   "type": "tf",
+   "prompt": "Si el cinturón tiene holguras, puedes impactar contra el volante o el parabrisas en un siniestro.",
+   "answer": true
+  },
+  {
+   "id": "u3-51",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "No reclines el asiento en exceso, no uses toallas ni almohadones, tensa bien el cinturón y evita ropa de mucho volumen.",
+   "type": "mc",
+   "prompt": "Para evitar el efecto submarino, ¿qué debes hacer?",
+   "options": [
+    "No reclinar el asiento en exceso",
+    "Usar un almohadón en el asiento",
+    "Soltar un poco el cinturón",
+    "Conducir con ropa abrigada y gruesa"
+   ]
+  },
+  {
+   "id": "u3-52",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "Toallas, almohadones o algunas fundas favorecen el deslizamiento de la persona.",
+   "type": "tf",
+   "prompt": "Poner almohadones sobre el asiento ayuda a evitar el efecto submarino.",
+   "answer": false
+  },
+  {
+   "id": "u3-53",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "El efecto submarino aparece con mayor facilidad si el cinturón no está bien ajustado al cuerpo.",
+   "type": "tf",
+   "prompt": "Conducir con ropa de mucho volumen favorece el efecto submarino.",
+   "answer": true
+  },
+  {
+   "id": "u3-54",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "Pueden lesionar también a la persona conductora o a quien viaje adelante.",
+   "type": "tf",
+   "prompt": "Las consecuencias de no usar el cinturón en el asiento trasero son solo para quien no lo usa.",
+   "answer": false
+  },
+  {
+   "id": "u3-55",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "El estudio de miles de siniestros demuestra que tienen el doble de probabilidad de fallecer.",
+   "type": "mc",
+   "prompt": "Quienes no usan el cinturón tienen ¿cuánta probabilidad de fallecer en un siniestro?",
+   "options": [
+    "El doble",
+    "La mitad",
+    "El triple",
+    "La misma"
+   ]
+  },
+  {
+   "id": "u3-56",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "Lesión medular: +1.300%; morir: +300%. Es mucho más seguro quedar dentro del vehículo.",
+   "type": "mc",
+   "prompt": "Si sales eyectado por no usar cinturón, la probabilidad de una lesión medular aumenta en…",
+   "options": [
+    "1.300%",
+    "300%",
+    "100%",
+    "1.000%"
+   ]
+  },
+  {
+   "id": "u3-57",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 28,
+   "explain": "Cada 1 millón, sólo en un siniestro llevar el cinturón puede ser negativo.",
+   "type": "mc",
+   "prompt": "¿En cuántos siniestros puede ser negativo llevar el cinturón?",
+   "options": [
+    "En uno de cada millón",
+    "En uno de cada cien",
+    "En uno de cada mil",
+    "En la mitad de los casos"
+   ]
+  },
+  {
+   "id": "u3-58",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 29,
+   "explain": "Un golpe frontal a 30 o 40 km/h podría resultar mortal con facilidad; cerca del 80% de los siniestros con víctimas son urbanos.",
+   "type": "tf",
+   "prompt": "En ciudad no hace falta el cinturón porque a 30 o 40 km/h un golpe frontal no es mortal.",
+   "answer": false
+  },
+  {
+   "id": "u3-59",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 29,
+   "explain": "Por eso hay que usar el cinturón en todos los desplazamientos, incluso los cortos.",
+   "type": "mc",
+   "prompt": "¿Dónde se producen la mayoría de los siniestros con víctimas?",
+   "options": [
+    "A pocos kilómetros de sus casas",
+    "En carreteras lejanas, de noche y con poco tráfico",
+    "En autopistas a alta velocidad",
+    "En estacionamientos públicos"
+   ]
+  },
+  {
+   "id": "u3-60",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 29,
+   "explain": "Ningún dispositivo puede sustituir al cinturón; todos funcionan de forma complementaria a él.",
+   "type": "tf",
+   "prompt": "Si el vehículo tiene muchos sistemas de seguridad, el cinturón no es tan importante.",
+   "answer": false
+  },
+  {
+   "id": "u3-61",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 29,
+   "explain": "Muchas personas con el tiempo se sienten incómodas e inseguras cuando no lo usan.",
+   "type": "tf",
+   "prompt": "La incomodidad inicial del cinturón desaparece al usarlo habitualmente.",
+   "answer": true
+  },
+  {
+   "id": "u3-62",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 29,
+   "explain": "Pueden salir eyectadas y golpear mortalmente a las demás personas.",
+   "type": "mc",
+   "prompt": "¿Por qué es importante el cinturón en los asientos traseros?",
+   "options": [
+    "Sin él pueden golpear mortalmente a otros",
+    "Porque los asientos traseros no tienen airbag",
+    "Porque lo exige solo en carreteras",
+    "Porque reduce el consumo de combustible"
+   ]
+  },
+  {
+   "id": "u3-63",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Se infla en apenas unas milésimas de segundo; hay airbags laterales, para la cabeza, frontales, traseros, etc.",
+   "type": "mc",
+   "prompt": "¿En cuánto tiempo se infla el airbag al producirse un impacto?",
+   "options": [
+    "En unas milésimas de segundo",
+    "En unos dos segundos completos",
+    "En medio minuto o un poco más",
+    "En un segundo exacto"
+   ]
+  },
+  {
+   "id": "u3-64",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Frena suavemente a los ocupantes, evita impactos contra el interior y protege cara y ojos de fragmentos.",
+   "type": "mc",
+   "prompt": "¿Cuál es una forma en que el airbag protege a los ocupantes?",
+   "options": [
+    "Evita el impacto contra el volante o el tablero",
+    "Impide que el vehículo derrape",
+    "Reduce la distancia de reacción",
+    "Mantiene el vehículo dentro de su pista"
+   ]
+  },
+  {
+   "id": "u3-65",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Por ejemplo, de fragmentos que se desprenden del parabrisas.",
+   "type": "tf",
+   "prompt": "El airbag protege la cara y los ojos de los fragmentos de cristal.",
+   "answer": true
+  },
+  {
+   "id": "u3-66",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Cinturón, buena posición de las manos y apoya cabezas al nivel de las orejas.",
+   "type": "mc",
+   "prompt": "¿A qué nivel debe regularse el apoya cabezas para que el airbag frontal sea eficaz?",
+   "options": [
+    "Al nivel de las orejas",
+    "Al nivel del cuello",
+    "Al nivel de los hombros",
+    "Al nivel de la boca"
+   ]
+  },
+  {
+   "id": "u3-67",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Se ha estimado que puede llegar a reducirla un 20%.",
+   "type": "mc",
+   "prompt": "El airbag frontal junto al cinturón puede reducir la probabilidad de lesiones mortales en…",
+   "options": [
+    "Un 20%",
+    "Un 50%",
+    "Un 5%",
+    "Un 90%"
+   ]
+  },
+  {
+   "id": "u3-68",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "El testigo indica fallas en su estado de reposo.",
+   "type": "tf",
+   "prompt": "Si se prende el testigo del airbag, el sistema debe revisarse a la brevedad.",
+   "answer": true
+  },
+  {
+   "id": "u3-69",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 30,
+   "explain": "Nunca, salvo en vehículos con cabina simple y con el airbag desactivado previamente.",
+   "type": "mc",
+   "prompt": "¿Cuándo se puede poner un Sistema de Retención Infantil en el asiento delantero?",
+   "options": [
+    "En cabina simple, con el airbag desactivado",
+    "Siempre que el niño tenga más de 2 años",
+    "Si el viaje es corto y por ciudad",
+    "Si el airbag está activado"
+   ]
+  },
+  {
+   "id": "u3-70",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 31,
+   "explain": "Si la cabeza no está apoyada, el cuello toma forma de “s” y luego va hacia atrás: el efecto latigazo.",
+   "type": "mc",
+   "prompt": "¿Cómo se llama el violento cambio de dirección del cuello en un impacto por atrás?",
+   "options": [
+    "Efecto latigazo",
+    "Efecto submarino",
+    "Efecto túnel",
+    "Efecto rebote"
+   ]
+  },
+  {
+   "id": "u3-71",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 31,
+   "explain": "La forma de prevenirlo y sus lesiones cervicales es usando los apoya cabezas.",
+   "type": "mc",
+   "prompt": "¿Cómo se previene el efecto latigazo?",
+   "options": [
+    "Usando bien los apoya cabezas",
+    "Reclinando el asiento hacia atrás",
+    "Soltando el cinturón al frenar",
+    "Usando un almohadón en la espalda"
+   ]
+  },
+  {
+   "id": "u3-72",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 31,
+   "explain": "Si se dañan las vértebras cervicales.",
+   "type": "tf",
+   "prompt": "El latigazo cervical puede causar una discapacidad irreversible, como una tetraplejia.",
+   "answer": true
+  },
+  {
+   "id": "u3-73",
+   "unit": "u3",
+   "lesson": 2,
+   "page": 31,
+   "explain": "Se ajusta a cada persona, adelante y atrás; nunca por debajo de la cabeza.",
+   "type": "tf",
+   "prompt": "El apoya cabezas debe ajustarse para cada persona, también en los asientos traseros.",
+   "answer": true
   }
  ]
 }
