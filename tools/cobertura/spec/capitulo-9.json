@@ -1,0 +1,623 @@
+{
+ "capitulo": 9,
+ "titulo": "Informaciones importantes",
+ "unidad": "u11",
+ "unidades": [],
+ "sesiones": [
+  [
+   "c9s1",
+   "Cómo comportarse en caso de siniestro"
+  ],
+  [
+   "c9s2",
+   "Los primeros auxilios: XABCDE"
+  ],
+  [
+   "c9s3",
+   "Siniestro con cargas peligrosas"
+  ],
+  [
+   "c9s4",
+   "Documentos del vehículo"
+  ],
+  [
+   "c9s5",
+   "Responsabilidad y Ley No Chat"
+  ],
+  [
+   "c9s6",
+   "Licencia a los 17 años y restricciones"
+  ],
+  [
+   "c9s7",
+   "Suspensión de licencia e infracciones"
+  ],
+  [
+   "c9s8",
+   "Frenadas fuertes y falla de frenos"
+  ],
+  [
+   "c9s9",
+   "Tránsito y medio ambiente"
+  ],
+  [
+   "c9s10",
+   "Conducción de un vehículo eléctrico"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c9s1",
+   "cita": "Toda persona, con culpa o sin ella, que participe en un siniestro de tránsito en el que resulten personas lesionadas y/o muertas está obligada a detener su marcha, prestar la ayuda que fuese posible y dar cuenta a la autoridad policial más cercana.",
+   "q": [
+    "u11-08"
+   ]
+  },
+  {
+   "s": "c9s1",
+   "cita": "El darse a la fuga y no dar aviso a la autoridad policial es un delito que puede ser sancionado incluso con la inhabilidad de por vida para conducir vehículos y penas de cárcel efectiva de al menos un año.",
+   "q": [
+    "u11-14"
+   ]
+  },
+  {
+   "s": "c9s1",
+   "cita": "si es posible, avisa del peligro a las demás personas con tus luces de advertencia de peligro y dispositivos reflectantes.",
+   "tf": "Al detenerte a ayudar en un siniestro, debes avisar del peligro con luces de advertencia y reflectantes.",
+   "a": true,
+   "e": "Las colisiones y los incendios posteriores son una amenaza."
+  },
+  {
+   "s": "c9s1",
+   "cita": "Esto lo sabrás a través de la calcomanía distintiva que deberá tener cada uno en su luneta.",
+   "mc": "¿Cómo sabes si un vehículo siniestrado es eléctrico o híbrido?",
+   "o": [
+    "Por la calcomanía distintiva en su luneta",
+    "Por el color de toda su carrocería",
+    "Por el ruido que hace su motor",
+    "Por los números de su placa patente"
+   ],
+   "e": "Nunca los manipules sin capacitación."
+  },
+  {
+   "s": "c9s1",
+   "cita": "debes tocar la línea de alto voltaje que se encuentra en la parte interna del vehículo y que se denota internacionalmente con un material aislante de color naranjo.",
+   "q": [
+    "u11-13"
+   ]
+  },
+  {
+   "s": "c9s1",
+   "cita": "Si los vehículos involucrados son totalmente a combustión, debes asegurarte de apagar sus motores. No fumes ni permitas que las demás personas lo hagan.",
+   "tf": "En un siniestro con vehículos a combustión, debes apagar sus motores y no permitir que nadie fume.",
+   "a": true,
+   "e": "Para prevenir incendios."
+  },
+  {
+   "s": "c9s1",
+   "cita": "asegúrate de llamar al SAMU/ambulancia (131), Bomberos (132) y Carabineros (133)",
+   "q": [
+    "u11-09"
+   ]
+  },
+  {
+   "s": "c9s1",
+   "cita": "especifica el lugar del siniestro de la forma más exacta que puedas y la cantidad de vehículos y de víctimas.",
+   "tf": "Al llamar a emergencias debes indicar el lugar exacto y la cantidad de vehículos y víctimas.",
+   "a": true,
+   "e": "Mantén la calma y sigue las indicaciones."
+  },
+  {
+   "s": "c9s2",
+   "cita": "evita moverlas y trasladarlas del lugar sin la debida autorización por parte del equipo de salud, a menos que el escenario imponga peligro inminente",
+   "tf": "Debes trasladar de inmediato a los lesionados a otro lugar.",
+   "a": false,
+   "e": "Evita moverlos, salvo peligro inminente como incendio, explosión o atropello."
+  },
+  {
+   "s": "c9s2",
+   "cita": "casco, no debes quitárselo nunca, ya que al hacerlo,",
+   "q": [
+    "u11-11"
+   ]
+  },
+  {
+   "s": "c9s2",
+   "cita": "No abandones a la víctima, a menos que ello sea para solicitar ayuda y por ningún motivo le des algo de comer o beber.",
+   "q": [
+    "u11-12"
+   ]
+  },
+  {
+   "s": "c9s2",
+   "cita": "Estas son conocidas con la siguiente sigla XABCDE",
+   "q": [
+    "u11-10"
+   ]
+  },
+  {
+   "s": "c9s2",
+   "cita": "realiza un torniquete en la zona más superior posible de dicha extremidad.",
+   "mc": "Si una hemorragia grave en un brazo no se contiene con presión directa, ¿qué haces?",
+   "o": [
+    "Un torniquete lo más arriba posible",
+    "Le das agua para que se calme",
+    "Le quitas toda la ropa encima",
+    "Esperas sin hacer nada hasta que llegue ayuda"
+   ],
+   "e": "X: control de hemorragias graves, primero con presión directa y firme."
+  },
+  {
+   "s": "c9s2",
+   "cita": "deberás abrir la vía aérea para despejarla utilizando la maniobra frente-mentón.",
+   "mc": "¿Qué maniobra se usa para abrir la vía aérea?",
+   "o": [
+    "La maniobra frente-mentón",
+    "La maniobra de Heimlich",
+    "El torniquete",
+    "La posición sentada"
+   ],
+   "e": "Una mano en la frente y la otra elevando el mentón."
+  },
+  {
+   "s": "c9s2",
+   "cita": "podrás administrar ventilaciones boca a boca a una frecuencia de 1 cada 6 segundos.",
+   "mc": "Si tienes entrenamiento y la víctima no respira, ¿con qué frecuencia das ventilaciones boca a boca?",
+   "o": [
+    "1 cada 6 segundos",
+    "1 cada 30 segundos",
+    "10 por segundo",
+    "1 cada minuto"
+   ],
+   "e": "B: buena ventilación."
+  },
+  {
+   "s": "c9s2",
+   "cita": "A: Alerta V: Respuesta a la voz D: Estímulos dolorosos I: Inconsciente",
+   "mc": "En la etapa D (déficit de conciencia), ¿qué significa la “V”?",
+   "o": [
+    "Responde a la voz",
+    "Vía aérea abierta",
+    "Ventilación boca a boca",
+    "Vendaje de heridas"
+   ],
+   "e": "A: alerta; V: voz; D: estímulos dolorosos; I: inconsciente."
+  },
+  {
+   "s": "c9s2",
+   "cita": "En caso de no contar con entrenamiento adecuado, no quites la ropa de la persona",
+   "tf": "Sin entrenamiento, no debes quitar la ropa al lesionado; busca abrigo para él.",
+   "a": true,
+   "e": "E: exposición."
+  },
+  {
+   "s": "c9s3",
+   "cita": "Mantente a una distancia prudente de él y en una ubicación tal que el viento no corra desde el vehículo involucrado hacia ti",
+   "q": [
+    "u11-15"
+   ]
+  },
+  {
+   "s": "c9s3",
+   "cita": "Toma nota del material peligroso de que se trata antes de llamar a los servicios de emergencia.",
+   "tf": "Ante un camión con carga peligrosa siniestrado, conviene anotar el material antes de llamar a emergencias.",
+   "a": true,
+   "e": "No enciendas llamas ni fumes."
+  },
+  {
+   "s": "c9s4",
+   "cita": "Los vehículos motorizados no pueden circular sin su placa patente, el permiso de circulación otorgado por la respectiva Municipalidad y el certificado de un Seguro Obligatorio de Accidentes Personales.",
+   "q": [
+    "u11-16"
+   ]
+  },
+  {
+   "s": "c9s4",
+   "cita": "Las Placas Patentes Únicas (PPU) son otorgadas por el Servicio de Registro Civil e Identificación",
+   "mc": "¿Quién otorga las Placas Patentes Únicas?",
+   "o": [
+    "El Servicio de Registro Civil e Identificación",
+    "La Municipalidad donde vive la persona dueña",
+    "Carabineros de Chile en cada comisaría",
+    "El Ministerio de Salud de cada región"
+   ],
+   "e": "Mantiene el Registro Nacional de Vehículos Motorizados."
+  },
+  {
+   "s": "c9s4",
+   "cita": "La Ley Patente Cero Días, vigente desde febrero del año 2023, obliga que todo vehículo motorizado nuevo que se comercialice en el país deberá entregarse por parte de los comercializadores con sus Placas Patentes Únicas instaladas.",
+   "tf": "Por la Ley Patente Cero Días, los vehículos nuevos se entregan con sus placas patentes instaladas.",
+   "a": true,
+   "e": "Vigente desde febrero de 2023."
+  },
+  {
+   "s": "c9s4",
+   "cita": "El permiso de circulación corresponde a un impuesto que anualmente debe pagarse por el vehículo a la Municipalidad.",
+   "mc": "¿Qué es el permiso de circulación?",
+   "o": [
+    "Un impuesto anual que se paga a la Municipalidad",
+    "Un seguro contra robos del vehículo particular",
+    "Un examen técnico que revisa frenos y luces",
+    "Un permiso especial para conducir de noche"
+   ],
+   "e": "Requiere revisión técnica vigente y SOAP."
+  },
+  {
+   "s": "c9s4",
+   "cita": "independientemente de quién sea culpable",
+   "q": [
+    "u11-17"
+   ]
+  },
+  {
+   "s": "c9s4",
+   "cita": "Comprende, entre otros, un chequeo de los sistemas de dirección, frenos, luces, neumáticos y combustión interna.",
+   "mc": "¿Qué revisa la revisión técnica?",
+   "o": [
+    "Dirección, frenos, luces, neumáticos y combustión",
+    "Solo el estado de la pintura y la carrocería",
+    "Solo el kilometraje que marca el odómetro",
+    "Solo los documentos de la persona dueña"
+   ],
+   "e": "Es como el examen médico del vehículo."
+  },
+  {
+   "s": "c9s4",
+   "cita": "(marzo, en el caso de automóviles particulares y motocicletas)",
+   "q": [
+    "u11-18"
+   ]
+  },
+  {
+   "s": "c9s4",
+   "cita": "último dígito de la patente única mes en que corresponde practicar la revisión* 9 Enero 0 Febrero",
+   "mc": "La revisión técnica se programa según…",
+   "o": [
+    "El último dígito de la placa patente",
+    "El color del vehículo",
+    "La edad de la persona dueña",
+    "El año de fabricación del auto"
+   ],
+   "e": "También puede hacerse el mes anterior al señalado."
+  },
+  {
+   "s": "c9s4",
+   "cita": "Certificado de Homologación Individual",
+   "tf": "Los vehículos nuevos deben contar con su Certificado de Homologación Individual.",
+   "a": true,
+   "e": "Lo emite el 3CV del Ministerio de Transportes."
+  },
+  {
+   "s": "c9s5",
+   "cita": "Como persona conductora tienes la obligación de portar siempre con la Licencia de Conducir",
+   "mc": "Si te retuvieron la licencia, ¿qué puedes exhibir en su reemplazo?",
+   "o": [
+    "Un permiso provisional o una boleta de citación",
+    "Una fotocopia simple de la licencia de conducir",
+    "Tu cédula de identidad vigente y al día",
+    "El permiso de circulación del vehículo"
+   ],
+   "e": "Permiso provisional de los Tribunales o boleta de citación al Juzgado."
+  },
+  {
+   "s": "c9s5",
+   "cita": "La Ley No Chat prohíbe la conducción de un vehículo (incluyendo a los ciclos) manipulando un dispositivo",
+   "tf": "La Ley No Chat también se aplica a quienes conducen ciclos.",
+   "a": true,
+   "e": "Incluye celulares y cualquier artefacto no incorporado de fábrica."
+  },
+  {
+   "s": "c9s5",
+   "cita": "incluso en los momentos en los que la persona que conduce está esperando en una luz roja, en un taco, en una señal “PARE”",
+   "q": [
+    "u11-19"
+   ]
+  },
+  {
+   "s": "c9s5",
+   "cita": "la persona conductora debe programar la ruta en la aplicación antes de iniciar el viaje, con el vehículo estacionado en un lugar seguro.",
+   "tf": "La ruta del GPS se debe programar antes de partir, con el vehículo estacionado.",
+   "a": true,
+   "e": "Durante el trayecto puede recibir instrucciones por audio."
+  },
+  {
+   "s": "c9s5",
+   "cita": "Aquellos sistemas que para su uso requieran que la persona conductora los sostenga con su hombro",
+   "q": [
+    "u11-20"
+   ]
+  },
+  {
+   "s": "c9s5",
+   "cita": "Si recibes una llamada que debes contestar y no cuentas con manos libres, debes buscar un lugar seguro para detenerte y atenderla.",
+   "mc": "Recibes una llamada importante y no tienes manos libres. ¿Qué haces?",
+   "o": [
+    "Te detienes en un lugar seguro y contestas",
+    "Contestas rápido sin soltar el volante",
+    "Contestas solo si vas despacio",
+    "Contestas solo en una luz roja"
+   ],
+   "e": "Es tu deber conducir con toda tu atención."
+  },
+  {
+   "s": "c9s6",
+   "cita": "siempre que cuente con autorización de su madre, padre, apoderados o representantes legales, y haya aprobado un curso en una Escuela de Conductores.",
+   "mc": "¿Qué requisitos tiene una persona de 17 años para obtener la licencia Clase B?",
+   "o": [
+    "Autorización de sus padres y un curso en Escuela de Conductores",
+    "Solo aprobar el examen práctico en la Dirección de Tránsito",
+    "Tener un vehículo inscrito a su propio nombre",
+    "Haber trabajado al menos un año con contrato formal"
+   ],
+   "e": "Y hasta los 18 debe conducir acompañada."
+  },
+  {
+   "s": "c9s6",
+   "cita": "de no menos de 5 años de antigüedad.",
+   "q": [
+    "u11-21"
+   ]
+  },
+  {
+   "s": "c9s6",
+   "cita": "Debes saber que tu Licencia de Conducir puede ser restringida por la Dirección de Tránsito en diferentes aspectos como: horario, zona de circulación, vehículo adaptado y utilización de lentes o audífono",
+   "tf": "Si tu licencia indica el uso de lentes, no puedes conducir sin ellos.",
+   "a": true,
+   "e": "Las restricciones deben cumplirse en todo momento."
+  },
+  {
+   "s": "c9s7",
+   "cita": "Exceder en más de 60 km/h un límite de velocidad máxima. 6 meses*",
+   "q": [
+    "u11-23"
+   ]
+  },
+  {
+   "s": "c9s7",
+   "cita": "Exceder en más de 20 km/h un límite de velocidad máxima. Entre 5 y 45 días*",
+   "mc": "¿Cuánto se suspende la licencia por exceder en más de 20 km/h el límite?",
+   "o": [
+    "Entre 5 y 45 días",
+    "Entre 6 y 12 meses",
+    "Entre 1 y 2 años",
+    "Entre 3 y 6 meses"
+   ],
+   "e": "También por no detenerse ante luz roja o PARE, menores adelante, sin SRI o usando el celular."
+  },
+  {
+   "s": "c9s7",
+   "cita": "Bajo la influencia de sustancias estupefacientes o sicotrópicas.",
+   "tf": "Conducir bajo la influencia de estupefacientes se sanciona con suspensión de la licencia.",
+   "a": true,
+   "e": "Las suspensiones aumentan con reincidencia o si hay lesionados o fallecidos."
+  },
+  {
+   "s": "c9s7",
+   "cita": "una licencia es suspendida por la acumulación de dos infracciones gravísimas o graves en un período de doce meses.",
+   "q": [
+    "u11-24"
+   ]
+  },
+  {
+   "s": "c9s7",
+   "cita": "Exceder entre 20 y 60 kilómetros por hora el límite de velocidad máxima.",
+   "q": [
+    "u11-22"
+   ]
+  },
+  {
+   "s": "c9s7",
+   "cita": "Conducir un vehículo con la placa patente oculta",
+   "mc": "¿Cuál de estas es una infracción gravísima?",
+   "o": [
+    "Conducir con la placa patente oculta",
+    "Conducir sin revisión técnica vigente",
+    "Virar en U donde está prohibido",
+    "No renovar la licencia a tiempo"
+   ],
+   "e": "También conducir sin licencia o sin placa patente."
+  },
+  {
+   "s": "c9s7",
+   "cita": "Exceder de 11 a 20 km/h el límite de velocidad máxima.",
+   "mc": "Exceder de 11 a 20 km/h el límite de velocidad es una infracción…",
+   "o": [
+    "Grave",
+    "Gravísima",
+    "Leve",
+    "Menos grave"
+   ],
+   "e": "Entre 20 y 60 km/h: gravísima; hasta 10 km/h: menos grave."
+  },
+  {
+   "s": "c9s7",
+   "cita": "Conducir sin usar el cinturón de seguridad, o sin que otros pasajeros lo usen, debiendo hacerlo.",
+   "mc": "Conducir sin cinturón o sin que los pasajeros lo usen es una infracción…",
+   "o": [
+    "Grave",
+    "Leve",
+    "Gravísima",
+    "Menos grave"
+   ],
+   "e": "Es una de las infracciones graves."
+  },
+  {
+   "s": "c9s7",
+   "cita": "No respetar los signos y señales que rigen el tránsito, con excepción de la señal PARE y de las luces de un semáforo.",
+   "tf": "No respetar la señal PARE es una infracción gravísima.",
+   "a": true,
+   "e": "El resto de las señales son infracción grave."
+  },
+  {
+   "s": "c9s7",
+   "cita": "No bajar la luz en carretera al enfrentar o acercarse por detrás a otro vehículo.",
+   "mc": "No bajar la luz en carretera al cruzarte con otro vehículo es una infracción…",
+   "o": [
+    "Grave",
+    "Leve",
+    "Gravísima",
+    "Menos grave"
+   ],
+   "e": "Es una de las infracciones graves."
+  },
+  {
+   "s": "c9s7",
+   "cita": "No señalizar antes de virar.",
+   "mc": "No señalizar antes de virar es una infracción…",
+   "o": [
+    "Menos grave",
+    "Gravísima",
+    "Leve",
+    "Grave"
+   ],
+   "e": "Es un ejemplo de infracción menos grave."
+  },
+  {
+   "s": "c9s7",
+   "cita": "Exceder hasta en 10 kilómetros por hora el límite máximo de velocidad.",
+   "tf": "Exceder hasta en 10 km/h el límite de velocidad es una infracción menos grave.",
+   "a": true,
+   "e": "De 11 a 20: grave; de 20 a 60: gravísima."
+  },
+  {
+   "s": "c9s7",
+   "cita": "será condenada a prisión quien conduzca con una licencia falsa",
+   "tf": "Conducir con una licencia falsa es un delito que puede ser sancionado con prisión.",
+   "a": true,
+   "e": "También usar placas falsas o certificados falsos."
+  },
+  {
+   "s": "c9s8",
+   "cita": "Debes pisar enérgicamente el pedal de freno, manteniendo la máxima presión hasta el final.",
+   "q": [
+    "u11-25"
+   ]
+  },
+  {
+   "s": "c9s8",
+   "cita": "Debes pisar enérgicamente el pedal de freno, reduciendo la fuerza de forma progresiva a medida que va disminuyendo la velocidad.",
+   "mc": "¿Cómo frenas fuerte en un vehículo SIN ABS?",
+   "o": [
+    "Pisando fuerte y reduciendo la fuerza de a poco",
+    "Pisando suave y manteniendo hasta el final",
+    "Usando solo el freno de mano",
+    "Soltando el freno y acelerando"
+   ],
+   "e": "Si las ruedas se bloquean, reduce ligeramente la presión."
+  },
+  {
+   "s": "c9s8",
+   "cita": "Con el funcionamiento del sistema ABS se produce un leve temblor en el pedal del freno. No debes asustarte al notarlo.",
+   "tf": "Cuando el ABS funciona se siente un leve temblor en el pedal del freno.",
+   "a": true,
+   "e": "No debes asustarte al notarlo."
+  },
+  {
+   "s": "c9s8",
+   "cita": "En ambos casos es recomendable pisar el embrague antes de que el vehículo llegue a detenerse por completo.",
+   "tf": "Al frenar fuerte conviene pisar el embrague antes de detenerte por completo.",
+   "a": true,
+   "e": "Así el motor no se detiene por las bajas revoluciones."
+  },
+  {
+   "s": "c9s8",
+   "cita": "Presionar y soltar el pedal varias veces. Si hay aire en el sistema de frenos, con esta maniobra vuelve a funcionar.",
+   "q": [
+    "u11-26"
+   ]
+  },
+  {
+   "s": "c9s8",
+   "cita": "Puedes usar el freno de mano, siempre de forma suave y progresiva.",
+   "tf": "Ante una falla de frenos puedes usar el freno de mano de forma suave y progresiva.",
+   "a": true,
+   "e": "Con cuidado para no bloquear las ruedas."
+  },
+  {
+   "s": "c9s8",
+   "cita": "No apagues el motor. Apagar el motor podría desactivar la dirección asistida y perderías el control de tu vehículo.",
+   "tf": "Ante una falla total de frenos conviene apagar el motor.",
+   "a": false,
+   "e": "Podría desactivar la dirección asistida."
+  },
+  {
+   "s": "c9s8",
+   "cita": "Si nada de lo anterior funciona, busca una pista de emergencia.",
+   "mc": "Si nada funciona ante una falla total de frenos, ¿qué buscas?",
+   "o": [
+    "Una pista de emergencia",
+    "Una estación de servicio",
+    "Un estacionamiento techado",
+    "Un túnel cercano"
+   ],
+   "e": "Ahí podrás detener el vehículo con seguridad."
+  },
+  {
+   "s": "c9s9",
+   "cita": "Dióxido de carbono: Contribuye al efecto invernadero.",
+   "mc": "¿Qué contaminante de los vehículos contribuye al efecto invernadero?",
+   "o": [
+    "Dióxido de carbono",
+    "Plomo",
+    "Dióxido de azufre",
+    "Óxidos nítricos"
+   ],
+   "e": "El plomo daña el sistema nervioso; los óxidos irritan mucosas."
+  },
+  {
+   "s": "c9s9",
+   "cita": "Plomo: Es un metal pesado que provoca lesiones en el sistema nervioso central.",
+   "tf": "El plomo es un metal pesado que provoca lesiones en el sistema nervioso central.",
+   "a": true,
+   "e": "Es uno de los contaminantes emitidos por vehículos."
+  },
+  {
+   "s": "c9s9",
+   "cita": "la marcha del motor en ralentí provoca también emisiones innecesarias que deben evitarse.",
+   "tf": "Mantener el motor en ralentí provoca emisiones innecesarias.",
+   "a": true,
+   "e": "También las velocidades altas y las aceleraciones enérgicas."
+  },
+  {
+   "s": "c9s9",
+   "cita": "Si tu vehículo emite humo negro por el tubo de escape es debido a una falla en la combustión del motor.",
+   "q": [
+    "u11-07"
+   ]
+  },
+  {
+   "s": "c9s9",
+   "cita": "Si tu vehículo emite humo azul por el tubo de escape es debido a un consumo anormal de aceite de motor",
+   "q": [
+    "u11-07"
+   ]
+  },
+  {
+   "s": "c9s9",
+   "cita": "Si el vehículo emite humo blanco por el tubo de escape es debido a una fuga de líquido refrigerante hacia el interior del motor.",
+   "q": [
+    "u11-07"
+   ]
+  },
+  {
+   "s": "c9s10",
+   "cita": "Siempre portar el cable de viaje en vehículos eléctricos, excepto los eléctricos híbridos sin recarga exterior.",
+   "q": [
+    "u11-28"
+   ]
+  },
+  {
+   "s": "c9s10",
+   "cita": "verifiques la energía disponible de la batería o la autonomía disponible para hacer un plan de carga durante el viaje",
+   "tf": "Antes de cada viaje en un vehículo eléctrico conviene revisar la autonomía y planificar la carga.",
+   "a": true,
+   "e": "Así no te quedarás sin energía durante el trayecto."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "En caso de necesitar un remolque o una grúa, debes asegurarte de seguir el procedimiento acorde a tu modelo de vehículo.",
+   "motivo": "remite a un sitio web externo"
+  }
+ ]
+}

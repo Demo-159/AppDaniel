@@ -1,0 +1,264 @@
+{
+ "capitulo": 10,
+ "titulo": "Anexos: señales verticales, glosario y proceso de licencia",
+ "unidades": [
+  "u7",
+  "u11"
+ ],
+ "paginas": [
+  150,
+  169
+ ],
+ "sesiones": [
+  {
+   "id": "c10s1",
+   "titulo": "Anexo 1: tipos de señales verticales"
+  },
+  {
+   "id": "c10s2",
+   "titulo": "Anexo 2: glosario"
+  },
+  {
+   "id": "c10s3",
+   "titulo": "Anexo 3: proceso de obtención de la licencia"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c10-01",
+   "p": 150,
+   "s": "c10s1",
+   "q": [
+    "u7-20",
+    "u7-48"
+   ],
+   "cita": "Tienen por finalidad notificar a las personas usuarias de las vías las prioridades en el uso de las mismas, así como las prohibiciones, restricciones, obligaciones y autorizaciones existentes. Su transgresión constituye infracción a las normas de tránsito."
+  },
+  {
+   "id": "c10-02",
+   "p": 153,
+   "s": "c10s1",
+   "q": [
+    "u7-21"
+   ],
+   "cita": "Su propósito es advertir a las personas usuarias de la vía la existencia y naturaleza de riesgos y/o situaciones imprevistas presentes en la vía o en sus zonas adyacentes, ya sea en forma permanente o temporal."
+  },
+  {
+   "id": "c10-03",
+   "p": 156,
+   "s": "c10s1",
+   "q": [
+    "u7-49"
+   ],
+   "cita": "Tienen como propósito orientar y guiar a las personas usuarias del sistema vial"
+  },
+  {
+   "id": "c10-04",
+   "p": 160,
+   "s": "c10s1",
+   "q": [
+    "u7-50"
+   ],
+   "cita": "realizan trabajos en la vía y se caracterizan por ser de color naranja. Este color determina la transitoriedad de la señal."
+  },
+  {
+   "id": "c10-05",
+   "p": 162,
+   "s": "c10s2",
+   "q": [
+    "u11-94"
+   ],
+   "cita": "Acera: Parte de una vía destinada al uso de peatones."
+  },
+  {
+   "id": "c10-06",
+   "p": 162,
+   "s": "c10s2",
+   "q": [
+    "u11-95"
+   ],
+   "cita": "Berma: Faja lateral, pavimentada o no, adyacente a la calzada de un camino."
+  },
+  {
+   "id": "c10-07",
+   "p": 162,
+   "s": "c10s2",
+   "q": [
+    "u11-96"
+   ],
+   "cita": "Calzada: Parte de una vía destinada al uso de vehículos y animales."
+  },
+  {
+   "id": "c10-08",
+   "p": 162,
+   "s": "c10s2",
+   "q": [
+    "u11-97"
+   ],
+   "cita": "de una potencia nominal continua máxima de 250 watts, en los que la alimentación es reducida o interrumpida cuando el vehículo alcanza una velocidad máxima de 25 km/h"
+  },
+  {
+   "id": "c10-09",
+   "p": 162,
+   "s": "c10s2",
+   "q": [
+    "u11-98"
+   ],
+   "cita": "Cruce regulado: Cruce en que existe un semáforo funcionando normalmente, excluyendo la intermitencia, o donde está Carabineros dirigiendo el tránsito."
+  },
+  {
+   "id": "c10-10",
+   "p": 163,
+   "s": "c10s2",
+   "q": [
+    "u11-99"
+   ],
+   "cita": "Derecho preferente de paso: Prerrogativa de un peatón o persona conductora de un vehículo para proseguir su marcha."
+  },
+  {
+   "id": "c10-11",
+   "p": 163,
+   "s": "c10s2",
+   "q": [
+    "u11-100"
+   ],
+   "cita": "Estacionar: Paralizar un vehículo en la vía pública con o sin la persona conductora, por un período mayor que el necesario para dejar o recibir pasajeros."
+  },
+  {
+   "id": "c10-12",
+   "p": 163,
+   "s": "c10s2",
+   "q": [
+    "u11-101"
+   ],
+   "cita": "Luz baja: Luz proyectada por los focos delanteros del vehículo en que el borde superior del haz luminoso es paralelo a la calzada y cuya potencia permite visualizar obstáculos a una distancia no inferior a 50 metros."
+  },
+  {
+   "id": "c10-13",
+   "p": 163,
+   "s": "c10s2",
+   "q": [
+    "u11-102"
+   ],
+   "cita": "Luz alta: Luz proyectada por los focos delanteros del vehículo en forma paralela a la calzada, cuya potencia permite visualizar obstáculos a una distancia no inferior a 150 metros."
+  },
+  {
+   "id": "c10-14",
+   "p": 164,
+   "s": "c10s2",
+   "q": [
+    "u11-103"
+   ],
+   "cita": "Sobrepasar: Maniobra mediante la cual un vehículo pasa a otro u otros que circulan en el mismo sentido sin traspasar el eje de la calzada."
+  },
+  {
+   "id": "c10-15",
+   "p": 164,
+   "s": "c10s2",
+   "q": [
+    "u11-104"
+   ],
+   "cita": "La capacidad de carga de estos vehículos no podrá superar los 300 kilogramos de peso."
+  },
+  {
+   "id": "c10-16",
+   "p": 165,
+   "s": "c10s2",
+   "q": [
+    "u11-105"
+   ],
+   "cita": "Vehículo para el transporte escolar: Vehículo motorizado construido para transportar más de siete personas sentadas"
+  },
+  {
+   "id": "c10-17",
+   "p": 165,
+   "s": "c10s2",
+   "q": [
+    "u11-106"
+   ],
+   "cita": "pudiendo estas ser de 40 km/h, 30 km/h o 20 km/h."
+  },
+  {
+   "id": "c10-18",
+   "p": 165,
+   "s": "c10s2",
+   "q": [
+    "u11-107"
+   ],
+   "cita": "Zona urbana: Área geográfica cuyos límites, para los efectos de esta ley, deben estar determinados y señalizados por las Municipalidades."
+  },
+  {
+   "id": "c10-19",
+   "p": 168,
+   "s": "c10s3",
+   "q": [
+    "u11-108"
+   ],
+   "cita": "Recuerda que la Licencia de Conducir debe ser obtenida en la comuna donde resides."
+  },
+  {
+   "id": "c10-20",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-109"
+   ],
+   "cita": "te realizarán exámenes para determinar tu capacidad visual, capacidad auditiva, capacidad de reacción y coordinación; una entrevista médica y los exámenes teóricos y prácticos."
+  },
+  {
+   "id": "c10-21",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-110"
+   ],
+   "cita": "la Municipalidad tiene un plazo de 5 días hábiles para informar al Servicio de Registro Civil e Identificación"
+  },
+  {
+   "id": "c10-22",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-27"
+   ],
+   "cita": "Exámenes teóricos, en un plazo no superior a 25 días hábiles desde la primera reprobación."
+  },
+  {
+   "id": "c10-23",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-111"
+   ],
+   "cita": "una vez que se produzca la primera denegación, deberás esperar 30 días hábiles para poder iniciar un segundo proceso."
+  },
+  {
+   "id": "c10-24",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-112"
+   ],
+   "cita": "deberás esperar 6 meses para iniciar cada nuevo proceso contado desde las respectivas denegaciones a la licencia."
+  },
+  {
+   "id": "c10-25",
+   "p": 169,
+   "s": "c10s3",
+   "q": [
+    "u11-113"
+   ],
+   "cita": "El proceso de obtención de licencia da la opción de tener dos oportunidades por cada examen teórico y práctico."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "A continuación, te presentamos más ejemplos de señales verticales.",
+   "motivo": "catálogo visual de señales (págs. 150–160): sus nombres no se pueden citar de forma confiable desde el texto del PDF; requiere preguntas con la imagen de cada señal"
+  },
+  {
+   "cita": "Referencias Conduciendo en la Montaña, CONASET, Chile.",
+   "motivo": "bibliografía"
+  }
+ ]
+}

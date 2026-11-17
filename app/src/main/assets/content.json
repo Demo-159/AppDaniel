@@ -11065,6 +11065,1091 @@
    "type": "tf",
    "prompt": "El viento lateral fuerte puede provocar la salida del camino o el volcamiento.",
    "answer": true
+  },
+  {
+   "id": "u11-29",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 127,
+   "explain": "Es una actitud y un tipo de conducción para obtener mayor rendimiento energético.",
+   "type": "mc",
+   "prompt": "¿Qué es la Conducción Eficiente?",
+   "options": [
+    "Una forma de conducir con mayor rendimiento energético",
+    "Conducir siempre a la velocidad máxima permitida",
+    "Usar solo vehículos eléctricos en la ciudad",
+    "Conducir solo por autopistas con peaje"
+   ]
+  },
+  {
+   "id": "u11-30",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 127,
+   "explain": "Además, reduce contaminantes como el dióxido de carbono.",
+   "type": "mc",
+   "prompt": "¿Cuáles son los principales beneficios de la Conducción Eficiente?",
+   "options": [
+    "Menor costo del viaje y del mantenimiento",
+    "Mayor velocidad promedio en carretera",
+    "Menos multas por exceso de velocidad",
+    "Mejor sonido del motor del vehículo"
+   ]
+  },
+  {
+   "id": "u11-31",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 127,
+   "explain": "El efecto invernadero es la retención del calor por acumulación de gases.",
+   "type": "tf",
+   "prompt": "La forma de conducir influye en la emisión de dióxido de carbono, causante del efecto invernadero.",
+   "answer": true
+  },
+  {
+   "id": "u11-32",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 128,
+   "explain": "Revisar el mapa y buscar rutas más cortas y menos congestionadas.",
+   "type": "mc",
+   "prompt": "Según el libro, ¿qué es lo primero para una conducción eficiente?",
+   "options": [
+    "Planificar la ruta y salir con tiempo",
+    "Inflar los neumáticos al máximo",
+    "Cargar el estanque solo a la mitad",
+    "Usar siempre el aire acondicionado"
+   ]
+  },
+  {
+   "id": "u11-33",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 128,
+   "explain": "Por ejemplo, reunir varios trámites en un mismo viaje.",
+   "type": "tf",
+   "prompt": "La eficiencia energética es hacer lo mismo, pero gastando menos.",
+   "answer": true
+  },
+  {
+   "id": "u11-34",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 128,
+   "explain": "No manipules el teléfono mientras conduces; programa la ruta antes.",
+   "type": "tf",
+   "prompt": "Mientras conduces puedes seguir el GPS escuchando sus indicaciones por audio.",
+   "answer": true
+  },
+  {
+   "id": "u11-35",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 128,
+   "explain": "Saca objetos pesados que no necesitas.",
+   "type": "tf",
+   "prompt": "Mientras más peso lleve el vehículo, mayor será el consumo de combustible.",
+   "answer": true
+  },
+  {
+   "id": "u11-36",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 129,
+   "explain": "Con menos aire, mover el vehículo exige más trabajo.",
+   "type": "mc",
+   "prompt": "Una reducción de 5 PSI en la presión de los neumáticos puede aumentar el consumo en…",
+   "options": [
+    "Un 3%",
+    "Un 30%",
+    "Un 0,5%",
+    "Un 15%"
+   ]
+  },
+  {
+   "id": "u11-37",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 130,
+   "explain": "La bomba debe hacer más fuerza para llevar el combustible al motor.",
+   "type": "mc",
+   "prompt": "¿Cuánto puede aumentar el consumo un filtro de combustible en mal estado?",
+   "options": [
+    "Un 0,5%",
+    "Un 5%",
+    "Un 20%",
+    "Un 50%"
+   ]
+  },
+  {
+   "id": "u11-38",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 130,
+   "explain": "Sin suficiente aire, el combustible no se aprovecha al 100%.",
+   "type": "mc",
+   "prompt": "¿Cuánto puede perjudicar el rendimiento un filtro de aire sucio?",
+   "options": [
+    "Un 1,5%",
+    "Un 15%",
+    "Un 0,1%",
+    "Un 50%"
+   ]
+  },
+  {
+   "id": "u11-39",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 130,
+   "explain": "También permite conducir seguro, mantener el rendimiento y tener el vehículo disponible.",
+   "type": "tf",
+   "prompt": "Un buen mantenimiento aumenta la vida útil de los componentes del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u11-40",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 131,
+   "explain": "Acelera de manera suave.",
+   "type": "tf",
+   "prompt": "Acelerar a fondo genera un consumo excesivo de combustible.",
+   "answer": true
+  },
+  {
+   "id": "u11-41",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 131,
+   "explain": "En distancias menores a 100 km la ganancia de tiempo es bastante baja.",
+   "type": "mc",
+   "prompt": "A altas velocidades, ¿cuánto se reduce el rendimiento de combustible?",
+   "options": [
+    "Del orden de un 10% y más",
+    "Menos de un 1% en total",
+    "No cambia en absoluto",
+    "Mejora alrededor de un 10%"
+   ]
+  },
+  {
+   "id": "u11-42",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 131,
+   "explain": "En marchas altas el motor trabaja a menores RPM.",
+   "type": "tf",
+   "prompt": "Las marchas más bajas consumen más combustible que las altas.",
+   "answer": true
+  },
+  {
+   "id": "u11-43",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 131,
+   "explain": "Si evitas acelerar a fondo, elige la marcha más alta posible.",
+   "type": "tf",
+   "prompt": "En un auto automático, acelerar a fondo puede hacer que elija marchas más bajas y consuma más.",
+   "answer": true
+  },
+  {
+   "id": "u11-44",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 132,
+   "explain": "Obliga a frenar y acelerar repetidas veces.",
+   "type": "tf",
+   "prompt": "Ir muy cerca del vehículo de adelante aumenta el consumo y el desgaste del vehículo.",
+   "answer": true
+  },
+  {
+   "id": "u11-45",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 132,
+   "explain": "No ganarás nada de tiempo y perderás la oportunidad de ahorrar.",
+   "type": "tf",
+   "prompt": "Frenar a último minuto ahorra tiempo en el viaje.",
+   "answer": false
+  },
+  {
+   "id": "u11-46",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 132,
+   "explain": "Mantener el cambio puesto corta la inyección de combustible.",
+   "type": "mc",
+   "prompt": "Al acercarte a un semáforo en rojo, ¿cómo reduces gastando menos combustible?",
+   "options": [
+    "Con el cambio puesto, sin embrague ni neutro",
+    "En neutro, dejándote llevar",
+    "Pisando el embrague todo el tiempo",
+    "Acelerando y frenando al final"
+   ]
+  },
+  {
+   "id": "u11-47",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 133,
+   "explain": "Los rojos en general duran menos de un minuto.",
+   "type": "tf",
+   "prompt": "Conviene apagar el motor en cada luz roja del semáforo.",
+   "answer": false
+  },
+  {
+   "id": "u11-48",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 133,
+   "explain": "Se pueden obviar algunos consejos de Conducción Eficiente.",
+   "type": "tf",
+   "prompt": "En adelantamientos y emergencias debe primar la seguridad por sobre la economía.",
+   "answer": true
+  },
+  {
+   "id": "u11-49",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 134,
+   "explain": "Los principios de seguridad dan como resultado eficiencia.",
+   "type": "tf",
+   "prompt": "Una conducción segura es la base para una Conducción Eficiente.",
+   "answer": true
+  },
+  {
+   "id": "u11-50",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 134,
+   "explain": "Quien conduce agresivo ignora las técnicas de eficiencia.",
+   "type": "tf",
+   "prompt": "El estrés aumenta el riesgo y también el consumo de combustible.",
+   "answer": true
+  },
+  {
+   "id": "u11-51",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 136,
+   "explain": "Las colisiones y los incendios posteriores son una amenaza.",
+   "type": "tf",
+   "prompt": "Al detenerte a ayudar en un siniestro, debes avisar del peligro con luces de advertencia y reflectantes.",
+   "answer": true
+  },
+  {
+   "id": "u11-52",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 136,
+   "explain": "Nunca los manipules sin capacitación.",
+   "type": "mc",
+   "prompt": "¿Cómo sabes si un vehículo siniestrado es eléctrico o híbrido?",
+   "options": [
+    "Por la calcomanía distintiva en su luneta",
+    "Por el color de toda su carrocería",
+    "Por el ruido que hace su motor",
+    "Por los números de su placa patente"
+   ]
+  },
+  {
+   "id": "u11-53",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 136,
+   "explain": "Para prevenir incendios.",
+   "type": "tf",
+   "prompt": "En un siniestro con vehículos a combustión, debes apagar sus motores y no permitir que nadie fume.",
+   "answer": true
+  },
+  {
+   "id": "u11-54",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 136,
+   "explain": "Mantén la calma y sigue las indicaciones.",
+   "type": "tf",
+   "prompt": "Al llamar a emergencias debes indicar el lugar exacto y la cantidad de vehículos y víctimas.",
+   "answer": true
+  },
+  {
+   "id": "u11-55",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 137,
+   "explain": "Evita moverlos, salvo peligro inminente como incendio, explosión o atropello.",
+   "type": "tf",
+   "prompt": "Debes trasladar de inmediato a los lesionados a otro lugar.",
+   "answer": false
+  },
+  {
+   "id": "u11-56",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 137,
+   "explain": "X: control de hemorragias graves, primero con presión directa y firme.",
+   "type": "mc",
+   "prompt": "Si una hemorragia grave en un brazo no se contiene con presión directa, ¿qué haces?",
+   "options": [
+    "Un torniquete lo más arriba posible",
+    "Le das agua para que se calme",
+    "Le quitas toda la ropa encima",
+    "Esperas sin hacer nada hasta que llegue ayuda"
+   ]
+  },
+  {
+   "id": "u11-57",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 137,
+   "explain": "Una mano en la frente y la otra elevando el mentón.",
+   "type": "mc",
+   "prompt": "¿Qué maniobra se usa para abrir la vía aérea?",
+   "options": [
+    "La maniobra frente-mentón",
+    "La maniobra de Heimlich",
+    "El torniquete",
+    "La posición sentada"
+   ]
+  },
+  {
+   "id": "u11-58",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 137,
+   "explain": "B: buena ventilación.",
+   "type": "mc",
+   "prompt": "Si tienes entrenamiento y la víctima no respira, ¿con qué frecuencia das ventilaciones boca a boca?",
+   "options": [
+    "1 cada 6 segundos",
+    "1 cada 30 segundos",
+    "10 por segundo",
+    "1 cada minuto"
+   ]
+  },
+  {
+   "id": "u11-59",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 138,
+   "explain": "A: alerta; V: voz; D: estímulos dolorosos; I: inconsciente.",
+   "type": "mc",
+   "prompt": "En la etapa D (déficit de conciencia), ¿qué significa la “V”?",
+   "options": [
+    "Responde a la voz",
+    "Vía aérea abierta",
+    "Ventilación boca a boca",
+    "Vendaje de heridas"
+   ]
+  },
+  {
+   "id": "u11-60",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 138,
+   "explain": "E: exposición.",
+   "type": "tf",
+   "prompt": "Sin entrenamiento, no debes quitar la ropa al lesionado; busca abrigo para él.",
+   "answer": true
+  },
+  {
+   "id": "u11-61",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 138,
+   "explain": "No enciendas llamas ni fumes.",
+   "type": "tf",
+   "prompt": "Ante un camión con carga peligrosa siniestrado, conviene anotar el material antes de llamar a emergencias.",
+   "answer": true
+  },
+  {
+   "id": "u11-62",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 139,
+   "explain": "Mantiene el Registro Nacional de Vehículos Motorizados.",
+   "type": "mc",
+   "prompt": "¿Quién otorga las Placas Patentes Únicas?",
+   "options": [
+    "El Servicio de Registro Civil e Identificación",
+    "La Municipalidad donde vive la persona dueña",
+    "Carabineros de Chile en cada comisaría",
+    "El Ministerio de Salud de cada región"
+   ]
+  },
+  {
+   "id": "u11-63",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 139,
+   "explain": "Vigente desde febrero de 2023.",
+   "type": "tf",
+   "prompt": "Por la Ley Patente Cero Días, los vehículos nuevos se entregan con sus placas patentes instaladas.",
+   "answer": true
+  },
+  {
+   "id": "u11-64",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 139,
+   "explain": "Requiere revisión técnica vigente y SOAP.",
+   "type": "mc",
+   "prompt": "¿Qué es el permiso de circulación?",
+   "options": [
+    "Un impuesto anual que se paga a la Municipalidad",
+    "Un seguro contra robos del vehículo particular",
+    "Un examen técnico que revisa frenos y luces",
+    "Un permiso especial para conducir de noche"
+   ]
+  },
+  {
+   "id": "u11-65",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 139,
+   "explain": "Es como el examen médico del vehículo.",
+   "type": "mc",
+   "prompt": "¿Qué revisa la revisión técnica?",
+   "options": [
+    "Dirección, frenos, luces, neumáticos y combustión",
+    "Solo el estado de la pintura y la carrocería",
+    "Solo el kilometraje que marca el odómetro",
+    "Solo los documentos de la persona dueña"
+   ]
+  },
+  {
+   "id": "u11-66",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 140,
+   "explain": "También puede hacerse el mes anterior al señalado.",
+   "type": "mc",
+   "prompt": "La revisión técnica se programa según…",
+   "options": [
+    "El último dígito de la placa patente",
+    "El color del vehículo",
+    "La edad de la persona dueña",
+    "El año de fabricación del auto"
+   ]
+  },
+  {
+   "id": "u11-67",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 140,
+   "explain": "Lo emite el 3CV del Ministerio de Transportes.",
+   "type": "tf",
+   "prompt": "Los vehículos nuevos deben contar con su Certificado de Homologación Individual.",
+   "answer": true
+  },
+  {
+   "id": "u11-68",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 141,
+   "explain": "Permiso provisional de los Tribunales o boleta de citación al Juzgado.",
+   "type": "mc",
+   "prompt": "Si te retuvieron la licencia, ¿qué puedes exhibir en su reemplazo?",
+   "options": [
+    "Un permiso provisional o una boleta de citación",
+    "Una fotocopia simple de la licencia de conducir",
+    "Tu cédula de identidad vigente y al día",
+    "El permiso de circulación del vehículo"
+   ]
+  },
+  {
+   "id": "u11-69",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 141,
+   "explain": "Incluye celulares y cualquier artefacto no incorporado de fábrica.",
+   "type": "tf",
+   "prompt": "La Ley No Chat también se aplica a quienes conducen ciclos.",
+   "answer": true
+  },
+  {
+   "id": "u11-70",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 141,
+   "explain": "Durante el trayecto puede recibir instrucciones por audio.",
+   "type": "tf",
+   "prompt": "La ruta del GPS se debe programar antes de partir, con el vehículo estacionado.",
+   "answer": true
+  },
+  {
+   "id": "u11-71",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 141,
+   "explain": "Es tu deber conducir con toda tu atención.",
+   "type": "mc",
+   "prompt": "Recibes una llamada importante y no tienes manos libres. ¿Qué haces?",
+   "options": [
+    "Te detienes en un lugar seguro y contestas",
+    "Contestas rápido sin soltar el volante",
+    "Contestas solo si vas despacio",
+    "Contestas solo en una luz roja"
+   ]
+  },
+  {
+   "id": "u11-72",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 142,
+   "explain": "Y hasta los 18 debe conducir acompañada.",
+   "type": "mc",
+   "prompt": "¿Qué requisitos tiene una persona de 17 años para obtener la licencia Clase B?",
+   "options": [
+    "Autorización de sus padres y un curso en Escuela de Conductores",
+    "Solo aprobar el examen práctico en la Dirección de Tránsito",
+    "Tener un vehículo inscrito a su propio nombre",
+    "Haber trabajado al menos un año con contrato formal"
+   ]
+  },
+  {
+   "id": "u11-73",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 142,
+   "explain": "Las restricciones deben cumplirse en todo momento.",
+   "type": "tf",
+   "prompt": "Si tu licencia indica el uso de lentes, no puedes conducir sin ellos.",
+   "answer": true
+  },
+  {
+   "id": "u11-74",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 142,
+   "explain": "También por no detenerse ante luz roja o PARE, menores adelante, sin SRI o usando el celular.",
+   "type": "mc",
+   "prompt": "¿Cuánto se suspende la licencia por exceder en más de 20 km/h el límite?",
+   "options": [
+    "Entre 5 y 45 días",
+    "Entre 6 y 12 meses",
+    "Entre 1 y 2 años",
+    "Entre 3 y 6 meses"
+   ]
+  },
+  {
+   "id": "u11-75",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 142,
+   "explain": "Las suspensiones aumentan con reincidencia o si hay lesionados o fallecidos.",
+   "type": "tf",
+   "prompt": "Conducir bajo la influencia de estupefacientes se sanciona con suspensión de la licencia.",
+   "answer": true
+  },
+  {
+   "id": "u11-76",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 143,
+   "explain": "También conducir sin licencia o sin placa patente.",
+   "type": "mc",
+   "prompt": "¿Cuál de estas es una infracción gravísima?",
+   "options": [
+    "Conducir con la placa patente oculta",
+    "Conducir sin revisión técnica vigente",
+    "Virar en U donde está prohibido",
+    "No renovar la licencia a tiempo"
+   ]
+  },
+  {
+   "id": "u11-77",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 143,
+   "explain": "Entre 20 y 60 km/h: gravísima; hasta 10 km/h: menos grave.",
+   "type": "mc",
+   "prompt": "Exceder de 11 a 20 km/h el límite de velocidad es una infracción…",
+   "options": [
+    "Grave",
+    "Gravísima",
+    "Leve",
+    "Menos grave"
+   ]
+  },
+  {
+   "id": "u11-78",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 143,
+   "explain": "Es una de las infracciones graves.",
+   "type": "mc",
+   "prompt": "Conducir sin cinturón o sin que los pasajeros lo usen es una infracción…",
+   "options": [
+    "Grave",
+    "Leve",
+    "Gravísima",
+    "Menos grave"
+   ]
+  },
+  {
+   "id": "u11-79",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 143,
+   "explain": "El resto de las señales son infracción grave.",
+   "type": "tf",
+   "prompt": "No respetar la señal PARE es una infracción gravísima.",
+   "answer": true
+  },
+  {
+   "id": "u11-80",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 144,
+   "explain": "Es una de las infracciones graves.",
+   "type": "mc",
+   "prompt": "No bajar la luz en carretera al cruzarte con otro vehículo es una infracción…",
+   "options": [
+    "Grave",
+    "Leve",
+    "Gravísima",
+    "Menos grave"
+   ]
+  },
+  {
+   "id": "u11-81",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 144,
+   "explain": "Es un ejemplo de infracción menos grave.",
+   "type": "mc",
+   "prompt": "No señalizar antes de virar es una infracción…",
+   "options": [
+    "Menos grave",
+    "Gravísima",
+    "Leve",
+    "Grave"
+   ]
+  },
+  {
+   "id": "u11-82",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 145,
+   "explain": "De 11 a 20: grave; de 20 a 60: gravísima.",
+   "type": "tf",
+   "prompt": "Exceder hasta en 10 km/h el límite de velocidad es una infracción menos grave.",
+   "answer": true
+  },
+  {
+   "id": "u11-83",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 145,
+   "explain": "También usar placas falsas o certificados falsos.",
+   "type": "tf",
+   "prompt": "Conducir con una licencia falsa es un delito que puede ser sancionado con prisión.",
+   "answer": true
+  },
+  {
+   "id": "u11-84",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 145,
+   "explain": "Si las ruedas se bloquean, reduce ligeramente la presión.",
+   "type": "mc",
+   "prompt": "¿Cómo frenas fuerte en un vehículo SIN ABS?",
+   "options": [
+    "Pisando fuerte y reduciendo la fuerza de a poco",
+    "Pisando suave y manteniendo hasta el final",
+    "Usando solo el freno de mano",
+    "Soltando el freno y acelerando"
+   ]
+  },
+  {
+   "id": "u11-85",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 145,
+   "explain": "No debes asustarte al notarlo.",
+   "type": "tf",
+   "prompt": "Cuando el ABS funciona se siente un leve temblor en el pedal del freno.",
+   "answer": true
+  },
+  {
+   "id": "u11-86",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 145,
+   "explain": "Así el motor no se detiene por las bajas revoluciones.",
+   "type": "tf",
+   "prompt": "Al frenar fuerte conviene pisar el embrague antes de detenerte por completo.",
+   "answer": true
+  },
+  {
+   "id": "u11-87",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 146,
+   "explain": "Con cuidado para no bloquear las ruedas.",
+   "type": "tf",
+   "prompt": "Ante una falla de frenos puedes usar el freno de mano de forma suave y progresiva.",
+   "answer": true
+  },
+  {
+   "id": "u11-88",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 146,
+   "explain": "Podría desactivar la dirección asistida.",
+   "type": "tf",
+   "prompt": "Ante una falla total de frenos conviene apagar el motor.",
+   "answer": false
+  },
+  {
+   "id": "u11-89",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 146,
+   "explain": "Ahí podrás detener el vehículo con seguridad.",
+   "type": "mc",
+   "prompt": "Si nada funciona ante una falla total de frenos, ¿qué buscas?",
+   "options": [
+    "Una pista de emergencia",
+    "Una estación de servicio",
+    "Un estacionamiento techado",
+    "Un túnel cercano"
+   ]
+  },
+  {
+   "id": "u11-90",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 147,
+   "explain": "El plomo daña el sistema nervioso; los óxidos irritan mucosas.",
+   "type": "mc",
+   "prompt": "¿Qué contaminante de los vehículos contribuye al efecto invernadero?",
+   "options": [
+    "Dióxido de carbono",
+    "Plomo",
+    "Dióxido de azufre",
+    "Óxidos nítricos"
+   ]
+  },
+  {
+   "id": "u11-91",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 147,
+   "explain": "Es uno de los contaminantes emitidos por vehículos.",
+   "type": "tf",
+   "prompt": "El plomo es un metal pesado que provoca lesiones en el sistema nervioso central.",
+   "answer": true
+  },
+  {
+   "id": "u11-92",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 147,
+   "explain": "También las velocidades altas y las aceleraciones enérgicas.",
+   "type": "tf",
+   "prompt": "Mantener el motor en ralentí provoca emisiones innecesarias.",
+   "answer": true
+  },
+  {
+   "id": "u11-93",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 148,
+   "explain": "Así no te quedarás sin energía durante el trayecto.",
+   "type": "tf",
+   "prompt": "Antes de cada viaje en un vehículo eléctrico conviene revisar la autonomía y planificar la carga.",
+   "answer": true
+  },
+  {
+   "id": "u7-48",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 150,
+   "explain": "Las reglamentarias notifican prioridades, prohibiciones, restricciones, obligaciones y autorizaciones.",
+   "type": "tf",
+   "prompt": "No respetar una señal reglamentaria constituye una infracción a las normas de tránsito.",
+   "answer": true
+  },
+  {
+   "id": "u7-49",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 156,
+   "explain": "De la forma más segura, simple y directa posible.",
+   "type": "tf",
+   "prompt": "Las señales informativas orientan y guían a las personas usuarias hacia sus destinos.",
+   "answer": true
+  },
+  {
+   "id": "u7-50",
+   "unit": "u7",
+   "lesson": 2,
+   "page": 160,
+   "explain": "Solo la primera que advierte los trabajos es amarilla.",
+   "type": "mc",
+   "prompt": "¿Qué determina el color naranja en una señal?",
+   "options": [
+    "Que es una señal transitoria",
+    "Que es una señal informativa",
+    "Que indica un atractivo turístico",
+    "Que regula la velocidad máxima"
+   ]
+  },
+  {
+   "id": "u11-94",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 162,
+   "explain": "La calzada es para vehículos y animales; la berma es la faja lateral de un camino.",
+   "type": "mc",
+   "prompt": "Según el glosario, ¿qué es la acera?",
+   "options": [
+    "La parte de la vía para peatones",
+    "La parte de la vía para vehículos",
+    "La faja lateral de un camino",
+    "El foso lateral de un camino"
+   ]
+  },
+  {
+   "id": "u11-95",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 162,
+   "explain": "Puede ser pavimentada o no.",
+   "type": "mc",
+   "prompt": "Según el glosario, ¿qué es la berma?",
+   "options": [
+    "La faja lateral adyacente a la calzada",
+    "La parte de la vía para peatones",
+    "La línea que divide la calzada",
+    "El espacio para estacionar en ciudad"
+   ]
+  },
+  {
+   "id": "u11-96",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 162,
+   "explain": "La acera es para peatones.",
+   "type": "tf",
+   "prompt": "La calzada es la parte de la vía destinada al uso de vehículos y animales.",
+   "answer": true
+  },
+  {
+   "id": "u11-97",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 162,
+   "explain": "Con un motor de hasta 250 watts; se considera vehículo no motorizado.",
+   "type": "mc",
+   "prompt": "Una bicicleta con motor eléctrico auxiliar se considera ciclo si su asistencia se corta al llegar a…",
+   "options": [
+    "25 km/h",
+    "50 km/h",
+    "10 km/h",
+    "45 km/h"
+   ]
+  },
+  {
+   "id": "u11-98",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 162,
+   "explain": "Cruce regulado: semáforo funcionando normalmente (sin intermitencia) o Carabineros dirigiendo.",
+   "type": "tf",
+   "prompt": "Un cruce con semáforo en luz intermitente se considera cruce regulado.",
+   "answer": false
+  },
+  {
+   "id": "u11-99",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 163,
+   "explain": "Definición del glosario.",
+   "type": "tf",
+   "prompt": "El derecho preferente de paso es la prerrogativa de un peatón o conductor para proseguir su marcha.",
+   "answer": true
+  },
+  {
+   "id": "u11-100",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 163,
+   "explain": "La detención incluye la paralización breve para recibir o dejar pasajeros.",
+   "type": "mc",
+   "prompt": "¿Cuál es la diferencia entre estacionar y detenerse?",
+   "options": [
+    "Estacionar dura más que dejar o recibir pasajeros",
+    "Estacionar solo se hace con el motor encendido",
+    "Detenerse solo es posible en estacionamientos",
+    "No hay ninguna diferencia entre ambos"
+   ]
+  },
+  {
+   "id": "u11-101",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 163,
+   "explain": "Luces altas: no menos de 150 metros.",
+   "type": "mc",
+   "prompt": "Según el glosario, las luces bajas deben permitir ver obstáculos a no menos de…",
+   "options": [
+    "50 metros",
+    "150 metros",
+    "10 metros",
+    "300 metros"
+   ]
+  },
+  {
+   "id": "u11-102",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 163,
+   "explain": "Luces bajas: no menos de 50 metros.",
+   "type": "mc",
+   "prompt": "Según el glosario, las luces altas deben permitir ver obstáculos a no menos de…",
+   "options": [
+    "150 metros",
+    "50 metros",
+    "25 metros",
+    "500 metros"
+   ]
+  },
+  {
+   "id": "u11-103",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 164,
+   "explain": "Adelantar es hacerlo por el costado izquierdo del eje.",
+   "type": "tf",
+   "prompt": "Sobrepasar es pasar a otro vehículo sin traspasar el eje de la calzada.",
+   "answer": true
+  },
+  {
+   "id": "u11-104",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 164,
+   "explain": "Es un vehículo motorizado de tres ruedas solo para carga.",
+   "type": "mc",
+   "prompt": "¿Cuál es la capacidad máxima de carga de un triciclo motorizado de carga?",
+   "options": [
+    "300 kilogramos",
+    "750 kilogramos",
+    "3.500 kilogramos",
+    "100 kilogramos"
+   ]
+  },
+  {
+   "id": "u11-105",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 165,
+   "explain": "Destinado al transporte de escolares.",
+   "type": "tf",
+   "prompt": "Un vehículo de transporte escolar está construido para más de siete personas sentadas.",
+   "answer": true
+  },
+  {
+   "id": "u11-106",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 165,
+   "explain": "Son velocidades inferiores a las establecidas en la ley.",
+   "type": "mc",
+   "prompt": "En una Zona de Tránsito Calmado, ¿qué velocidades máximas pueden establecerse?",
+   "options": [
+    "40, 30 o 20 km/h",
+    "60, 50 o 40 km/h",
+    "10 o 5 km/h",
+    "80 o 60 km/h"
+   ]
+  },
+  {
+   "id": "u11-107",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 165,
+   "explain": "La zona rural es la que excluye las urbanas.",
+   "type": "tf",
+   "prompt": "Los límites de la zona urbana los determinan y señalizan las Municipalidades.",
+   "answer": true
+  },
+  {
+   "id": "u11-108",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 168,
+   "explain": "Consulta en tu Municipalidad horarios y documentos.",
+   "type": "tf",
+   "prompt": "La licencia de conducir se obtiene en la comuna donde resides.",
+   "answer": true
+  },
+  {
+   "id": "u11-109",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 169,
+   "explain": "Además se evalúa la idoneidad moral.",
+   "type": "mc",
+   "prompt": "¿Qué exámenes se rinden en la Municipalidad para obtener la licencia?",
+   "options": [
+    "Visual, auditivo, reacción, médico, teórico y práctico",
+    "Solo el examen teórico y el práctico de manejo",
+    "Solo un examen médico general con un doctor",
+    "Solo un examen de la vista con lentes puestos"
+   ]
+  },
+  {
+   "id": "u11-110",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 169,
+   "explain": "Para incluirla en el Registro de Conductores.",
+   "type": "mc",
+   "prompt": "¿En qué plazo la Municipalidad informa tu licencia al Registro Civil?",
+   "options": [
+    "5 días hábiles",
+    "25 días hábiles",
+    "30 días hábiles",
+    "6 meses"
+   ]
+  },
+  {
+   "id": "u11-111",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 169,
+   "explain": "Si se deniega de nuevo, deberás esperar 6 meses para cada nuevo proceso.",
+   "type": "mc",
+   "prompt": "Tras la primera denegación de la licencia, ¿cuánto debes esperar para un nuevo proceso?",
+   "options": [
+    "30 días hábiles",
+    "5 días hábiles",
+    "6 meses",
+    "1 año"
+   ]
+  },
+  {
+   "id": "u11-112",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 169,
+   "explain": "La primera espera es de 30 días hábiles.",
+   "type": "tf",
+   "prompt": "Después de una segunda denegación, debes esperar 6 meses para cada nuevo proceso.",
+   "answer": true
+  },
+  {
+   "id": "u11-113",
+   "unit": "u11",
+   "lesson": 2,
+   "page": 169,
+   "explain": "Puedes repetir cada examen una sola vez dentro del proceso.",
+   "type": "tf",
+   "prompt": "En cada proceso tienes dos oportunidades para el examen teórico.",
+   "answer": true
   }
  ]
 }

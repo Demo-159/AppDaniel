@@ -1,0 +1,276 @@
+{
+ "capitulo": 8,
+ "titulo": "Conducción eficiente",
+ "unidad": "u11",
+ "unidades": [],
+ "sesiones": [
+  [
+   "c8s1",
+   "Qué es la Conducción Eficiente"
+  ],
+  [
+   "c8s2",
+   "Antes de partir: planificación, carga y aerodinámica"
+  ],
+  [
+   "c8s3",
+   "Neumáticos y mantenimiento"
+  ],
+  [
+   "c8s4",
+   "Durante el trayecto: motor, aceleración y velocidad"
+  ],
+  [
+   "c8s5",
+   "Distancia, frenado y detenciones"
+  ],
+  [
+   "c8s6",
+   "Seguridad y eficiencia"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c8s1",
+   "cita": "Utilizamos el concepto de Conducción Eficiente para referirnos a una actitud y un tipo de conducción que te permitirá obtener un mayor rendimiento energético en tu vehículo.",
+   "mc": "¿Qué es la Conducción Eficiente?",
+   "o": [
+    "Una forma de conducir con mayor rendimiento energético",
+    "Conducir siempre a la velocidad máxima permitida",
+    "Usar solo vehículos eléctricos en la ciudad",
+    "Conducir solo por autopistas con peaje"
+   ],
+   "e": "Es una actitud y un tipo de conducción para obtener mayor rendimiento energético."
+  },
+  {
+   "s": "c8s1",
+   "cita": "aplicar técnicas en Conducción Eficiente permite reducir entre un 10 y un 15% el consumo de combustible.",
+   "q": [
+    "u11-01"
+   ]
+  },
+  {
+   "s": "c8s1",
+   "cita": "Los beneficios de la Conducción Eficiente se manifiestan principalmente en un menor costo del viaje y menor costo en el mantenimiento del vehículo.",
+   "mc": "¿Cuáles son los principales beneficios de la Conducción Eficiente?",
+   "o": [
+    "Menor costo del viaje y del mantenimiento",
+    "Mayor velocidad promedio en carretera",
+    "Menos multas por exceso de velocidad",
+    "Mejor sonido del motor del vehículo"
+   ],
+   "e": "Además, reduce contaminantes como el dióxido de carbono."
+  },
+  {
+   "s": "c8s1",
+   "cita": "el dióxido de carbono, uno de los principales causantes del efecto invernadero",
+   "tf": "La forma de conducir influye en la emisión de dióxido de carbono, causante del efecto invernadero.",
+   "a": true,
+   "e": "El efecto invernadero es la retención del calor por acumulación de gases."
+  },
+  {
+   "s": "c8s2",
+   "cita": "Lo primero que se debes considerar para tener una conducción eficiente es planificar la ruta y salir con tiempo.",
+   "mc": "Según el libro, ¿qué es lo primero para una conducción eficiente?",
+   "o": [
+    "Planificar la ruta y salir con tiempo",
+    "Inflar los neumáticos al máximo",
+    "Cargar el estanque solo a la mitad",
+    "Usar siempre el aire acondicionado"
+   ],
+   "e": "Revisar el mapa y buscar rutas más cortas y menos congestionadas."
+  },
+  {
+   "s": "c8s2",
+   "cita": "La eficiencia energética no es hacer menos, sino hacer lo mismo pero gastando menos.",
+   "tf": "La eficiencia energética es hacer lo mismo, pero gastando menos.",
+   "a": true,
+   "e": "Por ejemplo, reunir varios trámites en un mismo viaje."
+  },
+  {
+   "s": "c8s2",
+   "cita": "Recuerda no manipular tu teléfono mientras estés conduciendo, escucha las indicaciones del GPS a través del audio de cada aplicación.",
+   "tf": "Mientras conduces puedes seguir el GPS escuchando sus indicaciones por audio.",
+   "a": true,
+   "e": "No manipules el teléfono mientras conduces; programa la ruta antes."
+  },
+  {
+   "s": "c8s2",
+   "cita": "Así, mientras mayor peso se tenga en el vehículo, mayor será el consumo de combustible.",
+   "tf": "Mientras más peso lleve el vehículo, mayor será el consumo de combustible.",
+   "a": true,
+   "e": "Saca objetos pesados que no necesitas."
+  },
+  {
+   "s": "c8s2",
+   "cita": "Si tienes un portaequipajes o bulto en el techo, el consumo se puede incrementar por sobre un 20% en carretera",
+   "q": [
+    "u11-02"
+   ]
+  },
+  {
+   "s": "c8s3",
+   "cita": "Es necesario revisar la presión de tus neumáticos regularmente, en la frecuencia descrita por el fabricante en el manual del vehículo, o al menos cada dos semanas.",
+   "q": [
+    "u11-03"
+   ]
+  },
+  {
+   "s": "c8s3",
+   "cita": "Se estima que una reducción en 5 PSI del nivel óptimo de aire en los neumáticos puede incrementar el consumo de combustible en un 3%",
+   "mc": "Una reducción de 5 PSI en la presión de los neumáticos puede aumentar el consumo en…",
+   "o": [
+    "Un 3%",
+    "Un 30%",
+    "Un 0,5%",
+    "Un 15%"
+   ],
+   "e": "Con menos aire, mover el vehículo exige más trabajo."
+  },
+  {
+   "s": "c8s3",
+   "cita": "Un filtro de combustible en mal estado puede incrementar el consumo en un 0,5%",
+   "mc": "¿Cuánto puede aumentar el consumo un filtro de combustible en mal estado?",
+   "o": [
+    "Un 0,5%",
+    "Un 5%",
+    "Un 20%",
+    "Un 50%"
+   ],
+   "e": "La bomba debe hacer más fuerza para llevar el combustible al motor."
+  },
+  {
+   "s": "c8s3",
+   "cita": "Un filtro de aire sucio puede llegar a perjudicar en un 1,5% el rendimiento",
+   "mc": "¿Cuánto puede perjudicar el rendimiento un filtro de aire sucio?",
+   "o": [
+    "Un 1,5%",
+    "Un 15%",
+    "Un 0,1%",
+    "Un 50%"
+   ],
+   "e": "Sin suficiente aire, el combustible no se aprovecha al 100%."
+  },
+  {
+   "s": "c8s3",
+   "cita": "Permite conducir de forma segura. Aumentas la vida útil de sus componentes. Mantienes un buen rendimiento de combustible. Mayor disponibilidad del vehículo.",
+   "tf": "Un buen mantenimiento aumenta la vida útil de los componentes del vehículo.",
+   "a": true,
+   "e": "También permite conducir seguro, mantener el rendimiento y tener el vehículo disponible."
+  },
+  {
+   "s": "c8s4",
+   "cita": "Cuando enciendas el motor, prefiere no pisar el acelerador, pues tal acción sólo provoca un incremento en el consumo.",
+   "q": [
+    "u11-06"
+   ]
+  },
+  {
+   "s": "c8s4",
+   "cita": "Evita acelerar a fondo. Las aceleraciones a fondo generan un consumo excesivo de combustible.",
+   "tf": "Acelerar a fondo genera un consumo excesivo de combustible.",
+   "a": true,
+   "e": "Acelera de manera suave."
+  },
+  {
+   "s": "c8s4",
+   "cita": "se debe tener en cuenta que a altas velocidades el rendimiento de combustible se reduce bastante, del orden de un 10% y más.",
+   "mc": "A altas velocidades, ¿cuánto se reduce el rendimiento de combustible?",
+   "o": [
+    "Del orden de un 10% y más",
+    "Menos de un 1% en total",
+    "No cambia en absoluto",
+    "Mejora alrededor de un 10%"
+   ],
+   "e": "En distancias menores a 100 km la ganancia de tiempo es bastante baja."
+  },
+  {
+   "s": "c8s4",
+   "cita": "prefiere la marcha más alta (en este caso, la 5ª), donde se alcanza el mayor rendimiento.",
+   "q": [
+    "u11-05"
+   ]
+  },
+  {
+   "s": "c8s4",
+   "cita": "Las marchas más bajas tienen mayor consumo de combustible.",
+   "tf": "Las marchas más bajas consumen más combustible que las altas.",
+   "a": true,
+   "e": "En marchas altas el motor trabaja a menores RPM."
+  },
+  {
+   "s": "c8s4",
+   "cita": "si te acostumbras a presionar el acelerador a fondo, el vehículo puede seleccionar marchas más bajas para incrementar la potencia, lo que finalmente aumenta el consumo.",
+   "tf": "En un auto automático, acelerar a fondo puede hacer que elija marchas más bajas y consuma más.",
+   "a": true,
+   "e": "Si evitas acelerar a fondo, elige la marcha más alta posible."
+  },
+  {
+   "s": "c8s5",
+   "cita": "Mantener poca distancia con el vehículo que te precede te obliga a frenar y acelerar repetidas veces, aumentando el consumo de combustible y el desgaste de tu vehículo.",
+   "tf": "Ir muy cerca del vehículo de adelante aumenta el consumo y el desgaste del vehículo.",
+   "a": true,
+   "e": "Obliga a frenar y acelerar repetidas veces."
+  },
+  {
+   "s": "c8s5",
+   "cita": "Si frenas a último minuto, además de exponerte a siniestros, perderás la oportunidad de ahorrar y no ganarás nada de tiempo.",
+   "tf": "Frenar a último minuto ahorra tiempo en el viaje.",
+   "a": false,
+   "e": "No ganarás nada de tiempo y perderás la oportunidad de ahorrar."
+  },
+  {
+   "s": "c8s5",
+   "cita": "El reducir la velocidad manteniendo un cambio puesto corta la inyección de combustible",
+   "mc": "Al acercarte a un semáforo en rojo, ¿cómo reduces gastando menos combustible?",
+   "o": [
+    "Con el cambio puesto, sin embrague ni neutro",
+    "En neutro, dejándote llevar",
+    "Pisando el embrague todo el tiempo",
+    "Acelerando y frenando al final"
+   ],
+   "e": "Mantener el cambio puesto corta la inyección de combustible."
+  },
+  {
+   "s": "c8s5",
+   "cita": "en cualquier detención mayor a un minuto, es más económico apagar el motor y volverlo a encender después.",
+   "q": [
+    "u11-04"
+   ]
+  },
+  {
+   "s": "c8s5",
+   "cita": "Los rojos del semáforo, en general, duran menos de un minuto, así que, en este caso, no conviene apagar el motor.",
+   "tf": "Conviene apagar el motor en cada luz roja del semáforo.",
+   "a": false,
+   "e": "Los rojos en general duran menos de un minuto."
+  },
+  {
+   "s": "c8s6",
+   "cita": "En estas situaciones debe primar la seguridad por sobre la economía",
+   "tf": "En adelantamientos y emergencias debe primar la seguridad por sobre la economía.",
+   "a": true,
+   "e": "Se pueden obviar algunos consejos de Conducción Eficiente."
+  },
+  {
+   "s": "c8s6",
+   "cita": "una conducción segura es la base para una Conducción Eficiente",
+   "tf": "Una conducción segura es la base para una Conducción Eficiente.",
+   "a": true,
+   "e": "Los principios de seguridad dan como resultado eficiencia."
+  },
+  {
+   "s": "c8s6",
+   "cita": "Los estados de frustración y/o estrés convierten a quien conduce en una potencial persona agresiva",
+   "tf": "El estrés aumenta el riesgo y también el consumo de combustible.",
+   "a": true,
+   "e": "Quien conduce agresivo ignora las técnicas de eficiencia."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Si deseas aprender más de la conducción eficiente, ingresa a www.conduccioneficiente.cl",
+   "motivo": "referencia externa"
+  }
+ ]
+}

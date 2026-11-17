@@ -1,0 +1,277 @@
+{
+ "capitulo": 10,
+ "titulo": "Anexos: señales verticales, glosario y proceso de licencia",
+ "unidad": "u11",
+ "unidades": [
+  "u7",
+  "u11"
+ ],
+ "sesiones": [
+  [
+   "c10s1",
+   "Anexo 1: tipos de señales verticales"
+  ],
+  [
+   "c10s2",
+   "Anexo 2: glosario"
+  ],
+  [
+   "c10s3",
+   "Anexo 3: proceso de obtención de la licencia"
+  ]
+ ],
+ "datos": [
+  {
+   "s": "c10s1",
+   "u": "u7",
+   "cita": "Tienen por finalidad notificar a las personas usuarias de las vías las prioridades en el uso de las mismas, así como las prohibiciones, restricciones, obligaciones y autorizaciones existentes. Su transgresión constituye infracción a las normas de tránsito.",
+   "q": [
+    "u7-20"
+   ],
+   "tf": "No respetar una señal reglamentaria constituye una infracción a las normas de tránsito.",
+   "a": true,
+   "e": "Las reglamentarias notifican prioridades, prohibiciones, restricciones, obligaciones y autorizaciones."
+  },
+  {
+   "s": "c10s1",
+   "u": "u7",
+   "cita": "Su propósito es advertir a las personas usuarias de la vía la existencia y naturaleza de riesgos y/o situaciones imprevistas presentes en la vía o en sus zonas adyacentes, ya sea en forma permanente o temporal.",
+   "q": [
+    "u7-21"
+   ]
+  },
+  {
+   "s": "c10s1",
+   "u": "u7",
+   "cita": "Tienen como propósito orientar y guiar a las personas usuarias del sistema vial",
+   "tf": "Las señales informativas orientan y guían a las personas usuarias hacia sus destinos.",
+   "a": true,
+   "e": "De la forma más segura, simple y directa posible."
+  },
+  {
+   "s": "c10s1",
+   "u": "u7",
+   "cita": "realizan trabajos en la vía y se caracterizan por ser de color naranja. Este color determina la transitoriedad de la señal.",
+   "mc": "¿Qué determina el color naranja en una señal?",
+   "o": [
+    "Que es una señal transitoria",
+    "Que es una señal informativa",
+    "Que indica un atractivo turístico",
+    "Que regula la velocidad máxima"
+   ],
+   "e": "Solo la primera que advierte los trabajos es amarilla."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Acera: Parte de una vía destinada al uso de peatones.",
+   "mc": "Según el glosario, ¿qué es la acera?",
+   "o": [
+    "La parte de la vía para peatones",
+    "La parte de la vía para vehículos",
+    "La faja lateral de un camino",
+    "El foso lateral de un camino"
+   ],
+   "e": "La calzada es para vehículos y animales; la berma es la faja lateral de un camino."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Berma: Faja lateral, pavimentada o no, adyacente a la calzada de un camino.",
+   "mc": "Según el glosario, ¿qué es la berma?",
+   "o": [
+    "La faja lateral adyacente a la calzada",
+    "La parte de la vía para peatones",
+    "La línea que divide la calzada",
+    "El espacio para estacionar en ciudad"
+   ],
+   "e": "Puede ser pavimentada o no."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Calzada: Parte de una vía destinada al uso de vehículos y animales.",
+   "tf": "La calzada es la parte de la vía destinada al uso de vehículos y animales.",
+   "a": true,
+   "e": "La acera es para peatones."
+  },
+  {
+   "s": "c10s2",
+   "cita": "de una potencia nominal continua máxima de 250 watts, en los que la alimentación es reducida o interrumpida cuando el vehículo alcanza una velocidad máxima de 25 km/h",
+   "mc": "Una bicicleta con motor eléctrico auxiliar se considera ciclo si su asistencia se corta al llegar a…",
+   "o": [
+    "25 km/h",
+    "50 km/h",
+    "10 km/h",
+    "45 km/h"
+   ],
+   "e": "Con un motor de hasta 250 watts; se considera vehículo no motorizado."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Cruce regulado: Cruce en que existe un semáforo funcionando normalmente, excluyendo la intermitencia, o donde está Carabineros dirigiendo el tránsito.",
+   "tf": "Un cruce con semáforo en luz intermitente se considera cruce regulado.",
+   "a": false,
+   "e": "Cruce regulado: semáforo funcionando normalmente (sin intermitencia) o Carabineros dirigiendo."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Derecho preferente de paso: Prerrogativa de un peatón o persona conductora de un vehículo para proseguir su marcha.",
+   "tf": "El derecho preferente de paso es la prerrogativa de un peatón o conductor para proseguir su marcha.",
+   "a": true,
+   "e": "Definición del glosario."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Estacionar: Paralizar un vehículo en la vía pública con o sin la persona conductora, por un período mayor que el necesario para dejar o recibir pasajeros.",
+   "mc": "¿Cuál es la diferencia entre estacionar y detenerse?",
+   "o": [
+    "Estacionar dura más que dejar o recibir pasajeros",
+    "Estacionar solo se hace con el motor encendido",
+    "Detenerse solo es posible en estacionamientos",
+    "No hay ninguna diferencia entre ambos"
+   ],
+   "e": "La detención incluye la paralización breve para recibir o dejar pasajeros."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Luz baja: Luz proyectada por los focos delanteros del vehículo en que el borde superior del haz luminoso es paralelo a la calzada y cuya potencia permite visualizar obstáculos a una distancia no inferior a 50 metros.",
+   "mc": "Según el glosario, las luces bajas deben permitir ver obstáculos a no menos de…",
+   "o": [
+    "50 metros",
+    "150 metros",
+    "10 metros",
+    "300 metros"
+   ],
+   "e": "Luces altas: no menos de 150 metros."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Luz alta: Luz proyectada por los focos delanteros del vehículo en forma paralela a la calzada, cuya potencia permite visualizar obstáculos a una distancia no inferior a 150 metros.",
+   "mc": "Según el glosario, las luces altas deben permitir ver obstáculos a no menos de…",
+   "o": [
+    "150 metros",
+    "50 metros",
+    "25 metros",
+    "500 metros"
+   ],
+   "e": "Luces bajas: no menos de 50 metros."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Sobrepasar: Maniobra mediante la cual un vehículo pasa a otro u otros que circulan en el mismo sentido sin traspasar el eje de la calzada.",
+   "tf": "Sobrepasar es pasar a otro vehículo sin traspasar el eje de la calzada.",
+   "a": true,
+   "e": "Adelantar es hacerlo por el costado izquierdo del eje."
+  },
+  {
+   "s": "c10s2",
+   "cita": "La capacidad de carga de estos vehículos no podrá superar los 300 kilogramos de peso.",
+   "mc": "¿Cuál es la capacidad máxima de carga de un triciclo motorizado de carga?",
+   "o": [
+    "300 kilogramos",
+    "750 kilogramos",
+    "3.500 kilogramos",
+    "100 kilogramos"
+   ],
+   "e": "Es un vehículo motorizado de tres ruedas solo para carga."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Vehículo para el transporte escolar: Vehículo motorizado construido para transportar más de siete personas sentadas",
+   "tf": "Un vehículo de transporte escolar está construido para más de siete personas sentadas.",
+   "a": true,
+   "e": "Destinado al transporte de escolares."
+  },
+  {
+   "s": "c10s2",
+   "cita": "pudiendo estas ser de 40 km/h, 30 km/h o 20 km/h.",
+   "mc": "En una Zona de Tránsito Calmado, ¿qué velocidades máximas pueden establecerse?",
+   "o": [
+    "40, 30 o 20 km/h",
+    "60, 50 o 40 km/h",
+    "10 o 5 km/h",
+    "80 o 60 km/h"
+   ],
+   "e": "Son velocidades inferiores a las establecidas en la ley."
+  },
+  {
+   "s": "c10s2",
+   "cita": "Zona urbana: Área geográfica cuyos límites, para los efectos de esta ley, deben estar determinados y señalizados por las Municipalidades.",
+   "tf": "Los límites de la zona urbana los determinan y señalizan las Municipalidades.",
+   "a": true,
+   "e": "La zona rural es la que excluye las urbanas."
+  },
+  {
+   "s": "c10s3",
+   "cita": "Recuerda que la Licencia de Conducir debe ser obtenida en la comuna donde resides.",
+   "tf": "La licencia de conducir se obtiene en la comuna donde resides.",
+   "a": true,
+   "e": "Consulta en tu Municipalidad horarios y documentos."
+  },
+  {
+   "s": "c10s3",
+   "cita": "te realizarán exámenes para determinar tu capacidad visual, capacidad auditiva, capacidad de reacción y coordinación; una entrevista médica y los exámenes teóricos y prácticos.",
+   "mc": "¿Qué exámenes se rinden en la Municipalidad para obtener la licencia?",
+   "o": [
+    "Visual, auditivo, reacción, médico, teórico y práctico",
+    "Solo el examen teórico y el práctico de manejo",
+    "Solo un examen médico general con un doctor",
+    "Solo un examen de la vista con lentes puestos"
+   ],
+   "e": "Además se evalúa la idoneidad moral."
+  },
+  {
+   "s": "c10s3",
+   "cita": "la Municipalidad tiene un plazo de 5 días hábiles para informar al Servicio de Registro Civil e Identificación",
+   "mc": "¿En qué plazo la Municipalidad informa tu licencia al Registro Civil?",
+   "o": [
+    "5 días hábiles",
+    "25 días hábiles",
+    "30 días hábiles",
+    "6 meses"
+   ],
+   "e": "Para incluirla en el Registro de Conductores."
+  },
+  {
+   "s": "c10s3",
+   "cita": "Exámenes teóricos, en un plazo no superior a 25 días hábiles desde la primera reprobación.",
+   "q": [
+    "u11-27"
+   ]
+  },
+  {
+   "s": "c10s3",
+   "cita": "una vez que se produzca la primera denegación, deberás esperar 30 días hábiles para poder iniciar un segundo proceso.",
+   "mc": "Tras la primera denegación de la licencia, ¿cuánto debes esperar para un nuevo proceso?",
+   "o": [
+    "30 días hábiles",
+    "5 días hábiles",
+    "6 meses",
+    "1 año"
+   ],
+   "e": "Si se deniega de nuevo, deberás esperar 6 meses para cada nuevo proceso."
+  },
+  {
+   "s": "c10s3",
+   "cita": "deberás esperar 6 meses para iniciar cada nuevo proceso contado desde las respectivas denegaciones a la licencia.",
+   "tf": "Después de una segunda denegación, debes esperar 6 meses para cada nuevo proceso.",
+   "a": true,
+   "e": "La primera espera es de 30 días hábiles."
+  },
+  {
+   "s": "c10s3",
+   "cita": "El proceso de obtención de licencia da la opción de tener dos oportunidades por cada examen teórico y práctico.",
+   "tf": "En cada proceso tienes dos oportunidades para el examen teórico.",
+   "a": true,
+   "e": "Puedes repetir cada examen una sola vez dentro del proceso."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "A continuación, te presentamos más ejemplos de señales verticales.",
+   "motivo": "catálogo visual de señales (págs. 150–160): sus nombres no se pueden citar de forma confiable desde el texto del PDF; requiere preguntas con la imagen de cada señal"
+  },
+  {
+   "cita": "Referencias Conduciendo en la Montaña, CONASET, Chile.",
+   "motivo": "bibliografía"
+  }
+ ]
+}

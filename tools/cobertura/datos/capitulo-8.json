@@ -1,0 +1,295 @@
+{
+ "capitulo": 8,
+ "titulo": "Conducción eficiente",
+ "unidades": [],
+ "paginas": [
+  127,
+  134
+ ],
+ "sesiones": [
+  {
+   "id": "c8s1",
+   "titulo": "Qué es la Conducción Eficiente"
+  },
+  {
+   "id": "c8s2",
+   "titulo": "Antes de partir: planificación, carga y aerodinámica"
+  },
+  {
+   "id": "c8s3",
+   "titulo": "Neumáticos y mantenimiento"
+  },
+  {
+   "id": "c8s4",
+   "titulo": "Durante el trayecto: motor, aceleración y velocidad"
+  },
+  {
+   "id": "c8s5",
+   "titulo": "Distancia, frenado y detenciones"
+  },
+  {
+   "id": "c8s6",
+   "titulo": "Seguridad y eficiencia"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c8-01",
+   "p": 127,
+   "s": "c8s1",
+   "q": [
+    "u11-29"
+   ],
+   "cita": "Utilizamos el concepto de Conducción Eficiente para referirnos a una actitud y un tipo de conducción que te permitirá obtener un mayor rendimiento energético en tu vehículo."
+  },
+  {
+   "id": "c8-02",
+   "p": 127,
+   "s": "c8s1",
+   "q": [
+    "u11-01"
+   ],
+   "cita": "aplicar técnicas en Conducción Eficiente permite reducir entre un 10 y un 15% el consumo de combustible."
+  },
+  {
+   "id": "c8-03",
+   "p": 127,
+   "s": "c8s1",
+   "q": [
+    "u11-30"
+   ],
+   "cita": "Los beneficios de la Conducción Eficiente se manifiestan principalmente en un menor costo del viaje y menor costo en el mantenimiento del vehículo."
+  },
+  {
+   "id": "c8-04",
+   "p": 127,
+   "s": "c8s1",
+   "q": [
+    "u11-31"
+   ],
+   "cita": "el dióxido de carbono, uno de los principales causantes del efecto invernadero"
+  },
+  {
+   "id": "c8-05",
+   "p": 128,
+   "s": "c8s2",
+   "q": [
+    "u11-32"
+   ],
+   "cita": "Lo primero que se debes considerar para tener una conducción eficiente es planificar la ruta y salir con tiempo."
+  },
+  {
+   "id": "c8-06",
+   "p": 128,
+   "s": "c8s2",
+   "q": [
+    "u11-33"
+   ],
+   "cita": "La eficiencia energética no es hacer menos, sino hacer lo mismo pero gastando menos."
+  },
+  {
+   "id": "c8-07",
+   "p": 128,
+   "s": "c8s2",
+   "q": [
+    "u11-34"
+   ],
+   "cita": "Recuerda no manipular tu teléfono mientras estés conduciendo, escucha las indicaciones del GPS a través del audio de cada aplicación."
+  },
+  {
+   "id": "c8-08",
+   "p": 128,
+   "s": "c8s2",
+   "q": [
+    "u11-35"
+   ],
+   "cita": "Así, mientras mayor peso se tenga en el vehículo, mayor será el consumo de combustible."
+  },
+  {
+   "id": "c8-09",
+   "p": 129,
+   "s": "c8s2",
+   "q": [
+    "u11-02"
+   ],
+   "cita": "Si tienes un portaequipajes o bulto en el techo, el consumo se puede incrementar por sobre un 20% en carretera"
+  },
+  {
+   "id": "c8-10",
+   "p": 129,
+   "s": "c8s3",
+   "q": [
+    "u11-03"
+   ],
+   "cita": "Es necesario revisar la presión de tus neumáticos regularmente, en la frecuencia descrita por el fabricante en el manual del vehículo, o al menos cada dos semanas."
+  },
+  {
+   "id": "c8-11",
+   "p": 129,
+   "s": "c8s3",
+   "q": [
+    "u11-36"
+   ],
+   "cita": "Se estima que una reducción en 5 PSI del nivel óptimo de aire en los neumáticos puede incrementar el consumo de combustible en un 3%"
+  },
+  {
+   "id": "c8-12",
+   "p": 130,
+   "s": "c8s3",
+   "q": [
+    "u11-37"
+   ],
+   "cita": "Un filtro de combustible en mal estado puede incrementar el consumo en un 0,5%"
+  },
+  {
+   "id": "c8-13",
+   "p": 130,
+   "s": "c8s3",
+   "q": [
+    "u11-38"
+   ],
+   "cita": "Un filtro de aire sucio puede llegar a perjudicar en un 1,5% el rendimiento"
+  },
+  {
+   "id": "c8-14",
+   "p": 130,
+   "s": "c8s3",
+   "q": [
+    "u11-39"
+   ],
+   "cita": "Permite conducir de forma segura. Aumentas la vida útil de sus componentes. Mantienes un buen rendimiento de combustible. Mayor disponibilidad del vehículo."
+  },
+  {
+   "id": "c8-15",
+   "p": 130,
+   "s": "c8s4",
+   "q": [
+    "u11-06"
+   ],
+   "cita": "Cuando enciendas el motor, prefiere no pisar el acelerador, pues tal acción sólo provoca un incremento en el consumo."
+  },
+  {
+   "id": "c8-16",
+   "p": 131,
+   "s": "c8s4",
+   "q": [
+    "u11-40"
+   ],
+   "cita": "Evita acelerar a fondo. Las aceleraciones a fondo generan un consumo excesivo de combustible."
+  },
+  {
+   "id": "c8-17",
+   "p": 131,
+   "s": "c8s4",
+   "q": [
+    "u11-41"
+   ],
+   "cita": "se debe tener en cuenta que a altas velocidades el rendimiento de combustible se reduce bastante, del orden de un 10% y más."
+  },
+  {
+   "id": "c8-18",
+   "p": 131,
+   "s": "c8s4",
+   "q": [
+    "u11-05"
+   ],
+   "cita": "prefiere la marcha más alta (en este caso, la 5ª), donde se alcanza el mayor rendimiento."
+  },
+  {
+   "id": "c8-19",
+   "p": 131,
+   "s": "c8s4",
+   "q": [
+    "u11-42"
+   ],
+   "cita": "Las marchas más bajas tienen mayor consumo de combustible."
+  },
+  {
+   "id": "c8-20",
+   "p": 131,
+   "s": "c8s4",
+   "q": [
+    "u11-43"
+   ],
+   "cita": "si te acostumbras a presionar el acelerador a fondo, el vehículo puede seleccionar marchas más bajas para incrementar la potencia, lo que finalmente aumenta el consumo."
+  },
+  {
+   "id": "c8-21",
+   "p": 132,
+   "s": "c8s5",
+   "q": [
+    "u11-44"
+   ],
+   "cita": "Mantener poca distancia con el vehículo que te precede te obliga a frenar y acelerar repetidas veces, aumentando el consumo de combustible y el desgaste de tu vehículo."
+  },
+  {
+   "id": "c8-22",
+   "p": 132,
+   "s": "c8s5",
+   "q": [
+    "u11-45"
+   ],
+   "cita": "Si frenas a último minuto, además de exponerte a siniestros, perderás la oportunidad de ahorrar y no ganarás nada de tiempo."
+  },
+  {
+   "id": "c8-23",
+   "p": 132,
+   "s": "c8s5",
+   "q": [
+    "u11-46"
+   ],
+   "cita": "El reducir la velocidad manteniendo un cambio puesto corta la inyección de combustible"
+  },
+  {
+   "id": "c8-24",
+   "p": 133,
+   "s": "c8s5",
+   "q": [
+    "u11-04"
+   ],
+   "cita": "en cualquier detención mayor a un minuto, es más económico apagar el motor y volverlo a encender después."
+  },
+  {
+   "id": "c8-25",
+   "p": 133,
+   "s": "c8s5",
+   "q": [
+    "u11-47"
+   ],
+   "cita": "Los rojos del semáforo, en general, duran menos de un minuto, así que, en este caso, no conviene apagar el motor."
+  },
+  {
+   "id": "c8-26",
+   "p": 133,
+   "s": "c8s6",
+   "q": [
+    "u11-48"
+   ],
+   "cita": "En estas situaciones debe primar la seguridad por sobre la economía"
+  },
+  {
+   "id": "c8-27",
+   "p": 134,
+   "s": "c8s6",
+   "q": [
+    "u11-49"
+   ],
+   "cita": "una conducción segura es la base para una Conducción Eficiente"
+  },
+  {
+   "id": "c8-28",
+   "p": 134,
+   "s": "c8s6",
+   "q": [
+    "u11-50"
+   ],
+   "cita": "Los estados de frustración y/o estrés convierten a quien conduce en una potencial persona agresiva"
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Si deseas aprender más de la conducción eficiente, ingresa a www.conduccioneficiente.cl",
+   "motivo": "referencia externa"
+  }
+ ]
+}
