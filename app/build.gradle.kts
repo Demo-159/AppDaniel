@@ -14,8 +14,8 @@ android {
         applicationId = "com.appdaniel.rutab"
         minSdk = 26
         targetSdk = 35
-        versionCode = 13
-        versionName = "3.1"
+        versionCode = 14
+        versionName = "3.2"
     }
 
     buildTypes {

@@ -243,7 +243,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
   y reemplaza a los otros archivos). Control: similitud verdadera/falsa ≤ 0,6 y ninguna con todas las verdaderas más largas.
   Además, la falsa debe ser un error **creíble** (cifra vecina, procedimiento parecido), nunca algo absurdo
   como "el riesgo es el mismo que sin alcohol" (v3.0).
-- **Volver atrás en el examen (v3.1):** en simulacros y pruebas hay botón "‹ Anterior" (`#qprev`); la respuesta
+- **Volver atrás en el examen (v3.1):** en simulacros y pruebas hay botón de flecha "Anterior", sin texto (`#qprev`); la respuesta
   queda guardada en `R.ans[i]` (`sel`/`picks`) y se puede cambiar. En práctica y repaso no aparece.
 - **Auto del mapa (v2.7):** va sobre el camino, antes de la parada siguiente y girado según la curva (`objY=nx.y-126`, curva bézier de `camino()`). Por eso `GAP=260` y los carteles avanzan 220. El globo dice "EMPEZAR" solo en la primera parada de cada capítulo; en las demás, "CONTINUAR".
 - **Doble puntaje en el simulacro (v2.8):** 3 preguntas de 3 categorías importantes distintas, sorteadas en cada
@@ -260,7 +260,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-3.1.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.2.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
