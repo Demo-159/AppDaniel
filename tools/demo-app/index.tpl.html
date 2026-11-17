@@ -9,6 +9,16 @@ html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;justify-content:center}
 .app{width:100%;max-width:460px;height:100dvh;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .view{display:none;flex-direction:column;flex:1;min-height:0}.view.on{display:flex}
+.tabs{display:flex;border-top:2px solid var(--line);background:var(--bg);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}.tabs[hidden]{display:none}
+.tab{flex:1;background:none;border:0;color:var(--muted);font-family:var(--ui);font-weight:900;font-size:11.5px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 0;border-radius:14px;position:relative;cursor:pointer}
+.tab .i{font-size:23px;line-height:1}.tab.on{color:var(--blue);background:#17303D}
+.tab .badge{position:absolute;top:1px;left:54%;background:var(--orange);color:#fff;border-radius:9px;font-size:10.5px;padding:1px 6px;min-width:18px}.tab .badge[hidden]{display:none}
+.panel{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.panel h3{margin:0;font-size:18px}.panel .muted{font-size:14px;line-height:1.35}
+.cifra{font-size:44px;font-weight:900;color:var(--gold);line-height:1}
+.fila{display:flex;align-items:center;justify-content:space-between;gap:10px;font-weight:800}
+.mini{font-family:var(--ui);font-weight:900;font-size:13px;border:2px solid var(--line);background:none;color:var(--ink);border-radius:10px;padding:6px 10px;cursor:pointer}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stats div{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px}.stats b{display:block;font-size:26px;color:var(--gold)}.stats span{font-size:13px;font-weight:800;color:var(--muted)}
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:2px solid var(--line)}
 .chip{display:flex;align-items:center;gap:6px;font-weight:900;font-size:16px}
 .x{background:none;border:0;color:var(--muted);font-size:24px;cursor:pointer;padding:0 4px;font-family:var(--ui)}
@@ -58,7 +68,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 <!-- MAP -->
 <section class="view on" id="v-map">
- <div class="top"><div class="chip">Ruta B</div><div style="display:flex;gap:14px;align-items:center"><button class="chip pend" id="pend" aria-label="Repasar lo pendiente de hoy"></button><div class="chip" id="racha" style="color:var(--orange)"></div></div></div>
+ <div class="top"><div class="chip">Ruta B</div><div class="chip" id="racha" style="color:var(--orange)"></div></div>
  <div class="scroll" id="scroll"><svg id="map" xmlns="http://www.w3.org/2000/svg"></svg></div>
  <div class="pop" id="pop"><div class="head"><div class="ic" id="pi"></div><div><b id="pt"></b><span id="ps"></span></div></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
 </section>
@@ -79,12 +89,25 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 <!-- INTRO / RESULT screens -->
 <section class="view" id="v-info"><div class="qwrap" id="ibody"></div><div class="foot" id="ifoot"></div></section>
+
+<!-- PESTAÑAS -->
+<section class="view" id="v-repaso"><div class="top"><div class="chip">⛽ Repaso</div></div><div class="qwrap" id="rbody"></div></section>
+<section class="view" id="v-examen"><div class="top"><div class="chip">🏆 Examen</div></div><div class="qwrap" id="ebody"></div></section>
+<section class="view" id="v-progreso"><div class="top"><div class="chip">📊 Progreso</div></div><div class="qwrap" id="gbody"></div></section>
+
+<nav class="tabs" id="tabs" aria-label="Secciones">
+ <button class="tab on" data-t="map"><span class="i">🛣️</span>Ruta</button>
+ <button class="tab" data-t="repaso"><span class="i">⛽</span>Repaso<span class="badge" id="tbadge" hidden></span></button>
+ <button class="tab" data-t="examen"><span class="i">🏆</span>Examen</button>
+ <button class="tab" data-t="progreso"><span class="i">📊</span>Progreso</button>
+</nav>
 </div>
 
 <script>
 const BANK=__BANK__;
 const $=id=>document.getElementById(id);
-const show=v=>document.querySelectorAll('.view').forEach(s=>s.classList.toggle('on',s.id==='v-'+v));
+const TABS=['map','repaso','examen','progreso'];let TAB='map';
+const show=v=>{document.querySelectorAll('.view').forEach(s=>s.classList.toggle('on',s.id==='v-'+v));document.getElementById('tabs').hidden=!TABS.includes(v);document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.t===v))};
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 
 /* ---------- PROGRESO (en el teléfono) ---------- */
@@ -152,14 +175,16 @@ function dibujarMapa(){armarParadas();svg.innerHTML='';let y=70;const pts=[];
   <rect x="-13" y="25" width="7" height="4" rx="2" fill="#FFE27A"/><rect x="6" y="25" width="7" height="4" rx="2" fill="#FFE27A"/>`}
  return nx}
 function irAlSiguiente(nx){requestAnimationFrame(()=>{const sc=$('scroll');if(nx)sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2})}
-function chips(){const n=pendientes().length,b=$('pend');b.textContent='⛽ '+n;b.classList.toggle('cero',!n);b.title=n?n+' por repasar hoy':'Nada pendiente hoy'}
-function verMapa(){const nx=dibujarMapa();chips();show('map');irAlSiguiente(nx)}
+function chips(){} // el contador de pendientes va en el globito de la pestaña Repaso
+function verMapa(){TAB='map';const nx=dibujarMapa();chips();show('map');irAlSiguiente(nx)}
+// vuelve a la pestaña desde la que se empezó (al terminar o salir de una práctica, prueba o simulacro)
+function volver(){irTab(TAB)}
 const preguntasDe=sid=>BANK.Q.filter(q=>q.s===sid);
 const poolEstudiado=cap=>BANK.Q.filter(q=>estudiada(q.s)&&(!cap||capDe(q.s)===cap));
 const capDe=sid=>{for(const c of BANK.C)if(c.ses.some(x=>x.id===sid))return c.n};
 const etDe=n=>BANK.C.find(c=>c.n===n).et;
 function aviso(t){show('info');$('ibody').innerHTML=`<div class="center"><div class="big">📖</div><div class="muted" style="font-size:16px">${t}</div></div>`;
- $('ifoot').innerHTML='<button class="btn g" id="back">Volver al mapa</button>';$('back').onclick=verMapa}
+ $('ifoot').innerHTML='<button class="btn g" id="back">Volver</button>';$('back').onclick=volver}
 function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.background=COL[p.s][0];$('pt').textContent=p.n;
  const leer=()=>lectura(p),prac=()=>practiceSession(p),tut=()=>{location.href=p.sid+'.html'};
  const base=p.tutor?['Sesión con tutor · '+p.m+' min','Sesión con tutor','',tut,'Practicar',prac]:['Lee lo que dice el libro y luego practica','Leer','',leer,'Practicar',prac];
@@ -167,7 +192,7 @@ function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.backgrou
   ses:base,lec:base,next:base,
   review:[(pendientes(p.cap).length?pendientes(p.cap).length+' por repasar hoy · ':'')+'lo fallado y lo que está por olvidarse','Cargar combustible','o',()=>repaso(p.cap)],
   test:['10 preguntas de lo que estudiaste en el capítulo','Hacer la prueba','y',()=>prueba(p)],
-  exam:['35 preguntas · 38 puntos · aprueba con 33','Ver simulacro','',()=>examIntro()]}[p.s];
+  exam:['35 preguntas · 38 puntos · aprueba con 33','Ver simulacros','',()=>irTab('examen')]}[p.s];
  $('ps').textContent=m[0];const b=$('pb');b.textContent=m[1];b.className='btn '+m[2];P.classList.add('on');
  b.onclick=()=>{P.classList.remove('on');m[3]&&m[3]()}
  const b2=$('pb2');b2.hidden=!m[4];if(m[4]){b2.textContent=m[4];b2.onclick=()=>{P.classList.remove('on');m[5]()}}}
@@ -197,19 +222,20 @@ function repaso(cap){const pend=pendientes(cap),pool=poolEstudiado(cap);
  // primero lo pendiente de hoy (hasta 10); si no hay nada pendiente, unas preguntas ya estudiadas para no oxidarse
  const qs=pend.length?pend.slice(0,10):shuffle(pool).slice(0,5);
  RUN={mode:'practice',repaso:1,tag:'<span class="tag" style="color:var(--orange)">⛽ REPASO'+(cap?' · '+etDe(cap).toUpperCase():'')+'</span>',fin:['⛽','¡Tanque lleno!'],qs,i:0,ans:[],extra:pend.length?'':'No tenías nada pendiente hoy: repasaste preguntas ya estudiadas.'};$('qtime').textContent='';renderQ()}
-$('pend').onclick=()=>repaso();
 // práctica de una parada: solo preguntas de lo que esa parada terminó de enseñar
 function practiceSession(p){const qs=shuffle(preguntasDe(p.sid)).slice(0,8);
  if(!qs.length){PR.hechas[p.sid]=1;estudiado();return aviso('Esta parada no tiene preguntas de práctica todavía. Quedó marcada como hecha.')}
  RUN={mode:'practice',sid:p.sid,tag:'<span class="tag" style="color:var(--blue)">✏️ PRÁCTICA · '+p.n.toUpperCase()+'</span>',fin:['✏️','¡Práctica completa!'],qs,i:0,ans:[]};$('qtime').textContent='';renderQ()}
 function prueba(p){const pool=poolEstudiado(p.cap);if(pool.length<5)return aviso('Para la prueba del '+etDe(p.cap).toLowerCase()+' necesitas estudiar más paradas de ese capítulo.');
  exam({qs:pick(10,pool),dbl:0,mins:0,pass:.8,title:p.n})}
-function examIntro(){const pool=poolEstudiado();show('info');const ok=pool.length>=35;
- $('ibody').innerHTML=`<div class="center"><div class="big">🏆</div><div class="q">Simulacro del examen</div><div class="muted">Igual que el examen teórico clase B</div>
+// Simulacro con el formato del examen real: 35 preguntas, 3 de doble puntaje (38 puntos), aprueba con 33, 45 min.
+// "todo": sale de las 896 preguntas del libro, aunque no se hayan estudiado. "estudiado": solo de paradas estudiadas.
+function examIntro(modo='todo'){const pool=modo==='todo'?BANK.Q:poolEstudiado();show('info');const ok=pool.length>=35;
+ $('ibody').innerHTML=`<div class="center"><div class="big">🏆</div><div class="q">${modo==='todo'?'Simulacro completo':'Simulacro de lo estudiado'}</div><div class="muted">Igual que el examen teórico clase B</div>
  <div class="facts"><div><b>35</b><span>preguntas</span></div><div><b>38</b><span>puntos (3 valen doble)</span></div><div><b>33</b><span>puntos para aprobar</span></div><div><b>45:00</b><span>minutos</span></div></div>
- <div class="muted" style="font-size:13px">${ok?'Pregunta solo lo que ya estudiaste ('+pool.length+' preguntas disponibles), repartido entre los capítulos.':'Necesitas al menos 35 preguntas de paradas estudiadas; llevas '+pool.length+'. Estudia más paradas para habilitarlo.'} No verás si acertaste hasta el final. Las preguntas son de la app, basadas en el libro; el banco oficial no es público.</div></div>`;
- $('ifoot').innerHTML=(ok?'<button class="btn" id="go">Comenzar</button>':'')+'<button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" id="back">Volver al mapa</button>';
- if(ok)$('go').onclick=()=>exam({qs:pick(35,pool),dbl:3,mins:45,passPts:33,title:'Simulacro del examen'});$('back').onclick=verMapa}
+ <div class="muted" style="font-size:13px">${modo==='todo'?'Las preguntas salen al azar de las '+pool.length+' del libro, repartidas entre todos los capítulos: puede incluir temas que aún no estudias.':ok?'Pregunta solo lo que ya estudiaste ('+pool.length+' preguntas disponibles).':'Necesitas al menos 35 preguntas de paradas estudiadas; llevas '+pool.length+'.'} No verás si acertaste hasta el final. Las preguntas son de la app, basadas en el libro; el banco oficial no es público.</div></div>`;
+ $('ifoot').innerHTML=(ok?'<button class="btn" id="go">Comenzar</button>':'')+'<button class="btn" style="background:none;box-shadow:none;border:2px solid var(--line);color:var(--muted)" id="back">Volver</button>';
+ if(ok)$('go').onclick=()=>exam({qs:pick(35,pool),dbl:3,mins:45,passPts:33,title:modo==='todo'?'Simulacro completo':'Simulacro de lo estudiado',modo});$('back').onclick=volver}
 function exam(o){const qs=o.qs;const dbl=new Set(shuffle([...qs.keys()]).slice(0,o.dbl));
  RUN={mode:'exam',o,qs,dbl,i:0,ans:[]};
  clearInterval(TICK);$('qtime').textContent='';
@@ -234,7 +260,7 @@ function next(){RUN.i++;if(RUN.i<RUN.qs.length)renderQ();else finish()}
 function finish(){clearInterval(TICK);const R=RUN;show('info');
  if(R.mode==='practice'){const P=R.primera||{},tot=Object.keys(P).length,c=Object.values(P).filter(Boolean).length,rep=R.qs.length-tot;
   if(R.sid){PR.hechas[R.sid]=1}estudiado();sfx('fin');const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${tot} correctas a la primera</div>${tot-c?`<div class="muted" style="margin-top:6px">${tot-c==1?'Repetiste 1 pregunta hasta acertarla; volverá en tu repaso de hoy.':'Repetiste '+(tot-c)+' preguntas hasta acertarlas; volverán en tu repaso de hoy.'}</div>`:''}${R.extra?`<div class="muted" style="margin-top:6px">${R.extra}</div>`:''}</div>`;
-  $('ifoot').innerHTML='<button class="btn g" id="back">Volver al mapa</button>';$('back').onclick=verMapa;return}
+  $('ifoot').innerHTML='<button class="btn g" id="back">Volver</button>';$('back').onclick=volver;return}
  let pts=0,max=0;const per={};
  R.qs.forEach((q,i)=>{const v=R.dbl.has(i)?2:1;max+=v;const ok=R.ans[i]&&R.ans[i].ok;if(ok)pts+=v;const ch=etDe(capDe(q.s));(per[ch]=per[ch]||[0,0]);per[ch][1]++;if(ok)per[ch][0]++});
  const pass=R.o.passPts?pts>=R.o.passPts:pts/max>=R.o.pass;
@@ -244,13 +270,38 @@ function finish(){clearInterval(TICK);const R=RUN;show('info');
   <div class="q">${pass?'Aprobado':'Reprobado'}</div><div class="muted">${R.o.passPts?'Necesitas '+R.o.passPts+' puntos para aprobar':'Necesitas el 80% para aprobar'}</div>
   <div style="width:100%;margin-top:14px">${Object.entries(per).sort().map(([ch,[a,n]])=>`<div class="chbar"><span>${ch}</span><div class="bar"><i style="width:${a/n*100}%;background:${a/n>=.87?'var(--green)':a/n>=.6?'var(--gold)':'var(--red)'}"></i></div><b>${a}/${n}</b></div>`).join('')}</div>
   ${miss.length?`<div style="width:100%;text-align:left;margin-top:16px;font-weight:900">Revisa lo que fallaste</div>`+miss.map(([q,i])=>`<div class="miss"><b>${q.q}</b><span class="ok">✓ ${q.o[0]}</span><br><small>${q.e}${q.p?' · Libro, pág. '+q.p:''}</small></div>`).join(''):''}</div>`;
- R.qs.forEach((q,i)=>{if(R.ans[i])registrar(q,R.ans[i].ok)});guardar();
- $('ifoot').innerHTML=(miss.length?'<div class="muted" style="text-align:center;margin-bottom:4px">⛽ Lo que fallaste quedó en tu repaso de hoy</div>':'')+'<button class="btn g" id="back">Volver al mapa</button>';
- estudiado();$('back').onclick=verMapa}
-$('qx').onclick=()=>{clearInterval(TICK);verMapa()};
+ R.qs.forEach((q,i)=>{if(R.ans[i])registrar(q,R.ans[i].ok)});if(R.o.modo){(PR.examenes=PR.examenes||[]).push({f:hoy(),p:pts,m:max,ok:pass,modo:R.o.modo});PR.examenes=PR.examenes.slice(-30)}guardar();
+ $('ifoot').innerHTML=(miss.length?'<div class="muted" style="text-align:center;margin-bottom:4px">⛽ Lo que fallaste quedó en tu repaso de hoy</div>':'')+'<button class="btn g" id="back">Volver</button>';
+ estudiado();$('back').onclick=volver}
+$('qx').onclick=()=>{clearInterval(TICK);volver()};
 // Botón atrás de Android (lo llama la app): true si cerró algo dentro de la página
-window.atras=()=>{if($('pop').classList.contains('on')){$('pop').classList.remove('on');return true}if(!$('v-map').classList.contains('on')){clearInterval(TICK);verMapa();return true}return false};
+window.atras=()=>{if($('pop').classList.contains('on')){$('pop').classList.remove('on');return true}if(!TABS.some(t=>$('v-'+t).classList.contains('on'))){clearInterval(TICK);volver();return true}if(!$('v-map').classList.contains('on')){verMapa();return true}return false};
 // al terminar una sesión con tutor se vuelve con #practica=<id>
+/* ---------- PESTAÑAS: Repaso, Examen, Progreso ---------- */
+function irTab(t){TAB=t;chips();if(t==='map')return verMapa();({repaso:pintarRepaso,examen:pintarExamen,progreso:pintarProgreso})[t]();show(t);document.querySelector('#v-'+t+' .qwrap').scrollTop=0}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>irTab(b.dataset.t));
+const chipsMapa=chips;chips=function(){chipsMapa();const n=pendientes().length,bd=$('tbadge');bd.hidden=!n;bd.textContent=n>99?'99+':n};
+function pintarRepaso(){const n=pendientes().length,cap=BANK.C.map(c=>[c,pendientes(c.n).length]).filter(([,k])=>k);
+ const prox=Object.values(PR.srs).filter(r=>r.d>hoy()).map(r=>r.d).sort()[0];
+ $('rbody').innerHTML=`<div class="panel"><div class="cifra">${n}</div><h3>${n==1?'pregunta por repasar hoy':'preguntas por repasar hoy'}</h3>
+  <div class="muted">${n?'Primero lo que fallaste y después lo que está por olvidarse.':prox?'Nada pendiente hoy. Lo próximo vuelve el '+prox.split('-').reverse().join('/')+'.':'Cuando practiques, aquí aparecerá lo que debes reforzar.'}</div>
+  <button class="btn ${n?'o':''}" id="rgo">${n?'Repasar ahora':'Repaso libre de lo estudiado'}</button></div>
+  ${cap.length?`<div class="panel"><h3>Por capítulo</h3>${cap.map(([c,k])=>`<div class="fila"><span>${c.et} · ${c.t.length>26?c.t.slice(0,25)+'…':c.t}</span><button class="mini" data-c="${c.n}">⛽ ${k}</button></div>`).join('')}</div>`:''}
+  <div class="panel"><h3>Cómo funciona</h3><div class="muted">Si fallas, la pregunta vuelve al final de la ronda y queda para el repaso de hoy. Cada vez que aciertas, vuelve más tarde: en 1, 3, 7, 14 y 30 días. Si la fallas, vuelve a empezar.</div></div>`;
+ $('rgo').onclick=()=>repaso();$('rbody').querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>repaso(+b.dataset.c))}
+function pintarExamen(){const est=poolEstudiado().length,H=(PR.examenes||[]).slice(-5).reverse();
+ $('ebody').innerHTML=`<div class="panel"><h3>🏆 Simulacro completo</h3><div class="muted">Como el examen real: 35 preguntas al azar de las ${BANK.Q.length} del libro, 3 de doble puntaje, 45 minutos. Aprueba con 33 de 38 puntos. Puede incluir temas que aún no estudias.</div><button class="btn" id="eall">Hacer simulacro completo</button></div>
+  <div class="panel"><h3>📘 Simulacro de lo estudiado</h3><div class="muted">El mismo formato, pero solo con lo que ya estudiaste (${est} preguntas disponibles${est<35?'; necesitas 35':''}).</div><button class="btn g" id="eest" ${est<35?'disabled':''}>Hacer simulacro de lo estudiado</button></div>
+  ${H.length?`<div class="panel"><h3>Tus últimos resultados</h3>${H.map(e=>`<div class="fila"><span>${e.f.split('-').reverse().join('/')} · ${e.modo==='todo'?'completo':'estudiado'}</span><b style="color:${e.ok?'var(--green)':'var(--red)'}">${e.p}/${e.m} ${e.ok?'Aprobado':'Reprobado'}</b></div>`).join('')}</div>`:''}`;
+ $('eall').onclick=()=>examIntro('todo');$('eest').onclick=()=>examIntro('estudiado')}
+function pintarProgreso(){const tot=BANK.C.reduce((a,c)=>a+c.ses.length,0),hechas=Object.keys(PR.hechas).length,S=Object.values(PR.srs),dom=S.filter(r=>r.b>=4).length;
+ const ap=(PR.examenes||[]).filter(e=>e.ok).length;
+ $('gbody').innerHTML=`<div class="stats"><div><b>${$('racha').textContent.replace('🔥 ','')}</b><span>🔥 días de racha</span></div><div><b>${hechas}/${tot}</b><span>paradas hechas</span></div>
+  <div><b>${S.length}</b><span>preguntas respondidas de ${BANK.Q.length}</span></div><div><b>${dom}</b><span>preguntas dominadas (aciertos repetidos)</span></div>
+  <div><b>${pendientes().length}</b><span>por repasar hoy</span></div><div><b>${ap}/${(PR.examenes||[]).length}</b><span>simulacros aprobados</span></div></div>
+  <div class="panel"><h3>Avance por capítulo</h3>${BANK.C.map(c=>{const h=c.ses.filter(x=>PR.hechas[x.id]).length;return `<div class="chbar"><span>${c.et}</span><div class="bar"><i style="width:${h/c.ses.length*100}%;background:${h==c.ses.length?'var(--green)':'var(--blue)'}"></i></div><b>${h}/${c.ses.length}</b></div>`}).join('')}</div>
+  <button class="mini" id="reset" style="align-self:center;color:var(--muted)">Borrar mi progreso</button>`;
+ $('reset').onclick=()=>{if(confirm('¿Borrar todo tu progreso? No se puede deshacer.')){try{localStorage.removeItem(PK)}catch(e){}location.reload()}}}
 migrar();racha();verMapa();
 (()=>{const m=location.hash.match(/practica=(\w+)/);if(!m)return;history.replaceState(null,'',location.pathname);const p=STOPS.find(s=>s.sid===m[1]);if(p){PR.leidas[p.sid]=1;guardar();practiceSession(p)}})();
 </script></body></html>
