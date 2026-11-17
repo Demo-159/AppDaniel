@@ -125,6 +125,8 @@ def build(sid, check):
     S = {"id": sid, "titulo": spec["titulo"], "icono": spec.get("icono"), "minutos": spec.get("minutos", 3),
          "pasos": pasos, "audio": aud, "textos": txt, "imagenes": imgs}
     html = open(os.path.join(HERE, "engine.html"), encoding="utf-8").read()
+    esc = "\n".join(open(f, encoding="utf-8").read() for f in sorted(glob.glob(os.path.join(HERE, "escenas", "*.js"))))
+    html = html.replace("/*ESCENAS*/", esc, 1)
     html = html.replace("<script>\nconst S=window.SESSION", "<script>window.SESSION=" + json.dumps(S, ensure_ascii=False) + ";</script>\n<script>\nconst S=window.SESSION", 1)
     os.makedirs(DIST, exist_ok=True)
     open(os.path.join(DIST, sid + ".html"), "w", encoding="utf-8").write(html)

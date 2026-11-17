@@ -11,61 +11,39 @@
     "icono": "🎲",
     "texto": "¿Accidente o siniestro?"
    },
-   "fondo": "ciudad"
+   "fondo": "liso"
   },
   {
    "voz": "El libro define accidente como un suceso eventual del que involuntariamente resulta un daño: algo casual e impredecible.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🎲",
-    "titulo": "Accidente",
-    "texto": "Suceso eventual, casual e impredecible"
+    "tipo": "anim",
+    "id": "c1-dado"
    },
    "dato": "c1-01"
   },
   {
    "voz": "Pero si los siniestros fueran casuales, ¿por qué aumentan cuando llueve, de noche y cuando las personas han bebido alcohol?",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "🌧️",
-      "titulo": "Lluvia"
-     },
-     {
-      "icono": "🌙",
-      "titulo": "Noche"
-     },
-     {
-      "icono": "🍺",
-      "titulo": "Alcohol"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-aumentan"
    },
-   "dato": "c1-03",
-   "fondo": "lluvia"
+   "dato": "c1-03"
   },
   {
    "voz": "Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🔍",
-    "titulo": "Tienen poco de azarosos",
-    "texto": "Se conocen sus causas"
+    "tipo": "anim",
+    "id": "c1-poco-azar"
    },
-   "dato": "c1-48",
-   "fondo": "noche"
+   "dato": "c1-48"
   },
   {
    "voz": "Si un siniestro fuera un suceso eventual, la probabilidad de sufrirlo dependería solo del tiempo que pasamos al volante. Pero no es así.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "⏳",
-    "titulo": "No depende solo del tiempo al volante",
-    "texto": "Si fuera casual, sí dependería solo de eso"
+    "tipo": "anim",
+    "id": "c1-tiempo"
    },
-   "dato": "c1-05",
-   "fondo": "ciudad"
+   "dato": "c1-05"
   },
   {
    "voz": "¿Qué muestra que los siniestros no son casuales?",
@@ -83,64 +61,41 @@
   {
    "voz": "Por eso se cambió el concepto por siniestros: para relevar sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🔄",
-    "titulo": "Siniestro",
-    "texto": "Destaca sus efectos y nuestra responsabilidad"
+    "tipo": "anim",
+    "id": "c1-siniestro"
    },
-   "dato": "c1-02",
-   "fondo": "cruce"
+   "dato": "c1-02"
   },
   {
    "voz": "La mayoría de las muertes producidas por los siniestros de tránsito podría haberse evitado.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "✅",
-    "titulo": "La mayoría de las muertes se podía evitar"
+    "tipo": "anim",
+    "id": "c1-evitable"
    },
-   "dato": "c1-04",
-   "fondo": "hospital"
+   "dato": "c1-04"
   },
   {
    "voz": "Para reducir la posibilidad de sufrir un siniestro, debes evitar los factores de riesgo, que el libro detalla capítulo a capítulo.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "⚠️",
-    "titulo": "Evita los factores de riesgo"
+    "tipo": "anim",
+    "id": "c1-riesgos"
    },
-   "dato": "c1-49",
-   "fondo": "carretera"
+   "dato": "c1-49"
   },
   {
-   "voz": "Además, conducir implica responsabilidad colectiva: si alguien conduce ebrio o sin cinturón y sufre un siniestro, nos afecta a todas y todos.",
+   "voz": "Además, conducir implica responsabilidad colectiva. ¿Es una decisión personal conducir ebrio o sin cinturón? No: si esa persona sufre un siniestro, nos afecta a todas y todos, porque pagamos, directa o indirectamente, su decisión.",
    "escena": {
-    "tipo": "vs",
-    "items": [
-     {
-      "icono": "🍺",
-      "titulo": "¿Decisión personal?",
-      "texto": null,
-      "marca": "no"
-     },
-     {
-      "icono": "👥",
-      "titulo": "Nos afecta a todos",
-      "texto": null,
-      "marca": "si"
-     }
-    ]
+    "tipo": "anim",
+    "id": "c1-colectiva"
    },
-   "dato": "c1-06",
-   "fondo": "noche"
+   "dato": "c1-06"
   },
   {
    "voz": "En resumen: los siniestros no son mala suerte. Tienen causas, y la mayoría se puede evitar.",
    "escena": {
-    "tipo": "tarjeta",
-    "icono": "🧠",
-    "titulo": "Siniestro: tiene causas y se puede evitar"
-   },
-   "fondo": "ciudad"
+    "tipo": "anim",
+    "id": "c1-resumen"
+   }
   }
  ]
 }
