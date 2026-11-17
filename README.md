@@ -6,7 +6,7 @@ App Android nativa (Kotlin + Jetpack Compose) para preparar el **examen teórico
 
 ## Instalar
 
-1. Descarga [`release/RutaB-3.2.apk`](release/RutaB-3.2.apk) en tu teléfono Android (8.0 o superior).
+1. Descarga [`release/RutaB-3.3.apk`](release/RutaB-3.3.apk) en tu teléfono Android (8.0 o superior).
 2. Ábrelo y permite "Instalar apps desconocidas" si te lo pide.
 
 > El APK está firmado con una clave de depuración para poder instalarlo directamente. Para publicarlo en Google Play hay que firmarlo con una clave propia.
