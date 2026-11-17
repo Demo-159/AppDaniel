@@ -1,41 +1,45 @@
 #!/usr/bin/env python3
-"""Demo web de la app completa (diseño aprobado por el usuario: mapa-camino, sesión con tutor,
-práctica, repaso ⛽, prueba de capítulo 🏁 y simulacro 🏆 de 35 preguntas / 38 puntos / aprueba con 33 / 45 min).
+"""Página principal de la app (diseño aprobado): mapa-camino con los 12 capítulos del libro, sesiones con tutor
+(donde existen) o lectura de las citas del libro, práctica, repaso ⛽, prueba de capítulo 🏁 y simulacro 🏆
+(35 preguntas / 38 puntos / aprueba con 33 / 45 min). Progreso en el teléfono (localStorage).
 
-Genera dist/index.html desde index.tpl.html + content.json (preguntas mc, img y multi).
-Las imágenes van incrustadas en base64. Las paradas "Sesión con tutor" enlazan a sesion.html;
-para probar con sesiones reales, copia tools/sesiones/dist/<id>.html como dist/sesion.html
-(o ajusta los href en index.tpl.html).
+Regla: nada se pregunta sin enseñar antes. Cada pregunta se practica en la última sesión de sus datos, y el
+repaso, la prueba y el simulacro solo usan preguntas de sesiones ya estudiadas (leídas o con tutor).
 
-Uso: python3 tools/demo-app/build.py   →  tools/demo-app/dist/index.html
+Genera dist/index.html desde index.tpl.html, content.json y tools/cobertura/datos.
+Uso: python3 tools/demo-app/build.py
 """
-import base64, json, os
+import base64, glob, json, os, re
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 A = os.path.join(ROOT, "app/src/main/assets")
 content = json.load(open(os.path.join(A, "content.json"), encoding="utf-8"))
-# Una pregunta se practica en la sesión donde termina de enseñarse todo lo que pregunta
-# (la última de las sesiones de sus datos), nunca antes.
-import glob, re
-orden = lambda s: tuple(int(x) for x in re.findall(r"\d+", s))
-ses = {}
-for f in glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-*.json")):
-    for d in json.load(open(f, encoding="utf-8"))["datos"]:
+caps = sorted((json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-*.json"))), key=lambda c: c["capitulo"])
+specs = {os.path.basename(f)[:-5]: json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "tools/sesiones/specs/c*s*.json"))}
+orden = {s["id"]: i for i, s in enumerate(x for c in caps for x in c["sesiones"])}   # orden del libro
+IMG, img = {}, lambda p: IMG.setdefault(p, "data:image/webp;base64," + base64.b64encode(open(os.path.join(A, p), "rb").read()).decode()) and p
+C, LEC, ses = [], {}, {}
+for c in caps:
+    n = c["capitulo"]
+    C.append({"n": n, "et": f"Capítulo {n}" if n <= 10 else ("Anexo 1" if n == 11 else "Figuras del libro"),
+              "t": c["titulo"].replace("Anexo 1: ", "").replace(" (imágenes)", "").replace(" (preguntas con imagen)", ""),
+              "ses": [{"id": s["id"], "t": specs.get(s["id"], {}).get("titulo", s["titulo"]), "tutor": s["id"] in specs, "ic": specs.get(s["id"], {}).get("icono", "📖"),
+                       "m": specs.get(s["id"], {}).get("minutos", 3)} for s in c["sesiones"]]})
+    for d in c["datos"]:
         for qid in d["q"]: ses.setdefault(qid, set()).add(d["s"])
-# Solo entran preguntas ya enseñadas: su sesión tiene guion en tools/sesiones/specs.
-# Así ninguna práctica, repaso, prueba o simulacro pregunta algo que no se enseñó.
-hechas = {os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, "tools/sesiones/specs/c*s*.json"))}
+        e = {"c": d.get("cita") or d.get("etiqueta", ""), "p": d["p"]}
+        im = d.get("img") or d.get("imagen")
+        if im: e["i"] = img(im)
+        LEC.setdefault(d["s"], []).append(e)
 Q = []
 for q in content["questions"]:
-    if q["type"] not in ("mc", "img", "multi"): continue
-    if q["id"] not in ses or max(ses[q["id"]], key=orden) not in hechas: continue
-    e = {"u": q["unit"], "q": q["prompt"], "o": q["options"], "e": q["explain"], "p": q["page"]}
-    e["s"] = max(ses[q["id"]], key=orden)
+    if q["type"] not in ("mc", "img", "multi") or q["id"] not in ses: continue
+    s = max(ses[q["id"]], key=orden.get)
+    e = {"id": q["id"], "s": s, "q": q["prompt"], "o": q["options"], "e": q["explain"], "p": q["page"]}
     if q["type"] == "multi": e["k"] = q["answers"]
-    if q.get("image"):
-        e["i"] = "data:image/webp;base64," + base64.b64encode(open(os.path.join(A, q["image"]), "rb").read()).decode()
+    if q.get("image"): e["i"] = img(q["image"])
     Q.append(e)
-bank = {"U": json.load(open(os.path.join(HERE, "unidades.json"), encoding="utf-8")), "Q": Q}
-html = open(os.path.join(HERE, "index.tpl.html"), encoding="utf-8").read().replace("__BANK__", json.dumps(bank, ensure_ascii=False))
+bank = {"C": C, "L": LEC, "Q": Q, "IMG": IMG}
+html = open(os.path.join(HERE, "index.tpl.html"), encoding="utf-8").read().replace("__BANK__", json.dumps(bank, ensure_ascii=False, separators=(",", ":")))
 os.makedirs(os.path.join(HERE, "dist"), exist_ok=True)
 open(os.path.join(HERE, "dist/index.html"), "w", encoding="utf-8").write(html)
-print(f"✓ dist/index.html: {len(Q)} preguntas ya enseñadas, de {len(hechas)} sesiones")
+print(f"✓ dist/index.html: {len(C)} capítulos, {sum(len(c['ses']) for c in C)} paradas ({len(specs)} con tutor), {len(Q)} preguntas, {len(IMG)} imágenes")

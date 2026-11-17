@@ -202,13 +202,22 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 
 ## 8b. App Android v2 (en curso)
 
+- **Trae todo el libro** (pedido del usuario): mapa con los 12 capítulos y sus 115 paradas, repaso ⛽ y prueba 🏁
+  por capítulo y simulacro 🏆. Cada parada: "Sesión con tutor" si existe; si no, **"Leer"** (citas textuales del
+  libro de esa parada, con imágenes de señales y figuras) y luego "Practicar". Al hacer una sesión con tutor,
+  reemplaza la lectura automáticamente (`tools/demo-app/build.py` detecta `tools/sesiones/specs`).
+- Progreso en el teléfono (`localStorage`, clave `rutab-progreso`): paradas hechas ✓, leídas, preguntas falladas
+  para el repaso y días estudiados (racha 🔥). Repaso, prueba y simulacro usan **solo paradas estudiadas**
+  (leídas o con tutor); el simulacro se habilita con 35+ preguntas disponibles.
+- Solo entran preguntas `mc`, `img` y `multi`; las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
+
 - `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
   desde `assets/web` en un WebView, sin conexión. El botón atrás llama a `window.atras()` de la página.
   Las pantallas nativas de la v1 (Compose) siguen en el código pero ya no se usan.
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.0.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.1.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
