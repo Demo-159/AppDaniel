@@ -25,8 +25,8 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 @keyframes cruza{from{transform:translateX(-220px)}to{transform:translateX(560px)}}
 @keyframes cruzaI{from{transform:translateX(560px)}to{transform:translateX(-220px)}}
 .nube{animation:drift linear infinite}@keyframes drift{from{transform:translateX(-160px)}to{transform:translateX(560px)}}
-.dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-52}}
-.dashv{animation:dashv .7s linear infinite}@keyframes dashv{to{stroke-dashoffset:-60}}
+/* líneas de los caminos fijas: animarlas saltaba en cada vuelta */
+
 .tw{animation:tw 2.4s ease-in-out infinite alternate}@keyframes tw{from{opacity:.15}to{opacity:1}}
 .gota{animation:caer linear infinite}.gotaM{animation:caerM linear infinite;will-change:transform}@keyframes caerM{from{transform:translate(0,0)}to{transform:translate(-10px,var(--h))}}@keyframes caer{from{transform:translate(0,-40px)}to{transform:translate(-50px,900px)}}
 .blink{animation:blink .7s steps(2) infinite}@keyframes blink{50%{opacity:.1}}
