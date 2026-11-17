@@ -1,5 +1,7 @@
 # Ruta B – reglas del proyecto
 
+> Para retomar el trabajo (estado, herramientas, pendientes): leer `docs/CONTINUAR.md`.
+
 ## Regla primordial: fidelidad al libro
 
 Todo el contenido de la app (voz, textos en pantalla, preguntas, respuestas, ejemplos y cifras) debe ser

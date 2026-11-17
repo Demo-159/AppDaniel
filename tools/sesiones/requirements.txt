@@ -1,0 +1,6 @@
+edge-tts
+faster-whisper
+num2words
+numpy
+pymupdf
+pillow
