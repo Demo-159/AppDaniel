@@ -167,10 +167,11 @@ function exam(o){const qs=pick(o.n,o.units);const dbl=new Set(shuffle([...qs.key
  renderQ()}
 function renderQ(){show('quiz');const R=RUN,q=R.qs[R.i];
  $('qbar').style.width=(R.i/R.qs.length*100)+'%';
- if(!q.ord)q.ord=shuffle([...q.o.keys()]);const K=q.k||1;
+ // orden nuevo en cada ronda (antes se guardaba en la pregunta y se repetía siempre igual)
+ R.ord=R.ord||[];if(!R.ord[R.i])R.ord[R.i]=shuffle([...q.o.keys()]);const ord=R.ord[R.i],K=q.k||1;
  const tag=R.tag||(R.mode==='practice'?'<span class="tag" style="color:var(--orange)">⛽ REPASO</span>':
   `<span class="tag" style="color:var(--muted)">PREGUNTA ${R.i+1} DE ${R.qs.length}</span>${R.dbl&&R.dbl.has(R.i)?'<span class="dbl">DOBLE PUNTAJE</span>':''}`);
- $('qbody').innerHTML=`<div>${tag}${K>1?`<span class="dbl" style="background:var(--blue);color:#fff">MARCA ${K}</span>`:''}</div><div class="q">${q.q}</div>`+(q.i?`<img src="${q.i}" alt="" style="display:block;margin:0 auto 6px;max-height:170px;max-width:80%;border-radius:12px;background:#fff;padding:6px">`:'')+q.ord.map(k=>`<button class="opt" data-k="${k}">${q.o[k]}</button>`).join('');
+ $('qbody').innerHTML=`<div>${tag}${K>1?`<span class="dbl" style="background:var(--blue);color:#fff">MARCA ${K}</span>`:''}</div><div class="q">${q.q}</div>`+(q.i?`<img src="${q.i}" alt="" style="display:block;margin:0 auto 6px;max-height:170px;max-width:80%;border-radius:12px;background:#fff;padding:6px">`:'')+ord.map(k=>`<button class="opt" data-k="${k}">${q.o[k]}</button>`).join('');
  const F=$('qfoot');F.className='foot';$('qfb').innerHTML='';const b=$('qbtn');
  b.textContent=R.mode==='practice'?'Comprobar':(R.i===R.qs.length-1?'Terminar':'Siguiente');b.className='btn g';b.disabled=true;let sel=null;const picks=new Set();
  $('qbody').querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const k=+o.dataset.k;if(K>1){if(picks.has(k)){picks.delete(k);o.classList.remove('sel')}else if(picks.size<K){picks.add(k);o.classList.add('sel')}b.disabled=picks.size!==K}else{$('qbody').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=k;b.disabled=false}});
