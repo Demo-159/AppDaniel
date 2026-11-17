@@ -1,0 +1,117 @@
+{
+ "id": "c1s6",
+ "titulo": "Cuándo ocurren y por qué",
+ "icono": "🕐",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "Ahora veamos cuándo ocurren más siniestros y quiénes participan en ellos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🕐",
+    "texto": "¿Cuándo y por qué ocurren?"
+   }
+  },
+  {
+   "voz": "Hay más siniestralidad los fines de semana, normales o largos, durante la noche y la madrugada, y cuando hay escaso flujo de vehículos.",
+   "escena": {
+    "tipo": "lista",
+    "items": [
+     {
+      "icono": "📅",
+      "texto": "Fines de semana, normales o largos"
+     },
+     {
+      "icono": "🌙",
+      "texto": "Noche y madrugada"
+     },
+     {
+      "icono": "🛣️",
+      "texto": "Escaso flujo de vehículos"
+     }
+    ]
+   },
+   "dato": "c1-31"
+  },
+  {
+   "voz": "Las estadísticas indican que la falla humana está presente en más del noventa por ciento de los siniestros.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 90,
+    "unidad": "% de los siniestros",
+    "prefijo": "+",
+    "sub": "tiene falla humana",
+    "icono": "🧠"
+   },
+   "dato": "c1-32"
+  },
+  {
+   "voz": "Participan mayormente jóvenes de dieciocho a veintinueve años, que son cerca del veintinueve por ciento de las personas conductoras fallecidas.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 29,
+    "unidad": "% de los conductores fallecidos",
+    "prefijo": "",
+    "sub": "tiene entre 18 y 29 años",
+    "icono": "🧑"
+   },
+   "dato": "c1-33"
+  },
+  {
+   "voz": "Además, cerca del setenta y nueve por ciento de las personas conductoras fallecidas en siniestros son hombres.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 79,
+    "unidad": "% de los conductores fallecidos",
+    "prefijo": "",
+    "sub": "son hombres",
+    "icono": "👨"
+   },
+   "dato": "c1-34"
+  },
+  {
+   "voz": "Tres de los factores con mayor incidencia son la imprudencia de quien conduce, el consumo de alcohol y la desobediencia a las señales del tránsito.",
+   "escena": {
+    "tipo": "lista",
+    "items": [
+     {
+      "icono": "😤",
+      "texto": "Imprudencia de quien conduce"
+     },
+     {
+      "icono": "🍺",
+      "texto": "Consumo de alcohol"
+     },
+     {
+      "icono": "🚦",
+      "texto": "Desobedecer las señales"
+     }
+    ]
+   },
+   "dato": "c1-35"
+  },
+  {
+   "voz": "Te pregunto: ¿cuál de estos es uno de los factores con mayor incidencia en los siniestros de tránsito?",
+   "elige": {
+    "pregunta": "¿Cuál es uno de los factores de mayor incidencia en los siniestros?",
+    "opciones": [
+     "Desobedecer las señales del tránsito",
+     "El mal estado del pavimento",
+     "La lluvia en invierno"
+    ],
+    "bien": "Muy bien. Desobedecer las señales es uno de ellos, junto con la imprudencia y el alcohol.",
+    "mal": "No es ese. Los factores de mayor incidencia son la imprudencia, el alcohol y desobedecer las señales."
+   }
+  },
+  {
+   "voz": "Un último detalle: Carabineros contabiliza como fallecidas solo a las personas que mueren dentro de las cuarenta y ocho horas del siniestro.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "⏱️",
+    "titulo": "Fallecidos: dentro de 48 horas",
+    "texto": "así cuenta Carabineros"
+   },
+   "dato": "c1-36"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "c1s3",
+ "titulo": "Los costos de los siniestros",
+ "icono": "💸",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "Un siniestro no solo cuesta vidas. En esta sesión verás todo lo que cuesta, y quién lo paga.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💸",
+    "texto": "Los costos de los siniestros"
+   }
+  },
+  {
+   "voz": "En promedio, por cada persona fallecida en un siniestro, unas cien personas cercanas sufren dolor: familiares y amigos.",
+   "escena": {
+    "tipo": "iconos",
+    "icono": "🧍",
+    "n": 100,
+    "sub": "unas 100 personas sufren por cada fallecido"
+   },
+   "dato": "c1-13"
+  },
+  {
+   "voz": "Además, se estima que en Chile los costos de los siniestros alcanzan el dos por ciento del producto interno bruto, según la OMS.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 2,
+    "unidad": "% del PIB",
+    "prefijo": "",
+    "sub": "costo de los siniestros en Chile",
+    "icono": "📉"
+   },
+   "dato": "c1-14"
+  },
+  {
+   "voz": "Si sacas la cuenta, cada persona paga una media de poco más de seis millones de pesos al año por estos costos.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 6,
+    "unidad": "millones de pesos al año",
+    "prefijo": "+",
+    "sub": "paga en promedio cada persona",
+    "icono": "💸"
+   },
+   "dato": "c1-15"
+  },
+  {
+   "voz": "El libro agrupa estos costos en cuatro tipos: materiales, de salud, administrativos y humanos.",
+   "escena": {
+    "tipo": "lista",
+    "items": [
+     {
+      "icono": "🚗",
+      "texto": "Materiales: vehículos y propiedad"
+     },
+     {
+      "icono": "🚑",
+      "texto": "De salud: ambulancia y rehabilitación"
+     },
+     {
+      "icono": "👮",
+      "texto": "Administrativos: policía, seguros, jueces"
+     },
+     {
+      "icono": "💔",
+      "texto": "Humanos: sufrimiento y productividad"
+     }
+    ]
+   },
+   "dato": "c1-16"
+  },
+  {
+   "voz": "Por ejemplo, el trabajo de policía y bomberos, la gestión de seguros y los jueces son costos administrativos.",
+   "dato": "c1-51"
+  },
+  {
+   "voz": "Te toca a ti. La ambulancia, el tratamiento y la rehabilitación de un herido, ¿qué tipo de costo son?",
+   "elige": {
+    "pregunta": "La ambulancia y la rehabilitación son costos…",
+    "opciones": [
+     "De salud",
+     "Materiales",
+     "Administrativos",
+     "Humanos"
+    ],
+    "bien": "Correcto: son costos de salud.",
+    "mal": "No es ese. La ambulancia y la rehabilitación son costos de salud."
+   }
+  },
+  {
+   "voz": "Y recuerda que no todos estos costos se pueden valorizar en dinero, como el sufrimiento de las personas lesionadas y de sus familias.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "💔",
+    "titulo": "No todo se puede medir en dinero"
+   },
+   "dato": "c1-17"
+  }
+ ]
+}

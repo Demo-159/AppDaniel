@@ -1,0 +1,169 @@
+{
+ "id": "c1s7",
+ "titulo": "Sistema Seguro",
+ "icono": "🛡️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta última sesión del capítulo conocerás el enfoque que guía la seguridad vial en Chile: el Sistema Seguro.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛡️",
+    "texto": "Sistema Seguro"
+   }
+  },
+  {
+   "voz": "La primera Política Nacional de Seguridad de Tránsito de Chile es de mil novecientos noventa y tres.",
+   "escena": {
+    "tipo": "vs",
+    "items": [
+     {
+      "icono": "📜",
+      "titulo": "1993",
+      "texto": "Primera Política Nacional"
+     },
+     {
+      "icono": "🛡️",
+      "titulo": "2017",
+      "texto": "Sistema Seguro"
+     }
+    ]
+   },
+   "dato": "c1-37"
+  },
+  {
+   "voz": "Con nuevos desafíos, como el aumento de ciclistas y el crecimiento de vehículos y motocicletas, se buscaron nuevos enfoques.",
+   "escena": {
+    "tipo": "lista",
+    "items": [
+     {
+      "icono": "🚲",
+      "texto": "Más ciclistas"
+     },
+     {
+      "icono": "🚗",
+      "texto": "Más vehículos"
+     },
+     {
+      "icono": "🏍️",
+      "texto": "Más motocicletas"
+     }
+    ]
+   },
+   "dato": "c1-38"
+  },
+  {
+   "voz": "Desde el año dos mil diecisiete, la nueva política está alineada con el enfoque de Sistema Seguro.",
+   "escena": {
+    "tipo": "vs",
+    "items": [
+     {
+      "icono": "📜",
+      "titulo": "1993",
+      "texto": "Primera Política Nacional"
+     },
+     {
+      "icono": "🛡️",
+      "titulo": "2017",
+      "texto": "Sistema Seguro",
+      "marca": "si"
+     }
+    ]
+   },
+   "dato": "c1-39"
+  },
+  {
+   "voz": "Este enfoque establece como principio ético que las muertes y lesiones graves en el tránsito son inaceptables.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "0️⃣",
+    "titulo": "Visión Cero",
+    "texto": "Muertes y lesiones graves: inaceptables"
+   },
+   "dato": "c1-40"
+  },
+  {
+   "voz": "Por eso es conocido mundialmente con el nombre de Visión Cero.",
+   "dato": "c1-41"
+  },
+  {
+   "voz": "Supone un cambio de paradigma: los seres humanos cometemos errores, y la mayoría de los siniestros se producen por una equivocación.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🤷",
+    "titulo": "Errar es humano",
+    "texto": "La mayoría de los siniestros: una equivocación"
+   },
+   "dato": "c1-53"
+  },
+  {
+   "voz": "Así que, en vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🏗️",
+    "titulo": "Abordar el riesgo de circular",
+    "texto": "en vez de solo corregir errores"
+   },
+   "dato": "c1-42"
+  },
+  {
+   "voz": "Y si un siniestro ocurre, busca que las fuerzas del impacto no excedan los límites que el cuerpo humano puede resistir.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🫀",
+    "titulo": "El impacto no debe superar lo que el cuerpo resiste"
+   },
+   "dato": "c1-43"
+  },
+  {
+   "voz": "Sus principios son cuatro. El primero: los seres humanos cometemos errores, que pueden terminar en un siniestro de tránsito.",
+   "escena": {
+    "tipo": "lista",
+    "items": [
+     {
+      "icono": "🤷",
+      "texto": "Errar es humano"
+     },
+     {
+      "icono": "🫀",
+      "texto": "El cuerpo tiene límites"
+     },
+     {
+      "icono": "🤝",
+      "texto": "Responsabilidad compartida"
+     },
+     {
+      "icono": "🧱",
+      "texto": "Si una parte falla, otra protege"
+     }
+    ]
+   },
+   "dato": "c1-44"
+  },
+  {
+   "voz": "El segundo: el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto.",
+   "dato": "c1-45"
+  },
+  {
+   "voz": "El tercero: hay una responsabilidad compartida entre quienes diseñan, construyen, administran y usan las vías y los vehículos, y quienes atienden después del siniestro.",
+   "dato": "c1-46"
+  },
+  {
+   "voz": "Y el cuarto: todos los componentes deben estar fortalecidos, para que si uno falla, los demás sigan protegiendo a las personas.",
+   "dato": "c1-47"
+  },
+  {
+   "voz": "Para terminar: ¿con qué nombre se conoce mundialmente el enfoque de Sistema Seguro?",
+   "elige": {
+    "pregunta": "¿Con qué nombre se conoce mundialmente el Sistema Seguro?",
+    "opciones": [
+     "Visión Cero",
+     "Tolerancia Cero",
+     "Ruta Segura"
+    ],
+    "bien": "Exacto, Visión Cero: ninguna muerte ni lesión grave es aceptable.",
+    "mal": "Casi. Se conoce como Visión Cero, porque ninguna muerte ni lesión grave es aceptable."
+   }
+  }
+ ]
+}

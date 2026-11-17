@@ -1,0 +1,128 @@
+{
+ "id": "c1s1",
+ "titulo": "¿Accidente o siniestro?",
+ "icono": "🎲",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a descubrir por qué el libro no habla de accidentes de tránsito, sino de siniestros.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🎲",
+    "texto": "¿Accidente o siniestro?"
+   }
+  },
+  {
+   "voz": "El libro define accidente como un suceso eventual del que involuntariamente resulta un daño: algo casual e impredecible.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🎲",
+    "titulo": "Accidente",
+    "texto": "Suceso eventual, casual e impredecible"
+   },
+   "dato": "c1-01"
+  },
+  {
+   "voz": "Pero si los siniestros fueran casuales, ¿por qué aumentan cuando llueve, de noche y cuando las personas han bebido alcohol?",
+   "escena": {
+    "tipo": "vs",
+    "items": [
+     {
+      "icono": "🌧️",
+      "titulo": "Lluvia"
+     },
+     {
+      "icono": "🌙",
+      "titulo": "Noche"
+     },
+     {
+      "icono": "🍺",
+      "titulo": "Alcohol"
+     }
+    ]
+   },
+   "dato": "c1-03"
+  },
+  {
+   "voz": "Por eso el libro dice que los siniestros de tránsito tienen poco de azarosos o de impredecibles.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🔍",
+    "titulo": "Tienen poco de azarosos",
+    "texto": "Se conocen sus causas"
+   },
+   "dato": "c1-48"
+  },
+  {
+   "voz": "Piensa un momento. Si un siniestro fuera un suceso eventual, ¿de qué dependería la probabilidad de sufrir uno?",
+   "elige": {
+    "pregunta": "Si un siniestro fuera pura casualidad, ¿de qué dependería sufrir uno?",
+    "opciones": [
+     "Solo del tiempo que pasas al volante",
+     "De tu experiencia al conducir",
+     "Del estado de tu vehículo"
+    ],
+    "bien": "Exacto. Dependería solo del tiempo que pasas al volante, pero el libro aclara que no es así.",
+    "mal": "No exactamente. Si fuera pura suerte, dependería solo del tiempo que pasas al volante, y eso no es lo que ocurre."
+   },
+   "dato": "c1-05"
+  },
+  {
+   "voz": "Por eso se cambió el concepto por siniestros: para relevar sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🔄",
+    "titulo": "Siniestro",
+    "texto": "Destaca sus efectos y nuestra responsabilidad"
+   },
+   "dato": "c1-02"
+  },
+  {
+   "voz": "La mayoría de las muertes producidas por los siniestros de tránsito podría haberse evitado.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "✅",
+    "titulo": "La mayoría de las muertes se podía evitar"
+   },
+   "dato": "c1-04"
+  },
+  {
+   "voz": "Para reducir la posibilidad de sufrir un siniestro, debes evitar los factores de riesgo, que el libro detalla capítulo a capítulo.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "⚠️",
+    "titulo": "Evita los factores de riesgo"
+   },
+   "dato": "c1-49"
+  },
+  {
+   "voz": "Además, conducir implica responsabilidad colectiva: si alguien conduce ebrio o sin cinturón y sufre un siniestro, nos afecta a todas y todos.",
+   "escena": {
+    "tipo": "vs",
+    "items": [
+     {
+      "icono": "🍺",
+      "titulo": "¿Decisión personal?",
+      "texto": null,
+      "marca": "no"
+     },
+     {
+      "icono": "👥",
+      "titulo": "Nos afecta a todos",
+      "texto": null,
+      "marca": "si"
+     }
+    ]
+   },
+   "dato": "c1-06"
+  },
+  {
+   "voz": "En resumen: los siniestros no son mala suerte. Tienen causas, y la mayoría se puede evitar.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🧠",
+    "titulo": "Siniestro: tiene causas y se puede evitar"
+   }
+  }
+ ]
+}

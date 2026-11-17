@@ -1,0 +1,77 @@
+{
+ "id": "c1s5",
+ "titulo": "La velocidad y los peatones",
+ "icono": "🚶",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cuánto cambia un atropello según la velocidad del vehículo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚶",
+    "texto": "La velocidad y los peatones"
+   }
+  },
+  {
+   "voz": "Mueve la velocidad del auto, desde treinta hasta sesenta y cinco kilómetros por hora, y mira qué le pasa al peatón.",
+   "desliza": {
+    "escena": "peaton",
+    "min": 30,
+    "max": 70,
+    "paso": 5,
+    "desde": 30,
+    "hasta": 65,
+    "etiqueta": "Velocidad del auto"
+   }
+  },
+  {
+   "voz": "A treinta kilómetros por hora o menos, los peatones tienen un noventa por ciento de posibilidades de sobrevivir a un impacto.",
+   "escena": {
+    "tipo": "peaton",
+    "velocidad": 30
+   },
+   "dato": "c1-28"
+  },
+  {
+   "voz": "A cuarenta y cinco kilómetros por hora o más, tienen menos del cincuenta por ciento de probabilidades de sobrevivir.",
+   "escena": {
+    "tipo": "peaton",
+    "velocidad": 45
+   },
+   "dato": "c1-29"
+  },
+  {
+   "voz": "Y a sesenta y cinco kilómetros por hora, lo más probable es que un peatón atropellado muera.",
+   "escena": {
+    "tipo": "peaton",
+    "velocidad": 65
+   },
+   "dato": "c1-30"
+  },
+  {
+   "voz": "Por eso, cuando la velocidad sube de treinta a cincuenta kilómetros por hora, la probabilidad de que un peatón muera atropellado se multiplica por ocho.",
+   "escena": {
+    "tipo": "cifra",
+    "valor": 8,
+    "unidad": "veces más probable que muera",
+    "prefijo": "×",
+    "sub": "al subir de 30 a 50 km/h",
+    "icono": "⚠️"
+   },
+   "dato": "c1-27"
+  },
+  {
+   "voz": "Una pregunta para fijarlo. A treinta kilómetros por hora o menos, ¿cuántos peatones de cada diez sobreviven a un impacto?",
+   "elige": {
+    "pregunta": "A 30 km/h o menos, ¿cuántos peatones sobreviven a un impacto?",
+    "opciones": [
+     "9 de cada 10",
+     "5 de cada 10",
+     "7 de cada 10"
+    ],
+    "bien": "Exacto: nueve de cada diez, es decir, el noventa por ciento.",
+    "mal": "Fíjate bien: a treinta kilómetros por hora o menos, sobreviven nueve de cada diez peatones."
+   }
+  }
+ ]
+}
