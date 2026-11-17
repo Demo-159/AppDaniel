@@ -78,7 +78,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .choices{width:100%;display:flex;flex-direction:column;gap:10px}
 .opt{font-family:var(--ui);font-weight:900;font-size:17px;text-align:left;padding:14px;border-radius:16px;border:2px solid var(--line);border-bottom-width:5px;background:rgba(30,43,50,.95);color:var(--ink);cursor:pointer;transition:transform .15s}
 .opt:active{transform:translateY(2px)}
-.opt.good{border-color:var(--green);color:var(--green);animation:pop .35s}.opt.bad{border-color:var(--red);color:var(--red);animation:shake .35s}.opt.sel{border-color:var(--blue);color:var(--blue)}
+.opt.good{border-color:var(--green);color:var(--green);animation:pop .35s}.opt:disabled{cursor:default}.opt:disabled:not(.good):not(.bad){opacity:.55}.opt.bad{border-color:var(--red);color:var(--red);animation:shake .35s}.opt.sel{border-color:var(--blue);color:var(--blue)}
 @keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 .ask{width:100%;font-weight:900;font-size:19px;text-align:left}.ask small{display:block;color:var(--blue);font-size:12px;letter-spacing:1.5px;margin-bottom:6px}
 .slider{width:100%}.slider input{width:100%;accent-color:var(--gold);height:34px}
@@ -201,9 +201,12 @@ async function elige(p){const it=p.elige;
  const w=await swap(`<div class="ask"><small>❓ TU TURNO</small>${it.pregunta}</div><div class="choices">${shuffle(it.opciones.map((o,i)=>({o,i}))).map(x=>`<button class="opt" data-i="${x.i}">${x.o}</button>`).join('')}</div>`);
  w.style.position='relative';
  if(p.voz)say(p.voz);
- while(true){const b=await new Promise(r=>w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>r(o)));audio.pause();$('cono').classList.remove('talk');
-  if(+b.dataset.i===0){b.classList.add('good');sfx('bien');burst(w,['⭐','✨']);w.querySelectorAll('.opt').forEach(o=>o.disabled=true);if(it.bien)await say(it.bien);return}
-  b.classList.add('bad');sfx('mal');b.disabled=true;if(it.mal)await say(it.mal)}}
+ // Un solo intento: si falla, se marca la correcta y la voz explica ("mal" ya dice la respuesta,
+ // así que volver a preguntar solo repetiría lo mismo).
+ const b=await new Promise(r=>w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>r(o)));audio.pause();$('cono').classList.remove('talk');
+ w.querySelectorAll('.opt').forEach(o=>o.disabled=true);
+ if(+b.dataset.i===0){b.classList.add('good');sfx('bien');burst(w,['⭐','✨']);if(it.bien)await say(it.bien);return}
+ b.classList.add('bad');sfx('mal');await sleep(500);w.querySelector('.opt[data-i="0"]').classList.add('good');if(it.mal)await say(it.mal)}
 async function desliza(p){const d=p.desliza;let v=d.desde;
  const w=await swap(ESC[d.escena]({velocidad:v}));const draw=()=>{w.innerHTML=ESC[d.escena]({velocidad:v,quieto:1})};
  foot.innerHTML=`<div class="slider"><input type="range" min="${d.min}" max="${d.max}" step="${d.paso}" value="${v}" aria-label="${d.etiqueta||'Valor'}"></div>`;
