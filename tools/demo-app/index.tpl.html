@@ -48,6 +48,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .miss{width:100%;text-align:left;background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 12px;margin-top:8px;font-size:14px;font-weight:800}
 .miss b{display:block;color:var(--ink);margin-bottom:4px}.miss .ok{color:var(--green)}.miss small{color:var(--muted)}
 .muted{color:var(--muted);font-weight:800}
+.pend{background:#2A1E0A;border:2px solid var(--orange);color:var(--orange);border-radius:12px;padding:4px 10px;font-family:var(--ui);cursor:pointer}.pend.cero{border-color:var(--line);color:var(--muted);background:none}
 .cita{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px 14px;font-weight:800;font-size:16px;line-height:1.4}
 .cita small{display:block;color:var(--muted);font-size:12px;margin-top:6px}.cita img{display:block;max-height:120px;max-width:70%;margin:0 auto 8px;border-radius:10px;background:#fff;padding:6px}
 .lecintro{color:var(--muted);font-weight:800;font-size:14px;line-height:1.4}
@@ -57,7 +58,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 <!-- MAP -->
 <section class="view on" id="v-map">
- <div class="top"><div class="chip">Ruta B</div><div class="chip" id="racha" style="color:var(--orange)"></div></div>
+ <div class="top"><div class="chip">Ruta B</div><div style="display:flex;gap:14px;align-items:center"><button class="chip pend" id="pend" aria-label="Repasar lo pendiente de hoy"></button><div class="chip" id="racha" style="color:var(--orange)"></div></div></div>
  <div class="scroll" id="scroll"><svg id="map" xmlns="http://www.w3.org/2000/svg"></svg></div>
  <div class="pop" id="pop"><div class="head"><div class="ic" id="pi"></div><div><b id="pt"></b><span id="ps"></span></div></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
 </section>
@@ -87,9 +88,23 @@ const show=v=>document.querySelectorAll('.view').forEach(s=>s.classList.toggle('
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 
 /* ---------- PROGRESO (en el teléfono) ---------- */
-const PK='rutab-progreso';let PR={hechas:{},leidas:{},repaso:[],dias:[]};
+const PK='rutab-progreso';let PR={hechas:{},leidas:{},srs:{},dias:[],tutorFallos:{}};
 try{PR=Object.assign(PR,JSON.parse(localStorage.getItem(PK)||'{}'))}catch(e){}
 const guardar=()=>{try{localStorage.setItem(PK,JSON.stringify(PR))}catch(e){}};
+/* Repetición espaciada (cajas de Leitner): cada pregunta respondida tiene una caja 0–5 y una fecha en que vuelve.
+   Acertar la sube de caja (vuelve en 1, 3, 7, 14 o 30 días); fallar la baja a la caja 0 (vuelve hoy mismo). */
+const INTERVALO=[0,1,3,7,14,30];
+const enDias=n=>{const d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};
+function registrar(q,ok){const r=PR.srs[q.id]||{b:0};r.b=ok?Math.min((r.b||0)+1,5):0;r.d=enDias(INTERVALO[r.b]);PR.srs[q.id]=r}
+const qPorId={};BANK.Q.forEach(q=>qPorId[q.id]=q);
+// lo pendiente de hoy: primero lo fallado (caja 0), luego lo que está por olvidarse (más atrasado primero)
+function pendientes(cap){const h=hoy();return Object.entries(PR.srs).filter(([id,r])=>r.d<=h&&qPorId[id]&&(!cap||capDe(qPorId[id].s)===cap))
+ .sort((a,b)=>a[1].b-b[1].b||(a[1].d<b[1].d?-1:1)).map(([id])=>qPorId[id])}
+function migrar(){ // versiones anteriores guardaban una lista simple de falladas
+ (PR.repaso||[]).forEach(id=>{if(qPorId[id])PR.srs[id]={b:0,d:hoy()}});delete PR.repaso;
+ // errores en las preguntas de una sesión con tutor: sus preguntas de práctica entran al repaso de hoy
+ Object.keys(PR.tutorFallos||{}).forEach(sid=>{BANK.Q.filter(q=>q.s===sid).forEach(q=>{const r=PR.srs[q.id];if(!r||r.b>0)PR.srs[q.id]={b:0,d:hoy()}})});
+ PR.tutorFallos={};guardar()}
 const hoy=()=>new Date().toISOString().slice(0,10);
 function estudiado(){if(!PR.dias.includes(hoy())){PR.dias.push(hoy());PR.dias=PR.dias.slice(-400)}guardar();racha()}
 function racha(){let n=0,d=new Date();const set=new Set(PR.dias);if(!set.has(hoy()))d.setDate(d.getDate()-1);
@@ -104,7 +119,7 @@ function armarParadas(){STOPS=[];let sig=false;
  BANK.C.forEach(c=>{STOPS.push({sign:1,ch:c.et,t:c.t});
   c.ses.forEach(x=>{const done=!!PR.hechas[x.id];let s=done?'done':(x.tutor?'ses':'lec');if(!done&&!sig){s='next';sig=true}
    STOPS.push({n:x.t,ic:x.ic,s,sid:x.id,tutor:x.tutor,m:x.m,cap:c.n})});
-  STOPS.push({n:'Repaso del '+c.et.toLowerCase(),ic:'⛽',s:'review',cap:c.n},{n:'Prueba del '+c.et.toLowerCase(),ic:'🏁',s:'test',cap:c.n})});
+  const np=pendientes(c.n).length;STOPS.push({n:'Repaso del '+c.et.toLowerCase()+(np?' ('+np+')':''),ic:'⛽',s:'review',cap:c.n},{n:'Prueba del '+c.et.toLowerCase(),ic:'🏁',s:'test',cap:c.n})});
  STOPS.push({sign:1,ch:'Examen',t:'Simulacro del examen real'},{n:'Simulacro del examen',ic:'🏆',s:'exam'})}
 const NS='http://www.w3.org/2000/svg',svg=$('map');
 const W=400,GAP=150;
@@ -137,7 +152,8 @@ function dibujarMapa(){armarParadas();svg.innerHTML='';let y=70;const pts=[];
   <rect x="-13" y="25" width="7" height="4" rx="2" fill="#FFE27A"/><rect x="6" y="25" width="7" height="4" rx="2" fill="#FFE27A"/>`}
  return nx}
 function irAlSiguiente(nx){requestAnimationFrame(()=>{const sc=$('scroll');if(nx)sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2})}
-function verMapa(){const nx=dibujarMapa();show('map');irAlSiguiente(nx)}
+function chips(){const n=pendientes().length,b=$('pend');b.textContent='⛽ '+n;b.classList.toggle('cero',!n);b.title=n?n+' por repasar hoy':'Nada pendiente hoy'}
+function verMapa(){const nx=dibujarMapa();chips();show('map');irAlSiguiente(nx)}
 const preguntasDe=sid=>BANK.Q.filter(q=>q.s===sid);
 const poolEstudiado=cap=>BANK.Q.filter(q=>estudiada(q.s)&&(!cap||capDe(q.s)===cap));
 const capDe=sid=>{for(const c of BANK.C)if(c.ses.some(x=>x.id===sid))return c.n};
@@ -149,7 +165,7 @@ function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.backgrou
  const base=p.tutor?['Sesión con tutor · '+p.m+' min','Sesión con tutor','',tut,'Practicar',prac]:['Lee lo que dice el libro y luego practica','Leer','',leer,'Practicar',prac];
  const m={done:p.tutor?['Hecha ✓ · puedes repasarla','Sesión con tutor','',tut,'Practicar',prac]:['Hecha ✓ · puedes repasarla','Leer de nuevo','',leer,'Practicar',prac],
   ses:base,lec:base,next:base,
-  review:['Lo que fallaste y lo ya estudiado del capítulo','Cargar combustible','o',()=>repaso(p.cap)],
+  review:[(pendientes(p.cap).length?pendientes(p.cap).length+' por repasar hoy · ':'')+'lo fallado y lo que está por olvidarse','Cargar combustible','o',()=>repaso(p.cap)],
   test:['10 preguntas de lo que estudiaste en el capítulo','Hacer la prueba','y',()=>prueba(p)],
   exam:['35 preguntas · 38 puntos · aprueba con 33','Ver simulacro','',()=>examIntro()]}[p.s];
  $('ps').textContent=m[0];const b=$('pb');b.textContent=m[1];b.className='btn '+m[2];P.classList.add('on');
@@ -176,10 +192,12 @@ function pick(n,pool){n=Math.min(n,pool.length);
  const by={};pool.forEach(q=>{const c=capDe(q.s);(by[c]=by[c]||[]).push(q)});const keys=Object.keys(by);let out=[],i=0;
  const sh={};keys.forEach(k=>sh[k]=shuffle(by[k]));
  while(out.length<n){const k=keys[i++%keys.length];if(sh[k].length)out.push(sh[k].pop())}return shuffle(out)}
-function repaso(cap){const pool=poolEstudiado(cap);const fall=PR.repaso.map(id=>BANK.Q.find(q=>q.id===id)).filter(q=>q&&capDe(q.s)===cap);
- if(!pool.length&&!fall.length)return aviso('Primero estudia alguna parada del '+etDe(cap).toLowerCase()+': así el repaso tiene qué preguntarte.');
- const qs=[...new Set([...shuffle(fall).slice(0,3),...shuffle(pool)])].slice(0,5);
- RUN={mode:'practice',repaso:1,qs,i:0,ans:[]};$('qtime').textContent='';renderQ()}
+function repaso(cap){const pend=pendientes(cap),pool=poolEstudiado(cap);
+ if(!pend.length&&!pool.length)return aviso(cap?'Primero estudia alguna parada del '+etDe(cap).toLowerCase()+': así el repaso tiene qué preguntarte.':'Todavía no hay nada que repasar: estudia y practica alguna parada.');
+ // primero lo pendiente de hoy (hasta 10); si no hay nada pendiente, unas preguntas ya estudiadas para no oxidarse
+ const qs=pend.length?pend.slice(0,10):shuffle(pool).slice(0,5);
+ RUN={mode:'practice',repaso:1,tag:'<span class="tag" style="color:var(--orange)">⛽ REPASO'+(cap?' · '+etDe(cap).toUpperCase():'')+'</span>',fin:['⛽','¡Tanque lleno!'],qs,i:0,ans:[],extra:pend.length?'':'No tenías nada pendiente hoy: repasaste preguntas ya estudiadas.'};$('qtime').textContent='';renderQ()}
+$('pend').onclick=()=>repaso();
 // práctica de una parada: solo preguntas de lo que esa parada terminó de enseñar
 function practiceSession(p){const qs=shuffle(preguntasDe(p.sid)).slice(0,8);
  if(!qs.length){PR.hechas[p.sid]=1;estudiado();return aviso('Esta parada no tiene preguntas de práctica todavía. Quedó marcada como hecha.')}
@@ -207,15 +225,15 @@ function renderQ(){show('quiz');const R=RUN,q=R.qs[R.i];
  const F=$('qfoot');F.className='foot';$('qfb').innerHTML='';const b=$('qbtn');
  b.textContent=R.mode==='practice'?'Comprobar':(R.i===R.qs.length-1?'Terminar':'Siguiente');b.className='btn g';b.disabled=true;let sel=null;const picks=new Set();
  $('qbody').querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const k=+o.dataset.k;if(K>1){if(picks.has(k)){picks.delete(k);o.classList.remove('sel')}else if(picks.size<K){picks.add(k);o.classList.add('sel')}b.disabled=picks.size!==K}else{$('qbody').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=k;b.disabled=false}});
- b.onclick=()=>{const ok=K>1?[...picks].every(k=>k<K):sel===0;R.ans[R.i]={ok,sel};if(R.mode==='practice'){PR.repaso=PR.repaso.filter(id=>id!==q.id);if(!ok)PR.repaso.push(q.id);guardar()}
+ b.onclick=()=>{const ok=K>1?[...picks].every(k=>k<K):sel===0;R.ans[R.i]={ok,sel};if(R.mode==='practice'){R.primera=R.primera||{};if(!(q.id in R.primera)){R.primera[q.id]=ok;registrar(q,ok);guardar()}/* solo cuenta el primer intento: si la falló, queda para el repaso de hoy aunque luego la acierte en la ronda */if(!ok)R.qs.push(q)}
   if(R.mode==='practice'){sfx(ok?'bien':'mal');$('qbody').querySelectorAll('.opt').forEach(o=>{o.onclick=null;const k=+o.dataset.k;if(k<K)o.classList.add('good');else if(k===sel||picks.has(k))o.classList.add('bad')});
-   F.className='foot '+(ok?'ok':'ko');$('qfb').innerHTML=`<div class="fbt" style="color:${ok?'var(--green)':'var(--red)'}">${ok?'¡Bien hecho!':(K>1?'Las correctas quedaron en verde ↑':'Respuesta correcta: '+q.o[0])}</div><div class="fbx">${q.e}${q.p?` <span class="muted">· Libro, pág. ${q.p}</span>`:''}</div>`;
+   F.className='foot '+(ok?'ok':'ko');$('qfb').innerHTML=`<div class="fbt" style="color:${ok?'var(--green)':'var(--red)'}">${ok?'¡Bien hecho!':(K>1?'Las correctas quedaron en verde ↑':'Respuesta correcta: '+q.o[0])}</div>${ok?'':'<div class="fbx" style="opacity:.8">↻ Volverá al final de esta ronda</div>'}<div class="fbx">${q.e}${q.p?` <span class="muted">· Libro, pág. ${q.p}</span>`:''}</div>`;
    b.textContent='Continuar';b.className='btn '+(ok?'g':'r');b.onclick=next}
   else next()}}
 function next(){RUN.i++;if(RUN.i<RUN.qs.length)renderQ();else finish()}
 function finish(){clearInterval(TICK);const R=RUN;show('info');
- if(R.mode==='practice'){const c=R.ans.filter(a=>a&&a.ok).length;
-  if(R.sid){PR.hechas[R.sid]=1}estudiado();sfx('fin');const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${R.qs.length} correctas</div></div>`;
+ if(R.mode==='practice'){const P=R.primera||{},tot=Object.keys(P).length,c=Object.values(P).filter(Boolean).length,rep=R.qs.length-tot;
+  if(R.sid){PR.hechas[R.sid]=1}estudiado();sfx('fin');const [ic,tt]=R.fin||['⛽','¡Tanque lleno!'];$('ibody').innerHTML=`<div class="center"><div class="big">${ic}</div><div class="q">${tt}</div><div class="muted">${c} de ${tot} correctas a la primera</div>${tot-c?`<div class="muted" style="margin-top:6px">${tot-c==1?'Repetiste 1 pregunta hasta acertarla; volverá en tu repaso de hoy.':'Repetiste '+(tot-c)+' preguntas hasta acertarlas; volverán en tu repaso de hoy.'}</div>`:''}${R.extra?`<div class="muted" style="margin-top:6px">${R.extra}</div>`:''}</div>`;
   $('ifoot').innerHTML='<button class="btn g" id="back">Volver al mapa</button>';$('back').onclick=verMapa;return}
  let pts=0,max=0;const per={};
  R.qs.forEach((q,i)=>{const v=R.dbl.has(i)?2:1;max+=v;const ok=R.ans[i]&&R.ans[i].ok;if(ok)pts+=v;const ch=etDe(capDe(q.s));(per[ch]=per[ch]||[0,0]);per[ch][1]++;if(ok)per[ch][0]++});
@@ -226,12 +244,13 @@ function finish(){clearInterval(TICK);const R=RUN;show('info');
   <div class="q">${pass?'Aprobado':'Reprobado'}</div><div class="muted">${R.o.passPts?'Necesitas '+R.o.passPts+' puntos para aprobar':'Necesitas el 80% para aprobar'}</div>
   <div style="width:100%;margin-top:14px">${Object.entries(per).sort().map(([ch,[a,n]])=>`<div class="chbar"><span>${ch}</span><div class="bar"><i style="width:${a/n*100}%;background:${a/n>=.87?'var(--green)':a/n>=.6?'var(--gold)':'var(--red)'}"></i></div><b>${a}/${n}</b></div>`).join('')}</div>
   ${miss.length?`<div style="width:100%;text-align:left;margin-top:16px;font-weight:900">Revisa lo que fallaste</div>`+miss.map(([q,i])=>`<div class="miss"><b>${q.q}</b><span class="ok">✓ ${q.o[0]}</span><br><small>${q.e}${q.p?' · Libro, pág. '+q.p:''}</small></div>`).join(''):''}</div>`;
- $('ifoot').innerHTML=(miss.length?'<button class="btn o" id="rep">Agregar lo fallado a mi repaso ⛽</button>':'')+'<button class="btn g" id="back">Volver al mapa</button>';
- estudiado();$('back').onclick=verMapa;if($('rep'))$('rep').onclick=()=>{miss.forEach(([q])=>{if(!PR.repaso.includes(q.id))PR.repaso.push(q.id)});guardar();$('rep').textContent='✓ Agregado a tu repaso';$('rep').disabled=true}}
+ R.qs.forEach((q,i)=>{if(R.ans[i])registrar(q,R.ans[i].ok)});guardar();
+ $('ifoot').innerHTML=(miss.length?'<div class="muted" style="text-align:center;margin-bottom:4px">⛽ Lo que fallaste quedó en tu repaso de hoy</div>':'')+'<button class="btn g" id="back">Volver al mapa</button>';
+ estudiado();$('back').onclick=verMapa}
 $('qx').onclick=()=>{clearInterval(TICK);verMapa()};
 // Botón atrás de Android (lo llama la app): true si cerró algo dentro de la página
 window.atras=()=>{if($('pop').classList.contains('on')){$('pop').classList.remove('on');return true}if(!$('v-map').classList.contains('on')){clearInterval(TICK);verMapa();return true}return false};
 // al terminar una sesión con tutor se vuelve con #practica=<id>
-racha();verMapa();
+migrar();racha();verMapa();
 (()=>{const m=location.hash.match(/practica=(\w+)/);if(!m)return;history.replaceState(null,'',location.pathname);const p=STOPS.find(s=>s.sid===m[1]);if(p){PR.leidas[p.sid]=1;guardar();practiceSession(p)}})();
 </script></body></html>

@@ -274,7 +274,7 @@ async function elige(p){const it=p.elige;
  const b=await new Promise(r=>w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>r(o)));audio.pause();$('cono').classList.remove('talk');
  w.querySelectorAll('.opt').forEach(o=>o.disabled=true);
  if(+b.dataset.i===0){b.classList.add('good');sfx('bien');burst(w,['⭐','✨']);if(it.bien)await say(it.bien);return}
- b.classList.add('bad');sfx('mal');await sleep(500);w.querySelector('.opt[data-i="0"]').classList.add('good');if(it.mal)await say(it.mal)}
+ b.classList.add('bad');sfx('mal');try{const k='rutab-progreso',P=JSON.parse(localStorage.getItem(k)||'{}');(P.tutorFallos=P.tutorFallos||{})[S.id]=1;localStorage.setItem(k,JSON.stringify(P))}catch(_){}await sleep(500);w.querySelector('.opt[data-i="0"]').classList.add('good');if(it.mal)await say(it.mal)}
 async function desliza(p){const d=p.desliza;let v=d.desde;await ponerEscena(null);
  const w=await swap(ESC[d.escena]({velocidad:v}));const draw=()=>{w.innerHTML=ESC[d.escena]({velocidad:v,quieto:1})};
  foot.innerHTML=`<div class="slider"><input type="range" min="${d.min}" max="${d.max}" step="${d.paso}" value="${v}" aria-label="${d.etiqueta||'Valor'}"></div>`;

@@ -209,6 +209,12 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - Progreso en el teléfono (`localStorage`, clave `rutab-progreso`): paradas hechas ✓, leídas, preguntas falladas
   para el repaso y días estudiados (racha 🔥). Repaso, prueba y simulacro usan **solo paradas estudiadas**
   (leídas o con tutor); el simulacro se habilita con 35+ preguntas disponibles.
+- **Refuerzo de errores (v2.2):** en la práctica y el repaso, lo fallado vuelve al final de la ronda hasta
+  acertarlo, pero solo cuenta el primer intento. Repetición espaciada con cajas de Leitner (`PR.srs`): acertar
+  sube de caja (vuelve en 1, 3, 7, 14, 30 días), fallar baja a la caja 0 (vuelve hoy). Botón "⛽ N" en el mapa:
+  repaso general de lo pendiente de hoy (primero lo fallado). Prueba y simulacro también registran en las cajas.
+  Un error en una pregunta de una sesión con tutor (`tutorFallos`) pone las preguntas de esa sesión en el
+  repaso de hoy.
 - Solo entran preguntas `mc`, `img` y `multi`; las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
 
 - `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
@@ -217,7 +223,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.1.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.2.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
