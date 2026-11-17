@@ -1,0 +1,545 @@
+{
+ "capitulo": 1,
+ "titulo": "Los siniestros de tránsito",
+ "paginas": [
+  6,
+  9
+ ],
+ "sesiones": [
+  {
+   "id": "c1s1",
+   "titulo": "Siniestros, no accidentes"
+  },
+  {
+   "id": "c1s2",
+   "titulo": "Un problema en el mundo y en Chile"
+  },
+  {
+   "id": "c1s3",
+   "titulo": "Los costos de los siniestros"
+  },
+  {
+   "id": "c1s4",
+   "titulo": "Cuántos siniestros y dónde ocurren"
+  },
+  {
+   "id": "c1s5",
+   "titulo": "Siniestros en relación a la velocidad del vehículo"
+  },
+  {
+   "id": "c1s6",
+   "titulo": "Cuándo ocurren y por qué"
+  },
+  {
+   "id": "c1s7",
+   "titulo": "Sistema Seguro"
+  }
+ ],
+ "datos": [
+  {
+   "id": "c1-01",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-36"
+   ],
+   "cita": "Se define accidente como: “suceso eventual del que involuntariamente resulta un daño” y se le asocia a un fenómeno casual e impredecible."
+  },
+  {
+   "id": "c1-02",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-01"
+   ],
+   "cita": "hemos cambiado el concepto por siniestros, para relevar la importancia de sus efectos negativos y la responsabilidad de cada persona usuaria de las vías."
+  },
+  {
+   "id": "c1-03",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-16"
+   ],
+   "cita": "¿cómo podríamos explicar por qué aumentan cuando llueve?, ¿por qué hay tantas personas fallecidas por siniestros de tránsito durante las noches, cuando es el período con menor flujo de vehículos? o ¿por qué las personas que han bebido alcohol tienen más siniestros?"
+  },
+  {
+   "id": "c1-04",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-02"
+   ],
+   "cita": "La mayoría de las muertes producidas por los siniestros de tránsito podría haberse evitado."
+  },
+  {
+   "id": "c1-05",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-37"
+   ],
+   "cita": "Si un siniestro de tránsito fuera un suceso eventual, la probabilidad de sufrir un siniestro dependería sólo de la cantidad de tiempo que pasemos al volante, pero no es así."
+  },
+  {
+   "id": "c1-06",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-17"
+   ],
+   "cita": "La conducción de un vehículo implica responsabilidad colectiva"
+  },
+  {
+   "id": "c1-07",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-18"
+   ],
+   "cita": "más de 3.000 personas fallecen cada día en el mundo como consecuencia de los siniestros de tránsito"
+  },
+  {
+   "id": "c1-08",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-38"
+   ],
+   "cita": "Éstos son la primera causa de muerte en los jóvenes."
+  },
+  {
+   "id": "c1-09",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-39"
+   ],
+   "cita": "califican la situación de las personas involucradas en siniestros de tránsito como un problema prioritario de salud pública en todo el mundo."
+  },
+  {
+   "id": "c1-10",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-07"
+   ],
+   "cita": "En la población infantil, entre 1 a 14 años, representa la primera causa de muerte"
+  },
+  {
+   "id": "c1-11",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-19"
+   ],
+   "cita": "en la población joven, entre 15 y 29 años, la segunda causa de muerte después de los suicidios."
+  },
+  {
+   "id": "c1-12",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-20"
+   ],
+   "cita": "queda discapacitada de por vida y, sin embargo, aparecen en las cifras sólo como “lesionados”."
+  },
+  {
+   "id": "c1-48",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-50"
+   ],
+   "cita": "Los siniestros de tránsito tienen poco de azarosos o de impredecibles."
+  },
+  {
+   "id": "c1-49",
+   "p": 6,
+   "s": "c1s1",
+   "q": [
+    "u1-51"
+   ],
+   "cita": "Para reducir la posibilidad de sufrir un siniestro de tránsito, debes evitar los factores de riesgo, detallados a lo largo de este libro."
+  },
+  {
+   "id": "c1-50",
+   "p": 6,
+   "s": "c1s2",
+   "q": [
+    "u1-52"
+   ],
+   "cita": "En general, no existe consciencia sobre la magnitud del problema de los siniestros de tránsito en el mundo."
+  },
+  {
+   "id": "c1-13",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-21"
+   ],
+   "cita": "por cada persona fallecida, unas 100 cercanas a ellas sufren dolor"
+  },
+  {
+   "id": "c1-14",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-15"
+   ],
+   "cita": "Se estima que en Chile los costos de los siniestros de tránsito alcanzan el 2% del PIB según las cifras de la OMS."
+  },
+  {
+   "id": "c1-15",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-22"
+   ],
+   "cita": "cada persona paga una media de poco más de 6 millones de pesos anuales"
+  },
+  {
+   "id": "c1-16",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-23"
+   ],
+   "cita": "Costos materiales"
+  },
+  {
+   "id": "c1-17",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-40"
+   ],
+   "cita": "no todos ellos pueden ser valorizados monetariamente."
+  },
+  {
+   "id": "c1-51",
+   "p": 7,
+   "s": "c1s3",
+   "q": [
+    "u1-53",
+    "u1-23"
+   ],
+   "cita": "Costos administrativos Costos humanos Policía y bomberos. Gestión de seguros. Legales: Jueces, abogados, etc."
+  },
+  {
+   "id": "c1-18",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-24"
+   ],
+   "cita": "Anualmente en Chile se registran más de 82.000 siniestros."
+  },
+  {
+   "id": "c1-19",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-03"
+   ],
+   "cita": "fallecen aproximadamente 1.600 personas"
+  },
+  {
+   "id": "c1-20",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-41"
+   ],
+   "cita": "diariamente mueren entre 4 y 5 personas en las vías públicas."
+  },
+  {
+   "id": "c1-21",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-25"
+   ],
+   "cita": "En promedio 450 de ellas son atropelladas."
+  },
+  {
+   "id": "c1-22",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-05"
+   ],
+   "cita": "La mayor parte de las personas fallecidas por siniestros de tránsito se produce en vías interurbanas o no urbanas."
+  },
+  {
+   "id": "c1-23",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-26"
+   ],
+   "cita": "aproximadamente 7.700 personas resultaron lesionadas graves"
+  },
+  {
+   "id": "c1-24",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-04"
+   ],
+   "cita": "la mayor cantidad de siniestros, aproximadamente un 80%, se produce en vías o áreas urbanas; de éstos, la mayoría se registra en los cruces de calles o intersecciones."
+  },
+  {
+   "id": "c1-25",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-42"
+   ],
+   "cita": "Sólo un 20% de los siniestros se produce en zonas no urbanas (rural)."
+  },
+  {
+   "id": "c1-26",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-27",
+    "u1-43"
+   ],
+   "cita": "También en vías urbanas se produce la mayor cantidad de lesionados, sobre 35.000 en promedio al año, sin embargo éstos en su mayoría son de menor gravedad que los lesionados en carreteras."
+  },
+  {
+   "id": "c1-27",
+   "p": 8,
+   "s": "c1s5",
+   "q": [
+    "u1-08"
+   ],
+   "cita": "La probabilidad de que un peatón muera atropellado se multiplica por ocho cuando la velocidad del vehículo sube de 30 a 50 km/h."
+  },
+  {
+   "id": "c1-28",
+   "p": 8,
+   "s": "c1s5",
+   "q": [
+    "u1-09"
+   ],
+   "cita": "Peatones tienen 90% de posibilidades de sobrevivir a impactos a 30 km/h o menos."
+  },
+  {
+   "id": "c1-29",
+   "p": 8,
+   "s": "c1s5",
+   "q": [
+    "u1-32"
+   ],
+   "cita": "Peatones tienen menos del 50% de probabilidades de sobrevivir a un choque a 45 km/h o más."
+  },
+  {
+   "id": "c1-30",
+   "p": 8,
+   "s": "c1s5",
+   "q": [
+    "u1-10"
+   ],
+   "cita": "A una velocidad de 65 km/h lo más probable es que un peatón atropellado muera."
+  },
+  {
+   "id": "c1-31",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-28"
+   ],
+   "cita": "como los fines de semana (normales o largos), durante la noche y la madrugada o situaciones de escaso flujo vehicular."
+  },
+  {
+   "id": "c1-32",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-06"
+   ],
+   "cita": "la falla humana está presente en más del 90% de los siniestros de tránsito"
+  },
+  {
+   "id": "c1-33",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-14"
+   ],
+   "cita": "involucrando mayormente a jóvenes, entre 18 y 29 años. Éstos representan aproximadamente el 29% del total de las personas conductoras fallecidas"
+  },
+  {
+   "id": "c1-34",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-30"
+   ],
+   "cita": "cerca del 79% de las personas conductoras fallecidas en siniestros de tránsito son varones."
+  },
+  {
+   "id": "c1-35",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-29"
+   ],
+   "cita": "La imprudencia de quien conduce, el consumo de alcohol al conducir y la desobediencia a las señales del tránsito son unos de los factores de mayor incidencia en la ocurrencia de siniestros."
+  },
+  {
+   "id": "c1-36",
+   "p": 8,
+   "s": "c1s6",
+   "q": [
+    "u1-31"
+   ],
+   "cita": "quienes contabilizan los fallecidos sólo dentro de las 48 horas de producido el siniestro."
+  },
+  {
+   "id": "c1-52",
+   "p": 8,
+   "s": "c1s4",
+   "q": [
+    "u1-54"
+   ],
+   "cita": "Estas cifras pertenencen al promedio de los últimos 5 años, hasta el año 2022."
+  },
+  {
+   "id": "c1-37",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-33"
+   ],
+   "cita": "Desde la primera Política Nacional de Seguridad de Tránsito de 1993"
+  },
+  {
+   "id": "c1-38",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-44"
+   ],
+   "cita": "como el aumento de ciclistas, el crecimiento del parque vehicular y de motocicletas"
+  },
+  {
+   "id": "c1-39",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-45"
+   ],
+   "cita": "desde el año 2017, la nueva Política Nacional de Seguridad de Tránsito se encuentra alineada con el enfoque de Sistema Seguro"
+  },
+  {
+   "id": "c1-40",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-46"
+   ],
+   "cita": "establece como principio ético que las muertes y lesiones graves en el tránsito son inaceptables."
+  },
+  {
+   "id": "c1-41",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-11"
+   ],
+   "cita": "Dicho enfoque es conocido mundialmente como la Visión Cero."
+  },
+  {
+   "id": "c1-42",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-34"
+   ],
+   "cita": "en vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación."
+  },
+  {
+   "id": "c1-43",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-35"
+   ],
+   "cita": "garantizar que las fuerzas del impacto no excedan los límites que el cuerpo humano puede resistir antes que se ocasionen lesiones graves o la muerte."
+  },
+  {
+   "id": "c1-44",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-12",
+    "u1-13"
+   ],
+   "cita": "Los seres humanos cometemos errores, los que pueden derivar en un siniestro de tránsito."
+  },
+  {
+   "id": "c1-45",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-13",
+    "u1-47"
+   ],
+   "cita": "El cuerpo humano por naturaleza tiene una capacidad limitada para soportar las fuerzas de un impacto antes de que el daño ocurra."
+  },
+  {
+   "id": "c1-46",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-13",
+    "u1-48"
+   ],
+   "cita": "Existe una responsabilidad compartida entre quienes diseñan, construyen, administran y usan las vías y los vehículos, junto con quienes brindan atención luego de ocurrido el siniestro de tránsito"
+  },
+  {
+   "id": "c1-47",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-13",
+    "u1-49"
+   ],
+   "cita": "Todos los componentes del sistema deben estar fortalecidos y si uno falla, las otras partes continúan protegiendo a las personas involucradas."
+  },
+  {
+   "id": "c1-53",
+   "p": 9,
+   "s": "c1s7",
+   "q": [
+    "u1-55"
+   ],
+   "cita": "los seres humanos cometen errores y que la mayoría de estos siniestros se producen por una equivocación."
+  }
+ ],
+ "sin_dato": [
+  {
+   "cita": "Si este dinero fuera invertido en educación, vivienda, salud y/o ayudas sociales, imagina el beneficio que representaría para nuestra sociedad.",
+   "motivo": "reflexión, no es un dato"
+  },
+  {
+   "cita": "(1) Fuente: Seguridad Vial para Nuevos Conductores (INTRAS, DGT, España).",
+   "motivo": "fuente del cuadro"
+  },
+  {
+   "cita": "Lo que ha significado numerosos cambios a la normativa relacionados con el tránsito en nuestro país.",
+   "motivo": "no especifica qué cambios"
+  },
+  {
+   "cita": "En Chile, al igual que en el resto del mundo, los siniestros de tránsito constituyen una de las principales causas de mortalidad.",
+   "motivo": "general; el detalle por edades está en c1-10 y c1-11"
+  },
+  {
+   "cita": "Personas fallecidas 37% 63% Cantidad de siniestros 20% 80%",
+   "motivo": "gráfico sin rótulos de qué porcentaje corresponde a cada zona; se usan solo los valores que el texto explica (c1-22, c1-24, c1-25)"
+  }
+ ]
+}

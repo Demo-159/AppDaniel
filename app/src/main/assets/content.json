@@ -962,14 +962,14 @@
    "unit": "u1",
    "lesson": 0,
    "type": "mc",
-   "prompt": "¿Por qué el libro habla de “siniestros” y no de “accidentes” de tránsito?",
+   "prompt": "¿Por qué el libro cambió el concepto “accidente” por “siniestro”?",
    "options": [
-    "Porque la mayoría tiene causas conocidas y se puede evitar",
-    "Porque así se llaman legalmente los choques con heridos",
-    "Porque “accidente” se usa solo para hechos en carretera",
-    "Porque “siniestro” indica que hubo daños materiales graves"
+    "Para relevar sus efectos negativos y la responsabilidad de cada persona usuaria",
+    "Porque así se llaman legalmente los choques en que hay personas heridas",
+    "Porque “accidente” se usa solo para los hechos ocurridos en carreteras",
+    "Porque “siniestro” indica que hubo daños materiales graves en el choque"
    ],
-   "explain": "Un accidente se asocia a algo casual e impredecible. Los siniestros tienen causas estudiadas y la mayoría se pueden evitar.",
+   "explain": "El libro cambió el concepto para relevar la importancia de sus efectos negativos y la responsabilidad de cada persona usuaria de las vías.",
    "page": 6
   },
   {
@@ -1144,7 +1144,7 @@
     ],
     [
      "Responsabilidad compartida",
-     "Diseñadores, usuarios y rescatistas"
+     "Diseñan, usan y atienden siniestros"
     ],
     [
      "Sistema reforzado",
@@ -1457,12 +1457,12 @@
    "type": "mc",
    "prompt": "En el Sistema Seguro, en vez de solo corregir los errores humanos, ¿qué se busca?",
    "options": [
-    "Diseñar un sistema que reduzca el riesgo de circular",
+    "Abordar el riesgo inherente a la circulación",
     "Endurecer las multas hasta eliminar los errores",
-    "Formar conductores que no se equivoquen",
+    "Formar conductores que nunca se equivoquen",
     "Permitir conducir solo a personas expertas"
    ],
-   "explain": "Es un cambio de paradigma: se asume que las personas se equivocan.",
+   "explain": "En vez de corregir los errores humanos, el enfoque se ocupa de abordar el riesgo inherente a la circulación.",
    "page": 9
   },
   {
@@ -1478,6 +1478,271 @@
     "Que siempre se identifique al culpable"
    ],
    "explain": "Así se evitan muertes y lesiones graves.",
+   "page": 9
+  },
+  {
+   "id": "u1-36",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "Según el libro, ¿cómo se define un “accidente”?",
+   "options": [
+    "Suceso eventual del que involuntariamente resulta un daño",
+    "Choque entre vehículos que deja personas lesionadas",
+    "Hecho de tránsito causado por una falla mecánica",
+    "Suceso en la vía pública que deja daños materiales"
+   ],
+   "explain": "Se define accidente como “suceso eventual del que involuntariamente resulta un daño” y se le asocia a un fenómeno casual e impredecible.",
+   "page": 6
+  },
+  {
+   "id": "u1-37",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "La probabilidad de sufrir un siniestro depende solo de la cantidad de tiempo que pasamos al volante.",
+   "answer": false,
+   "explain": "Si fuera un suceso eventual dependería sólo del tiempo al volante, pero no es así.",
+   "page": 6
+  },
+  {
+   "id": "u1-38",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "En el mundo, los siniestros de tránsito son la primera causa de muerte en…",
+   "options": [
+    "Los jóvenes",
+    "Las personas mayores",
+    "Los peatones adultos",
+    "Los motociclistas"
+   ],
+   "explain": "Más de 3.000 personas fallecen cada día en el mundo por siniestros de tránsito, la primera causa de muerte en los jóvenes.",
+   "page": 6
+  },
+  {
+   "id": "u1-39",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "¿Cómo califica la OMS la situación de las personas involucradas en siniestros de tránsito?",
+   "options": [
+    "Un problema prioritario de salud pública",
+    "Un problema menor de orden público",
+    "Un asunto que solo afecta a cada país",
+    "Un problema solo de infraestructura vial"
+   ],
+   "explain": "La OMS la califica como un problema prioritario de salud pública en todo el mundo.",
+   "page": 6
+  },
+  {
+   "id": "u1-40",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "Todos los costos que provocan los siniestros de tránsito pueden valorizarse en dinero.",
+   "answer": false,
+   "explain": "No todos los costos pueden ser valorizados monetariamente, como el sufrimiento de lesionados, familiares y amigos.",
+   "page": 7
+  },
+  {
+   "id": "u1-41",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Cuántas personas mueren cada día en las vías públicas de Chile?",
+   "options": [
+    "Entre 4 y 5",
+    "Entre 1 y 2",
+    "Entre 8 y 10",
+    "Entre 12 y 15"
+   ],
+   "explain": "Fallecen aproximadamente 1.600 personas al año: diariamente mueren entre 4 y 5 personas en las vías públicas.",
+   "page": 8
+  },
+  {
+   "id": "u1-42",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Qué porcentaje de los siniestros se produce en zonas no urbanas (rural)?",
+   "options": [
+    "Sólo un 20%",
+    "Cerca del 50%",
+    "Cerca del 63%",
+    "Cerca del 80%"
+   ],
+   "explain": "Aproximadamente un 80% se produce en vías o áreas urbanas; sólo un 20% en zonas no urbanas (rural).",
+   "page": 8
+  },
+  {
+   "id": "u1-43",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "En promedio al año, ¿cuántos lesionados se producen en vías urbanas?",
+   "options": [
+    "Sobre 35.000",
+    "Sobre 7.700",
+    "Sobre 82.000",
+    "Sobre 1.600"
+   ],
+   "explain": "En vías urbanas se produce la mayor cantidad de lesionados, sobre 35.000 en promedio al año, en su mayoría de menor gravedad que en carreteras.",
+   "page": 8
+  },
+  {
+   "id": "u1-44",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Qué nuevos desafíos de movilidad menciona el libro?",
+   "options": [
+    "Más ciclistas, vehículos y motocicletas",
+    "Menos buses y menos transporte público",
+    "Calles más anchas y menos semáforos",
+    "Menos vehículos y peatones en las vías"
+   ],
+   "explain": "El aumento de ciclistas y el crecimiento del parque vehicular y de motocicletas.",
+   "page": 9
+  },
+  {
+   "id": "u1-45",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Desde qué año la Política Nacional de Seguridad de Tránsito está alineada con el enfoque Sistema Seguro?",
+   "options": [
+    "2017",
+    "1993",
+    "2006",
+    "2022"
+   ],
+   "explain": "La primera política es de 1993; desde 2017 la nueva política está alineada con el enfoque de Sistema Seguro.",
+   "page": 9
+  },
+  {
+   "id": "u1-46",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "¿Qué establece como principio ético el enfoque Sistema Seguro?",
+   "options": [
+    "Que las muertes y lesiones graves son inaceptables",
+    "Que todo siniestro debe tener una persona culpable",
+    "Que las multas deben ser más altas cada año",
+    "Que solo las personas expertas deben conducir"
+   ],
+   "explain": "Establece como principio ético que las muertes y lesiones graves en el tránsito son inaceptables (Visión Cero).",
+   "page": 9
+  },
+  {
+   "id": "u1-47",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "tf",
+   "prompt": "Según el Sistema Seguro, el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto.",
+   "answer": true,
+   "explain": "Es uno de sus principios: el cuerpo humano tiene una capacidad limitada para soportar las fuerzas de un impacto antes de que el daño ocurra.",
+   "page": 9
+  },
+  {
+   "id": "u1-48",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "Según el Sistema Seguro, ¿entre quiénes existe una responsabilidad compartida?",
+   "options": [
+    "Quienes diseñan, construyen, administran y usan las vías",
+    "Solo las personas que conducen vehículos motorizados",
+    "Solo Carabineros y los jueces de policía local",
+    "Solo las municipalidades y el Ministerio"
+   ],
+   "explain": "Entre quienes diseñan, construyen, administran y usan las vías y los vehículos, junto con quienes brindan atención luego del siniestro.",
+   "page": 9
+  },
+  {
+   "id": "u1-49",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "tf",
+   "prompt": "En el Sistema Seguro, si un componente falla, las otras partes continúan protegiendo a las personas.",
+   "answer": true,
+   "explain": "Todos los componentes del sistema deben estar fortalecidos y si uno falla, las otras partes continúan protegiendo a las personas involucradas.",
+   "page": 9
+  },
+  {
+   "id": "u1-50",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "Según el libro, los siniestros de tránsito son hechos azarosos e impredecibles.",
+   "answer": false,
+   "explain": "Los siniestros de tránsito tienen poco de azarosos o de impredecibles: se han estudiado las conductas y condiciones que los provocan.",
+   "page": 6
+  },
+  {
+   "id": "u1-51",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "Para reducir la posibilidad de sufrir un siniestro de tránsito, ¿qué debes evitar?",
+   "options": [
+    "Los factores de riesgo",
+    "Conducir por carreteras",
+    "Conducir en días hábiles",
+    "Las calles con mucho tráfico"
+   ],
+   "explain": "Para reducir la posibilidad de sufrir un siniestro de tránsito, debes evitar los factores de riesgo, detallados a lo largo del libro.",
+   "page": 6
+  },
+  {
+   "id": "u1-52",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "tf",
+   "prompt": "En general, existe plena consciencia sobre la magnitud del problema de los siniestros de tránsito en el mundo.",
+   "answer": false,
+   "explain": "En general, no existe consciencia sobre la magnitud del problema de los siniestros de tránsito en el mundo.",
+   "page": 6
+  },
+  {
+   "id": "u1-53",
+   "unit": "u1",
+   "lesson": 0,
+   "type": "mc",
+   "prompt": "La gestión de seguros y el trabajo de policía y bomberos son…",
+   "options": [
+    "Costos administrativos",
+    "Costos materiales",
+    "Costos de salud",
+    "Costos humanos"
+   ],
+   "explain": "Costos administrativos: policía y bomberos, gestión de seguros y legales (jueces, abogados, etc.).",
+   "page": 7
+  },
+  {
+   "id": "u1-54",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "mc",
+   "prompt": "Las cifras de siniestros del libro corresponden al promedio de…",
+   "options": [
+    "Los últimos 5 años, hasta 2022",
+    "Los últimos 10 años, hasta 2020",
+    "Los últimos 3 años, hasta 2023",
+    "Los últimos 2 años, hasta 2021"
+   ],
+   "explain": "Son el promedio de los últimos 5 años, hasta el año 2022, según las estadísticas de Carabineros de Chile.",
+   "page": 8
+  },
+  {
+   "id": "u1-55",
+   "unit": "u1",
+   "lesson": 1,
+   "type": "tf",
+   "prompt": "Según el Sistema Seguro, la mayoría de los siniestros se producen por una equivocación.",
+   "answer": true,
+   "explain": "Supone un cambio de paradigma: los seres humanos cometen errores y la mayoría de estos siniestros se producen por una equivocación.",
    "page": 9
   },
   {
