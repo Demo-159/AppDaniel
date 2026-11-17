@@ -1,0 +1,514 @@
+{
+ "capitulo": 12,
+ "titulo": "Figuras del libro (preguntas con imagen)",
+ "unidades": [],
+ "paginas": [
+  12,
+  112
+ ],
+ "sesiones": [
+  {
+   "id": "f1",
+   "titulo": "Testigos e indicadores del vehículo"
+  },
+  {
+   "id": "f2",
+   "titulo": "Carabineros y semáforos"
+  },
+  {
+   "id": "f3",
+   "titulo": "Demarcaciones"
+  },
+  {
+   "id": "f4",
+   "titulo": "Señales de brazo y de estacionamiento"
+  },
+  {
+   "id": "f5",
+   "titulo": "Luces de otros vehículos"
+  }
+ ],
+ "datos": [
+  {
+   "id": "fig-00",
+   "p": 12,
+   "s": "f1",
+   "q": [
+    "u2-f00"
+   ],
+   "cita": "Testigo batería",
+   "imagen": "img/figuras/p12_0.webp"
+  },
+  {
+   "id": "fig-01",
+   "p": 12,
+   "s": "f1",
+   "q": [
+    "u2-f01"
+   ],
+   "cita": "Testigo presión de aceite",
+   "imagen": "img/figuras/p12_1.webp"
+  },
+  {
+   "id": "fig-02",
+   "p": 16,
+   "s": "f1",
+   "q": [
+    "u2-f02"
+   ],
+   "cita": "Testigo pastillas de freno desgastadas",
+   "imagen": "img/figuras/p16_0.webp"
+  },
+  {
+   "id": "fig-03",
+   "p": 16,
+   "s": "f1",
+   "q": [
+    "u2-f03"
+   ],
+   "cita": "Testigo freno de mano",
+   "imagen": "img/figuras/p16_1.webp"
+  },
+  {
+   "id": "fig-04",
+   "p": 16,
+   "s": "f1",
+   "q": [
+    "u2-f04"
+   ],
+   "cita": "Testigo error en sistema de frenos ABS",
+   "imagen": "img/figuras/p16_2.webp"
+  },
+  {
+   "id": "fig-05",
+   "p": 19,
+   "s": "f1",
+   "q": [
+    "u2-f05"
+   ],
+   "cita": "Testigo presión de neumáticos",
+   "imagen": "img/figuras/p19_0.webp"
+  },
+  {
+   "id": "fig-06",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f06"
+   ],
+   "cita": "Testigo luces neblineras encendidas",
+   "imagen": "img/figuras/p21_0.webp"
+  },
+  {
+   "id": "fig-07",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f07"
+   ],
+   "cita": "Testigo luces de posición y cruce encendidas",
+   "imagen": "img/figuras/p21_1.webp"
+  },
+  {
+   "id": "fig-08",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f08"
+   ],
+   "cita": "Testigo luces altas encendidas",
+   "imagen": "img/figuras/p21_2.webp"
+  },
+  {
+   "id": "fig-09",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f09"
+   ],
+   "cita": "Testigo luces bajas encendidas",
+   "imagen": "img/figuras/p21_3.webp"
+  },
+  {
+   "id": "fig-10",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f10"
+   ],
+   "cita": "Testigo avería de luces exteriores",
+   "imagen": "img/figuras/p21_4.webp"
+  },
+  {
+   "id": "fig-11",
+   "p": 21,
+   "s": "f1",
+   "q": [
+    "u2-f11"
+   ],
+   "cita": "Testigo luces de advertencia de peligro",
+   "imagen": "img/figuras/p21_5.webp"
+  },
+  {
+   "id": "fig-12",
+   "p": 30,
+   "s": "f1",
+   "q": [
+    "u2-f12"
+   ],
+   "cita": "Testigo del Airbag",
+   "imagen": "img/figuras/p30_0.webp"
+  },
+  {
+   "id": "fig-13",
+   "p": 13,
+   "s": "f1",
+   "q": [
+    "u2-f13"
+   ],
+   "cita": "En el indicador de combustible, la letra E significa vacío, del inglés “Empty”",
+   "imagen": "img/figuras/p13_0.webp"
+  },
+  {
+   "id": "fig-14",
+   "p": 18,
+   "s": "f1",
+   "q": [
+    "u2-f14"
+   ],
+   "cita": "presión de los neumáticos Presión de aire demasiado baja",
+   "imagen": "img/figuras/p18_0.webp"
+  },
+  {
+   "id": "fig-15",
+   "p": 18,
+   "s": "f1",
+   "q": [
+    "u2-f15"
+   ],
+   "cita": "Se pierde la adherencia de los neumáticos.",
+   "imagen": "img/figuras/p18_24.webp"
+  },
+  {
+   "id": "fig-16",
+   "p": 77,
+   "s": "f2",
+   "q": [
+    "u7-f16"
+   ],
+   "cita": "Carabineros vistos de frente o de espalda: indican detención.",
+   "imagen": "img/figuras/p77_0.webp"
+  },
+  {
+   "id": "fig-17",
+   "p": 77,
+   "s": "f2",
+   "q": [
+    "u7-f17"
+   ],
+   "cita": "Carabinero con el brazo en alto: indica advertencia.",
+   "imagen": "img/figuras/p77_2.webp"
+  },
+  {
+   "id": "fig-18",
+   "p": 77,
+   "s": "f2",
+   "q": [
+    "u7-f18"
+   ],
+   "cita": "Carabinera vista de costado: autoriza para avanzar.",
+   "imagen": "img/figuras/p77_3.webp"
+  },
+  {
+   "id": "fig-19",
+   "p": 78,
+   "s": "f2",
+   "q": [
+    "u7-f19"
+   ],
+   "cita": "Luz verde: Indica paso.",
+   "imagen": "img/figuras/p78_1.webp"
+  },
+  {
+   "id": "fig-20",
+   "p": 78,
+   "s": "f2",
+   "q": [
+    "u7-f20"
+   ],
+   "cita": "Luz amarilla: Indica prevención.",
+   "imagen": "img/figuras/p78_0.webp"
+  },
+  {
+   "id": "fig-21",
+   "p": 78,
+   "s": "f2",
+   "q": [
+    "u7-f21"
+   ],
+   "cita": "Luz roja: Indica detención.",
+   "imagen": "img/figuras/p78_2.webp"
+  },
+  {
+   "id": "fig-22",
+   "p": 79,
+   "s": "f2",
+   "q": [
+    "u7-f22"
+   ],
+   "cita": "pero sólo para continuar en la dirección indicada por la flecha",
+   "imagen": "img/figuras/p79_1.webp"
+  },
+  {
+   "id": "fig-23",
+   "p": 79,
+   "s": "f2",
+   "q": [
+    "u7-f23"
+   ],
+   "cita": "Semáforo con cabezal para ciclistas",
+   "imagen": "img/figuras/p79_0.webp"
+  },
+  {
+   "id": "fig-24",
+   "p": 79,
+   "s": "f2",
+   "q": [
+    "u7-f24"
+   ],
+   "cita": "la blanca indica que no se acerca alguno, lo que no significa que se pueda pasar sin peligro.",
+   "imagen": "img/figuras/p79_4.webp"
+  },
+  {
+   "id": "fig-25",
+   "p": 80,
+   "s": "f2",
+   "q": [
+    "u7-f25"
+   ],
+   "cita": "Estos semáforos afectan sólo a los vehículos que circulan por la pista exclusiva.",
+   "imagen": "img/figuras/p80_1.webp"
+  },
+  {
+   "id": "fig-26",
+   "p": 80,
+   "s": "f2",
+   "q": [
+    "u7-f26"
+   ],
+   "cita": "La equis, usualmente de color rojo, indica que la pista está cerrada.",
+   "imagen": "img/figuras/p80_0.webp"
+  },
+  {
+   "id": "fig-27",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f27"
+   ],
+   "cita": "Puedes traspasar estas líneas y cambiar de pista",
+   "imagen": "img/figuras/p82_1.webp"
+  },
+  {
+   "id": "fig-28",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f28"
+   ],
+   "cita": "e indican que no existen condiciones de seguridad para que pueda ser traspasada.",
+   "imagen": "img/figuras/p82_4.webp"
+  },
+  {
+   "id": "fig-29",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f29"
+   ],
+   "cita": "sólo puede ser traspasada por los vehículos que circulan por el lado en que esta es segmentada.",
+   "imagen": "img/figuras/p82_5.webp"
+  },
+  {
+   "id": "fig-30",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f30"
+   ],
+   "cita": "No debes circular por esta franja de seguridad lateral.",
+   "imagen": "img/figuras/p82_0.webp"
+  },
+  {
+   "id": "fig-31",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f31"
+   ],
+   "cita": "en caminos de montaña donde la nieve es frecuente",
+   "imagen": "img/figuras/p82_2.webp"
+  },
+  {
+   "id": "fig-32",
+   "p": 82,
+   "s": "f3",
+   "q": [
+    "u7-f32"
+   ],
+   "cita": "con el propósito de señalar la prohibición de estacionar a lo largo de esta",
+   "imagen": "img/figuras/p82_3.webp"
+  },
+  {
+   "id": "fig-33",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f33"
+   ],
+   "cita": "la línea blanca trasversal a la calzada que determina la línea de detención",
+   "imagen": "img/figuras/p83_5.webp"
+  },
+  {
+   "id": "fig-34",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f34"
+   ],
+   "cita": "zona de espera especial para personas conductoras de ciclos y/o motociletas",
+   "imagen": "img/figuras/p83_6.webp"
+  },
+  {
+   "id": "fig-35",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f35"
+   ],
+   "cita": "En un paso de cebra, las y los peatones tienen prioridad.",
+   "imagen": "img/figuras/p83_0.webp"
+  },
+  {
+   "id": "fig-36",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f36"
+   ],
+   "cita": "a fin de no quedar detenidas en la intersección.",
+   "imagen": "img/figuras/p83_2.webp"
+  },
+  {
+   "id": "fig-37",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f37"
+   ],
+   "cita": "Demarcación de símbolos y leyendas",
+   "imagen": "img/figuras/p83_1.webp"
+  },
+  {
+   "id": "fig-38",
+   "p": 83,
+   "s": "f3",
+   "q": [
+    "u7-f38"
+   ],
+   "cita": "No debes circular, menos aún estacionar, sobre estas áreas achuradas",
+   "imagen": "img/figuras/p83_4.webp"
+  },
+  {
+   "id": "fig-39",
+   "p": 86,
+   "s": "f4",
+   "q": [
+    "u8-f39"
+   ],
+   "cita": "Brazo extendido horizontalmente indica viraje a la izquierda.",
+   "imagen": "img/figuras/p86_5.webp"
+  },
+  {
+   "id": "fig-40",
+   "p": 86,
+   "s": "f4",
+   "q": [
+    "u8-f40"
+   ],
+   "cita": "Brazo en ángulo recto hacia arriba indica viraje a la derecha.",
+   "imagen": "img/figuras/p86_3.webp"
+  },
+  {
+   "id": "fig-41",
+   "p": 86,
+   "s": "f4",
+   "q": [
+    "u8-f41"
+   ],
+   "cita": "Brazo extendido hacia abajo indica disminución de velocidad o detención.",
+   "imagen": "img/figuras/p86_4.webp"
+  },
+  {
+   "id": "fig-42",
+   "p": 105,
+   "s": "f4",
+   "q": [
+    "u9-f42"
+   ],
+   "cita": "La señal anterior puede complementarse con leyendas que limiten el alcance de la prohibición",
+   "imagen": "img/figuras/p105_4.webp"
+  },
+  {
+   "id": "fig-43",
+   "p": 105,
+   "s": "f4",
+   "q": [
+    "u9-f43"
+   ],
+   "cita": "Puedes estacionar donde exista esta señal, pero debes permanecer en tu vehículo",
+   "imagen": "img/figuras/p105_5.webp"
+  },
+  {
+   "id": "fig-44",
+   "p": 112,
+   "s": "f5",
+   "q": [
+    "u10-f44"
+   ],
+   "cita": "que indican el ancho y altura máxima.",
+   "imagen": "img/figuras/p112_0.webp"
+  },
+  {
+   "id": "fig-45",
+   "p": 112,
+   "s": "f5",
+   "q": [
+    "u10-f45"
+   ],
+   "cita": "Parte trasera: luz roja fija, luz de freno y dos luces destellantes de viraje.",
+   "imagen": "img/figuras/p112_1.webp"
+  },
+  {
+   "id": "fig-46",
+   "p": 112,
+   "s": "f5",
+   "q": [
+    "u10-f46"
+   ],
+   "cita": "Parte delantera: un foco que proyecta luz frontal. Parte trasera: luz roja fija.",
+   "imagen": "img/figuras/p112_3.webp"
+  },
+  {
+   "id": "fig-47",
+   "p": 112,
+   "s": "f5",
+   "q": [
+    "u10-f47"
+   ],
+   "cita": "es importante que instales con anticipación el triángulo para casos de emergencia.",
+   "imagen": "img/figuras/p112_4.webp"
+  }
+ ],
+ "sin_dato": []
+}

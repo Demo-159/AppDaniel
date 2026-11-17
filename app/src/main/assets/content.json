@@ -15734,6 +15734,774 @@
    "explain": "Es la señal Fin de desvío (transitoria).",
    "page": 160,
    "image": "img/senales/s195.webp"
+  },
+  {
+   "id": "u2-f00",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Batería",
+    "Presión de aceite",
+    "Error en sistema de frenos ABS",
+    "Avería de luces exteriores"
+   ],
+   "explain": "Es el testigo de batería.",
+   "page": 12,
+   "image": "img/figuras/p12_0.webp"
+  },
+  {
+   "id": "u2-f01",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Presión de aceite",
+    "Batería",
+    "Presión de neumáticos",
+    "Pastillas de freno desgastadas"
+   ],
+   "explain": "Es el testigo de presión de aceite.",
+   "page": 12,
+   "image": "img/figuras/p12_1.webp"
+  },
+  {
+   "id": "u2-f02",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Pastillas de freno desgastadas",
+    "Freno de mano",
+    "Error en sistema de frenos ABS",
+    "Presión de neumáticos"
+   ],
+   "explain": "Es el testigo de pastillas de freno desgastadas.",
+   "page": 16,
+   "image": "img/figuras/p16_0.webp"
+  },
+  {
+   "id": "u2-f03",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Freno de mano",
+    "Pastillas de freno desgastadas",
+    "Presión de neumáticos",
+    "Luces de advertencia de peligro"
+   ],
+   "explain": "Es el testigo de freno de mano.",
+   "page": 16,
+   "image": "img/figuras/p16_1.webp"
+  },
+  {
+   "id": "u2-f04",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Error en sistema de frenos ABS",
+    "Pastillas de freno desgastadas",
+    "Freno de mano",
+    "Presión de aceite"
+   ],
+   "explain": "Es el testigo de error en sistema de frenos abs.",
+   "page": 16,
+   "image": "img/figuras/p16_2.webp"
+  },
+  {
+   "id": "u2-f05",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Presión de neumáticos",
+    "Freno de mano",
+    "Pastillas de freno desgastadas",
+    "Presión de aceite"
+   ],
+   "explain": "Es el testigo de presión de neumáticos.",
+   "page": 19,
+   "image": "img/figuras/p19_0.webp"
+  },
+  {
+   "id": "u2-f06",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Luces neblineras encendidas",
+    "Luces bajas encendidas",
+    "Luces altas encendidas",
+    "Luces de posición y cruce encendidas"
+   ],
+   "explain": "Es el testigo de luces neblineras encendidas.",
+   "page": 21,
+   "image": "img/figuras/p21_0.webp"
+  },
+  {
+   "id": "u2-f07",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Luces de posición y cruce encendidas",
+    "Luces neblineras delanteras encendidas",
+    "Luces altas encendidas",
+    "Avería de luces exteriores"
+   ],
+   "explain": "Es el testigo de luces de posición y cruce encendidas.",
+   "page": 21,
+   "image": "img/figuras/p21_1.webp"
+  },
+  {
+   "id": "u2-f08",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Luces altas encendidas",
+    "Luces bajas encendidas",
+    "Luces neblineras encendidas",
+    "Luces de posición y cruce encendidas"
+   ],
+   "explain": "Es el testigo de luces altas encendidas.",
+   "page": 21,
+   "image": "img/figuras/p21_2.webp"
+  },
+  {
+   "id": "u2-f09",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Luces bajas encendidas",
+    "Luces altas encendidas",
+    "Luces neblineras encendidas",
+    "Avería de luces exteriores"
+   ],
+   "explain": "Es el testigo de luces bajas encendidas.",
+   "page": 21,
+   "image": "img/figuras/p21_3.webp"
+  },
+  {
+   "id": "u2-f10",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Avería de luces exteriores",
+    "Presión de aceite",
+    "Luces neblineras encendidas",
+    "Luces de advertencia de peligro"
+   ],
+   "explain": "Es el testigo de avería de luces exteriores.",
+   "page": 21,
+   "image": "img/figuras/p21_4.webp"
+  },
+  {
+   "id": "u2-f11",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Luces de advertencia de peligro",
+    "Avería de luces exteriores",
+    "Error en sistema de frenos ABS",
+    "Freno de mano"
+   ],
+   "explain": "Es el testigo de luces de advertencia de peligro.",
+   "page": 21,
+   "image": "img/figuras/p21_5.webp"
+  },
+  {
+   "id": "u2-f12",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica este testigo del panel?",
+   "options": [
+    "Airbag",
+    "Batería",
+    "Freno de mano",
+    "Presión de neumáticos"
+   ],
+   "explain": "Es el testigo de airbag.",
+   "page": 30,
+   "image": "img/figuras/p30_0.webp"
+  },
+  {
+   "id": "u2-f13",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "En este indicador de combustible, ¿qué significa la letra E?",
+   "options": [
+    "Vacío (Empty)",
+    "Lleno (Full)",
+    "Encendido",
+    "Eléctrico"
+   ],
+   "explain": "E significa vacío, del inglés “Empty”, y F estanque lleno, del inglés “Full”.",
+   "page": 13,
+   "image": "img/figuras/p13_0.webp"
+  },
+  {
+   "id": "u2-f14",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Este dibujo del libro muestra un neumático con presión de aire…",
+   "options": [
+    "Demasiado baja",
+    "Correcta",
+    "Demasiado alta",
+    "Igual en todo el año"
+   ],
+   "explain": "El libro compara neumáticos con presión demasiado baja, correcta y demasiado alta.",
+   "page": 18,
+   "image": "img/figuras/p18_0.webp"
+  },
+  {
+   "id": "u2-f15",
+   "unit": "u2",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Este dibujo del libro muestra un neumático con presión de aire…",
+   "options": [
+    "Demasiado alta",
+    "Correcta",
+    "Demasiado baja",
+    "Igual en todo el año"
+   ],
+   "explain": "Con presión demasiado alta se pierde la adherencia de los neumáticos.",
+   "page": 18,
+   "image": "img/figuras/p18_24.webp"
+  },
+  {
+   "id": "u7-f16",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica un carabinero en esta posición?",
+   "options": [
+    "Detención",
+    "Advertencia",
+    "Avanzar",
+    "Virar a la derecha"
+   ],
+   "explain": "Carabineros vistos de frente o de espalda indican detención.",
+   "page": 77,
+   "image": "img/figuras/p77_0.webp"
+  },
+  {
+   "id": "u7-f17",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica un carabinero en esta posición?",
+   "options": [
+    "Advertencia",
+    "Detención",
+    "Avanzar",
+    "Retroceder"
+   ],
+   "explain": "Con el brazo en alto indica advertencia: quienes están detenidos se preparan para avanzar y quienes tienen vía libre deben detenerse.",
+   "page": 77,
+   "image": "img/figuras/p77_2.webp"
+  },
+  {
+   "id": "u7-f18",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica una carabinera en esta posición?",
+   "options": [
+    "Avanzar",
+    "Detención",
+    "Advertencia",
+    "Retroceder"
+   ],
+   "explain": "Vista de costado, autoriza para avanzar.",
+   "page": 77,
+   "image": "img/figuras/p77_3.webp"
+  },
+  {
+   "id": "u7-f19",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta luz del semáforo?",
+   "options": [
+    "Paso",
+    "Detención",
+    "Prevención",
+    "Peligro"
+   ],
+   "explain": "Luz verde: indica paso. Aun así, no avances si después del cruce no tienes 10 metros libres.",
+   "page": 78,
+   "image": "img/figuras/p78_1.webp"
+  },
+  {
+   "id": "u7-f20",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta luz del semáforo?",
+   "options": [
+    "Prevención",
+    "Paso",
+    "Detención",
+    "Ceda el paso"
+   ],
+   "explain": "Luz amarilla: indica prevención; advierte que la roja aparecerá a continuación.",
+   "page": 78,
+   "image": "img/figuras/p78_0.webp"
+  },
+  {
+   "id": "u7-f21",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta luz del semáforo?",
+   "options": [
+    "Detención",
+    "Paso",
+    "Prevención",
+    "Ceda el paso"
+   ],
+   "explain": "Luz roja: detente antes de la línea de detención hasta que se encienda la verde.",
+   "page": 78,
+   "image": "img/figuras/p78_2.webp"
+  },
+  {
+   "id": "u7-f22",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Ante estas luces del semáforo, ¿qué puedes hacer?",
+   "options": [
+    "Avanzar solo hacia la flecha",
+    "Avanzar en cualquier dirección",
+    "Esperar la luz amarilla",
+    "Virar en U con cuidado"
+   ],
+   "explain": "Con luz roja y flecha verde puedes entrar al cruce solo para seguir la dirección de la flecha, respetando a peatones y vehículos.",
+   "page": 79,
+   "image": "img/figuras/p79_1.webp"
+  },
+  {
+   "id": "u7-f23",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Para quiénes es este cabezal del semáforo?",
+   "options": [
+    "Para ciclistas",
+    "Para buses",
+    "Para peatones",
+    "Para trenes"
+   ],
+   "explain": "Si estás virando, aunque tengas luz verde, los ciclistas tienen la preferencia.",
+   "page": 79,
+   "image": "img/figuras/p79_0.webp"
+  },
+  {
+   "id": "u7-f24",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "En un cruce ferroviario como este, si se enciende la luz blanca significa que…",
+   "options": [
+    "No se acerca un tren, pero igual verifica",
+    "Se acerca un tren y debes detenerte",
+    "El cruce está cerrado por trabajos",
+    "Puedes cruzar sin mirar a los lados"
+   ],
+   "explain": "La luz blanca indica que no se acerca un tren, lo que no significa que se pueda pasar sin peligro.",
+   "page": 79,
+   "image": "img/figuras/p79_4.webp"
+  },
+  {
+   "id": "u7-f25",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿A quiénes afecta este semáforo?",
+   "options": [
+    "Solo a la pista exclusiva de buses",
+    "A todos los vehículos del cruce",
+    "Solo a los ciclistas del cruce",
+    "Solo a los peatones del cruce"
+   ],
+   "explain": "Los semáforos para transporte público afectan solo a los vehículos de la pista exclusiva; el verde puede ser blanco.",
+   "page": 80,
+   "image": "img/figuras/p80_1.webp"
+  },
+  {
+   "id": "u7-f26",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "En esta señal de mensaje variable, ¿qué indica la equis roja?",
+   "options": [
+    "Que la pista está cerrada",
+    "Que la pista es exclusiva",
+    "Que viene un tren",
+    "Que se puede adelantar"
+   ],
+   "explain": "La equis indica pista cerrada; la flecha, vía abierta.",
+   "page": 80,
+   "image": "img/figuras/p80_0.webp"
+  },
+  {
+   "id": "u7-f27",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta línea blanca discontinua (1)?",
+   "options": [
+    "Puedes traspasarla con precaución",
+    "No puedes traspasarla nunca",
+    "Prohibido estacionar a su lado",
+    "Es solo para buses"
+   ],
+   "explain": "Puedes cambiar de pista advirtiendo antes y sin imponer riesgos.",
+   "page": 82,
+   "image": "img/figuras/p82_1.webp"
+  },
+  {
+   "id": "u7-f28",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta línea continua (2)?",
+   "options": [
+    "No existen condiciones para traspasarla",
+    "Puedes traspasarla con precaución",
+    "Solo pueden cruzarla los buses",
+    "Es una zona de estacionamiento"
+   ],
+   "explain": "Por ejemplo, por poca visibilidad antes de una curva o un cambio de rasante.",
+   "page": 82,
+   "image": "img/figuras/p82_4.webp"
+  },
+  {
+   "id": "u7-f29",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Con esta línea mixta (3), ¿quién puede traspasarla?",
+   "options": [
+    "Quien circula por el lado segmentado",
+    "Quien circula por el lado continuo",
+    "Nadie, en ningún caso",
+    "Todos, con precaución"
+   ],
+   "explain": "Solo los vehículos del lado en que la línea es segmentada.",
+   "page": 82,
+   "image": "img/figuras/p82_5.webp"
+  },
+  {
+   "id": "u7-f30",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "La línea (4) marca el borde de calzada. ¿Puedes circular por la berma?",
+   "options": [
+    "No; solo en emergencias en zona rural",
+    "Sí, si vas más lento",
+    "Sí, para adelantar por la derecha",
+    "Sí, de noche con luces"
+   ],
+   "explain": "No debes circular por esta franja; solo en áreas rurales y en emergencias puedes quedarte en la berma.",
+   "page": 82,
+   "image": "img/figuras/p82_0.webp"
+  },
+  {
+   "id": "u7-f31",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Dónde puedes encontrar demarcaciones amarillas como estas (5)?",
+   "options": [
+    "En caminos de montaña con nieve",
+    "En autopistas urbanas de alta velocidad",
+    "En pistas exclusivas de buses",
+    "En zonas escolares de la ciudad"
+   ],
+   "explain": "En caminos de montaña donde la nieve es frecuente, el eje y el borde pueden ser amarillos.",
+   "page": 82,
+   "image": "img/figuras/p82_2.webp"
+  },
+  {
+   "id": "u7-f32",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica esta franja amarilla continua en la solera (6)?",
+   "options": [
+    "Prohibido estacionar",
+    "Paso de peatones",
+    "Pista para ciclos",
+    "Zona de carga"
+   ],
+   "explain": "Señala la prohibición de estacionar a lo largo de ella.",
+   "page": 82,
+   "image": "img/figuras/p82_3.webp"
+  },
+  {
+   "id": "u7-f33",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué es la línea blanca transversal marcada (7)?",
+   "options": [
+    "La línea de detención",
+    "Un paso de cebra",
+    "El inicio de una ciclovía",
+    "Una zona de carga"
+   ],
+   "explain": "En un cruce con semáforo, los vehículos deben detenerse antes de ella.",
+   "page": 83,
+   "image": "img/figuras/p83_5.webp"
+  },
+  {
+   "id": "u7-f34",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Para quiénes es la zona marcada (8) entre la línea de detención y el paso de peatones?",
+   "options": [
+    "Para ciclos y/o motocicletas",
+    "Para buses de transporte público",
+    "Para vehículos de emergencia",
+    "Para estacionar un momento"
+   ],
+   "explain": "Es la zona de espera especial para personas conductoras de ciclos y/o motocicletas.",
+   "page": 83,
+   "image": "img/figuras/p83_6.webp"
+  },
+  {
+   "id": "u7-f35",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "En este paso de cebra (9), ¿quién tiene prioridad?",
+   "options": [
+    "Las y los peatones",
+    "Los vehículos",
+    "Quien llegue primero",
+    "Los buses"
+   ],
+   "explain": "¡No lo olvides! En un paso de cebra, las y los peatones tienen prioridad.",
+   "page": 83,
+   "image": "img/figuras/p83_0.webp"
+  },
+  {
+   "id": "u7-f36",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indican estas líneas amarillas en cuadros (10)?",
+   "options": [
+    "No quedar detenido en el cruce",
+    "Zona habilitada para estacionar",
+    "Paso especial de peatones",
+    "Zona exclusiva de buses"
+   ],
+   "explain": "Solo puedes cruzar si a la salida hay espacio suficiente para no quedar detenido en él.",
+   "page": 83,
+   "image": "img/figuras/p83_2.webp"
+  },
+  {
+   "id": "u7-f37",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué tipo de demarcación es la leyenda LENTO (11)?",
+   "options": [
+    "De símbolos y leyendas",
+    "De no bloquear cruce",
+    "De paso de cebra",
+    "De borde de calzada"
+   ],
+   "explain": "Indican maniobras permitidas y acciones que se deben realizar, y advierten peligros.",
+   "page": 83,
+   "image": "img/figuras/p83_1.webp"
+  },
+  {
+   "id": "u7-f38",
+   "unit": "u7",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Puedes circular sobre esta área achurada (13)?",
+   "options": [
+    "No, ni estacionar sobre ella",
+    "Sí, si hay mucha congestión",
+    "Sí, solo para adelantar",
+    "Sí, para detenerte un momento"
+   ],
+   "explain": "No debes circular, menos aún estacionar, sobre las áreas achuradas.",
+   "page": 83,
+   "image": "img/figuras/p83_4.webp"
+  },
+  {
+   "id": "u8-f39",
+   "unit": "u8",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica quien conduce con el brazo así?",
+   "options": [
+    "Viraje a la izquierda",
+    "Viraje a la derecha",
+    "Detención",
+    "Adelantamiento"
+   ],
+   "explain": "Brazo extendido horizontalmente: viraje a la izquierda.",
+   "page": 86,
+   "image": "img/figuras/p86_5.webp"
+  },
+  {
+   "id": "u8-f40",
+   "unit": "u8",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica quien conduce con el brazo así?",
+   "options": [
+    "Viraje a la derecha",
+    "Viraje a la izquierda",
+    "Detención",
+    "Adelantamiento"
+   ],
+   "explain": "Brazo en ángulo recto hacia arriba: viraje a la derecha.",
+   "page": 86,
+   "image": "img/figuras/p86_3.webp"
+  },
+  {
+   "id": "u8-f41",
+   "unit": "u8",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué indica quien conduce con el brazo así?",
+   "options": [
+    "Disminución de velocidad o detención",
+    "Viraje a la izquierda en el cruce",
+    "Viraje a la derecha en el cruce",
+    "Que lo puedes adelantar ahora"
+   ],
+   "explain": "Brazo extendido hacia abajo: disminución de velocidad o detención.",
+   "page": 86,
+   "image": "img/figuras/p86_4.webp"
+  },
+  {
+   "id": "u9-f42",
+   "unit": "u9",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué agrega la leyenda bajo esta señal?",
+   "options": [
+    "Limita la prohibición a ciertos horarios",
+    "Permite estacionar durante todo el día",
+    "Prohíbe también detenerse en el lugar",
+    "Reserva el lugar solo para los buses"
+   ],
+   "explain": "La señal puede complementarse con leyendas que limiten la prohibición a días u horarios.",
+   "page": 105,
+   "image": "img/figuras/p105_4.webp"
+  },
+  {
+   "id": "u9-f43",
+   "unit": "u9",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Donde está esta señal, ¿puedes estacionar?",
+   "options": [
+    "Sí, pero permaneciendo en el vehículo",
+    "Sí, todo el tiempo que quieras",
+    "No, nunca",
+    "Solo de noche"
+   ],
+   "explain": "Debes permanecer en tu vehículo para retirarlo cuando llegue quien goza de la reserva.",
+   "page": 105,
+   "image": "img/figuras/p105_5.webp"
+  },
+  {
+   "id": "u10-f44",
+   "unit": "u10",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Los vehículos de carga y locomoción colectiva llevan luces amarillas frontales arriba en los extremos. ¿Qué indican?",
+   "options": [
+    "Su ancho y altura máxima",
+    "Que van a virar",
+    "Que llevan carga peligrosa",
+    "Que van a detenerse"
+   ],
+   "explain": "También deben llevar luces rojas en los extremos superiores traseros.",
+   "page": 112,
+   "image": "img/figuras/p112_0.webp"
+  },
+  {
+   "id": "u10-f45",
+   "unit": "u10",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué luces debe llevar atrás este tipo de vehículo?",
+   "options": [
+    "Luz roja fija, de freno y dos de viraje",
+    "Solo una luz roja fija",
+    "Dos luces blancas de retroceso",
+    "Cuatro luces amarillas"
+   ],
+   "explain": "Motocicletas y motonetas: adelante un foco con luces altas y bajas; atrás luz roja fija, luz de freno y dos de viraje.",
+   "page": 112,
+   "image": "img/figuras/p112_1.webp"
+  },
+  {
+   "id": "u10-f46",
+   "unit": "u10",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "¿Qué luz debe llevar atrás este tipo de vehículo?",
+   "options": [
+    "Una luz roja fija",
+    "Una luz blanca fija",
+    "Dos luces de freno",
+    "Ninguna luz"
+   ],
+   "explain": "Triciclos y bicicletas: adelante un foco de luz frontal; atrás luz roja fija.",
+   "page": 112,
+   "image": "img/figuras/p112_3.webp"
+  },
+  {
+   "id": "u10-f47",
+   "unit": "u10",
+   "lesson": 0,
+   "type": "img",
+   "prompt": "Si tu vehículo sufre una falla y estacionas en una vía sin alumbrado, ¿qué debes instalar con anticipación?",
+   "options": [
+    "El triángulo para casos de emergencia",
+    "Un cono de color verde en la berma",
+    "Una luz neblinera trasera encendida",
+    "Una bandera de color blanco en el techo"
+   ],
+   "explain": "Estaciona al lado derecho y, si funciona el sistema eléctrico, enciende las intermitentes.",
+   "page": 112,
+   "image": "img/figuras/p112_4.webp"
   }
  ]
 }
