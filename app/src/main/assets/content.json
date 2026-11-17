@@ -1588,9 +1588,9 @@
    "prompt": "Para reducir la posibilidad de sufrir un siniestro de tránsito, ¿qué debes evitar?",
    "options": [
     "Los factores de riesgo",
-    "Conducir por carreteras",
-    "Conducir en días hábiles",
-    "Las calles con mucho tráfico"
+    "Las horas de mayor congestión",
+    "Los viajes de más de una hora",
+    "Las vías sin semáforos"
    ],
    "explain": "Para reducir la posibilidad de sufrir un siniestro de tránsito, debes evitar los factores de riesgo, detallados a lo largo del libro.",
    "page": 6
@@ -5055,9 +5055,9 @@
    "prompt": "¿Para qué fue diseñado el panel de instrumentos?",
    "options": [
     "Para alertarte sobre el estado de los sistemas del vehículo",
-    "Para mostrar solo la velocidad y la hora del viaje en curso",
-    "Para controlar la radio y el aire acondicionado",
-    "Para registrar las multas recibidas por el vehículo"
+    "Para mostrar solo la velocidad y el combustible restante",
+    "Para indicar en qué momento cambiar de marcha",
+    "Para registrar los kilómetros de cada viaje"
    ]
   },
   {
@@ -5072,7 +5072,7 @@
     "Atención inmediata, avería grave",
     "Un posible problema a revisar",
     "La puesta en funcionamiento",
-    "Que el viaje terminó sin fallas"
+    "Que corresponde hacer la mantención"
    ]
   },
   {
@@ -5147,7 +5147,7 @@
     "La batería esté descargada o desconectada",
     "Se haya quemado una ampolleta del tablero",
     "El nivel de aceite del motor esté bajo",
-    "Un neumático delantero tenga poca presión"
+    "El estanque de combustible esté en reserva"
    ]
   },
   {
@@ -5222,7 +5222,7 @@
     "Detener la marcha y reparar la avería",
     "Seguir conduciendo con el motor acelerado",
     "Agregar aceite y continuar el viaje",
-    "Apagar las luces y seguir más lento"
+    "Abrir de inmediato la tapa del radiador"
    ]
   },
   {
@@ -5235,9 +5235,9 @@
    "prompt": "Si el ventilador eléctrico no se activa al subir la temperatura, puede deberse a…",
    "options": [
     "Un contacto defectuoso, la correa dañada o un fusible",
-    "Que el estanque de combustible está casi vacío o con aire",
-    "Que los neumáticos tienen demasiada presión",
-    "Que las luces altas están encendidas"
+    "Poco aceite en el motor o el filtro de aire sucio",
+    "Que el aire acondicionado está apagado",
+    "Exceso de refrigerante en el depósito"
    ]
   },
   {
@@ -5265,9 +5265,9 @@
    "prompt": "Un ruido anormalmente alto del tubo de escape suele ser señal de…",
    "options": [
     "Roturas u orificios en el silenciador",
-    "Que el motor está bien lubricado y sin desgaste",
-    "Que el estanque está lleno",
-    "Que la batería está cargada"
+    "Que el aceite del motor está bajo de nivel",
+    "Que la correa del alternador está suelta",
+    "Que el filtro de aire está muy sucio"
    ]
   },
   {
@@ -5310,9 +5310,9 @@
    "prompt": "¿Qué permite usar cada marcha en un rango de velocidades?",
    "options": [
     "Optimizar el uso de combustible",
-    "Frenar sin usar el pedal de freno",
-    "Cargar la batería más rápido",
-    "Evitar el desgaste de los neumáticos"
+    "Llegar más rápido a la velocidad máxima",
+    "Que el motor funcione siempre en ralentí",
+    "Usar menos el embrague en la ciudad"
    ]
   },
   {
@@ -5340,9 +5340,9 @@
    "prompt": "¿Qué hace que la dirección se desalinee más rápido?",
    "options": [
     "Sobrecargas, topar soleras o caer en hoyos",
-    "Conducir de noche con luces bajas",
-    "Cargar combustible con el motor del vehículo apagado",
-    "Usar el freno de mano al estacionar"
+    "Conducir muchos kilómetros en carretera recta",
+    "Frenar con fuerza en pavimento mojado",
+    "Girar el volante con el vehículo detenido"
    ]
   },
   {
@@ -5370,9 +5370,9 @@
    "prompt": "¿Cuál de estos es un síntoma de amortiguadores en mal estado?",
    "options": [
     "De noche, las luces oscilan de forma llamativa",
-    "El testigo de aceite se enciende cada vez que frenas",
-    "El motor no enciende al darle contacto",
-    "El intermitente destella más rápido"
+    "El volante se siente más liviano en las curvas",
+    "El pedal de freno se siente elástico y cede",
+    "En plano, el auto tiende a irse hacia un lado"
    ]
   },
   {
@@ -5385,9 +5385,9 @@
    "prompt": "Un amortiguador en malas condiciones puede provocar…",
    "options": [
     "Aumento de la distancia de frenado",
-    "Mayor estabilidad en las curvas",
-    "Menor consumo de combustible",
-    "Menos fatiga para quien conduce en viajes largos"
+    "Que el motor se recaliente en las subidas",
+    "Que el pedal de freno se vaya al fondo",
+    "Un mayor consumo de aceite del motor"
    ]
   },
   {
@@ -5445,9 +5445,9 @@
    "prompt": "Después de circular por una calle inundada o lavar el vehículo, debes…",
    "options": [
     "Frenar para eliminar la humedad de los tambores",
-    "Inflar los neumáticos con más presión que la recomendada",
-    "Desconectar la batería unos minutos",
-    "Agregar líquido de frenos"
+    "Acelerar a fondo unos metros para secar el motor",
+    "Esperar con el motor en marcha antes de seguir",
+    "Conducir sin usar el freno hasta que se seque"
    ]
   },
   {
@@ -5490,9 +5490,9 @@
    "prompt": "Si el pedal de freno desciende cuando lo tienes fuertemente presionado, puede haber…",
    "options": [
     "Fugas",
-    "Aire en los neumáticos",
-    "Una ampolleta quemada",
-    "Exceso de aceite"
+    "Pastillas de freno nuevas",
+    "Exceso de líquido de frenos",
+    "Discos de freno muy fríos"
    ]
   },
   {
@@ -5505,9 +5505,9 @@
    "prompt": "Si el pedal de freno se siente elástico y cede, probablemente…",
    "options": [
     "Entró aire al sistema de frenos",
-    "La batería está descargada o mal conectada",
-    "El refrigerante está bajo",
-    "El embrague está gastado"
+    "Las pastillas de freno están recién cambiadas",
+    "Hay exceso de líquido en el depósito",
+    "El servofreno está funcionando normalmente"
    ]
   },
   {
@@ -5520,9 +5520,9 @@
    "prompt": "¿Cuándo conviene probar los frenos a baja velocidad?",
    "options": [
     "Tras vías inundadas, lavar el auto o tenerlo guardado",
-    "Cada vez que cargas combustible",
-    "Solo cuando se enciende el testigo de aceite",
-    "Después de cada viaje por la ciudad"
+    "Solo antes de un viaje largo por carretera",
+    "Solo cuando el vehículo es nuevo",
+    "Solo después de cambiar los neumáticos"
    ]
   },
   {
@@ -5535,9 +5535,9 @@
    "prompt": "¿Qué elemento del vehículo requiere mayor revisión de parte de quien conduce?",
    "options": [
     "Los neumáticos",
-    "El tubo de escape",
-    "El odómetro",
-    "La radio"
+    "El sistema de escape",
+    "La batería",
+    "El líquido refrigerante"
    ]
   },
   {
@@ -5550,9 +5550,9 @@
    "prompt": "Una baja presión de aire en una rueda delantera hace que el vehículo…",
    "options": [
     "Tienda a torcer hacia ese lado",
-    "Frene mejor en pavimento mojado",
-    "Consuma menos combustible",
-    "Tenga la dirección más liviana"
+    "Tienda a torcer hacia el lado contrario",
+    "Vibre solo a alta velocidad",
+    "Se incline hacia adelante al frenar"
    ]
   },
   {
@@ -5580,9 +5580,9 @@
    "prompt": "¿Qué situaciones pueden acelerar el desgaste de los neumáticos?",
    "options": [
     "Carga, pavimento en mal estado o clima caluroso",
-    "Conducir de noche con luces bajas",
-    "Cargar combustible con el estanque lleno",
-    "Usar el aire acondicionado en invierno con frío"
+    "Clima frío, lluvia o conducir de noche",
+    "Pocos kilómetros, vías nuevas y poca carga",
+    "Lavar el auto seguido o usar cera"
    ]
   },
   {
@@ -5595,9 +5595,9 @@
    "prompt": "Si notas vibraciones al circular, podría haber un problema de…",
    "options": [
     "Desbalanceo",
-    "Octanaje",
-    "Lubricación",
-    "Refrigeración"
+    "Servodirección",
+    "Embrague",
+    "Alternador"
    ]
   },
   {
@@ -5625,8 +5625,8 @@
    "prompt": "¿Dónde puedes encontrar la presión de aire apropiada para tus neumáticos?",
    "options": [
     "En el manual o en una tabla en la puerta del conductor",
-    "En el odómetro del panel de instrumentos",
-    "En la etiqueta del envase del líquido de frenos",
+    "En el costado del neumático, junto a su medida",
+    "En el certificado de revisión técnica",
     "En el permiso de circulación del vehículo"
    ]
   },
@@ -5716,7 +5716,7 @@
    "options": [
     "Peatones, ciclistas y motociclistas",
     "Conductores de buses, camiones y camionetas",
-    "Conductores de autos eléctricos",
+    "Personas mayores que conducen automóviles",
     "Pasajeros del asiento trasero"
    ]
   },
@@ -5730,9 +5730,9 @@
    "prompt": "¿Cuál de estos elementos debes controlar antes de conducir?",
    "options": [
     "La bocina",
+    "El tacómetro",
     "El odómetro",
-    "La radio",
-    "El encendedor"
+    "El sistema de audio"
    ]
   },
   {
@@ -5790,9 +5790,9 @@
    "prompt": "¿Cuál de estos puede hacer que la carretera esté resbaladiza en una curva?",
    "options": [
     "Hojas caídas o derrames de combustible",
-    "Las líneas de demarcación recién pintadas en la vía",
-    "Las señales de curva peligrosa",
-    "Los reflectantes de la berma"
+    "El pavimento seco en un día caluroso",
+    "La demarcación de línea central continua",
+    "Un peralte bien construido en la curva"
    ]
   },
   {
@@ -5805,9 +5805,9 @@
    "prompt": "¿De qué depende la fuerza centrífuga que tiende a sacar al vehículo en una curva?",
    "options": [
     "De la velocidad y de lo cerrada que sea la curva",
-    "Solo del peso de las personas que viajan en el auto",
-    "Del color y del modelo del vehículo",
-    "De la hora del día en que conduces"
+    "Solo del peso del vehículo y su carga",
+    "De la presión de los neumáticos",
+    "Del tipo de tracción del vehículo"
    ]
   },
   {
@@ -5895,9 +5895,9 @@
    "prompt": "¿Cuál de estos factores influye en la distancia de frenado?",
    "options": [
     "El estado de la calzada",
-    "El color del vehículo",
-    "La hora del día",
-    "La radio encendida"
+    "El tiempo de reacción de quien conduce",
+    "La distancia con el vehículo de adelante",
+    "La potencia del motor"
    ]
   },
   {
@@ -5927,7 +5927,7 @@
     "Para que el motor frene y no se calienten los frenos",
     "Para gastar menos combustible durante toda la bajada",
     "Para que el vehículo baje más rápido",
-    "Para cargar mejor la batería"
+    "Para que el ABS actúe antes al frenar"
    ]
   },
   {
@@ -5940,9 +5940,9 @@
    "prompt": "Antes de conducir un auto desconocido, ¿qué debes preguntarte?",
    "options": [
     "Su tracción, sus frenos y su centro de gravedad",
-    "Su color, su marca y su año de fabricación",
-    "Su consumo, su radio y su alarma",
-    "Su precio, su seguro y su placa patente"
+    "Su consumo, su velocidad máxima y su potencia",
+    "Su año, su kilometraje y su mantención",
+    "Su tamaño, su largo y su número de puertas"
    ]
   },
   {
@@ -5955,9 +5955,9 @@
    "prompt": "¿Qué es el centro de gravedad del vehículo?",
    "options": [
     "El punto donde se encuentra su mayor peso",
-    "El punto donde está ubicado el volante",
-    "La mitad exacta del largo del auto",
-    "El lugar donde se carga el combustible"
+    "El punto donde está ubicado el motor",
+    "El centro exacto entre las cuatro ruedas",
+    "El punto más bajo de la carrocería"
    ]
   },
   {
@@ -6002,7 +6002,7 @@
     "Puede deslizarse hacia fuera y perder eficacia",
     "Protege mejor el cuello de la persona en el siniestro",
     "Evita el efecto submarino",
-    "Reduce la distancia de frenado"
+    "Evita el efecto latigazo"
    ]
   },
   {
@@ -6106,8 +6106,8 @@
    "options": [
     "Sin él pueden golpear mortalmente a otros",
     "Porque los asientos traseros no tienen airbag",
-    "Porque lo exige solo en carreteras",
-    "Porque reduce el consumo de combustible"
+    "Porque solo es obligatorio en carretera",
+    "Porque atrás se sufre más el efecto latigazo"
    ]
   },
   {
@@ -6135,9 +6135,9 @@
    "prompt": "¿Cuál es una forma en que el airbag protege a los ocupantes?",
    "options": [
     "Evita el impacto contra el volante o el tablero",
-    "Impide que el vehículo derrape",
-    "Reduce la distancia de reacción",
-    "Mantiene el vehículo dentro de su pista"
+    "Reduce la velocidad del vehículo antes del choque",
+    "Impide que los ocupantes salgan eyectados",
+    "Reemplaza el uso del cinturón de seguridad"
    ]
   },
   {
@@ -6240,9 +6240,9 @@
    "prompt": "¿Cuál es la meta de la Seguridad Vial?",
    "options": [
     "La eliminación total de los siniestros de tránsito",
-    "Que cada conductor tenga su propio seguro",
-    "Que haya más autopistas en todo el país",
-    "Aumentar las multas cada año en todo el país"
+    "Reducir a la mitad los siniestros con víctimas",
+    "Que todas las personas conozcan las señales",
+    "Bajar la velocidad máxima en todas las vías"
    ]
   },
   {
@@ -6300,9 +6300,9 @@
    "prompt": "¿Cuál de estos es uno de los principales factores de riesgo según el libro?",
    "options": [
     "Las distracciones",
-    "Los vehículos de color oscuro",
+    "Los vehículos con muchos años de uso",
     "Las calles de un solo sentido",
-    "Los semáforos con cuenta regresiva"
+    "Conducir en horas de mucho tráfico"
    ]
   },
   {
@@ -6316,8 +6316,8 @@
    "options": [
     "El principio de confianza",
     "El principio de autoridad",
-    "El principio de velocidad",
-    "El principio de gravedad"
+    "El principio de precaución",
+    "El principio de prioridad"
    ]
   },
   {
@@ -6465,9 +6465,9 @@
    "prompt": "¿Qué influye negativamente en la seguridad según el libro?",
    "options": [
     "Fumar o comer mientras conduces",
-    "Llevar las dos manos en el volante",
-    "Mantener distancia con el de adelante",
-    "Mirar los espejos con frecuencia"
+    "Usar lentes de sol en días soleados",
+    "Llevar la radio a volumen moderado",
+    "Conducir con el asiento muy cerca del volante"
    ]
   },
   {
@@ -6510,7 +6510,7 @@
    "prompt": "¿Qué influye en cómo el cerebro selecciona la información al conducir?",
    "options": [
     "Las expectativas, necesidades y estado de vigilancia",
-    "La casualidad y la suerte de cada momento",
+    "La experiencia y los años al volante",
     "Solo la cantidad de luz que hay durante el día",
     "Solo la velocidad a la que circula el vehículo"
    ]
@@ -6615,9 +6615,9 @@
    "prompt": "¿Por qué es riesgoso subestimar la velocidad?",
    "options": [
     "Porque juzgas mal la distancia de frenado",
-    "Porque gastas más combustible",
-    "Porque desgastas más los neumáticos",
-    "Porque se calienta más el motor"
+    "Porque juzgas mal la distancia de reacción",
+    "Porque te cansas antes en viajes largos",
+    "Porque reduces tu campo visual"
    ]
   },
   {
@@ -6675,9 +6675,9 @@
    "prompt": "Según el libro, ¿cuál es un ejemplo recurrente de distracción?",
    "options": [
     "Querer ver una notificación del celular",
-    "Mirar el espejo retrovisor central",
-    "Revisar el velocímetro del tablero",
-    "Usar el intermitente para virar"
+    "Mirar un letrero publicitario en la vía",
+    "Conversar con quien va de copiloto",
+    "Ajustar el espejo mientras conduces"
    ]
   },
   {
@@ -6795,9 +6795,9 @@
    "prompt": "¿Cómo se conoce la tasa de alcohol de una persona?",
    "options": [
     "Con una muestra de sangre o prueba espirométrica",
-    "Con un examen de la vista en el lugar",
-    "Preguntándole cuánto bebió",
-    "Midiendo su temperatura corporal"
+    "Con una prueba de equilibrio en el lugar",
+    "Con un examen de orina en el control",
+    "Con una prueba de la pupila y los reflejos"
    ]
   },
   {
@@ -7020,9 +7020,9 @@
    "prompt": "Con depresión, ¿qué no se recomienda?",
    "options": [
     "Conducir de noche o en entornos monótonos",
-    "Consultar a un especialista",
-    "Seguir el tratamiento indicado",
-    "Descansar bien antes de conducir"
+    "Conducir de día por la ciudad",
+    "Conducir trayectos cortos y conocidos",
+    "Conducir acompañado por otra persona"
    ]
   },
   {
@@ -7080,9 +7080,9 @@
    "prompt": "¿Cuál es quizás la causa más corriente del cansancio al conducir?",
    "options": [
     "Esfuerzo físico y monotonía",
-    "Exceso de luz solar",
-    "Falta de combustible",
-    "Conducir en la ciudad"
+    "El calor dentro del vehículo",
+    "Conducir con mucho tráfico",
+    "Ingerir comidas abundantes"
    ]
   },
   {
@@ -7125,9 +7125,9 @@
    "prompt": "¿Cuál de estos es un movimiento indicador de fatiga?",
    "options": [
     "Cambios de postura frecuentes",
-    "Mirar los espejos seguido",
-    "Usar el intermitente",
-    "Mantener la distancia"
+    "Pestañear de vez en cuando",
+    "Mirar los espejos con frecuencia",
+    "Sujetar el volante con ambas manos"
    ]
   },
   {
@@ -7140,9 +7140,9 @@
    "prompt": "¿Cuál es la principal causa de fatiga al volante?",
    "options": [
     "Conducir mucho tiempo sin descansar",
-    "Conducir con lentes de sol",
-    "Conducir con poco tráfico de día",
-    "Conducir un auto automático"
+    "Conducir con mucho calor en el auto",
+    "Conducir con música a alto volumen",
+    "Conducir de noche en la ciudad"
    ]
   },
   {
@@ -7200,9 +7200,9 @@
    "prompt": "¿Dónde debes conducir con cuidado y a baja velocidad por la presencia de peatones?",
    "options": [
     "En calles comerciales y cerca de colegios",
-    "Solo en autopistas de alta velocidad",
-    "Solo en caminos rurales de noche",
-    "Solo en estacionamientos techados"
+    "En autopistas con barreras laterales",
+    "En caminos rurales durante la noche",
+    "En túneles y pasos bajo nivel"
    ]
   },
   {
@@ -7275,9 +7275,9 @@
    "prompt": "¿Cuándo debes estar preparado para detener tu vehículo por presencia de niños?",
    "options": [
     "Al pasar un transporte escolar detenido",
-    "Al circular por una autopista vacía",
-    "Al estacionar en un subterráneo",
-    "Al cargar combustible en la noche"
+    "Al adelantar a un camión en carretera",
+    "Al pasar frente a un paradero vacío",
+    "Al circular junto a un parque de noche"
    ]
   },
   {
@@ -7337,7 +7337,7 @@
     "Con viento fuerte o en subidas",
     "En bajadas con poco tráfico",
     "En calles planas de día",
-    "Cuando lleva casco puesto"
+    "Cuando circula por una ciclovía"
    ]
   },
   {
@@ -7350,9 +7350,9 @@
    "prompt": "¿Para qué sirven los seguros de niños en las puertas?",
    "options": [
     "Impiden abrirlas desde el interior",
-    "Impiden que se rayen los vidrios",
-    "Bloquean las ventanas eléctricas",
-    "Mantienen el auto con alarma activa"
+    "Bloquean las ventanas eléctricas traseras",
+    "Impiden abrirlas desde el exterior",
+    "Traban la puerta al circular rápido"
    ]
   },
   {
@@ -7440,9 +7440,9 @@
    "prompt": "¿Qué produce un SRI mal instalado?",
    "options": [
     "Una falsa sensación de seguridad",
-    "Más protección que uno bien puesto",
-    "Menor consumo de combustible",
-    "Una multa automática"
+    "Más protección en impactos laterales",
+    "Que el niño viaje más cómodo",
+    "Que el airbag se active antes"
    ]
   },
   {
@@ -7487,7 +7487,7 @@
     "Carabineros e inspectores fiscales y municipales",
     "Solo las escuelas de conductores del país",
     "Solo los guardias de las autopistas urbanas",
-    "Las compañías de seguros de los vehículos"
+    "Los jueces de policía local en la vía"
    ]
   },
   {
@@ -7531,8 +7531,8 @@
    "options": [
     "La pista está cerrada",
     "La pista es exclusiva para buses",
-    "Hay un cruce ferroviario",
-    "Debes adelantar por ahí"
+    "Hay un siniestro más adelante",
+    "Debes reducir la velocidad a la mitad"
    ]
   },
   {
@@ -7665,9 +7665,9 @@
    "prompt": "¿A qué se deben por lo general los choques en serie?",
    "options": [
     "A guardar una distancia demasiado corta",
-    "A conducir con luces bajas durante el día",
-    "A circular por la pista derecha",
-    "A usar mal la bocina"
+    "A frenar de golpe en pavimento seco",
+    "A cambiar de pista sin señalizar",
+    "A conducir de noche con mucho tráfico"
    ]
   },
   {
@@ -7815,9 +7815,9 @@
    "prompt": "¿En cuál de estas situaciones debes reducir obligatoriamente la velocidad?",
    "options": [
     "Al acercarte a la cima de una cuesta",
-    "Al entrar a una autopista vacía",
-    "Al circular de día por recta",
-    "Al salir de un estacionamiento techado"
+    "Al ser adelantado por otro vehículo",
+    "Al circular por una vía con dos pistas",
+    "Al terminar una curva con buena visibilidad"
    ]
   },
   {
@@ -7830,9 +7830,9 @@
    "prompt": "¿Dónde es significativamente mayor la distancia de frenado?",
    "options": [
     "En un camino de ripio o grava",
-    "En asfalto seco",
-    "En una autopista nueva con asfalto seco",
-    "En una calle con semáforos"
+    "En asfalto mojado por una llovizna",
+    "En pavimento de hormigón seco",
+    "En asfalto seco con neumáticos nuevos"
    ]
   },
   {
@@ -7860,9 +7860,9 @@
    "prompt": "Antes de adelantar, ¿qué pregunta debes hacerte?",
    "options": [
     "¿Qué gano con adelantar?",
-    "¿Quién me está mirando?",
-    "¿Qué hora es?",
-    "¿Cuánto combustible me queda?"
+    "¿Cuánto más rápido puede ir mi auto?",
+    "¿El otro conductor me hará espacio?",
+    "¿Me alcanza para pasar antes de la curva?"
    ]
   },
   {
@@ -7875,9 +7875,9 @@
    "prompt": "A 90 km/h con otro a 90 km/h en contra a 350 m, un adelantamiento de 8 segundos…",
    "options": [
     "Termina en un siniestro",
-    "Termina sin problemas",
-    "Ahorra mucho tiempo",
-    "Es seguro si tocas la bocina"
+    "Termina justo a tiempo, sin margen",
+    "Es posible si el otro conductor frena",
+    "Es seguro si haces cambio de luces"
    ]
   },
   {
@@ -7935,9 +7935,9 @@
    "prompt": "¿Dónde está prohibido estacionar y detenerse?",
    "options": [
     "En la berma de caminos con 2 o más pistas por sentido",
-    "En un estacionamiento habilitado fuera de la vía",
-    "En la calle al lado derecho, donde no hay señal",
-    "Fuera de la vía pública, en un recinto privado"
+    "En la berma de caminos con una pista por sentido",
+    "Junto a la solera, en calles sin señal de prohibición",
+    "A más de 20 metros de un cruce ferroviario"
    ]
   },
   {
@@ -8026,8 +8026,8 @@
    "options": [
     "De tus luces, tu vista y lo que refleja el obstáculo",
     "Solo de la velocidad a la que va el vehículo",
-    "Solo de la hora exacta en que vas conduciendo",
-    "Solo del modelo y del año de tu vehículo"
+    "Solo de la potencia de tus luces altas",
+    "Solo del alumbrado público de la vía"
    ]
   },
   {
@@ -8175,9 +8175,9 @@
    "prompt": "¿Cuándo puedes detenerte en una autopista?",
    "options": [
     "En una emergencia o si lo pide Carabineros",
-    "Para tomar fotos del paisaje en la berma",
-    "Para dejar a un pasajero en el acceso",
-    "Para revisar el celular un momento"
+    "Para dejar a un pasajero en la berma",
+    "Para revisar el mapa si te perdiste",
+    "Para esperar a otro vehículo que viene atrás"
    ]
   },
   {
@@ -8205,9 +8205,9 @@
    "prompt": "¿Por qué debes encender las luces con anticipación al entrar a un túnel?",
    "options": [
     "Para que no confundan tus luces traseras con las de freno",
-    "Para ahorrar batería mientras estás dentro del túnel",
+    "Para que los demás sepan que vas a adelantar",
     "Porque así lo exige el sistema de cobro del peaje",
-    "Para avisar a los demás que vas a adelantar"
+    "Para que tus ojos se adapten de inmediato"
    ]
   },
   {
@@ -8221,8 +8221,8 @@
    "options": [
     "El celular no indica desde dónde llamas",
     "El celular no tiene señal nunca",
-    "Es más barato que el celular",
-    "Así lo exige la ley de autopistas"
+    "La llamada por celular tiene costo",
+    "El celular interfiere con la radio del túnel"
    ]
   },
   {
@@ -8250,9 +8250,9 @@
    "prompt": "Con mal tiempo, ¿cuál es la primera regla de seguridad?",
    "options": [
     "Preguntarse si es indispensable viajar",
-    "Encender las luces altas",
-    "Ir más rápido para llegar antes",
-    "Inflar más los neumáticos"
+    "Encender las luces altas de día",
+    "Aumentar la presión de los neumáticos",
+    "Llevar cadenas aunque no haya nieve"
    ]
   },
   {
@@ -8327,7 +8327,7 @@
     "Una forma de conducir con mayor rendimiento energético",
     "Conducir siempre a la velocidad máxima permitida",
     "Usar solo vehículos eléctricos en la ciudad",
-    "Conducir solo por autopistas con peaje"
+    "Conducir en marchas bajas para cuidar el motor"
    ]
   },
   {
@@ -8341,8 +8341,8 @@
    "options": [
     "Menor costo del viaje y del mantenimiento",
     "Mayor velocidad promedio en carretera",
-    "Menos multas por exceso de velocidad",
-    "Mejor sonido del motor del vehículo"
+    "Mayor potencia al acelerar en subidas",
+    "Viajes más cortos en tiempo por ciudad"
    ]
   },
   {
@@ -8355,9 +8355,9 @@
    "prompt": "Según el libro, ¿qué es lo primero para una conducción eficiente?",
    "options": [
     "Planificar la ruta y salir con tiempo",
-    "Inflar los neumáticos al máximo",
+    "Inflar los neumáticos sobre lo recomendado",
     "Cargar el estanque solo a la mitad",
-    "Usar siempre el aire acondicionado"
+    "Acelerar fuerte para llegar rápido a la marcha alta"
    ]
   },
   {
@@ -8445,9 +8445,9 @@
    "prompt": "¿Cómo sabes si un vehículo siniestrado es eléctrico o híbrido?",
    "options": [
     "Por la calcomanía distintiva en su luneta",
-    "Por el color de toda su carrocería",
-    "Por el ruido que hace su motor",
-    "Por los números de su placa patente"
+    "Por la ausencia de tubo de escape",
+    "Por el tamaño de sus focos delanteros",
+    "Por el logo de la marca en el capó"
    ]
   },
   {
@@ -8460,9 +8460,9 @@
    "prompt": "Si una hemorragia grave en un brazo no se contiene con presión directa, ¿qué haces?",
    "options": [
     "Un torniquete lo más arriba posible",
-    "Le das agua para que se calme",
-    "Le quitas toda la ropa encima",
-    "Esperas sin hacer nada hasta que llegue ayuda"
+    "Un vendaje suelto sobre la herida",
+    "Elevar las piernas de la persona",
+    "Lavar la herida con abundante agua"
    ]
   },
   {
@@ -8552,7 +8552,7 @@
     "Dirección, frenos, luces, neumáticos y combustión",
     "Solo el estado de la pintura y la carrocería",
     "Solo el kilometraje que marca el odómetro",
-    "Solo los documentos de la persona dueña"
+    "Solo los gases y el ruido del escape"
    ]
   },
   {
@@ -8565,9 +8565,9 @@
    "prompt": "La revisión técnica se programa según…",
    "options": [
     "El último dígito de la placa patente",
-    "El color del vehículo",
-    "La edad de la persona dueña",
-    "El año de fabricación del auto"
+    "El mes en que se compró el vehículo",
+    "La comuna donde está inscrito el auto",
+    "El tipo de combustible del vehículo"
    ]
   },
   {
@@ -8612,7 +8612,7 @@
     "Autorización de sus padres y un curso en Escuela de Conductores",
     "Solo aprobar el examen práctico en la Dirección de Tránsito",
     "Tener un vehículo inscrito a su propio nombre",
-    "Haber trabajado al menos un año con contrato formal"
+    "Haber aprobado un curso de primeros auxilios"
    ]
   },
   {
@@ -8730,9 +8730,9 @@
    "prompt": "Si nada funciona ante una falla total de frenos, ¿qué buscas?",
    "options": [
     "Una pista de emergencia",
-    "Una estación de servicio",
-    "Un estacionamiento techado",
-    "Un túnel cercano"
+    "Una berma ancha para detenerte",
+    "Una bajada larga y recta",
+    "Un vehículo adelante para frenar contra él"
    ]
   },
   {
@@ -8820,9 +8820,9 @@
    "prompt": "¿Cuál es la diferencia entre estacionar y detenerse?",
    "options": [
     "Estacionar dura más que dejar o recibir pasajeros",
-    "Estacionar solo se hace con el motor encendido",
-    "Detenerse solo es posible en estacionamientos",
-    "No hay ninguna diferencia entre ambos"
+    "Estacionar solo se permite en recintos privados",
+    "Detenerse solo se permite con las luces de emergencia",
+    "Detenerse dura más que estacionar"
    ]
   },
   {
@@ -14591,7 +14591,7 @@
     "Demasiado baja",
     "Correcta",
     "Demasiado alta",
-    "Igual en todo el año"
+    "Adecuada solo para carretera"
    ],
    "explain": "El libro compara neumáticos con presión demasiado baja, correcta y demasiado alta.",
    "page": 18,
@@ -14607,7 +14607,7 @@
     "Demasiado alta",
     "Correcta",
     "Demasiado baja",
-    "Igual en todo el año"
+    "Adecuada solo para ciudad"
    ],
    "explain": "Con presión demasiado alta se pierde la adherencia de los neumáticos.",
    "page": 18,
@@ -15117,9 +15117,9 @@
    "prompt": "Si tu vehículo sufre una falla y estacionas en una vía sin alumbrado, ¿qué debes instalar con anticipación?",
    "options": [
     "El triángulo para casos de emergencia",
-    "Un cono de color verde en la berma",
-    "Una luz neblinera trasera encendida",
-    "Una bandera de color blanco en el techo"
+    "Las luces altas encendidas toda la noche",
+    "Una linterna encendida sobre el capó",
+    "Un chaleco reflectante sobre el techo"
    ],
    "explain": "Estaciona al lado derecho y, si funciona el sistema eléctrico, enciende las intermitentes.",
    "page": 112,
@@ -15215,7 +15215,7 @@
     "Serías lanzado hacia la pista contraria",
     "El auto se queda en su lugar sin moverse",
     "Te desplazas hacia la vereda derecha",
-    "Se activa el freno de mano solo"
+    "Avanzarías recto hacia adelante"
    ],
    "explain": "Por eso, si debes detenerte, deja las ruedas delanteras hacia adelante.",
    "page": 92,
@@ -15277,9 +15277,9 @@
    "prompt": "¿Qué se hace en esta imagen de primeros auxilios?",
    "options": [
     "Presión directa con un paño limpio",
-    "Darle agua fría a la persona",
-    "Quitarle toda la ropa al herido",
-    "Moverlo de inmediato a otro lugar"
+    "Un torniquete en el brazo",
+    "Un vendaje para inmovilizar",
+    "Limpiar la herida con agua"
    ],
    "explain": "Las hemorragias se contienen haciendo presión directa con apósitos o paños limpios y vendajes.",
    "page": 138,

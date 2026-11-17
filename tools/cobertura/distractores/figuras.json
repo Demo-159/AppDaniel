@@ -1,0 +1,7 @@
+{
+ "u2-f14": ["Correcta", "Demasiado alta", "Adecuada solo para carretera"],
+ "u2-f15": ["Correcta", "Demasiado baja", "Adecuada solo para ciudad"],
+ "u10-f47": ["Las luces altas encendidas toda la noche", "Una linterna encendida sobre el capó", "Un chaleco reflectante sobre el techo"],
+ "u11-f57": ["Un torniquete en el brazo", "Un vendaje para inmovilizar", "Limpiar la herida con agua"],
+ "u8-f53": ["El auto se queda en su lugar sin moverse", "Te desplazas hacia la vereda derecha", "Avanzarías recto hacia adelante"]
+}

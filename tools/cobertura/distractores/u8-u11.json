@@ -1,0 +1,23 @@
+{
+ "u8-40": ["A frenar de golpe en pavimento seco", "A cambiar de pista sin señalizar", "A conducir de noche con mucho tráfico"],
+ "u8-63": ["Al ser adelantado por otro vehículo", "Al circular por una vía con dos pistas", "Al terminar una curva con buena visibilidad"],
+ "u8-68": ["En asfalto mojado por una llovizna", "En pavimento de hormigón seco", "En asfalto seco con neumáticos nuevos"],
+ "u9-31": ["¿Cuánto más rápido puede ir mi auto?", "¿El otro conductor me hará espacio?", "¿Me alcanza para pasar antes de la curva?"],
+ "u9-33": ["Termina justo a tiempo, sin margen", "Es posible si el otro conductor frena", "Es seguro si haces cambio de luces"],
+ "u9-46": ["En la berma de caminos con una pista por sentido", "Junto a la solera, en calles sin señal de prohibición", "A más de 20 metros de un cruce ferroviario"],
+ "u10-30": ["Solo de la velocidad a la que va el vehículo", "Solo de la potencia de tus luces altas", "Solo del alumbrado público de la vía"],
+ "u10-58": ["Para dejar a un pasajero en la berma", "Para revisar el mapa si te perdiste", "Para esperar a otro vehículo que viene atrás"],
+ "u10-63": ["Para que los demás sepan que vas a adelantar", "Porque así lo exige el sistema de cobro del peaje", "Para que tus ojos se adapten de inmediato"],
+ "u10-65": ["El celular no tiene señal nunca", "La llamada por celular tiene costo", "El celular interfiere con la radio del túnel"],
+ "u10-69": ["Encender las luces altas de día", "Aumentar la presión de los neumáticos", "Llevar cadenas aunque no haya nieve"],
+ "u11-29": ["Conducir siempre a la velocidad máxima permitida", "Usar solo vehículos eléctricos en la ciudad", "Conducir en marchas bajas para cuidar el motor"],
+ "u11-30": ["Mayor velocidad promedio en carretera", "Mayor potencia al acelerar en subidas", "Viajes más cortos en tiempo por ciudad"],
+ "u11-32": ["Inflar los neumáticos sobre lo recomendado", "Cargar el estanque solo a la mitad", "Acelerar fuerte para llegar rápido a la marcha alta"],
+ "u11-52": ["Por la ausencia de tubo de escape", "Por el tamaño de sus focos delanteros", "Por el logo de la marca en el capó"],
+ "u11-56": ["Un vendaje suelto sobre la herida", "Elevar las piernas de la persona", "Lavar la herida con abundante agua"],
+ "u11-65": ["Solo el estado de la pintura y la carrocería", "Solo el kilometraje que marca el odómetro", "Solo los gases y el ruido del escape"],
+ "u11-66": ["El mes en que se compró el vehículo", "La comuna donde está inscrito el auto", "El tipo de combustible del vehículo"],
+ "u11-72": ["Solo aprobar el examen práctico en la Dirección de Tránsito", "Tener un vehículo inscrito a su propio nombre", "Haber aprobado un curso de primeros auxilios"],
+ "u11-89": ["Una berma ancha para detenerte", "Una bajada larga y recta", "Un vehículo adelante para frenar contra él"],
+ "u11-100": ["Estacionar solo se permite en recintos privados", "Detenerse solo se permite con las luces de emergencia", "Detenerse dura más que estacionar"]
+}
