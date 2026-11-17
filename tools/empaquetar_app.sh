@@ -9,5 +9,5 @@ rm -rf app/src/main/assets/web && mkdir -p app/src/main/assets/web
 cp tools/demo-app/dist/index.html tools/sesiones/dist/c1s*.html app/src/main/assets/web/
 python3 tools/icono/iconos.py android senal
 ./gradlew -q --max-workers=2 assembleRelease
-cp app/build/outputs/apk/release/app-release.apk release/RutaB-2.3.apk
-echo "✓ release/RutaB-2.3.apk"
+cp app/build/outputs/apk/release/app-release.apk release/RutaB-2.4.apk
+echo "✓ release/RutaB-2.4.apk"

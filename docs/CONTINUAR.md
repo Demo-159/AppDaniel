@@ -221,6 +221,13 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - **Simulacro completo** (pedido del usuario): formato real con 35 preguntas al azar de **todo** el banco, aunque
   no se hayan estudiado (excepción consciente a "nada sin enseñar", indicada en pantalla). El "de lo estudiado"
   sigue disponible. Resultados en `PR.examenes`.
+- **Diseño (v2.4):** un color por capítulo (sin verde: el verde es solo "hecho"), franja fija con el capítulo
+  visible al bajar por el mapa, carteles con avance, camino pintado hasta la parada actual, nombres en hasta 2
+  líneas, globo "EMPEZAR", ventana de parada con tipo/preguntas/estado, lectura con encabezado de color, letras
+  A–D en las opciones. Sin botón de borrar progreso (lo pidió el usuario).
+- **Emojis iguales en todos los teléfonos** (regla del usuario): las páginas incluyen Noto Color Emoji recortada
+  a los emojis usados, más Noto Sans Math/Symbols 2 para ↑ → ↻ ≈ ✓ ✕ (`tools/demo-app/fuentes`, ver `LEEME.md`).
+  **Al usar un emoji nuevo, regenerar la fuente** o se verá con el del teléfono. Nunito también va incluida.
 - Solo entran preguntas `mc`, `img` y `multi`; las `match`, `order` y `sign` (24) aún no tienen pantalla en la web.
 
 - `MainActivity` muestra el diseño aprobado (mapa, sesiones con tutor, práctica, repaso, prueba, simulacro)
@@ -229,7 +236,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-2.3.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-2.4.apk` (firmado con clave de depuración). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 

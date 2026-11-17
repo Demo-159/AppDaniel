@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ruta B</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap">
 <style>
-:root{--bg:#131F24;--card:#1E2B32;--line:#37464F;--ink:#F1F7FB;--muted:#9AB0BC;--green:#58CC02;--greend:#46A302;--blue:#1CB0F6;--blued:#1899D6;--red:#FF4B4B;--redd:#C81E1E;--gold:#FFC800;--orange:#FF9600;--ui:"Nunito",system-ui,sans-serif}
+/*FUENTE*/
+:root{--bg:#131F24;--card:#1E2B32;--line:#37464F;--ink:#F1F7FB;--muted:#9AB0BC;--green:#58CC02;--greend:#46A302;--blue:#1CB0F6;--blued:#1899D6;--red:#FF4B4B;--redd:#C81E1E;--gold:#FFC800;--orange:#FF9600;--ui:"Nunito","RBEmoji","RBSimbolos","RBSimbolos2",system-ui,sans-serif}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;justify-content:center}
@@ -27,6 +27,18 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .node{cursor:pointer}.node:focus{outline:none}
 @keyframes pulse{0%{r:42;opacity:.6}100%{r:58;opacity:0}}.pulse{animation:pulse 1.4s infinite}
 @keyframes bob{50%{transform:translateY(-4px)}}.bob{animation:bob 1.6s ease-in-out infinite}
+.capbar{position:sticky;top:0;z-index:3;margin:10px 12px 0;border-radius:18px;padding:10px 14px;color:#fff;display:flex;align-items:center;gap:12px;box-shadow:0 6px 0 rgba(0,0,0,.25);transition:background .3s}
+.capbar .t{flex:1;min-width:0}.capbar small{display:block;font-size:12px;font-weight:900;letter-spacing:1.2px;opacity:.85}.capbar b{display:block;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.capbar .av{font-weight:900;font-size:13px;background:rgba(0,0,0,.22);border-radius:10px;padding:4px 9px;white-space:nowrap}
+@keyframes flota{50%{transform:translateY(-5px)}}.flota{animation:flota 1.4s ease-in-out infinite}
+.pop .tira{height:8px;border-radius:8px 8px 0 0;margin:-14px -14px 12px}.pop .cap{font-size:12px;font-weight:900;letter-spacing:1px;color:var(--muted)}
+.pchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.pchips span{background:#26363F;border-radius:10px;padding:4px 9px;font-size:12.5px;font-weight:900;color:var(--ink)}
+.lechero{border-radius:18px;padding:16px;color:#fff}.lechero small{font-size:12px;font-weight:900;letter-spacing:1.2px;opacity:.85}.lechero b{display:block;font-size:22px;margin-top:2px}
+.opt{display:flex;align-items:center;gap:12px}.opt .le{flex:none;width:30px;height:30px;border-radius:9px;border:2px solid var(--line);display:grid;place-items:center;font-size:14px;font-weight:900;color:var(--muted)}
+.opt.sel .le{border-color:var(--blue);color:var(--blue)}.opt.good .le{border-color:var(--green);color:var(--green)}.opt.bad .le{border-color:var(--red);color:var(--red)}
+@keyframes subir{from{transform:translateY(30px);opacity:.3}}.foot.ok,.foot.ko{animation:subir .25s ease-out}
+.hero{border-radius:20px;padding:18px;color:#fff;display:flex;flex-direction:column;gap:6px}.hero .cifra{color:#fff}.hero .muted{color:rgba(255,255,255,.85)}
+.anillo{display:flex;align-items:center;gap:16px}.anillo svg{flex:none}
 .pop{position:absolute;left:16px;right:16px;bottom:20px;background:var(--card);border:2px solid var(--line);border-radius:20px;padding:14px;z-index:4;transform:translateY(20px);opacity:0;pointer-events:none;transition:.2s}
 .pop.on{transform:none;opacity:1;pointer-events:auto}
 .pop .head{display:flex;gap:12px;align-items:center}
@@ -59,8 +71,8 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .miss b{display:block;color:var(--ink);margin-bottom:4px}.miss .ok{color:var(--green)}.miss small{color:var(--muted)}
 .muted{color:var(--muted);font-weight:800}
 .pend{background:#2A1E0A;border:2px solid var(--orange);color:var(--orange);border-radius:12px;padding:4px 10px;font-family:var(--ui);cursor:pointer}.pend.cero{border-color:var(--line);color:var(--muted);background:none}
-.cita{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px 14px;font-weight:800;font-size:16px;line-height:1.4}
-.cita small{display:block;color:var(--muted);font-size:12px;margin-top:6px}.cita img{display:block;max-height:120px;max-width:70%;margin:0 auto 8px;border-radius:10px;background:#fff;padding:6px}
+.cita{background:var(--card);border:2px solid var(--line);border-left:6px solid var(--cc,var(--blue));border-radius:14px;padding:12px 14px;font-weight:800;font-size:16px;line-height:1.45}
+.cita small{display:inline-block;color:var(--muted);font-size:12px;margin-top:8px;background:#26363F;border-radius:8px;padding:2px 8px}.cita img{display:block;max-height:120px;max-width:70%;margin:0 auto 8px;border-radius:10px;background:#fff;padding:6px}
 .lecintro{color:var(--muted);font-weight:800;font-size:14px;line-height:1.4}
 button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 </style></head><body>
@@ -69,8 +81,8 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 <!-- MAP -->
 <section class="view on" id="v-map">
  <div class="top"><div class="chip">Ruta B</div><div class="chip" id="racha" style="color:var(--orange)"></div></div>
- <div class="scroll" id="scroll"><svg id="map" xmlns="http://www.w3.org/2000/svg"></svg></div>
- <div class="pop" id="pop"><div class="head"><div class="ic" id="pi"></div><div><b id="pt"></b><span id="ps"></span></div></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
+ <div class="scroll" id="scroll"><div class="capbar" id="capbar"><div class="t"><small id="cbn"></small><b id="cbt"></b></div><span class="av" id="cba"></span></div><svg id="map" xmlns="http://www.w3.org/2000/svg" style="margin-top:-66px"></svg></div>
+ <div class="pop" id="pop"><div class="tira" id="ptira"></div><div class="head"><div class="ic" id="pi"></div><div style="min-width:0"><span class="cap" id="pcap"></span><b id="pt"></b></div></div><div id="ps" class="muted" style="font-size:14px;margin-top:6px"></div><button class="btn" id="pb"></button><button class="btn g" id="pb2" hidden></button></div>
 </section>
 
 <!-- QUIZ (repaso / prueba de capítulo / simulacro) -->
@@ -145,36 +157,64 @@ function armarParadas(){STOPS=[];let sig=false;
   const np=pendientes(c.n).length;STOPS.push({n:'Repaso del '+c.et.toLowerCase()+(np?' ('+np+')':''),ic:'⛽',s:'review',cap:c.n},{n:'Prueba del '+c.et.toLowerCase(),ic:'🏁',s:'test',cap:c.n})});
  STOPS.push({sign:1,ch:'Examen',t:'Simulacro del examen real'},{n:'Simulacro del examen',ic:'🏆',s:'exam'})}
 const NS='http://www.w3.org/2000/svg',svg=$('map');
-const W=400,GAP=150;
+const W=400,GAP=185;
 const COL={ses:['#1CB0F6','#1899D6'],lec:['#1CB0F6','#1899D6'],done:['#58CC02','#46A302'],review:['#FF9600','#CC7800'],next:['#1CB0F6','#1899D6'],test:['#FFC800','#C99E00'],exam:['#CE82FF','#A568CC']};
 const el=(tag,at,parent=svg)=>{const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);parent.appendChild(e);return e};
-function dibujarMapa(){armarParadas();svg.innerHTML='';let y=70;const pts=[];
- STOPS.forEach(s=>{if(s.sign){s.y=y+10;y+=110;return}s.x=W/2+Math.sin(pts.length*0.9)*80;s.y=y;pts.push(s);y+=GAP});
+// un color por capítulo
+// sin verde: el verde queda solo para las paradas hechas
+const CC=['#1CB0F6','#CE82FF','#FF9600','#FF4B4B','#14B8A6','#E5A800','#7C83FD','#00A9C2','#EC6FA8','#B45309','#5B8DEF','#F97316'];
+const colorCap=n=>CC[(n-1)%CC.length];
+const oscuro=(h,k=.78)=>'#'+h.slice(1).match(/../g).map(x=>Math.round(parseInt(x,16)*k).toString(16).padStart(2,'0')).join('');
+const avanceCap=n=>{const c=BANK.C.find(c=>c.n===n);return [c.ses.filter(x=>PR.hechas[x.id]).length,c.ses.length]};
+// parte un nombre en hasta 2 líneas sin cortar palabras
+function lineas(t,max=22){const w=t.split(' '),L=[''];w.forEach(x=>{const k=L.length-1;if((L[k]+' '+x).trim().length>max&&L[k])L.push(x);else L[k]=(L[k]+' '+x).trim()});if(L.length>2){L[1]=L.slice(1).join(' ');if(L[1].length>max)L[1]=L[1].slice(0,max-1)+'…';L.length=2}return L}
+let CARTELES=[];
+function dibujarMapa(){armarParadas();svg.innerHTML='';let y=110,cap=null;const pts=[];CARTELES=[];
+ STOPS.forEach(s=>{if(s.sign){s.y=y+10;y+=120;return}s.x=W/2+Math.sin(pts.length*0.9)*80;s.y=y;pts.push(s);y+=GAP});
  svg.setAttribute('viewBox',`0 0 ${W} ${y+40}`);
- let d=`M ${pts[0].x} ${pts[0].y-80}`,prev={x:pts[0].x,y:pts[0].y-80};
- pts.forEach(p=>{const my=(prev.y+p.y)/2;d+=` C ${prev.x} ${my}, ${p.x} ${my}, ${p.x} ${p.y}`;prev=p});d+=` L ${prev.x} ${prev.y+40}`;
- el('path',{d,fill:'none',stroke:'#22323A','stroke-width':40,'stroke-linecap':'round'});
- el('path',{d,fill:'none',stroke:'#3A4C56','stroke-width':3,'stroke-dasharray':'12 16','stroke-linecap':'round'});
- STOPS.filter(s=>s.sign).forEach(s=>{const g=el('g',{transform:`translate(${W/2},${s.y})`});
-  el('rect',{x:-150,y:-30,width:300,height:62,rx:14,fill:'#1E2B32'},g);
-  el('text',{y:-8,'font-size':14,'font-weight':900,fill:'#9AB0BC','text-anchor':'middle'},g).textContent=s.ch.toUpperCase();
-  const t=el('text',{y:16,'font-size':s.t.length>34?13:16,'font-weight':900,fill:'#fff','text-anchor':'middle'},g);t.textContent=s.t});
+ const camino=lst=>{let d=`M ${lst[0].x} ${lst[0].y-90}`,prev={x:lst[0].x,y:lst[0].y-90};lst.forEach(p=>{const my=(prev.y+p.y)/2;d+=` C ${prev.x} ${my}, ${p.x} ${my}, ${p.x} ${p.y}`;prev=p});return d};
+ const d=camino(pts)+` L ${pts[pts.length-1].x} ${pts[pts.length-1].y+40}`;
+ el('path',{d,fill:'none',stroke:'#22323A','stroke-width':42,'stroke-linecap':'round'});
+ const ni=pts.findIndex(p=>p.s==='next');
+ if(ni!==0)el('path',{d:camino(pts.slice(0,ni<0?pts.length:ni+1)),fill:'none',stroke:'#2F5A2A','stroke-width':42,'stroke-linecap':'round'});
+ el('path',{d,fill:'none',stroke:'#4A5D68','stroke-width':3,'stroke-dasharray':'12 16','stroke-linecap':'round'});
+ // carteles de capítulo con su avance
+ let ci=0;STOPS.forEach(s=>{if(!s.sign)return;const c=BANK.C[ci],col=c?colorCap(c.n):'#CE82FF';ci++;const g=el('g',{transform:`translate(${W/2},${s.y})`});
+  el('rect',{x:-160,y:-34,width:320,height:78,rx:20,fill:oscuro(col,.7)},g);el('rect',{x:-160,y:-40,width:320,height:78,rx:20,fill:col},g);
+  el('text',{x:-140,y:-14,'font-size':12.5,'font-weight':900,fill:'#fff',opacity:.85,'letter-spacing':1.2},g).textContent=s.ch.toUpperCase();
+  const t=lineas(s.t,30);t.forEach((l,k)=>{el('text',{x:-140,y:6+k*17,'font-size':t.length>1?14.5:16.5,'font-weight':900,fill:'#fff'},g).textContent=l});
+  if(c){const [h,n]=avanceCap(c.n);el('text',{x:140,y:-14,'font-size':13,'font-weight':900,fill:'#fff','text-anchor':'end'},g).textContent=h+'/'+n;
+   el('rect',{x:-140,y:t.length>1?30:24,width:280,height:6,rx:3,fill:'rgba(0,0,0,.25)'},g);el('rect',{x:-140,y:t.length>1?30:24,width:280*h/n,height:6,rx:3,fill:'#fff'},g);
+   CARTELES.push({y:s.y,c})}});
  pts.forEach(p=>{const g=el('g',{class:'node',transform:`translate(${p.x},${p.y})`,tabindex:0,role:'button','aria-label':p.n});
-  const [c,cd]=COL[p.s];
-  if(p.s==='next')el('circle',{class:'pulse',r:42,fill:'none',stroke:c,'stroke-width':4},g);
-  el('ellipse',{cx:0,cy:8,rx:34,ry:32,fill:cd},g);el('circle',{r:34,fill:c},g);
-  el('text',{y:p.s==='done'?12:10,'font-size':p.s==='done'?30:28,'font-weight':900,fill:'#fff','text-anchor':'middle'},g).textContent=p.s==='done'?'✓':p.ic;
-  const lb=p.n.length>30?p.n.slice(0,29)+'…':p.n;el('text',{y:56,'font-size':13.5,'font-weight':900,fill:'#F1F7FB','text-anchor':'middle'},g).textContent=lb;
+  const col=p.cap&&(p.s==='ses'||p.s==='lec'||p.s==='next')?colorCap(p.cap):COL[p.s][0],cd=oscuro(col),r=p.s==='next'?40:34;
+  if(p.s==='next')el('circle',{class:'pulse',r:46,fill:'none',stroke:col,'stroke-width':4},g);
+  el('ellipse',{cx:0,cy:8,rx:r,ry:r-2,fill:p.s==='done'?COL.done[1]:cd},g);el('circle',{r,fill:p.s==='done'?COL.done[0]:col},g);
+  el('circle',{cx:-r*.35,cy:-r*.4,r:r*.28,fill:'#fff',opacity:.18},g);
+  el('text',{y:p.s==='done'?12:10,'font-size':p.s==='done'?30:(p.s==='next'?32:28),'font-weight':900,fill:'#fff','text-anchor':'middle'},g).textContent=p.s==='done'?'✓':p.ic;
+  const L=lineas(p.n),wd=Math.max(...L.map(l=>l.length))*7.3+22,y0=r+12;
+  el('rect',{x:-wd/2,y:y0,width:wd,height:L.length*17+10,rx:11,fill:'#131F24',opacity:.9},g);
+  L.forEach((l,k)=>el('text',{y:y0+18+k*17,'font-size':13.5,'font-weight':900,fill:'#F1F7FB','text-anchor':'middle'},g).textContent=l);
   g.onclick=()=>pop(p);g.onkeydown=e=>{if(e.key==='Enter')pop(p)}});
- const nx=pts.find(p=>p.s==='next');
- if(nx){const i=pts.indexOf(nx),pv=pts[i-1],cx=pv?(pv.x+nx.x)/2:nx.x-62,cy=pv?(pv.y+nx.y)/2-10:nx.y+6;
-  el('g',{class:'bob'},el('g',{transform:`translate(${cx},${cy}) scale(.8)`})).innerHTML=`<ellipse cx="2" cy="4" rx="19" ry="31" fill="#000" opacity=".35"/>
+ const nx=pts[ni];
+ if(nx){// globo "EMPEZAR" y el auto al costado del camino
+  const col=colorCap(nx.cap),gb=el('g',{class:'flota'},el('g',{transform:`translate(${nx.x},${nx.y-74})`}));
+  el('rect',{x:-56,y:-20,width:112,height:36,rx:12,fill:'#fff'},gb);el('path',{d:'M-8 15 L0 25 L8 15Z',fill:'#fff'},gb);
+  el('text',{y:4,'font-size':15,'font-weight':900,fill:col,'text-anchor':'middle','letter-spacing':1},gb).textContent='EMPEZAR';
+  gb.style.cursor='pointer';gb.onclick=()=>pop(nx);
+  const cx=nx.x+(nx.x>W/2?-86:86);
+  el('g',{class:'bob'},el('g',{transform:`translate(${cx},${nx.y+4}) scale(.75)`})).innerHTML=`<ellipse cx="2" cy="4" rx="19" ry="31" fill="#000" opacity=".35"/>
   <rect x="-19" y="-20" width="6" height="12" rx="3" fill="#111"/><rect x="13" y="-20" width="6" height="12" rx="3" fill="#111"/><rect x="-19" y="10" width="6" height="12" rx="3" fill="#111"/><rect x="13" y="10" width="6" height="12" rx="3" fill="#111"/>
   <rect x="-16" y="-29" width="32" height="58" rx="12" fill="#FF4B4B" stroke="#C81E1E" stroke-width="2"/><path d="M-12 6 Q0 1 12 6 L10 15 Q0 12 -10 15 Z" fill="#BDE7FF"/>
   <rect x="-11" y="-10" width="22" height="16" rx="4" fill="#E83A3A"/><path d="M-11 -13 Q0 -16 11 -13 L10 -19 Q0 -21 -10 -19 Z" fill="#9FD3F0"/>
   <rect x="-13" y="25" width="7" height="4" rx="2" fill="#FFE27A"/><rect x="6" y="25" width="7" height="4" rx="2" fill="#FFE27A"/>`}
- return nx}
-function irAlSiguiente(nx){requestAnimationFrame(()=>{const sc=$('scroll');if(nx)sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2})}
+ franja();return nx}
+// franja fija: muestra el capítulo que se está viendo al bajar por el mapa
+function franja(){const sc=$('scroll'),k=sc.clientWidth/W,yv=(sc.scrollTop+90)/k;let c=CARTELES[0];CARTELES.forEach(x=>{if(x.y-60<=yv)c=x});
+ const cb=$('capbar');if(!c||yv>CARTELES[CARTELES.length-1].y+((STOPS.length)*GAP)){cb.style.visibility='hidden';return}
+ cb.style.visibility='';const col=colorCap(c.c.n),[h,n]=avanceCap(c.c.n);cb.style.background=col;$('cbn').textContent=c.c.et.toUpperCase();$('cbt').textContent=c.c.t;$('cba').textContent=h+'/'+n}
+$('scroll').addEventListener('scroll',()=>requestAnimationFrame(franja),{passive:true});
+function irAlSiguiente(nx){requestAnimationFrame(()=>{const sc=$('scroll');if(nx)sc.scrollTop=nx.y*(sc.clientWidth/W)-sc.clientHeight/2;franja()})}
 function chips(){} // el contador de pendientes va en el globito de la pestaña Repaso
 function verMapa(){TAB='map';const nx=dibujarMapa();chips();show('map');irAlSiguiente(nx)}
 // vuelve a la pestaña desde la que se empezó (al terminar o salir de una práctica, prueba o simulacro)
@@ -185,21 +225,24 @@ const capDe=sid=>{for(const c of BANK.C)if(c.ses.some(x=>x.id===sid))return c.n}
 const etDe=n=>BANK.C.find(c=>c.n===n).et;
 function aviso(t){show('info');$('ibody').innerHTML=`<div class="center"><div class="big">📖</div><div class="muted" style="font-size:16px">${t}</div></div>`;
  $('ifoot').innerHTML='<button class="btn g" id="back">Volver</button>';$('back').onclick=volver}
-function pop(p){const P=$('pop');$('pi').textContent=p.ic;$('pi').style.background=COL[p.s][0];$('pt').textContent=p.n;
+function pop(p){const P=$('pop'),col=p.cap&&p.sid?colorCap(p.cap):COL[p.s][0];$('pi').textContent=p.s==='done'?'✓':p.ic;$('pi').style.background=p.s==='done'?COL.done[0]:col;$('pt').textContent=p.n;
+ $('ptira').style.background=col;$('pcap').textContent=p.cap?etDe(p.cap).toUpperCase():'EXAMEN';
  const leer=()=>lectura(p),prac=()=>practiceSession(p),tut=()=>{location.href=p.sid+'.html'};
- const base=p.tutor?['Sesión con tutor · '+p.m+' min','Sesión con tutor','',tut,'Practicar',prac]:['Lee lo que dice el libro y luego practica','Leer','',leer,'Practicar',prac];
- const m={done:p.tutor?['Hecha ✓ · puedes repasarla','Sesión con tutor','',tut,'Practicar',prac]:['Hecha ✓ · puedes repasarla','Leer de nuevo','',leer,'Practicar',prac],
-  ses:base,lec:base,next:base,
+ let ch=[];if(p.sid){const nq=preguntasDe(p.sid).length,nc=(BANK.L[p.sid]||[]).length;
+  ch=[p.tutor?'🎧 Sesión con tutor · '+p.m+' min':'📖 Lectura del libro · '+nc+(nc==1?' cita':' citas'),'✏️ '+nq+(nq==1?' pregunta':' preguntas')];if(PR.hechas[p.sid])ch.push('✓ Hecha')}
+ const base=p.tutor?['','Sesión con tutor','',tut,'Practicar',prac]:['','Leer','',leer,'Practicar',prac];
+ const m={done:p.tutor?['','Sesión con tutor','',tut,'Practicar',prac]:['','Leer de nuevo','',leer,'Practicar',prac],ses:base,lec:base,next:base,
   review:[(pendientes(p.cap).length?pendientes(p.cap).length+' por repasar hoy · ':'')+'lo fallado y lo que está por olvidarse','Cargar combustible','o',()=>repaso(p.cap)],
   test:['10 preguntas de lo que estudiaste en el capítulo','Hacer la prueba','y',()=>prueba(p)],
   exam:['35 preguntas · 38 puntos · aprueba con 33','Ver simulacros','',()=>irTab('examen')]}[p.s];
- $('ps').textContent=m[0];const b=$('pb');b.textContent=m[1];b.className='btn '+m[2];P.classList.add('on');
+ $('ps').innerHTML=ch.length?`<div class="pchips">${ch.map(x=>`<span>${x}</span>`).join('')}</div>`:m[0];
+ const b=$('pb');b.textContent=m[1];b.className='btn '+m[2];P.classList.add('on');
  b.onclick=()=>{P.classList.remove('on');m[3]&&m[3]()}
  const b2=$('pb2');b2.hidden=!m[4];if(m[4]){b2.textContent=m[4];b2.onclick=()=>{P.classList.remove('on');m[5]()}}}
 $('scroll').addEventListener('click',e=>{if(!e.target.closest('.node'))$('pop').classList.remove('on')});
 // lectura: las citas textuales del libro de esa parada
-function lectura(p){show('lec');$('lt').textContent=p.n;const L=BANK.L[p.sid]||[];
- $('lbody').innerHTML=`<div class="lecintro">Esto dice el libro. Léelo con calma y después practica.</div>`+L.map(x=>`<div class="cita">${x.i?`<img src="${BANK.IMG[x.i]}" alt="">`:''}${x.i?x.c:'“'+x.c+'”'}<small>Libro, pág. ${x.p}</small></div>`).join('');
+function lectura(p){show('lec');$('lt').textContent='📖 Lectura';const L=BANK.L[p.sid]||[],col=colorCap(p.cap);$('lbody').style.setProperty('--cc',col);
+ $('lbody').innerHTML=`<div class="lechero" style="background:${col}"><small>${etDe(p.cap).toUpperCase()}</small><b>${p.n}</b></div><div class="lecintro">Esto dice el libro. Léelo con calma y después practica.</div>`+L.map(x=>`<div class="cita">${x.i?`<img src="${BANK.IMG[x.i]}" alt="">`:''}${x.i?x.c:'“'+x.c+'”'}<small>Libro, pág. ${x.p}</small></div>`).join('');
  $('lbody').scrollTop=0;$('lbtn').onclick=()=>{PR.leidas[p.sid]=1;estudiado();practiceSession(p)}}
 $('lx').onclick=verMapa;
 /* ---------- SONIDOS (Web Audio, volumen bajo; mismas notas que las sesiones con tutor) ---------- */
@@ -247,7 +290,7 @@ function renderQ(){show('quiz');const R=RUN,q=R.qs[R.i];
  R.ord=R.ord||[];if(!R.ord[R.i])R.ord[R.i]=shuffle([...q.o.keys()]);const ord=R.ord[R.i],K=q.k||1;
  const tag=R.tag||(R.mode==='practice'?'<span class="tag" style="color:var(--orange)">⛽ REPASO</span>':
   `<span class="tag" style="color:var(--muted)">PREGUNTA ${R.i+1} DE ${R.qs.length}</span>${R.dbl&&R.dbl.has(R.i)?'<span class="dbl">DOBLE PUNTAJE</span>':''}`);
- $('qbody').innerHTML=`<div>${tag}${K>1?`<span class="dbl" style="background:var(--blue);color:#fff">MARCA ${K}</span>`:''}</div><div class="q">${q.q}</div>`+(q.i?`<img src="${qImg(q)}" alt="" style="display:block;margin:0 auto 6px;max-height:170px;max-width:80%;border-radius:12px;background:#fff;padding:6px">`:'')+ord.map(k=>`<button class="opt" data-k="${k}">${q.o[k]}</button>`).join('');
+ $('qbody').innerHTML=`<div>${tag}${K>1?`<span class="dbl" style="background:var(--blue);color:#fff">MARCA ${K}</span>`:''}</div><div class="q">${q.q}</div>`+(q.i?`<img src="${qImg(q)}" alt="" style="display:block;margin:0 auto 6px;max-height:170px;max-width:80%;border-radius:12px;background:#fff;padding:6px">`:'')+ord.map((k,j)=>`<button class="opt" data-k="${k}"><span class="le">${'ABCDEF'[j]}</span><span>${q.o[k]}</span></button>`).join('');
  const F=$('qfoot');F.className='foot';$('qfb').innerHTML='';const b=$('qbtn');
  b.textContent=R.mode==='practice'?'Comprobar':(R.i===R.qs.length-1?'Terminar':'Siguiente');b.className='btn g';b.disabled=true;let sel=null;const picks=new Set();
  $('qbody').querySelectorAll('.opt').forEach(o=>o.onclick=()=>{const k=+o.dataset.k;if(K>1){if(picks.has(k)){picks.delete(k);o.classList.remove('sel')}else if(picks.size<K){picks.add(k);o.classList.add('sel')}b.disabled=picks.size!==K}else{$('qbody').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');sel=k;b.disabled=false}});
@@ -283,25 +326,24 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>irTab(b.dataset.t));
 const chipsMapa=chips;chips=function(){chipsMapa();const n=pendientes().length,bd=$('tbadge');bd.hidden=!n;bd.textContent=n>99?'99+':n};
 function pintarRepaso(){const n=pendientes().length,cap=BANK.C.map(c=>[c,pendientes(c.n).length]).filter(([,k])=>k);
  const prox=Object.values(PR.srs).filter(r=>r.d>hoy()).map(r=>r.d).sort()[0];
- $('rbody').innerHTML=`<div class="panel"><div class="cifra">${n}</div><h3>${n==1?'pregunta por repasar hoy':'preguntas por repasar hoy'}</h3>
+ $('rbody').innerHTML=`<div class="hero" style="background:linear-gradient(135deg,#FF9600,#E8590C)"><div class="cifra">${n}</div><h3>${n==1?'pregunta por repasar hoy':'preguntas por repasar hoy'}</h3>
   <div class="muted">${n?'Primero lo que fallaste y después lo que está por olvidarse.':prox?'Nada pendiente hoy. Lo próximo vuelve el '+prox.split('-').reverse().join('/')+'.':'Cuando practiques, aquí aparecerá lo que debes reforzar.'}</div>
-  <button class="btn ${n?'o':''}" id="rgo">${n?'Repasar ahora':'Repaso libre de lo estudiado'}</button></div>
+  <button class="btn" style="background:#fff;color:#C2410C;box-shadow:0 5px 0 rgba(0,0,0,.2)" id="rgo">${n?'Repasar ahora':'Repaso libre de lo estudiado'}</button></div>
   ${cap.length?`<div class="panel"><h3>Por capítulo</h3>${cap.map(([c,k])=>`<div class="fila"><span>${c.et} · ${c.t.length>26?c.t.slice(0,25)+'…':c.t}</span><button class="mini" data-c="${c.n}">⛽ ${k}</button></div>`).join('')}</div>`:''}
   <div class="panel"><h3>Cómo funciona</h3><div class="muted">Si fallas, la pregunta vuelve al final de la ronda y queda para el repaso de hoy. Cada vez que aciertas, vuelve más tarde: en 1, 3, 7, 14 y 30 días. Si la fallas, vuelve a empezar.</div></div>`;
  $('rgo').onclick=()=>repaso();$('rbody').querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>repaso(+b.dataset.c))}
 function pintarExamen(){const est=poolEstudiado().length,H=(PR.examenes||[]).slice(-5).reverse();
- $('ebody').innerHTML=`<div class="panel"><h3>🏆 Simulacro completo</h3><div class="muted">Como el examen real: 35 preguntas al azar de las ${BANK.Q.length} del libro, 3 de doble puntaje, 45 minutos. Aprueba con 33 de 38 puntos. Puede incluir temas que aún no estudias.</div><button class="btn" id="eall">Hacer simulacro completo</button></div>
+ $('ebody').innerHTML=`<div class="hero" style="background:linear-gradient(135deg,#8B5CF6,#1CB0F6)"><h3 style="margin:0;font-size:20px">🏆 Simulacro completo</h3><div class="muted">Como el examen real: 35 preguntas al azar de las ${BANK.Q.length} del libro, 3 de doble puntaje, 45 minutos. Aprueba con 33 de 38 puntos. Puede incluir temas que aún no estudias.</div><button class="btn" style="background:#fff;color:#5B21B6;box-shadow:0 5px 0 rgba(0,0,0,.2)" id="eall">Hacer simulacro completo</button></div>
   <div class="panel"><h3>📘 Simulacro de lo estudiado</h3><div class="muted">El mismo formato, pero solo con lo que ya estudiaste (${est} preguntas disponibles${est<35?'; necesitas 35':''}).</div><button class="btn g" id="eest" ${est<35?'disabled':''}>Hacer simulacro de lo estudiado</button></div>
   ${H.length?`<div class="panel"><h3>Tus últimos resultados</h3>${H.map(e=>`<div class="fila"><span>${e.f.split('-').reverse().join('/')} · ${e.modo==='todo'?'completo':'estudiado'}</span><b style="color:${e.ok?'var(--green)':'var(--red)'}">${e.p}/${e.m} ${e.ok?'Aprobado':'Reprobado'}</b></div>`).join('')}</div>`:''}`;
  $('eall').onclick=()=>examIntro('todo');$('eest').onclick=()=>examIntro('estudiado')}
 function pintarProgreso(){const tot=BANK.C.reduce((a,c)=>a+c.ses.length,0),hechas=Object.keys(PR.hechas).length,S=Object.values(PR.srs),dom=S.filter(r=>r.b>=4).length;
  const ap=(PR.examenes||[]).filter(e=>e.ok).length;
- $('gbody').innerHTML=`<div class="stats"><div><b>${$('racha').textContent.replace('🔥 ','')}</b><span>🔥 días de racha</span></div><div><b>${hechas}/${tot}</b><span>paradas hechas</span></div>
+ const pc=Math.round(hechas/tot*100),R2=46,Cc=2*Math.PI*R2;
+ $('gbody').innerHTML=`<div class="hero anillo" style="background:linear-gradient(135deg,#58CC02,#14B8A6)"><svg width="110" height="110" viewBox="0 0 110 110"><circle cx="55" cy="55" r="${R2}" fill="none" stroke="rgba(0,0,0,.2)" stroke-width="12"/><circle cx="55" cy="55" r="${R2}" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-dasharray="${Cc*pc/100} ${Cc}" transform="rotate(-90 55 55)"/><text x="55" y="62" text-anchor="middle" font-size="24" font-weight="900" fill="#fff">${pc}%</text></svg><div><div style="font-size:20px;font-weight:900">Tu avance en el libro</div><div class="muted">${hechas} de ${tot} paradas hechas</div></div></div><div class="stats"><div><b>${$('racha').textContent.replace('🔥 ','')}</b><span>🔥 días de racha</span></div><div><b>${hechas}/${tot}</b><span>paradas hechas</span></div>
   <div><b>${S.length}</b><span>preguntas respondidas de ${BANK.Q.length}</span></div><div><b>${dom}</b><span>preguntas dominadas (aciertos repetidos)</span></div>
   <div><b>${pendientes().length}</b><span>por repasar hoy</span></div><div><b>${ap}/${(PR.examenes||[]).length}</b><span>simulacros aprobados</span></div></div>
-  <div class="panel"><h3>Avance por capítulo</h3>${BANK.C.map(c=>{const h=c.ses.filter(x=>PR.hechas[x.id]).length;return `<div class="chbar"><span>${c.et}</span><div class="bar"><i style="width:${h/c.ses.length*100}%;background:${h==c.ses.length?'var(--green)':'var(--blue)'}"></i></div><b>${h}/${c.ses.length}</b></div>`}).join('')}</div>
-  <button class="mini" id="reset" style="align-self:center;color:var(--muted)">Borrar mi progreso</button>`;
- $('reset').onclick=()=>{if(confirm('¿Borrar todo tu progreso? No se puede deshacer.')){try{localStorage.removeItem(PK)}catch(e){}location.reload()}}}
+  <div class="panel"><h3>Avance por capítulo</h3>${BANK.C.map(c=>{const h=c.ses.filter(x=>PR.hechas[x.id]).length;return `<div class="chbar"><span>${c.et}</span><div class="bar"><i style="width:${h/c.ses.length*100}%;background:${colorCap(c.n)}"></i></div><b>${h}/${c.ses.length}</b></div>`}).join('')}</div>`;}
 migrar();racha();verMapa();
 (()=>{const m=location.hash.match(/practica=(\w+)/);if(!m)return;history.replaceState(null,'',location.pathname);const p=STOPS.find(s=>s.sid===m[1]);if(p){PR.leidas[p.sid]=1;guardar();practiceSession(p)}})();
 </script></body></html>

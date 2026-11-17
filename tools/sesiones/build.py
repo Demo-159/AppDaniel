@@ -127,6 +127,14 @@ def build(sid, check):
     html = open(os.path.join(HERE, "engine.html"), encoding="utf-8").read()
     esc = "\n".join(open(f, encoding="utf-8").read() for f in sorted(glob.glob(os.path.join(HERE, "escenas", "*.js"))))
     html = html.replace("/*ESCENAS*/", esc, 1)
+    fuente = b64(os.path.join(ROOT, "tools/demo-app/fuentes/Nunito-latin.woff2"), "font/woff2")  # Nunito, licencia OFL
+    emoji = b64(os.path.join(ROOT, "tools/demo-app/fuentes/NotoColorEmoji-rutab.woff2"), "font/woff2")  # emojis iguales en todo teléfono
+    html = html.replace("/*FUENTE*/", "@font-face{font-family:'Nunito';font-weight:600 900;font-display:swap;src:url(%s) format('woff2')}"
+                        "@font-face{font-family:'RBEmoji';font-display:block;src:url(%s) format('woff2')}"
+                        "@font-face{font-family:'RBSimbolos';font-display:block;src:url(%s) format('woff2')}"
+                        "@font-face{font-family:'RBSimbolos2';font-display:block;src:url(%s) format('woff2')}"
+                        % (fuente, emoji, b64(os.path.join(ROOT, "tools/demo-app/fuentes/NotoSansMath-rutab.woff2"), "font/woff2"),
+                           b64(os.path.join(ROOT, "tools/demo-app/fuentes/NotoSansSymbols2-rutab.woff2"), "font/woff2")), 1)
     html = html.replace("<script>\nconst S=window.SESSION", "<script>window.SESSION=" + json.dumps(S, ensure_ascii=False) + ";</script>\n<script>\nconst S=window.SESSION", 1)
     os.makedirs(DIST, exist_ok=True)
     open(os.path.join(DIST, sid + ".html"), "w", encoding="utf-8").write(html)

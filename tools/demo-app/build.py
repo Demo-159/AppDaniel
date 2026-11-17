@@ -39,7 +39,16 @@ for q in content["questions"]:
     if q.get("image"): e["i"] = img(q["image"])
     Q.append(e)
 bank = {"C": C, "L": LEC, "Q": Q, "IMG": IMG}
-html = open(os.path.join(HERE, "index.tpl.html"), encoding="utf-8").read().replace("__BANK__", json.dumps(bank, ensure_ascii=False, separators=(",", ":")))
+fuente = base64.b64encode(open(os.path.join(HERE, "fuentes/Nunito-latin.woff2"), "rb").read()).decode()  # Nunito, licencia OFL (fuentes/OFL.txt)
+css_fuente = "@font-face{font-family:'Nunito';font-style:normal;font-weight:600 900;font-display:swap;src:url(data:font/woff2;base64,%s) format('woff2')}" % fuente
+# Emojis iguales en todos los teléfonos: Noto Color Emoji (licencia OFL) recortada a los emojis que usa la app.
+# Si se agregan emojis nuevos, regenerar fuentes/NotoColorEmoji-rutab.woff2 (ver fuentes/LEEME.md).
+emoji = base64.b64encode(open(os.path.join(HERE, "fuentes/NotoColorEmoji-rutab.woff2"), "rb").read()).decode()
+css_fuente += "@font-face{font-family:'RBEmoji';font-display:block;src:url(data:font/woff2;base64,%s) format('woff2')}" % emoji
+# Símbolos de texto que no traen Nunito ni la de emojis (↑ → ↻ ≈ ✓ ✕): Noto Sans Math y Symbols 2, recortadas
+for fam, arch in (("RBSimbolos", "NotoSansMath-rutab.woff2"), ("RBSimbolos2", "NotoSansSymbols2-rutab.woff2")):
+    css_fuente += "@font-face{font-family:'%s';font-display:block;src:url(data:font/woff2;base64,%s) format('woff2')}" % (fam, base64.b64encode(open(os.path.join(HERE, "fuentes", arch), "rb").read()).decode())
+html = open(os.path.join(HERE, "index.tpl.html"), encoding="utf-8").read().replace("/*FUENTE*/", css_fuente, 1).replace("__BANK__", json.dumps(bank, ensure_ascii=False, separators=(",", ":")))
 os.makedirs(os.path.join(HERE, "dist"), exist_ok=True)
 open(os.path.join(HERE, "dist/index.html"), "w", encoding="utf-8").write(html)
 print(f"✓ dist/index.html: {len(C)} capítulos, {sum(len(c['ses']) for c in C)} paradas ({len(specs)} con tutor), {len(Q)} preguntas, {len(IMG)} imágenes")
