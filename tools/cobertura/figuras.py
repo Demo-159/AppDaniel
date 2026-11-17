@@ -98,8 +98,30 @@ F = [
       e="Triciclos y bicicletas: adelante un foco de luz frontal; atrás luz roja fija.", cita="Parte delantera: un foco que proyecta luz frontal. Parte trasera: luz roja fija."),
  dict(pg=112, k=4, s="f5", u="u10", prompt="Si tu vehículo sufre una falla y estacionas en una vía sin alumbrado, ¿qué debes instalar con anticipación?", ans="El triángulo para casos de emergencia", opts=["Un cono de color verde en la berma", "Una luz neblinera trasera encendida", "Una bandera de color blanco en el techo"],
       e="Estaciona al lado derecho y, si funciona el sistema eléctrico, enciende las intermitentes.", cita="es importante que instales con anticipación el triángulo para casos de emergencia."),
+ dict(pg=44, k=0, s="f6", u="u4", prompt="¿Qué fenómeno muestra esta imagen?", ans="La visión de túnel", opts=["La percepción selectiva", "El efecto latigazo", "La mácula ciega del ojo"],
+      e="El campo visual se reduce a medida que aumenta la velocidad: a 130 km/h es de unos 30°.", cita="denominado visión de túnel, en donde el campo visual se reduce a medida que aumenta la velocidad."),
+ dict(pg=44, k=1, s="f6", u="u4", prompt="Vas a 90 km/h y el otro vehículo a 100 km/h. ¿Dónde estará el punto real de cruce?", ans="Más cerca de ti que el punto estimado", opts=["Justo en la mitad de la distancia", "Más lejos de ti que el estimado", "Exactamente donde tú lo estimas"],
+      e="El cerebro supone que ambos van a la misma velocidad; el error crece con la diferencia de velocidad.", cita="el punto de cruce real (PR) se hallará más cerca de ti que el punto estimado (PE)."),
+ dict(pg=75, k=0, s="f6", u="u6", prompt="¿Qué es esta etiqueta?", ans="La de un SRI certificado en Chile", opts=["La de la revisión técnica al día", "La del seguro obligatorio SOAP", "La del permiso de circulación"],
+      e="Va pegada a la silla, es amarilla con letras negras y mide 9,5 × 7,5 cm.", cita="Esta es la etiqueta que deben llevar las sillas infantiles que estén certificadas:"),
+ dict(pg=75, k=5, s="f6", u="u6", prompt="En un vehículo, ¿qué indica este símbolo?", ans="Anclaje ISOFIX para el SRI", opts=["Anclaje superior para el SRI", "Asiento con airbag desactivado", "Cinturón de tres puntas"],
+      e="Los SRI pueden anclarse con ISOFIX, LATCH o el cinturón; bien instalado, cualquiera es seguro por sí mismo.", cita="Símbolo Anclaje Isofix"),
+ dict(pg=75, k=6, s="f6", u="u6", prompt="En un vehículo, ¿qué indica este símbolo?", ans="Anclaje superior para el SRI", opts=["Anclaje ISOFIX para el SRI", "Asiento con airbag desactivado", "Seguro de niños en la puerta"],
+      e="Se usa junto al sistema LATCH.", cita="Símbolo Anclaje superior"),
+ dict(pg=92, k=1, s="f6", u="u8", prompt="Esperas para virar a la izquierda con las ruedas torcidas y te chocan por atrás. ¿Qué pasa?", ans="Serías lanzado hacia la pista contraria", opts=["El auto se queda en su lugar sin moverse", "Te desplazas hacia la vereda derecha", "Se activa el freno de mano solo"],
+      e="Por eso, si debes detenerte, deja las ruedas delanteras hacia adelante.", cita="Si te chocaran por atrás ( 33 ) y tuvieras tus ruedas torcidas a la izquierda, serías lanzado hacia la pista que viene en sentido contrario"),
+ dict(pg=94, k=0, s="f6", u="u8", prompt="¿Qué maniobra muestra la imagen?", ans="Un viraje en “U”", opts=["Un adelantamiento", "Una salida de rotonda", "Un cambio de pista"],
+      e="Es virar en 180° para tomar la dirección contraria; está prohibido en cruces, pasos de peatones o a menos de 200 m de curvas, puentes, túneles, etc.", cita="Se denomina viraje en “U” a aquella maniobra mediante la cual el vehículo vira en 180º"),
+ dict(pg=94, k=1, s="f6", u="u8", prompt="Con varias pistas en tu dirección, ¿qué pista eliges para virar a la izquierda?", ans="La pista izquierda", opts=["La pista derecha", "La pista del centro", "Cualquiera de las pistas"],
+      e="Elige a tiempo: la derecha para virar a la derecha y la izquierda para virar a la izquierda.", cita="elije la derecha para virar a la derecha y la izquierda para virar a la izquierda."),
+ dict(pg=94, k=2, s="f6", u="u8", prompt="Al circular por esta rotonda, ¿cuándo señalizas a la derecha?", ans="Al pasar la salida anterior a la tuya", opts=["Apenas entras a la rotonda", "Al completar la primera vuelta", "Nunca, en rotondas no se señaliza"],
+      e="Al llegar, cede el paso a quienes ya circulan por ella.", cita="señaliza a la derecha tan pronto hayas pasado la salida inmediatamente anterior a la que utilizarás."),
+ dict(pg=138, k=0, s="f6", u="u11", prompt="¿Qué se hace en esta imagen de primeros auxilios?", ans="Presión directa con un paño limpio", opts=["Darle agua fría a la persona", "Quitarle toda la ropa al herido", "Moverlo de inmediato a otro lugar"],
+      e="Las hemorragias se contienen haciendo presión directa con apósitos o paños limpios y vendajes.", cita="haciendo presión directa con apósitos o paños limpios y vendajes."),
+ dict(pg=148, k=1, s="f6", u="u11", prompt="En un siniestro, un vehículo tiene esta calcomanía. Sin capacitación, ¿qué no debes hacer?", ans="Manipularlo", opts=["Avisar a emergencias", "Señalizar el lugar", "Alejar a la gente"],
+      e="Nunca manipules vehículos eléctricos o híbridos sin capacitación ni toques la línea de alto voltaje (aislante naranjo).", cita="nunca debes manipularlos si no tienes una capacitación"),
 ]
-SES = [("f1", "Testigos e indicadores del vehículo"), ("f2", "Carabineros y semáforos"), ("f3", "Demarcaciones"), ("f4", "Señales de brazo y de estacionamiento"), ("f5", "Luces de otros vehículos")]
+SES = [("f1", "Testigos e indicadores del vehículo"), ("f2", "Carabineros y semáforos"), ("f3", "Demarcaciones"), ("f4", "Señales de brazo y de estacionamiento"), ("f5", "Luces de otros vehículos"), ("f6", "Situaciones y elementos del libro")]
 
 def main(pdf):
     doc = pymupdf.open(pdf)

@@ -130,7 +130,7 @@ class AppViewModel @JvmOverloads constructor(
 
     fun startExam() {
         // 35 preguntas de selección (como el examen municipal), repartidas entre todas las unidades.
-        val pool = content.questions.filter { it.isChoice || it.type == "tf" }.groupBy { it.unit }
+        val pool = content.questions.filter { it.isChoice || it.type == "tf" || it.type == "multi" }.groupBy { it.unit }
             .mapValues { it.value.shuffled() }
         val picked = mutableListOf<Question>()
         var round = 0

@@ -87,6 +87,7 @@ fun LessonScreen(vm: AppViewModel) {
 
     // Estado de respuesta por pregunta (se reinicia con cada intento).
     var choice by remember(key) { mutableStateOf<Int?>(null) }
+    val picks = remember(key) { mutableStateListOf<Int>() }
     val orderPicked = remember(key) { mutableStateListOf<Int>() }
     val order = remember(key) { q.items.indices.shuffled() }
     val optionOrder = remember(key) {
@@ -99,6 +100,7 @@ fun LessonScreen(vm: AppViewModel) {
     fun check() {
         val correct = when (q.type) {
             "order" -> orderPicked.toList() == q.items.indices.toList()
+            "multi" -> picks.toSet() == (0 until q.answers).toSet()
             else -> choice?.let { isChoiceCorrect(it) } ?: return
         }
         if (!correct && !isExam) haptic.performHapticFeedback(HapticFeedbackType.LongPress)
@@ -108,6 +110,7 @@ fun LessonScreen(vm: AppViewModel) {
     val ready = when (q.type) {
         "order" -> orderPicked.size == q.items.size
         "match" -> false
+        "multi" -> picks.size == q.answers
         else -> choice != null
     }
 
@@ -154,17 +157,26 @@ fun LessonScreen(vm: AppViewModel) {
                     else -> {
                         val labels = if (q.type == "tf") listOf("Verdadero", "Falso") else q.options
                         optionOrder.forEachIndexed { i, idx ->
+                            val multi = q.type == "multi"
+                            val picked = if (multi) idx in picks else choice == idx
+                            val right = if (multi) idx < q.answers else isChoiceCorrect(idx)
                             val state = when {
-                                fb == null -> if (choice == idx) OptState.SELECTED else OptState.IDLE
-                                isChoiceCorrect(idx) -> OptState.CORRECT
-                                choice == idx -> OptState.WRONG
+                                fb == null -> if (picked) OptState.SELECTED else OptState.IDLE
+                                right -> OptState.CORRECT
+                                picked -> OptState.WRONG
                                 else -> OptState.DIM
                             }
                             OptionCard(
                                 index = i + 1,
                                 text = labels[idx],
                                 state = state,
-                                onClick = { if (fb == null) choice = idx },
+                                onClick = {
+                                    if (fb == null) {
+                                        if (multi) {
+                                            if (idx in picks) picks.remove(idx) else if (picks.size < q.answers) picks.add(idx)
+                                        } else choice = idx
+                                    }
+                                },
                             )
                             Spacer(Modifier.height(10.dp))
                         }
@@ -227,6 +239,7 @@ private fun QuestionTag(q: Question, s: Session) {
         q.type == "match" -> "🔗 UNE LAS PAREJAS" to MaterialTheme.colorScheme.tertiary
         q.type == "order" -> "🧩 ORDENA LOS PASOS" to MaterialTheme.colorScheme.tertiary
         q.type == "tf" -> "⚖️ VERDADERO O FALSO" to MaterialTheme.colorScheme.tertiary
+        q.type == "multi" -> "☑️ MARCA ${q.answers} RESPUESTAS" to MaterialTheme.colorScheme.tertiary
         q.sign != null -> "🚦 SEÑAL" to GoGreen
         q.image?.startsWith("img/senales/") == true -> "🚦 SEÑAL DEL LIBRO" to GoGreen
         q.image != null -> "🖼️ MIRA LA IMAGEN" to MaterialTheme.colorScheme.tertiary

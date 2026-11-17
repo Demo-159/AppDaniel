@@ -26,6 +26,10 @@
   {
    "id": "f5",
    "titulo": "Luces de otros vehículos"
+  },
+  {
+   "id": "f6",
+   "titulo": "Situaciones y elementos del libro"
   }
  ],
  "datos": [
@@ -508,6 +512,116 @@
    ],
    "cita": "es importante que instales con anticipación el triángulo para casos de emergencia.",
    "imagen": "img/figuras/p112_4.webp"
+  },
+  {
+   "id": "fig-48",
+   "p": 44,
+   "s": "f6",
+   "q": [
+    "u4-f48"
+   ],
+   "cita": "denominado visión de túnel, en donde el campo visual se reduce a medida que aumenta la velocidad.",
+   "imagen": "img/figuras/p44_0.webp"
+  },
+  {
+   "id": "fig-49",
+   "p": 44,
+   "s": "f6",
+   "q": [
+    "u4-f49"
+   ],
+   "cita": "el punto de cruce real (PR) se hallará más cerca de ti que el punto estimado (PE).",
+   "imagen": "img/figuras/p44_1.webp"
+  },
+  {
+   "id": "fig-50",
+   "p": 75,
+   "s": "f6",
+   "q": [
+    "u6-f50"
+   ],
+   "cita": "Esta es la etiqueta que deben llevar las sillas infantiles que estén certificadas:",
+   "imagen": "img/figuras/p75_0.webp"
+  },
+  {
+   "id": "fig-51",
+   "p": 75,
+   "s": "f6",
+   "q": [
+    "u6-f51"
+   ],
+   "cita": "Símbolo Anclaje Isofix",
+   "imagen": "img/figuras/p75_5.webp"
+  },
+  {
+   "id": "fig-52",
+   "p": 75,
+   "s": "f6",
+   "q": [
+    "u6-f52"
+   ],
+   "cita": "Símbolo Anclaje superior",
+   "imagen": "img/figuras/p75_6.webp"
+  },
+  {
+   "id": "fig-53",
+   "p": 92,
+   "s": "f6",
+   "q": [
+    "u8-f53"
+   ],
+   "cita": "Si te chocaran por atrás ( 33 ) y tuvieras tus ruedas torcidas a la izquierda, serías lanzado hacia la pista que viene en sentido contrario",
+   "imagen": "img/figuras/p92_1.webp"
+  },
+  {
+   "id": "fig-54",
+   "p": 94,
+   "s": "f6",
+   "q": [
+    "u8-f54"
+   ],
+   "cita": "Se denomina viraje en “U” a aquella maniobra mediante la cual el vehículo vira en 180º",
+   "imagen": "img/figuras/p94_0.webp"
+  },
+  {
+   "id": "fig-55",
+   "p": 94,
+   "s": "f6",
+   "q": [
+    "u8-f55"
+   ],
+   "cita": "elije la derecha para virar a la derecha y la izquierda para virar a la izquierda.",
+   "imagen": "img/figuras/p94_1.webp"
+  },
+  {
+   "id": "fig-56",
+   "p": 94,
+   "s": "f6",
+   "q": [
+    "u8-f56"
+   ],
+   "cita": "señaliza a la derecha tan pronto hayas pasado la salida inmediatamente anterior a la que utilizarás.",
+   "imagen": "img/figuras/p94_2.webp"
+  },
+  {
+   "id": "fig-57",
+   "p": 138,
+   "s": "f6",
+   "q": [
+    "u11-f57"
+   ],
+   "cita": "haciendo presión directa con apósitos o paños limpios y vendajes.",
+   "imagen": "img/figuras/p138_0.webp"
+  },
+  {
+   "id": "fig-58",
+   "p": 148,
+   "s": "f6",
+   "q": [
+    "u11-f58"
+   ],
+   "cita": "nunca debes manipularlos si no tienes una capacitación",
+   "imagen": "img/figuras/p148_1.webp"
   }
  ],
  "sin_dato": []

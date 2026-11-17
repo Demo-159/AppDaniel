@@ -81,7 +81,7 @@ class ScreenshotTest {
     @Test fun lessonMatch() { val vm = lessonWith("u11-09"); shot("12_unir_parejas") { LessonScreen(vm) } }
     @Test fun lessonOrder() { val vm = lessonWith("u11-10"); shot("13_ordenar") { LessonScreen(vm) } }
     @Test fun lessonImage() { val vm = lessonWith("u7-s104"); shot("15_imagen_senal") { LessonScreen(vm) } }
-    @Test fun lessonTf() { val vm = lessonWith("u5-08"); shot("14_verdadero_falso") { LessonScreen(vm) } }
+    @Test fun lessonMulti() { val vm = lessonWith("m6-059"); shot("16_marque_dos") { LessonScreen(vm) } }
 
     @Test fun result() {
         val vm = TestSupport.vm(Progress(onboarded = true, streak = 2, bestStreak = 2, lastStudyDay = t - 1))

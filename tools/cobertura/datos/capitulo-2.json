@@ -183,7 +183,7 @@
    "p": 12,
    "s": "c2s2",
    "q": [
-    "u2-31"
+    "m2-004"
    ],
    "cita": "Te recomendamos controlar el nivel de aceite y agregar más si el nivel está bajo. Además, cambiar periódicamente el aceite y el filtro, según las recomendaciones del fabricante del vehículo."
   },
@@ -210,7 +210,7 @@
    "p": 12,
    "s": "c2s3",
    "q": [
-    "u2-33"
+    "m2-004"
    ],
    "cita": "Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente cuando la temperatura es baja."
   },
@@ -255,7 +255,7 @@
    "p": 12,
    "s": "c2s3",
    "q": [
-    "u2-36"
+    "m2-005"
    ],
    "cita": "La luz de carga durante la conducción. Si se enciende o parpadea es porque hay algún problema."
   },
@@ -264,7 +264,7 @@
    "p": 12,
    "s": "c2s3",
    "q": [
-    "u2-37"
+    "m2-005"
    ],
    "cita": "¡Ten precaución! El ácido de la batería es corrosivo; cuidado con tu ropa y piel."
   },
@@ -291,7 +291,7 @@
    "p": 13,
    "s": "c2s4",
    "q": [
-    "u2-39"
+    "m2-006"
    ],
    "cita": "Recuerda usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante."
   },
@@ -318,7 +318,7 @@
    "p": 13,
    "s": "c2s4",
    "q": [
-    "u2-41"
+    "m2-006"
    ],
    "cita": "Llenar el estanque de combustible cada vez que vayas a recargar. Contaminará menos al liberar menos gases."
   },
@@ -327,7 +327,7 @@
    "p": 13,
    "s": "c2s4",
    "q": [
-    "u2-42"
+    "m2-006"
    ],
    "cita": "Evitar frenadas y aceleraciones frecuentes ya que causan alto consumo de combustible."
   },
@@ -372,7 +372,7 @@
    "p": 13,
    "s": "c2s4",
    "q": [
-    "u2-46"
+    "m2-007"
    ],
    "cita": "a temperaturas bajo cero, el líquido refrigerante debe contener una cantidad suficiente de anticongelante que impida que el motor y el radiador se dañen por efecto de la congelación del agua"
   },
@@ -408,7 +408,7 @@
    "p": 14,
    "s": "c2s5",
    "q": [
-    "u2-49"
+    "m2-007"
    ],
    "cita": "lo mismo puede ocurrir, al conducir con el portaequipaje abierto."
   },
@@ -444,7 +444,7 @@
    "p": 14,
    "s": "c2s5",
    "q": [
-    "u2-12"
+    "m2-008"
    ],
    "cita": "Debes saber que al conducir presionando el embrague durante un tiempo mayor al necesario se reduce el control sobre el vehículo."
   },
@@ -453,7 +453,7 @@
    "p": 15,
    "s": "c2s5",
    "q": [
-    "u2-52"
+    "m2-008"
    ],
    "cita": "Existen diversos tipos de caja de cambios, clasificados en automática y manual, estas son diferenciadas por el uso de la palanca de cambios y, en el caso de los vehículos automáticos, carecer de pedal de embrague."
   },
@@ -525,7 +525,7 @@
    "p": 15,
    "s": "c2s6",
    "q": [
-    "u2-58"
+    "m2-009"
    ],
    "cita": "Los neumáticos se desgastan irregularmente."
   },
@@ -543,7 +543,7 @@
    "p": 16,
    "s": "c2s6",
    "q": [
-    "u2-60"
+    "m2-009"
    ],
    "cita": "Disminución del confort durante la conducción. La fatiga aparece con mayor facilidad en quien conduce."
   },
@@ -588,7 +588,7 @@
    "p": 16,
    "s": "c2s7",
    "q": [
-    "u2-64"
+    "m2-009"
    ],
    "cita": "Este freno suele actuar directamente sobre las ruedas traseras, bloqueándolas para impedir el movimiento."
   },
@@ -606,7 +606,7 @@
    "p": 16,
    "s": "c2s7",
    "q": [
-    "u2-66"
+    "m2-010"
    ],
    "cita": "existen 2 tipos de frenos, los convencionales y los frenos antibloqueo o ABS. Estos funcionan de forma distinta por lo que es de suma importancia saber qué tipo de frenos tiene el vehículo en el que te desplazas."
   },
@@ -633,7 +633,7 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-68"
+    "m2-004"
    ],
    "cita": "Si el ABS llegase a fallar, los frenos seguirán funcionando."
   },
@@ -642,7 +642,7 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-17"
+    "m2-004"
    ],
    "cita": "Este no se consume, por lo tanto, si disminuye es porque hay algún defecto mecánico."
   },
@@ -660,7 +660,7 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-70"
+    "m2-010"
    ],
    "cita": "Si están mal ajustados, en una frenada brusca, el efecto irregular puede hacer que el vehículo se desvíe hacia un costado."
   },
@@ -687,7 +687,7 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-73"
+    "m2-011"
    ],
    "cita": "Los plazos del líquido de frenos, indicados por el fabricante del vehículo. Una vez que caducan, debes cambiar todo el contenido."
   },
@@ -696,7 +696,7 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-74"
+    "m2-011"
    ],
    "cita": "Que el freno de mano funcione correctamente. Este debe mantener el vehículo quieto en una pendiente o impedir que se pueda poner en marcha con el freno puesto."
   },
@@ -714,7 +714,7 @@
    "p": 18,
    "s": "c2s8",
    "q": [
-    "u2-76"
+    "m2-012"
    ],
    "cita": "Los neumáticos son el único punto de apoyo del vehículo con la calzada, por esto, es de vital importancia controlarlos regularmente."
   },
@@ -741,7 +741,7 @@
    "p": 18,
    "s": "c2s8",
    "q": [
-    "u2-78"
+    "m2-012"
    ],
    "cita": "Además, es importante revisar la presión del aire en ellos. Esta debe ser constante durante todo el año."
   },
@@ -804,7 +804,7 @@
    "p": 19,
    "s": "c2s8",
    "q": [
-    "u2-81"
+    "m2-012"
    ],
    "cita": "Circular a una velocidad moderada alarga la vida de los neumáticos."
   },
@@ -822,7 +822,7 @@
    "p": 19,
    "s": "c2s8",
    "q": [
-    "u2-83"
+    "m2-013"
    ],
    "cita": "Aumentar levemente la presión de los neumáticos cuando llevas una carga muy pesada."
   },
@@ -849,7 +849,7 @@
    "p": 19,
    "s": "c2s8",
    "q": [
-    "u2-85"
+    "m2-013"
    ],
    "cita": "Si subes escalones o veredas con tu vehículo, pueden producirse deformaciones en las llantas y cortes o roturas en los neumáticos."
   },
@@ -876,7 +876,7 @@
    "p": 21,
    "s": "c2s9",
    "q": [
-    "u2-88"
+    "m2-014"
    ],
    "cita": "Todos los vehículos deben estar provistos de focos y luces exteriores para poder ver y ser visto por las demás personas"
   },
@@ -894,7 +894,7 @@
    "p": 21,
    "s": "c2s9",
    "q": [
-    "u2-90"
+    "m2-014"
    ],
    "cita": "Adicionalmente, debe contar con una tercera luz de freno ubicada al centro de la luneta trasera"
   },
@@ -912,7 +912,7 @@
    "p": 21,
    "s": "c2s9",
    "q": [
-    "u2-92"
+    "m2-015"
    ],
    "cita": "Un mal ajuste puede encandilar a las demás personas usuarias de la vía y causar un siniestro."
   },
@@ -939,7 +939,7 @@
    "p": 21,
    "s": "c2s9",
    "q": [
-    "u2-94"
+    "m2-005"
    ],
    "cita": "Deben usarse sólo por el tiempo que sea necesario para que las demás personas noten tu advertencia, nunca como una excusa para un estacionamiento peligroso o ilegal."
   },
@@ -1011,7 +1011,7 @@
    "p": 22,
    "s": "c2s10",
    "q": [
-    "u2-101"
+    "m2-015"
    ],
    "cita": "No llevar algún objeto suelto en el vehículo, que pueda lesionar a alguien en caso de una frenada brusca."
   },
@@ -1020,7 +1020,7 @@
    "p": 22,
    "s": "c2s10",
    "q": [
-    "u2-102"
+    "m2-015"
    ],
    "cita": "Tener calzado que te permita un adecuado control de los pedales."
   },
@@ -1029,7 +1029,7 @@
    "p": 22,
    "s": "c2s10",
    "q": [
-    "u2-103"
+    "m2-016"
    ],
    "cita": "Mirar a tu alrededor y chequear los puntos ciegos antes de poner tu vehículo en movimiento."
   },
@@ -1038,7 +1038,7 @@
    "p": 22,
    "s": "c2s10",
    "q": [
-    "u2-104"
+    "m2-016"
    ],
    "cita": "Tener las puertas cerradas. Si llevas niñas y/o niños, asegúrate de que vayan bien sujetos y que no puedan abrir las puertas desde el interior."
   },
@@ -1047,7 +1047,7 @@
    "p": 22,
    "s": "c2s10",
    "q": [
-    "u2-105"
+    "m2-017"
    ],
    "cita": "Si no es así, activa el ventilador, ajusta las boquillas del aire y enciende el desempañador de la luneta trasera."
   },
@@ -1065,7 +1065,7 @@
    "p": 23,
    "s": "c2s11",
    "q": [
-    "u3-26"
+    "m2-017"
    ],
    "cita": "si conduces a una velocidad demasiado alta, la fricción puede no ser suficiente para mantener al vehículo en la carretera."
   },
@@ -1146,7 +1146,7 @@
    "p": 23,
    "s": "c2s12",
    "q": [
-    "u3-32"
+    "m2-018"
    ],
    "cita": "Además, existe la variable relacionada a la experiencia en conducción, que permite tener mejores tiempo de reacción."
   },
@@ -1209,7 +1209,7 @@
    "p": 24,
    "s": "c2s13",
    "q": [
-    "u3-36"
+    "m2-018"
    ],
    "cita": "Distancia de frenado, asfalto seco. Distancia de frenado, asfalto mojado."
   },
@@ -1218,7 +1218,7 @@
    "p": 24,
    "s": "c2s13",
    "q": [
-    "u3-37"
+    "m2-018"
    ],
    "cita": "La persona conductora que planifica su conducción disminuyendo a tiempo la presión sobre el acelerador y reduciendo su velocidad, hace menos uso del pedal de frenos y aumenta su seguridad."
   },
@@ -1245,7 +1245,7 @@
    "p": 25,
    "s": "c2s14",
    "q": [
-    "u3-07"
+    "m2-005"
    ],
    "cita": "Recuerda nunca desenganchar el motor ya que pierdes el control del vehículo."
   },
@@ -1290,7 +1290,7 @@
    "p": 25,
    "s": "c2s14",
    "q": [
-    "u3-13"
+    "m2-019"
    ],
    "cita": "Otro factor que puede influir en que un vehículo gire más o menos de lo esperado es la presión de aire en sus neumáticos."
   },
@@ -1308,7 +1308,7 @@
    "p": 25,
    "s": "c2s14",
    "q": [
-    "u3-42"
+    "m2-019"
    ],
    "cita": "Un vehículo con tracción en las cuatro ruedas proporciona una posibilidad de conducción considerablemente mejor en pavimentos difíciles."
   },
@@ -1335,7 +1335,7 @@
    "p": 26,
    "s": "c2s15",
    "q": [
-    "u3-43"
+    "m2-020"
    ],
    "cita": "Los cinturones de seguridad tienen la función de salvar vidas y disminuir las posibilidades de sufrir lesiones en un siniestro. Además, brindan mayor comodidad, mejor control y contribuyen a reducir el cansancio."
   },
@@ -1344,7 +1344,7 @@
    "p": 26,
    "s": "c2s15",
    "q": [
-    "u3-44"
+    "m2-006"
    ],
    "cita": "Nunca permitas que dos personas viajen sujetas con un mismo cinturón."
   },
@@ -1389,7 +1389,7 @@
    "p": 26,
    "s": "c2s15",
    "q": [
-    "u3-47"
+    "m2-020"
    ],
    "cita": "Después de sufrir un siniestro, el cinturón podría estar dañado y su uso ya no ser seguro. En este caso deberás reemplazarlo por uno nuevo."
   },
@@ -1434,7 +1434,7 @@
    "p": 27,
    "s": "c2s16",
    "q": [
-    "u3-50"
+    "m2-021"
    ],
    "cita": "Si el cinturón tiene holguras, recorrerás una mayor distancia durante el siniestro, pudiendo impactar contra el volante o el parabrisas."
   },
@@ -1461,7 +1461,7 @@
    "p": 28,
    "s": "c2s16",
    "q": [
-    "u3-52"
+    "m2-006"
    ],
    "cita": "No pongas toallas o almohadones (tanto sobre el asiento como detrás de la espalda), o algunas fundas especiales."
   },
@@ -1470,7 +1470,7 @@
    "p": 28,
    "s": "c2s16",
    "q": [
-    "u3-53"
+    "m2-021"
    ],
    "cita": "Por esta razón también evita conducir con ropa de mucho volumen."
   },
@@ -1479,7 +1479,7 @@
    "p": 28,
    "s": "c2s16",
    "q": [
-    "u3-54"
+    "m2-007"
    ],
    "cita": "Las personas que se ven impulsadas hacia adelante desde el asiento trasero no sólo se lesionan a sí mismas, sino que también pueden lesionar a la persona conductora o a quien viaje en el asiento delantero."
   },
@@ -1524,7 +1524,7 @@
    "p": 29,
    "s": "c2s17",
    "q": [
-    "u3-58"
+    "m2-007"
    ],
    "cita": "Cerca del 80% de los siniestros con víctimas, ocurren en zonas urbanas. Por ejemplo, un golpe frontal a tan sólo 30 o 40 km/h podría resultar mortal con facilidad"
   },
@@ -1542,7 +1542,7 @@
    "p": 29,
    "s": "c2s17",
    "q": [
-    "u3-60"
+    "m2-008"
    ],
    "cita": "Ningún dispositivo de seguridad del vehículo es capaz de sustituir al cinturón"
   },
@@ -1551,7 +1551,7 @@
    "p": 29,
    "s": "c2s17",
    "q": [
-    "u3-61"
+    "m2-021"
    ],
    "cita": "En la medida en que uses habitualmente tu cinturón de seguridad, desaparecerá esa incomodidad inicial"
   },
@@ -1560,7 +1560,7 @@
    "p": 29,
    "s": "c2s17",
    "q": [
-    "u3-19"
+    "m2-008"
    ],
    "cita": "Las personas embarazadas también deben ponerse el cinturón de seguridad, debido a que el riesgo de lesionar y perder el bebé durante un siniestro es mayor si no lo usan"
   },
@@ -1587,7 +1587,7 @@
    "p": 30,
    "s": "c2s18",
    "q": [
-    "u3-22"
+    "m2-009"
    ],
    "cita": "El airbag no es eficaz si no se utiliza junto con el cinturón de seguridad."
   },
@@ -1605,7 +1605,7 @@
    "p": 30,
    "s": "c2s18",
    "q": [
-    "u3-65"
+    "m2-022"
    ],
    "cita": "Protege la cara y los ojos de los fragmentos de cristal u otros elementos que pueden desprenderse"
   },
@@ -1641,7 +1641,7 @@
    "p": 30,
    "s": "c2s18",
    "q": [
-    "u3-68"
+    "m2-022"
    ],
    "cita": "Cuando el sistema de airbag presente fallas en su estado de reposo, se prenderá el testigo del airbag y este debe ser revisado a la brevedad."
   },
@@ -1677,7 +1677,7 @@
    "p": 31,
    "s": "c2s19",
    "q": [
-    "u3-72"
+    "m2-023"
    ],
    "cita": "si se dañan las vértebras cervicales, la persona podría llegar a sufrir algún tipo de discapacidad irreversible, como una tetraplejia."
   },
@@ -1695,7 +1695,7 @@
    "p": 31,
    "s": "c2s19",
    "q": [
-    "u3-73"
+    "m2-023"
    ],
    "cita": "Nunca debes ubicarlo por debajo de tu cabeza, esto produce que su efectividad se reduzca drásticamente."
   },

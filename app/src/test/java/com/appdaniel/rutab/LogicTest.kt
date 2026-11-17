@@ -25,6 +25,10 @@ class LogicTest {
         content.questions.forEach { q ->
             when (q.type) {
                 "mc", "sign" -> assertEquals(q.id, 4, q.options.toSet().size)
+                "multi" -> {
+                    assertTrue(q.id, q.answers in 2 until q.options.size)
+                    assertEquals(q.id, q.options.size, q.options.toSet().size)
+                }
                 "img" -> {
                     assertEquals(q.id, 4, q.options.toSet().size)
                     assertTrue("${q.id}: falta la imagen ${q.image}", q.image != null && java.io.File("src/main/assets/${q.image}").exists())

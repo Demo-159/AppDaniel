@@ -65,7 +65,7 @@
    "p": 127,
    "s": "c8s1",
    "q": [
-    "u11-31"
+    "m8-096"
    ],
    "cita": "el dióxido de carbono, uno de los principales causantes del efecto invernadero"
   },
@@ -83,7 +83,7 @@
    "p": 128,
    "s": "c8s2",
    "q": [
-    "u11-33"
+    "m8-096"
    ],
    "cita": "La eficiencia energética no es hacer menos, sino hacer lo mismo pero gastando menos."
   },
@@ -92,7 +92,7 @@
    "p": 128,
    "s": "c8s2",
    "q": [
-    "u11-34"
+    "m8-097"
    ],
    "cita": "Recuerda no manipular tu teléfono mientras estés conduciendo, escucha las indicaciones del GPS a través del audio de cada aplicación."
   },
@@ -101,7 +101,7 @@
    "p": 128,
    "s": "c8s2",
    "q": [
-    "u11-35"
+    "m8-097"
    ],
    "cita": "Así, mientras mayor peso se tenga en el vehículo, mayor será el consumo de combustible."
   },
@@ -155,7 +155,7 @@
    "p": 130,
    "s": "c8s3",
    "q": [
-    "u11-39"
+    "m8-098"
    ],
    "cita": "Permite conducir de forma segura. Aumentas la vida útil de sus componentes. Mantienes un buen rendimiento de combustible. Mayor disponibilidad del vehículo."
   },
@@ -164,7 +164,7 @@
    "p": 130,
    "s": "c8s4",
    "q": [
-    "u11-06"
+    "m8-096"
    ],
    "cita": "Cuando enciendas el motor, prefiere no pisar el acelerador, pues tal acción sólo provoca un incremento en el consumo."
   },
@@ -173,7 +173,7 @@
    "p": 131,
    "s": "c8s4",
    "q": [
-    "u11-40"
+    "m8-098"
    ],
    "cita": "Evita acelerar a fondo. Las aceleraciones a fondo generan un consumo excesivo de combustible."
   },
@@ -200,7 +200,7 @@
    "p": 131,
    "s": "c8s4",
    "q": [
-    "u11-42"
+    "m8-098"
    ],
    "cita": "Las marchas más bajas tienen mayor consumo de combustible."
   },
@@ -209,7 +209,7 @@
    "p": 131,
    "s": "c8s4",
    "q": [
-    "u11-43"
+    "m8-099"
    ],
    "cita": "si te acostumbras a presionar el acelerador a fondo, el vehículo puede seleccionar marchas más bajas para incrementar la potencia, lo que finalmente aumenta el consumo."
   },
@@ -218,7 +218,7 @@
    "p": 132,
    "s": "c8s5",
    "q": [
-    "u11-44"
+    "m8-099"
    ],
    "cita": "Mantener poca distancia con el vehículo que te precede te obliga a frenar y acelerar repetidas veces, aumentando el consumo de combustible y el desgaste de tu vehículo."
   },
@@ -227,7 +227,7 @@
    "p": 132,
    "s": "c8s5",
    "q": [
-    "u11-45"
+    "m8-096"
    ],
    "cita": "Si frenas a último minuto, además de exponerte a siniestros, perderás la oportunidad de ahorrar y no ganarás nada de tiempo."
   },
@@ -254,7 +254,7 @@
    "p": 133,
    "s": "c8s5",
    "q": [
-    "u11-47"
+    "m8-097"
    ],
    "cita": "Los rojos del semáforo, en general, duran menos de un minuto, así que, en este caso, no conviene apagar el motor."
   },
@@ -263,7 +263,7 @@
    "p": 133,
    "s": "c8s6",
    "q": [
-    "u11-48"
+    "m8-099"
    ],
    "cita": "En estas situaciones debe primar la seguridad por sobre la economía"
   },
@@ -272,7 +272,7 @@
    "p": 134,
    "s": "c8s6",
    "q": [
-    "u11-49"
+    "m8-100"
    ],
    "cita": "una conducción segura es la base para una Conducción Eficiente"
   },
@@ -281,7 +281,7 @@
    "p": 134,
    "s": "c8s6",
    "q": [
-    "u11-50"
+    "m8-100"
    ],
    "cita": "Los estados de frustración y/o estrés convierten a quien conduce en una potencial persona agresiva"
   }

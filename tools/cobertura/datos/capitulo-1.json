@@ -68,7 +68,7 @@
    "p": 6,
    "s": "c1s1",
    "q": [
-    "u1-02"
+    "m1-001"
    ],
    "cita": "La mayoría de las muertes producidas por los siniestros de tránsito podría haberse evitado."
   },
@@ -77,7 +77,7 @@
    "p": 6,
    "s": "c1s1",
    "q": [
-    "u1-37"
+    "m1-001"
    ],
    "cita": "Si un siniestro de tránsito fuera un suceso eventual, la probabilidad de sufrir un siniestro dependería sólo de la cantidad de tiempo que pasemos al volante, pero no es así."
   },
@@ -86,7 +86,7 @@
    "p": 6,
    "s": "c1s1",
    "q": [
-    "u1-17"
+    "m1-001"
    ],
    "cita": "La conducción de un vehículo implica responsabilidad colectiva"
   },
@@ -140,7 +140,7 @@
    "p": 6,
    "s": "c1s2",
    "q": [
-    "u1-20"
+    "m1-001"
    ],
    "cita": "queda discapacitada de por vida y, sin embargo, aparecen en las cifras sólo como “lesionados”."
   },
@@ -149,7 +149,7 @@
    "p": 6,
    "s": "c1s1",
    "q": [
-    "u1-50"
+    "m1-002"
    ],
    "cita": "Los siniestros de tránsito tienen poco de azarosos o de impredecibles."
   },
@@ -167,7 +167,7 @@
    "p": 6,
    "s": "c1s2",
    "q": [
-    "u1-52"
+    "m1-002"
    ],
    "cita": "En general, no existe consciencia sobre la magnitud del problema de los siniestros de tránsito en el mundo."
   },
@@ -212,7 +212,7 @@
    "p": 7,
    "s": "c1s3",
    "q": [
-    "u1-40"
+    "m1-003"
    ],
    "cita": "no todos ellos pueden ser valorizados monetariamente."
   },
@@ -303,7 +303,7 @@
    "p": 8,
    "s": "c1s4",
    "q": [
-    "u1-27",
+    "m1-002",
     "u1-43"
    ],
    "cita": "También en vías urbanas se produce la mayor cantidad de lesionados, sobre 35.000 en promedio al año, sin embargo éstos en su mayoría son de menor gravedad que los lesionados en carreteras."
@@ -340,7 +340,7 @@
    "p": 8,
    "s": "c1s5",
    "q": [
-    "u1-10"
+    "m1-003"
    ],
    "cita": "A una velocidad de 65 km/h lo más probable es que un peatón atropellado muera."
   },
@@ -486,7 +486,7 @@
    "s": "c1s7",
    "q": [
     "u1-13",
-    "u1-47"
+    "m1-002"
    ],
    "cita": "El cuerpo humano por naturaleza tiene una capacidad limitada para soportar las fuerzas de un impacto antes de que el daño ocurra."
   },
@@ -506,7 +506,7 @@
    "s": "c1s7",
    "q": [
     "u1-13",
-    "u1-49"
+    "m1-003"
    ],
    "cita": "Todos los componentes del sistema deben estar fortalecidos y si uno falla, las otras partes continúan protegiendo a las personas involucradas."
   },
@@ -515,7 +515,7 @@
    "p": 9,
    "s": "c1s7",
    "q": [
-    "u1-55"
+    "m1-003"
    ],
    "cita": "los seres humanos cometen errores y que la mayoría de estos siniestros se producen por una equivocación."
   }

@@ -36,6 +36,7 @@ data class Scene(val v: String, val h: String, val t: String)
  *  - order: ordenar [items] (vienen en el orden correcto).
  *  - match: unir parejas [pairs].
  *  - img: opción múltiple con una imagen del libro en [image] (ruta dentro de assets).
+ *  - multi: "Marque dos/tres respuestas", como en el examen: las primeras [answers] opciones son las correctas.
  */
 @Serializable
 data class Question(
@@ -53,6 +54,8 @@ data class Question(
     val sign: String? = null,
     /** Imagen tomada del libro (p. ej. "img/senales/s000.webp"), dentro de assets. */
     val image: String? = null,
+    /** Cantidad de respuestas correctas en las preguntas "multi" (son las primeras de [options]). */
+    val answers: Int = 1,
 ) {
     val isChoice get() = type == "mc" || type == "sign" || type == "img"
 
@@ -60,6 +63,7 @@ data class Question(
         "tf" -> if (answer == true) "Verdadero" else "Falso"
         "order" -> items.joinToString("  →  ")
         "match" -> pairs.joinToString("\n") { "${it[0]} = ${it[1]}" }
+        "multi" -> options.take(answers).joinToString("\n") { "✓ $it" }
         else -> options.firstOrNull().orEmpty()
     }
 }

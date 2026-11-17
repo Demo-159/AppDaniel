@@ -30,7 +30,7 @@
    "s": "c10s1",
    "q": [
     "u7-20",
-    "u7-48"
+    "m10-110"
    ],
    "cita": "Tienen por finalidad notificar a las personas usuarias de las vías las prioridades en el uso de las mismas, así como las prohibiciones, restricciones, obligaciones y autorizaciones existentes. Su transgresión constituye infracción a las normas de tránsito."
   },
@@ -48,7 +48,7 @@
    "p": 156,
    "s": "c10s1",
    "q": [
-    "u7-49"
+    "m10-110"
    ],
    "cita": "Tienen como propósito orientar y guiar a las personas usuarias del sistema vial"
   },
@@ -84,7 +84,7 @@
    "p": 162,
    "s": "c10s2",
    "q": [
-    "u11-96"
+    "m10-111"
    ],
    "cita": "Calzada: Parte de una vía destinada al uso de vehículos y animales."
   },
@@ -102,7 +102,7 @@
    "p": 162,
    "s": "c10s2",
    "q": [
-    "u11-98"
+    "m10-110"
    ],
    "cita": "Cruce regulado: Cruce en que existe un semáforo funcionando normalmente, excluyendo la intermitencia, o donde está Carabineros dirigiendo el tránsito."
   },
@@ -111,7 +111,7 @@
    "p": 163,
    "s": "c10s2",
    "q": [
-    "u11-99"
+    "m10-111"
    ],
    "cita": "Derecho preferente de paso: Prerrogativa de un peatón o persona conductora de un vehículo para proseguir su marcha."
   },
@@ -147,7 +147,7 @@
    "p": 164,
    "s": "c10s2",
    "q": [
-    "u11-103"
+    "m10-112"
    ],
    "cita": "Sobrepasar: Maniobra mediante la cual un vehículo pasa a otro u otros que circulan en el mismo sentido sin traspasar el eje de la calzada."
   },
@@ -165,7 +165,7 @@
    "p": 165,
    "s": "c10s2",
    "q": [
-    "u11-105"
+    "m10-112"
    ],
    "cita": "Vehículo para el transporte escolar: Vehículo motorizado construido para transportar más de siete personas sentadas"
   },
@@ -183,7 +183,7 @@
    "p": 165,
    "s": "c10s2",
    "q": [
-    "u11-107"
+    "m10-112"
    ],
    "cita": "Zona urbana: Área geográfica cuyos límites, para los efectos de esta ley, deben estar determinados y señalizados por las Municipalidades."
   },
@@ -192,7 +192,7 @@
    "p": 168,
    "s": "c10s3",
    "q": [
-    "u11-108"
+    "m10-113"
    ],
    "cita": "Recuerda que la Licencia de Conducir debe ser obtenida en la comuna donde resides."
   },
@@ -237,7 +237,7 @@
    "p": 169,
    "s": "c10s3",
    "q": [
-    "u11-112"
+    "m10-113"
    ],
    "cita": "deberás esperar 6 meses para iniciar cada nuevo proceso contado desde las respectivas denegaciones a la licencia."
   },
@@ -246,7 +246,7 @@
    "p": 169,
    "s": "c10s3",
    "q": [
-    "u11-113"
+    "m10-113"
    ],
    "cita": "El proceso de obtención de licencia da la opción de tener dos oportunidades por cada examen teórico y práctico."
   }
