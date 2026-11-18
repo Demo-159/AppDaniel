@@ -1,0 +1,57 @@
+{
+ "id": "c7s11",
+ "titulo": "El hielo",
+ "icono": "🧊",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver dónde se esconde el hielo en el camino, y cómo detectarlo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧊",
+    "texto": "El hielo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "En días fríos y húmedos, las sombras de los árboles pueden esconder partes heladas: son las primeras en congelarse, y las últimas en secarse. Los puentes también se congelan antes que el resto del camino.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-sombra"
+   },
+   "dato": "c7-78"
+  },
+  {
+   "voz": "Si sientes la dirección excesivamente ligera, como si flotara, puede haber hielo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-flota"
+   },
+   "dato": "c7-79"
+  },
+  {
+   "voz": "Con la calzada helada, la distancia de frenado puede aumentar hasta diez veces. La adherencia mejora con neumáticos especiales, o con cadenas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-10veces"
+   },
+   "dato": [
+    "c7-80",
+    "c7-81"
+   ]
+  },
+  {
+   "voz": "Con la calzada helada, ¿cuánto puede aumentar la distancia de frenado?",
+   "elige": {
+    "pregunta": "Con la calzada helada, la distancia de frenado puede aumentar…",
+    "opciones": [
+     "Hasta 10 veces",
+     "Hasta 2 veces",
+     "No cambia"
+    ],
+    "bien": "Así es: hasta diez veces.",
+    "mal": "Puede aumentar hasta diez veces."
+   }
+  }
+ ]
+}

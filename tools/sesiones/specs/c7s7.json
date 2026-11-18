@@ -1,0 +1,73 @@
+{
+ "id": "c7s7",
+ "titulo": "Detención, fallas y salida de la autopista",
+ "icono": "⚠️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué hacer si tu auto falla en una autopista, y cómo salir de ella.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚠️",
+    "texto": "Fallas y salida de la autopista"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "No te detengas en una autopista, a menos que haya una emergencia, o te lo pida Carabineros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-detenerse"
+   },
+   "dato": "c7-44"
+  },
+  {
+   "voz": "Si tu auto falla, ubícate en la berma, lo más lejos posible de la calzada, enciende las luces de peligro, y sal por la puerta derecha, junto con tus pasajeros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-falla"
+   },
+   "dato": "c7-45"
+  },
+  {
+   "voz": "Si no alcanzas la berma, no pongas un triángulo en la calzada, ni intentes la más mínima reparación.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-nociones"
+   },
+   "dato": "c7-46"
+  },
+  {
+   "voz": "La pista de desaceleración para salir se distingue por líneas segmentadas más anchas de lo normal; y señales especiales te avisan a trescientos, doscientos y cien metros de su inicio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-salida"
+   },
+   "dato": [
+    "c7-47",
+    "c7-49"
+   ]
+  },
+  {
+   "voz": "Al salir, tu velocidad puede ser mayor de lo que crees: ochenta kilómetros por hora pueden parecerte cincuenta. Mira el velocímetro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-8050"
+   },
+   "dato": "c7-48"
+  },
+  {
+   "voz": "Al salir de una autopista, ochenta kilómetros por hora pueden parecerte…",
+   "elige": {
+    "pregunta": "Al salir de una autopista, 80 km/h pueden parecerte…",
+    "opciones": [
+     "50 km/h",
+     "100 km/h",
+     "80 km/h"
+    ],
+    "bien": "Así es: pueden parecerte cincuenta.",
+    "mal": "Pueden parecerte cincuenta: por eso debes mirar el velocímetro."
+   }
+  }
+ ]
+}

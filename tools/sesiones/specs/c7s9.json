@@ -1,0 +1,103 @@
+{
+ "id": "c7s9",
+ "titulo": "La lluvia y el aquaplaning",
+ "icono": "🌧️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a conducir con lluvia, y qué es el aquaplaning.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌧️",
+    "texto": "La lluvia y el aquaplaning"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Con mal tiempo, la primera regla de seguridad es preguntarte si es indispensable desplazarte.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-indispensable"
+   },
+   "dato": "c7-59"
+  },
+  {
+   "voz": "Las primeras gotas son las más peligrosas: el agua se mezcla con el polvo y el aceite del asfalto, sobre todo tras un largo período sin lluvia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-primeras"
+   },
+   "dato": "c7-60"
+  },
+  {
+   "voz": "Los frenos mojados pierden eficacia. Para secarlos, pisa el pedal ligera y suavemente, en forma repetida: es el efecto bombeo. Y si el vehículo patina, suelta el freno por completo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-bombeo"
+   },
+   "dato": [
+    "c7-61",
+    "c7-62"
+   ]
+  },
+  {
+   "voz": "Con lluvia, tu distancia de frenado será al menos el doble que en condiciones ideales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-doble"
+   },
+   "dato": "c7-63"
+  },
+  {
+   "voz": "Cuando la capa de agua es mayor de la que los neumáticos pueden desalojar, flotan sobre ella, y pierden adherencia. Esto se conoce como aquaplaning, o hidroplaning. El mejor consejo es moderar la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-aquaplaning"
+   },
+   "dato": [
+    "c7-64",
+    "c7-65"
+   ]
+  },
+  {
+   "voz": "Si pasas charcos con las ruedas de un solo lado, reduce aún más la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-charcos"
+   },
+   "dato": "c7-66"
+  },
+  {
+   "voz": "Si debes pasar un tramo inundado, hazlo lento, en primera, y a velocidad constante. Después, prueba los frenos pisando suave; si no responden, sécalos frenando suavemente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-inundado"
+   },
+   "dato": [
+    "c7-67",
+    "c7-68"
+   ]
+  },
+  {
+   "voz": "Para quitar el vaho del parabrisas, usa la calefacción y la ventilación orientadas al parabrisas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-vaho"
+   },
+   "dato": "c7-69"
+  },
+  {
+   "voz": "¿Qué es el aquaplaning?",
+   "elige": {
+    "pregunta": "¿Qué es el aquaplaning o hidroplaning?",
+    "opciones": [
+     "Los neumáticos flotan sobre una capa de agua",
+     "Los frenos se mojan y no responden",
+     "El parabrisas se empaña con la lluvia"
+    ],
+    "bien": "Así es: los neumáticos flotan sobre el agua, y pierden adherencia.",
+    "mal": "Es cuando los neumáticos flotan sobre una capa de agua, y pierden adherencia."
+   }
+  }
+ ]
+}

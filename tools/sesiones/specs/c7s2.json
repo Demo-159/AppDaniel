@@ -1,0 +1,102 @@
+{
+ "id": "c7s2",
+ "titulo": "Encendido y manejo de luces",
+ "icono": "💡",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender cuándo encender las luces, y cuándo usar las altas y las bajas.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💡",
+    "texto": "El manejo de las luces"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Debes circular con las luces encendidas desde media hora después de la puesta de sol, hasta media hora antes de su salida: luces bajas en vías urbanas, y altas en caminos y vías rurales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-horario"
+   },
+   "dato": [
+    "c7-07",
+    "c7-08"
+   ]
+  },
+  {
+   "voz": "Es aconsejable circular con luces bajas incluso de día. Y en vías interurbanas debes circular siempre con las luces encendidas, aunque no esté oscuro. Nunca circules solo con las luces de estacionamiento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-dia"
+   },
+   "dato": [
+    "c7-09",
+    "c7-10",
+    "c7-11"
+   ]
+  },
+  {
+   "voz": "Cuando se acerca un vehículo de frente, cambia a luces bajas para no cegar a quien lo conduce; también con ciclistas. Y dirige tu mirada a lo lejos, hacia el borde derecho de la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-cruce"
+   },
+   "dato": [
+    "c7-12",
+    "c7-13"
+   ]
+  },
+  {
+   "voz": "No es necesario bajar las luces al cruzarte con peatones. Y en el momento mismo del encuentro, conviene volver a luces altas, para ver los obstáculos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-peatones"
+   },
+   "dato": [
+    "c7-14",
+    "c7-15"
+   ]
+  },
+  {
+   "voz": "Al alcanzar a un vehículo que va delante, cambia a luces bajas, para no encandilarlo por su espejo. Al adelantarlo, vuelve a luces altas apenas no lo cegues.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-alcanzar"
+   },
+   "dato": [
+    "c7-16",
+    "c7-17"
+   ]
+  },
+  {
+   "voz": "Cuando te adelantan, baja las luces cuando el otro vehículo aparezca oblicuamente a tu izquierda.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-adelantan"
+   },
+   "dato": "c7-18"
+  },
+  {
+   "voz": "Y si te detienes de noche en una vía sin alumbrado, para ser visible puedes encender también la iluminación interna.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-interna"
+   },
+   "dato": "c7-19"
+  },
+  {
+   "voz": "De noche, en una vía rural, se acerca un vehículo de frente. ¿Qué haces?",
+   "elige": {
+    "pregunta": "De noche, en vía rural, se acerca un vehículo de frente. ¿Qué haces?",
+    "opciones": [
+     "Cambiar a luces bajas",
+     "Mantener las luces altas",
+     "Apagar las luces un momento"
+    ],
+    "bien": "Así es: luces bajas, y la mirada al borde derecho.",
+    "mal": "Cambias a luces bajas para no cegarlo, y miras hacia el borde derecho."
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "c7s6",
+ "titulo": "Tomar la autopista y circular en ella",
+ "icono": "🛣️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a entrar a una autopista y a circular por ella.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛣️",
+    "texto": "Entrar y circular en autopista"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Antes de entrar a una autopista, asegúrate de tener combustible para llegar, al menos, a la próxima estación de servicio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-combustible"
+   },
+   "dato": "c7-37"
+  },
+  {
+   "voz": "Para entrar, usa la pista de aceleración: permanece en ella mientras adaptas tu velocidad, hasta que haya una brecha segura. Los que ya circulan tienen la prioridad; si no hay brecha, detente hasta que se produzca.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-aceleracion"
+   },
+   "dato": [
+    "c7-38",
+    "c7-39"
+   ]
+  },
+  {
+   "voz": "Usar una autopista sin un sistema de pago, como el TAG o un pase diario, es sancionado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-pago"
+   },
+   "dato": "c7-40"
+  },
+  {
+   "voz": "A velocidades altas, la regla de los tres segundos es imprescindible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-3seg"
+   },
+   "dato": "c7-41"
+  },
+  {
+   "voz": "Facilita la entrada de otros, soltando el acelerador y dejándolos pasar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-facilita"
+   },
+   "dato": "c7-42"
+  },
+  {
+   "voz": "Tras muchos kilómetros te acostumbras a la velocidad, y crees ir más lento. Controla tu velocidad mirando el velocímetro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-velocimetro"
+   },
+   "dato": "c7-43"
+  },
+  {
+   "voz": "¿Cómo te incorporas a una autopista?",
+   "elige": {
+    "pregunta": "¿Cómo te incorporas a una autopista?",
+    "opciones": [
+     "Por la pista de aceleración, cuando haya espacio",
+     "Entrando directo a la pista izquierda",
+     "Tocando la bocina para que te dejen pasar"
+    ],
+    "bien": "Así es: por la pista de aceleración, esperando una brecha segura.",
+    "mal": "Por la pista de aceleración, adaptando tu velocidad y esperando una brecha segura."
+   }
+  }
+ ]
+}

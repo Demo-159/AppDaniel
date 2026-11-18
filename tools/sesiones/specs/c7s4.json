@@ -1,0 +1,62 @@
+{
+ "id": "c7s4",
+ "titulo": "Conducción con carga",
+ "icono": "📦",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo cambia el vehículo cuando llevas carga.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📦",
+    "texto": "Conducción con carga"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Con una carga pesada, la aceleración será más lenta, y las distancias para detenerte aumentarán.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-pesada"
+   },
+   "dato": "c7-26"
+  },
+  {
+   "voz": "Con carga pesada atrás, sentirás el volante más liviano, y el vehículo tenderá a girar más de lo esperado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-atras"
+   },
+   "dato": "c7-27"
+  },
+  {
+   "voz": "Nunca lleves objetos duros, con puntas, o pesados, en el estante de atrás: en una frenada pueden salir disparados hacia adelante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-estante"
+   },
+   "dato": "c7-28"
+  },
+  {
+   "voz": "Si ves que a otro vehículo se le cae parte de su carga, avisa por un teléfono SOS.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-sos"
+   },
+   "dato": "c7-29"
+  },
+  {
+   "voz": "Con una carga pesada, ¿qué ocurre con el vehículo?",
+   "elige": {
+    "pregunta": "Con una carga pesada, el vehículo…",
+    "opciones": [
+     "Acelera más lento y frena en más distancia",
+     "Acelera más rápido y frena igual",
+     "No cambia su comportamiento"
+    ],
+    "bien": "Así es: acelera más lento, y necesita más distancia para detenerse.",
+    "mal": "Acelera más lento, y las distancias para detenerse aumentan."
+   }
+  }
+ ]
+}

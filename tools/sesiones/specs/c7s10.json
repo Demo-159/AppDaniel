@@ -1,0 +1,84 @@
+{
+ "id": "c7s10",
+ "titulo": "La nieve",
+ "icono": "❄️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a conducir con nieve.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "❄️",
+    "texto": "La nieve"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Los primeros copos de nieve son tan peligrosos como las primeras gotas de lluvia: se forma un barrillo muy deslizante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-copos"
+   },
+   "dato": "c7-70"
+  },
+  {
+   "voz": "Usa cadenas, al menos, en las ruedas motrices, es decir, las de tracción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-cadenas"
+   },
+   "dato": "c7-71"
+  },
+  {
+   "voz": "Sigue las huellas de los otros vehículos, y procura no adelantar. Usa la marcha más alta que razonablemente sea posible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-huellas"
+   },
+   "dato": [
+    "c7-72",
+    "c7-73"
+   ]
+  },
+  {
+   "voz": "Baja las pendientes lentamente, a velocidad muy moderada, y en una marcha baja, frenando con el motor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-bajadas"
+   },
+   "dato": "c7-74"
+  },
+  {
+   "voz": "Al atardecer, donde la nieve tiene más brillo está más dura, y puede haber hielo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-brillo"
+   },
+   "dato": "c7-75"
+  },
+  {
+   "voz": "Con temperaturas bajo cero, es indispensable agregar anticongelante al líquido lavaparabrisas. Y no uses luces altas cuando nieva: no atraviesan la cortina de copos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-lavador"
+   },
+   "dato": [
+    "c7-76",
+    "c7-77"
+   ]
+  },
+  {
+   "voz": "Con nieve, ¿dónde se ponen las cadenas, como mínimo?",
+   "elige": {
+    "pregunta": "Con nieve, las cadenas van como mínimo en…",
+    "opciones": [
+     "Las ruedas motrices",
+     "Las ruedas delanteras siempre",
+     "Las cuatro ruedas siempre"
+    ],
+    "bien": "Así es: en las ruedas motrices, las de tracción.",
+    "mal": "Como mínimo, en las ruedas motrices, es decir, las de tracción."
+   }
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "id": "c7s8",
+ "titulo": "Conducción en túneles",
+ "icono": "🚇",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo entrar a un túnel, y qué hacer si algo pasa dentro de él.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚇",
+    "texto": "Conducción en túneles"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Antes de entrar a un túnel, asegúrate de tener combustible suficiente para no quedar detenido en su interior.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-combus"
+   },
+   "dato": "c7-50"
+  },
+  {
+   "voz": "Enciende las luces al ingresar, aunque el túnel tenga buena iluminación; y hazlo con anticipación, para que quienes vienen detrás no confundan tus luces traseras con las de freno. Y quítate los lentes de sol.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-luces"
+   },
+   "dato": [
+    "c7-51",
+    "c7-52"
+   ]
+  },
+  {
+   "voz": "Si hay un atochamiento, enciende de inmediato las luces de emergencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-atochamiento"
+   },
+   "dato": "c7-53"
+  },
+  {
+   "voz": "Si tu vehículo falla y no puedes moverlo, quédate en él con todos los ocupantes, con el cinturón puesto, y espera asistencia. Pídela solo desde un teléfono SOS: el celular no indica desde dónde llamas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-falla2"
+   },
+   "dato": [
+    "c7-54",
+    "c7-55"
+   ]
+  },
+  {
+   "voz": "Si tu vehículo se incendia, sal del túnel si es posible. Si no puedes, oríllate a la derecha, apaga el motor, y abandona el vehículo inmediatamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-incendio"
+   },
+   "dato": "c7-56"
+  },
+  {
+   "voz": "Al sobrepasar a un motociclista, deja la misma distancia lateral que dejarías a un automóvil. Y en autopistas y carreteras, si vas más lento que la máxima, circula por la pista derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-moto2"
+   },
+   "dato": [
+    "c7-57",
+    "c7-58"
+   ]
+  },
+  {
+   "voz": "Dentro de un túnel, ¿por qué pides ayuda desde un teléfono SOS y no desde tu celular?",
+   "elige": {
+    "pregunta": "En un túnel, ¿por qué pedir ayuda desde un teléfono SOS?",
+    "opciones": [
+     "El celular no indica desde dónde llamas",
+     "El celular no tiene señal en ningún túnel",
+     "Es más barato"
+    ],
+    "bien": "Así es: el celular no indica desde dónde llamas.",
+    "mal": "Porque el celular no indica desde dónde se está llamando."
+   }
+  }
+ ]
+}

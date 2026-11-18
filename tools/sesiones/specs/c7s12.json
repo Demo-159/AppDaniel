@@ -1,0 +1,73 @@
+{
+ "id": "c7s12",
+ "titulo": "La niebla y el viento fuerte",
+ "icono": "🌫️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a conducir con niebla y con viento fuerte.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌫️",
+    "texto": "Niebla y viento fuerte"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Con niebla, usa luces bajas, y si tienes, los neblineros: al proyectarse hacia el suelo, se ven más y mejor. Las altas no sirven: las gotitas reflejan la luz como un espejo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-niebla"
+   },
+   "dato": [
+    "c7-82",
+    "c7-83"
+   ]
+  },
+  {
+   "voz": "Las luces de niebla traseras te hacen visible, pero úsalas solo cuando la niebla es espesa, porque podrías deslumbrar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-trasera"
+   },
+   "dato": "c7-84"
+  },
+  {
+   "voz": "No adelantes si la visibilidad no te permite una buena observación hacia adelante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-noadelantar"
+   },
+   "dato": "c7-85"
+  },
+  {
+   "voz": "El viento fuerte, sobre todo cuando sopla de lado en caminos de montaña, puede sacarte del camino o volcar el vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-viento"
+   },
+   "dato": "c7-86"
+  },
+  {
+   "voz": "Con viento fuerte, reduce la velocidad, sujeta el volante con firmeza, y gíralo contra el viento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-contra"
+   },
+   "dato": "c7-87"
+  },
+  {
+   "voz": "Con niebla, ¿qué luces usas?",
+   "elige": {
+    "pregunta": "Con niebla, ¿qué luces usas?",
+    "opciones": [
+     "Bajas y neblineros",
+     "Altas",
+     "Solo las de estacionamiento"
+    ],
+    "bien": "Así es: bajas, y neblineros si tienes.",
+    "mal": "Con niebla usas luces bajas y neblineros; las altas reflejan en la niebla como un espejo."
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "c7s5",
+ "titulo": "Conducción con remolque",
+ "icono": "🚚",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las reglas para arrastrar un remolque.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚚",
+    "texto": "Conducción con remolque"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Con licencia clase B puedes arrastrar un remolque cuyo peso no exceda la tara del vehículo, siempre que el peso total no supere los tres mil quinientos kilos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-3500"
+   },
+   "dato": "c7-30"
+  },
+  {
+   "voz": "Si el remolque es ancho, instala espejos extra, o prolonga los existentes con brazos especiales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-espejos"
+   },
+   "dato": "c7-31"
+  },
+  {
+   "voz": "Los remolques con capacidad de carga superior a setecientos cincuenta kilos deben tener frenos; y uno de emergencia, que actúe solo si se rompe el enganche.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-750"
+   },
+   "dato": [
+    "c7-32",
+    "c7-33"
+   ]
+  },
+  {
+   "voz": "Si la presión sobre la bola de enganche es baja o nula, se eleva la parte trasera del auto, y el conjunto puede serpentear, e incluso volcar el remolque.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-bola"
+   },
+   "dato": "c7-34"
+  },
+  {
+   "voz": "Antes de partir, verifica que el freno de estacionamiento del remolque esté suelto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-partir"
+   },
+   "dato": "c7-35"
+  },
+  {
+   "voz": "Si el remolque empieza a zigzaguear, suelta el acelerador lentamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-zigzag"
+   },
+   "dato": "c7-36"
+  },
+  {
+   "voz": "Si el remolque empieza a zigzaguear, ¿qué haces?",
+   "elige": {
+    "pregunta": "Si el remolque empieza a zigzaguear…",
+    "opciones": [
+     "Sueltas el acelerador lentamente",
+     "Frenas a fondo",
+     "Aceleras para enderezarlo"
+    ],
+    "bien": "Así es: sueltas el acelerador, lentamente.",
+    "mal": "Suelta el acelerador lentamente."
+   }
+  }
+ ]
+}

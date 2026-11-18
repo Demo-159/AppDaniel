@@ -1,0 +1,78 @@
+{
+ "id": "c7s3",
+ "titulo": "Las luces de otros vehículos",
+ "icono": "🚛",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a reconocer, de noche, a otros vehículos por sus luces.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚛",
+    "texto": "Las luces de otros vehículos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Los camiones y buses llevan luces amarillas en ambos extremos de la parte superior, que indican su ancho y su altura máxima.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-camion"
+   },
+   "dato": "c7-20"
+  },
+  {
+   "voz": "Las motocicletas y motonetas llevan adelante un solo foco, con luces altas y bajas; y atrás, luz roja fija, luz de freno, y dos destellantes de viraje.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-moto"
+   },
+   "dato": "c7-21"
+  },
+  {
+   "voz": "Los vehículos a tracción animal deben llevar un farol a cada costado, con luz blanca hacia adelante, y roja hacia atrás.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-carreta"
+   },
+   "dato": "c7-22"
+  },
+  {
+   "voz": "Las luces que se proyectan hacia adelante son blancas o amarillas, y las que se proyectan hacia atrás son rojas; excepto las de retroceso, que son blancas, y las de viraje, que pueden ser rojas o ámbar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-colores"
+   },
+   "dato": "c7-23"
+  },
+  {
+   "voz": "Las bicicletas deben tener reflectantes en sus ruedas, en su parte trasera, y en sus horquillas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-bici"
+   },
+   "dato": "c7-24"
+  },
+  {
+   "voz": "En una zona urbana con alumbrado público, no debes llevar encendidas las luces altas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-urbana"
+   },
+   "dato": "c7-25"
+  },
+  {
+   "voz": "De noche ves un solo foco adelante. ¿Qué vehículo puede ser?",
+   "elige": {
+    "pregunta": "De noche ves un solo foco adelante. ¿Qué puede ser?",
+    "opciones": [
+     "Una motocicleta o motoneta",
+     "Un camión",
+     "Una carreta"
+    ],
+    "bien": "Así es: las motos llevan un solo foco adelante.",
+    "mal": "Puede ser una motocicleta o motoneta: llevan un solo foco adelante."
+   }
+  }
+ ]
+}

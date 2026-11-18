@@ -1,0 +1,73 @@
+{
+ "id": "c7s1",
+ "titulo": "Conducción en la oscuridad",
+ "icono": "🌙",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué de noche el riesgo es mayor, y cuánto alcanzas a ver con tus luces.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌙",
+    "texto": "Conducción en la oscuridad"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El riesgo de siniestro es mayor durante la noche, entre otras causas, por nuestra limitada capacidad para ver en la oscuridad. Para prevenir siniestros, aumenta la distancia con los vehículos que van adelante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-noche"
+   },
+   "dato": [
+    "c7-01",
+    "c7-02"
+   ]
+  },
+  {
+   "voz": "En la oscuridad, o con niebla o lluvia, los colores y contornos se difuminan, y el tráfico que viene en sentido contrario parece más lejos de lo que realmente está.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-lejos"
+   },
+   "dato": "c7-03"
+  },
+  {
+   "voz": "Descubrir un obstáculo de noche depende de tus luces, de tu vista, y de la capacidad de reflejar la luz que tenga el obstáculo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-depende"
+   },
+   "dato": "c7-04"
+  },
+  {
+   "voz": "Con luces bajas, ves a un peatón con ropa oscura a unos veinticinco metros; con ropa clara, a unos sesenta; y con reflectante, a unos ciento veinticinco.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-bajas"
+   },
+   "dato": "c7-05"
+  },
+  {
+   "voz": "Con luces altas: unos ciento cincuenta metros con ropa oscura, trescientos con ropa clara, y cuatrocientos cincuenta con reflectante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c7-altas"
+   },
+   "dato": "c7-06"
+  },
+  {
+   "voz": "Con luces bajas, ¿a qué distancia aproximada ves a un peatón con ropa clara?",
+   "elige": {
+    "pregunta": "Con luces bajas, ¿a qué distancia ves a un peatón con ropa clara?",
+    "opciones": [
+     "Unos 60 metros",
+     "Unos 25 metros",
+     "Unos 300 metros"
+    ],
+    "bien": "Así es: unos sesenta metros.",
+    "mal": "Con luces bajas, ropa clara: unos sesenta metros."
+   }
+  }
+ ]
+}
