@@ -23,7 +23,7 @@
    }
   },
   {
-   "voz": "Curva a la derecha.",
+   "voz": "Esta es la señal de curva a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s062.webp",
@@ -32,7 +32,7 @@
    "dato": "a1-062"
   },
   {
-   "voz": "Curva a la izquierda.",
+   "voz": "Esta es la señal de curva a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s063.webp",
@@ -41,7 +41,7 @@
    "dato": "a1-063"
   },
   {
-   "voz": "Curva cerrada a la derecha.",
+   "voz": "Esta es la señal de curva cerrada a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s064.webp",
@@ -50,7 +50,7 @@
    "dato": "a1-064"
   },
   {
-   "voz": "Curva cerrada a la izquierda.",
+   "voz": "Esta es la señal de curva cerrada a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s065.webp",
@@ -59,7 +59,7 @@
    "dato": "a1-065"
   },
   {
-   "voz": "Zona de curvas a la derecha.",
+   "voz": "Esta es la señal de zona de curvas a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s066.webp",
@@ -68,7 +68,7 @@
    "dato": "a1-066"
   },
   {
-   "voz": "Zona de curvas a la izquierda.",
+   "voz": "Esta es la señal de zona de curvas a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s067.webp",
@@ -77,7 +77,7 @@
    "dato": "a1-067"
   },
   {
-   "voz": "Curva y contracurva a la derecha.",
+   "voz": "Esta es la señal de curva y contracurva a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s068.webp",
@@ -86,7 +86,7 @@
    "dato": "a1-068"
   },
   {
-   "voz": "Curva y contracurva a la izquierda.",
+   "voz": "Esta es la señal de curva y contracurva a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s069.webp",
@@ -95,7 +95,7 @@
    "dato": "a1-069"
   },
   {
-   "voz": "Curva y contracurva cerrada a la derecha.",
+   "voz": "Esta es la señal de curva y contracurva cerrada a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s070.webp",
@@ -104,7 +104,7 @@
    "dato": "a1-070"
   },
   {
-   "voz": "Curva y contracurva cerrada a la izquierda.",
+   "voz": "Esta es la señal de curva y contracurva cerrada a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s071.webp",
@@ -113,7 +113,7 @@
    "dato": "a1-071"
   },
   {
-   "voz": "Curva muy cerrada a la derecha.",
+   "voz": "Esta es la señal de curva muy cerrada a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s072.webp",
@@ -122,7 +122,7 @@
    "dato": "a1-072"
   },
   {
-   "voz": "Curva muy cerrada a la izquierda.",
+   "voz": "Esta es la señal de curva muy cerrada a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s073.webp",
@@ -131,7 +131,7 @@
    "dato": "a1-073"
   },
   {
-   "voz": "Pendiente fuerte en bajada.",
+   "voz": "Esta es la señal de pendiente fuerte en bajada.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s074.webp",
@@ -140,7 +140,7 @@
    "dato": "a1-074"
   },
   {
-   "voz": "Pendiente fuerte en bajada.",
+   "voz": "Esta es la señal de pendiente fuerte en bajada.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s075.webp",
@@ -149,7 +149,7 @@
    "dato": "a1-075"
   },
   {
-   "voz": "Proximidad de túnel.",
+   "voz": "Esta es la señal de proximidad de túnel.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s076.webp",
@@ -158,7 +158,7 @@
    "dato": "a1-076"
   },
   {
-   "voz": "Pendiente fuerte en subida.",
+   "voz": "Esta es la señal de pendiente fuerte en subida.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s077.webp",
@@ -167,7 +167,7 @@
    "dato": "a1-077"
   },
   {
-   "voz": "Pendiente fuerte en subida.",
+   "voz": "Esta es la señal de pendiente fuerte en subida.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s078.webp",
@@ -176,7 +176,7 @@
    "dato": "a1-078"
   },
   {
-   "voz": "Ribera sin protección.",
+   "voz": "Esta es la señal de ribera sin protección.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s079.webp",
@@ -185,7 +185,7 @@
    "dato": "a1-079"
   },
   {
-   "voz": "Aeropuerto o aeródromo.",
+   "voz": "Esta es la señal de aeropuerto o aeródromo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s080.webp",
@@ -194,7 +194,7 @@
    "dato": "a1-080"
   },
   {
-   "voz": "Viento lateral.",
+   "voz": "Esta es la señal de viento lateral.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s081.webp",
@@ -203,7 +203,7 @@
    "dato": "a1-081"
   },
   {
-   "voz": "Angostamiento a ambos lados.",
+   "voz": "Esta es la señal de angostamiento a ambos lados.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s082.webp",
@@ -212,7 +212,7 @@
    "dato": "a1-082"
   },
   {
-   "voz": "Angostamiento a la derecha.",
+   "voz": "Esta es la señal de angostamiento a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s083.webp",
@@ -221,7 +221,7 @@
    "dato": "a1-083"
   },
   {
-   "voz": "Angostamiento a la izquierda.",
+   "voz": "Esta es la señal de angostamiento a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s084.webp",
@@ -230,7 +230,7 @@
    "dato": "a1-084"
   },
   {
-   "voz": "Puente angosto.",
+   "voz": "Esta es la señal de puente angosto.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s085.webp",
@@ -239,7 +239,7 @@
    "dato": "a1-085"
   },
   {
-   "voz": "Ensanchamiento a ambos lados.",
+   "voz": "Esta es la señal de ensanchamiento a ambos lados.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s086.webp",
@@ -248,7 +248,7 @@
    "dato": "a1-086"
   },
   {
-   "voz": "Ensanchamiento a la derecha.",
+   "voz": "Esta es la señal de ensanchamiento a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s087.webp",
@@ -257,7 +257,7 @@
    "dato": "a1-087"
   },
   {
-   "voz": "Ensanchamiento a la izquierda.",
+   "voz": "Esta es la señal de ensanchamiento a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s088.webp",
@@ -266,7 +266,7 @@
    "dato": "a1-088"
   },
   {
-   "voz": "Peso máximo.",
+   "voz": "Esta es la señal de peso máximo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s089.webp",
@@ -275,7 +275,7 @@
    "dato": "a1-089"
   },
   {
-   "voz": "Altura máxima.",
+   "voz": "Esta es la señal de altura máxima.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s090.webp",
@@ -284,7 +284,7 @@
    "dato": "a1-090"
   },
   {
-   "voz": "Ancho máximo.",
+   "voz": "Esta es la señal de ancho máximo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s091.webp",
@@ -293,7 +293,7 @@
    "dato": "a1-091"
   },
   {
-   "voz": "Largo máximo.",
+   "voz": "Esta es la señal de largo máximo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s092.webp",
@@ -302,7 +302,7 @@
    "dato": "a1-092"
   },
   {
-   "voz": "Inicio de mediana.",
+   "voz": "Esta es la señal de inicio de mediana.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s093.webp",
@@ -311,7 +311,7 @@
    "dato": "a1-093"
   },
   {
-   "voz": "Proximidad de cables de alta tensión.",
+   "voz": "Esta es la señal de proximidad de cables de alta tensión.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s094.webp",
@@ -320,7 +320,7 @@
    "dato": "a1-094"
   },
   {
-   "voz": "Resalto.",
+   "voz": "Esta es la señal de resalto.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s095.webp",
@@ -329,7 +329,7 @@
    "dato": "a1-095"
   },
   {
-   "voz": "Ubicación resalto.",
+   "voz": "Esta es la señal de ubicación resalto.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s096.webp",
@@ -338,7 +338,7 @@
    "dato": "a1-096"
   },
   {
-   "voz": "Resaltos sucesivos.",
+   "voz": "Esta es la señal de resaltos sucesivos.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s097.webp",
@@ -347,7 +347,7 @@
    "dato": "a1-097"
   },
   {
-   "voz": "Badén.",
+   "voz": "Esta es la señal de badén.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s098.webp",
@@ -356,7 +356,7 @@
    "dato": "a1-098"
   },
   {
-   "voz": "Proyección de gravilla.",
+   "voz": "Esta es la señal de proyección de gravilla.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s099.webp",
@@ -365,7 +365,7 @@
    "dato": "a1-099"
   },
   {
-   "voz": "Zona de avalancha.",
+   "voz": "Esta es la señal de zona de avalancha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s100.webp",
@@ -374,7 +374,7 @@
    "dato": "a1-100"
   },
   {
-   "voz": "Peligro.",
+   "voz": "Esta es la señal de peligro.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s101.webp",
@@ -383,7 +383,7 @@
    "dato": "a1-101"
   },
   {
-   "voz": "Barreras.",
+   "voz": "Esta es la señal de barreras.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s102.webp",
@@ -392,7 +392,7 @@
    "dato": "a1-102"
   },
   {
-   "voz": "Señal fin mediana.",
+   "voz": "Esta es la señal de señal fin mediana.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s103.webp",
@@ -401,7 +401,7 @@
    "dato": "a1-103"
   },
   {
-   "voz": "Cruce ferroviario a nivel sin barreras.",
+   "voz": "Esta es la señal de cruce ferroviario a nivel sin barreras.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s104.webp",
@@ -410,7 +410,7 @@
    "dato": "a1-104"
   },
   {
-   "voz": "Cruce ferroviario a nivel con barreras.",
+   "voz": "Esta es la señal de cruce ferroviario a nivel con barreras.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s105.webp",
@@ -419,7 +419,7 @@
    "dato": "a1-105"
   },
   {
-   "voz": "Cruz de san andrés.",
+   "voz": "Esta es la señal de cruz de san andrés.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s106.webp",
@@ -428,7 +428,7 @@
    "dato": "a1-106"
   },
   {
-   "voz": "Proximidad rotonda.",
+   "voz": "Esta es la señal de proximidad rotonda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s107.webp",
@@ -437,7 +437,7 @@
    "dato": "a1-107"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s108.webp",
@@ -446,7 +446,7 @@
    "dato": "a1-108"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s109.webp",
@@ -455,7 +455,7 @@
    "dato": "a1-109"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s110.webp",
@@ -464,7 +464,7 @@
    "dato": "a1-110"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s111.webp",
@@ -473,7 +473,7 @@
    "dato": "a1-111"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s112.webp",
@@ -482,7 +482,7 @@
    "dato": "a1-112"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s113.webp",
@@ -491,7 +491,7 @@
    "dato": "a1-113"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s114.webp",
@@ -500,7 +500,7 @@
    "dato": "a1-114"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s115.webp",
@@ -509,7 +509,7 @@
    "dato": "a1-115"
   },
   {
-   "voz": "Cruces bifurcaciones y convergencias.",
+   "voz": "Esta es la señal de cruces bifurcaciones y convergencias.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s116.webp",
@@ -518,7 +518,7 @@
    "dato": "a1-116"
   },
   {
-   "voz": "Dos sentidos de tránsito.",
+   "voz": "Esta es la señal de dos sentidos de tránsito.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s117.webp",
@@ -527,7 +527,7 @@
    "dato": "a1-117"
   },
   {
-   "voz": "Ciclistas en la vía.",
+   "voz": "Esta es la señal de ciclistas en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s118.webp",
@@ -536,7 +536,7 @@
    "dato": "a1-118"
   },
   {
-   "voz": "Maquinaria agrícola.",
+   "voz": "Esta es la señal de maquinaria agrícola.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s119.webp",
@@ -545,7 +545,7 @@
    "dato": "a1-119"
   },
   {
-   "voz": "Carretelas en la vía.",
+   "voz": "Esta es la señal de carretelas en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s120.webp",
@@ -554,7 +554,7 @@
    "dato": "a1-120"
   },
   {
-   "voz": "Animales en la vía.",
+   "voz": "Esta es la señal de animales en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s121.webp",
@@ -563,7 +563,7 @@
    "dato": "a1-121"
   },
   {
-   "voz": "Animales en la vía.",
+   "voz": "Esta es la señal de animales en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s122.webp",
@@ -572,7 +572,7 @@
    "dato": "a1-122"
   },
   {
-   "voz": "Zona de peatones.",
+   "voz": "Esta es la señal de zona de peatones.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s123.webp",
@@ -581,7 +581,7 @@
    "dato": "a1-123"
   },
   {
-   "voz": "Proximidad de paso de cebra.",
+   "voz": "Esta es la señal de proximidad de paso de cebra.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s124.webp",
@@ -590,7 +590,7 @@
    "dato": "a1-124"
   },
   {
-   "voz": "Zona de escuela.",
+   "voz": "Esta es la señal de zona de escuela.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s125.webp",
@@ -599,7 +599,7 @@
    "dato": "a1-125"
   },
   {
-   "voz": "Niños jugando.",
+   "voz": "Esta es la señal de niños jugando.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s126.webp",
@@ -608,7 +608,7 @@
    "dato": "a1-126"
   },
   {
-   "voz": "Proximidad de semáforo.",
+   "voz": "Esta es la señal de proximidad de semáforo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s127.webp",
@@ -617,7 +617,7 @@
    "dato": "a1-127"
   },
   {
-   "voz": "Proximidad de señal “ceda el paso”.",
+   "voz": "Esta es la señal de proximidad de señal “ceda el paso”.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s128.webp",
@@ -626,7 +626,7 @@
    "dato": "a1-128"
   },
   {
-   "voz": "Proximidad de señal “pare”.",
+   "voz": "Esta es la señal de proximidad de señal “pare”.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s129.webp",
@@ -635,7 +635,7 @@
    "dato": "a1-129"
   },
   {
-   "voz": "Cruce ciclista.",
+   "voz": "Esta es la señal de cruce ciclista.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s130.webp",
@@ -644,7 +644,7 @@
    "dato": "a1-130"
   },
   {
-   "voz": "Salida carro bomberos.",
+   "voz": "Esta es la señal de salida carro bomberos.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s131.webp",
@@ -653,7 +653,7 @@
    "dato": "a1-131"
   },
   {
-   "voz": "Zona de derrumbes.",
+   "voz": "Esta es la señal de zona de derrumbes.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s132.webp",
@@ -662,7 +662,7 @@
    "dato": "a1-132"
   },
   {
-   "voz": "Pavimento resbaladizo.",
+   "voz": "Esta es la señal de pavimento resbaladizo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s133.webp",
@@ -671,7 +671,7 @@
    "dato": "a1-133"
   },
   {
-   "voz": "Desnivel severo.",
+   "voz": "Esta es la señal de desnivel severo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s134.webp",

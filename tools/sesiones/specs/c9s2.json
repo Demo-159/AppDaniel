@@ -81,9 +81,9 @@
    "dato": "c9-17"
   },
   {
-   "voz": "¿Qué maniobra se usa para abrir la vía aérea?",
+   "voz": "Para abrir la vía aérea de una persona lesionada, ¿qué maniobra se usa?",
    "elige": {
-    "pregunta": "¿Qué maniobra se usa para abrir la vía aérea?",
+    "pregunta": "Para abrir la vía aérea de una persona lesionada, ¿qué maniobra se usa?",
     "opciones": [
      "La maniobra frente-mentón",
      "Girar la cabeza hacia un lado",

@@ -38,7 +38,7 @@
    "dato": "fig-18"
   },
   {
-   "voz": "Luz verde: indica paso.",
+   "voz": "En el semáforo, la luz verde indica paso: puedes avanzar.",
    "escena": {
     "tipo": "imagen",
     "src": "img/figuras/p78_1.webp"
@@ -46,7 +46,7 @@
    "dato": "fig-19"
   },
   {
-   "voz": "Luz amarilla: indica prevención.",
+   "voz": "La luz amarilla del semáforo indica prevención.",
    "escena": {
     "tipo": "imagen",
     "src": "img/figuras/p78_0.webp"
@@ -54,7 +54,7 @@
    "dato": "fig-20"
   },
   {
-   "voz": "Luz roja: indica detención.",
+   "voz": "La luz roja del semáforo indica detención.",
    "escena": {
     "tipo": "imagen",
     "src": "img/figuras/p78_2.webp"
@@ -102,7 +102,7 @@
    "dato": "fig-26"
   },
   {
-   "voz": "Un carabinero de costado, ¿qué te indica?",
+   "voz": "Si ves a un carabinero de costado, ¿qué te está indicando?",
    "elige": {
     "pregunta": "Un carabinero de costado te indica…",
     "opciones": [

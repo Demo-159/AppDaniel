@@ -23,7 +23,7 @@
    }
   },
   {
-   "voz": "Trabajos en la vía.",
+   "voz": "Esta es la señal de trabajos en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s182.webp",
@@ -32,7 +32,7 @@
    "dato": "a1-182"
   },
   {
-   "voz": "Fin trabajos en la vía.",
+   "voz": "Esta es la señal de fin trabajos en la vía.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s183.webp",
@@ -41,7 +41,7 @@
    "dato": "a1-183"
   },
   {
-   "voz": "Banderero.",
+   "voz": "Esta es la señal de banderero.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s184.webp",
@@ -50,7 +50,7 @@
    "dato": "a1-184"
   },
   {
-   "voz": "Tránsito de maquinaria.",
+   "voz": "Esta es la señal de tránsito de maquinaria.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s185.webp",
@@ -59,7 +59,7 @@
    "dato": "a1-185"
   },
   {
-   "voz": "Curva a la derecha.",
+   "voz": "Esta es la señal de curva a la derecha.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s186.webp",
@@ -68,7 +68,7 @@
    "dato": "a1-186"
   },
   {
-   "voz": "Curva muy cerrada a la izquierda.",
+   "voz": "Esta es la señal de curva muy cerrada a la izquierda.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s187.webp",
@@ -77,7 +77,7 @@
    "dato": "a1-187"
   },
   {
-   "voz": "Badén.",
+   "voz": "Esta es la señal de badén.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s188.webp",
@@ -86,7 +86,7 @@
    "dato": "a1-188"
   },
   {
-   "voz": "Ancho máximo.",
+   "voz": "Esta es la señal de ancho máximo.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s189.webp",
@@ -95,7 +95,7 @@
    "dato": "a1-189"
   },
   {
-   "voz": "Zona de derrumbes.",
+   "voz": "Esta es la señal de zona de derrumbes.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s190.webp",
@@ -104,7 +104,7 @@
    "dato": "a1-190"
   },
   {
-   "voz": "Proyección de gravilla.",
+   "voz": "Esta es la señal de proyección de gravilla.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s191.webp",
@@ -113,7 +113,7 @@
    "dato": "a1-191"
   },
   {
-   "voz": "Peligro.",
+   "voz": "Esta es la señal de peligro.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s192.webp",
@@ -122,7 +122,7 @@
    "dato": "a1-192"
   },
   {
-   "voz": "Desvío.",
+   "voz": "Esta es la señal de desvío.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s193.webp",
@@ -131,7 +131,7 @@
    "dato": "a1-193"
   },
   {
-   "voz": "Proximidad de desvío.",
+   "voz": "Esta es la señal de proximidad de desvío.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s194.webp",
@@ -140,7 +140,7 @@
    "dato": "a1-194"
   },
   {
-   "voz": "Fin de desvío.",
+   "voz": "Esta es la señal de fin de desvío.",
    "escena": {
     "tipo": "imagen",
     "src": "img/senales/s195.webp",

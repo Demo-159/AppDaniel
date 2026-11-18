@@ -45,7 +45,7 @@
    ]
   },
   {
-   "voz": "Si tu vehículo emite humo azul, ¿qué indica?",
+   "voz": "¿Qué indica el humo de color azul que sale por el tubo de escape?",
    "elige": {
     "pregunta": "Si tu vehículo emite humo azul, indica…",
     "opciones": [

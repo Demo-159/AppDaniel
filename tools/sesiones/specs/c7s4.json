@@ -46,7 +46,7 @@
    "dato": "c7-29"
   },
   {
-   "voz": "Con una carga pesada, ¿qué ocurre con el vehículo?",
+   "voz": "Si llevas una carga pesada, ¿qué ocurre con el vehículo?",
    "elige": {
     "pregunta": "Con una carga pesada, el vehículo…",
     "opciones": [

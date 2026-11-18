@@ -23,6 +23,7 @@ El usuario habla español (Chile) y prueba todo desde el teléfono. Responde sie
 | Sesión con tutor | Estilo "Synthesis Tutor": **como un video, pero interactivo**. Avanza sola (sin "Siguiente" a cada rato), voz + **gráficos** (no texto, no fórmulas), una interacción a mitad (elige / desliza), luego práctica. Al hacer la pregunta, la pregunta se ve en pantalla y hay opción de "explicar de nuevo" (más concisa). Datos clave aparecen en pantalla, no solo en la voz. Pocos elementos en pantalla a la vez. |
 | Voz | edge-tts **Giuseppe** (`it-IT-GiuseppeMultilingualNeural`) hablando **solo español neutro**. Velocidades siempre completas ("sesenta kilómetros por hora"). Sin muletillas ("Bueno", "A ver", "Mira", "Oye"). Con pausas, no apurada. |
 | Sonidos | Freno: suave y bajo (al usuario le molestó fuerte). |
+| Voz y frases cortas | Con frases muy cortas (nombres de señales sueltos, "Luz verde: indica paso") Giuseppe se pasa al italiano. Dar contexto en español ("Esta es la señal de…") y revisar **toda** advertencia de `--revisar-voz` con probabilidad de español baja: no son falsas alarmas (el usuario lo notó en las señales de advertencia). |
 | Voz (nov. 2026) | **No cambiar la voz** (lo pidió explícitamente). Evitar la palabra "Exacto": con Giuseppe suena mal; usar "Así es". |
 | Producción | Las sesiones planas le parecieron "muy poco producidas": cada paso lleva `fondo` (escenario animado que cambia), transiciones, mascota Cono que habla y sonidos suaves. |
 | Distractores | Deben ser del **mismo tema** y plausibles; nada de opciones de otro tema que delaten la correcta. |
@@ -291,7 +292,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - **Firma:** desde la 3.8 se firma con la clave fija `app/firma/rutab.keystore` (contraseñas de depuración,
   `android`). Así cada APK se instala encima del anterior sin borrar el progreso. Hasta la 3.7 cada sesión de
   Claude generaba su propia clave, por eso la 3.8 exige desinstalar la versión anterior una vez.
-- APK compilado: `release/RutaB-3.10.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.11.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
