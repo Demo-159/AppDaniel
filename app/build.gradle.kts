@@ -14,8 +14,8 @@ android {
         applicationId = "com.appdaniel.rutab"
         minSdk = 26
         targetSdk = 35
-        versionCode = 20
-        versionName = "3.8"
+        versionCode = 21
+        versionName = "3.9"
     }
 
     // Clave fija guardada en el repositorio (app/firma/rutab.keystore, contraseñas de depuración):
