@@ -1,0 +1,103 @@
+{
+ "id": "c6s15",
+ "titulo": "Retroceso y cruces ferroviarios",
+ "icono": "🚂",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cuándo puedes retroceder, y cómo cruzar una vía férrea con seguridad.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚂",
+    "texto": "Retroceso y cruces ferroviarios"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Solo debes retroceder cuando sea indispensable: para mantener la libre circulación, para incorporarte a ella, o para estacionar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-retroceder"
+   },
+   "dato": "c6-161"
+  },
+  {
+   "voz": "No retrocedas en un cruce, aunque hayas pasado la línea de detención, salvo que Carabineros te lo indique.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-noretro"
+   },
+   "dato": "c6-162"
+  },
+  {
+   "voz": "Retrocede lentamente y con cuidado, y no confíes en los espejos para juzgar la distancia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-lento"
+   },
+   "dato": "c6-163"
+  },
+  {
+   "voz": "Antes de cruzar una vía férrea, detente, mira a ambos lados, y escucha: apaga la radio. No te confíes de las barreras ni de las señales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-radio"
+   },
+   "dato": [
+    "c6-164",
+    "c6-171"
+   ]
+  },
+  {
+   "voz": "Un tren a cien kilómetros por hora necesita entre ochocientos y mil metros para detenerse. El tren siempre tiene la preferencia, y la responsabilidad es completamente tuya.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-tren1000"
+   },
+   "dato": [
+    "c6-165",
+    "c6-166"
+   ]
+  },
+  {
+   "voz": "Si ya empezaste a cruzar y se activan las señales, no te detengas: termina de cruzar. Y nunca cruces si no tienes espacio al otro lado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-nodetener"
+   },
+   "dato": [
+    "c6-167",
+    "c6-168"
+   ]
+  },
+  {
+   "voz": "No estaciones a menos de veinte metros de un cruce ferroviario.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-20m"
+   },
+   "dato": "c6-169"
+  },
+  {
+   "voz": "Si tu vehículo se descompone sobre la vía férrea, lo primero es hacer salir a todas las personas del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-descompone"
+   },
+   "dato": "c6-170"
+  },
+  {
+   "voz": "Tu vehículo se descompone sobre un cruce ferroviario. ¿Qué haces primero?",
+   "elige": {
+    "pregunta": "Tu auto se descompone sobre la vía férrea. ¿Qué haces primero?",
+    "opciones": [
+     "Hacer salir a todas las personas",
+     "Intentar arrancar el motor",
+     "Llamar a una grúa"
+    ],
+    "bien": "Así es: lo primero es sacar a todas las personas.",
+    "mal": "Lo primero es hacer salir a todas las personas del vehículo."
+   }
+  }
+ ]
+}

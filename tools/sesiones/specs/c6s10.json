@@ -1,0 +1,54 @@
+{
+ "id": "c6s10",
+ "titulo": "Pistas especiales",
+ "icono": "🚌",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las pistas exclusivas, las reversibles y las de emergencia.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚌",
+    "texto": "Pistas especiales"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "No entres a las pistas exclusivas del transporte público, salvo donde está permitido, con línea discontinua, y sea estrictamente necesario para virar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-exclusiva"
+   },
+   "dato": "c6-92"
+  },
+  {
+   "voz": "Las pistas reversibles se usan con distinto sentido de tránsito según la hora del día.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-reversible"
+   },
+   "dato": "c6-93"
+  },
+  {
+   "voz": "Y las pistas de emergencia se habilitan en pendientes muy pronunciadas, para los vehículos que sufren una falla del sistema de frenos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-emergencia2"
+   },
+   "dato": "c6-94"
+  },
+  {
+   "voz": "¿Para qué sirve una pista de emergencia en una pendiente pronunciada?",
+   "elige": {
+    "pregunta": "¿Para qué sirven las pistas de emergencia en pendientes?",
+    "opciones": [
+     "Para fallas en el sistema de frenos",
+     "Para adelantar a camiones lentos",
+     "Para estacionar a descansar"
+    ],
+    "bien": "Así es: para los vehículos con falla de frenos.",
+    "mal": "Son para emergencias por falla del sistema de frenos."
+   }
+  }
+ ]
+}

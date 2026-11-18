@@ -1,0 +1,78 @@
+{
+ "id": "c6s1",
+ "titulo": "El lenguaje del tránsito y las señales de Carabineros",
+ "icono": "👮",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las cuatro formas en que se expresa el tránsito, y cómo leer las señales de Carabineros.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "👮",
+    "texto": "El lenguaje del tránsito"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El lenguaje del tránsito se expresa de cuatro maneras: las señales de Carabineros de Chile, los semáforos, la señalización del tránsito, es decir, las señales verticales y las demarcaciones, y las reglas del tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-lenguaje"
+   },
+   "dato": "c6-01"
+  },
+  {
+   "voz": "Velan por el cumplimiento de las normas de circulación: Carabineros de Chile, y los inspectores fiscales y municipales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-fiscalizan"
+   },
+   "dato": "c6-02"
+  },
+  {
+   "voz": "Si un carabinero dirige el tránsito, sus indicaciones prevalecen sobre las demás, incluso sobre el semáforo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-prevalecen"
+   },
+   "dato": "c6-03"
+  },
+  {
+   "voz": "Si ves a un carabinero de frente o de espalda, indica detención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-frente"
+   },
+   "dato": "c6-04"
+  },
+  {
+   "voz": "Con el brazo en alto, indica advertencia: prepárate para el cambio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-brazo"
+   },
+   "dato": "c6-05"
+  },
+  {
+   "voz": "Y si lo ves de costado, te autoriza para avanzar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-costado"
+   },
+   "dato": "c6-06"
+  },
+  {
+   "voz": "Si ves a un carabinero de costado, ¿qué significa?",
+   "elige": {
+    "pregunta": "Si ves a un carabinero de costado, significa que…",
+    "opciones": [
+     "Puedes avanzar",
+     "Debes detenerte",
+     "Debes prepararte para el cambio"
+    ],
+    "bien": "Así es: de costado, puedes avanzar.",
+    "mal": "De costado autoriza a avanzar; de frente o de espalda, detención; y con el brazo en alto, advertencia."
+   }
+  }
+ ]
+}

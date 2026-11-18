@@ -1,0 +1,134 @@
+{
+ "id": "c6s11",
+ "titulo": "La velocidad y sus límites",
+ "icono": "⏱️",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los límites de velocidad, y cuándo debes ir más lento.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⏱️",
+    "texto": "La velocidad y sus límites"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Tras ir rápido por una autopista, al frenar hasta cincuenta kilómetros por hora tendrás la falsa sensación de que el vehículo está casi detenido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-engano"
+   },
+   "dato": "c6-95"
+  },
+  {
+   "voz": "A cincuenta kilómetros por hora necesitas unos veinticinco metros para detenerte, en pavimento bueno y seco. A cien kilómetros por hora, unos ochenta metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-2580"
+   },
+   "dato": "c6-96"
+  },
+  {
+   "voz": "Conduce a una velocidad razonable: nunca mayor que la que te permite mantener el control y detenerte dentro de la distancia que alcanzas a ver.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-razonable"
+   },
+   "dato": "c6-97"
+  },
+  {
+   "voz": "En zonas urbanas, la velocidad máxima permitida es de cincuenta kilómetros por hora.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-urbana"
+   },
+   "dato": "c6-98"
+  },
+  {
+   "voz": "En zonas no urbanas, con una pista por sentido, los vehículos livianos pueden ir hasta cien kilómetros por hora. Con dos o más pistas en un mismo sentido, hasta ciento veinte.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-rural"
+   },
+   "dato": [
+    "c6-99",
+    "c6-100"
+   ]
+  },
+  {
+   "voz": "Los buses, camiones y vehículos de transporte escolar, no más de noventa kilómetros por hora; y los buses interurbanos, no más de cien.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-buses"
+   },
+   "dato": [
+    "c6-101",
+    "c6-102"
+   ]
+  },
+  {
+   "voz": "La autoridad puede modificar estos límites en determinadas vías, con las señales correspondientes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-autoridad"
+   },
+   "dato": "c6-103"
+  },
+  {
+   "voz": "Debes reducir la velocidad, por ejemplo, al acercarte a la cima de una cuesta. Y afuera de un colegio, en horas de entrada y salida de clases, a no más de treinta kilómetros por hora.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-reducir"
+   },
+   "dato": [
+    "c6-104",
+    "c6-105"
+   ]
+  },
+  {
+   "voz": "En una Zona de Tránsito Calmado, reduce a lo que indiquen las señales. Y en una calle arbolada en un día soleado, reduce también: la luz y la sombra dificultan ver.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-calmado"
+   },
+   "dato": [
+    "c6-106",
+    "c6-108"
+   ]
+  },
+  {
+   "voz": "Conducir a la defensiva es: conducir con precaución, planificar con tiempo, mostrarte con desconfianza, y frenar a tiempo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-defensiva2"
+   },
+   "dato": "c6-107"
+  },
+  {
+   "voz": "Muchos siniestros en carretera ocurren en solitario, sin otro vehículo ni peatón. Conduce con calma un vehículo prestado o arrendado que no conozcas bien. Y en ripio o grava, la distancia de frenado es mucho mayor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-solitario"
+   },
+   "dato": [
+    "c6-109",
+    "c6-110",
+    "c6-111"
+   ]
+  },
+  {
+   "voz": "¿Cuál es la velocidad máxima en zonas urbanas?",
+   "elige": {
+    "pregunta": "¿Cuál es la velocidad máxima en zonas urbanas?",
+    "opciones": [
+     "50 km/h",
+     "60 km/h",
+     "40 km/h"
+    ],
+    "bien": "Así es: cincuenta kilómetros por hora.",
+    "mal": "En zonas urbanas, la máxima es de cincuenta kilómetros por hora."
+   }
+  }
+ ]
+}

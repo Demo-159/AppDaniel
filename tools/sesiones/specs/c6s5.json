@@ -1,0 +1,119 @@
+{
+ "id": "c6s5",
+ "titulo": "La obligación de ceder el paso",
+ "icono": "🔺",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender quién tiene la preferencia, y qué significa ceder el paso.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔺",
+    "texto": "Ceder el paso"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Ante la señal PARE, debes detenerte y dejar pasar a quienes circulan por la otra vía. Solo puedes seguir cuando no exista posibilidad alguna de siniestro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-pare"
+   },
+   "dato": "c6-43"
+  },
+  {
+   "voz": "Ante un Ceda el Paso, reduce la velocidad, detente si es necesario, y cede el paso a quienes circulan por la otra vía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-ceda"
+   },
+   "dato": "c6-44"
+  },
+  {
+   "voz": "En un cruce sin semáforo, sin carabinero, y sin señales PARE ni Ceda el Paso, siempre debes dar preferencia a quienes vienen por tu derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-derecha"
+   },
+   "dato": "c6-45"
+  },
+  {
+   "voz": "Cuando vas a virar, careces de toda preferencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-virar"
+   },
+   "dato": "c6-46"
+  },
+  {
+   "voz": "Al entrar a una rotonda o minirrotonda, cede el paso a quienes ya circulan por ella. Y en áreas rurales, si llegas por una vía secundaria a una principal, cede el paso a quien va por la principal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-rotonda"
+   },
+   "dato": [
+    "c6-47",
+    "c6-48"
+   ]
+  },
+  {
+   "voz": "Ceder el paso significa que quien tiene la preferencia no debe verse obligado a cambiar su trayectoria ni su velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-significa"
+   },
+   "dato": "c6-49"
+  },
+  {
+   "voz": "Si alguien se dispone a cruzar por un paso de cebra, detente y cédele el paso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-cebra2"
+   },
+   "dato": "c6-50"
+  },
+  {
+   "voz": "Al salir de una vía particular, de una casa o de un estacionamiento, cede el paso a los vehículos, ciclistas y peatones. Lo mismo al ponerte en marcha después de una detención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-incorporarte"
+   },
+   "dato": [
+    "c6-51",
+    "c6-52"
+   ]
+  },
+  {
+   "voz": "Si tu pista se obstaculiza de repente, también pierdes la prioridad para cambiarte de pista.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-obstaculo"
+   },
+   "dato": "c6-53"
+  },
+  {
+   "voz": "Ante vehículos de emergencia con sirena, como vehículos policiales, carros bomba, ambulancias o de la Policía de Investigaciones, cédeles el paso: córrete hacia un lado, y detente si es necesario.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-emergencia"
+   },
+   "dato": [
+    "c6-54",
+    "c6-55"
+   ]
+  },
+  {
+   "voz": "En un cruce sin semáforo, sin carabinero y sin señales, ¿a quién das la preferencia?",
+   "elige": {
+    "pregunta": "En un cruce sin semáforo, carabinero ni señales, ¿a quién das preferencia?",
+    "opciones": [
+     "A quienes vienen por tu derecha",
+     "A quienes vienen por tu izquierda",
+     "A quien llegue más rápido"
+    ],
+    "bien": "Así es: a quienes vienen por tu derecha.",
+    "mal": "Siempre das la preferencia a quienes se aproximan por tu derecha."
+   }
+  }
+ ]
+}

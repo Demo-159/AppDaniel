@@ -1,0 +1,117 @@
+{
+ "id": "c6s2",
+ "titulo": "Los semáforos",
+ "icono": "🚦",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar qué significa cada luz del semáforo, y los semáforos especiales.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚦",
+    "texto": "Los semáforos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "No respetar la luz roja es una infracción gravísima. La luz roja indica detención: debes detenerte antes de la línea de detención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-roja"
+   },
+   "dato": [
+    "c6-07",
+    "c6-11"
+   ]
+  },
+  {
+   "voz": "La luz verde indica paso: puedes continuar o virar, salvo que una señal prohíba el viraje. Pero aun con luz verde, no avances si pasado el cruce no tienes al menos diez metros libres en tu pista.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-verde"
+   },
+   "dato": [
+    "c6-08",
+    "c6-09"
+   ]
+  },
+  {
+   "voz": "Los peatones que enfrentan la luz verde tienen prioridad para cruzar. Y en el cruce peatonal puede haber ciclistas: si vas a virar, debes cederles el paso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-peatones"
+   },
+   "dato": "c6-10"
+  },
+  {
+   "voz": "La luz amarilla indica prevención: detente antes del cruce, porque viene la roja. Si te sorprende tan cerca que ya no puedes detenerte con seguridad, continúa con precaución.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-amarilla"
+   },
+   "dato": "c6-13"
+  },
+  {
+   "voz": "La luz roja intermitente indica ceda el paso. La luz amarilla intermitente advierte peligro: acércate a velocidad reducida, y continúa con precaución.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-intermitentes"
+   },
+   "dato": [
+    "c6-12",
+    "c6-14"
+   ]
+  },
+  {
+   "voz": "Con luz roja y flecha verde, puedes entrar con cuidado al cruce, pero solo para seguir en la dirección de la flecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-flecha"
+   },
+   "dato": "c6-15"
+  },
+  {
+   "voz": "Hay semáforos con cabezal para ciclistas: si estás virando, aunque tengas luz verde, ellos tienen la preferencia. Y algunos semáforos peatonales los activan las personas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-especiales"
+   },
+   "dato": [
+    "c6-16",
+    "c6-17"
+   ]
+  },
+  {
+   "voz": "En los cruces ferroviarios, las luces son blancas y rojas. La roja advierte que se acerca un tren. La blanca indica que no se acerca, pero igual debes verificar que el cruce esté despejado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-tren"
+   },
+   "dato": "c6-18"
+  },
+  {
+   "voz": "En los semáforos para el transporte público, la luz verde puede ser reemplazada por blanca. Y en las señales de mensaje variable, una equis roja indica que la pista está cerrada, y una flecha, que está abierta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-bus"
+   },
+   "dato": [
+    "c6-19",
+    "c6-20"
+   ]
+  },
+  {
+   "voz": "¿Qué indica la luz amarilla intermitente?",
+   "elige": {
+    "pregunta": "¿Qué indica la luz amarilla intermitente?",
+    "opciones": [
+     "Peligro: acércate con precaución y a velocidad reducida",
+     "Ceda el paso",
+     "Detención obligatoria"
+    ],
+    "bien": "Así es: advierte peligro.",
+    "mal": "La amarilla intermitente advierte peligro: acércate a velocidad reducida y con precaución. La roja intermitente es la que indica ceda el paso."
+   }
+  }
+ ]
+}

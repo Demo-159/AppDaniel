@@ -1,0 +1,139 @@
+{
+ "id": "c6s13",
+ "titulo": "Adelantamientos",
+ "icono": "⏩",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender cuándo vale la pena adelantar, cómo hacerlo, y dónde está prohibido.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⏩",
+    "texto": "Adelantamientos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Si vas a sesenta kilómetros por hora y subes a ochenta, en diez kilómetros ganas solo dos minutos y treinta segundos. Creer que ir a la máxima te hace ganar mucho tiempo es un gran error.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-gano"
+   },
+   "dato": [
+    "c6-119",
+    "c6-120"
+   ]
+  },
+  {
+   "voz": "Antes de adelantar, pregúntate: ¿qué gano con adelantar?",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-pregunta"
+   },
+   "dato": "c6-121"
+  },
+  {
+   "voz": "Piensa siempre que quien viene en contra va más rápido de lo que crees.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-mayorvel"
+   },
+   "dato": "c6-122"
+  },
+  {
+   "voz": "Un ejemplo: vas a noventa kilómetros por hora, y a trescientos cincuenta metros aparece otro a noventa en contra. El adelantamiento tarda ocho segundos, y en ese tiempo cada uno recorre doscientos metros. El siniestro es un hecho.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-350"
+   },
+   "dato": "c6-123"
+  },
+  {
+   "voz": "Si quien va detrás ya empezó a adelantarte, espera a que termine. Y adelantar un vehículo largo es más arriesgado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-esperar"
+   },
+   "dato": [
+    "c6-124",
+    "c6-125"
+   ]
+  },
+  {
+   "voz": "Adelanta rápido, sin pasar la velocidad máxima. Si aparece un vehículo en contra o sientes inseguridad, interrumpe la maniobra. No mires al vehículo que adelantas: podrías guiarte hacia él.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-como"
+   },
+   "dato": [
+    "c6-126",
+    "c6-127",
+    "c6-128"
+   ]
+  },
+  {
+   "voz": "Vuelve a tu derecha cuando veas en el espejo interior al vehículo adelantado, y parte de la calzada delante de él.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-volver"
+   },
+   "dato": "c6-129"
+  },
+  {
+   "voz": "Si te están adelantando, mantente lo más a la derecha posible, y no aumentes la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-teadelantan"
+   },
+   "dato": "c6-130"
+  },
+  {
+   "voz": "Se adelanta siempre por la izquierda. Está prohibido en puentes, viaductos, túneles o cruces ferroviarios, y a menos de doscientos metros de ellos; y en cruces o pasos peatonales sin semáforo; o si el de adelante señalizó que va a adelantar o a moverse a la izquierda.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-prohibido"
+   },
+   "dato": [
+    "c6-131",
+    "c6-132",
+    "c6-133",
+    "c6-134"
+   ]
+  },
+  {
+   "voz": "Solo puedes sobrepasar por la derecha si el otro está virando a la izquierda, o en vías urbanas con tres o más pistas en un mismo sentido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-derecha2"
+   },
+   "dato": [
+    "c6-135",
+    "c6-136"
+   ]
+  },
+  {
+   "voz": "Sobrepasar es ponerte delante de otro sin invadir la pista contraria. Ciclos y motos pueden sobrepasar en la misma pista a vehículos detenidos, para llegar a la línea de detención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-sobrepaso"
+   },
+   "dato": [
+    "c6-137",
+    "c6-138"
+   ]
+  },
+  {
+   "voz": "¿Por qué lado se debe adelantar siempre?",
+   "elige": {
+    "pregunta": "Los adelantamientos se hacen siempre por…",
+    "opciones": [
+     "La izquierda",
+     "La derecha",
+     "Cualquiera de los dos lados"
+    ],
+    "bien": "Así es: por la izquierda.",
+    "mal": "Los adelantamientos se hacen siempre por la izquierda."
+   }
+  }
+ ]
+}

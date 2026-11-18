@@ -1,0 +1,100 @@
+{
+ "id": "c6s9",
+ "titulo": "Virajes y rotondas",
+ "icono": "↪️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a virar a la derecha, a la izquierda, en U, y a usar las rotondas.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "↪️",
+    "texto": "Virajes y rotondas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Para virar a la derecha, ubícate lo más cerca posible del borde derecho de la calzada, salvo que haya una ciclovía. Y apaga el señalizador al terminar el viraje.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-vderecha"
+   },
+   "dato": [
+    "c6-82",
+    "c6-83"
+   ]
+  },
+  {
+   "voz": "En una carretera con máxima de cien kilómetros por hora, prepara y señaliza el viraje unos trescientos a cuatrocientos metros antes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-anticipa"
+   },
+   "dato": "c6-84"
+  },
+  {
+   "voz": "Si vas a virar a la izquierda desde una vía de doble tránsito y debes esperar, detente unos metros antes, con las ruedas delanteras orientadas hacia adelante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-ruedas"
+   },
+   "dato": "c6-85"
+  },
+  {
+   "voz": "Muchos siniestros al virar a la izquierda son choques por atrás.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-atras"
+   },
+   "dato": "c6-86"
+  },
+  {
+   "voz": "Conviene no virar a la izquierda cerca de un cambio de rasante, o de una curva con escasa visibilidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-rasante"
+   },
+   "dato": "c6-87"
+  },
+  {
+   "voz": "El viraje en U es girar en ciento ochenta grados, para tomar la dirección contraria. Está prohibido en cruces, y a menos de doscientos metros de una curva, cima, cruce ferroviario, puente, túnel o viaducto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-u"
+   },
+   "dato": [
+    "c6-88",
+    "c6-89"
+   ]
+  },
+  {
+   "voz": "Si hay varias pistas en tu dirección, elige la derecha para virar a la derecha, y la izquierda para virar a la izquierda.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-elige"
+   },
+   "dato": "c6-90"
+  },
+  {
+   "voz": "En la rotonda, señaliza a la derecha tan pronto pases la salida anterior a la que vas a usar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-rotonda2"
+   },
+   "dato": "c6-91"
+  },
+  {
+   "voz": "Esperas para virar a la izquierda en una vía de doble tránsito. ¿Cómo dejas las ruedas?",
+   "elige": {
+    "pregunta": "Esperas para virar a la izquierda. ¿Cómo dejas las ruedas delanteras?",
+    "opciones": [
+     "Rectas hacia adelante",
+     "Giradas hacia la izquierda",
+     "Giradas hacia la derecha"
+    ],
+    "bien": "Así es: rectas hacia adelante.",
+    "mal": "Las dejas rectas hacia adelante."
+   }
+  }
+ ]
+}

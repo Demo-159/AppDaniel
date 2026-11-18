@@ -1,0 +1,90 @@
+{
+ "id": "c6s3",
+ "titulo": "Señales verticales",
+ "icono": "🪧",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a reconocer los tipos de señales verticales por su forma y color.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪧",
+    "texto": "Señales verticales"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales reglamentarias informan prioridades, prohibiciones, restricciones, obligaciones y autorizaciones. Suelen ser circulares o rectangulares, con el símbolo dentro de un círculo rojo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-reglamentarias"
+   },
+   "dato": [
+    "c6-21",
+    "c6-22"
+   ]
+  },
+  {
+   "voz": "La señal FIN RESTRICCIÓN pone término a la restricción que muestra en su círculo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-fin"
+   },
+   "dato": "c6-23"
+  },
+  {
+   "voz": "Las señales de advertencia de peligro tienen forma de rombo, fondo amarillo y símbolo negro, excepto la Cruz de San Andrés. Algunas, sobre usuarios vulnerables, son de un amarillo levemente verde.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-advertencia"
+   },
+   "dato": [
+    "c6-24",
+    "c6-25"
+   ]
+  },
+  {
+   "voz": "Una vez pasada una señal de advertencia, evita adelantar, y toma las precauciones del caso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-pasada"
+   },
+   "dato": "c6-26"
+  },
+  {
+   "voz": "Las señales informativas te orientan: son azules en autopistas y autovías, y verdes en otras vías. Las de atractivos turísticos pueden ser de color café.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-informativas"
+   },
+   "dato": [
+    "c6-27",
+    "c6-28"
+   ]
+  },
+  {
+   "voz": "Las señales transitorias, por trabajos en la vía, son naranjas, salvo la primera, que es amarilla. Modera tu velocidad: puede haber personas trabajando, materiales como arena o ripio, o maquinaria.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-transitorias"
+   },
+   "dato": [
+    "c6-29",
+    "c6-30"
+   ]
+  },
+  {
+   "voz": "¿De qué color son las señales informativas en autopistas y autovías?",
+   "elige": {
+    "pregunta": "¿De qué color son las señales informativas en autopistas?",
+    "opciones": [
+     "Azul",
+     "Verde",
+     "Naranja"
+    ],
+    "bien": "Así es: azules.",
+    "mal": "En autopistas y autovías son azules; en otras vías, verdes."
+   }
+  }
+ ]
+}

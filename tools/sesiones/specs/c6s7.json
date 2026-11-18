@@ -1,0 +1,106 @@
+{
+ "id": "c6s7",
+ "titulo": "Ubicación del vehículo y distancias",
+ "icono": "📏",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a mantener una distancia segura con el vehículo de adelante.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📏",
+    "texto": "Ubicación y distancias"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Si el eje de la calzada no está demarcado, la calzada se divide en dos partes iguales, y siempre debes circular por la derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-eje"
+   },
+   "dato": "c6-65"
+  },
+  {
+   "voz": "En carretera, una regla práctica: tantos metros de distancia como kilómetros por hora. Si vas a ochenta kilómetros por hora, mantén unos ochenta metros. En el tránsito urbano, esa distancia puede reducirse a la mitad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-80m"
+   },
+   "dato": [
+    "c6-66",
+    "c6-67"
+   ]
+  },
+  {
+   "voz": "Otra regla en carretera es la de los tres segundos: cuando el vehículo de adelante pase un punto, como un árbol, cuenta: mil uno, mil dos, mil tres. Si pasas el árbol antes de contar mil tres, vas demasiado cerca: suelta el acelerador. Y agrega tiempo extra si el clima o la carretera son adversos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-3seg"
+   },
+   "dato": [
+    "c6-68",
+    "c6-69"
+   ]
+  },
+  {
+   "voz": "Cuando el de adelante frena, pasa un segundo antes de que tú empieces a frenar. En ese tiempo recorres unos quince metros a cincuenta kilómetros por hora, veinte a setenta, y veinticinco a noventa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-segundo"
+   },
+   "dato": "c6-70"
+  },
+  {
+   "voz": "Por lo general, los choques en serie se deben a que se guarda una distancia demasiado corta. En congestión, cambia el pie del acelerador al freno, y mantenlo listo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-serie"
+   },
+   "dato": [
+    "c6-71",
+    "c6-72"
+   ]
+  },
+  {
+   "voz": "En carretera debes dejar espacio para que te adelanten. La ley exime de esto solo a los vehículos que van en caravana en un cortejo fúnebre.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-funebre"
+   },
+   "dato": "c6-73"
+  },
+  {
+   "voz": "En la ciudad, aumenta la distancia detrás de un vehículo con patente extranjera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-extranjera"
+   },
+   "dato": "c6-74"
+  },
+  {
+   "voz": "En carretera de una pista por sentido, mantente lo más cerca posible del borde derecho. Y al pasar junto a vehículos estacionados, deja un espacio del ancho de una puerta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-borde"
+   },
+   "dato": [
+    "c6-75",
+    "c6-76"
+   ]
+  },
+  {
+   "voz": "Con la regla de los tres segundos, pasas el punto antes de contar mil tres. ¿Qué significa?",
+   "elige": {
+    "pregunta": "Pasas el punto de referencia antes de contar “mil tres”. Significa que…",
+    "opciones": [
+     "Vas muy cerca: suelta el acelerador",
+     "La distancia es la correcta",
+     "Vas demasiado lejos: acelera"
+    ],
+    "bien": "Así es: vas demasiado cerca, y debes soltar el acelerador.",
+    "mal": "Significa que vas demasiado cerca: disminuye la presión sobre el acelerador."
+   }
+  }
+ ]
+}

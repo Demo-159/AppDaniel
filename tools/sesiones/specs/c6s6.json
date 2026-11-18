@@ -1,0 +1,87 @@
+{
+ "id": "c6s6",
+ "titulo": "Signos y señales entre conductores",
+ "icono": "🖐️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo avisar tus maniobras, y cuándo puedes usar la bocina.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🖐️",
+    "texto": "Señales entre conductores"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Hacer señales a tiempo no te libera de la obligación de tener precaución.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-precaucion"
+   },
+   "dato": "c6-56"
+  },
+  {
+   "voz": "Si un vehículo hace señales con su intermitente izquierdo, significa que va a virar a la izquierda.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-intermitente"
+   },
+   "dato": "c6-57"
+  },
+  {
+   "voz": "Recuerda siempre la secuencia: espejo, señalización, maniobra. Y señaliza al menos treinta metros antes de virar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-secuencia"
+   },
+   "dato": [
+    "c6-58",
+    "c6-59"
+   ]
+  },
+  {
+   "voz": "Si quien conduce saca el brazo extendido horizontalmente, indica viraje a la izquierda.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-brazo2"
+   },
+   "dato": "c6-60"
+  },
+  {
+   "voz": "Para avisar a quienes vienen detrás, pisa ligeramente el pedal de freno, y se encenderán las luces. Las luces traseras blancas se encienden al retroceder.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-freno"
+   },
+   "dato": [
+    "c6-61",
+    "c6-62"
+   ]
+  },
+  {
+   "voz": "La bocina solo puedes usarla para prevenir un siniestro, cuando sea estrictamente necesario. Nunca en un túnel, ni a su entrada o salida, ni cerca de ciclistas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-bocina"
+   },
+   "dato": [
+    "c6-64",
+    "c6-63"
+   ]
+  },
+  {
+   "voz": "¿Con cuánta anticipación mínima debes señalizar un viraje?",
+   "elige": {
+    "pregunta": "¿Con cuánta anticipación mínima debes señalizar un viraje?",
+    "opciones": [
+     "30 metros",
+     "5 metros",
+     "100 metros"
+    ],
+    "bien": "Así es: al menos treinta metros.",
+    "mal": "Debes señalizar al menos treinta metros antes de virar."
+   }
+  }
+ ]
+}

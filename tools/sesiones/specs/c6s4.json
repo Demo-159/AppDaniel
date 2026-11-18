@@ -1,0 +1,111 @@
+{
+ "id": "c6s4",
+ "titulo": "Demarcaciones",
+ "icono": "🛣️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a leer las líneas y marcas pintadas en la calzada.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛣️",
+    "texto": "Demarcaciones"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las líneas segmentadas puedes traspasarlas para cambiar de pista, avisando antes tu intención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-segmentada"
+   },
+   "dato": "c6-31"
+  },
+  {
+   "voz": "Las líneas continuas, que pueden tener tachas reflectantes rojas, indican que no hay condiciones de seguridad para traspasarlas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-continua"
+   },
+   "dato": "c6-32"
+  },
+  {
+   "voz": "Si la línea central es mixta, continua y segmentada, solo puede traspasarla quien circula por el lado segmentado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-mixta"
+   },
+   "dato": "c6-33"
+  },
+  {
+   "voz": "No debes circular por la franja lateral del borde de la calzada. Solo en áreas rurales, en caso de emergencia, puedes traspasarla para quedarte en la berma.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-berma"
+   },
+   "dato": "c6-34"
+  },
+  {
+   "voz": "En caminos de montaña donde suele nevar, el eje central y el borde pueden ser amarillos. Y una franja amarilla continua en la solera indica que está prohibido estacionar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-amarillas"
+   },
+   "dato": [
+    "c6-35",
+    "c6-36"
+   ]
+  },
+  {
+   "voz": "Entre la línea de detención y el paso de peatones puede haber una zona de espera para ciclos y motocicletas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-espera"
+   },
+   "dato": "c6-37"
+  },
+  {
+   "voz": "En un paso de cebra, las y los peatones tienen prioridad. Si no hay línea de detención pintada, debes detenerte al menos un metro antes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-cebra"
+   },
+   "dato": [
+    "c6-38",
+    "c6-39"
+   ]
+  },
+  {
+   "voz": "Si en el cruce hay líneas amarillas que forman cuadrados, solo puedes cruzar si a la salida hay espacio para no quedar detenido en él.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-cuadros"
+   },
+   "dato": "c6-40"
+  },
+  {
+   "voz": "No circules, y menos estaciones, sobre las áreas achuradas. Y recuerda: un vehículo grande puede necesitar más de una pista para virar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-achuradas"
+   },
+   "dato": [
+    "c6-41",
+    "c6-42"
+   ]
+  },
+  {
+   "voz": "Una línea central mixta, continua y segmentada, ¿quién puede traspasarla?",
+   "elige": {
+    "pregunta": "Si la línea central es mixta, ¿quién puede traspasarla?",
+    "opciones": [
+     "Quien tiene el lado segmentado",
+     "Quien tiene el lado continuo",
+     "Nadie puede traspasarla"
+    ],
+    "bien": "Así es: quien circula por el lado segmentado.",
+    "mal": "Solo puede traspasarla quien circula por el lado en que es segmentada."
+   }
+  }
+ ]
+}

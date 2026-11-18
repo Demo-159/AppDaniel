@@ -1,0 +1,152 @@
+{
+ "id": "c6s14",
+ "titulo": "Estacionamiento y detención",
+ "icono": "🅿️",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a estacionar correctamente, y dónde no puedes hacerlo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🅿️",
+    "texto": "Estacionamiento y detención"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Estaciona al lado derecho de la calzada, en el sentido del tránsito. Solo excepcionalmente, si la señalización lo permite, al lado izquierdo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-lado"
+   },
+   "dato": "c6-139"
+  },
+  {
+   "voz": "Estaciona a no más de treinta centímetros de la cuneta, dejando al menos sesenta centímetros con los otros vehículos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-3060"
+   },
+   "dato": [
+    "c6-140",
+    "c6-141"
+   ]
+  },
+  {
+   "voz": "En caminos rurales, estaciona con todo el vehículo sobre la berma.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-rural2"
+   },
+   "dato": "c6-142"
+  },
+  {
+   "voz": "En subida, deja las ruedas orientadas hacia el interior de la calzada. En bajada, hacia la cuneta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-pendiente"
+   },
+   "dato": [
+    "c6-143",
+    "c6-144"
+   ]
+  },
+  {
+   "voz": "No dejes niñas o niños pequeños, ni animales, dentro del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-ninos"
+   },
+   "dato": "c6-145"
+  },
+  {
+   "voz": "Está prohibido estacionar y detenerse en las calzadas o bermas de caminos públicos con dos o más pistas por sentido; y no puedes estacionar donde haya una señal que lo prohíba.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-prohibido2"
+   },
+   "dato": [
+    "c6-146",
+    "c6-147"
+   ]
+  },
+  {
+   "voz": "Al detenerte detrás de otro vehículo, la distancia es adecuada si puedes ver sus neumáticos traseros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-neumaticos"
+   },
+   "dato": "c6-148"
+  },
+  {
+   "voz": "No estaciones: a menos de cinco metros de un grifo; a menos de tres de la puerta de iglesias, colegios, hoteles y salas de espectáculos; a menos de diez de una señal PARE o Ceda el Paso, o de la entrada de un cuartel de bomberos, una posta u hospital.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-distancias"
+   },
+   "dato": [
+    "c6-149",
+    "c6-150",
+    "c6-151",
+    "c6-152"
+   ]
+  },
+  {
+   "voz": "Tampoco a menos de quince metros de la entrada de recintos militares, policiales o de Gendarmería; ni a menos de veinte de un paradero de locomoción colectiva.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-1520"
+   },
+   "dato": [
+    "c6-153",
+    "c6-154"
+   ]
+  },
+  {
+   "voz": "Donde solo está prohibido estacionar, puedes detenerte el tiempo mínimo para tomar o dejar pasajeros. Y puedes detenerte en un lugar reservado a otro, si te quedas en tu vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-detenerse"
+   },
+   "dato": [
+    "c6-155",
+    "c6-156"
+   ]
+  },
+  {
+   "voz": "De noche, en una vía sin alumbrado, deja encendidas las luces de estacionamiento. Si te detienes por una avería en un lugar no autorizado, instala los dispositivos reflectantes, y enciende las luces de advertencia de peligro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-visible"
+   },
+   "dato": [
+    "c6-157",
+    "c6-158"
+   ]
+  },
+  {
+   "voz": "Si bajas del vehículo, usa un chaleco de alta visibilidad: amarillo, con bandas reflectantes de al menos cincuenta milímetros de ancho.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-chaleco"
+   },
+   "dato": [
+    "c6-159",
+    "c6-160"
+   ]
+  },
+  {
+   "voz": "Estacionas en una calle en bajada. ¿Hacia dónde dejas las ruedas?",
+   "elige": {
+    "pregunta": "Estacionas en BAJADA. ¿Hacia dónde dejas las ruedas?",
+    "opciones": [
+     "Hacia la cuneta",
+     "Hacia el centro de la calzada",
+     "Rectas"
+    ],
+    "bien": "Así es: en bajada, hacia la cuneta.",
+    "mal": "En bajada, hacia la cuneta; en subida, hacia el interior de la calzada."
+   }
+  }
+ ]
+}

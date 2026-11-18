@@ -1,0 +1,86 @@
+{
+ "id": "c6s12",
+ "titulo": "Encuentros con vehículos en sentido contrario",
+ "icono": "🚗",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a actuar cuando un vehículo viene de frente.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚗",
+    "texto": "Vehículos en sentido contrario"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Si dos vehículos van en sentido contrario, se acercan a una velocidad igual a la suma de sus velocidades.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-suma"
+   },
+   "dato": "c6-112"
+  },
+  {
+   "voz": "Un vehículo de una fila contraria puede salirse para adelantar. Mantente a tu derecha, y reduce la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-fila"
+   },
+   "dato": "c6-113"
+  },
+  {
+   "voz": "Si un vehículo viene de frente invadiendo tu pista, frena enérgicamente, avisa con las luces y la bocina, y trata de moverte hacia la derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-invade"
+   },
+   "dato": "c6-114"
+  },
+  {
+   "voz": "Nunca conduzcas demasiado cerca del eje de la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-ejecerca"
+   },
+   "dato": "c6-115"
+  },
+  {
+   "voz": "Si el que viene de frente patina en pavimento resbaladizo, reduce la velocidad, aléjate del centro, y no frenes por pánico. En último caso, sal de la carretera hacia la derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-patina"
+   },
+   "dato": "c6-116"
+  },
+  {
+   "voz": "De noche, no mires al vehículo que viene de frente: mira más adelante, a lo largo del borde derecho de la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-noche"
+   },
+   "dato": "c6-117"
+  },
+  {
+   "voz": "Si hay un obstáculo en un lado de la vía, quien lo tenga por su lado debe dejar pasar a quien viene en sentido contrario, salvo que haya un banderero dirigiendo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-obstaculo2"
+   },
+   "dato": "c6-118"
+  },
+  {
+   "voz": "Un vehículo viene de frente invadiendo tu pista. ¿Qué haces?",
+   "elige": {
+    "pregunta": "Un auto viene de frente invadiendo tu pista. ¿Qué haces?",
+    "opciones": [
+     "Frenar, avisar y correrte a la derecha",
+     "Correrte a la izquierda para esquivarlo",
+     "Mantener tu velocidad y tu pista"
+    ],
+    "bien": "Así es: frenas enérgicamente, avisas con luces y bocina, y te mueves a la derecha.",
+    "mal": "Frena enérgicamente, avisa con luces y bocina, y trata de moverte hacia la derecha."
+   }
+  }
+ ]
+}

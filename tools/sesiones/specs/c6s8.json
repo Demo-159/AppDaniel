@@ -1,0 +1,65 @@
+{
+ "id": "c6s8",
+ "titulo": "Uso de las pistas y cambios de pista",
+ "icono": "↔️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué pista circular, y cómo cambiarte de pista con seguridad.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "↔️",
+    "texto": "Uso de las pistas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Sitúate completamente dentro de una pista, para no obstaculizar la otra. Circula siempre por la mitad derecha de la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-dentro"
+   },
+   "dato": "c6-77"
+  },
+  {
+   "voz": "Puedes circular por la pista izquierda, por ejemplo, en el tránsito urbano, cuando hay tres o más pistas en un mismo sentido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-izquierda"
+   },
+   "dato": "c6-78"
+  },
+  {
+   "voz": "Puedes cambiarte a la pista contigua, pero no pasar por ella para entrar de inmediato a una tercera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-tercera"
+   },
+   "dato": "c6-79"
+  },
+  {
+   "voz": "Antes de cambiarte, verifica por el espejo retrovisor, los espejos laterales, y mirando por encima de tu hombro. Y evita los cambios innecesarios: cada uno implica siempre un riesgo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c6-hombro"
+   },
+   "dato": [
+    "c6-80",
+    "c6-81"
+   ]
+  },
+  {
+   "voz": "Antes de cambiarte de pista, ¿qué debes revisar?",
+   "elige": {
+    "pregunta": "Antes de cambiarte de pista, debes mirar…",
+    "opciones": [
+     "Los espejos y por encima de tu hombro",
+     "Solo el espejo retrovisor interior",
+     "Solo el espejo lateral"
+    ],
+    "bien": "Así es: los espejos, y por encima de tu hombro.",
+    "mal": "Revisa el retrovisor, los espejos laterales, y mira por encima de tu hombro."
+   }
+  }
+ ]
+}
