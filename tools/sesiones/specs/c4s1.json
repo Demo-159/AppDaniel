@@ -1,0 +1,78 @@
+{
+ "id": "c4s1",
+ "titulo": "Experiencia y efectos visuales",
+ "icono": "👁️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué la experiencia importa tanto, y cómo la vista puede engañarte al juzgar distancias.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "👁️",
+    "texto": "Experiencia y efectos visuales"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las reglas del tránsito no siempre aclaran cómo resolver cada situación. Lo decisivo, en muchos casos, es el sentido común, el buen juicio y la responsabilidad, y esto se adquiere con la experiencia: con horas al volante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-experiencia"
+   },
+   "dato": "c4-01"
+  },
+  {
+   "voz": "Las estadísticas internacionales señalan que quienes recién empiezan a conducir sufren siniestros sin otros vehículos involucrados con una frecuencia diez veces mayor que quienes tienen más experiencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-principiantes"
+   },
+   "dato": "c4-02"
+  },
+  {
+   "voz": "La vista también engaña. En la perspectiva lineal, las líneas convergentes parecen encontrarse en un punto que está más alejado de lo que realmente está.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-perspectiva"
+   },
+   "dato": "c4-03"
+  },
+  {
+   "voz": "En la densidad de pauta, cuando hay mayor densidad de objetos, estos se perciben más lejanos de lo que se encuentran.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-densidad"
+   },
+   "dato": "c4-04"
+  },
+  {
+   "voz": "En el tamaño relativo, objetos del mismo tamaño se perciben distintos por la distancia: el más distante se interpreta como uno de menor tamaño, pero realmente no lo es.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tamano"
+   },
+   "dato": "c4-05"
+  },
+  {
+   "voz": "Y en el sobrecubrimiento, un objeto que cubre a otro parece hallarse más cerca del ojo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-sobrecubrimiento"
+   },
+   "dato": "c4-06"
+  },
+  {
+   "voz": "¿Qué efecto hace que las líneas convergentes parezcan juntarse más lejos de lo real?",
+   "elige": {
+    "pregunta": "Las líneas convergentes parecen juntarse más lejos de lo real. ¿Qué efecto es?",
+    "opciones": [
+     "Perspectiva lineal",
+     "Densidad de pauta",
+     "Sobrecubrimiento"
+    ],
+    "bien": "Así es: es la perspectiva lineal.",
+    "mal": "Es la perspectiva lineal: las líneas convergentes parecen encontrarse más lejos de lo que están."
+   }
+  }
+ ]
+}

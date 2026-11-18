@@ -1,0 +1,54 @@
+{
+ "id": "c4s4",
+ "titulo": "Capacidad de reacción",
+ "icono": "⚡",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver quién reacciona más rápido en el tránsito, y qué importa más que reaccionar rápido.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚡",
+    "texto": "Capacidad de reacción"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El tiempo de reacción importa en una situación difícil. Pero si comparas a quien tiene un menor tiempo de reacción con quien conduce a baja velocidad, es este último quien logrará detener el vehículo primero.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-lento"
+   },
+   "dato": "c4-14"
+  },
+  {
+   "voz": "Con frecuencia se piensa que las y los conductores jóvenes reaccionan con mayor rapidez en cualquier situación. Esto es falso: solo son más rápidos en la reacción simple, ante una señal que saben que va a aparecer, y eso no es frecuente en el tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-jovenes"
+   },
+   "dato": "c4-15"
+  },
+  {
+   "voz": "En situaciones reales, que exigen reacciones complejas, las personas expertas reaccionan mucho más rápido. El grupo de edad más rápido es el de quienes tienen entre treinta y cinco y cincuenta años.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-3550"
+   },
+   "dato": "c4-16"
+  },
+  {
+   "voz": "¿Quién logra detener el vehículo primero?",
+   "elige": {
+    "pregunta": "¿Quién logra detener el vehículo primero?",
+    "opciones": [
+     "Quien conduce a baja velocidad",
+     "Quien tiene un menor tiempo de reacción",
+     "Quien tiene menos edad"
+    ],
+    "bien": "Así es: quien conduce a baja velocidad.",
+    "mal": "Quien conduce a baja velocidad logra detenerse primero, aunque el otro reaccione más rápido."
+   }
+  }
+ ]
+}

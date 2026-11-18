@@ -1,0 +1,108 @@
+{
+ "id": "c3s4",
+ "titulo": "El principio de confianza y el Entorno Vial",
+ "icono": "🏙️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el principio de confianza, y por qué el Entorno Vial es un espacio de convivencia.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🏙️",
+    "texto": "El principio de confianza"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El tránsito se inspira en el principio de confianza: todas las personas conductoras esperan que cada integrante del tránsito cumpla con su papel.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-confianza"
+   },
+   "dato": "c3-15"
+  },
+  {
+   "voz": "Sin este principio no se podría salir a la calle: si no se confiara en que las demás personas cumplirán su rol, nadie se atrevería a conducir su automóvil.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-sinconfianza"
+   },
+   "dato": "c3-20"
+  },
+  {
+   "voz": "Quien se pasa una luz roja del semáforo no desconoce su significado, y debilita el principio de confianza. Debes ser consciente de que estas infracciones no quedan impunes, aunque no siempre te fiscalicen y sancionen.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-rojo"
+   },
+   "dato": [
+    "c3-17",
+    "c3-16"
+   ]
+  },
+  {
+   "voz": "La Educación Vial es para todas y todos, porque todas y todos seremos peatones, ciclistas, usuarios de vehículos o conductores, en distintos momentos de nuestras vidas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-todos"
+   },
+   "dato": "c3-18"
+  },
+  {
+   "voz": "Las vías por donde circulan los vehículos conforman el Entorno Vial. Pero es mucho más que calles o carreteras: es un espacio de convivencia social.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-entorno"
+   },
+   "dato": "c3-19"
+  },
+  {
+   "voz": "Quienes conducen automóviles deben ser conscientes de que son integrantes de la circulación, junto con peatones y ciclistas, que son las y los usuarios vulnerables.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-integrantes"
+   },
+   "dato": "c3-21"
+  },
+  {
+   "voz": "La precaución es el principio fundamental en la conducción de un vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-precaucion"
+   },
+   "dato": "c3-22"
+  },
+  {
+   "voz": "Todas las personas pueden equivocarse y cometer errores. Por eso debes estar pendiente de las condiciones del tránsito, practicando la conducción defensiva y preventiva.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-defensiva"
+   },
+   "dato": "c3-23"
+  },
+  {
+   "voz": "En el Entorno Vial, la solidaridad es la mejor virtud que se puede tener al conducir: ceder el paso, dejar espacio suficiente para permitir que te adelanten, y tener consideración con las y los usuarios vulnerables.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-solidaridad"
+   },
+   "dato": [
+    "c3-24",
+    "c3-25"
+   ]
+  },
+  {
+   "voz": "¿Cuál es el principio fundamental en la conducción de un vehículo?",
+   "elige": {
+    "pregunta": "¿Cuál es el principio fundamental en la conducción?",
+    "opciones": [
+     "La precaución",
+     "La rapidez",
+     "La confianza en el propio vehículo"
+    ],
+    "bien": "Así es: la precaución.",
+    "mal": "El principio fundamental en la conducción de un vehículo es la precaución."
+   }
+  }
+ ]
+}

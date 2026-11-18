@@ -1,0 +1,84 @@
+{
+ "id": "c4s17",
+ "titulo": "Alergias, estrés y depresión",
+ "icono": "🤧",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo afectan las alergias, el estrés y la depresión al conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🤧",
+    "texto": "Alergias, estrés y depresión"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "A noventa kilómetros por hora, durante un estornudo de un segundo, el vehículo recorre unos veinticinco metros, sin que puedas prestar atención a la vía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-estornudo"
+   },
+   "dato": "c4-107"
+  },
+  {
+   "voz": "Y los antihistamínicos que se toman para la alergia pueden provocar mayor somnolencia al volante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-antihist"
+   },
+   "dato": "c4-108"
+  },
+  {
+   "voz": "Si tienes alergia, evita conducir al amanecer y por zonas húmedas, porque hay grandes concentraciones de polen; y usa lentes de sol, que protegen los ojos de los alérgenos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-polen"
+   },
+   "dato": [
+    "c4-109",
+    "c4-110"
+   ]
+  },
+  {
+   "voz": "El estrés es un mecanismo de defensa del organismo ante situaciones amenazantes, o que demandan un gran esfuerzo. Cierto grado de estrés puede mejorar el rendimiento; pero siempre debes evitar conducir con síntomas de estrés.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-estres"
+   },
+   "dato": [
+    "c4-111",
+    "c4-112"
+   ]
+  },
+  {
+   "voz": "Una persona conductora dominada por el pánico no tiene posibilidad de resolver por sí misma la situación.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-panico"
+   },
+   "dato": "c4-113"
+  },
+  {
+   "voz": "La depresión aumenta la probabilidad de somnolencia y fatiga. Por eso no se recomienda conducir de noche, ni durante mucho tiempo, ni en entornos monótonos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-depresion"
+   },
+   "dato": "c4-114"
+  },
+  {
+   "voz": "A noventa kilómetros por hora, ¿cuánto recorres durante un estornudo de un segundo?",
+   "elige": {
+    "pregunta": "A 90 km/h, ¿cuánto recorres durante un estornudo de 1 segundo?",
+    "opciones": [
+     "Unos 25 metros",
+     "Unos 5 metros",
+     "Unos 90 metros"
+    ],
+    "bien": "Así es: unos veinticinco metros, sin mirar la vía.",
+    "mal": "Recorres unos veinticinco metros sin poder prestar atención a la vía."
+   }
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "c4s6",
+ "titulo": "Percepción selectiva",
+ "icono": "🐄",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué a veces no vemos lo que tenemos delante.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🐄",
+    "texto": "Percepción selectiva"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las personas descubren lo que están dispuestas a ver, es decir, lo que esperan encontrar. Lo que no se espera ver, no se descubre, o se tarda mucho más en descubrir.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-esperan"
+   },
+   "dato": "c4-22"
+  },
+  {
+   "voz": "Al conducir hay muchísimas impresiones, y el cerebro debe seleccionar a cuáles prestar atención. Esta selección no depende de la casualidad: se ve influenciada por las expectativas, las necesidades, y el estado de vigilancia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-filtro"
+   },
+   "dato": "c4-23"
+  },
+  {
+   "voz": "Esto se llama percepción selectiva. A causa de ella, se corre el riesgo de pasar por alto circunstancias importantes en el tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-alto"
+   },
+   "dato": "c4-24"
+  },
+  {
+   "voz": "Y si tienes prisa, es peor: la necesidad de llegar pronto tiene como efecto que todo lo que no viene al caso no tenga cabida en la conciencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-apuro"
+   },
+   "dato": "c4-25"
+  },
+  {
+   "voz": "¿Qué es la percepción selectiva?",
+   "elige": {
+    "pregunta": "¿Qué es la percepción selectiva?",
+    "opciones": [
+     "Ver lo que esperamos encontrar",
+     "Ver todo lo que hay en la vía",
+     "Mirar solo por los espejos"
+    ],
+    "bien": "Así es: descubrimos lo que esperamos encontrar.",
+    "mal": "En la percepción selectiva, descubrimos lo que esperamos encontrar; lo que no esperamos, tardamos en verlo."
+   }
+  }
+ ]
+}

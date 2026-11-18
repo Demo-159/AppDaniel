@@ -1,0 +1,81 @@
+{
+ "id": "c4s20",
+ "titulo": "Fatiga al volante",
+ "icono": "🥱",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué es la fatiga, cómo reconocerla, y cada cuánto debes descansar.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🥱",
+    "texto": "Fatiga al volante"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La fatiga es cansancio extremo del cuerpo o de la mente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-fatiga"
+   },
+   "dato": "c4-138"
+  },
+  {
+   "voz": "Con fatiga puedes reaccionar de forma brusca y desproporcionada ante sonidos repentinos, como frenar de golpe al escuchar una bocina.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-bocina"
+   },
+   "dato": "c4-139"
+  },
+  {
+   "voz": "Aparecen movimientos indicadores de fatiga: cambios de postura frecuentes, estiramientos, bostezos, y constantes acomodos en el asiento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-postura"
+   },
+   "dato": "c4-140"
+  },
+  {
+   "voz": "La principal causa de fatiga al volante es conducir mucho tiempo seguido sin descansar, o descansando de forma inadecuada. También la favorece conducir por un camino no conocido, porque obliga a prestar atención todo el recorrido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-causa"
+   },
+   "dato": [
+    "c4-141",
+    "c4-142"
+   ]
+  },
+  {
+   "voz": "Si sientes cansancio o sueño, lo mejor es detenerte en un lugar adecuado y dormir: veinte o treinta minutos de sueño son suficientes en la mayoría de los casos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-siesta"
+   },
+   "dato": "c4-143"
+  },
+  {
+   "voz": "En viajes largos, descansa al menos veinte a treinta minutos cada dos horas, o cada doscientos kilómetros, como máximo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-2h"
+   },
+   "dato": "c4-144"
+  },
+  {
+   "voz": "En viajes largos, ¿cada cuánto debes descansar al menos veinte a treinta minutos?",
+   "elige": {
+    "pregunta": "En viajes largos, descansa al menos 20 a 30 minutos cada…",
+    "opciones": [
+     "2 horas o 200 km",
+     "4 horas o 400 km",
+     "1 hora o 50 km"
+    ],
+    "bien": "Así es: cada dos horas, o doscientos kilómetros, como máximo.",
+    "mal": "Descansa al menos veinte a treinta minutos cada dos horas, o doscientos kilómetros, como máximo."
+   }
+  }
+ ]
+}

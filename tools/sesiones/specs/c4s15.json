@@ -1,0 +1,88 @@
+{
+ "id": "c4s15",
+ "titulo": "Las drogas y estupefacientes",
+ "icono": "💊",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los efectos de las drogas en la conducción.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💊",
+    "texto": "Las drogas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El mayor riesgo de conducir bajo el efecto de drogas es que todas actúan sobre el cerebro, y pueden alterar la percepción, la atención, el equilibrio, la coordinación, y el tiempo de reacción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-drogas"
+   },
+   "dato": "c4-89"
+  },
+  {
+   "voz": "La marihuana se clasifica como depresora y alucinógena; no es estimulante. Altera la percepción del tiempo, del espacio y de la velocidad, lo que causa cálculos errados de distancia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-marihuana"
+   },
+   "dato": [
+    "c4-90",
+    "c4-91"
+   ]
+  },
+  {
+   "voz": "La cocaína produce un comportamiento más competitivo, e incluso agresivo, y puede volverlo impulsivo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-cocaina"
+   },
+   "dato": "c4-92"
+  },
+  {
+   "voz": "El efecto de la pasta base, después de fumarla, es rápido e intenso: aparece en segundos y dura algunos minutos. Se distinguen cuatro etapas, y en todas, los riesgos para la conducción son altos y evidentes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-pastabase"
+   },
+   "dato": [
+    "c4-93",
+    "c4-94",
+    "c4-95"
+   ]
+  },
+  {
+   "voz": "El éxtasis puede provocar mayor sensibilidad a la luz, y por eso más deslumbramientos; y flashes en la periferia del campo visual, que pueden llevar a maniobras bruscas y peligrosas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-extasis"
+   },
+   "dato": [
+    "c4-96",
+    "c4-97"
+   ]
+  },
+  {
+   "voz": "Si consumiste cualquier droga, no conduzcas. Esperar que los efectos desaparezcan no es garantía para volver a conducir de forma segura.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-esperar"
+   },
+   "dato": "c4-98"
+  },
+  {
+   "voz": "¿Cómo se clasifica la marihuana?",
+   "elige": {
+    "pregunta": "¿Cómo se clasifica la marihuana?",
+    "opciones": [
+     "Depresora y alucinógena",
+     "Estimulante",
+     "Estimulante y alucinógena"
+    ],
+    "bien": "Así es: depresora y alucinógena; no es estimulante.",
+    "mal": "La marihuana es depresora y alucinógena; no es estimulante."
+   }
+  }
+ ]
+}

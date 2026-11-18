@@ -1,0 +1,54 @@
+{
+ "id": "c3s1",
+ "titulo": "Convivencia y Educación Vial",
+ "icono": "🤝",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer qué es la Convivencia Vial, y qué significa la Educación Vial.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🤝",
+    "texto": "Convivencia y Educación Vial"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Una buena Convivencia Vial es aquella en donde las personas conductoras, usuarias de las vías, peatones y pasajeros, se respetan entre sí, resultando una interacción armoniosa y segura.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-conv"
+   },
+   "dato": "c3-01"
+  },
+  {
+   "voz": "La Educación Vial es la adquisición de valores imprescindibles para la conducción. Trata de inculcar hábitos y actitudes positivas de convivencia, como el respeto, a tu vida y a la de las demás personas; la solidaridad, la comprensión, el perdón y la tolerancia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-valores"
+   },
+   "dato": "c3-02"
+  },
+  {
+   "voz": "Además, es la incorporación de normas de comportamiento, que están en la Ley de Tránsito, y el conocimiento de un catálogo de señales que afectan al tránsito. Todo esto, con el fin de contribuir a la Seguridad Vial.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-normas"
+   },
+   "dato": "c3-03"
+  },
+  {
+   "voz": "¿Qué integra la Educación Vial?",
+   "elige": {
+    "pregunta": "¿Qué integra la Educación Vial?",
+    "opciones": [
+     "Valores, normas y señales",
+     "Solo las normas de la Ley de Tránsito",
+     "Solo el manejo del vehículo"
+    ],
+    "bien": "Así es: valores, normas de comportamiento, y el conocimiento de las señales.",
+    "mal": "La Educación Vial integra valores, normas de comportamiento, y el conocimiento de las señales."
+   }
+  }
+ ]
+}

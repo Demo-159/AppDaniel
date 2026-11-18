@@ -1,0 +1,73 @@
+{
+ "id": "c4s9",
+ "titulo": "Las personas conductoras jóvenes",
+ "icono": "🧑",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué las personas conductoras jóvenes tienen más siniestros, y cómo evitarlo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧑",
+    "texto": "Las personas conductoras jóvenes"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Para optar a una Licencia de Conducir es necesario haber cumplido dieciocho años, o excepcionalmente diecisiete.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-edad"
+   },
+   "dato": "c4-43"
+  },
+  {
+   "voz": "Las personas jóvenes tienen características que las hacen más vulnerables: una excesiva necesidad de autoafirmación, que las hace más competitivas y dispuestas a no obedecer las normas; una capacidad de conducción sobrevalorada; y la influencia de la publicidad, especialmente la que incita al riesgo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-caracteristicas"
+   },
+   "dato": [
+    "c4-44",
+    "c4-45"
+   ]
+  },
+  {
+   "voz": "Existen cinco factores que influyen en cómo evalúan y aceptan el peligro: la actitud frente al tránsito, las atribuciones sobre el comportamiento, la poca experiencia, el nivel de control, y la baja percepción del riesgo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-cinco"
+   },
+   "dato": "c4-46"
+  },
+  {
+   "voz": "Las atribuciones sobre el comportamiento: muchas personas jóvenes creen que conducen mejor que el resto, y le atribuyen los errores a las demás personas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-atribuciones"
+   },
+   "dato": "c4-47"
+  },
+  {
+   "voz": "Además, basta que la velocidad se exceda solo un poco para que el límite de la capacidad se supere rápidamente, y la persona cometa un error.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-limite"
+   },
+   "dato": "c4-48"
+  },
+  {
+   "voz": "Creer que conduces mejor que el resto, y culpar a los demás de los errores, ¿a qué factor corresponde?",
+   "elige": {
+    "pregunta": "Creer que conduces mejor que el resto y culpar a los demás corresponde a…",
+    "opciones": [
+     "Atribuciones sobre el comportamiento",
+     "Nivel de control",
+     "Actitud frente al tránsito"
+    ],
+    "bien": "Así es: atribuciones sobre el comportamiento.",
+    "mal": "Corresponde a las atribuciones sobre el comportamiento."
+   }
+  }
+ ]
+}

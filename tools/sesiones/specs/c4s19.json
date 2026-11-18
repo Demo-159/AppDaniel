@@ -1,0 +1,143 @@
+{
+ "id": "c4s19",
+ "titulo": "Cansancio y sueño",
+ "icono": "😴",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los efectos del sueño al conducir, sus señales, y los momentos de mayor riesgo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "😴",
+    "texto": "Cansancio y sueño"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Datos internacionales revelan que entre el quince y el treinta por ciento de los siniestros ocurre porque el factor sueño está asociado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-1530"
+   },
+   "dato": "c4-122"
+  },
+  {
+   "voz": "Se piensa que estos siniestros los causan personas que se quedaron dormidas, pero los riesgos de la somnolencia aparecen mucho antes. Y el sueño no solo aparece de noche: puede aparecer de día, por muchas causas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-antes2"
+   },
+   "dato": [
+    "c4-124",
+    "c4-125"
+   ]
+  },
+  {
+   "voz": "El cansancio es una causa importante de siniestros, principalmente de los que ocurren en carreteras.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-carretera"
+   },
+   "dato": "c4-123"
+  },
+  {
+   "voz": "Con sueño aumenta el tiempo de reacción. Esto explica siniestros como las colisiones por alcance: el vehículo de adelante frena, y no alcanzas a frenar a tiempo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-alcance"
+   },
+   "dato": "c4-126"
+  },
+  {
+   "voz": "Pueden aparecer microsueños: períodos de algunos segundos en que, sin darte cuenta, te quedas ligeramente dormido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-microsueno"
+   },
+   "dato": "c4-127"
+  },
+  {
+   "voz": "Y con sueño es más fácil sufrir un deslumbramiento cuando otro vehículo lleva luces altas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-deslumbra"
+   },
+   "dato": "c4-128"
+  },
+  {
+   "voz": "La causa más corriente del cansancio al conducir es quizás una combinación de esfuerzo físico y monotonía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-monotonia"
+   },
+   "dato": "c4-129"
+  },
+  {
+   "voz": "Una señal: boca seca, y empezar a sentir frío. Esta sensación es traicionera: quieres subir la calefacción, y eso da más sueño. En las fases finales, los músculos de la nuca se relajan, y la cabeza hace movimientos involuntarios.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-frio"
+   },
+   "dato": [
+    "c4-130",
+    "c4-131"
+   ]
+  },
+  {
+   "voz": "Si sientes cansancio, mientras buscas dónde detenerte, asegúrate de que entre aire fresco al vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-aire"
+   },
+   "dato": "c4-132"
+  },
+  {
+   "voz": "La somnolencia aparece más fácil en la madrugada, especialmente entre las tres y las cinco, y en las primeras horas de la tarde, entre las catorce y las dieciséis horas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-horas"
+   },
+   "dato": "c4-133"
+  },
+  {
+   "voz": "Si duermes una o dos horas menos de lo habitual, en pocos días tendrás una gran somnolencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-dormirmenos"
+   },
+   "dato": "c4-134"
+  },
+  {
+   "voz": "Conducir de noche por una carretera recta y sin tráfico, durante muchos kilómetros, favorece la somnolencia. También el alcohol, algunos medicamentos, y una comida abundante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-recta"
+   },
+   "dato": [
+    "c4-135",
+    "c4-136"
+   ]
+  },
+  {
+   "voz": "El café, el té, la hierba mate o las bebidas energéticas pueden ayudar en el momento; pero cuando cesa su efecto, puede venir un efecto rebote: el sueño aparece repentinamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-rebote"
+   },
+   "dato": "c4-137"
+  },
+  {
+   "voz": "¿En qué horarios aparece con más facilidad la somnolencia?",
+   "elige": {
+    "pregunta": "¿En qué horarios aparece con más facilidad la somnolencia?",
+    "opciones": [
+     "De 3 a 5 de la madrugada y de 14 a 16 h",
+     "De 8 a 10 de la mañana y de 18 a 20 h",
+     "Solo después de la medianoche"
+    ],
+    "bien": "Así es: de tres a cinco de la madrugada, y de catorce a dieciséis horas.",
+    "mal": "La somnolencia aparece con más facilidad de tres a cinco de la madrugada, y de catorce a dieciséis horas."
+   }
+  }
+ ]
+}

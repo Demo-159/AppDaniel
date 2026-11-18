@@ -1,0 +1,78 @@
+{
+ "id": "c4s13",
+ "titulo": "Efectos del alcohol en el organismo",
+ "icono": "🧠",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo afecta el alcohol al cerebro y a la vista, incluso en poca cantidad.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧠",
+    "texto": "Efectos del alcohol"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El cerebro es afectado por el alcohol mucho más que otros órganos del cuerpo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-cerebro"
+   },
+   "dato": "c4-72"
+  },
+  {
+   "voz": "Con pequeñas concentraciones, de cero coma un gramo por mil de alcohol en la sangre, ya se afecta el comportamiento y la conducta: disminuyen ciertas inhibiciones, y aumenta la tendencia a sobreestimar la propia capacidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-01"
+   },
+   "dato": "c4-73"
+  },
+  {
+   "voz": "La mayoría no nota que ve peor después de unos tragos. Pero lo que no se percibe es que la visión periférica sí disminuye.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-perif"
+   },
+   "dato": "c4-75"
+  },
+  {
+   "voz": "Y a mayores concentraciones de alcohol, la visión empeora, sobre todo en forma de visión doble.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-doble"
+   },
+   "dato": "c4-76"
+  },
+  {
+   "voz": "La visión periférica, la atención, el tiempo de reacción, y la capacidad de interpretación y decisión se ven afectadas antes que la parte motriz: lo decisivo se afecta antes de que te des cuenta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-antes"
+   },
+   "dato": "c4-77"
+  },
+  {
+   "voz": "La única tasa de alcohol segura para conducir es cero. Si vas a beber, no conduzcas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-cero"
+   },
+   "dato": "c4-74"
+  },
+  {
+   "voz": "¿Cuál es la única tasa de alcohol segura para conducir?",
+   "elige": {
+    "pregunta": "¿Cuál es la única tasa de alcohol segura para conducir?",
+    "opciones": [
+     "0 g/l",
+     "Menos de 0,3 g/l",
+     "Menos de 0,5 g/l"
+    ],
+    "bien": "Así es: cero.",
+    "mal": "La única tasa de alcohol segura para conducir es cero."
+   }
+  }
+ ]
+}

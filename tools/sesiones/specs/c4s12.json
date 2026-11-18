@@ -1,0 +1,103 @@
+{
+ "id": "c4s12",
+ "titulo": "Alcohol: Ley Tolerancia Cero y Ley Emilia",
+ "icono": "🍺",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer lo que dice la ley sobre conducir con alcohol, y sus sanciones.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🍺",
+    "texto": "Alcohol y la ley"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "En el año dos mil doce se promulgó la Ley Tolerancia Cero, que redujo los niveles de alcohol permitidos, y aumentó las sanciones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tolerancia"
+   },
+   "dato": "c4-61"
+  },
+  {
+   "voz": "Con entre cero coma treinta y uno y cero coma setenta y nueve gramos por mil de alcohol en la sangre, se conduce bajo la influencia del alcohol. Sanción: multas, y suspensión de la licencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-influencia"
+   },
+   "dato": "c4-62"
+  },
+  {
+   "voz": "Con cero coma ocho o más gramos por mil, es estado de ebriedad. Sanción: multas, cancelación de la licencia, y presidio, es decir, cárcel.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-ebriedad"
+   },
+   "dato": "c4-63"
+  },
+  {
+   "voz": "Por conducir bajo la influencia del alcohol, la primera vez, sin daños ni lesiones, la licencia se suspende tres meses. En estado de ebriedad, la primera vez, dos años; la segunda, cinco años; y la tercera, se cancela.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-suspension"
+   },
+   "dato": [
+    "c4-67",
+    "c4-68"
+   ]
+  },
+  {
+   "voz": "Las sanciones aumentan significativamente si hay reincidencia, o si la persona, además de haber bebido, participa en un siniestro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-reincidencia"
+   },
+   "dato": "c4-64"
+  },
+  {
+   "voz": "El riesgo: con una alcoholemia entre cero coma tres y cero coma cinco gramos por litro, el riesgo de sufrir un siniestro es el doble que sin haber bebido. Entre cero coma cinco y cero coma ocho, es cinco veces más.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-riesgo"
+   },
+   "dato": [
+    "c4-65",
+    "c4-66"
+   ]
+  },
+  {
+   "voz": "En el año dos mil catorce, la Ley Emilia estableció cárcel efectiva de al menos un año para quienes, en estado de ebriedad, causen lesiones gravísimas o la muerte a otras personas. Y se consideran delitos calificados: la reincidencia, conducir con licencia cancelada o inhabilitada, y hacerlo como conductor profesional de pasajeros o carga.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-emilia"
+   },
+   "dato": [
+    "c4-69",
+    "c4-70"
+   ]
+  },
+  {
+   "voz": "Si tras un siniestro te niegas sin justificación a hacerte la prueba de alcohol, serás sancionado con suspensión de la licencia, multas, y penas de cárcel.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-negarse"
+   },
+   "dato": "c4-71"
+  },
+  {
+   "voz": "¿Desde qué alcoholemia se considera estado de ebriedad?",
+   "elige": {
+    "pregunta": "El estado de ebriedad comienza en…",
+    "opciones": [
+     "0,8 g/l o más",
+     "0,3 g/l o más",
+     "0,5 g/l o más"
+    ],
+    "bien": "Así es: desde cero coma ocho gramos por mil.",
+    "mal": "El estado de ebriedad comienza en cero coma ocho gramos por mil de alcohol en la sangre."
+   }
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "c4s5",
+ "titulo": "Capacidad visual y visibilidad",
+ "icono": "🌙",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cuánto alcanzas a ver de noche, y qué pasa cuando te encandilan.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌙",
+    "texto": "Capacidad visual y visibilidad"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Al mirar directamente los focos de un vehículo se produce una ceguera temporal. Cuando se produce un efecto de ceguera temporal, la distancia de visibilidad es de cero metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-ceguera"
+   },
+   "dato": "c4-17"
+  },
+  {
+   "voz": "También puede ocurrir cuando, tras conducir en un túnel, se sale a la luz del sol, o cuando al atardecer el sol da directamente a los ojos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tunel"
+   },
+   "dato": "c4-18"
+  },
+  {
+   "voz": "La distancia de visibilidad en un cruce de vehículos que van con luces bajas no supera los quince o veinte metros. Cuando no hay cruce, se ven las demarcaciones de la calzada hasta unos setenta metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-luces"
+   },
+   "dato": "c4-19"
+  },
+  {
+   "voz": "La ropa oscura refleja solo el cinco por ciento de la luz; la ropa blanca, un ochenta por ciento; y los materiales reflectantes, entre un noventa y un noventa y ocho por ciento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-ropa"
+   },
+   "dato": "c4-20"
+  },
+  {
+   "voz": "Descubrir personas o animales en la vía puede ser muy difícil. Siempre existirá la posibilidad de encontrar un obstáculo en la vía. Ten precaución.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-obstaculo"
+   },
+   "dato": "c4-21"
+  },
+  {
+   "voz": "Al cruzarse dos vehículos con luces bajas, ¿hasta qué distancia se ve?",
+   "elige": {
+    "pregunta": "Al cruzarse dos vehículos con luces bajas, ¿hasta qué distancia se ve?",
+    "opciones": [
+     "Quince a veinte metros",
+     "Unos setenta metros",
+     "Unos cien metros"
+    ],
+    "bien": "Así es: no más de quince o veinte metros.",
+    "mal": "En un cruce con luces bajas, la visibilidad no supera los quince o veinte metros."
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "c4s18",
+ "titulo": "Medicamentos que pueden afectar a la conducción",
+ "icono": "💊",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los medicamentos que pueden afectar tu forma de conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💊",
+    "texto": "Medicamentos y conducción"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Se ha comprobado que el riesgo de conducir bajo los efectos de algunos antihistamínicos equivale al de conducir con cero coma cinco a cero coma ocho gramos de alcohol por litro de sangre.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-antialcohol"
+   },
+   "dato": "c4-115"
+  },
+  {
+   "voz": "Hoy existen antihistamínicos que no producen somnolencia, y son más seguros para conducir.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-nosueno"
+   },
+   "dato": "c4-116"
+  },
+  {
+   "voz": "Los psicofármacos son medicamentos usados para tratar enfermedades mentales, como la depresión, la ansiedad, o los trastornos del sueño.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-psico"
+   },
+   "dato": "c4-117"
+  },
+  {
+   "voz": "Los neurolépticos, o antipsicóticos, se usan en trastornos psicóticos, como la esquizofrenia, y pueden provocar sueño e hipotensión.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-neurolepticos"
+   },
+   "dato": "c4-118"
+  },
+  {
+   "voz": "Entre los psicoestimulantes, algunas anfetaminas generan una efímera y fuerte sensación de autoconfianza. Y algunos de estos medicamentos son tan fuertes, que en algunos países se prohíbe conducir mientras se consumen.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-anfetaminas"
+   },
+   "dato": [
+    "c4-119",
+    "c4-120"
+   ]
+  },
+  {
+   "voz": "Antes de consumir medicamentos, en especial estos, consulta al médico sobre los posibles riesgos para la conducción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-consulta"
+   },
+   "dato": "c4-121"
+  },
+  {
+   "voz": "El riesgo de conducir bajo algunos antihistamínicos equivale a conducir con…",
+   "elige": {
+    "pregunta": "El riesgo de conducir bajo algunos antihistamínicos equivale a…",
+    "opciones": [
+     "0,5 a 0,8 g/l de alcohol",
+     "0,1 g/l de alcohol",
+     "Más de 1,5 g/l de alcohol"
+    ],
+    "bien": "Así es: a conducir con cero coma cinco a cero coma ocho gramos por litro.",
+    "mal": "Equivale a conducir con cero coma cinco a cero coma ocho gramos de alcohol por litro."
+   }
+  }
+ ]
+}

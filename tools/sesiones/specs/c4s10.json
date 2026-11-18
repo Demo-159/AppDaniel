@@ -1,0 +1,86 @@
+{
+ "id": "c4s10",
+ "titulo": "Requisitos para una conducción segura",
+ "icono": "🧭",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las capacidades personales que exige una conducción segura.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧭",
+    "texto": "Requisitos para una conducción segura"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Una conducción segura requiere: capacidad de raciocinio y decisión, capacidad de adaptarse a la realidad, identidad, autocontrol, responsabilidad, empatía, y manejo de la presión social.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-requisitos"
+   },
+   "dato": "c4-54"
+  },
+  {
+   "voz": "Mientras se busca conocer los límites, se pueden cometer errores fatales: probar la velocidad máxima del vehículo, tratar de pasar una curva cerrada a ochenta kilómetros por hora, o intentar batir la marca de tiempo de un trayecto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-identidad"
+   },
+   "dato": "c4-49"
+  },
+  {
+   "voz": "Autocontrol: dominar la irritación o la ira, incluso cuando otra persona haya tenido una conducta incorrecta, o tú la percibas así, es primordial para tomar buenas decisiones. Si alguien te hace una maniobra brusca, mantén la calma y no respondas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-ira"
+   },
+   "dato": "c4-50"
+  },
+  {
+   "voz": "La agresividad hace que se perciba y juzgue erróneamente una situación, y lleva a tomar decisiones impulsivas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-agresividad"
+   },
+   "dato": "c4-51"
+  },
+  {
+   "voz": "Debes mantener la atención durante largo tiempo. Un ejemplo recurrente de distracción es querer ver una notificación en tu celular.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-notificacion"
+   },
+   "dato": "c4-52"
+  },
+  {
+   "voz": "La empatía nos lleva a ayudar, a sentirnos en comunidad, y a tener consideración con las y los usuarios vulnerables: ciclistas, motociclistas y peatones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-empatia"
+   },
+   "dato": "c4-55"
+  },
+  {
+   "voz": "Y el manejo de la presión social: la influencia del grupo puede ser altamente negativa, y llevarte a hacer acciones imprevistas. Pero también puede ser positiva, si en el grupo priman los valores de seguridad y responsabilidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-grupo"
+   },
+   "dato": "c4-53"
+  },
+  {
+   "voz": "Otra persona te hace una maniobra brusca. ¿Qué haces?",
+   "elige": {
+    "pregunta": "Otra persona te hace una maniobra brusca. ¿Qué haces?",
+    "opciones": [
+     "Mantener la calma y no responder",
+     "Tocarle la bocina con insistencia",
+     "Alcanzarla para que vea su error"
+    ],
+    "bien": "Así es: mantener la calma. Dominar la ira es primordial para decidir bien.",
+    "mal": "Lo correcto es mantener la calma y no responder: dominar la irritación es primordial para tomar buenas decisiones."
+   }
+  }
+ ]
+}

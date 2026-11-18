@@ -1,0 +1,78 @@
+{
+ "id": "c3s2",
+ "titulo": "Percepción del riesgo",
+ "icono": "⚠️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué solemos sentir menos riesgo del que realmente hay al conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚠️",
+    "texto": "Percepción del riesgo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La meta de la Seguridad Vial es la eliminación total de los siniestros de tránsito, partiendo de su reducción, y de la minimización de sus consecuencias.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-meta"
+   },
+   "dato": "c3-04"
+  },
+  {
+   "voz": "La percepción del riesgo, en la mayoría de las personas conductoras, suele estar por debajo del riesgo real: es subjetiva y poco realista, y el riesgo percibido llega a ser prácticamente nulo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-percepcion"
+   },
+   "dato": "c3-05"
+  },
+  {
+   "voz": "Cerca del noventa por ciento de los siniestros con víctimas son producto de fallas humanas: errores de personas conductoras con una equivocada percepción del riesgo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-90"
+   },
+   "dato": "c3-08"
+  },
+  {
+   "voz": "La imprudencia y la falta de práctica de quienes conducen son el mayor riesgo a la hora de conducir.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-imprudencia"
+   },
+   "dato": "c3-06"
+  },
+  {
+   "voz": "El primer paso es eliminar la idea de que los siniestros de tránsito solo le ocurren a los demás.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-demas"
+   },
+   "dato": "c3-07"
+  },
+  {
+   "voz": "Al no respetar una luz roja del semáforo, o un paso de peatones señalizado, no solo se comete una infracción a la Ley de Tránsito: también se atenta contra la Convivencia Vial.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-luzroja"
+   },
+   "dato": "c3-09"
+  },
+  {
+   "voz": "¿Dónde suele estar la percepción del riesgo de la mayoría de las personas conductoras?",
+   "elige": {
+    "pregunta": "La percepción del riesgo de la mayoría de quienes conducen suele estar…",
+    "opciones": [
+     "Por debajo del riesgo real",
+     "Por encima del riesgo real",
+     "Igual al riesgo real"
+    ],
+    "bien": "Así es: suele estar por debajo del riesgo real.",
+    "mal": "Suele estar por debajo del riesgo real: es subjetiva y poco realista."
+   }
+  }
+ ]
+}

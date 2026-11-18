@@ -1,0 +1,70 @@
+{
+ "id": "c4s11",
+ "titulo": "Conductas que implican riesgos",
+ "icono": "🎭",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer cinco conductas que facilitan los siniestros.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🎭",
+    "texto": "Conductas que implican riesgos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La impulsividad, que significa actuar sin pensar, sin prever las consecuencias, es casi siempre negativa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-impulsividad"
+   },
+   "dato": "c4-56"
+  },
+  {
+   "voz": "El no asumir la culpa: algunas personas culpan a otras y se niegan a ver su propio comportamiento. Evaden su culpa con pretextos, y así no aprenden de sus experiencias.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-culpa"
+   },
+   "dato": "c4-57"
+  },
+  {
+   "voz": "La represión: algunas personas dejan de lado los riesgos que saben que existen, porque algo les parece más importante, como llegar a cierta hora. Eso disminuye su consciencia del riesgo, y aumenta su tendencia a correrlo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-represion"
+   },
+   "dato": "c4-58"
+  },
+  {
+   "voz": "La formación de reacción: una persona insegura, que quiere parecer osada, puede terminar mostrando un comportamiento agresivo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-formacion"
+   },
+   "dato": "c4-59"
+  },
+  {
+   "voz": "Y la validación: sentir que eres superior al resto, o que tienes más derechos, lleva a pensar que algunas acciones de otras personas son desafíos o provocaciones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-validacion"
+   },
+   "dato": "c4-60"
+  },
+  {
+   "voz": "Culpar a otros y no ver el propio comportamiento, ¿a qué conducta corresponde?",
+   "elige": {
+    "pregunta": "Culpar a otros y no ver el propio comportamiento corresponde a…",
+    "opciones": [
+     "No asumir la culpa",
+     "La represión",
+     "La validación"
+    ],
+    "bien": "Así es: no asumir la culpa.",
+    "mal": "Corresponde a no asumir la culpa: evadirla con pretextos."
+   }
+  }
+ ]
+}

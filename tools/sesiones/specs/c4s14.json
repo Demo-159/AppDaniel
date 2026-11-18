@@ -1,0 +1,108 @@
+{
+ "id": "c4s14",
+ "titulo": "Cómo varía la tasa de alcohol en la sangre",
+ "icono": "📈",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver de qué depende la cantidad de alcohol en la sangre, y cuánto tarda en irse.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📈",
+    "texto": "La tasa de alcohol en la sangre"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Para conocer la tasa de alcohol se analiza una muestra de sangre, la alcoholemia, o se hace una prueba espirométrica con equipos de Carabineros de Chile.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-medir"
+   },
+   "dato": "c4-78"
+  },
+  {
+   "voz": "Si dos personas beben exactamente lo mismo, la que tenga menor peso tendrá una mayor tasa de alcohol en la sangre.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-peso"
+   },
+   "dato": "c4-79"
+  },
+  {
+   "voz": "Si un hombre y una mujer de igual peso beben lo mismo, es más probable que la mujer tenga una alcoholemia más alta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-sexo"
+   },
+   "dato": "c4-80"
+  },
+  {
+   "voz": "El punto máximo de alcohol, llamado meseta, será mayor si se bebe en poco tiempo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-meseta"
+   },
+   "dato": "c4-81"
+  },
+  {
+   "voz": "El alcohol se detecta en la sangre cinco minutos después de beberlo, y el nivel máximo se alcanza, en promedio, a la hora.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-curva"
+   },
+   "dato": [
+    "c4-82",
+    "c4-83"
+   ]
+  },
+  {
+   "voz": "En una persona promedio y sana, de setenta kilos, el alcohol disminuye entre cero coma diez y cero coma quince gramos por litro de sangre por hora. Y no se puede apresurar: ni el café, ni los dulces, ni una ducha fría, ni el ejercicio lo aceleran.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-elimina"
+   },
+   "dato": [
+    "c4-84",
+    "c4-85"
+   ]
+  },
+  {
+   "voz": "Dormir pocas horas no garantiza que el alcohol se haya eliminado por completo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-dormir"
+   },
+   "dato": "c4-86"
+  },
+  {
+   "voz": "Comer reduce la cantidad de alcohol que pasa del estómago a la sangre. En cambio, mezclar alcohol con bebidas carbonatadas aumenta su absorción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-comida"
+   },
+   "dato": "c4-87"
+  },
+  {
+   "voz": "Y los menores de dieciocho años, y los mayores de sesenta y cinco, perciben con mayor intensidad los efectos del alcohol.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-edadalc"
+   },
+   "dato": "c4-88"
+  },
+  {
+   "voz": "¿A qué ritmo elimina el alcohol una persona sana de setenta kilos?",
+   "elige": {
+    "pregunta": "Una persona sana de 70 kg elimina el alcohol a razón de…",
+    "opciones": [
+     "0,10 a 0,15 g/l por hora",
+     "0,5 g/l por hora",
+     "1 g/l por hora"
+    ],
+    "bien": "Así es: entre cero coma diez y cero coma quince gramos por litro, cada hora.",
+    "mal": "Elimina entre cero coma diez y cero coma quince gramos por litro, cada hora, y no se puede apresurar."
+   }
+  }
+ ]
+}

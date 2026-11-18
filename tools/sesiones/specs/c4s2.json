@@ -1,0 +1,62 @@
+{
+ "id": "c4s2",
+ "titulo": "Interpretaciones erróneas",
+ "icono": "🌫️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cuándo interpretamos mal lo que vemos en el camino, y cómo protegerte de eso.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌫️",
+    "texto": "Interpretaciones erróneas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Imagina que de noche ves acercarse algo que parece una motocicleta, pero es un automóvil con un foco apagado. Estas interpretaciones erróneas del entorno son bastante comunes, y pueden ser muy peligrosas. Surgen cuando los indicios de distancia y forma son insuficientes o poco claros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-moto"
+   },
+   "dato": "c4-07"
+  },
+  {
+   "voz": "Otro ejemplo: los focos sucios, o con luz poco potente, hacen que un vehículo parezca encontrarse a mayor distancia de la real.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-focos"
+   },
+   "dato": "c4-08"
+  },
+  {
+   "voz": "Nuestra capacidad de percibir distancias funciona solo en distancias cortas. A distancias superiores a los cincuenta metros, los indicios del entorno adquieren más importancia para juzgar distancias.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-50m"
+   },
+   "dato": "c4-09"
+  },
+  {
+   "voz": "Con niebla, en la oscuridad, o encandilado, esos indicios faltan o confunden. Por eso, una buena regla es desconfiar de las propias percepciones, y no conducir cuando exista cansancio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-desconfia"
+   },
+   "dato": "c4-10"
+  },
+  {
+   "voz": "¿Cuándo surgen las interpretaciones erróneas del entorno?",
+   "elige": {
+    "pregunta": "¿Cuándo surgen las interpretaciones erróneas del entorno?",
+    "opciones": [
+     "Cuando los indicios de distancia y forma son poco claros",
+     "Solo cuando la persona conduce con sueño",
+     "Cuando se conduce a baja velocidad"
+    ],
+    "bien": "Así es: cuando los indicios de distancia y forma son insuficientes o poco claros.",
+    "mal": "Surgen cuando los indicios de distancia y forma son insuficientes o poco claros."
+   }
+  }
+ ]
+}

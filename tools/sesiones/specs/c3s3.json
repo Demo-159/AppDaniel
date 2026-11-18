@@ -1,0 +1,70 @@
+{
+ "id": "c3s3",
+ "titulo": "Principales factores de riesgo",
+ "icono": "🚩",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los principales factores de riesgo al conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚩",
+    "texto": "Principales factores de riesgo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las distracciones son un factor importante, y una de las principales causas de siniestros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-distrac"
+   },
+   "dato": "c3-10"
+  },
+  {
+   "voz": "El alcohol y las drogas disminuyen las facultades para conducir.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-alcohol"
+   },
+   "dato": "c3-11"
+  },
+  {
+   "voz": "También la fatiga, el cansancio, el sueño o la somnolencia, el consumo de fármacos, o conducir en situaciones de estrés.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-fatiga"
+   },
+   "dato": "c3-12"
+  },
+  {
+   "voz": "Y la velocidad inadecuada, presente en la cuarta parte de los siniestros con víctimas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-velocidad"
+   },
+   "dato": "c3-13"
+  },
+  {
+   "voz": "Todos estos factores de riesgo pueden generar la pérdida de control del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-control"
+   },
+   "dato": "c3-14"
+  },
+  {
+   "voz": "¿En qué parte de los siniestros con víctimas está presente la velocidad inadecuada?",
+   "elige": {
+    "pregunta": "La velocidad inadecuada está presente en…",
+    "opciones": [
+     "La cuarta parte de los siniestros con víctimas",
+     "La mitad de los siniestros con víctimas",
+     "Casi todos los siniestros con víctimas"
+    ],
+    "bien": "Así es: en la cuarta parte.",
+    "mal": "La velocidad inadecuada está presente en la cuarta parte de los siniestros con víctimas."
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "c4s7",
+ "titulo": "Localización y el ojo humano",
+ "icono": "👀",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer cómo funciona el ojo, y cómo mirar bien al conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "👀",
+    "texto": "Localización y el ojo humano"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "¿Hacia dónde, en qué orden, y durante cuánto tiempo mira quien conduce? Estos tres factores dependen de la habilidad de cada persona, y van variando con la experiencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-mirar"
+   },
+   "dato": "c4-26"
+  },
+  {
+   "voz": "La pupila regula la entrada de luz, variando de tamaño: aumenta en la oscuridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-pupila"
+   },
+   "dato": "c4-27"
+  },
+  {
+   "voz": "La retina cubre gran parte del fondo del ojo, y contiene células que transforman los rayos de luz en señales eléctricas, que el nervio óptico lleva al cerebro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-retina"
+   },
+   "dato": "c4-29"
+  },
+  {
+   "voz": "Donde el nervio óptico entra en el ojo está la llamada mancha, o mácula ciega. En ella no hay células visuales, y lo que se refleja ahí no se percibe.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-macula"
+   },
+   "dato": "c4-28"
+  },
+  {
+   "voz": "En las partes externas de la visión periférica, la nitidez visual es menos del cero coma uno por ciento. Las cosas se descubren con la visión periférica, y se reconocen con la visión directa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-periferica"
+   },
+   "dato": [
+    "c4-30",
+    "c4-31"
+   ]
+  },
+  {
+   "voz": "Normalmente se tiene un campo visual de algo más de ciento ochenta grados.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-180"
+   },
+   "dato": "c4-32"
+  },
+  {
+   "voz": "Quienes tienen experiencia aprovechan más su visión periférica. Quienes recién empiezan casi siempre ven lo que está cerca del vehículo, y concentran su mirada en objetos fijos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-expertos"
+   },
+   "dato": "c4-33"
+  },
+  {
+   "voz": "Si percibes cualquier tipo de alteración en tu vista, es fundamental que consultes al médico.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-medico"
+   },
+   "dato": "c4-34"
+  },
+  {
+   "voz": "Las cosas se descubren con la visión periférica. ¿Con qué se reconocen?",
+   "elige": {
+    "pregunta": "Se descubren con la visión periférica y se reconocen con…",
+    "opciones": [
+     "La visión directa",
+     "La mácula ciega",
+     "La visión nocturna"
+    ],
+    "bien": "Así es: con la visión directa.",
+    "mal": "Se descubren con la visión periférica, y se reconocen con la visión directa."
+   }
+  }
+ ]
+}

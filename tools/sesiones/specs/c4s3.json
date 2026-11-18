@@ -1,0 +1,62 @@
+{
+ "id": "c4s3",
+ "titulo": "Falta de concentración",
+ "icono": "📻",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué hacer otra cosa mientras conduces es tan riesgoso.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📻",
+    "texto": "Falta de concentración"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Cambiar la sintonía de la radio basta para que una curva te sorprenda. Hacer dos cosas al mismo tiempo puede resultar muy riesgoso, especialmente para quienes tienen poca experiencia en conducción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-dos"
+   },
+   "dato": "c4-11"
+  },
+  {
+   "voz": "Lleva las dos manos sobre el volante y concéntrate en el tránsito. No conduzcas si sientes molestia o disgusto por algo que te sucedió, y evita las discusiones mientras conduces.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-disgusto"
+   },
+   "dato": "c4-12"
+  },
+  {
+   "voz": "Los problemas emocionales, ocuparse de la radio o del teléfono, fumar o comer mientras conduces, influyen negativamente en la seguridad del tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-fumar"
+   },
+   "dato": "c4-12"
+  },
+  {
+   "voz": "Si te distraes, tendrás menos tiempo para reaccionar ante un imprevisto, porque tardarás más en recibir la información. Conducir requiere toda tu atención.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-menostiempo"
+   },
+   "dato": "c4-13"
+  },
+  {
+   "voz": "¿Cuál de estas acciones influye negativamente en la seguridad al conducir?",
+   "elige": {
+    "pregunta": "¿Qué influye negativamente en la seguridad al conducir?",
+    "opciones": [
+     "Fumar o comer mientras conduces",
+     "Llevar las dos manos en el volante",
+     "Mirar los espejos con frecuencia"
+    ],
+    "bien": "Así es: fumar o comer mientras conduces influye negativamente.",
+    "mal": "Fumar o comer mientras conduces, igual que ocuparte de la radio o del teléfono, influye negativamente en la seguridad."
+   }
+  }
+ ]
+}

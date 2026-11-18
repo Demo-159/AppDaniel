@@ -1,0 +1,89 @@
+{
+ "id": "c4s8",
+ "titulo": "Procesamiento limitado de información",
+ "icono": "🧠",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo el cerebro se equivoca con la velocidad, el campo visual y el punto de cruce.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧠",
+    "texto": "Procesamiento limitado de información"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Subestimar la velocidad puede ser muy riesgoso, sobre todo porque puedes equivocarte al juzgar la distancia de frenado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-subestimar"
+   },
+   "dato": "c4-35"
+  },
+  {
+   "voz": "Los automóviles modernos tienen una marcha bastante silenciosa y sin vibraciones, lo que facilita no advertir la velocidad a la que se conduce.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-silencio"
+   },
+   "dato": "c4-36"
+  },
+  {
+   "voz": "Otro fenómeno es la visión de túnel: el campo visual se reduce a medida que aumenta la velocidad. Cuanto más rápido vas, más lejos fijas la mirada, y no descubres lo que hay a los lados.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tunelv"
+   },
+   "dato": "c4-37"
+  },
+  {
+   "voz": "A ciento treinta kilómetros por hora, el campo visual es de unos treinta grados; a treinta y cinco kilómetros por hora, de unos cien grados.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-angulos"
+   },
+   "dato": [
+    "c4-39",
+    "c4-40"
+   ]
+  },
+  {
+   "voz": "La visión de túnel también se presenta en estado de estrés, o por consumo de medicamentos o drogas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tunelcausas"
+   },
+   "dato": "c4-38"
+  },
+  {
+   "voz": "Cuando viene un vehículo de frente, el cerebro estima que se cruzarán en el punto medio de la distancia, como si ambos fueran a la misma velocidad. Pero si vas a noventa kilómetros por hora y el otro a cien, el punto de cruce real estará más cerca de ti.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-cruce"
+   },
+   "dato": "c4-41"
+  },
+  {
+   "voz": "El error aumenta mientras mayor sea la diferencia de velocidad entre tu vehículo y el que viene en dirección opuesta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-error"
+   },
+   "dato": "c4-42"
+  },
+  {
+   "voz": "En la visión de túnel, ¿qué le pasa a tu campo visual al aumentar la velocidad?",
+   "elige": {
+    "pregunta": "Al aumentar la velocidad, tu campo visual…",
+    "opciones": [
+     "Se reduce",
+     "Se amplía",
+     "No cambia"
+    ],
+    "bien": "Así es: se reduce.",
+    "mal": "En la visión de túnel, el campo visual se reduce a medida que aumenta la velocidad."
+   }
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "c4s16",
+ "titulo": "Enfermedades que pueden afectar a la conducción",
+ "icono": "🩺",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué enfermedades afectan la conducción, y cómo reducir el riesgo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🩺",
+    "texto": "Enfermedades y conducción"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "No todas las enfermedades implican el mismo riesgo. Los trastornos neurológicos son los de mayor riesgo de siniestros, seguidos de las adicciones a medicamentos y la diabetes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-neuro"
+   },
+   "dato": "c4-99"
+  },
+  {
+   "voz": "Al pedir la licencia se te hará un examen médico, que evalúa las enfermedades y condiciones que pueden afectar a la conducción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-examen"
+   },
+   "dato": "c4-100"
+  },
+  {
+   "voz": "Si tienes una enfermedad, o la desarrollas después de obtener la licencia, es tu responsabilidad preguntar al médico tratante por los riesgos de conducir.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tratante"
+   },
+   "dato": "c4-101"
+  },
+  {
+   "voz": "Con una enfermedad crónica, reduces el riesgo si no modificas ni abandonas el tratamiento sin indicación médica, y si no consumes alcohol mientras tomas medicamentos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tratamiento"
+   },
+   "dato": "c4-102"
+  },
+  {
+   "voz": "Después de un infarto, se aconseja volver a conducir luego de tres meses.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-infarto"
+   },
+   "dato": "c4-103"
+  },
+  {
+   "voz": "Algunos riesgos: la hipertensión arterial puede causar mareos y pérdida repentina de conciencia; la epilepsia, descoordinación y ataques repentinos; y la apnea obstructiva del sueño, pérdida de atención y somnolencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c4-tabla"
+   },
+   "dato": [
+    "c4-104",
+    "c4-105",
+    "c4-106"
+   ]
+  },
+  {
+   "voz": "¿Qué tipo de enfermedad tiene mayor riesgo de provocar siniestros?",
+   "elige": {
+    "pregunta": "¿Qué enfermedades tienen mayor riesgo de provocar siniestros?",
+    "opciones": [
+     "Los trastornos neurológicos",
+     "La diabetes",
+     "Las adicciones a medicamentos"
+    ],
+    "bien": "Así es: los trastornos neurológicos.",
+    "mal": "Los trastornos neurológicos son los de mayor riesgo; luego, las adicciones a medicamentos y la diabetes."
+   }
+  }
+ ]
+}

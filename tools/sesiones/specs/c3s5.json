@@ -1,0 +1,70 @@
+{
+ "id": "c3s5",
+ "titulo": "Claves para la Convivencia Vial",
+ "icono": "🔑",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar las claves para una buena Convivencia Vial.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔑",
+    "texto": "Claves para la Convivencia Vial"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Conduce siempre a una velocidad adecuada y segura: la que te permite mantener el control del vehículo, y reaccionar a tiempo ante cualquier situación imprevista.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-velad"
+   },
+   "dato": "c3-26"
+  },
+  {
+   "voz": "Recuerda siempre ver y ser visible. La prevención será siempre tu principal defensa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-visible"
+   },
+   "dato": "c3-27"
+  },
+  {
+   "voz": "No des por hecho que las demás personas conductoras se dieron cuenta de tu presencia. Conduce a la defensiva.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-asumir"
+   },
+   "dato": "c3-28"
+  },
+  {
+   "voz": "Conduce solo si te encuentras en las mejores condiciones físicas y mentales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-condiciones"
+   },
+   "dato": "c3-29"
+  },
+  {
+   "voz": "Y adapta tu conducción a las condiciones climáticas, ambientales y del pavimento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c3-clima"
+   },
+   "dato": "c3-30"
+  },
+  {
+   "voz": "¿Qué es una velocidad adecuada y segura?",
+   "elige": {
+    "pregunta": "Una velocidad adecuada y segura es la que…",
+    "opciones": [
+     "Te permite mantener el control y reaccionar a tiempo",
+     "Marca la señal de velocidad máxima de la vía",
+     "Llevan los demás vehículos a tu alrededor"
+    ],
+    "bien": "Así es: la que te permite mantener el control, y reaccionar a tiempo.",
+    "mal": "Es la que te permite mantener el control del vehículo, y reaccionar a tiempo ante cualquier imprevisto."
+   }
+  }
+ ]
+}
