@@ -1,0 +1,108 @@
+{
+ "id": "c5s6",
+ "titulo": "Personas ciclistas",
+ "icono": "🚴",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a convivir con las personas ciclistas, y la distancia que debes dejarles.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚴",
+    "texto": "Personas ciclistas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Es persona ciclista toda aquella que usa algún ciclo para transportarse: una bicicleta, un scooter, patines, entre otros. Todos son vehículos, y deben transitar bajo la normativa de tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-ciclista"
+   },
+   "dato": "c5-34"
+  },
+  {
+   "voz": "El elemento de seguridad principal de las y los ciclistas es el casco. Reduce hasta tres veces la probabilidad de sufrir lesiones en la cabeza.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-casco"
+   },
+   "dato": "c5-35"
+  },
+  {
+   "voz": "Al adelantar a una persona ciclista, la normativa indica que debes dejar un espacio lateral de al menos un metro y medio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-15m"
+   },
+   "dato": "c5-36"
+  },
+  {
+   "voz": "Un ciclista puede desviarse o tambalearse, con mayor probabilidad cuando hay viento fuerte, o en las subidas, por el mayor esfuerzo al pedalear.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-viento"
+   },
+   "dato": "c5-37"
+  },
+  {
+   "voz": "Si hay un ciclista en la acera, mantén la atención: podría no verte, e incorporarse a la calzada sin previo aviso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-acera"
+   },
+   "dato": "c5-38"
+  },
+  {
+   "voz": "No adelantes a un ciclista antes o en un cruce, especialmente si vas a virar a la derecha. Espera que pase la intersección: al virar, pierdes tu preferencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-virar"
+   },
+   "dato": "c5-39"
+  },
+  {
+   "voz": "Recuerda que los ciclos no tienen espejos retrovisores, y que un ciclista puede usar un cruce peatonal para cruzar una intersección.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-espejos"
+   },
+   "dato": [
+    "c5-40",
+    "c5-41"
+   ]
+  },
+  {
+   "voz": "Los ciclistas señalizan con los brazos. El brazo izquierdo extendido hacia abajo significa que va a disminuir la velocidad, o detenerse.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-brazo"
+   },
+   "dato": "c5-42"
+  },
+  {
+   "voz": "No puedes circular, detenerte ni estacionar en las ciclovías. Y si bajas del vehículo cerca de una, mira si viene un ciclista antes de abrir la puerta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-ciclovia"
+   },
+   "dato": [
+    "c5-43",
+    "c5-44"
+   ]
+  },
+  {
+   "voz": "Al adelantar a una persona ciclista, ¿qué espacio lateral mínimo debes dejar?",
+   "elige": {
+    "pregunta": "Al adelantar a un ciclista, ¿qué espacio lateral mínimo debes dejar?",
+    "opciones": [
+     "1,5 metros",
+     "50 centímetros",
+     "1 metro"
+    ],
+    "bien": "Así es: al menos un metro y medio.",
+    "mal": "Debes dejar un espacio lateral de al menos un metro y medio."
+   }
+  }
+ ]
+}

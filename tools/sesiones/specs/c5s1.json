@@ -1,0 +1,78 @@
+{
+ "id": "c5s1",
+ "titulo": "Quiénes son los usuarios vulnerables y los peatones",
+ "icono": "🚶",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer quiénes son las y los usuarios vulnerables, y por qué es tan fácil que sufran un siniestro.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚶",
+    "texto": "Los usuarios vulnerables"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las y los usuarios vulnerables son: niñas y niños, peatones en general, particularmente las personas mayores, ciclistas y motociclistas, entre otros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-quienes"
+   },
+   "dato": "c5-01"
+  },
+  {
+   "voz": "Peatones, ciclistas y motociclistas, junto con sus pasajeros, representan casi la mitad de las víctimas mortales del tránsito en el mundo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-mitad"
+   },
+   "dato": "c5-02"
+  },
+  {
+   "voz": "En Chile, los atropellos son aproximadamente el quince por ciento de los siniestros; pero las personas atropelladas fallecidas son cerca del veintiocho por ciento del total de fallecidos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-1528"
+   },
+   "dato": "c5-03"
+  },
+  {
+   "voz": "Su alta siniestralidad se relaciona con su comportamiento en la zona de incertidumbre: el espacio que las rodea cuando circulan por la vía. Se mueven de forma más impredecible, y cuesta más anticiparse a ellas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-zona"
+   },
+   "dato": "c5-04"
+  },
+  {
+   "voz": "Además, las y los peatones suelen cometer infracciones, como descender sorpresivamente a la calzada, y cruzar de manera indebida: sin usar los pasos peatonales, las pasarelas, o sin respetar los semáforos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-infracciones"
+   },
+   "dato": "c5-05"
+  },
+  {
+   "voz": "Y muchas personas escuchan música con audífonos, aisladas de todo lo que les rodea, o caminan pendientes del celular. Pueden bajar a la calzada sin mayor cuidado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-audifonos"
+   },
+   "dato": "c5-06"
+  },
+  {
+   "voz": "En Chile, los atropellos son cerca del quince por ciento de los siniestros. ¿Qué parte de las personas fallecidas representan?",
+   "elige": {
+    "pregunta": "Los atropellos son ~15% de los siniestros. ¿Qué parte de los fallecidos son atropellados?",
+    "opciones": [
+     "Cerca del 28%",
+     "Cerca del 5%",
+     "Cerca del 15%"
+    ],
+    "bien": "Así es: cerca del veintiocho por ciento.",
+    "mal": "Los atropellados fallecidos son cerca del veintiocho por ciento del total de fallecidos."
+   }
+  }
+ ]
+}

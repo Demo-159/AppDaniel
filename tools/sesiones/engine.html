@@ -161,6 +161,8 @@ function sfx(kind){if(!AC)return;const t=AC.currentTime,g=AC.createGain();g.conn
   e.gain.setValueAtTime(0,s);e.gain.linearRampToValueAtTime(kind==='mal'?.22:.32,s+.02);e.gain.exponentialRampToValueAtTime(.0001,s+.3);o.start(s);o.stop(s+.32)})}
 function marcas(text){if(!cur)return[];const zona=[...cur.querySelectorAll('[data-w],[data-h]'),...$('escena').querySelectorAll('[data-w],[data-h]')];const t=(text||'').toLowerCase(),L=t.length||1;
  const at=w=>{const i=t.indexOf(w.toLowerCase());return i<0?0:Math.max(0,i/L-.03)};
+ // un elemento con opacity propia (velos, haces de luz) conserva esa opacidad al aparecer
+ zona.forEach(el=>{const o=el.getAttribute('opacity');if(o&&!el.style.getPropertyValue('--o'))el.style.setProperty('--o',o)});
  return zona.flatMap(el=>[...(el.dataset.w?[{el,f:at(el.dataset.w),h:0}]:[]),...(el.dataset.h?[{el,f:at(el.dataset.h),h:1}]:[])])}
 function marca(m){if(!m.h&&m.el.dataset.to&&!m.el.dataset.hecho){m.el.dataset.hecho=1;countUp(m.el,+m.el.dataset.to,1500)}m.el.classList.add(m.h?'off':'on');if(m.el.classList.contains('go'))m.el.classList.add('run');m.el.querySelectorAll('.go').forEach(g=>g.classList.add('run'))}
 function say(key){return new Promise(res=>{const a=S.audio[key];

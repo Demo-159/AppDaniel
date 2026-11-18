@@ -1,0 +1,95 @@
+{
+ "id": "c5s7",
+ "titulo": "Niñas y niños en el automóvil: la ley",
+ "icono": "👶",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer lo que exige la ley para transportar a niñas y niños en un automóvil.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "👶",
+    "texto": "Niñas y niños en el auto: la ley"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Usa en las puertas los seguros de niños, que impiden que se abran desde el interior.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-seguros"
+   },
+   "dato": "c5-45"
+  },
+  {
+   "voz": "En Chile, en la última década, fallecieron cuatrocientos noventa y siete menores de doce años. El cuarenta y cinco por ciento murió como pasajero de un vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-497"
+   },
+   "dato": "c5-47"
+  },
+  {
+   "voz": "Desde el año dos mil seis, es obligatorio trasladar a niñas y niños en un Sistema de Retención Infantil, o SRI. Y es tu obligación, como persona conductora, usarlo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-2006"
+   },
+   "dato": [
+    "c5-48",
+    "c5-46"
+   ]
+  },
+  {
+   "voz": "Los menores de doce años no pueden viajar en los asientos delanteros: deben ir en el asiento trasero, excepto en vehículos de cabina simple.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-trasero"
+   },
+   "dato": "c5-49"
+  },
+  {
+   "voz": "Deben usar SRI las niñas y niños de hasta ocho años inclusive, es decir, hasta un día antes de cumplir nueve; o de hasta ciento treinta y cinco centímetros de estatura, y treinta y tres kilos de peso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-8anos"
+   },
+   "dato": [
+    "c5-50",
+    "c5-51"
+   ]
+  },
+  {
+   "voz": "Se exceptúan de esta obligación el transporte público, el transporte escolar, y vehículos de características similares.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-excepto"
+   },
+   "dato": "c5-52"
+  },
+  {
+   "voz": "No cumplirlo es una falta gravísima: multa de uno coma cinco a tres UTM, y suspensión de la licencia de cinco a cuarenta y cinco días.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-multa"
+   },
+   "dato": [
+    "c5-53",
+    "c5-54"
+   ]
+  },
+  {
+   "voz": "¿Hasta qué edad es obligatorio el Sistema de Retención Infantil?",
+   "elige": {
+    "pregunta": "¿Hasta qué edad es obligatorio el SRI?",
+    "opciones": [
+     "Hasta los 8 años inclusive",
+     "Hasta los 5 años",
+     "Hasta los 12 años"
+    ],
+    "bien": "Así es: hasta los ocho años inclusive, o hasta ciento treinta y cinco centímetros y treinta y tres kilos.",
+    "mal": "Es obligatorio hasta los ocho años inclusive, o hasta ciento treinta y cinco centímetros y treinta y tres kilos."
+   }
+  }
+ ]
+}

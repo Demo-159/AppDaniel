@@ -1,0 +1,78 @@
+{
+ "id": "c5s5",
+ "titulo": "Vehículos a tracción animal y motociclistas",
+ "icono": "🐴",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo actuar ante personas a caballo, carretas y motociclistas.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🐴",
+    "texto": "Tracción animal y motociclistas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "En zonas rurales es más frecuente encontrar personas a caballo o con carreta. Presta más atención, especialmente en las curvas a la derecha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-caballo"
+   },
+   "dato": "c5-28"
+  },
+  {
+   "voz": "Si van en tu misma dirección, y vienen muchos vehículos en contra, no te acerques demasiado: espera a que los vehículos pasen para adelantar, y mantén una distancia lateral prudente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-adelantar"
+   },
+   "dato": "c5-29"
+  },
+  {
+   "voz": "No hagas señales luminosas ni acústicas, ni aceleres el motor cerca de animales: pueden asustarse fácilmente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-asustar"
+   },
+   "dato": "c5-30"
+  },
+  {
+   "voz": "En las motocicletas, la falta de carrocería hace que los siniestros resulten fácilmente fatales. Son pequeñas, y difíciles de ver.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-moto"
+   },
+   "dato": "c5-31"
+  },
+  {
+   "voz": "Son frecuentes las colisiones con motociclistas en las intersecciones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-interseccion"
+   },
+   "dato": "c5-32"
+  },
+  {
+   "voz": "Considera también los triciclos motorizados de carga, que suelen circular a velocidad reducida, y en general sin carrocería que proteja a quien los conduce.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-triciclo"
+   },
+   "dato": "c5-33"
+  },
+  {
+   "voz": "Cerca de animales o personas a caballo, ¿qué debes hacer?",
+   "elige": {
+    "pregunta": "Cerca de animales o personas a caballo, debes…",
+    "opciones": [
+     "No usar luces ni bocina, ni acelerar el motor",
+     "Tocar la bocina para avisarles",
+     "Hacer cambio de luces para que te vean"
+    ],
+    "bien": "Así es: nada de luces, bocina, ni aceleradas; los animales se asustan fácilmente.",
+    "mal": "No hagas señales luminosas ni acústicas, ni aceleres cerca de animales: pueden asustarse fácilmente."
+   }
+  }
+ ]
+}

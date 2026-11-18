@@ -1,0 +1,76 @@
+{
+ "id": "c5s4",
+ "titulo": "Las niñas y niños en la vía",
+ "icono": "🧒",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué niñas y niños son tan vulnerables en la vía, y cuándo extremar el cuidado.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧒",
+    "texto": "Niñas y niños en la vía"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Muchos siniestros ocurren cuando niñas y niños cruzan repentinamente la calle, corriendo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-corriendo"
+   },
+   "dato": "c5-21"
+  },
+  {
+   "voz": "Tienen una estatura pequeña: por eso, pueden no ser vistos cuando juegan detrás de un vehículo estacionado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-estatura"
+   },
+   "dato": "c5-22"
+  },
+  {
+   "voz": "Su vista no se desarrolla completamente hasta los quince años. Su campo visual es limitado, y ven solo una cosa a la vez. Además, les cuesta juzgar la distancia y la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-vista"
+   },
+   "dato": [
+    "c5-23",
+    "c5-24"
+   ]
+  },
+  {
+   "voz": "Comienzan a actuar con seguridad en el tránsito entre los nueve y los doce años.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-912"
+   },
+   "dato": "c5-25"
+  },
+  {
+   "voz": "Prepárate para detenerte al pasar un vehículo de transporte escolar detenido, porque puede haber niñas y niños subiendo o bajando; y cerca de carros donde se venden golosinas o helados, porque les interesan más que el tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-escolar"
+   },
+   "dato": [
+    "c5-26",
+    "c5-27"
+   ]
+  },
+  {
+   "voz": "¿Hasta qué edad se desarrolla completamente la vista de niñas y niños?",
+   "elige": {
+    "pregunta": "¿Hasta qué edad se desarrolla completamente la vista de niñas y niños?",
+    "opciones": [
+     "15 años",
+     "8 años",
+     "12 años"
+    ],
+    "bien": "Así es: hasta los quince años.",
+    "mal": "Su vista no se desarrolla completamente hasta los quince años."
+   }
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "c5s2",
+ "titulo": "Cómo actuar frente a peatones",
+ "icono": "🚸",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver en qué situaciones debes anticiparte a las y los peatones.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚸",
+    "texto": "Cómo actuar frente a peatones"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Como persona conductora, debes estar siempre alerta, y anticiparte a las posibles infracciones de las y los peatones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-alerta"
+   },
+   "dato": "c5-07"
+  },
+  {
+   "voz": "Si vas por la pista izquierda, y en la pista derecha hay un vehículo detenido antes de un paso de cebra, debes disminuir la velocidad y prepararte para detenerte: puede estar cruzando un peatón.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-cebra"
+   },
+   "dato": "c5-08"
+  },
+  {
+   "voz": "Al pasar cerca de un bus detenido en una parada, disminuye tu velocidad: un peatón podría aparecer sorpresivamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-bus"
+   },
+   "dato": "c5-09"
+  },
+  {
+   "voz": "Los peatones pueden salir repentinamente detrás, o delante, de vehículos estacionados.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-estacionados"
+   },
+   "dato": "c5-10"
+  },
+  {
+   "voz": "Conduce con cuidado y a baja velocidad en calles comerciales muy concurridas, áreas residenciales, cerca de establecimientos educacionales, y de carros de venta o tiendas móviles.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-zonas"
+   },
+   "dato": "c5-11"
+  },
+  {
+   "voz": "Ante personas ebrias, reduce tu velocidad: es mejor darles la preferencia, que provocar un siniestro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-ebrios"
+   },
+   "dato": "c5-12"
+  },
+  {
+   "voz": "Quienes sufren algún impedimento no tienen la obligación de mostrarlo. No asumas que todas las personas pueden escuchar tu vehículo: pueden tener dificultades auditivas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-impedimento"
+   },
+   "dato": [
+    "c5-13",
+    "c5-14"
+   ]
+  },
+  {
+   "voz": "Vas por la pista izquierda, y en la derecha hay un auto detenido antes de un paso de cebra. ¿Qué haces?",
+   "elige": {
+    "pregunta": "En la pista derecha hay un auto detenido antes de un paso de cebra. ¿Qué haces?",
+    "opciones": [
+     "Reducir la velocidad y prepararte para frenar",
+     "Pasar rápido antes de que salga alguien",
+     "Tocar la bocina y seguir"
+    ],
+    "bien": "Así es: reduces y te preparas para detenerte.",
+    "mal": "Debes disminuir la velocidad y prepararte para detenerte: puede estar cruzando un peatón."
+   }
+  }
+ ]
+}

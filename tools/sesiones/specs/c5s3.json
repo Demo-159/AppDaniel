@@ -1,0 +1,68 @@
+{
+ "id": "c5s3",
+ "titulo": "Personas de edad avanzada",
+ "icono": "🧓",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué dificultades pueden tener las personas mayores en la vía, y cómo actuar.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🧓",
+    "texto": "Personas de edad avanzada"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las personas mayores pueden tener dificultad para apreciar la velocidad de los vehículos, y en ocasiones, para distinguir bien los colores del semáforo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-mayores"
+   },
+   "dato": [
+    "c5-15",
+    "c5-16"
+   ]
+  },
+  {
+   "voz": "Una persona mayor puede necesitar cuatro segundos más que una persona joven para cruzar una calle de dieciséis metros de ancho.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-4seg"
+   },
+   "dato": "c5-17"
+  },
+  {
+   "voz": "Al cruzar, podría devolverse antes de alcanzar la vereda, o detenerse en la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-devolverse"
+   },
+   "dato": "c5-18"
+  },
+  {
+   "voz": "Las personas mayores que conducen tienen gran experiencia al volante, y son prudentes. Cuando hay tiempo suficiente para reaccionar, tienen los mismos problemas que las más jóvenes. Por eso, dales tiempo suficiente, y no las presiones a actuar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-conducen"
+   },
+   "dato": [
+    "c5-19",
+    "c5-20"
+   ]
+  },
+  {
+   "voz": "Para cruzar una calle de dieciséis metros, ¿cuánto tiempo más puede necesitar una persona mayor?",
+   "elige": {
+    "pregunta": "Para cruzar una calle de 16 metros, una persona mayor puede necesitar…",
+    "opciones": [
+     "4 segundos más",
+     "1 segundo más",
+     "10 segundos más"
+    ],
+    "bien": "Así es: cuatro segundos más.",
+    "mal": "Puede necesitar cuatro segundos más que una persona joven."
+   }
+  }
+ ]
+}

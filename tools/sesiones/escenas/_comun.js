@@ -81,5 +81,12 @@ const edificio=(x,yb,n,dy,a='',marca)=>{let o=`<rect x="${x-34}" y="${yb-n*dy-6}
 const piso=(n,v,pal)=>{const dy=n>7?16:22,yb=214,x=250;return `<svg viewBox="0 0 360 230">${cieloG('#3E6E9E','#BFE0EE')}${ciudadBaja(n,214,'#9DB3C6')}<rect y="214" width="360" height="16" fill="#5B6B74"/>${edificio(x,yb,n,dy,'',n)}
   ${big(18,206,'#FF4B4B',1.3)}<g${W(pal)}><text x="${x}" y="${yb-n*dy+dy/2+6}" font-size="22" text-anchor="middle">🧍</text><g class="go k2cae" style="--y:${n*dy-dy/2}px"><g transform="translate(${x+50},${yb-n*dy+dy/2})">${em(0,6,'⬇️',20)}</g></g></g>
   ${tag(70,40,104,v+' km/h','',"#0E171C")}</svg>`};
-return {T,W,big,bigI,arriba,caja,tacho,ok,no,flecha,chips,big1,cap,taller,ruta,nocheR,bencinera,surtidor,cabina,reloj,testigo,aceiteIc,bateriaIc,motor,persona,volante,banda,edificio,piso};
+// fichas que aparecen cuando la voz dice su palabra: [palabra, ícono, texto] (máx. 3 por fila; el texto se parte en 2 líneas)
+function partir(t,an){if(t.length*5.6<=an-8)return [t];const ws=t.split(' ');let best=[t],m=1e9;for(let i=1;i<ws.length;i++){const a=ws.slice(0,i).join(' '),b=ws.slice(i).join(' '),d=Math.max(a.length,b.length);if(d<m){m=d;best=[a,b]}}return best}
+const fichas=(fs,y0=40)=>{const n=fs.length,por=n<=3?n:Math.ceil(n/2),an=Math.min(110,340/por-8);return fs.map(([w,ic,t],i)=>{const fila=Math.floor(i/por),col=i%por,enf=Math.min(por,n-fila*por),x=180+(col-(enf-1)/2)*(an+8),y=y0+fila*84;
+ const ls=partir(t,an);return `<g${W(w)}>${caja(x-an/2,y,an,78,'#0E171C',12,' opacity=".9"')}${em(x,y+32,ic,24)}${ls.map((l,k)=>T(x,y+(ls.length>1?52:58)+k*13,l,10.5)).join('')}</g>`}).join('')};
+// escena de fichas sobre un fondo: F(fondo, fichas, [palabra,título], [palabra,subtítulo], svg extra)
+const F=(fondo,fs,grande,sub,extra='')=>`<svg viewBox="0 0 360 230">${fondo}${extra}${fichas(fs)}</svg>${grande?big1(grande[0],grande[1]):''}${sub?cap(sub[0],sub[1]):''}`;
+const cifraBox=(x,y,w,h)=>caja(x,y,w,h,'#0E171C',14,' opacity=".9"');
+return {fichas,F,cifraBox,partir,T,W,big,bigI,arriba,caja,tacho,ok,no,flecha,chips,big1,cap,taller,ruta,nocheR,bencinera,surtidor,cabina,reloj,testigo,aceiteIc,bateriaIc,motor,persona,volante,banda,edificio,piso};
 })();

@@ -1,0 +1,104 @@
+{
+ "id": "c5s8",
+ "titulo": "Uso correcto y elección del SRI",
+ "icono": "🪑",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a usar y elegir bien un Sistema de Retención Infantil.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪑",
+    "texto": "Uso y elección del SRI"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Para usar solo el cinturón, el niño debe apoyar completamente la espalda en el respaldo; el cinturón debe pasar por la mitad del hombro y del pecho; la banda inferior, ajustada sobre los muslos, nunca sobre el abdomen; y los pies, apoyados en el piso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-cinturon"
+   },
+   "dato": [
+    "c5-55",
+    "c5-56",
+    "c5-57"
+   ]
+  },
+  {
+   "voz": "El uso incorrecto del cinturón puede lesionar los órganos del abdomen, como el hígado, los intestinos, la vejiga y los riñones.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-organos"
+   },
+   "dato": "c5-60"
+  },
+  {
+   "voz": "Un SRI mal instalado no protege, y genera una falsa sensación de seguridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-mal"
+   },
+   "dato": "c5-58"
+  },
+  {
+   "voz": "El SRI se usa desde el primer viaje, es decir, desde que nacen, incluso al salir del centro de salud.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-nacer"
+   },
+   "dato": "c5-59"
+  },
+  {
+   "voz": "Se recomienda instalarlo a contramarcha, mirando hacia atrás, como mínimo hasta los dos años.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-contramarcha"
+   },
+   "dato": "c5-61"
+  },
+  {
+   "voz": "Se ancla con ISOFIX, LATCH, o con el cinturón de seguridad. Bien instalado, cualquiera de los tres es seguro por sí mismo: no hace falta usar dos a la vez. Y no debe interferir con el cinturón de las demás personas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-anclaje"
+   },
+   "dato": [
+    "c5-63",
+    "c5-62"
+   ]
+  },
+  {
+   "voz": "En Chile, un SRI certificado lleva una etiqueta amarilla con letras negras, de nueve coma cinco por siete coma cinco centímetros. En su código, tres C V es el Centro de Control y Certificación Vehicular.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-etiqueta"
+   },
+   "dato": [
+    "c5-64",
+    "c5-65"
+   ]
+  },
+  {
+   "voz": "Y nunca pongas un SRI en el asiento delantero, salvo en vehículos de cabina simple, con el airbag desactivado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c5-delantero"
+   },
+   "dato": "c5-66"
+  },
+  {
+   "voz": "¿Cómo es la etiqueta de un SRI certificado en Chile?",
+   "elige": {
+    "pregunta": "¿Cómo es la etiqueta de un SRI certificado en Chile?",
+    "opciones": [
+     "Amarilla con letras negras",
+     "Verde con letras blancas",
+     "Roja con letras amarillas"
+    ],
+    "bien": "Así es: amarilla con letras negras.",
+    "mal": "Es amarilla con letras negras, de nueve coma cinco por siete coma cinco centímetros."
+   }
+  }
+ ]
+}
