@@ -174,7 +174,8 @@
    "p": 12,
    "s": "c2s2",
    "q": [
-    "u2-03"
+    "u2-03",
+    "sit-001"
    ],
    "cita": "Si esta se enciende, debes detener el motor de inmediato y no ponerlo en marcha hasta haberlo reparado, ya que le puedes causar averías graves."
   },
@@ -345,7 +346,8 @@
    "p": 13,
    "s": "c2s4",
    "q": [
-    "u2-44"
+    "u2-44",
+    "sit-002"
    ],
    "cita": "Cuando hay una obstrucción del sistema de refrigeración, poco líquido refrigerante y/o una correa de la bomba de agua rota o mal tensada, la temperatura del motor se eleva. Si esto sucede, debes detener la marcha y reparar la avería."
   },
@@ -705,7 +707,8 @@
    "p": 17,
    "s": "c2s7",
    "q": [
-    "u2-75"
+    "u2-75",
+    "sit-008"
    ],
    "cita": "El funcionamiento de los frenos mediante pruebas de frenado a baja velocidad si has: circulado por vías inundadas, lavado el vehículo o si el vehículo ha estado guardado por un largo tiempo."
   },
@@ -777,7 +780,8 @@
    "p": 19,
    "s": "c2s8",
    "q": [
-    "u2-20"
+    "u2-20",
+    "sit-003"
    ],
    "cita": "Si al ir conduciendo se revienta un neumático trasero, debes girar el volante hacia el lado en que se desvía la cola del vehículo."
   },
@@ -786,7 +790,8 @@
    "p": 19,
    "s": "c2s8",
    "q": [
-    "u2-21"
+    "u2-21",
+    "sit-004"
    ],
    "cita": "se revienta un neumático delantero, debes frenar de forma suave sosteniendo el volante firmemente. En ambos casos, debes detenerte lentamente al costado de la vía."
   },
@@ -1227,7 +1232,8 @@
    "p": 24,
    "s": "c2s13",
    "q": [
-    "u3-38"
+    "u3-38",
+    "sit-007"
    ],
    "cita": "al comenzar a frenar se debe presionar el freno con la mayor fuerza posible. Si el vehículo no cuenta con frenos ABS y se bloquean las ruedas, hay que reducir en seguida la presión sobre el pedal de freno soltándolo."
   },
@@ -1281,7 +1287,8 @@
    "p": 25,
    "s": "c2s14",
    "q": [
-    "u3-08"
+    "u3-08",
+    "sit-005"
    ],
    "cita": "lo que puede llevar a perder el control del vehículo y no poder girar. Si esto sucede, deja de acelerar y retoma tu trayectoria."
   },
@@ -1299,7 +1306,8 @@
    "p": 25,
    "s": "c2s14",
    "q": [
-    "u3-09"
+    "u3-09",
+    "sit-006"
    ],
    "cita": "En estas circunstancias, continúa acelerando y gira la dirección hacia la trayectoria."
   },
@@ -1344,7 +1352,8 @@
    "p": 26,
    "s": "c2s15",
    "q": [
-    "m2-006"
+    "m2-006",
+    "sit-009"
    ],
    "cita": "Nunca permitas que dos personas viajen sujetas con un mismo cinturón."
   },
@@ -1686,7 +1695,8 @@
    "p": 31,
    "s": "c2s19",
    "q": [
-    "u3-23"
+    "u3-23",
+    "sit-010"
    ],
    "cita": "El borde superior del apoya cabezas debe quedar situado entre el límite superior de la cabeza y la altura de los ojos."
   },

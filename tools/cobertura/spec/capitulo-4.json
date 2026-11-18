@@ -746,7 +746,8 @@
    "s": "c4s13",
    "cita": "La única tasa de alcohol segura para conducir es “0”.",
    "q": [
-    "u5-07"
+    "u5-07",
+    "sit-016"
    ]
   },
   {
@@ -850,7 +851,8 @@
    "s": "c4s14",
    "cita": "La metabolización no se puede apresurar.",
    "q": [
-    "u5-08"
+    "u5-08",
+    "sit-015"
    ]
   },
   {
@@ -859,7 +861,10 @@
    "cita": "dormir pocas horas no garantiza la metabolización total del alcohol",
    "tf": "Dormir unas pocas horas garantiza eliminar todo el alcohol.",
    "a": false,
-   "e": "Dormir pocas horas no garantiza la metabolización total del alcohol."
+   "e": "Dormir pocas horas no garantiza la metabolización total del alcohol.",
+   "q": [
+    "sit-014"
+   ]
   },
   {
    "s": "c4s14",
@@ -1202,7 +1207,10 @@
    "cita": "Cuando vayas a consumir medicamentos, en especial los antes mencionados, debes consultar al médico sobre los posibles riesgos para la conducción",
    "tf": "Antes de consumir medicamentos debes consultar al médico sobre sus riesgos para conducir.",
    "a": true,
-   "e": "Así podrás adoptar los cuidados necesarios."
+   "e": "Así podrás adoptar los cuidados necesarios.",
+   "q": [
+    "sit-017"
+   ]
   },
   {
    "s": "c4s19",
@@ -1303,7 +1311,8 @@
    "s": "c4s19",
    "cita": "La madrugada, especialmente entre las 3 y las 5 horas, y las primeras horas de la tarde, entre las 14 y las 16 horas",
    "q": [
-    "u5-22"
+    "u5-22",
+    "sit-013"
    ]
   },
   {
@@ -1401,14 +1410,16 @@
    "s": "c4s20",
    "cita": "20 o 30 minutos de sueño son suficientes en la mayoría de los casos.",
    "q": [
-    "u5-25"
+    "u5-25",
+    "sit-011"
    ]
   },
   {
    "s": "c4s20",
    "cita": "En viajes largos, descansa al menos 20 a 30 minutos cada 2 horas o 200 kilómetros de conducción, como máximo.",
    "q": [
-    "u5-23"
+    "u5-23",
+    "sit-012"
    ]
   }
  ],

@@ -152,7 +152,8 @@
    "s": "c7s2",
    "cita": "deberás cambiar a luces bajas para no cegar a quien lo conduce. Esto se refiere al encuentro con todo tipo de vehículos, es decir, también con ciclistas.",
    "q": [
-    "u10-05"
+    "u10-05",
+    "sit-030"
    ]
   },
   {
@@ -377,7 +378,10 @@
    "cita": "Los vehículos que circulan por la autopista tienen la prioridad. En caso de no encontrar una brecha segura, detente hasta que esta se produzca.",
    "tf": "Al entrar a la autopista, tienes prioridad sobre los que ya circulan por ella.",
    "a": false,
-   "e": "Los que circulan por la autopista tienen la prioridad."
+   "e": "Los que circulan por la autopista tienen la prioridad.",
+   "q": [
+    "sit-031"
+   ]
   },
   {
    "s": "c7s6",
@@ -578,7 +582,10 @@
    "cita": "En caso de que el vehículo comience a patinar, suelta el freno completamente para recuperar la tracción de las ruedas.",
    "tf": "Si el vehículo patina en lluvia, debes soltar completamente el freno.",
    "a": true,
-   "e": "Para recuperar la tracción; frena suave y a pedaladas cortas."
+   "e": "Para recuperar la tracción; frena suave y a pedaladas cortas.",
+   "q": [
+    "sit-032"
+   ]
   },
   {
    "s": "c7s9",
@@ -693,7 +700,10 @@
    "cita": "no conviene encender las luces altas cuando esté nevando porque estas no atraviesan la cortina de copos de nieve",
    "tf": "Cuando está nevando de noche conviene usar luces altas.",
    "a": false,
-   "e": "No atraviesan la cortina de copos y pueden deslumbrarte."
+   "e": "No atraviesan la cortina de copos y pueden deslumbrarte.",
+   "q": [
+    "sit-033"
+   ]
   },
   {
    "s": "c7s11",

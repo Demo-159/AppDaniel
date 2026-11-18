@@ -118,14 +118,16 @@
    "s": "c9s2",
    "cita": "casco, no debes quitárselo nunca, ya que al hacerlo,",
    "q": [
-    "u11-11"
+    "u11-11",
+    "sit-034"
    ]
   },
   {
    "s": "c9s2",
    "cita": "No abandones a la víctima, a menos que ello sea para solicitar ayuda y por ningún motivo le des algo de comer o beber.",
    "q": [
-    "u11-12"
+    "u11-12",
+    "sit-035"
    ]
   },
   {
@@ -538,7 +540,10 @@
    "cita": "No apagues el motor. Apagar el motor podría desactivar la dirección asistida y perderías el control de tu vehículo.",
    "tf": "Ante una falla total de frenos conviene apagar el motor.",
    "a": false,
-   "e": "Podría desactivar la dirección asistida."
+   "e": "Podría desactivar la dirección asistida.",
+   "q": [
+    "sit-036"
+   ]
   },
   {
    "s": "c9s8",

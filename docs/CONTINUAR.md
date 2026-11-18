@@ -193,7 +193,8 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 1. **Opinión del usuario sobre las 115 sesiones** (APK 3.11) y ajustes. Pendiente también su decisión sobre el
    estilo de dibujo de las escenas (muestras A/B/C). Desde el capítulo 4 muchas escenas son fichas que aparecen al
    ritmo de la voz, menos elaboradas que las de los capítulos 1 y 2: mejorarlas si el usuario lo pide.
-2. Preguntas **situacionales** (casos de manejo) fieles al libro.
+2. ~~Preguntas situacionales~~ (hecho, v3.12: 37 casos `sit-NNN` en `tools/cobertura/situacionales.py`; cada uno
+   colgado del dato que lo respalda, así se practica en la sesión que lo enseña). Se pueden agregar más ahí.
 3. Las 24 preguntas `match`, `order` y `sign` aún no tienen pantalla en la app web (no se muestran).
 4. Redibujar o recortar mejor las figuras de materiales peligrosos y de ruedas en pendiente (se ven mal).
 5. Limpieza: `README.md` describe la v1 (265 preguntas, verdadero/falso); las pantallas nativas Compose de la v1
@@ -287,7 +288,7 @@ Hecho: paso a Android con WebView, botón "Explícamelo de nuevo", falsas creíb
 - **Firma:** desde la 3.8 se firma con la clave fija `app/firma/rutab.keystore` (contraseñas de depuración,
   `android`). Así cada APK se instala encima del anterior sin borrar el progreso. Hasta la 3.7 cada sesión de
   Claude generaba su propia clave, por eso la 3.8 exige desinstalar la versión anterior una vez.
-- APK compilado: `release/RutaB-3.11.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.12.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 

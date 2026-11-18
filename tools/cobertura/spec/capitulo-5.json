@@ -232,7 +232,10 @@
     "Porque camina muy despacio",
     "Porque siempre va acompañado"
    ],
-   "e": "Tienen una estatura pequeña."
+   "e": "Tienen una estatura pequeña.",
+   "q": [
+    "sit-019"
+   ]
   },
   {
    "s": "c5s4",
@@ -265,7 +268,10 @@
     "Al estacionar en un subterráneo",
     "Al cargar combustible en la noche"
    ],
-   "e": "También en áreas residenciales, cerca de colegios y de carros de golosinas o helados."
+   "e": "También en áreas residenciales, cerca de colegios y de carros de golosinas o helados.",
+   "q": [
+    "sit-018"
+   ]
   },
   {
    "s": "c5s4",
@@ -349,7 +355,8 @@
    "s": "c5s6",
    "cita": "la normativa indica que debes dejar un espacio lateral de al menos 1,5 metros",
    "q": [
-    "u6-08"
+    "u6-08",
+    "sit-020"
    ]
   },
   {
@@ -411,7 +418,10 @@
    "cita": "Si tuvieses que bajar de tu vehículo cercano a una, procura mirar si viene una persona ciclista antes de abrir la puerta.",
    "tf": "Antes de abrir la puerta cerca de una ciclovía, debes mirar si viene un ciclista.",
    "a": true,
-   "e": "Así evitas que choque contra la puerta."
+   "e": "Así evitas que choque contra la puerta.",
+   "q": [
+    "sit-021"
+   ]
   },
   {
    "s": "c5s7",

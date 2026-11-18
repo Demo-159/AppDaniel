@@ -148,7 +148,8 @@
    "s": "c6s2",
    "cita": "Aún teniendo luz verde, no avances si pasado el cruce no tienes a lo menos 10 metros expeditos en tu pista de circulación.",
    "q": [
-    "u7-07"
+    "u7-07",
+    "sit-023"
    ]
   },
   {
@@ -183,7 +184,8 @@
    "s": "c6s2",
    "cita": "Si la luz amarilla te sorprende tan próximo al cruce que ya no puedes detenerte con suficiente seguridad, continúa con precaución.",
    "q": [
-    "u7-04"
+    "u7-04",
+    "sit-024"
    ]
   },
   {
@@ -432,14 +434,16 @@
    "s": "c6s5",
    "cita": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha.",
    "q": [
-    "u8-01"
+    "u8-01",
+    "sit-029"
    ]
   },
   {
    "s": "c6s5",
    "cita": "cuando tengas el propósito de virar, carecerás de toda preferencia",
    "q": [
-    "u8-02"
+    "u8-02",
+    "sit-022"
    ]
   },
   {
@@ -969,7 +973,10 @@
     "Al circular de día por recta",
     "Al salir de un estacionamiento techado"
    ],
-   "e": "También en zonas pobladas, curvas, caminos angostos, pavimento resbaladizo, etc."
+   "e": "También en zonas pobladas, curvas, caminos angostos, pavimento resbaladizo, etc.",
+   "q": [
+    "sit-025"
+   ]
   },
   {
    "s": "c6s11",
@@ -1167,7 +1174,10 @@
    "cita": "Si aparece un vehículo en sentido contrario o sientes inseguridad, interrumpe el adelantamiento en lugar de hacerlo sin certeza.",
    "tf": "Si aparece un vehículo en contra o sientes inseguridad, debes interrumpir el adelantamiento.",
    "a": true,
-   "e": "En lugar de hacerlo sin certeza."
+   "e": "En lugar de hacerlo sin certeza.",
+   "q": [
+    "sit-026"
+   ]
   },
   {
    "s": "c6s13",
@@ -1201,7 +1211,8 @@
    "s": "c6s13",
    "cita": "Circules por un puente, viaducto, túnel o cruce ferroviario o al aproximarte a cualquiera de estos lugares desde una distancia mínima de 200 metros.",
    "q": [
-    "u9-06"
+    "u9-06",
+    "sit-027"
    ]
   },
   {
@@ -1349,7 +1360,8 @@
    "s": "c6s14",
    "cita": "A menos de 5 metros de un grifo para incendios.",
    "q": [
-    "u9-15"
+    "u9-15",
+    "sit-028"
    ]
   },
   {

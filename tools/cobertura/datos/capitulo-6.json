@@ -149,7 +149,8 @@
    "p": 78,
    "s": "c6s2",
    "q": [
-    "m6-059"
+    "m6-059",
+    "sit-023"
    ],
    "cita": "Aún teniendo luz verde, no avances si pasado el cruce no tienes a lo menos 10 metros expeditos en tu pista de circulación."
   },
@@ -185,7 +186,8 @@
    "p": 78,
    "s": "c6s2",
    "q": [
-    "u7-04"
+    "u7-04",
+    "sit-024"
    ],
    "cita": "Si la luz amarilla te sorprende tan próximo al cruce que ya no puedes detenerte con suficiente seguridad, continúa con precaución."
   },
@@ -473,7 +475,8 @@
    "p": 84,
    "s": "c6s5",
    "q": [
-    "u8-01"
+    "u8-01",
+    "sit-029"
    ],
    "cita": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha."
   },
@@ -482,7 +485,8 @@
    "p": 84,
    "s": "c6s5",
    "q": [
-    "m6-060"
+    "m6-060",
+    "sit-022"
    ],
    "cita": "cuando tengas el propósito de virar, carecerás de toda preferencia"
   },
@@ -1004,7 +1008,8 @@
    "p": 96,
    "s": "c6s11",
    "q": [
-    "u8-63"
+    "u8-63",
+    "sit-025"
    ],
    "cita": "Al aproximarse a la cima de una cuesta."
   },
@@ -1211,7 +1216,8 @@
    "p": 102,
    "s": "c6s13",
    "q": [
-    "m6-074"
+    "m6-074",
+    "sit-026"
    ],
    "cita": "Si aparece un vehículo en sentido contrario o sientes inseguridad, interrumpe el adelantamiento en lugar de hacerlo sin certeza."
   },
@@ -1256,7 +1262,8 @@
    "p": 103,
    "s": "c6s13",
    "q": [
-    "u9-06"
+    "u9-06",
+    "sit-027"
    ],
    "cita": "Circules por un puente, viaducto, túnel o cruce ferroviario o al aproximarte a cualquiera de estos lugares desde una distancia mínima de 200 metros."
   },
@@ -1409,7 +1416,8 @@
    "p": 105,
    "s": "c6s14",
    "q": [
-    "u9-15"
+    "u9-15",
+    "sit-028"
    ],
    "cita": "A menos de 5 metros de un grifo para incendios."
   },
