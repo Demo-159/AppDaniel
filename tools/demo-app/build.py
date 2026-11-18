@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.pat
 A = os.path.join(ROOT, "app/src/main/assets")
 content = json.load(open(os.path.join(A, "content.json"), encoding="utf-8"))
 caps = sorted((json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "tools/cobertura/datos/capitulo-*.json"))), key=lambda c: c["capitulo"])
-specs = {os.path.basename(f)[:-5]: json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "tools/sesiones/specs/c*s*.json"))}
+specs = {os.path.basename(f)[:-5]: json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "tools/sesiones/specs/*.json"))}
 orden = {s["id"]: i for i, s in enumerate(x for c in caps for x in c["sesiones"])}   # orden del libro
 IMG, img = {}, lambda p: IMG.setdefault(p, "data:image/webp;base64," + base64.b64encode(open(os.path.join(A, p), "rb").read()).decode()) and p
 # Lectura: cada cita (guardada como fragmento para verificar) se muestra como la oración completa del libro que

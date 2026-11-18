@@ -1,0 +1,165 @@
+{
+ "id": "a1s4",
+ "titulo": "Señales transitorias",
+ "icono": "🚧",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las señales transitorias, una por una.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚧",
+    "texto": "Señales transitorias"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales transitorias se usan cuando se realizan trabajos en la vía, y se caracterizan por ser de color naranja: este color indica que la señal es transitoria.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🚧",
+    "titulo": "Señales transitorias",
+    "texto": "Las señales transitorias se usan cuando se realizan trabajos en la vía, y se caracterizan por ser de color naranja: este color indica que la señal es transitoria."
+   }
+  },
+  {
+   "voz": "Trabajos en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s182.webp",
+    "sub": "Trabajos en la vía"
+   },
+   "dato": "a1-182"
+  },
+  {
+   "voz": "Fin trabajos en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s183.webp",
+    "sub": "Fin trabajos en la vía"
+   },
+   "dato": "a1-183"
+  },
+  {
+   "voz": "Banderero.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s184.webp",
+    "sub": "Banderero"
+   },
+   "dato": "a1-184"
+  },
+  {
+   "voz": "Tránsito de maquinaria.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s185.webp",
+    "sub": "Tránsito de maquinaria"
+   },
+   "dato": "a1-185"
+  },
+  {
+   "voz": "Curva a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s186.webp",
+    "sub": "Curva a la derecha"
+   },
+   "dato": "a1-186"
+  },
+  {
+   "voz": "Curva muy cerrada a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s187.webp",
+    "sub": "Curva muy cerrada a la izquierda"
+   },
+   "dato": "a1-187"
+  },
+  {
+   "voz": "Badén.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s188.webp",
+    "sub": "Badén"
+   },
+   "dato": "a1-188"
+  },
+  {
+   "voz": "Ancho máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s189.webp",
+    "sub": "Ancho máximo"
+   },
+   "dato": "a1-189"
+  },
+  {
+   "voz": "Zona de derrumbes.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s190.webp",
+    "sub": "Zona de derrumbes"
+   },
+   "dato": "a1-190"
+  },
+  {
+   "voz": "Proyección de gravilla.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s191.webp",
+    "sub": "Proyección de gravilla"
+   },
+   "dato": "a1-191"
+  },
+  {
+   "voz": "Peligro.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s192.webp",
+    "sub": "Peligro"
+   },
+   "dato": "a1-192"
+  },
+  {
+   "voz": "Desvío.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s193.webp",
+    "sub": "Desvío"
+   },
+   "dato": "a1-193"
+  },
+  {
+   "voz": "Proximidad de desvío.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s194.webp",
+    "sub": "Proximidad de desvío"
+   },
+   "dato": "a1-194"
+  },
+  {
+   "voz": "Fin de desvío.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s195.webp",
+    "sub": "Fin de desvío"
+   },
+   "dato": "a1-195"
+  },
+  {
+   "voz": "¿Qué indica el color naranja en una señal?",
+   "elige": {
+    "pregunta": "¿Qué indica el color naranja en una señal?",
+    "opciones": [
+     "Que es una señal transitoria",
+     "Que es una señal informativa",
+     "Que es una prohibición"
+    ],
+    "bien": "Así es: que es transitoria, por trabajos en la vía.",
+    "mal": "El naranja indica que la señal es transitoria."
+   }
+  }
+ ]
+}

@@ -1,0 +1,597 @@
+{
+ "id": "a1s1",
+ "titulo": "Señales reglamentarias",
+ "icono": "⛔",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las señales reglamentarias, una por una.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⛔",
+    "texto": "Señales reglamentarias"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales reglamentarias notifican las prioridades, prohibiciones, restricciones, obligaciones y autorizaciones en el uso de la vía. Su transgresión constituye infracción. Por lo general son circulares o rectangulares, con un círculo rojo.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "⛔",
+    "titulo": "Señales reglamentarias",
+    "texto": "Por lo general son circulares o rectangulares, con un círculo rojo."
+   }
+  },
+  {
+   "voz": "Pare.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s000.webp",
+    "sub": "Pare"
+   },
+   "dato": "a1-000"
+  },
+  {
+   "voz": "Ceda el paso.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s001.webp",
+    "sub": "Ceda el paso"
+   },
+   "dato": "a1-001"
+  },
+  {
+   "voz": "Pare niños.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s002.webp",
+    "sub": "Pare niños"
+   },
+   "dato": "a1-002"
+  },
+  {
+   "voz": "No entrar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s003.webp",
+    "sub": "No entrar"
+   },
+   "dato": "a1-003"
+  },
+  {
+   "voz": "No virar izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s004.webp",
+    "sub": "No virar izquierda"
+   },
+   "dato": "a1-004"
+  },
+  {
+   "voz": "No virar derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s005.webp",
+    "sub": "No virar derecha"
+   },
+   "dato": "a1-005"
+  },
+  {
+   "voz": "No virar en u.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s006.webp",
+    "sub": "No virar en u"
+   },
+   "dato": "a1-006"
+  },
+  {
+   "voz": "No adelantar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s007.webp",
+    "sub": "No adelantar"
+   },
+   "dato": "a1-007"
+  },
+  {
+   "voz": "No cambiar de pista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s008.webp",
+    "sub": "No cambiar de pista"
+   },
+   "dato": "a1-008"
+  },
+  {
+   "voz": "Preferencia ciclistas al virar derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s009.webp",
+    "sub": "Preferencia ciclistas al virar derecha"
+   },
+   "dato": "a1-009"
+  },
+  {
+   "voz": "Preferencia ciclistas al virar izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s010.webp",
+    "sub": "Preferencia ciclistas al virar izquierda"
+   },
+   "dato": "a1-010"
+  },
+  {
+   "voz": "Preferencia ciclistas al cambiar de pista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s011.webp",
+    "sub": "Preferencia ciclistas al cambiar de pista"
+   },
+   "dato": "a1-011"
+  },
+  {
+   "voz": "Preferencia ciclistas al cambiar de pista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s012.webp",
+    "sub": "Preferencia ciclistas al cambiar de pista"
+   },
+   "dato": "a1-012"
+  },
+  {
+   "voz": "Prohibida circulación de vehículos de carga.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s013.webp",
+    "sub": "Prohibida circulación de vehículos de carga"
+   },
+   "dato": "a1-013"
+  },
+  {
+   "voz": "Prohibida circulación de vehículos motorizados.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s014.webp",
+    "sub": "Prohibida circulación de vehículos motorizados"
+   },
+   "dato": "a1-014"
+  },
+  {
+   "voz": "Prohibida circulación de carros de mano.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s015.webp",
+    "sub": "Prohibida circulación de carros de mano"
+   },
+   "dato": "a1-015"
+  },
+  {
+   "voz": "Prohibida circulación de buses.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s016.webp",
+    "sub": "Prohibida circulación de buses"
+   },
+   "dato": "a1-016"
+  },
+  {
+   "voz": "Prohibida circulación de bicicletas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s017.webp",
+    "sub": "Prohibida circulación de bicicletas"
+   },
+   "dato": "a1-017"
+  },
+  {
+   "voz": "Prohibida circulación de motocicletas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s018.webp",
+    "sub": "Prohibida circulación de motocicletas"
+   },
+   "dato": "a1-018"
+  },
+  {
+   "voz": "Prohibida circulación de maquinaria agrícola.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s019.webp",
+    "sub": "Prohibida circulación de maquinaria agrícola"
+   },
+   "dato": "a1-019"
+  },
+  {
+   "voz": "Prohibida circulación de vehículos de tracción animal.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s020.webp",
+    "sub": "Prohibida circulación de vehículos de tracción animal"
+   },
+   "dato": "a1-020"
+  },
+  {
+   "voz": "Silencio.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s021.webp",
+    "sub": "Silencio"
+   },
+   "dato": "a1-021"
+  },
+  {
+   "voz": "No bloquear cruce.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s022.webp",
+    "sub": "No bloquear cruce"
+   },
+   "dato": "a1-022"
+  },
+  {
+   "voz": "Prohibido estacionar y detenerse.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s023.webp",
+    "sub": "Prohibido estacionar y detenerse"
+   },
+   "dato": "a1-023"
+  },
+  {
+   "voz": "Prohibido estacionar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s024.webp",
+    "sub": "Prohibido estacionar"
+   },
+   "dato": "a1-024"
+  },
+  {
+   "voz": "Prohibido estacionar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s025.webp",
+    "sub": "Prohibido estacionar"
+   },
+   "dato": "a1-025"
+  },
+  {
+   "voz": "No peatones.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s026.webp",
+    "sub": "No peatones"
+   },
+   "dato": "a1-026"
+  },
+  {
+   "voz": "Velocidad máxima.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s027.webp",
+    "sub": "Velocidad máxima"
+   },
+   "dato": "a1-027"
+  },
+  {
+   "voz": "Velocidad mínima.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s028.webp",
+    "sub": "Velocidad mínima"
+   },
+   "dato": "a1-028"
+  },
+  {
+   "voz": "Velocidad máxima zona treinta.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s029.webp",
+    "sub": "Velocidad máxima zona 30"
+   },
+   "dato": "a1-029"
+  },
+  {
+   "voz": "Largo máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s030.webp",
+    "sub": "Largo máximo"
+   },
+   "dato": "a1-030"
+  },
+  {
+   "voz": "Peso máximo permitido.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s031.webp",
+    "sub": "Peso máximo permitido"
+   },
+   "dato": "a1-031"
+  },
+  {
+   "voz": "Peso máximo por eje.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s032.webp",
+    "sub": "Peso máximo por eje"
+   },
+   "dato": "a1-032"
+  },
+  {
+   "voz": "Altura máxima.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s033.webp",
+    "sub": "Altura máxima"
+   },
+   "dato": "a1-033"
+  },
+  {
+   "voz": "Ancho máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s034.webp",
+    "sub": "Ancho máximo"
+   },
+   "dato": "a1-034"
+  },
+  {
+   "voz": "Fin prohibición o restricción.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s035.webp",
+    "sub": "Fin prohibición o restricción"
+   },
+   "dato": "a1-035"
+  },
+  {
+   "voz": "Solo Televía o sistema complementario.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s036.webp",
+    "sub": "Solo televía o sistema complementario"
+   },
+   "dato": "a1-036"
+  },
+  {
+   "voz": "Tránsito en un solo sentido.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s037.webp",
+    "sub": "Tránsito en un solo sentido"
+   },
+   "dato": "a1-037"
+  },
+  {
+   "voz": "Tránsito en ambos sentidos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s038.webp",
+    "sub": "Tránsito en ambos sentidos"
+   },
+   "dato": "a1-038"
+  },
+  {
+   "voz": "Tránsito peatonal.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s039.webp",
+    "sub": "Tránsito peatonal"
+   },
+   "dato": "a1-039"
+  },
+  {
+   "voz": "Tránsito de peatones.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s040.webp",
+    "sub": "Tránsito de peatones"
+   },
+   "dato": "a1-040"
+  },
+  {
+   "voz": "Mantenga su derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s041.webp",
+    "sub": "Mantenga su derecha"
+   },
+   "dato": "a1-041"
+  },
+  {
+   "voz": "Vehículo pesado mantenga su derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s042.webp",
+    "sub": "Vehículo pesado mantenga su derecha"
+   },
+   "dato": "a1-042"
+  },
+  {
+   "voz": "Dirección obligada.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s043.webp",
+    "sub": "Dirección obligada"
+   },
+   "dato": "a1-043"
+  },
+  {
+   "voz": "Preferencia al sentido contrario.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s044.webp",
+    "sub": "Preferencia al sentido contrario"
+   },
+   "dato": "a1-044"
+  },
+  {
+   "voz": "Circulación en ambos sentidos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s045.webp",
+    "sub": "Circulación en ambos sentidos"
+   },
+   "dato": "a1-045"
+  },
+  {
+   "voz": "Minirrotonda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s046.webp",
+    "sub": "Minirrotonda"
+   },
+   "dato": "a1-046"
+  },
+  {
+   "voz": "Paso obligado derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s047.webp",
+    "sub": "Paso obligado derecha"
+   },
+   "dato": "a1-047"
+  },
+  {
+   "voz": "Paso obligado izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s048.webp",
+    "sub": "Paso obligado izquierda"
+   },
+   "dato": "a1-048"
+  },
+  {
+   "voz": "Paso vértice.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s049.webp",
+    "sub": "Paso vértice"
+   },
+   "dato": "a1-049"
+  },
+  {
+   "voz": "Control.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s050.webp",
+    "sub": "Control"
+   },
+   "dato": "a1-050"
+  },
+  {
+   "voz": "Uso obligatorio de cadenas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s051.webp",
+    "sub": "Uso obligatorio de cadenas"
+   },
+   "dato": "a1-051"
+  },
+  {
+   "voz": "Luces encendidas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s052.webp",
+    "sub": "Luces encendidas"
+   },
+   "dato": "a1-052"
+  },
+  {
+   "voz": "Solo motocicletas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s053.webp",
+    "sub": "Solo motocicletas"
+   },
+   "dato": "a1-053"
+  },
+  {
+   "voz": "Vía segregada buses.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s054.webp",
+    "sub": "Vía segregada buses"
+   },
+   "dato": "a1-054"
+  },
+  {
+   "voz": "Vía segregada buses.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s055.webp",
+    "sub": "Vía segregada buses"
+   },
+   "dato": "a1-055"
+  },
+  {
+   "voz": "Solo transporte público.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s056.webp",
+    "sub": "Solo transporte público"
+   },
+   "dato": "a1-056"
+  },
+  {
+   "voz": "Superficie segregada motorizados y ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s057.webp",
+    "sub": "Superficie segregada motorizados - ciclos"
+   },
+   "dato": "a1-057"
+  },
+  {
+   "voz": "Superficie segregada peatones y ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s058.webp",
+    "sub": "Superficie segregada peatones-ciclos"
+   },
+   "dato": "a1-058"
+  },
+  {
+   "voz": "Estacionamiento reservado.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s059.webp",
+    "sub": "Estacionamiento reservado"
+   },
+   "dato": "a1-059"
+  },
+  {
+   "voz": "Permitido virar derecha con luz roja.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s060.webp",
+    "sub": "Permitido virar derecha con luz roja"
+   },
+   "dato": "a1-060"
+  },
+  {
+   "voz": "Permitido virar izquierda con luz roja.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s061.webp",
+    "sub": "Permitido virar izquierda con luz roja"
+   },
+   "dato": "a1-061"
+  },
+  {
+   "voz": "Las señales que notifican prohibiciones, restricciones y obligaciones, ¿de qué tipo son?",
+   "elige": {
+    "pregunta": "Las señales de prohibiciones, restricciones y obligaciones son…",
+    "opciones": [
+     "Reglamentarias",
+     "De advertencia de peligro",
+     "Informativas"
+    ],
+    "bien": "Así es: reglamentarias.",
+    "mal": "Son señales reglamentarias."
+   }
+  }
+ ]
+}

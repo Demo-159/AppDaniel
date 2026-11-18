@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                 override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest) =
                     !request.url.toString().startsWith("file:///android_asset/")
 
-                // En las sesiones con tutor (c<capítulo>s<sesión>.html) la pantalla no se apaga por inactividad:
+                // En las sesiones con tutor (c<capítulo>s<sesión>.html, a1s<n>.html de señales y f<n>.html de figuras) la pantalla no se apaga por inactividad:
                 // la sesión avanza sola, como un video, sin que se toque la pantalla.
                 override fun doUpdateVisitedHistory(view: WebView, url: String?, isReload: Boolean) {
                     super.doUpdateVisitedHistory(view, url, isReload)
@@ -79,7 +79,7 @@ class MainActivity : ComponentActivity() {
         else window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
     }
 
-    private companion object { val SESION = Regex("/c\\d+s\\d+\\.html") }
+    private companion object { val SESION = Regex("/(c\\d+s\\d+|a\\d+s\\d+|f\\d+)\\.html") }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)

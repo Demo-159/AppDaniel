@@ -1,0 +1,158 @@
+{
+ "id": "f1",
+ "titulo": "Testigos e indicadores del vehículo",
+ "icono": "🎛️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a reconocer, en las imágenes del libro, los testigos del panel y otros indicadores.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🎛️",
+    "texto": "Testigos e indicadores del vehículo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Este es el testigo de la batería.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p12_0.webp"
+   },
+   "dato": "fig-00"
+  },
+  {
+   "voz": "Este es el testigo de la presión de aceite.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p12_1.webp"
+   },
+   "dato": "fig-01"
+  },
+  {
+   "voz": "Este testigo indica pastillas de freno desgastadas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p16_0.webp"
+   },
+   "dato": "fig-02"
+  },
+  {
+   "voz": "Este es el testigo del freno de mano.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p16_1.webp"
+   },
+   "dato": "fig-03"
+  },
+  {
+   "voz": "Este testigo indica un error en el sistema de frenos ABS.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p16_2.webp"
+   },
+   "dato": "fig-04"
+  },
+  {
+   "voz": "Este es el testigo de la presión de los neumáticos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p19_0.webp"
+   },
+   "dato": "fig-05"
+  },
+  {
+   "voz": "Este testigo indica luces neblineras encendidas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_0.webp"
+   },
+   "dato": "fig-06"
+  },
+  {
+   "voz": "Este indica luces de posición y cruce encendidas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_1.webp"
+   },
+   "dato": "fig-07"
+  },
+  {
+   "voz": "Este indica luces altas encendidas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_2.webp"
+   },
+   "dato": "fig-08"
+  },
+  {
+   "voz": "Y este, luces bajas encendidas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_3.webp"
+   },
+   "dato": "fig-09"
+  },
+  {
+   "voz": "Este testigo indica una avería de las luces exteriores.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_4.webp"
+   },
+   "dato": "fig-10"
+  },
+  {
+   "voz": "Este indica las luces de advertencia de peligro.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p21_5.webp"
+   },
+   "dato": "fig-11"
+  },
+  {
+   "voz": "Y este es el testigo del airbag.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p30_0.webp"
+   },
+   "dato": "fig-12"
+  },
+  {
+   "voz": "En el indicador de combustible, la letra E significa vacío, y la F, lleno.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p13_0.webp"
+   },
+   "dato": "fig-13"
+  },
+  {
+   "voz": "Este neumático tiene una presión de aire demasiado baja.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p18_0.webp"
+   },
+   "dato": "fig-14"
+  },
+  {
+   "voz": "Y este, una presión demasiado alta: se pierde la adherencia.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p18_24.webp"
+   },
+   "dato": "fig-15"
+  },
+  {
+   "voz": "¿Qué indica el testigo con forma de batería?",
+   "elige": {
+    "pregunta": "El testigo con forma de batería indica…",
+    "opciones": [
+     "Un problema con la carga de la batería",
+     "Que el motor está frío",
+     "Que falta combustible"
+    ],
+    "bien": "Así es: es el testigo de la batería.",
+    "mal": "Es el testigo de la batería: indica un problema con la carga."
+   }
+  }
+ ]
+}

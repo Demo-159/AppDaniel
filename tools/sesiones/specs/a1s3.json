@@ -1,0 +1,462 @@
+{
+ "id": "a1s3",
+ "titulo": "Señales informativas",
+ "icono": "🪧",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las señales informativas, una por una.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪧",
+    "texto": "Señales informativas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales informativas tienen como propósito orientar y guiar a las personas usuarias de la vía.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "🪧",
+    "titulo": "Señales informativas",
+    "texto": "Las señales informativas tienen como propósito orientar y guiar a las personas usuarias de la vía."
+   }
+  },
+  {
+   "voz": "Ruta alternativa.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s135.webp",
+    "sub": "Ruta alternativa"
+   },
+   "dato": "a1-135"
+  },
+  {
+   "voz": "Salida inmediata.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s136.webp",
+    "sub": "Salida inmediata"
+   },
+   "dato": "a1-136"
+  },
+  {
+   "voz": "Balizas de acercamiento.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s137.webp",
+    "sub": "Balizas de acercamiento"
+   },
+   "dato": "a1-137"
+  },
+  {
+   "voz": "Nombre y numeración de calle.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s138.webp",
+    "sub": "Nombre y numeración de calle"
+   },
+   "dato": "a1-138"
+  },
+  {
+   "voz": "De confirmación.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s139.webp",
+    "sub": "De confirmación"
+   },
+   "dato": "a1-139"
+  },
+  {
+   "voz": "De dirección.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s140.webp",
+    "sub": "De dirección"
+   },
+   "dato": "a1-140"
+  },
+  {
+   "voz": "De localización.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s141.webp",
+    "sub": "De localización"
+   },
+   "dato": "a1-141"
+  },
+  {
+   "voz": "Escudo numeración de caminos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s142.webp",
+    "sub": "Escudo numeración de caminos"
+   },
+   "dato": "a1-142"
+  },
+  {
+   "voz": "Aeropuerto.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s143.webp",
+    "sub": "Aeropuerto"
+   },
+   "dato": "a1-143"
+  },
+  {
+   "voz": "Alimentación restaurant.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s144.webp",
+    "sub": "Alimentación restaurant"
+   },
+   "dato": "a1-144"
+  },
+  {
+   "voz": "Alojamiento.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s145.webp",
+    "sub": "Alojamiento"
+   },
+   "dato": "a1-145"
+  },
+  {
+   "voz": "Teléfono público.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s146.webp",
+    "sub": "Teléfono público"
+   },
+   "dato": "a1-146"
+  },
+  {
+   "voz": "Primeros auxilios hospital.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s147.webp",
+    "sub": "Primeros auxilios hospital"
+   },
+   "dato": "a1-147"
+  },
+  {
+   "voz": "Servicios higiénicos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s148.webp",
+    "sub": "Servicios higiénicos"
+   },
+   "dato": "a1-148"
+  },
+  {
+   "voz": "Acantilado.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s149.webp",
+    "sub": "Acantilado"
+   },
+   "dato": "a1-149"
+  },
+  {
+   "voz": "Casino.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s150.webp",
+    "sub": "Casino"
+   },
+   "dato": "a1-150"
+  },
+  {
+   "voz": "Cabalgata.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s151.webp",
+    "sub": "Cabalgata"
+   },
+   "dato": "a1-151"
+  },
+  {
+   "voz": "Artesanía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s152.webp",
+    "sub": "Artesanía"
+   },
+   "dato": "a1-152"
+  },
+  {
+   "voz": "Buceo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s153.webp",
+    "sub": "Buceo"
+   },
+   "dato": "a1-153"
+  },
+  {
+   "voz": "Canopy/tirolesa.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s154.webp",
+    "sub": "Canopy/tirolesa"
+   },
+   "dato": "a1-154"
+  },
+  {
+   "voz": "Salida lateral derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s155.webp",
+    "sub": "Salida lateral derecha"
+   },
+   "dato": "a1-155"
+  },
+  {
+   "voz": "Inicio de autopista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s156.webp",
+    "sub": "Inicio de autopista"
+   },
+   "dato": "a1-156"
+  },
+  {
+   "voz": "Fin de autopista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s157.webp",
+    "sub": "Fin de autopista"
+   },
+   "dato": "a1-157"
+  },
+  {
+   "voz": "Retorno en autopista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s158.webp",
+    "sub": "Retorno en autopista"
+   },
+   "dato": "a1-158"
+  },
+  {
+   "voz": "Teléfono de emergencia.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s159.webp",
+    "sub": "Teléfono de emergencia"
+   },
+   "dato": "a1-159"
+  },
+  {
+   "voz": "Autopista con Televía o sistema complementario.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s160.webp",
+    "sub": "Autopista con televía o sistema complementario"
+   },
+   "dato": "a1-160"
+  },
+  {
+   "voz": "Estacionamiento permitido.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s161.webp",
+    "sub": "Estacionamiento permitido"
+   },
+   "dato": "a1-161"
+  },
+  {
+   "voz": "Plaza de peaje.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s162.webp",
+    "sub": "Plaza de peaje"
+   },
+   "dato": "a1-162"
+  },
+  {
+   "voz": "Parada mixta.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s163.webp",
+    "sub": "Parada mixta"
+   },
+   "dato": "a1-163"
+  },
+  {
+   "voz": "Pista solo buses.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s164.webp",
+    "sub": "Pista solo buses"
+   },
+   "dato": "a1-164"
+  },
+  {
+   "voz": "Control fotográfico.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s165.webp",
+    "sub": "Control fotográfico"
+   },
+   "dato": "a1-165"
+  },
+  {
+   "voz": "Control con cámara.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s166.webp",
+    "sub": "Control con cámara"
+   },
+   "dato": "a1-166"
+  },
+  {
+   "voz": "Zona espera especial ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s167.webp",
+    "sub": "Zona espera especial ciclos"
+   },
+   "dato": "a1-167"
+  },
+  {
+   "voz": "Zona espera especial ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s168.webp",
+    "sub": "Zona espera especial ciclos"
+   },
+   "dato": "a1-168"
+  },
+  {
+   "voz": "Zona de espera adelantada motos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s169.webp",
+    "sub": "Zona de espera adelantada motos"
+   },
+   "dato": "a1-169"
+  },
+  {
+   "voz": "Zona de espera adelantada motos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s170.webp",
+    "sub": "Zona de espera adelantada motos"
+   },
+   "dato": "a1-170"
+  },
+  {
+   "voz": "Zona treinta.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s171.webp",
+    "sub": "Zona 30"
+   },
+   "dato": "a1-171"
+  },
+  {
+   "voz": "Fin zona treinta.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s172.webp",
+    "sub": "Fin zona 30"
+   },
+   "dato": "a1-172"
+  },
+  {
+   "voz": "Solo bicicletas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s173.webp",
+    "sub": "Solo bicicletas"
+   },
+   "dato": "a1-173"
+  },
+  {
+   "voz": "Inicio ciclobanda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s174.webp",
+    "sub": "Inicio ciclobanda"
+   },
+   "dato": "a1-174"
+  },
+  {
+   "voz": "Fin ciclobanda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s175.webp",
+    "sub": "Fin ciclobanda"
+   },
+   "dato": "a1-175"
+  },
+  {
+   "voz": "Fin ciclovía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s176.webp",
+    "sub": "Fin ciclovía"
+   },
+   "dato": "a1-176"
+  },
+  {
+   "voz": "Ciclocalle.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s177.webp",
+    "sub": "Ciclocalle"
+   },
+   "dato": "a1-177"
+  },
+  {
+   "voz": "Superficie segregada motorizados y ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s178.webp",
+    "sub": "Superficie segregada motorizados-ciclos"
+   },
+   "dato": "a1-178"
+  },
+  {
+   "voz": "Superficie segregada motorizados y ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s179.webp",
+    "sub": "Superficie segregada motorizados-ciclos"
+   },
+   "dato": "a1-179"
+  },
+  {
+   "voz": "Zona espera especial ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s180.webp",
+    "sub": "Zona espera especial ciclos"
+   },
+   "dato": "a1-180"
+  },
+  {
+   "voz": "Zona espera especial ciclos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s181.webp",
+    "sub": "Zona espera especial ciclos"
+   },
+   "dato": "a1-181"
+  },
+  {
+   "voz": "¿Para qué sirven las señales informativas?",
+   "elige": {
+    "pregunta": "¿Para qué sirven las señales informativas?",
+    "opciones": [
+     "Para orientar y guiar",
+     "Para prohibir maniobras",
+     "Para advertir peligros"
+    ],
+    "bien": "Así es: orientan y guían.",
+    "mal": "Las señales informativas orientan y guían a las personas usuarias."
+   }
+  }
+ ]
+}

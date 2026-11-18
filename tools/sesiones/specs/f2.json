@@ -1,0 +1,118 @@
+{
+ "id": "f2",
+ "titulo": "Carabineros y semáforos",
+ "icono": "🚦",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar, con las imágenes del libro, las señales de Carabineros y los semáforos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚦",
+    "texto": "Carabineros y semáforos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Carabineros vistos de frente o de espalda: indican detención.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p77_0.webp"
+   },
+   "dato": "fig-16"
+  },
+  {
+   "voz": "Carabinero con el brazo en alto: indica advertencia.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p77_2.webp"
+   },
+   "dato": "fig-17"
+  },
+  {
+   "voz": "Carabinera vista de costado: autoriza para avanzar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p77_3.webp"
+   },
+   "dato": "fig-18"
+  },
+  {
+   "voz": "Luz verde: indica paso.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p78_1.webp"
+   },
+   "dato": "fig-19"
+  },
+  {
+   "voz": "Luz amarilla: indica prevención.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p78_0.webp"
+   },
+   "dato": "fig-20"
+  },
+  {
+   "voz": "Luz roja: indica detención.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p78_2.webp"
+   },
+   "dato": "fig-21"
+  },
+  {
+   "voz": "Luz roja con flecha verde: puedes entrar al cruce, pero solo para seguir en la dirección de la flecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p79_1.webp"
+   },
+   "dato": "fig-22"
+  },
+  {
+   "voz": "Este es un semáforo con cabezal para ciclistas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p79_0.webp"
+   },
+   "dato": "fig-23"
+  },
+  {
+   "voz": "En el cruce ferroviario, la luz blanca indica que no se acerca un tren, pero eso no significa que puedas pasar sin peligro: verifica.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p79_4.webp"
+   },
+   "dato": "fig-24"
+  },
+  {
+   "voz": "Este semáforo para el transporte público afecta solo a los vehículos de la pista exclusiva.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p80_1.webp"
+   },
+   "dato": "fig-25"
+  },
+  {
+   "voz": "En la señal de mensaje variable, la equis roja indica que la pista está cerrada.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p80_0.webp"
+   },
+   "dato": "fig-26"
+  },
+  {
+   "voz": "Un carabinero de costado, ¿qué te indica?",
+   "elige": {
+    "pregunta": "Un carabinero de costado te indica…",
+    "opciones": [
+     "Avanzar",
+     "Detenerte",
+     "Prepararte para el cambio"
+    ],
+    "bien": "Así es: puedes avanzar.",
+    "mal": "De costado autoriza para avanzar."
+   }
+  }
+ ]
+}

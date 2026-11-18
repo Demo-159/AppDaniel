@@ -1,0 +1,696 @@
+{
+ "id": "a1s2",
+ "titulo": "Señales de advertencia de peligro",
+ "icono": "⚠️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las señales de advertencia de peligro, una por una.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚠️",
+    "texto": "Señales de advertencia de peligro"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales de advertencia de peligro advierten la existencia y naturaleza de riesgos o situaciones imprevistas en la vía, o junto a ella. Tienen forma de rombo, fondo amarillo y símbolo negro.",
+   "escena": {
+    "tipo": "tarjeta",
+    "icono": "⚠️",
+    "titulo": "Señales de advertencia de peligro",
+    "texto": "Tienen forma de rombo, fondo amarillo y símbolo negro."
+   }
+  },
+  {
+   "voz": "Curva a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s062.webp",
+    "sub": "Curva a la derecha"
+   },
+   "dato": "a1-062"
+  },
+  {
+   "voz": "Curva a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s063.webp",
+    "sub": "Curva a la izquierda"
+   },
+   "dato": "a1-063"
+  },
+  {
+   "voz": "Curva cerrada a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s064.webp",
+    "sub": "Curva cerrada a la derecha"
+   },
+   "dato": "a1-064"
+  },
+  {
+   "voz": "Curva cerrada a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s065.webp",
+    "sub": "Curva cerrada a la izquierda"
+   },
+   "dato": "a1-065"
+  },
+  {
+   "voz": "Zona de curvas a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s066.webp",
+    "sub": "Zona de curvas a la derecha"
+   },
+   "dato": "a1-066"
+  },
+  {
+   "voz": "Zona de curvas a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s067.webp",
+    "sub": "Zona de curvas a la izquierda"
+   },
+   "dato": "a1-067"
+  },
+  {
+   "voz": "Curva y contracurva a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s068.webp",
+    "sub": "Curva y contracurva a la derecha"
+   },
+   "dato": "a1-068"
+  },
+  {
+   "voz": "Curva y contracurva a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s069.webp",
+    "sub": "Curva y contracurva a la izquierda"
+   },
+   "dato": "a1-069"
+  },
+  {
+   "voz": "Curva y contracurva cerrada a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s070.webp",
+    "sub": "Curva y contracurva cerrada a la derecha"
+   },
+   "dato": "a1-070"
+  },
+  {
+   "voz": "Curva y contracurva cerrada a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s071.webp",
+    "sub": "Curva y contracurva cerrada a la izquierda"
+   },
+   "dato": "a1-071"
+  },
+  {
+   "voz": "Curva muy cerrada a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s072.webp",
+    "sub": "Curva muy cerrada a la derecha"
+   },
+   "dato": "a1-072"
+  },
+  {
+   "voz": "Curva muy cerrada a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s073.webp",
+    "sub": "Curva muy cerrada a la izquierda"
+   },
+   "dato": "a1-073"
+  },
+  {
+   "voz": "Pendiente fuerte en bajada.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s074.webp",
+    "sub": "Pendiente fuerte en bajada"
+   },
+   "dato": "a1-074"
+  },
+  {
+   "voz": "Pendiente fuerte en bajada.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s075.webp",
+    "sub": "Pendiente fuerte en bajada"
+   },
+   "dato": "a1-075"
+  },
+  {
+   "voz": "Proximidad de túnel.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s076.webp",
+    "sub": "Proximidad de túnel"
+   },
+   "dato": "a1-076"
+  },
+  {
+   "voz": "Pendiente fuerte en subida.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s077.webp",
+    "sub": "Pendiente fuerte en subida"
+   },
+   "dato": "a1-077"
+  },
+  {
+   "voz": "Pendiente fuerte en subida.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s078.webp",
+    "sub": "Pendiente fuerte en subida"
+   },
+   "dato": "a1-078"
+  },
+  {
+   "voz": "Ribera sin protección.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s079.webp",
+    "sub": "Ribera sin protección"
+   },
+   "dato": "a1-079"
+  },
+  {
+   "voz": "Aeropuerto o aeródromo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s080.webp",
+    "sub": "Aeropuerto o aeródromo"
+   },
+   "dato": "a1-080"
+  },
+  {
+   "voz": "Viento lateral.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s081.webp",
+    "sub": "Viento lateral"
+   },
+   "dato": "a1-081"
+  },
+  {
+   "voz": "Angostamiento a ambos lados.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s082.webp",
+    "sub": "Angostamiento a ambos lados"
+   },
+   "dato": "a1-082"
+  },
+  {
+   "voz": "Angostamiento a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s083.webp",
+    "sub": "Angostamiento a la derecha"
+   },
+   "dato": "a1-083"
+  },
+  {
+   "voz": "Angostamiento a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s084.webp",
+    "sub": "Angostamiento a la izquierda"
+   },
+   "dato": "a1-084"
+  },
+  {
+   "voz": "Puente angosto.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s085.webp",
+    "sub": "Puente angosto"
+   },
+   "dato": "a1-085"
+  },
+  {
+   "voz": "Ensanchamiento a ambos lados.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s086.webp",
+    "sub": "Ensanchamiento a ambos lados"
+   },
+   "dato": "a1-086"
+  },
+  {
+   "voz": "Ensanchamiento a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s087.webp",
+    "sub": "Ensanchamiento a la derecha"
+   },
+   "dato": "a1-087"
+  },
+  {
+   "voz": "Ensanchamiento a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s088.webp",
+    "sub": "Ensanchamiento a la izquierda"
+   },
+   "dato": "a1-088"
+  },
+  {
+   "voz": "Peso máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s089.webp",
+    "sub": "Peso máximo"
+   },
+   "dato": "a1-089"
+  },
+  {
+   "voz": "Altura máxima.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s090.webp",
+    "sub": "Altura máxima"
+   },
+   "dato": "a1-090"
+  },
+  {
+   "voz": "Ancho máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s091.webp",
+    "sub": "Ancho máximo"
+   },
+   "dato": "a1-091"
+  },
+  {
+   "voz": "Largo máximo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s092.webp",
+    "sub": "Largo máximo"
+   },
+   "dato": "a1-092"
+  },
+  {
+   "voz": "Inicio de mediana.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s093.webp",
+    "sub": "Inicio de mediana"
+   },
+   "dato": "a1-093"
+  },
+  {
+   "voz": "Proximidad de cables de alta tensión.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s094.webp",
+    "sub": "Proximidad de cables de alta tensión"
+   },
+   "dato": "a1-094"
+  },
+  {
+   "voz": "Resalto.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s095.webp",
+    "sub": "Resalto"
+   },
+   "dato": "a1-095"
+  },
+  {
+   "voz": "Ubicación resalto.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s096.webp",
+    "sub": "Ubicación resalto"
+   },
+   "dato": "a1-096"
+  },
+  {
+   "voz": "Resaltos sucesivos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s097.webp",
+    "sub": "Resaltos sucesivos"
+   },
+   "dato": "a1-097"
+  },
+  {
+   "voz": "Badén.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s098.webp",
+    "sub": "Badén"
+   },
+   "dato": "a1-098"
+  },
+  {
+   "voz": "Proyección de gravilla.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s099.webp",
+    "sub": "Proyección de gravilla"
+   },
+   "dato": "a1-099"
+  },
+  {
+   "voz": "Zona de avalancha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s100.webp",
+    "sub": "Zona de avalancha"
+   },
+   "dato": "a1-100"
+  },
+  {
+   "voz": "Peligro.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s101.webp",
+    "sub": "Peligro"
+   },
+   "dato": "a1-101"
+  },
+  {
+   "voz": "Barreras.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s102.webp",
+    "sub": "Barreras"
+   },
+   "dato": "a1-102"
+  },
+  {
+   "voz": "Señal fin mediana.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s103.webp",
+    "sub": "Señal fin mediana"
+   },
+   "dato": "a1-103"
+  },
+  {
+   "voz": "Cruce ferroviario a nivel sin barreras.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s104.webp",
+    "sub": "Cruce ferroviario a nivel sin barreras"
+   },
+   "dato": "a1-104"
+  },
+  {
+   "voz": "Cruce ferroviario a nivel con barreras.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s105.webp",
+    "sub": "Cruce ferroviario a nivel con barreras"
+   },
+   "dato": "a1-105"
+  },
+  {
+   "voz": "Cruz de san andrés.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s106.webp",
+    "sub": "Cruz de san andrés"
+   },
+   "dato": "a1-106"
+  },
+  {
+   "voz": "Proximidad rotonda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s107.webp",
+    "sub": "Proximidad rotonda"
+   },
+   "dato": "a1-107"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s108.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-108"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s109.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-109"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s110.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-110"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s111.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-111"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s112.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-112"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s113.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-113"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s114.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-114"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s115.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-115"
+  },
+  {
+   "voz": "Cruces bifurcaciones y convergencias.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s116.webp",
+    "sub": "Cruces bifurcaciones y convergencias"
+   },
+   "dato": "a1-116"
+  },
+  {
+   "voz": "Dos sentidos de tránsito.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s117.webp",
+    "sub": "Dos sentidos de tránsito"
+   },
+   "dato": "a1-117"
+  },
+  {
+   "voz": "Ciclistas en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s118.webp",
+    "sub": "Ciclistas en la vía"
+   },
+   "dato": "a1-118"
+  },
+  {
+   "voz": "Maquinaria agrícola.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s119.webp",
+    "sub": "Maquinaria agrícola"
+   },
+   "dato": "a1-119"
+  },
+  {
+   "voz": "Carretelas en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s120.webp",
+    "sub": "Carretelas en la vía"
+   },
+   "dato": "a1-120"
+  },
+  {
+   "voz": "Animales en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s121.webp",
+    "sub": "Animales en la vía"
+   },
+   "dato": "a1-121"
+  },
+  {
+   "voz": "Animales en la vía.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s122.webp",
+    "sub": "Animales en la vía"
+   },
+   "dato": "a1-122"
+  },
+  {
+   "voz": "Zona de peatones.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s123.webp",
+    "sub": "Zona de peatones"
+   },
+   "dato": "a1-123"
+  },
+  {
+   "voz": "Proximidad de paso de cebra.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s124.webp",
+    "sub": "Proximidad de paso de cebra"
+   },
+   "dato": "a1-124"
+  },
+  {
+   "voz": "Zona de escuela.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s125.webp",
+    "sub": "Zona de escuela"
+   },
+   "dato": "a1-125"
+  },
+  {
+   "voz": "Niños jugando.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s126.webp",
+    "sub": "Niños jugando"
+   },
+   "dato": "a1-126"
+  },
+  {
+   "voz": "Proximidad de semáforo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s127.webp",
+    "sub": "Proximidad de semáforo"
+   },
+   "dato": "a1-127"
+  },
+  {
+   "voz": "Proximidad de señal “ceda el paso”.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s128.webp",
+    "sub": "Proximidad de señal “ceda el paso”"
+   },
+   "dato": "a1-128"
+  },
+  {
+   "voz": "Proximidad de señal “pare”.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s129.webp",
+    "sub": "Proximidad de señal “pare”"
+   },
+   "dato": "a1-129"
+  },
+  {
+   "voz": "Cruce ciclista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s130.webp",
+    "sub": "Cruce ciclista"
+   },
+   "dato": "a1-130"
+  },
+  {
+   "voz": "Salida carro bomberos.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s131.webp",
+    "sub": "Salida carro bomberos"
+   },
+   "dato": "a1-131"
+  },
+  {
+   "voz": "Zona de derrumbes.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s132.webp",
+    "sub": "Zona de derrumbes"
+   },
+   "dato": "a1-132"
+  },
+  {
+   "voz": "Pavimento resbaladizo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s133.webp",
+    "sub": "Pavimento resbaladizo"
+   },
+   "dato": "a1-133"
+  },
+  {
+   "voz": "Desnivel severo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/senales/s134.webp",
+    "sub": "Desnivel severo"
+   },
+   "dato": "a1-134"
+  },
+  {
+   "voz": "¿Qué forma y color tienen las señales de advertencia de peligro?",
+   "elige": {
+    "pregunta": "Las señales de advertencia de peligro son…",
+    "opciones": [
+     "Rombos amarillos con símbolo negro",
+     "Círculos blancos con borde rojo",
+     "Rectángulos azules o verdes"
+    ],
+    "bien": "Así es: rombos amarillos, con símbolo negro.",
+    "mal": "Son rombos de fondo amarillo y símbolo negro."
+   }
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "f5",
+ "titulo": "Luces de otros vehículos",
+ "icono": "🚛",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar las luces de otros vehículos, y el triángulo de emergencia.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚛",
+    "texto": "Luces de otros vehículos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Los vehículos de carga y de locomoción colectiva llevan luces amarillas arriba, que indican su ancho y altura máxima.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p112_0.webp"
+   },
+   "dato": "fig-44"
+  },
+  {
+   "voz": "Las motocicletas llevan atrás luz roja fija, luz de freno, y dos luces destellantes de viraje.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p112_1.webp"
+   },
+   "dato": "fig-45"
+  },
+  {
+   "voz": "Este vehículo lleva adelante un foco, y atrás una luz roja fija.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p112_3.webp"
+   },
+   "dato": "fig-46"
+  },
+  {
+   "voz": "Si estacionas por una falla en una vía sin alumbrado, instala con anticipación el triángulo para casos de emergencia.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p112_4.webp"
+   },
+   "dato": "fig-47"
+  },
+  {
+   "voz": "¿Qué indican las luces amarillas superiores de un camión?",
+   "elige": {
+    "pregunta": "Las luces amarillas superiores de un camión indican…",
+    "opciones": [
+     "Su ancho y altura máxima",
+     "Que va a frenar",
+     "Que lleva carga peligrosa"
+    ],
+    "bien": "Así es: su ancho y altura máxima.",
+    "mal": "Indican su ancho y altura máxima."
+   }
+  }
+ ]
+}

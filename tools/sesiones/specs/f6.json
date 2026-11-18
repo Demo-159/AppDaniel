@@ -1,0 +1,118 @@
+{
+ "id": "f6",
+ "titulo": "Situaciones y elementos del libro",
+ "icono": "📘",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar otras figuras del libro: la vista, la silla infantil, los virajes y los primeros auxilios.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📘",
+    "texto": "Situaciones y elementos del libro"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Esta imagen muestra la visión de túnel: el campo visual se reduce a medida que aumenta la velocidad.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p44_0.webp"
+   },
+   "dato": "fig-48"
+  },
+  {
+   "voz": "Si vas a noventa kilómetros por hora y el otro a cien, el punto de cruce real estará más cerca de ti que el estimado.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p44_1.webp"
+   },
+   "dato": "fig-49"
+  },
+  {
+   "voz": "Esta es la etiqueta que llevan las sillas infantiles certificadas en Chile.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p75_0.webp"
+   },
+   "dato": "fig-50"
+  },
+  {
+   "voz": "Este símbolo indica el anclaje ISOFIX para la silla infantil.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p75_5.webp"
+   },
+   "dato": "fig-51"
+  },
+  {
+   "voz": "Y este, el anclaje superior.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p75_6.webp"
+   },
+   "dato": "fig-52"
+  },
+  {
+   "voz": "Si esperas para virar a la izquierda con las ruedas torcidas, y te chocan por atrás, serías lanzado hacia la pista contraria.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p92_1.webp"
+   },
+   "dato": "fig-53"
+  },
+  {
+   "voz": "Esta maniobra es un viraje en U: el vehículo vira en ciento ochenta grados.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p94_0.webp"
+   },
+   "dato": "fig-54"
+  },
+  {
+   "voz": "Con varias pistas en tu dirección, elige la derecha para virar a la derecha, y la izquierda para virar a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p94_1.webp"
+   },
+   "dato": "fig-55"
+  },
+  {
+   "voz": "En la rotonda, señaliza a la derecha apenas pases la salida anterior a la que vas a usar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p94_2.webp"
+   },
+   "dato": "fig-56"
+  },
+  {
+   "voz": "En esta imagen se hace presión directa sobre la herida, con un paño limpio.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p138_0.webp"
+   },
+   "dato": "fig-57"
+  },
+  {
+   "voz": "Si un vehículo siniestrado tiene esta calcomanía, es eléctrico o híbrido: sin capacitación, nunca debes manipularlo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p148_1.webp"
+   },
+   "dato": "fig-58"
+  },
+  {
+   "voz": "Esperas para virar a la izquierda con las ruedas torcidas y te chocan por atrás. ¿Qué pasa?",
+   "elige": {
+    "pregunta": "Con las ruedas torcidas a la izquierda, te chocan por atrás. ¿Qué pasa?",
+    "opciones": [
+     "Te lanza hacia la pista contraria",
+     "No pasa nada distinto",
+     "Te lanza hacia la vereda"
+    ],
+    "bien": "Así es: por eso se esperan con las ruedas rectas.",
+    "mal": "Serías lanzado hacia la pista contraria; por eso se espera con las ruedas rectas."
+   }
+  }
+ ]
+}

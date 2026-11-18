@@ -1,0 +1,62 @@
+{
+ "id": "c10s1",
+ "titulo": "Anexo 1: tipos de señales verticales",
+ "icono": "🪧",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar los cuatro tipos de señales verticales.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪧",
+    "texto": "Tipos de señales verticales"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Las señales reglamentarias notifican las prioridades, prohibiciones, restricciones, obligaciones y autorizaciones en el uso de la vía. Su transgresión constituye infracción a las normas del tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-regl"
+   },
+   "dato": "c10-01"
+  },
+  {
+   "voz": "Las de advertencia de peligro advierten la existencia y naturaleza de riesgos o situaciones imprevistas, en la vía o junto a ella, en forma permanente o temporal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-adv"
+   },
+   "dato": "c10-02"
+  },
+  {
+   "voz": "Las informativas tienen como propósito orientar y guiar a las personas usuarias de la vía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-info"
+   },
+   "dato": "c10-03"
+  },
+  {
+   "voz": "Y las transitorias se usan cuando se realizan trabajos en la vía: son de color naranja, y ese color indica que la señal es transitoria.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-trans"
+   },
+   "dato": "c10-04"
+  },
+  {
+   "voz": "¿Qué indica el color naranja en una señal?",
+   "elige": {
+    "pregunta": "¿Qué indica el color naranja en una señal?",
+    "opciones": [
+     "Que es una señal transitoria",
+     "Que es una señal informativa",
+     "Que es una prohibición"
+    ],
+    "bien": "Así es: que es transitoria.",
+    "mal": "El naranja indica que la señal es transitoria, por trabajos en la vía."
+   }
+  }
+ ]
+}

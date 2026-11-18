@@ -1,0 +1,115 @@
+{
+ "id": "c10s2",
+ "titulo": "Anexo 2: glosario",
+ "icono": "📖",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar las definiciones más importantes del glosario del libro.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📖",
+    "texto": "Glosario"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Acera: parte de una vía destinada al uso de peatones. Berma: faja lateral, pavimentada o no, junto a la calzada de un camino. Calzada: parte de la vía destinada al uso de vehículos y animales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-acera"
+   },
+   "dato": [
+    "c10-05",
+    "c10-06",
+    "c10-07"
+   ]
+  },
+  {
+   "voz": "Una bicicleta con motor eléctrico auxiliar de hasta doscientos cincuenta watts se considera ciclo, si su asistencia se reduce o se corta al llegar a veinticinco kilómetros por hora.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-bici"
+   },
+   "dato": "c10-08"
+  },
+  {
+   "voz": "Cruce regulado: cruce con un semáforo funcionando normalmente, sin intermitencia, o con Carabineros dirigiendo el tránsito.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-regulado"
+   },
+   "dato": "c10-09"
+  },
+  {
+   "voz": "Derecho preferente de paso: prerrogativa de un peatón o persona conductora para proseguir su marcha.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-preferente"
+   },
+   "dato": "c10-10"
+  },
+  {
+   "voz": "Estacionar: paralizar un vehículo en la vía, con o sin su conductor, por más tiempo que el necesario para dejar o recibir pasajeros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-estacionar"
+   },
+   "dato": "c10-11"
+  },
+  {
+   "voz": "Luz baja: permite ver obstáculos a no menos de cincuenta metros. Luz alta: a no menos de ciento cincuenta metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-luces"
+   },
+   "dato": [
+    "c10-12",
+    "c10-13"
+   ]
+  },
+  {
+   "voz": "Sobrepasar: pasar a otro vehículo que circula en el mismo sentido, sin traspasar el eje de la calzada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-sobrepasar"
+   },
+   "dato": "c10-14"
+  },
+  {
+   "voz": "Un triciclo motorizado de carga no puede superar los trescientos kilos de carga. Un vehículo de transporte escolar está construido para más de siete personas sentadas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-triciclo"
+   },
+   "dato": [
+    "c10-15",
+    "c10-16"
+   ]
+  },
+  {
+   "voz": "En una Zona de Tránsito Calmado, la velocidad máxima puede ser de cuarenta, treinta, o veinte kilómetros por hora. Y los límites de la zona urbana los determinan y señalizan las Municipalidades.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-zonas"
+   },
+   "dato": [
+    "c10-17",
+    "c10-18"
+   ]
+  },
+  {
+   "voz": "Según el glosario, ¿hasta qué distancia mínima deben permitir ver las luces bajas?",
+   "elige": {
+    "pregunta": "Las luces bajas deben permitir ver obstáculos a no menos de…",
+    "opciones": [
+     "50 metros",
+     "150 metros",
+     "15 metros"
+    ],
+    "bien": "Así es: cincuenta metros; las altas, ciento cincuenta.",
+    "mal": "Las bajas, no menos de cincuenta metros; las altas, no menos de ciento cincuenta."
+   }
+  }
+ ]
+}

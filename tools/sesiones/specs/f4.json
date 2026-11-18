@@ -1,0 +1,70 @@
+{
+ "id": "f4",
+ "titulo": "Señales de brazo y de estacionamiento",
+ "icono": "✋",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar las señales con el brazo, y dos señales de estacionamiento.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "✋",
+    "texto": "Señales de brazo y de estacionamiento"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Brazo extendido horizontalmente: viraje a la izquierda.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p86_5.webp"
+   },
+   "dato": "fig-39"
+  },
+  {
+   "voz": "Brazo en ángulo recto hacia arriba: viraje a la derecha.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p86_3.webp"
+   },
+   "dato": "fig-40"
+  },
+  {
+   "voz": "Brazo extendido hacia abajo: disminución de velocidad, o detención.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p86_4.webp"
+   },
+   "dato": "fig-41"
+  },
+  {
+   "voz": "Esta señal puede complementarse con leyendas que limitan el alcance de la prohibición, por ejemplo, a ciertos horarios.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p105_4.webp"
+   },
+   "dato": "fig-42"
+  },
+  {
+   "voz": "Donde exista esta señal puedes estacionar, pero debes permanecer en tu vehículo.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p105_5.webp"
+   },
+   "dato": "fig-43"
+  },
+  {
+   "voz": "Brazo extendido hacia abajo, ¿qué indica?",
+   "elige": {
+    "pregunta": "Brazo extendido hacia abajo indica…",
+    "opciones": [
+     "Disminuir la velocidad o detenerse",
+     "Viraje a la izquierda",
+     "Viraje a la derecha"
+    ],
+    "bien": "Así es: disminución de velocidad o detención.",
+    "mal": "Indica disminución de velocidad, o detención."
+   }
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": "f3",
+ "titulo": "Demarcaciones",
+ "icono": "🛣️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a repasar, con la figura del libro, cada tipo de demarcación.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛣️",
+    "texto": "Demarcaciones"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La línea segmentada, número uno, puedes traspasarla con precaución, para cambiar de pista.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_1.webp"
+   },
+   "dato": "fig-27"
+  },
+  {
+   "voz": "La línea continua, número dos, indica que no hay condiciones de seguridad para traspasarla.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_4.webp"
+   },
+   "dato": "fig-28"
+  },
+  {
+   "voz": "La línea mixta, número tres, solo puede traspasarla quien circula por el lado segmentado.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_5.webp"
+   },
+   "dato": "fig-29"
+  },
+  {
+   "voz": "La línea de borde, número cuatro: no circules por la berma; solo en zona rural, en una emergencia.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_0.webp"
+   },
+   "dato": "fig-30"
+  },
+  {
+   "voz": "Las demarcaciones amarillas, número cinco, se usan en caminos de montaña donde la nieve es frecuente.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_2.webp"
+   },
+   "dato": "fig-31"
+  },
+  {
+   "voz": "La franja amarilla en la solera, número seis, indica que está prohibido estacionar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p82_3.webp"
+   },
+   "dato": "fig-32"
+  },
+  {
+   "voz": "La línea blanca transversal, número siete, es la línea de detención.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_5.webp"
+   },
+   "dato": "fig-33"
+  },
+  {
+   "voz": "La zona número ocho es la zona de espera para ciclos y motocicletas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_6.webp"
+   },
+   "dato": "fig-34"
+  },
+  {
+   "voz": "En el paso de cebra, número nueve, las y los peatones tienen prioridad.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_0.webp"
+   },
+   "dato": "fig-35"
+  },
+  {
+   "voz": "Los cuadros amarillos, número diez, indican no quedar detenido en el cruce.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_2.webp"
+   },
+   "dato": "fig-36"
+  },
+  {
+   "voz": "La leyenda LENTO, número once, es una demarcación de símbolos y leyendas.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_1.webp"
+   },
+   "dato": "fig-37"
+  },
+  {
+   "voz": "Sobre el área achurada, número trece, no debes circular, y menos aún estacionar.",
+   "escena": {
+    "tipo": "imagen",
+    "src": "img/figuras/p83_4.webp"
+   },
+   "dato": "fig-38"
+  },
+  {
+   "voz": "¿Quién puede traspasar una línea mixta?",
+   "elige": {
+    "pregunta": "¿Quién puede traspasar una línea mixta?",
+    "opciones": [
+     "Quien circula por el lado segmentado",
+     "Quien circula por el lado continuo",
+     "Nadie"
+    ],
+    "bien": "Así es: el lado segmentado.",
+    "mal": "Solo quien circula por el lado segmentado."
+   }
+  }
+ ]
+}

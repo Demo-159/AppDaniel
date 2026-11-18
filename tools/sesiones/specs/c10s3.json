@@ -1,0 +1,76 @@
+{
+ "id": "c10s3",
+ "titulo": "Anexo 3: proceso de obtención de la licencia",
+ "icono": "🪪",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el proceso para obtener tu licencia de conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪪",
+    "texto": "Cómo se obtiene la licencia"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La Licencia de Conducir se obtiene en la comuna donde resides.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-comuna"
+   },
+   "dato": "c10-19"
+  },
+  {
+   "voz": "Te harán exámenes de capacidad visual, auditiva, de reacción y coordinación; una entrevista médica; y los exámenes teórico y práctico.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-examenes"
+   },
+   "dato": "c10-20"
+  },
+  {
+   "voz": "Tienes dos oportunidades por cada examen teórico y práctico. Si repruebas el teórico, puedes repetirlo en un plazo no superior a veinticinco días hábiles.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-oportunidades"
+   },
+   "dato": [
+    "c10-25",
+    "c10-22"
+   ]
+  },
+  {
+   "voz": "Tras la primera denegación, debes esperar treinta días hábiles para iniciar otro proceso; y desde la segunda, seis meses para cada nuevo proceso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-denegacion"
+   },
+   "dato": [
+    "c10-23",
+    "c10-24"
+   ]
+  },
+  {
+   "voz": "Una vez aprobada, la Municipalidad tiene cinco días hábiles para informar al Registro Civil.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c10-registro"
+   },
+   "dato": "c10-21"
+  },
+  {
+   "voz": "Tras la primera denegación de la licencia, ¿cuánto debes esperar?",
+   "elige": {
+    "pregunta": "Tras la primera denegación, ¿cuánto esperas para un nuevo proceso?",
+    "opciones": [
+     "30 días hábiles",
+     "6 meses",
+     "5 días hábiles"
+    ],
+    "bien": "Así es: treinta días hábiles.",
+    "mal": "Treinta días hábiles; desde la segunda denegación, seis meses."
+   }
+  }
+ ]
+}
