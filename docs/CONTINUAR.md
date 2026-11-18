@@ -108,10 +108,16 @@ como un video interactivo. Es la forma de producir las 115 sesiones.
   subtítulos (CC), barra de progreso. Al final: "Practicar lo aprendido" (`index.html#practica=<id>`).
 - `auditar.py N`: muestra lo que enseña cada sesión del capítulo N y las preguntas que se practican ahí.
 - `build.py`: valida el guion, genera audio (con caché en `.cache/`), arma `dist/<id>.html`.
-- `specs/<id>.json`: un guion por sesión. Hechos: `c1s1`…`c1s7` y `c2s1`…`c2s19` (capítulos 1 y 2 completos).
-- `escenas/capitulo-N.js`: escenas de cada capítulo. La del capítulo 2 va entera dentro de una función
-  `(function(){…})()` para que sus nombres auxiliares no choquen con los de otros capítulos (todas se
-  concatenan en la misma página); seguir ese patrón en los capítulos nuevos.
+- `specs/<id>.json`: un guion por sesión. **Están las 115** (noviembre de 2026): `c1s1`…`c10s3`, las cuatro de
+  señales del Anexo 1 (`a1s1`…`a1s4`, una escena `imagen` por señal) y las seis de figuras del libro (`f1`…`f6`).
+  `build.py --capitulo N` solo toma `cNs*`; para compilar todo: `build.py $(ls specs | sed 's/\.json$//')`.
+- `escenas/_comun.js`: auxiliares de dibujo compartidos (auto visto desde arriba, tablero, persona sentada, rótulos,
+  fichas `F(fondo, fichas, título, subtítulo)` que aparecen al decir su palabra…). Se carga antes que los capítulos.
+- `escenas/capitulo-N.js`: escenas de cada capítulo, cada archivo dentro de `(function(){…})()` tomando lo que usa con
+  `const {…}=K;`, para que los nombres no choquen (todas se concatenan en la misma página). `capitulo-8.js` tiene
+  también las del capítulo 9.
+- Revisión de escenas: además de `build.py`, comprobar con Playwright que cada `data-w` esté en la frase de su paso y
+  revisar capturas de todas las escenas (así se hizo con los capítulos 2 a 12).
 - `dist/` y `.cache/` están en `.gitignore`.
 
 ### Formato del guion
@@ -183,13 +189,9 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 
 ## 8. Pendiente (en orden)
 
-1. **Esperar la opinión del usuario sobre las 7 sesiones del capítulo 1** y ajustar el motor si pide cambios.
-   Falta en el motor: el botón **"Explícamelo de nuevo"** en las preguntas `elige` (lo pidió el usuario y
-   existía en el prototipo); hoy solo está la frase `mal` tras un error. Agregar un campo `repite` (voz breve) al guion.
-2. **Producir las sesiones de los capítulos 3 a 12** (89 sesiones; el 2 ya está), por tandas de 1–2 capítulos: escribir
-   `specs/cNsK.json` usando los datos de `tools/cobertura/datos/capitulo-N.json`, compilar con
-   `--revisar-voz`, probar con Playwright, publicar demo y mostrar al usuario.
-   Para los capítulos 11 (señales) y 12 (figuras) usar escenas `imagen`.
+1. **Esperar la opinión del usuario sobre las sesiones** (ya están las 115) y ajustar si pide cambios.
+   Falta en el motor: el botón **"Explícamelo de nuevo"** en las preguntas `elige`; hoy solo está la frase `mal`.
+2. ~~Producir las sesiones de los capítulos 2 a 12~~ (hecho).
 3. **Portar el diseño aprobado a Android**: mapa-camino como inicio, sesiones dentro de un WebView (empaquetar
    los HTML de `dist/` en assets), repaso ⛽, prueba 🏁, simulacro con temporizador de 45 min y resultado por
    capítulo. Actualizar pruebas Paparazzi y `README.md`.
