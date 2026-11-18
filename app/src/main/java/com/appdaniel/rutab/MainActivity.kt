@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -39,6 +40,13 @@ class MainActivity : ComponentActivity() {
                 // Solo se navega dentro de la app; los enlaces externos no se abren.
                 override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest) =
                     !request.url.toString().startsWith("file:///android_asset/")
+
+                // En las sesiones con tutor (c<capítulo>s<sesión>.html) la pantalla no se apaga por inactividad:
+                // la sesión avanza sola, como un video, sin que se toque la pantalla.
+                override fun doUpdateVisitedHistory(view: WebView, url: String?, isReload: Boolean) {
+                    super.doUpdateVisitedHistory(view, url, isReload)
+                    pantallaEncendida(url != null && SESION.containsMatchIn(url))
+                }
             }
         }
         // La página no queda debajo de las barras: se deja su espacio, pintado del mismo fondo
@@ -65,6 +73,13 @@ class MainActivity : ComponentActivity() {
             }
         })
     }
+
+    private fun pantallaEncendida(si: Boolean) {
+        if (si) window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        else window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    private companion object { val SESION = Regex("/c\\d+s\\d+\\.html") }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)

@@ -298,6 +298,10 @@ async function run(){const P=S.pasos;
  $('prog').style.width='100%';$('bub').hidden=true;await fin()}
 setBg(FONDO[0]);
 $('sic').textContent=S.icono||'📘';$('stitle').textContent=S.titulo;$('ssub').textContent=`Sesión con tutor · ${S.minutos||3} min · con sonido 🔊`;
-$('go').onclick=()=>{try{AC=new (window.AudioContext||window.webkitAudioContext)()}catch(e){}
+// La pantalla no se apaga mientras dura la sesión (avanza sola, sin tocar la pantalla).
+// En la app Android lo hace MainActivity; aquí, la API Wake Lock del navegador cuando existe.
+let wake=null;async function despierta(){try{if('wakeLock' in navigator&&document.visibilityState==='visible'&&!wake){wake=await navigator.wakeLock.request('screen');wake.addEventListener('release',()=>{wake=null})}}catch(_){}}
+document.addEventListener('visibilitychange',despierta);
+$('go').onclick=()=>{despierta();try{AC=new (window.AudioContext||window.webkitAudioContext)()}catch(e){}
  const st=$('start');st.style.opacity=0;setTimeout(()=>st.remove(),500);audio.play().catch(()=>{});run()};
 </script></body></html>
