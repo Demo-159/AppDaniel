@@ -170,7 +170,10 @@ function say(key){return new Promise(res=>{const a=S.audio[key];
  if(cc){$('bub').hidden=false;$('bub').textContent=S.textos[key]}
  const ms=marcas(S.textos[key]);let sync=false;
  // el reloj parte solo cuando ya suena ESTE audio (antes leía el audio anterior, ya terminado)
- const tick=()=>{if(!sync)return;const f=audio.duration?audio.currentTime/audio.duration:0;ms.forEach(m=>{if(f>=m.f)marca(m)});requestAnimationFrame(tick)};
+ // En el WebView de Android, audio.duration de un audio data: suele ser Infinity o NaN hasta que termina: se usa la
+ // duración que midió build.py (S.dur) para que las partes de la escena aparezcan cuando la voz dice su palabra.
+ const dur=()=>(isFinite(audio.duration)&&audio.duration>0)?audio.duration:((S.dur&&S.dur[key])||0);
+ const tick=()=>{if(!sync)return;const d=dur(),f=d?audio.currentTime/d:0;ms.forEach(m=>{if(f>=m.f)marca(m)});requestAnimationFrame(tick)};
  audio.onplaying=()=>{if(!sync&&audio.dataset.k===key){sync=true;tick()}};
  const done=()=>{sync=false;ms.forEach(marca);$('cono').classList.remove('talk');setTimeout(res,420)};
  if(!a){sync=false;ms.forEach(marca);setTimeout(res,1800);return}

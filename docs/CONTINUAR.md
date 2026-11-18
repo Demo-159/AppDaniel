@@ -288,7 +288,7 @@ Hecho: paso a Android con WebView, botón "Explícamelo de nuevo", falsas creíb
 - **Firma:** desde la 3.8 se firma con la clave fija `app/firma/rutab.keystore` (contraseñas de depuración,
   `android`). Así cada APK se instala encima del anterior sin borrar el progreso. Hasta la 3.7 cada sesión de
   Claude generaba su propia clave, por eso la 3.8 exige desinstalar la versión anterior una vez.
-- APK compilado: `release/RutaB-3.12.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.13.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 

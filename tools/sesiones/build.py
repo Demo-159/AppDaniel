@@ -118,6 +118,11 @@ def repite(spec):
             out[i] = sorted(sel)
     return out
 
+def duracion(path):
+    """Segundos del audio (el WebView de Android no siempre informa la duración de un audio incrustado)."""
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path], capture_output=True, text=True).stdout
+    return round(float(out.strip() or 0), 2)
+
 def b64(path, mime): return f"data:{mime};base64," + base64.b64encode(open(path, "rb").read()).decode()
 
 def build(sid, check):
@@ -125,10 +130,11 @@ def build(sid, check):
     datos = datos_por_sesion().get(sid, [])
     err = reglas(spec, datos)
     if err: print(f"✗ {sid}:\n  " + "\n  ".join(err)); return False
-    aud, txt, malas = {}, {}, []
+    aud, txt, dur, malas = {}, {}, {}, []
     for t in dict.fromkeys(textos(spec)):
         key = "a" + hashlib.sha1(t.encode()).hexdigest()[:8]
         path = audio(t); aud[key] = b64(path, "audio/mpeg"); txt[key] = t
+        dur[key] = duracion(path)
         if check:
             es, wer = revisar(path, t)
             if es < 0.93 or wer > 0.35: malas.append(f"{es:.2f} es · {wer:.2f} error · {t}")
@@ -146,7 +152,7 @@ def build(sid, check):
         src = (p.get("escena") or {}).get("src")
         if src: imgs[src] = b64(os.path.join(ROOT, "app/src/main/assets", src), "image/webp")
     S = {"id": sid, "titulo": spec["titulo"], "icono": spec.get("icono"), "minutos": spec.get("minutos", 3),
-         "pasos": pasos, "audio": aud, "textos": txt, "imagenes": imgs}
+         "pasos": pasos, "audio": aud, "textos": txt, "dur": dur, "imagenes": imgs}
     html = open(os.path.join(HERE, "engine.html"), encoding="utf-8").read()
     esc = "\n".join(open(f, encoding="utf-8").read() for f in sorted(glob.glob(os.path.join(HERE, "escenas", "*.js"))))
     html = html.replace("/*ESCENAS*/", esc, 1)
