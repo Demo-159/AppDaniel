@@ -1,0 +1,105 @@
+{
+ "id": "c2s3",
+ "titulo": "El sistema eléctrico",
+ "icono": "🔋",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el sistema eléctrico: de dónde sale la electricidad del vehículo, y qué revisar cuando algo eléctrico falla.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔋",
+    "texto": "El sistema eléctrico"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El sistema eléctrico proporciona la energía eléctrica a los demás sistemas del vehículo. Esta energía es producida por el alternador, y almacenada en la batería.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-alternador"
+   },
+   "dato": "c2-12"
+  },
+  {
+   "voz": "El alternador funciona gracias al movimiento de una correa que viene desde el motor. Cuando esta correa está poco tensa, se genera menos electricidad, y disminuye la carga de la batería.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-correa"
+   },
+   "dato": "c2-13"
+  },
+  {
+   "voz": "Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, especialmente cuando la temperatura es baja.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-frio"
+   },
+   "dato": "c2-14"
+  },
+  {
+   "voz": "Y cuando el motor no se enciende al darle contacto, es muy probable que la batería se encuentre descargada o desconectada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-contacto"
+   },
+   "dato": "c2-15"
+  },
+  {
+   "voz": "Para tu seguridad, todos los accesorios que utilizan electricidad están casi siempre provistos de fusibles, para impedir incendios o daños en el sistema eléctrico.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-fusibles"
+   },
+   "dato": "c2-16"
+  },
+  {
+   "voz": "Por eso, si alguna unidad eléctrica deja de funcionar, lo primero que debes revisar es si se ha fundido algún fusible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-fundido"
+   },
+   "dato": "c2-16"
+  },
+  {
+   "voz": "En el caso de las ampolletas, si alguna no enciende, o si la luz de control de los intermitentes destella en forma más rápida que lo habitual, es probable que una ampolleta se haya quemado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ampolleta"
+   },
+   "dato": "c2-17"
+  },
+  {
+   "voz": "Recuerda controlar el nivel de líquido en la batería, y agregar agua destilada cuando sea necesario. Ten precaución: el ácido de la batería es corrosivo; cuidado con tu ropa y tu piel.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-bateria-nivel"
+   },
+   "dato": [
+    "c2-18",
+    "c2-20"
+   ]
+  },
+  {
+   "voz": "Controla también la luz de carga durante la conducción. Si se enciende o parpadea, es porque hay algún problema.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-luzcarga"
+   },
+   "dato": "c2-19"
+  },
+  {
+   "voz": "Pones el intermitente, y su luz de control destella más rápido que lo habitual. ¿Qué es lo más probable?",
+   "elige": {
+    "pregunta": "El intermitente destella más rápido que lo habitual. ¿Qué es lo más probable?",
+    "opciones": [
+     "Que se quemó una ampolleta",
+     "Que se fundió un fusible",
+     "Que la batería está descargada"
+    ],
+    "bien": "Así es: es probable que una ampolleta se haya quemado.",
+    "mal": "Cuando la luz de control de los intermitentes destella más rápido que lo habitual, es probable que una ampolleta se haya quemado."
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "c2s2",
+ "titulo": "El motor y el sistema de lubricación",
+ "icono": "⚙️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el motor y el sistema de lubricación, y qué hacer si se enciende la luz de la presión de aceite.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚙️",
+    "texto": "El motor y la lubricación"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El motor es la parte del vehículo que permite el funcionamiento de todos sus sistemas. Generalmente se sitúa en la parte delantera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-motor"
+   },
+   "dato": "c2-08"
+  },
+  {
+   "voz": "Para funcionar, puede utilizar gasolina, petróleo diésel, gas, electricidad, o una combinación de ellos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-energias"
+   },
+   "dato": "c2-08"
+  },
+  {
+   "voz": "El sistema de lubricación es el encargado de distribuir aceite a todas las partes móviles dentro del motor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-lubrica"
+   },
+   "dato": "c2-09"
+  },
+  {
+   "voz": "Su objetivo es reducir el desgaste y la fricción entre las superficies de los componentes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-friccion"
+   },
+   "dato": "c2-09"
+  },
+  {
+   "voz": "Esta distribución se realiza a presión. Cuando el motor no está siendo correctamente lubricado, se enciende en el panel la luz indicadora de la presión de aceite, lo que indica que el nivel de aceite es bajo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-luzaceite"
+   },
+   "dato": "c2-10"
+  },
+  {
+   "voz": "Si esta luz se enciende, debes detener el motor de inmediato, y no ponerlo en marcha hasta haberlo reparado, ya que le puedes causar averías graves.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-detener"
+   },
+   "dato": "c2-10"
+  },
+  {
+   "voz": "Por eso se recomienda controlar el nivel de aceite, y agregar más si el nivel está bajo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-varilla"
+   },
+   "dato": "c2-11"
+  },
+  {
+   "voz": "Además, cambiar periódicamente el aceite y el filtro, según las recomendaciones del fabricante del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cambio"
+   },
+   "dato": "c2-11"
+  },
+  {
+   "voz": "Vas conduciendo y se enciende la luz de la presión de aceite. ¿Qué debes hacer?",
+   "elige": {
+    "pregunta": "Se enciende la luz de presión de aceite. ¿Qué debes hacer?",
+    "opciones": [
+     "Detener el motor de inmediato y no usarlo hasta repararlo",
+     "Seguir a velocidad moderada hasta un taller",
+     "Revisar el nivel de aceite al llegar a destino"
+    ],
+    "bien": "Así es: hay que detener el motor de inmediato, y no ponerlo en marcha hasta repararlo.",
+    "mal": "Debes detener el motor de inmediato, y no ponerlo en marcha hasta haberlo reparado. Si sigues, le puedes causar averías graves."
+   }
+  }
+ ]
+}

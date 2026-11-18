@@ -1,0 +1,78 @@
+{
+ "id": "c2s11",
+ "titulo": "La energía del movimiento y las curvas",
+ "icono": "↪️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a entender qué fuerzas actúan sobre el vehículo en una curva, y por qué la velocidad importa tanto.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "↪️",
+    "texto": "La energía del movimiento y las curvas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Quienes viajan en un vehículo están sujetos a las leyes físicas del movimiento. Por ejemplo, un vehículo que se aproxima a una curva tiende a continuar su desplazamiento en línea recta.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-recta"
+   },
+   "dato": "c2-108"
+  },
+  {
+   "voz": "Al mover el volante, desvías esa trayectoria recta. Pero si conduces a una velocidad demasiado alta, la fricción puede no ser suficiente para mantener al vehículo en la carretera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-friccion2"
+   },
+   "dato": "c2-109"
+  },
+  {
+   "voz": "Al aumentar la velocidad al doble, la energía del movimiento aumenta cuatro veces. Por eso, al acercarte a una curva, costará más mantener la dirección.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-energia4"
+   },
+   "dato": "c2-110"
+  },
+  {
+   "voz": "La fuerza centrífuga, o fuerza lateral, que en una curva tiende a sacar al vehículo de la carretera, depende directamente de la velocidad, y de lo cerrada que sea la curva.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-centrifuga"
+   },
+   "dato": "c2-113"
+  },
+  {
+   "voz": "Al enfrentarte a una curva, reduce la velocidad con tiempo, antes de que comience la curva, y acelera suavemente a la salida.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-tomar"
+   },
+   "dato": "c2-111"
+  },
+  {
+   "voz": "Trata de prever el estado del camino: estima bien el radio de la curva, y presta atención a obstáculos como hojas caídas, derrames de combustible, o cualquier cosa que pueda hacer que la carretera esté resbaladiza.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-resbala"
+   },
+   "dato": "c2-112"
+  },
+  {
+   "voz": "Si duplicas la velocidad, ¿cuánto aumenta la energía del movimiento?",
+   "elige": {
+    "pregunta": "Si duplicas la velocidad, la energía del movimiento…",
+    "opciones": [
+     "Aumenta cuatro veces",
+     "Aumenta dos veces",
+     "Aumenta tres veces"
+    ],
+    "bien": "Así es: al doble de velocidad, cuatro veces más energía.",
+    "mal": "Al aumentar la velocidad al doble, la energía del movimiento aumenta cuatro veces."
+   }
+  }
+ ]
+}

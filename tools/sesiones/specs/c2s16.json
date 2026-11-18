@@ -1,0 +1,100 @@
+{
+ "id": "c2s16",
+ "titulo": "Uso correcto del cinturón y efecto submarino",
+ "icono": "🔗",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a ponerte bien el cinturón, y a evitar el efecto submarino.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔗",
+    "texto": "Uso correcto del cinturón"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La banda torácica debe pasar sobre la clavícula, a medio camino entre el hombro y el cuello, y descender por el centro del pecho.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-toracica"
+   },
+   "dato": "c2-146"
+  },
+  {
+   "voz": "Si se coloca sobre el hombro, puede deslizarse hacia fuera durante el siniestro, y reducir al mínimo su eficacia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-hombro"
+   },
+   "dato": "c2-147"
+  },
+  {
+   "voz": "La banda abdominal debe ir sobre los huesos de la cadera, siempre por debajo del abdomen, incluso en el caso de una persona embarazada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-abdominal"
+   },
+   "dato": "c2-148"
+  },
+  {
+   "voz": "Una vez abrochado, estira el cinturón ligeramente hacia arriba, para que quede bien ceñido. Si tiene holguras, recorrerás una mayor distancia durante el siniestro, y podrías impactar contra el volante o el parabrisas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-estirar"
+   },
+   "dato": [
+    "c2-149",
+    "c2-150"
+   ]
+  },
+  {
+   "voz": "El uso adecuado del cinturón evita el llamado efecto submarino: cuando la persona, durante frenadas bruscas o siniestros, se desliza por debajo de la banda abdominal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-submarino"
+   },
+   "dato": "c2-151"
+  },
+  {
+   "voz": "Para evitarlo, conduce en una postura adecuada: no reclines el asiento en exceso. No debes conducir semiacostado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-reclinar"
+   },
+   "dato": "c2-152"
+  },
+  {
+   "voz": "Para evitarlo, tampoco pongas toallas ni almohadones, sobre el asiento o detrás de la espalda, ni algunas fundas especiales. Y como el cinturón debe estar bien ajustado al cuerpo, evita conducir con ropa de mucho volumen.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-toallas"
+   },
+   "dato": [
+    "c2-153",
+    "c2-154"
+   ]
+  },
+  {
+   "voz": "Las personas que se ven impulsadas hacia adelante desde el asiento trasero no solo se lesionan a sí mismas: también pueden lesionar a quien conduce, o a quien viaja adelante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-atras"
+   },
+   "dato": "c2-155"
+  },
+  {
+   "voz": "¿Dónde debe ir la banda abdominal del cinturón?",
+   "elige": {
+    "pregunta": "¿Dónde debe ir la banda abdominal del cinturón?",
+    "opciones": [
+     "Sobre los huesos de la cadera, bajo el abdomen",
+     "Sobre el abdomen, a la altura del ombligo",
+     "Sobre los muslos, cerca de las rodillas"
+    ],
+    "bien": "Así es: sobre los huesos de la cadera, siempre por debajo del abdomen.",
+    "mal": "La banda abdominal va sobre los huesos de la cadera, siempre por debajo del abdomen, incluso en una persona embarazada."
+   }
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "c2s10",
+ "titulo": "Los espejos y antes de conducir",
+ "icono": "🪞",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los espejos, los puntos ciegos, y lo que debes revisar antes de conducir.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪞",
+    "texto": "Los espejos y antes de conducir"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La mayoría de los espejos laterales son convexos: las imágenes se ven más lejanas, o más pequeñas, de lo que están en la realidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-convexo"
+   },
+   "dato": "c2-97"
+  },
+  {
+   "voz": "Aun con los espejos muy bien regulados, siempre existirá una zona sobre la cual no tendrás visión. Estos sectores se llaman puntos ciegos, o ángulos muertos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ciegos"
+   },
+   "dato": "c2-98"
+  },
+  {
+   "voz": "Ten especial precaución con las y los usuarios vulnerables: peatones, ciclistas y motociclistas. No cuentan con una carrocería para protegerse.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-vulnerables"
+   },
+   "dato": "c2-99"
+  },
+  {
+   "voz": "Antes de conducir, controla: los cinturones de seguridad, los neumáticos, los espejos, el limpiaparabrisas, el desempañador de la luneta trasera, las puertas, la ventilación, las luces, la bocina, el líquido limpiaparabrisas, y los frenos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-controla"
+   },
+   "dato": "c2-100"
+  },
+  {
+   "voz": "Asegúrate de que, al tomar el volante, tus brazos queden ligeramente flexionados, y de tener un calzado que te permita un adecuado control de los pedales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-postura"
+   },
+   "dato": [
+    "c2-101",
+    "c2-104"
+   ]
+  },
+  {
+   "voz": "Debes tener buena visibilidad por el parabrisas, la luneta trasera y las ventanas. Si no es así, activa el ventilador, ajusta las boquillas del aire, y enciende el desempañador de la luneta trasera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-desempana"
+   },
+   "dato": "c2-107"
+  },
+  {
+   "voz": "Lleva los dispositivos reflectantes para emergencias, un extintor de incendio, la rueda de repuesto, y las herramientas para cambiarla. Y no lleves objetos sueltos, que puedan lesionar a alguien en una frenada brusca.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-llevar"
+   },
+   "dato": [
+    "c2-102",
+    "c2-103"
+   ]
+  },
+  {
+   "voz": "Ten las puertas cerradas; si llevas niñas o niños, que vayan bien sujetos, y que no puedan abrir las puertas desde el interior. Y antes de ponerte en movimiento, mira a tu alrededor y chequea los puntos ciegos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-puertas"
+   },
+   "dato": [
+    "c2-105",
+    "c2-106"
+   ]
+  },
+  {
+   "voz": "¿Cómo se ven los objetos en la mayoría de los espejos laterales?",
+   "elige": {
+    "pregunta": "¿Cómo se ven los objetos en la mayoría de los espejos laterales?",
+    "opciones": [
+     "Más lejanos o más pequeños de lo que son",
+     "Más cercanos o más grandes de lo que son",
+     "Exactamente a la distancia real"
+    ],
+    "bien": "Así es: como son convexos, muestran todo más lejano o más pequeño.",
+    "mal": "La mayoría de los espejos laterales son convexos: muestran las imágenes más lejanas, o más pequeñas, de lo que están."
+   }
+  }
+ ]
+}

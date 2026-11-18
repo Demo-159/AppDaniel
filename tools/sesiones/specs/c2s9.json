@@ -1,0 +1,97 @@
+{
+ "id": "c2s9",
+ "titulo": "Las luces",
+ "icono": "💡",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las luces que debe tener un automóvil, y cuándo usar las luces de advertencia de peligro y las neblineras.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💡",
+    "texto": "Las luces"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Todos los vehículos deben tener focos y luces exteriores para poder ver, y ser visto por las demás personas, cuando se conduce en la oscuridad o con visibilidad reducida.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-vervisto"
+   },
+   "dato": "c2-88"
+  },
+  {
+   "voz": "En la parte delantera, el automóvil debe tener dos focos que proyecten luces altas y bajas, dos luces de estacionamiento, y dos luces destellantes de viraje.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-delantera"
+   },
+   "dato": "c2-89"
+  },
+  {
+   "voz": "En la parte trasera: dos luces de estacionamiento, dos destellantes de viraje, dos de retroceso, dos luces rojas fijas, dos luces de freno, y una luz que ilumine la placa patente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-trasera"
+   },
+   "dato": "c2-91"
+  },
+  {
+   "voz": "Además, debe tener una tercera luz de freno, ubicada al centro de la luneta trasera.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-tercera"
+   },
+   "dato": "c2-90"
+  },
+  {
+   "voz": "Asegúrate de que tus luces estén limpias, funcionen, y estén bien ajustadas. Un mal ajuste puede encandilar a las demás personas usuarias de la vía, y causar un siniestro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ajuste"
+   },
+   "dato": "c2-92"
+  },
+  {
+   "voz": "Para controlar tus luces bajas, estaciona en un lugar plano, a unos diez metros de una pared. Enciende las luces bajas: el alto de la luz en la pared debe ser inferior a la altura de tus faros respecto del suelo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pared"
+   },
+   "dato": "c2-93"
+  },
+  {
+   "voz": "Las luces intermitentes de advertencia de peligro solo deben usarse cuando el vehículo está detenido por una falla o avería, o para advertir a quienes vienen detrás de un peligro más adelante. Úsalas solo el tiempo necesario, y nunca como excusa para un estacionamiento peligroso o ilegal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-peligro"
+   },
+   "dato": [
+    "c2-94",
+    "c2-95"
+   ]
+  },
+  {
+   "voz": "Las luces neblineras pueden usarse solo cuando la visibilidad está considerablemente reducida por la niebla, o por una lluvia torrencial, y deben apagarse tan pronto mejore la visibilidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-neblina"
+   },
+   "dato": "c2-96"
+  },
+  {
+   "voz": "¿Cuándo puedes usar las luces neblineras?",
+   "elige": {
+    "pregunta": "¿Cuándo puedes usar las luces neblineras?",
+    "opciones": [
+     "Con visibilidad muy reducida por niebla o lluvia torrencial",
+     "Siempre que conduzcas de noche por carretera",
+     "Cuando estés detenido por una falla o avería"
+    ],
+    "bien": "Así es: solo con visibilidad considerablemente reducida, y se apagan tan pronto mejora.",
+    "mal": "Las neblineras se usan solo con visibilidad considerablemente reducida, por niebla o lluvia torrencial, y se apagan tan pronto mejora."
+   }
+  }
+ ]
+}

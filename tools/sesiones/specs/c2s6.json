@@ -1,0 +1,100 @@
+{
+ "id": "c2s6",
+ "titulo": "La dirección, la suspensión y la amortiguación",
+ "icono": "🛞",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer la dirección, la suspensión y la amortiguación, y las señales de que algo anda mal.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛞",
+    "texto": "Dirección, suspensión y amortiguación"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El sistema de dirección transmite el movimiento del volante hacia las ruedas. Para que requiera el mínimo esfuerzo, existe un mecanismo auxiliar llamado servodirección.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-volante"
+   },
+   "dato": "c2-43"
+  },
+  {
+   "voz": "La dirección se desalinea con mayor rapidez cuando el vehículo es sometido a sobrecargas, cuando topa contra el borde de una solera u otro obstáculo, o cuando cae en hoyos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-desalinea"
+   },
+   "dato": "c2-44"
+  },
+  {
+   "voz": "Esto provoca que las ruedas produzcan vibraciones, y que aumente el desgaste de los neumáticos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-vibra"
+   },
+   "dato": "c2-44"
+  },
+  {
+   "voz": "Algunas señales de un defecto en la dirección, o de poca presión de aire en los neumáticos delanteros, son: sentir la dirección pesada, escuchar un chirrido excesivo al doblar, o que en un terreno plano el vehículo tienda a irse hacia un lado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-senales-dir"
+   },
+   "dato": "c2-45"
+  },
+  {
+   "voz": "La suspensión y la amortiguación mantienen en todo momento el contacto entre los neumáticos y la superficie de la calzada, garantizando la estabilidad del vehículo, y dando confort a quien conduce.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-suspension"
+   },
+   "dato": "c2-46"
+  },
+  {
+   "voz": "Un síntoma de amortiguadores en mal estado: al frenar, el vehículo se inclina hacia adelante y se levanta de atrás de forma excesiva.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-inclina"
+   },
+   "dato": "c2-47"
+  },
+  {
+   "voz": "Otros síntomas: circulando de noche, las luces oscilan de forma llamativa, y los neumáticos se desgastan irregularmente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-luces-osc"
+   },
+   "dato": [
+    "c2-48",
+    "c2-49"
+   ]
+  },
+  {
+   "voz": "Un amortiguador en malas condiciones aumenta la distancia de frenado, sobre todo con pavimento irregular o mojado; y si el vehículo tiene frenos ABS, este sistema pierde efectividad. Además, disminuye el confort, y la fatiga aparece con mayor facilidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-consec"
+   },
+   "dato": [
+    "c2-50",
+    "c2-51"
+   ]
+  },
+  {
+   "voz": "Al frenar, tu vehículo se inclina mucho hacia adelante y se levanta de atrás. ¿Qué indica?",
+   "elige": {
+    "pregunta": "Al frenar, se inclina mucho hacia adelante y se levanta de atrás. ¿Qué indica?",
+    "opciones": [
+     "Amortiguadores en mal estado",
+     "La dirección desalineada",
+     "Poca presión en los neumáticos delanteros"
+    ],
+    "bien": "Así es: es un síntoma de amortiguadores en mal estado.",
+    "mal": "Es un síntoma de amortiguadores en mal estado."
+   }
+  }
+ ]
+}

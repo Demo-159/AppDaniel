@@ -1,0 +1,86 @@
+{
+ "id": "c2s13",
+ "titulo": "La distancia de frenado y de detención",
+ "icono": "🛑",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer la distancia de frenado, y cómo se suma a la de reacción para dar la distancia de detención.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📏",
+    "texto": "La distancia de frenado y de detención"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La distancia de frenado es la distancia que recorre el vehículo desde que se presiona el pedal de freno, hasta su detención total.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-frenado"
+   },
+   "dato": "c2-122"
+  },
+  {
+   "voz": "La distancia de detención es la suma de la distancia de reacción, y la distancia de frenado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-detencion"
+   },
+   "dato": "c2-121"
+  },
+  {
+   "voz": "La distancia de frenado depende de la velocidad, del estado de la calzada, de la pendiente, del estado de los frenos y neumáticos, y de la forma de frenar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-factores"
+   },
+   "dato": "c2-123"
+  },
+  {
+   "voz": "La distancia de frenado crece al cuadrado con la velocidad. Si duplicas la velocidad, aumenta cuatro veces; si la triplicas, aumenta nueve veces.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cuadrado"
+   },
+   "dato": "c2-124"
+  },
+  {
+   "voz": "Y no es la misma en todo pavimento: en asfalto mojado, la distancia de frenado es mayor que en asfalto seco.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-mojado"
+   },
+   "dato": "c2-125"
+  },
+  {
+   "voz": "Quien planifica su conducción, disminuyendo a tiempo la presión sobre el acelerador y reduciendo su velocidad, hace menos uso del pedal de frenos, y aumenta su seguridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-planifica"
+   },
+   "dato": "c2-126"
+  },
+  {
+   "voz": "En una situación inesperada, al comenzar a frenar se debe presionar el freno con la mayor fuerza posible. Si el vehículo no tiene ABS, y se bloquean las ruedas, hay que reducir en seguida la presión sobre el pedal, soltándolo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-frenarbien"
+   },
+   "dato": "c2-127"
+  },
+  {
+   "voz": "Si triplicas la velocidad, ¿cuánto aumenta la distancia de frenado?",
+   "elige": {
+    "pregunta": "Si triplicas la velocidad, la distancia de frenado aumenta…",
+    "opciones": [
+     "Nueve veces",
+     "Tres veces",
+     "Seis veces"
+    ],
+    "bien": "Así es: crece al cuadrado. Al triple de velocidad, nueve veces.",
+    "mal": "La distancia de frenado crece al cuadrado: al triple de velocidad, aumenta nueve veces."
+   }
+  }
+ ]
+}

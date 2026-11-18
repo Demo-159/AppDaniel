@@ -1,0 +1,108 @@
+{
+ "id": "c2s5",
+ "titulo": "El escape y la transmisión",
+ "icono": "💨",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el sistema de escape, el peligro del monóxido de carbono, y cómo llega la fuerza del motor a las ruedas.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💨",
+    "texto": "El escape y la transmisión"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El sistema de escape es el conjunto de elementos y conductos que expulsan al exterior los gases que se generaron en la combustión, con el fin de mejorar el rendimiento del motor y su sonoridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-escape"
+   },
+   "dato": "c2-33"
+  },
+  {
+   "voz": "Estos gases contienen sustancias tóxicas, entre ellas el monóxido de carbono: un componente venenoso, incoloro e inodoro. No se ve, ni se huele.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-monoxido"
+   },
+   "dato": "c2-34"
+  },
+  {
+   "voz": "Un ruido anormalmente alto del tubo de escape suele ser una señal de roturas o de orificios en el silenciador.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ruido"
+   },
+   "dato": "c2-35"
+  },
+  {
+   "voz": "El escape es propenso a oxidarse o a estropearse, y entonces este gas puede entrar al interior del vehículo. Lo mismo puede ocurrir al conducir con el portaequipaje abierto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-maletero"
+   },
+   "dato": "c2-36"
+  },
+  {
+   "voz": "Los primeros síntomas de intoxicación con monóxido de carbono son el dolor de cabeza y los vómitos. A la menor señal, sal del vehículo y respira aire fresco.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-intox"
+   },
+   "dato": "c2-37"
+  },
+  {
+   "voz": "La transmisión es el sistema encargado de transferir la potencia que genera el motor a las ruedas. Hay vehículos de tracción delantera, de tracción trasera, y también de tracción en las cuatro ruedas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-traccion"
+   },
+   "dato": "c2-38"
+  },
+  {
+   "voz": "La energía llega a las ruedas de tracción a través del embrague: el sistema, con su pedal, que permite la transmisión o interrupción de la energía hacia las ruedas. Al conducir presionando el embrague más tiempo del necesario, se reduce el control sobre el vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-embrague"
+   },
+   "dato": [
+    "c2-39",
+    "c2-40"
+   ]
+  },
+  {
+   "voz": "Las cajas de cambios pueden ser manuales o automáticas; los vehículos automáticos no tienen pedal de embrague. La caja de cambios multiplica la fuerza del motor, y puede tener tres, cuatro, cinco o más marchas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-caja"
+   },
+   "dato": [
+    "c2-41",
+    "c2-42"
+   ]
+  },
+  {
+   "voz": "Cada marcha se utiliza en un rango de velocidades, lo que permite optimizar el uso de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-marchas"
+   },
+   "dato": "c2-42"
+  },
+  {
+   "voz": "¿Por qué es tan peligroso el monóxido de carbono de los gases de escape?",
+   "elige": {
+    "pregunta": "¿Por qué es tan peligroso el monóxido de carbono?",
+    "opciones": [
+     "Es venenoso, y no se ve ni se huele",
+     "Es inflamable, pero se nota por su olor",
+     "Es venenoso, pero se ve como humo negro"
+    ],
+    "bien": "Así es: es venenoso, incoloro e inodoro.",
+    "mal": "El monóxido de carbono es venenoso, incoloro e inodoro: no se ve, ni se huele."
+   }
+  }
+ ]
+}

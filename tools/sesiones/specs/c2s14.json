@@ -1,0 +1,102 @@
+{
+ "id": "c2s14",
+ "titulo": "La fuerza de gravedad y las características del vehículo",
+ "icono": "⛰️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo influyen en la conducción las pendientes, el centro de gravedad, y la tracción del vehículo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⛰️",
+    "texto": "Gravedad y características del vehículo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Cuando veas señales que adviertan sobre pendientes pronunciadas, tómate tiempo para bajarlas. A veces es necesario conducir en una marcha baja, para que el motor vaya frenando y no se calienten los frenos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pendiente"
+   },
+   "dato": "c2-128"
+  },
+  {
+   "voz": "Recuerda: nunca desenganches el motor, ya que pierdes el control del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-desenganchar"
+   },
+   "dato": "c2-129"
+  },
+  {
+   "voz": "Antes de conducir un auto desconocido, hazte estas preguntas: ¿tiene tracción delantera, trasera o en las cuatro ruedas? ¿Qué tipo de sistema de frenos tiene? ¿Dónde está su centro de gravedad?",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-preguntas"
+   },
+   "dato": "c2-130"
+  },
+  {
+   "voz": "El centro de gravedad es el punto donde se encuentra el mayor peso del vehículo. Un vehículo con motor delantero es más pesado adelante, y tiene tendencia a girar menos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cg"
+   },
+   "dato": "c2-131"
+  },
+  {
+   "voz": "Por eso, si colocas una carga pesada en su parte trasera, tenderá a girar más de lo esperado; y al perder la fricción con el pavimento, puede dar un giro de ciento ochenta grados.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cargatrasera"
+   },
+   "dato": "c2-132"
+  },
+  {
+   "voz": "Otro factor que puede influir en que un vehículo gire más o menos de lo esperado es la presión de aire en sus neumáticos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-presiongiro"
+   },
+   "dato": "c2-134"
+  },
+  {
+   "voz": "Con tracción delantera, si aceleras más de lo que permite la fricción, las ruedas resbalan, y puedes perder el control y no poder girar. Si esto sucede, deja de acelerar y retoma tu trayectoria.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-delantera-res"
+   },
+   "dato": "c2-133"
+  },
+  {
+   "voz": "Con tracción trasera, si las ruedas pierden fricción, pueden producirse coletazos. En ese caso, continúa acelerando, y gira la dirección hacia la trayectoria.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-trasera-cole"
+   },
+   "dato": "c2-135"
+  },
+  {
+   "voz": "Un vehículo con tracción en las cuatro ruedas se conduce considerablemente mejor en pavimentos difíciles. En lo demás, se comporta igual que el resto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-4x4"
+   },
+   "dato": "c2-136"
+  },
+  {
+   "voz": "En un auto de tracción trasera, las ruedas pierden fricción y hay coletazos. ¿Qué haces?",
+   "elige": {
+    "pregunta": "Tracción trasera: las ruedas pierden fricción y hay coletazos. ¿Qué haces?",
+    "opciones": [
+     "Sigo acelerando y giro hacia la trayectoria",
+     "Dejo de acelerar y retomo la trayectoria",
+     "Freno fuerte y giro hacia el lado contrario"
+    ],
+    "bien": "Así es: con tracción trasera, sigues acelerando y giras hacia la trayectoria. Con tracción delantera, en cambio, dejas de acelerar.",
+    "mal": "Con tracción trasera, continúas acelerando y giras la dirección hacia la trayectoria. Dejar de acelerar es lo que se hace con tracción delantera."
+   }
+  }
+ ]
+}

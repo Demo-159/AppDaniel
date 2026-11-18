@@ -1,0 +1,105 @@
+{
+ "id": "c2s17",
+ "titulo": "Excusas para no usar el cinturón",
+ "icono": "🗣️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver las excusas más comunes para no usar el cinturón, y por qué ninguna se sostiene.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🗣️",
+    "texto": "Excusas para no usar el cinturón"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Primera excusa: sobrevivir depende de la suerte. Pero el estudio de miles de siniestros demuestra que quienes no usan el cinturón tienen el doble de probabilidad de fallecer.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-suerte"
+   },
+   "dato": "c2-156"
+  },
+  {
+   "voz": "Otra: es más seguro salir eyectado. Pero si sales eyectado por no usar cinturón, la probabilidad de una lesión medular aumenta en un mil trescientos por ciento; y la de fallecer, en un trescientos por ciento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-eyectado"
+   },
+   "dato": [
+    "c2-157",
+    "c2-158"
+   ]
+  },
+  {
+   "voz": "Otra: el cinturón te deja atrapado. Pero los estudios revelan que solo en un siniestro de cada millón, llevar el cinturón puede ser negativo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-millon"
+   },
+   "dato": "c2-159"
+  },
+  {
+   "voz": "Otra: en la ciudad no hace falta. Pero cerca del ochenta por ciento de los siniestros con víctimas ocurre en zonas urbanas, y un golpe frontal a solo treinta o cuarenta kilómetros por hora podría resultar mortal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-urbano"
+   },
+   "dato": "c2-160"
+  },
+  {
+   "voz": "Otra: el recorrido es corto. Pero la mayoría de los siniestros con víctimas se producen a pocos kilómetros de casa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-corto"
+   },
+   "dato": "c2-161"
+  },
+  {
+   "voz": "Otra: mi auto tiene muchos sistemas de seguridad. Pero ningún dispositivo es capaz de sustituir al cinturón; todos están diseñados para funcionar junto con él.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-sistemas"
+   },
+   "dato": "c2-162"
+  },
+  {
+   "voz": "Otra: el cinturón es incómodo. Pero, en la medida en que lo uses habitualmente, esa incomodidad inicial desaparecerá.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-incomodo"
+   },
+   "dato": "c2-163"
+  },
+  {
+   "voz": "Otra: durante el embarazo es peligroso. Al contrario: el riesgo de lesionar y perder al bebé en un siniestro es mayor si no se usa.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-embarazo"
+   },
+   "dato": "c2-164"
+  },
+  {
+   "voz": "Y la última: atrás no hace falta. Pero, en un siniestro, quienes van atrás sin cinturón pueden salir eyectados, y golpear mortalmente a las demás personas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-traseros2"
+   },
+   "dato": "c2-165"
+  },
+  {
+   "voz": "Quienes no usan el cinturón, ¿cuánta probabilidad tienen de fallecer en un siniestro?",
+   "elige": {
+    "pregunta": "Sin cinturón, la probabilidad de fallecer en un siniestro es…",
+    "opciones": [
+     "El doble",
+     "La misma",
+     "El triple"
+    ],
+    "bien": "Así es: el doble de probabilidad.",
+    "mal": "Quienes no usan el cinturón tienen el doble de probabilidad de fallecer."
+   }
+  }
+ ]
+}

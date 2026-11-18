@@ -1,0 +1,78 @@
+{
+ "id": "c2s19",
+ "titulo": "Los apoya cabezas",
+ "icono": "💺",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el efecto latigazo, y cómo regular el apoya cabezas para prevenirlo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "💺",
+    "texto": "Los apoya cabezas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Cuando un vehículo recibe un impacto por atrás, el asiento empuja el cuerpo hacia adelante. Si la cabeza no está apoyada, el cuello sufre un violento cambio de dirección. Este movimiento se denomina efecto latigazo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-latigazo"
+   },
+   "dato": "c2-175"
+  },
+  {
+   "voz": "La forma de prevenir este efecto, y las lesiones cervicales asociadas, es usando los apoya cabezas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-prevenir"
+   },
+   "dato": "c2-176"
+  },
+  {
+   "voz": "Las lesiones del latigazo pueden ser muy graves: si se dañan las vértebras cervicales, la persona podría sufrir una discapacidad irreversible, como una tetraplejia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-tetraplejia"
+   },
+   "dato": "c2-177"
+  },
+  {
+   "voz": "El borde superior del apoya cabezas debe quedar entre el límite superior de la cabeza, y la altura de los ojos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-altura"
+   },
+   "dato": "c2-178"
+  },
+  {
+   "voz": "Nunca lo ubiques por debajo de tu cabeza: su efectividad se reduce drásticamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-debajo"
+   },
+   "dato": "c2-179"
+  },
+  {
+   "voz": "Y la separación entre la cabeza y el apoya cabezas debe ser la mínima posible, y nunca superior a cuatro centímetros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-4cm"
+   },
+   "dato": "c2-180"
+  },
+  {
+   "voz": "¿Cuál es la separación máxima entre tu cabeza y el apoya cabezas?",
+   "elige": {
+    "pregunta": "¿Cuál es la separación máxima entre la cabeza y el apoya cabezas?",
+    "opciones": [
+     "4 cm",
+     "10 cm",
+     "15 cm"
+    ],
+    "bien": "Así es: la mínima posible, y nunca más de cuatro centímetros.",
+    "mal": "La separación debe ser la mínima posible, y nunca superior a cuatro centímetros."
+   }
+  }
+ ]
+}

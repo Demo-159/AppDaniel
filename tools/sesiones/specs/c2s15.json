@@ -1,0 +1,102 @@
+{
+ "id": "c2s15",
+ "titulo": "Seguridad activa y pasiva; el cinturón",
+ "icono": "🦺",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a distinguir la seguridad activa de la pasiva, y a ver lo que significa chocar sin cinturón.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🦺",
+    "texto": "Seguridad activa y pasiva"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Los elementos de seguridad activa son los sistemas que sirven para prevenir la ocurrencia de un siniestro. Por ejemplo: los neumáticos, los frenos y las luces.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-activa"
+   },
+   "dato": "c2-137"
+  },
+  {
+   "voz": "Los de seguridad pasiva contribuyen a evitar o reducir las consecuencias de un siniestro. Por ejemplo, el cinturón de seguridad y el airbag.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pasiva"
+   },
+   "dato": "c2-138"
+  },
+  {
+   "voz": "Los cinturones tienen la función de salvar vidas, y disminuir las posibilidades de sufrir lesiones. Además, brindan mayor comodidad, mejor control, y contribuyen a reducir el cansancio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cinturon"
+   },
+   "dato": "c2-139"
+  },
+  {
+   "voz": "Todas las personas deben ir bien sujetas, incluso en los asientos traseros. Nunca permitas que dos personas viajen sujetas con un mismo cinturón.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-todos"
+   },
+   "dato": "c2-140"
+  },
+  {
+   "voz": "El uso del cinturón en los asientos traseros es obligatorio solo si el vehículo tiene un año de fabricación dos mil dos, o posterior.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-2002"
+   },
+   "dato": "c2-141"
+  },
+  {
+   "voz": "Un choque a cincuenta kilómetros por hora sin cinturón es como tirarse a la calle desde un cuarto piso, sin red de seguridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pisos"
+   },
+   "dato": "c2-142"
+  },
+  {
+   "voz": "A setenta kilómetros por hora, equivale a lanzarse desde un séptimo piso.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pisos7"
+   },
+   "dato": "c2-143"
+  },
+  {
+   "voz": "Y chocar a noventa kilómetros por hora provoca los mismos efectos que una caída desde el piso once.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pisos11"
+   },
+   "dato": "c2-144"
+  },
+  {
+   "voz": "Después de un siniestro, el cinturón podría estar dañado, y su uso ya no ser seguro. En ese caso, debes reemplazarlo por uno nuevo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-reemplazar"
+   },
+   "dato": "c2-145"
+  },
+  {
+   "voz": "¿Cuál de estos es un elemento de seguridad pasiva?",
+   "elige": {
+    "pregunta": "¿Cuál de estos es un elemento de seguridad pasiva?",
+    "opciones": [
+     "El airbag",
+     "Los frenos",
+     "Las luces"
+    ],
+    "bien": "Así es: el airbag, como el cinturón, reduce las consecuencias de un siniestro.",
+    "mal": "El airbag es de seguridad pasiva: reduce las consecuencias. Los frenos y las luces son de seguridad activa: previenen el siniestro."
+   }
+  }
+ ]
+}

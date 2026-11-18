@@ -1,0 +1,142 @@
+{
+ "id": "c2s7",
+ "titulo": "Los frenos",
+ "icono": "🛑",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los frenos: los dos sistemas que tiene todo vehículo, el ABS, y qué debes controlar.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛑",
+    "texto": "Los frenos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Todos los vehículos tienen dos sistemas de frenos, que actúan independientemente uno del otro: el freno de servicio, que es el pedal de freno, y el freno de estacionamiento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-dosfrenos"
+   },
+   "dato": "c2-52"
+  },
+  {
+   "voz": "Los vehículos antiguos tienen un solo circuito hidráulico: si la tubería se rompe, se pierde el frenado en todas las ruedas. Los vehículos modernos tienen frenos de dos circuitos: si falla uno, se mantiene cierto efecto de frenado en el otro.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-circuitos"
+   },
+   "dato": "c2-53"
+  },
+  {
+   "voz": "Muchos automóviles tienen servofrenos, que aumentan considerablemente la fuerza de frenado. Esta tecnología funciona solo con el motor en marcha. Por eso hay que tener cuidado al ser remolcado, o si el motor se detiene en una bajada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-servofreno"
+   },
+   "dato": "c2-54"
+  },
+  {
+   "voz": "El freno de estacionamiento, o freno de mano, inmoviliza el vehículo cuando está estacionado, para evitar que se desplace accidentalmente, especialmente en pendientes. Suele actuar directamente sobre las ruedas traseras, bloqueándolas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-mano"
+   },
+   "dato": [
+    "c2-55",
+    "c2-56"
+   ]
+  },
+  {
+   "voz": "Si circulas por una calle inundada, o si lavaste el vehículo recientemente, debes eliminar, también frenando, la eventual humedad en los tambores.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-humedad"
+   },
+   "dato": "c2-57"
+  },
+  {
+   "voz": "Existen dos tipos de frenos: los convencionales, y los frenos antibloqueo, o ABS. Funcionan de forma distinta; por eso es de suma importancia saber qué tipo de frenos tiene el vehículo en el que te desplazas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-tipos"
+   },
+   "dato": "c2-58"
+  },
+  {
+   "voz": "En una frenada brusca, uno de los mayores riesgos es que las ruedas se bloqueen y se deslicen sobre el pavimento. Entonces la distancia de frenado aumenta notablemente, y es imposible controlar la dirección.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-bloqueo"
+   },
+   "dato": "c2-59"
+  },
+  {
+   "voz": "El ABS detecta el instante en que las ruedas se bloquean, y reduce ligeramente la presión sobre los frenos, mientras mantienes el pedal presionado a fondo. Así, las ruedas siguen girando, y mantienes el control de la dirección. Si el ABS llegara a fallar, los frenos seguirán funcionando.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-abs"
+   },
+   "dato": [
+    "c2-60",
+    "c2-61"
+   ]
+  },
+  {
+   "voz": "Controla el nivel del líquido de frenos. Este no se consume: si disminuye, es porque hay algún defecto mecánico. Y respeta sus plazos: una vez que caducan, debes cambiar todo el contenido.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-liquido"
+   },
+   "dato": [
+    "c2-62",
+    "c2-67"
+   ]
+  },
+  {
+   "voz": "Revisa el pedal. Lo aceptable es que puedas presionarlo hasta más arriba de la mitad de su distancia al piso. Si desciende cuando lo tienes fuertemente presionado, puede haber fugas. Y debe sentirse rígido, no elástico: si cede, probablemente entró aire al sistema.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-pedal"
+   },
+   "dato": [
+    "c2-63",
+    "c2-65",
+    "c2-66"
+   ]
+  },
+  {
+   "voz": "Los frenos deben actuar en forma pareja sobre las cuatro ruedas. Si están mal ajustados, en una frenada brusca el vehículo puede desviarse hacia un costado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-parejo"
+   },
+   "dato": "c2-64"
+  },
+  {
+   "voz": "Comprueba que el freno de mano mantenga el vehículo quieto en una pendiente. Y haz pruebas de frenado a baja velocidad si circulaste por vías inundadas, si lavaste el vehículo, o si estuvo guardado por un largo tiempo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-mano-prueba"
+   },
+   "dato": [
+    "c2-68",
+    "c2-69"
+   ]
+  },
+  {
+   "voz": "Frenas fuerte en un auto sin ABS, y las ruedas se bloquean. ¿Qué pasa?",
+   "elige": {
+    "pregunta": "En una frenada brusca, las ruedas se bloquean. ¿Qué pasa?",
+    "opciones": [
+     "Aumenta la distancia de frenado y no puedes controlar la dirección",
+     "Se acorta la distancia de frenado, pero no puedes girar",
+     "Las ruedas siguen girando y mantienes el control"
+    ],
+    "bien": "Así es: con las ruedas bloqueadas, la distancia de frenado aumenta notablemente, y es imposible controlar la dirección.",
+    "mal": "Con las ruedas bloqueadas, la distancia de frenado aumenta notablemente, y es imposible controlar la dirección."
+   }
+  }
+ ]
+}

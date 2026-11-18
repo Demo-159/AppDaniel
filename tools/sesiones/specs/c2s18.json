@@ -1,0 +1,92 @@
+{
+ "id": "c2s18",
+ "titulo": "El airbag",
+ "icono": "🎈",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el airbag: cómo te protege, y por qué necesita del cinturón.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🎈",
+    "texto": "El airbag"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El airbag es una bolsa de aire que se infla en apenas unas milésimas de segundo al producirse un impacto. Hay de diferentes tipos: laterales, para la cabeza, frontales, traseros, entre otros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-infla"
+   },
+   "dato": "c2-166"
+  },
+  {
+   "voz": "Evita el impacto de las y los ocupantes contra el volante, el tablero, el parabrisas o las ventanas. Y protege la cara y los ojos de los fragmentos de cristal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-protege"
+   },
+   "dato": [
+    "c2-168",
+    "c2-169"
+   ]
+  },
+  {
+   "voz": "La bolsa se infla a una velocidad de hasta trescientos kilómetros por hora. Si el cinturón no retiene a la persona, el airbag puede provocarle graves lesiones. Por eso, el airbag no es eficaz si no se usa junto con el cinturón.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-300"
+   },
+   "dato": [
+    "c2-170",
+    "c2-167"
+   ]
+  },
+  {
+   "voz": "La eficacia del airbag frontal se basa en la combinación de tres cosas: usar el cinturón, una buena posición de las manos frente al volante, y el apoya cabezas regulado al nivel de las orejas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-eficacia"
+   },
+   "dato": "c2-171"
+  },
+  {
+   "voz": "Se estima que el airbag frontal, junto con el cinturón, puede llegar a reducir un veinte por ciento la probabilidad de sufrir lesiones mortales.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-20"
+   },
+   "dato": "c2-172"
+  },
+  {
+   "voz": "Cuando el sistema de airbag presente fallas, se prenderá el testigo del airbag, y debe ser revisado a la brevedad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-testigoairbag"
+   },
+   "dato": "c2-173"
+  },
+  {
+   "voz": "Nunca pongas un sistema de retención infantil en el asiento delantero, salvo en vehículos de cabina simple, y siempre que se haya desactivado el airbag previamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-sri"
+   },
+   "dato": "c2-174"
+  },
+  {
+   "voz": "¿Por qué el airbag no es eficaz sin el cinturón?",
+   "elige": {
+    "pregunta": "¿Por qué el airbag no es eficaz sin el cinturón?",
+    "opciones": [
+     "Se infla tan rápido que puede lesionar a quien no está retenido",
+     "Porque solo se infla si el cinturón está abrochado",
+     "Porque sin cinturón se infla demasiado tarde"
+    ],
+    "bien": "Así es: se infla a hasta trescientos kilómetros por hora, y si el cinturón no te retiene, puede provocarte graves lesiones.",
+    "mal": "El airbag se infla a hasta trescientos kilómetros por hora. Si el cinturón no te retiene, puede provocarte graves lesiones."
+   }
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "id": "c2s8",
+ "titulo": "Los neumáticos",
+ "icono": "🛞",
+ "minutos": 5,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a revisar los neumáticos, y qué hacer si uno revienta.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛞",
+    "texto": "Los neumáticos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Los neumáticos son el único punto de apoyo del vehículo con la calzada; por eso es de vital importancia controlarlos regularmente. De todos los elementos del vehículo, son los que requieren mayor revisión de parte de quien conduce.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-apoyo"
+   },
+   "dato": [
+    "c2-70",
+    "c2-71"
+   ]
+  },
+  {
+   "voz": "Los dibujos, o surcos, de la banda de rodamiento deben tener una profundidad aconsejable mínima de tres milímetros. Cuando es inferior a uno coma seis milímetros, empeora la fricción con el pavimento mojado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-surcos"
+   },
+   "dato": "c2-72"
+  },
+  {
+   "voz": "También es importante revisar la presión del aire: debe ser constante durante todo el año. Una baja presión en una rueda delantera hace que el vehículo tienda a torcer hacia ese lado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-presion"
+   },
+   "dato": [
+    "c2-73",
+    "c2-74"
+   ]
+  },
+  {
+   "voz": "El desgaste te dice cómo se usó el neumático. Un desgaste notorio en la zona central de la banda significa que se usó con exceso de aire; un desgaste solo en los extremos, que se usó con menos presión de la recomendada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-desgaste"
+   },
+   "dato": "c2-75"
+  },
+  {
+   "voz": "Un desgaste irregular puede deberse a problemas de alineamiento, de amortiguación, o a una presión de aire inadecuada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-irregular"
+   },
+   "dato": "c2-76"
+  },
+  {
+   "voz": "Si al ir conduciendo se revienta un neumático trasero, debes girar el volante hacia el lado en que se desvía la cola del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-revienta-t"
+   },
+   "dato": "c2-77"
+  },
+  {
+   "voz": "Si se revienta un neumático delantero, debes frenar de forma suave, sosteniendo el volante firmemente. En ambos casos, detente lentamente al costado de la vía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-revienta-d"
+   },
+   "dato": "c2-78"
+  },
+  {
+   "voz": "Controla la presión cuando los neumáticos estén fríos. Si la ajustas cuando están calientes, tendrás una presión inferior a la adecuada.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-frios"
+   },
+   "dato": "c2-79"
+  },
+  {
+   "voz": "Circular a una velocidad moderada alarga la vida de los neumáticos. En cambio, circular con carga, por un pavimento en mal estado, o con un clima caluroso, puede acelerar su desgaste.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-vida"
+   },
+   "dato": [
+    "c2-80",
+    "c2-81"
+   ]
+  },
+  {
+   "voz": "Cuando llevas una carga muy pesada, aumenta levemente la presión. Y si subes escalones o veredas con el vehículo, pueden producirse deformaciones en las llantas, y cortes o roturas en los neumáticos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-carga"
+   },
+   "dato": [
+    "c2-82",
+    "c2-85"
+   ]
+  },
+  {
+   "voz": "Si notas algo anormal, como vibraciones al circular, es bueno buscar asesoría de un profesional: podría haber un problema de desbalanceo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-desbalanceo"
+   },
+   "dato": "c2-83"
+  },
+  {
+   "voz": "Los neumáticos deben cambiarse al menos cada cinco años. Aunque tengan poco uso y su dibujo esté bien, el material envejece, y pierden sus propiedades para rodar con seguridad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cincoanos"
+   },
+   "dato": "c2-84"
+  },
+  {
+   "voz": "Deja la rueda de repuesto con la presión más alta sugerida, y si la usas, no excedas la velocidad máxima indicada por el fabricante. La presión apropiada está en el manual del fabricante, o en una tabla en el marco de la puerta de quien conduce, en la guantera, o en el compartimento del motor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-repuesto"
+   },
+   "dato": [
+    "c2-86",
+    "c2-87"
+   ]
+  },
+  {
+   "voz": "Vas conduciendo y se revienta un neumático trasero. ¿Qué debes hacer?",
+   "elige": {
+    "pregunta": "Se revienta un neumático trasero. ¿Qué debes hacer?",
+    "opciones": [
+     "Girar el volante hacia el lado en que se desvía la cola",
+     "Girar el volante hacia el lado contrario de la cola",
+     "Frenar a fondo y mantener el volante recto"
+    ],
+    "bien": "Así es: con un neumático trasero, giras hacia el lado en que se desvía la cola, y te detienes lentamente al costado de la vía.",
+    "mal": "Con un neumático trasero reventado, debes girar el volante hacia el lado en que se desvía la cola del vehículo, y detenerte lentamente al costado de la vía."
+   }
+  }
+ ]
+}

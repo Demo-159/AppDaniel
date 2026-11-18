@@ -1,0 +1,93 @@
+{
+ "id": "c2s1",
+ "titulo": "El panel de instrumentos",
+ "icono": "🎛️",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el panel de instrumentos: qué indica cada instrumento, y qué significa el color de cada testigo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🎛️",
+    "texto": "El panel de instrumentos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Para conducir de manera segura, debes conocer el panel de instrumentos, ya que es el medio de comunicación que fue diseñado para alertarte sobre el estado de los principales sistemas del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-panel"
+   },
+   "dato": "c2-01"
+  },
+  {
+   "voz": "El velocímetro mide y muestra el valor de la rapidez instantánea del vehículo: qué tan rápido vas en este momento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-velocimetro"
+   },
+   "dato": "c2-06"
+  },
+  {
+   "voz": "El tacómetro, en cambio, no muestra la rapidez del vehículo, sino la velocidad del motor, en revoluciones por minuto.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-tacometro"
+   },
+   "dato": "c2-02"
+  },
+  {
+   "voz": "El odómetro indica la distancia total o parcial recorrida por el vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-odometro"
+   },
+   "dato": "c2-05"
+  },
+  {
+   "voz": "El panel también tiene testigos: pequeñas luces que se encienden para avisarte algo. Lo que te dicen depende de su color.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-testigos"
+   }
+  },
+  {
+   "voz": "Los testigos de color rojo informan atención inmediata: una avería grave.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-rojo"
+   },
+   "dato": "c2-03"
+  },
+  {
+   "voz": "Los testigos de color amarillo o ámbar advierten sobre un posible problema a revisar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ambar"
+   },
+   "dato": "c2-07"
+  },
+  {
+   "voz": "Y los testigos de color verde indican la puesta en funcionamiento, por ejemplo, de las luces.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-verde"
+   },
+   "dato": "c2-04"
+  },
+  {
+   "voz": "Se enciende un testigo rojo en el panel. ¿Qué te está informando?",
+   "elige": {
+    "pregunta": "Se enciende un testigo rojo. ¿Qué te informa?",
+    "opciones": [
+     "Atención inmediata: una avería grave",
+     "Un posible problema a revisar",
+     "La puesta en funcionamiento de un sistema"
+    ],
+    "bien": "Así es: el rojo informa atención inmediata, una avería grave.",
+    "mal": "El rojo informa atención inmediata, una avería grave. El amarillo o ámbar advierte un posible problema, y el verde indica la puesta en funcionamiento."
+   }
+  }
+ ]
+}

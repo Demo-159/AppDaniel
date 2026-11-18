@@ -1,0 +1,121 @@
+{
+ "id": "c2s4",
+ "titulo": "El combustible y la refrigeración",
+ "icono": "⛽",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el sistema de combustible, y el sistema que enfría el motor: la refrigeración.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⛽",
+    "texto": "El combustible y la refrigeración"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El sistema de combustible suministra combustible al motor. Si al conducir sientes un fuerte olor a gasolina, debes detenerte para investigar la causa del problema. Así puedes prevenir el riesgo de incendio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-olor"
+   },
+   "dato": "c2-21"
+  },
+  {
+   "voz": "Al cargar gasolina, recuerda: apagar el motor, evitar la inhalación de los vapores de la gasolina, no encender cigarrillos, y no hablar por celular.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-cargar"
+   },
+   "dato": "c2-22"
+  },
+  {
+   "voz": "Evita abrir la tapa más veces de lo necesario. Los vapores de la gasolina pueden ser cancerígenos, y además son inflamables.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-vapores"
+   },
+   "dato": "c2-25"
+  },
+  {
+   "voz": "Para reducir la contaminación, llena el estanque cada vez que vayas a recargar: contaminará menos al liberar menos gases. Y evita frenadas y aceleraciones frecuentes, ya que causan alto consumo de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-llenar"
+   },
+   "dato": [
+    "c2-26",
+    "c2-27"
+   ]
+  },
+  {
+   "voz": "Recuerda usar el octanaje adecuado al motor de tu vehículo, según las indicaciones del fabricante.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-octanaje"
+   },
+   "dato": "c2-23"
+  },
+  {
+   "voz": "En el indicador de combustible, la letra E significa vacío, del inglés empty; y la letra F indica estanque lleno, del inglés full.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ef"
+   },
+   "dato": "c2-24"
+  },
+  {
+   "voz": "El sistema de refrigeración enfría el motor. Usa un líquido refrigerante, agua destilada más un anticongelante, que circula por canales en el bloque del motor, y pasa desde ahí al radiador.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-refrigera"
+   },
+   "dato": "c2-28"
+  },
+  {
+   "voz": "Si hay una obstrucción del sistema, poco líquido refrigerante, o una correa de la bomba de agua rota o mal tensada, la temperatura del motor se eleva. Si esto sucede, debes detener la marcha y reparar la avería.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-calienta"
+   },
+   "dato": "c2-29"
+  },
+  {
+   "voz": "La mayoría de los vehículos tiene un ventilador eléctrico que se activa al subir la temperatura, especialmente al circular a baja velocidad. Si no se activa, puede deberse a un contacto defectuoso, a que la correa del ventilador esté dañada, o a un fusible dañado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ventilador"
+   },
+   "dato": "c2-30"
+  },
+  {
+   "voz": "En el indicador de temperatura, la letra C significa frío, del inglés cold; y la letra H, caliente, del inglés hot.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-ch"
+   },
+   "dato": "c2-31"
+  },
+  {
+   "voz": "Y a temperaturas bajo cero, el líquido refrigerante debe contener suficiente anticongelante, para que el motor y el radiador no se dañen por la congelación del agua.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-congela"
+   },
+   "dato": "c2-32"
+  },
+  {
+   "voz": "La temperatura del motor se eleva mientras conduces. ¿Qué debes hacer?",
+   "elige": {
+    "pregunta": "La temperatura del motor se eleva. ¿Qué debes hacer?",
+    "opciones": [
+     "Detener la marcha y reparar la avería",
+     "Seguir y agregar refrigerante al llegar",
+     "Bajar la velocidad y seguir hasta tu destino"
+    ],
+    "bien": "Así es: si la temperatura del motor se eleva, debes detener la marcha y reparar la avería.",
+    "mal": "Si la temperatura del motor se eleva, debes detener la marcha y reparar la avería."
+   }
+  }
+ ]
+}

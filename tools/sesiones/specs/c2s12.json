@@ -1,0 +1,89 @@
+{
+ "id": "c2s12",
+ "titulo": "La distancia de reacción",
+ "icono": "⏱️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender qué es la distancia de reacción, y una regla para calcularla de forma aproximada.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⏱️",
+    "texto": "La distancia de reacción"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La distancia de reacción es la distancia que recorre el vehículo, manteniendo su trayectoria y velocidad, mientras la persona conductora reacciona frente a una situación.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-reaccion"
+   },
+   "dato": "c2-114"
+  },
+  {
+   "voz": "Depende de dos cosas: del tiempo de reacción de la persona, y de la velocidad a la que circula.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-depende"
+   },
+   "dato": "c2-115"
+  },
+  {
+   "voz": "Un tiempo normal de reacción es un segundo. En ese segundo, un vehículo a treinta y seis kilómetros por hora recorre diez metros; y a setenta y dos kilómetros por hora, veinte metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-unseg"
+   },
+   "dato": [
+    "c2-116",
+    "c2-117"
+   ]
+  },
+  {
+   "voz": "Además, la experiencia en conducción permite tener mejores tiempos de reacción.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-experiencia"
+   },
+   "dato": "c2-118"
+  },
+  {
+   "voz": "Puedes estimar aproximadamente la distancia de reacción multiplicando por tres la primera cifra de la velocidad. Por ejemplo, a cincuenta kilómetros por hora: cinco por tres, quince metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-regla"
+   },
+   "dato": "c2-119"
+  },
+  {
+   "voz": "A setenta kilómetros por hora: siete por tres, veintiún metros. Y a noventa kilómetros por hora: nueve por tres, veintisiete metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-regla70"
+   },
+   "dato": "c2-119"
+  },
+  {
+   "voz": "Este ejercicio es válido hasta los noventa y nueve kilómetros por hora. Sobre cien kilómetros por hora, considera los dos primeros dígitos: a ciento diez kilómetros por hora, once por tres, treinta y tres metros.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c2-regla110"
+   },
+   "dato": "c2-120"
+  },
+  {
+   "voz": "Con esta regla, ¿cuántos metros recorres a setenta kilómetros por hora durante un segundo de reacción?",
+   "elige": {
+    "pregunta": "A 70 km/h, ¿cuántos metros recorres en 1 segundo de reacción?",
+    "opciones": [
+     "Unos 21 metros",
+     "Unos 14 metros",
+     "Unos 35 metros"
+    ],
+    "bien": "Así es: siete por tres, unos veintiún metros.",
+    "mal": "Multiplicas la primera cifra por tres: siete por tres, unos veintiún metros."
+   }
+  }
+ ]
+}
