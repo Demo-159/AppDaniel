@@ -1,0 +1,68 @@
+{
+ "id": "c8s4",
+ "titulo": "Durante el trayecto: motor, aceleración y velocidad",
+ "icono": "⚙️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a acelerar y a usar las marchas para gastar menos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚙️",
+    "texto": "Motor, aceleración y velocidad"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Al encender el motor, no pises el acelerador: solo aumenta el consumo. Y evita acelerar a fondo, porque genera un consumo excesivo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-encender"
+   },
+   "dato": [
+    "c8-15",
+    "c8-16"
+   ]
+  },
+  {
+   "voz": "A altas velocidades, el rendimiento de combustible se reduce bastante: del orden de un diez por ciento y más.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-altas"
+   },
+   "dato": "c8-17"
+  },
+  {
+   "voz": "Usa la marcha más alta posible, donde se alcanza el mayor rendimiento: las marchas más bajas consumen más.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-marcha"
+   },
+   "dato": [
+    "c8-18",
+    "c8-19"
+   ]
+  },
+  {
+   "voz": "En un auto automático, si aceleras a fondo, puede elegir marchas más bajas para tener más potencia, y eso aumenta el consumo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-automatico"
+   },
+   "dato": "c8-20"
+  },
+  {
+   "voz": "Para gastar menos combustible a una velocidad constante, ¿qué marcha prefieres?",
+   "elige": {
+    "pregunta": "Para gastar menos a velocidad constante, ¿qué marcha prefieres?",
+    "opciones": [
+     "La más alta posible",
+     "La más baja posible",
+     "Siempre la segunda"
+    ],
+    "bien": "Así es: la más alta posible.",
+    "mal": "La marcha más alta posible: las más bajas consumen más."
+   }
+  }
+ ]
+}

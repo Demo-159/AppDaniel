@@ -1,0 +1,65 @@
+{
+ "id": "c8s3",
+ "titulo": "Neumáticos y mantenimiento",
+ "icono": "🔧",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo el mantenimiento del vehículo influye en el consumo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔧",
+    "texto": "Neumáticos y mantenimiento"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Revisa la presión de los neumáticos regularmente: según el manual del fabricante, o al menos cada dos semanas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-presion"
+   },
+   "dato": "c8-10"
+  },
+  {
+   "voz": "Cinco PSI menos de lo óptimo pueden aumentar el consumo en un tres por ciento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-5psi"
+   },
+   "dato": "c8-11"
+  },
+  {
+   "voz": "Un filtro de combustible en mal estado puede aumentar el consumo en un cero coma cinco por ciento; y un filtro de aire sucio, perjudicar el rendimiento en un uno coma cinco por ciento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-filtros"
+   },
+   "dato": [
+    "c8-12",
+    "c8-13"
+   ]
+  },
+  {
+   "voz": "Un buen mantenimiento te permite conducir de forma segura, aumenta la vida útil de los componentes, mantiene un buen rendimiento de combustible, y da mayor disponibilidad del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-mantenimiento"
+   },
+   "dato": "c8-14"
+  },
+  {
+   "voz": "¿Cada cuánto conviene, al menos, revisar la presión de los neumáticos?",
+   "elige": {
+    "pregunta": "¿Cada cuánto conviene revisar la presión de los neumáticos?",
+    "opciones": [
+     "Cada dos semanas",
+     "Cada seis meses",
+     "Una vez al año"
+    ],
+    "bien": "Así es: al menos cada dos semanas.",
+    "mal": "Según el manual, o al menos cada dos semanas."
+   }
+  }
+ ]
+}

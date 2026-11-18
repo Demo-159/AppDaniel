@@ -1,0 +1,61 @@
+{
+ "id": "c9s9",
+ "titulo": "Tránsito y medio ambiente",
+ "icono": "🌎",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los contaminantes de los vehículos, y qué indica el color del humo.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌎",
+    "texto": "Tránsito y medio ambiente"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "El dióxido de carbono contribuye al efecto invernadero. Y el plomo es un metal pesado, que provoca lesiones en el sistema nervioso central.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-co2"
+   },
+   "dato": [
+    "c9-59",
+    "c9-60"
+   ]
+  },
+  {
+   "voz": "El motor en ralentí también provoca emisiones innecesarias, que deben evitarse.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-ralenti"
+   },
+   "dato": "c9-61"
+  },
+  {
+   "voz": "El humo negro indica una falla en la combustión del motor; el azul, un consumo anormal de aceite; y el blanco, una fuga de líquido refrigerante hacia el interior del motor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-humos"
+   },
+   "dato": [
+    "c9-62",
+    "c9-63",
+    "c9-64"
+   ]
+  },
+  {
+   "voz": "Si tu vehículo emite humo azul, ¿qué indica?",
+   "elige": {
+    "pregunta": "Si tu vehículo emite humo azul, indica…",
+    "opciones": [
+     "Consumo anormal de aceite",
+     "Falla en la combustión",
+     "Fuga de refrigerante"
+    ],
+    "bien": "Así es: un consumo anormal de aceite.",
+    "mal": "El humo azul indica un consumo anormal de aceite."
+   }
+  }
+ ]
+}

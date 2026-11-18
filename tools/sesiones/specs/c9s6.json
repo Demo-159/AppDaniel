@@ -1,0 +1,54 @@
+{
+ "id": "c9s6",
+ "titulo": "Licencia a los 17 años y restricciones",
+ "icono": "🪪",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver los requisitos de la licencia a los diecisiete años, y las restricciones.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🪪",
+    "texto": "Licencia a los 17 años"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "A los diecisiete años se puede obtener la licencia clase B, con autorización de la madre, el padre o representantes legales, y habiendo aprobado un curso en una Escuela de Conductores.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-17"
+   },
+   "dato": "c9-35"
+  },
+  {
+   "voz": "Hasta cumplir dieciocho, debe conducir siempre acompañado, en el asiento delantero, por alguien con licencia de al menos cinco años de antigüedad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-acompanado"
+   },
+   "dato": "c9-36"
+  },
+  {
+   "voz": "La Dirección de Tránsito puede restringir tu licencia: horario, zona, vehículo adaptado, o el uso de lentes o audífono. Si te indicaron lentes, no puedes conducir sin ellos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-restricciones"
+   },
+   "dato": "c9-37"
+  },
+  {
+   "voz": "Quien conduce con diecisiete años, ¿con quién debe ir acompañado?",
+   "elige": {
+    "pregunta": "A los 17 años, debes ir acompañado por alguien con licencia de al menos…",
+    "opciones": [
+     "5 años de antigüedad",
+     "1 año de antigüedad",
+     "10 años de antigüedad"
+    ],
+    "bien": "Así es: cinco años de antigüedad.",
+    "mal": "Por alguien con licencia de al menos cinco años de antigüedad."
+   }
+  }
+ ]
+}

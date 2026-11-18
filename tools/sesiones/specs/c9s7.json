@@ -1,0 +1,100 @@
+{
+ "id": "c9s7",
+ "titulo": "Suspensión de licencia e infracciones",
+ "icono": "⚖️",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer las principales infracciones, y cuándo se suspende la licencia.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "⚖️",
+    "texto": "Infracciones y suspensiones"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Exceder en más de sesenta kilómetros por hora el límite: suspensión de seis meses. En más de veinte: entre cinco y cuarenta y cinco días.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-60"
+   },
+   "dato": [
+    "c9-38",
+    "c9-39"
+   ]
+  },
+  {
+   "voz": "Conducir bajo la influencia de estupefacientes o sustancias sicotrópicas también se sanciona con suspensión.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-drogas"
+   },
+   "dato": "c9-40"
+  },
+  {
+   "voz": "Y la licencia se suspende si acumulas dos infracciones gravísimas o graves en doce meses.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-12meses"
+   },
+   "dato": "c9-41"
+  },
+  {
+   "voz": "Son gravísimas: exceder el límite entre veinte y sesenta kilómetros por hora; conducir con la placa patente oculta; y no detenerse ante una luz roja o una señal PARE.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-gravisimas"
+   },
+   "dato": [
+    "c9-42",
+    "c9-43"
+   ]
+  },
+  {
+   "voz": "Son graves: exceder el límite de once a veinte kilómetros por hora; conducir sin cinturón, o sin que los pasajeros lo usen; no respetar otras señales; y no bajar la luz en carretera ante otro vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-graves"
+   },
+   "dato": [
+    "c9-44",
+    "c9-45",
+    "c9-46",
+    "c9-47"
+   ]
+  },
+  {
+   "voz": "Son menos graves: no señalizar antes de virar, y exceder hasta en diez kilómetros por hora el límite.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-menos"
+   },
+   "dato": [
+    "c9-48",
+    "c9-49"
+   ]
+  },
+  {
+   "voz": "Y conducir con una licencia falsa es un delito: se condena con prisión.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-falsa"
+   },
+   "dato": "c9-50"
+  },
+  {
+   "voz": "Exceder el límite de velocidad entre veinte y sesenta kilómetros por hora es una infracción…",
+   "elige": {
+    "pregunta": "Exceder entre 20 y 60 km/h el límite es una infracción…",
+    "opciones": [
+     "Gravísima",
+     "Grave",
+     "Menos grave"
+    ],
+    "bien": "Así es: gravísima.",
+    "mal": "Es una infracción gravísima."
+   }
+  }
+ ]
+}

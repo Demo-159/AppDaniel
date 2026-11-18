@@ -1,0 +1,65 @@
+{
+ "id": "c8s5",
+ "titulo": "Distancia, frenado y detenciones",
+ "icono": "🚦",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo frenar y detenerte gastando menos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚦",
+    "texto": "Distancia, frenado y detenciones"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Ir muy cerca del vehículo de adelante te obliga a frenar y acelerar muchas veces: aumenta el consumo y el desgaste.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-distancia"
+   },
+   "dato": "c8-21"
+  },
+  {
+   "voz": "Si frenas a último minuto, te expones a siniestros, pierdes la oportunidad de ahorrar, y no ganas nada de tiempo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-ultimo"
+   },
+   "dato": "c8-22"
+  },
+  {
+   "voz": "Ante un semáforo en rojo, reduce la velocidad con el cambio puesto, sin pisar el embrague ni pasar a neutro: así se corta la inyección de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-cambio"
+   },
+   "dato": "c8-23"
+  },
+  {
+   "voz": "En cualquier detención de más de un minuto, es más económico apagar el motor. Pero los rojos del semáforo suelen durar menos de un minuto: ahí no conviene apagarlo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-minuto"
+   },
+   "dato": [
+    "c8-24",
+    "c8-25"
+   ]
+  },
+  {
+   "voz": "¿Desde cuánto tiempo detenido conviene apagar el motor?",
+   "elige": {
+    "pregunta": "Conviene apagar el motor si te detendrás por más de…",
+    "opciones": [
+     "1 minuto",
+     "10 segundos",
+     "10 minutos"
+    ],
+    "bien": "Así es: más de un minuto.",
+    "mal": "En detenciones de más de un minuto, conviene apagar el motor."
+   }
+  }
+ ]
+}

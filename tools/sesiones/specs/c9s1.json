@@ -1,0 +1,84 @@
+{
+ "id": "c9s1",
+ "titulo": "Cómo comportarse en caso de siniestro",
+ "icono": "🚨",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué debes hacer si participas en un siniestro, o te detienes a ayudar.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🚨",
+    "texto": "En caso de siniestro"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Toda persona que participe en un siniestro con lesionados o muertos, con culpa o sin ella, debe detenerse, prestar la ayuda posible, y dar cuenta a la autoridad policial más cercana.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-obligacion"
+   },
+   "dato": "c9-01"
+  },
+  {
+   "voz": "Darse a la fuga es un delito, que puede sancionarse incluso con la inhabilidad de por vida para conducir, y con cárcel efectiva de al menos un año.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-fuga"
+   },
+   "dato": "c9-02"
+  },
+  {
+   "voz": "Si te detienes a ayudar, avisa del peligro con tus luces de advertencia y dispositivos reflectantes, y apaga tu motor.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-avisar"
+   },
+   "dato": "c9-03"
+  },
+  {
+   "voz": "Identifica si los vehículos son eléctricos o híbridos, por la calcomanía en su luneta. Si lo son, no los manipules sin capacitación, y por ningún motivo toques la línea de alto voltaje, con aislante de color naranjo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-electrico"
+   },
+   "dato": [
+    "c9-04",
+    "c9-05"
+   ]
+  },
+  {
+   "voz": "Si son a combustión, apaga sus motores, no fumes, ni permitas que otros fumen.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-combustion"
+   },
+   "dato": "c9-06"
+  },
+  {
+   "voz": "Llama al SAMU, el ciento treinta y uno; a Bomberos, el ciento treinta y dos; y a Carabineros, el ciento treinta y tres. Indica el lugar exacto, y cuántos vehículos y víctimas hay.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-llamar"
+   },
+   "dato": [
+    "c9-07",
+    "c9-08"
+   ]
+  },
+  {
+   "voz": "¿Cómo se identifica la línea de alto voltaje en un vehículo eléctrico?",
+   "elige": {
+    "pregunta": "¿Cómo se identifica la línea de alto voltaje en un eléctrico?",
+    "opciones": [
+     "Aislante color naranja",
+     "Cable de color azul",
+     "Una etiqueta amarilla"
+    ],
+    "bien": "Así es: con aislante naranjo. Nunca la toques.",
+    "mal": "Tiene aislante de color naranjo, y por ningún motivo debes tocarla."
+   }
+  }
+ ]
+}

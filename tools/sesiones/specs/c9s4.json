@@ -1,0 +1,87 @@
+{
+ "id": "c9s4",
+ "titulo": "Documentos del vehículo",
+ "icono": "📄",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer los documentos que necesita un vehículo para circular.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📄",
+    "texto": "Documentos del vehículo"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Un vehículo no puede circular sin su placa patente, el permiso de circulación, y el certificado del Seguro Obligatorio de Accidentes Personales, el SOAP. También debe portar su revisión técnica o su homologación, vigentes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-docs"
+   },
+   "dato": "c9-20"
+  },
+  {
+   "voz": "Las Placas Patentes Únicas las otorga el Servicio de Registro Civil e Identificación. Y por la Ley Patente Cero Días, desde febrero de dos mil veintitrés, los vehículos nuevos se entregan con sus placas instaladas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-placas"
+   },
+   "dato": [
+    "c9-21",
+    "c9-22"
+   ]
+  },
+  {
+   "voz": "El permiso de circulación es un impuesto anual que se paga a la Municipalidad. Los autos particulares lo pagan en marzo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-permiso"
+   },
+   "dato": [
+    "c9-23",
+    "c9-26"
+   ]
+  },
+  {
+   "voz": "El SOAP cubre la muerte y las lesiones de quien conduce, de los pasajeros, o de cualquier tercero, independientemente de quién sea culpable.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-soap"
+   },
+   "dato": "c9-24"
+  },
+  {
+   "voz": "La revisión técnica chequea, entre otros, la dirección, los frenos, las luces, los neumáticos y la combustión interna. Se programa según el último dígito de la placa patente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-revision"
+   },
+   "dato": [
+    "c9-25",
+    "c9-27"
+   ]
+  },
+  {
+   "voz": "Los vehículos nuevos deben tener su Certificado de Homologación Individual.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-homologacion"
+   },
+   "dato": "c9-28"
+  },
+  {
+   "voz": "¿Qué cubre el SOAP?",
+   "elige": {
+    "pregunta": "¿Qué cubre el SOAP?",
+    "opciones": [
+     "Muerte y lesiones de cualquier persona involucrada",
+     "Solo los daños del vehículo",
+     "Solo a quien no tuvo la culpa"
+    ],
+    "bien": "Así es: muerte y lesiones, sin importar quién tuvo la culpa.",
+    "mal": "Cubre la muerte y las lesiones de cualquier persona involucrada, independientemente de quién sea culpable."
+   }
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "c9s8",
+ "titulo": "Frenadas fuertes y falla de frenos",
+ "icono": "🛑",
+ "minutos": 3,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a aprender a frenar fuerte, con y sin ABS, y qué hacer si fallan los frenos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛑",
+    "texto": "Frenadas fuertes y falla de frenos"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Con ABS, pisa enérgicamente el freno, y mantén la máxima presión hasta el final. Sentirás un leve temblor en el pedal: es normal.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-abs"
+   },
+   "dato": [
+    "c9-51",
+    "c9-53"
+   ]
+  },
+  {
+   "voz": "Sin ABS, pisa enérgicamente, y reduce la fuerza de forma progresiva a medida que baja la velocidad.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-sinabs"
+   },
+   "dato": "c9-52"
+  },
+  {
+   "voz": "En ambos casos, pisa el embrague antes de detenerte por completo, para que el motor no se apague.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-embrague"
+   },
+   "dato": "c9-54"
+  },
+  {
+   "voz": "Si los frenos fallan, presiona y suelta el pedal varias veces: si hay aire en el sistema, puede volver a funcionar. También puedes usar el freno de mano, suave y progresivamente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-falla"
+   },
+   "dato": [
+    "c9-55",
+    "c9-56"
+   ]
+  },
+  {
+   "voz": "No apagues el motor: podrías perder la dirección asistida y el control. Y si nada funciona, busca una pista de emergencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-motor"
+   },
+   "dato": [
+    "c9-57",
+    "c9-58"
+   ]
+  },
+  {
+   "voz": "¿Cómo frenas fuerte en un vehículo con ABS?",
+   "elige": {
+    "pregunta": "¿Cómo frenas fuerte con ABS?",
+    "opciones": [
+     "Pisas fuerte y mantienes la presión",
+     "Pisas y sueltas varias veces",
+     "Pisas suave y de a poco"
+    ],
+    "bien": "Así es: pisas fuerte, y mantienes la presión hasta el final.",
+    "mal": "Con ABS, pisas enérgicamente, y mantienes la máxima presión hasta el final."
+   }
+  }
+ ]
+}

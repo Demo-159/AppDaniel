@@ -1,0 +1,46 @@
+{
+ "id": "c9s3",
+ "titulo": "Siniestro con cargas peligrosas",
+ "icono": "☣️",
+ "minutos": 1,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué hacer ante un siniestro con un camión de carga peligrosa.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "☣️",
+    "texto": "Cargas peligrosas"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Si hay un siniestro con un camión con rótulos de carga peligrosa, ten extrema cautela: mantén una distancia prudente, en un lugar donde el viento no corra desde el camión hacia ti. No enciendas llamas ni fumes.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-viento"
+   },
+   "dato": "c9-18"
+  },
+  {
+   "voz": "Toma nota del material peligroso antes de llamar a los servicios de emergencia.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-anotar"
+   },
+   "dato": "c9-19"
+  },
+  {
+   "voz": "Hay un camión con carga peligrosa siniestrado. ¿Dónde te ubicas?",
+   "elige": {
+    "pregunta": "Un camión con carga peligrosa se siniestró. ¿Dónde te ubicas?",
+    "opciones": [
+     "Lejos, con el viento soplando hacia el camión",
+     "Cerca, para ayudar al conductor",
+     "Lejos, con el viento soplando hacia ti"
+    ],
+    "bien": "Así es: lejos, y con el viento soplando desde ti hacia el camión.",
+    "mal": "Mantente a distancia, donde el viento no corra desde el camión hacia ti."
+   }
+  }
+ ]
+}

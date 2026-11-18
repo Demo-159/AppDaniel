@@ -1,0 +1,54 @@
+{
+ "id": "c8s6",
+ "titulo": "Seguridad y eficiencia",
+ "icono": "🛡️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver por qué la seguridad siempre va primero.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🛡️",
+    "texto": "Seguridad y eficiencia"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "En los adelantamientos y en las situaciones de emergencia, debe primar la seguridad por sobre la economía.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-prima"
+   },
+   "dato": "c8-26"
+  },
+  {
+   "voz": "Una conducción segura es la base para una Conducción Eficiente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-base"
+   },
+   "dato": "c8-27"
+  },
+  {
+   "voz": "La frustración y el estrés convierten a quien conduce en una potencial persona agresiva; el estrés aumenta el riesgo, y también el consumo de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-estres"
+   },
+   "dato": "c8-28"
+  },
+  {
+   "voz": "En un adelantamiento, ¿qué debe primar?",
+   "elige": {
+    "pregunta": "En adelantamientos y emergencias debe primar…",
+    "opciones": [
+     "La seguridad",
+     "El ahorro de combustible",
+     "La rapidez"
+    ],
+    "bien": "Así es: la seguridad.",
+    "mal": "Debe primar la seguridad por sobre la economía."
+   }
+  }
+ ]
+}

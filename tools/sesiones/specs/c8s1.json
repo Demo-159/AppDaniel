@@ -1,0 +1,62 @@
+{
+ "id": "c8s1",
+ "titulo": "Qué es la Conducción Eficiente",
+ "icono": "🌱",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer qué es la Conducción Eficiente, y cuánto puedes ahorrar con ella.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🌱",
+    "texto": "La Conducción Eficiente"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "La Conducción Eficiente es una actitud y un tipo de conducción que te permite obtener un mayor rendimiento energético de tu vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-que"
+   },
+   "dato": "c8-01"
+  },
+  {
+   "voz": "Aplicar sus técnicas permite reducir entre un diez y un quince por ciento el consumo de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-1015"
+   },
+   "dato": "c8-02"
+  },
+  {
+   "voz": "Sus beneficios: un menor costo del viaje, y un menor costo de mantenimiento del vehículo.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-beneficios"
+   },
+   "dato": "c8-03"
+  },
+  {
+   "voz": "Además, tu forma de conducir influye en la emisión de dióxido de carbono, uno de los principales causantes del efecto invernadero.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-co2"
+   },
+   "dato": "c8-04"
+  },
+  {
+   "voz": "Aplicar técnicas de Conducción Eficiente, ¿cuánto reduce el consumo de combustible?",
+   "elige": {
+    "pregunta": "La Conducción Eficiente reduce el consumo entre…",
+    "opciones": [
+     "10 y 15%",
+     "1 y 2%",
+     "40 y 50%"
+    ],
+    "bien": "Así es: entre un diez y un quince por ciento.",
+    "mal": "Reduce el consumo entre un diez y un quince por ciento."
+   }
+  }
+ ]
+}

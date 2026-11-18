@@ -1,0 +1,46 @@
+{
+ "id": "c9s10",
+ "titulo": "Conducción de un vehículo eléctrico",
+ "icono": "🔌",
+ "minutos": 1,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué debes considerar al conducir un vehículo eléctrico.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🔌",
+    "texto": "El vehículo eléctrico"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Lleva siempre el cable de carga de viaje, salvo en los híbridos sin recarga exterior.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-cable"
+   },
+   "dato": "c9-65"
+  },
+  {
+   "voz": "Y antes de cada viaje, verifica la energía o la autonomía disponible, para planificar dónde cargar.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-autonomia"
+   },
+   "dato": "c9-66"
+  },
+  {
+   "voz": "Si conduces un vehículo eléctrico, ¿qué debes llevar siempre?",
+   "elige": {
+    "pregunta": "En un vehículo eléctrico, ¿qué debes llevar siempre?",
+    "opciones": [
+     "El cable de carga de viaje",
+     "Un bidón de combustible",
+     "Una batería de repuesto"
+    ],
+    "bien": "Así es: el cable de carga de viaje.",
+    "mal": "Debes llevar siempre el cable de carga de viaje."
+   }
+  }
+ ]
+}

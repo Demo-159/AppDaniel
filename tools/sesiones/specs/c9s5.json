@@ -1,0 +1,73 @@
+{
+ "id": "c9s5",
+ "titulo": "Responsabilidad y Ley No Chat",
+ "icono": "📵",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver qué dice la Ley No Chat, y qué hacer si te retienen la licencia.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "📵",
+    "texto": "Licencia y Ley No Chat"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Debes portar siempre tu Licencia de Conducir. Si te la retuvieron, puedes exhibir un permiso provisional de los Tribunales, o una boleta de citación al Juzgado.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-licencia"
+   },
+   "dato": "c9-29"
+  },
+  {
+   "voz": "La Ley No Chat prohíbe conducir, incluso un ciclo, manipulando un celular u otro dispositivo que no venga de fábrica.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-nochat"
+   },
+   "dato": "c9-30"
+  },
+  {
+   "voz": "Está prohibido incluso esperando en una luz roja, en un taco, o en una señal PARE.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-taco"
+   },
+   "dato": "c9-31"
+  },
+  {
+   "voz": "La ruta del GPS se programa antes de partir, con el vehículo estacionado en un lugar seguro. Y no es manos libres sostener el teléfono con el hombro, contra la cabeza, o sobre las piernas.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-gps2"
+   },
+   "dato": [
+    "c9-32",
+    "c9-33"
+   ]
+  },
+  {
+   "voz": "Si recibes una llamada que debes contestar, y no tienes manos libres, busca un lugar seguro para detenerte, y atiéndela.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-llamada"
+   },
+   "dato": "c9-34"
+  },
+  {
+   "voz": "¿La Ley No Chat te permite usar el celular detenido en una luz roja?",
+   "elige": {
+    "pregunta": "¿Puedes manipular el celular detenido en una luz roja?",
+    "opciones": [
+     "No, está prohibido incluso detenido",
+     "Sí, si estás detenido",
+     "Sí, si es solo para el GPS"
+    ],
+    "bien": "Así es: está prohibido incluso detenido en una luz roja o en un taco.",
+    "mal": "No: está prohibido incluso en una luz roja, en un taco, o en un PARE."
+   }
+  }
+ ]
+}

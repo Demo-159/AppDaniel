@@ -1,0 +1,97 @@
+{
+ "id": "c9s2",
+ "titulo": "Los primeros auxilios: XABCDE",
+ "icono": "🩹",
+ "minutos": 4,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a conocer el orden de los primeros auxilios: la sigla X A B C D E.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🩹",
+    "texto": "Primeros auxilios: XABCDE"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "No muevas a las personas lesionadas sin autorización del equipo de salud, salvo peligro inminente. Si es un motociclista o ciclista con casco, nunca se lo quites: podrías lesionar su columna.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-mover"
+   },
+   "dato": [
+    "c9-09",
+    "c9-10"
+   ]
+  },
+  {
+   "voz": "No abandones a la víctima, salvo para pedir ayuda, y por ningún motivo le des algo de comer o beber.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-comer"
+   },
+   "dato": "c9-11"
+  },
+  {
+   "voz": "Los primeros auxilios siguen un orden, conocido con la sigla X A B C D E.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-sigla"
+   },
+   "dato": "c9-12"
+  },
+  {
+   "voz": "X: control de hemorragias graves. Presiona la herida con un paño limpio. Si es en un brazo o pierna y no se contiene, haz un torniquete lo más arriba posible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-x"
+   },
+   "dato": "c9-13"
+  },
+  {
+   "voz": "A: abrir la vía aérea, con la maniobra frente mentón: una mano en la frente, y la otra elevando el mentón.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-a"
+   },
+   "dato": "c9-14"
+  },
+  {
+   "voz": "B: buena ventilación. Observa si el pecho se eleva. Si no respira y tienes entrenamiento, da ventilaciones boca a boca, una cada seis segundos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-b"
+   },
+   "dato": "c9-15"
+  },
+  {
+   "voz": "C: circulación, y D: déficit de conciencia. En la D, evalúa si la persona está alerta, si responde a la voz, a estímulos dolorosos, o si está inconsciente.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-d"
+   },
+   "dato": "c9-16"
+  },
+  {
+   "voz": "E: exposición. Sin entrenamiento, no le quites la ropa; busca mantas para abrigarla.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c9-e"
+   },
+   "dato": "c9-17"
+  },
+  {
+   "voz": "¿Qué maniobra se usa para abrir la vía aérea?",
+   "elige": {
+    "pregunta": "¿Qué maniobra se usa para abrir la vía aérea?",
+    "opciones": [
+     "La maniobra frente-mentón",
+     "Girar la cabeza hacia un lado",
+     "Levantar las piernas"
+    ],
+    "bien": "Así es: la maniobra frente mentón.",
+    "mal": "Se usa la maniobra frente mentón."
+   }
+  }
+ ]
+}

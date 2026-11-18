@@ -1,0 +1,65 @@
+{
+ "id": "c8s2",
+ "titulo": "Antes de partir: planificación, carga y aerodinámica",
+ "icono": "🗺️",
+ "minutos": 2,
+ "pasos": [
+  {
+   "voz": "En esta sesión vas a ver cómo planificar y cargar el vehículo para gastar menos.",
+   "escena": {
+    "tipo": "titulo",
+    "icono": "🗺️",
+    "texto": "Antes de partir"
+   },
+   "fondo": "liso"
+  },
+  {
+   "voz": "Lo primero para una conducción eficiente es planificar la ruta, y salir con tiempo. La eficiencia energética no es hacer menos: es hacer lo mismo, gastando menos.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-planificar"
+   },
+   "dato": [
+    "c8-05",
+    "c8-06"
+   ]
+  },
+  {
+   "voz": "No manipules el teléfono mientras conduces: escucha las indicaciones del GPS por audio.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-gps"
+   },
+   "dato": "c8-07"
+  },
+  {
+   "voz": "Mientras más peso lleve el vehículo, mayor será el consumo de combustible.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-peso"
+   },
+   "dato": "c8-08"
+  },
+  {
+   "voz": "Un portaequipajes o un bulto en el techo puede aumentar el consumo en carretera por sobre un veinte por ciento.",
+   "escena": {
+    "tipo": "anim",
+    "id": "c8-techo"
+   },
+   "dato": "c8-09"
+  },
+  {
+   "voz": "¿Qué es lo primero para una conducción eficiente?",
+   "elige": {
+    "pregunta": "¿Qué es lo primero para una conducción eficiente?",
+    "opciones": [
+     "Planificar la ruta y salir con tiempo",
+     "Inflar mucho los neumáticos",
+     "Ir siempre a la velocidad máxima"
+    ],
+    "bien": "Así es: planificar la ruta, y salir con tiempo.",
+    "mal": "Lo primero es planificar la ruta, y salir con tiempo."
+   }
+  }
+ ]
+}
