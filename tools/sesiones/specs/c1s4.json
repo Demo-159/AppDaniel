@@ -96,7 +96,11 @@
     ],
     "bien": "Así es: la mayoría de los siniestros ocurre en la ciudad, pero la mayor parte de las personas fallecidas, fuera de ella.",
     "mal": "La mayoría de los siniestros ocurre en la ciudad, pero la mayor parte de las personas fallecidas, fuera de ella."
-   }
+   },
+   "repite": [
+    6,
+    8
+   ]
   }
  ]
 }

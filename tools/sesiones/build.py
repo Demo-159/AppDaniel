@@ -97,6 +97,27 @@ def revisar(path, text):
         for j, v in enumerate(b, 1): prev, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, prev + (w != v))
     return es, d[len(b)] / max(1, len(a))
 
+def palabras(t):
+    import unicodedata
+    t = "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
+    return {w for w in re.findall(r"[a-z0-9]+", t) if len(w) > 3}
+
+def repite(spec):
+    """Para cada pregunta (elige), los pasos que la explican, para el botón "Explícamelo de nuevo".
+    Usa el campo "repite" del guion (índice o lista de índices) si está; si no, el paso anterior cuya voz
+    comparte más palabras con la pregunta, su respuesta correcta y la frase "bien"."""
+    out, P = {}, spec["pasos"]
+    for i, p in enumerate(P):
+        if "elige" not in p: continue
+        if "repite" in p: r = p["repite"]; out[i] = r if isinstance(r, list) else [r]; continue
+        e = p["elige"]; clave = palabras(" ".join([e["pregunta"], e["opciones"][0], e.get("bien", ""), p.get("voz", "")]))
+        cand = [(len(clave & palabras(P[k].get("voz", ""))), k) for k in range(i) if P[k].get("escena") and P[k]["escena"].get("tipo") != "titulo" and "elige" not in P[k]]
+        cand = [c for c in cand if c[0] > 0]
+        if cand:  # el mejor, y un segundo si casi empata (preguntas que combinan dos ideas)
+            cand.sort(reverse=True); sel = [cand[0][1]] + [k for n, k in cand[1:2] if n >= max(2, cand[0][0] * .75)]
+            out[i] = sorted(sel)
+    return out
+
 def b64(path, mime): return f"data:{mime};base64," + base64.b64encode(open(path, "rb").read()).decode()
 
 def build(sid, check):
@@ -113,10 +134,12 @@ def build(sid, check):
             if es < 0.93 or wer > 0.35: malas.append(f"{es:.2f} es · {wer:.2f} error · {t}")
     keyof = lambda t: "a" + hashlib.sha1(t.encode()).hexdigest()[:8] if t else None
     pasos = []
-    for p in spec["pasos"]:
+    rep = repite(spec)
+    for i, p in enumerate(spec["pasos"]):
         q = dict(p); q["voz"] = keyof(p.get("voz"))
         if "elige" in p:
             q["elige"] = dict(p["elige"], bien=keyof(p["elige"].get("bien")), mal=keyof(p["elige"].get("mal")))
+            q["repite"] = rep.get(i, [])
         pasos.append(q)
     imgs = {}
     for p in spec["pasos"]:

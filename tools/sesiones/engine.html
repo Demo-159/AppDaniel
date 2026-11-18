@@ -84,6 +84,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--ui);display:flex;ju
 .opt.good{border-color:var(--green);color:var(--green);animation:pop .35s}.opt:disabled{cursor:default}.opt:disabled:not(.good):not(.bad){opacity:.55}.opt.bad{border-color:var(--red);color:var(--red);animation:shake .35s}.opt.sel{border-color:var(--blue);color:var(--blue)}
 @keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 .ask{width:100%;font-weight:900;font-size:19px;text-align:left}.ask small{display:block;color:var(--blue);font-size:12px;letter-spacing:1.5px;margin-bottom:6px}
+.otra{margin-top:4px;align-self:center;background:none;border:2px solid var(--line);border-radius:14px;padding:9px 14px;color:var(--blue);font-family:var(--ui);font-weight:900;font-size:15px;cursor:pointer}.otra:disabled{opacity:.4}
 .slider{width:100%}.slider input{width:100%;accent-color:var(--gold);height:34px}
 .meter{width:100%;height:26px;border-radius:9px;background:var(--line);overflow:hidden}.meter i{display:block;height:100%;transition:width .4s,background .4s}
 .tutor{display:flex;align-items:flex-end;gap:8px;min-height:60px;margin-top:8px}
@@ -267,14 +268,21 @@ document.head.insertAdjacentHTML('beforeend','<style>@keyframes entra{from{trans
 function burst(el,emojis){const b=document.createElement('div');b.className='burst';
  for(let i=0;i<14;i++){const a=i/14*Math.PI*2,d=90+Math.random()*60;b.innerHTML+=`<i style="--x:${Math.cos(a)*d}px;--y:${Math.sin(a)*d}px;animation-delay:${Math.random()*.15}s">${emojis[i%emojis.length]}</i>`}
  el.appendChild(b);setTimeout(()=>b.remove(),1400)}
-async function elige(p){const it=p.elige;
- const w=await swap(`<div class="ask"><small>❓ TU TURNO</small>${it.pregunta}</div><div class="choices">${shuffle(it.opciones.map((o,i)=>({o,i}))).map(x=>`<button class="opt" data-i="${x.i}">${x.o}</button>`).join('')}</div>`);
- w.style.position='relative';
- if(p.voz)say(p.voz);
+async function elige(p){const it=p.elige,orden=shuffle(it.opciones.map((o,i)=>({o,i})));
+ // "Explícamelo de nuevo": repite los pasos que explican esta pregunta (p.repite, índices que calcula build.py)
+ // y vuelve a la misma pregunta, con las opciones en el mismo orden.
+ const puede=(p.repite||[]).length>0;
+ const preguntar=async()=>{const w=await swap(`<div class="ask"><small>❓ TU TURNO</small>${it.pregunta}</div><div class="choices">${orden.map(x=>`<button class="opt" data-i="${x.i}">${x.o}</button>`).join('')}</div>${puede?'<button class="otra" id="otra">🔁 Explícamelo de nuevo</button>':''}`);
+  w.style.position='relative';await ponerEscena(null);if(p.voz)say(p.voz);return w};
+ let w=await preguntar(),b;
  // Un solo intento: si falla, se marca la correcta y la voz explica ("mal" ya dice la respuesta,
  // así que volver a preguntar solo repetiría lo mismo).
- const b=await new Promise(r=>w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>r(o)));audio.pause();$('cono').classList.remove('talk');
- w.querySelectorAll('.opt').forEach(o=>o.disabled=true);
+ while(true){b=await new Promise(r=>{w.querySelectorAll('.opt').forEach(o=>o.onclick=()=>r(o));const ot=w.querySelector('#otra');if(ot)ot.onclick=()=>r(ot)});
+  audio.pause();$('cono').classList.remove('talk');
+  if(b.id!=='otra')break;
+  for(const k of p.repite){const q=S.pasos[k];await setBg(FONDO[k]);await show(q.escena);if(q.voz)await say(q.voz)}
+  w=await preguntar()}
+ w.querySelectorAll('.opt,#otra').forEach(o=>o.disabled=true);
  if(+b.dataset.i===0){b.classList.add('good');sfx('bien');burst(w,['⭐','✨']);if(it.bien)await say(it.bien);return}
  b.classList.add('bad');sfx('mal');try{const k='rutab-progreso',P=JSON.parse(localStorage.getItem(k)||'{}');(P.tutorFallos=P.tutorFallos||{})[S.id]=1;localStorage.setItem(k,JSON.stringify(P))}catch(_){}await sleep(500);w.querySelector('.opt[data-i="0"]').classList.add('good');if(it.mal)await say(it.mal)}
 async function desliza(p){const d=p.desliza;let v=d.desde;await ponerEscena(null);

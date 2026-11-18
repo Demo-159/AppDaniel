@@ -190,7 +190,9 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 ## 8. Pendiente (en orden)
 
 1. **Esperar la opinión del usuario sobre las sesiones** (ya están las 115) y ajustar si pide cambios.
-   Falta en el motor: el botón **"Explícamelo de nuevo"** en las preguntas `elige`; hoy solo está la frase `mal`.
+   Botón **"Explícamelo de nuevo"** (hecho, v3.10): en cada pregunta `elige` repite los pasos que la explican y vuelve
+   a la misma pregunta. `build.py` elige esos pasos (los de voz más parecida a la pregunta y su respuesta; hasta dos);
+   un guion puede fijarlos con `"repite": [índices]` en el paso de la pregunta (así está `c1s4`).
 2. ~~Producir las sesiones de los capítulos 2 a 12~~ (hecho).
 3. **Portar el diseño aprobado a Android**: mapa-camino como inicio, sesiones dentro de un WebView (empaquetar
    los HTML de `dist/` en assets), repaso ⛽, prueba 🏁, simulacro con temporizador de 45 min y resultado por
@@ -289,7 +291,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - **Firma:** desde la 3.8 se firma con la clave fija `app/firma/rutab.keystore` (contraseñas de depuración,
   `android`). Así cada APK se instala encima del anterior sin borrar el progreso. Hasta la 3.7 cada sesión de
   Claude generaba su propia clave, por eso la 3.8 exige desinstalar la versión anterior una vez.
-- APK compilado: `release/RutaB-3.9.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
+- APK compilado: `release/RutaB-3.10.apk` (las 115 sesiones con tutor). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
