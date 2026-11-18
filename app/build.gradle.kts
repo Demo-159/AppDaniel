@@ -14,17 +14,26 @@ android {
         applicationId = "com.appdaniel.rutab"
         minSdk = 26
         targetSdk = 35
-        versionCode = 19
-        versionName = "3.7"
+        versionCode = 20
+        versionName = "3.8"
     }
 
+    // Clave fija guardada en el repositorio (app/firma/rutab.keystore, contraseñas de depuración):
+    // así cada APK nuevo se instala encima del anterior sin borrar el progreso, compile quien compile.
+    // Para publicar en Google Play, usar una clave propia que no esté en el repositorio.
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("firma/rutab.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            // Firmado con la clave de depuración para poder instalarlo directamente.
-            // Para publicar en Google Play, reemplázalo por tu propia clave de firma.
             signingConfig = signingConfigs.getByName("debug")
         }
     }

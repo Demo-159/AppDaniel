@@ -10,6 +10,7 @@ python3 tools/demo-app/build.py
 rm -rf app/src/main/assets/web && mkdir -p app/src/main/assets/web
 cp tools/demo-app/dist/index.html tools/sesiones/dist/c*s*.html app/src/main/assets/web/
 python3 tools/icono/iconos.py android senal
-./gradlew -q --max-workers=2 assembleRelease
-cp app/build/outputs/apk/release/app-release.apk release/RutaB-3.7.apk
-echo "✓ release/RutaB-3.7.apk"
+./gradlew -q --max-workers=1 assembleRelease || ./gradlew -q --max-workers=1 --refresh-dependencies assembleRelease
+V=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+cp app/build/outputs/apk/release/app-release.apk "release/RutaB-$V.apk"
+echo "✓ release/RutaB-$V.apk"

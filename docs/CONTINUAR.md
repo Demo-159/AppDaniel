@@ -108,7 +108,10 @@ como un video interactivo. Es la forma de producir las 115 sesiones.
   subtítulos (CC), barra de progreso. Al final: "Practicar lo aprendido" (`index.html#practica=<id>`).
 - `auditar.py N`: muestra lo que enseña cada sesión del capítulo N y las preguntas que se practican ahí.
 - `build.py`: valida el guion, genera audio (con caché en `.cache/`), arma `dist/<id>.html`.
-- `specs/<id>.json`: un guion por sesión. Hechos: `c1s1`…`c1s7` (capítulo 1 completo).
+- `specs/<id>.json`: un guion por sesión. Hechos: `c1s1`…`c1s7` y `c2s1`…`c2s19` (capítulos 1 y 2 completos).
+- `escenas/capitulo-N.js`: escenas de cada capítulo. La del capítulo 2 va entera dentro de una función
+  `(function(){…})()` para que sus nombres auxiliares no choquen con los de otros capítulos (todas se
+  concatenan en la misma página); seguir ese patrón en los capítulos nuevos.
 - `dist/` y `.cache/` están en `.gitignore`.
 
 ### Formato del guion
@@ -183,7 +186,7 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 1. **Esperar la opinión del usuario sobre las 7 sesiones del capítulo 1** y ajustar el motor si pide cambios.
    Falta en el motor: el botón **"Explícamelo de nuevo"** en las preguntas `elige` (lo pidió el usuario y
    existía en el prototipo); hoy solo está la frase `mal` tras un error. Agregar un campo `repite` (voz breve) al guion.
-2. **Producir las sesiones de los capítulos 2 a 12** (108 sesiones), por tandas de 1–2 capítulos: escribir
+2. **Producir las sesiones de los capítulos 3 a 12** (89 sesiones; el 2 ya está), por tandas de 1–2 capítulos: escribir
    `specs/cNsK.json` usando los datos de `tools/cobertura/datos/capitulo-N.json`, compilar con
    `--revisar-voz`, probar con Playwright, publicar demo y mostrar al usuario.
    Para los capítulos 11 (señales) y 12 (figuras) usar escenas `imagen`.
@@ -268,7 +271,23 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - `tools/empaquetar_app.sh`: regenera sesiones y demo, las copia a `app/src/main/assets/web` (ignorado en git),
   aplica el ícono y compila `release/RutaB-2.0.apk`. Necesita `local.properties` con `sdk.dir`.
 - Ícono: `tools/icono/iconos.py` (opciones: camino, cono, senal, volante). Elegido: **senal** (rombo con B).
-- APK compilado: `release/RutaB-3.7.apk` (firmado con clave de depuración). Si Maven Central responde 429,
+- **Compilar el APK en la nube de Claude Code** (no trae el SDK de Android; ~2 minutos):
+  ```bash
+  export ANDROID_HOME=/home/user/android-sdk; mkdir -p $ANDROID_HOME/cmdline-tools && cd /tmp
+  curl -sSL -o clt.zip https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+  unzip -q clt.zip -d $ANDROID_HOME/cmdline-tools && mv $ANDROID_HOME/cmdline-tools/cmdline-tools $ANDROID_HOME/cmdline-tools/latest
+  yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses; $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-35" "build-tools;35.0.0"
+  cd - && echo "sdk.dir=$ANDROID_HOME" > local.properties
+  export SSL_CERT_FILE=/root/.ccr/ca-bundle.crt EDGE_TTS=/ruta/al/venv/bin/edge-tts   # las voces se generan de nuevo (caché vacío)
+  bash tools/empaquetar_app.sh      # sesiones de todos los capítulos con guion + demo + APK release/RutaB-<versionName>.apk
+  ```
+  Antes de compilar una versión nueva, subir `versionCode` y `versionName` en `app/build.gradle.kts`.
+  Si Gradle dice "Could not find …jar" es el proxy cortando descargas: repetir con `--refresh-dependencies`
+  (el script ya lo reintenta una vez).
+- **Firma:** desde la 3.8 se firma con la clave fija `app/firma/rutab.keystore` (contraseñas de depuración,
+  `android`). Así cada APK se instala encima del anterior sin borrar el progreso. Hasta la 3.7 cada sesión de
+  Claude generaba su propia clave, por eso la 3.8 exige desinstalar la versión anterior una vez.
+- APK compilado: `release/RutaB-3.8.apk` (capítulos 1 y 2 con tutor). Si Maven Central responde 429,
   reintentar con `./gradlew --max-workers=1 --refresh-dependencies assembleRelease` tras una pausa.
 - Pendiente de decisión del usuario: estilo de dibujo de las escenas (muestras A/B/C publicadas).
 
@@ -277,3 +296,9 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 - Commits en español, terminados con las líneas de atribución que indique el sistema. Push solo a la rama de trabajo.
 - Tras tocar contenido: `python3 tools/cobertura/verificar_datos.py` y `./gradlew -q testDebugUnitTest`.
 - Ante cualquier duda de contenido, buscar la cita en `tools/cobertura/libro.txt` y citar la página.
+
+## 10. Pantalla encendida en las sesiones
+
+Pedido del usuario: la pantalla no se apaga por inactividad durante las sesiones con tutor. En la app,
+`MainActivity` pone `FLAG_KEEP_SCREEN_ON` mientras la página abierta es `c<N>s<M>.html` y lo quita al salir.
+En la web, `engine.html` pide un Wake Lock de pantalla al tocar "Empezar".
