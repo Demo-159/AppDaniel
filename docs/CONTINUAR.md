@@ -190,22 +190,17 @@ sesión de `tools/sesiones/dist/`). Es la referencia visual para portar a Androi
 
 ## 8. Pendiente (en orden)
 
-1. **Esperar la opinión del usuario sobre las sesiones** (ya están las 115) y ajustar si pide cambios.
-   Botón **"Explícamelo de nuevo"** (hecho, v3.10): en cada pregunta `elige` repite los pasos que la explican y vuelve
-   a la misma pregunta. `build.py` elige esos pasos (los de voz más parecida a la pregunta y su respuesta; hasta dos);
-   un guion puede fijarlos con `"repite": [índices]` en el paso de la pregunta (así está `c1s4`).
-2. ~~Producir las sesiones de los capítulos 2 a 12~~ (hecho).
-3. **Portar el diseño aprobado a Android**: mapa-camino como inicio, sesiones dentro de un WebView (empaquetar
-   los HTML de `dist/` en assets), repaso ⛽, prueba 🏁, simulacro con temporizador de 45 min y resultado por
-   capítulo. Actualizar pruebas Paparazzi y `README.md`.
-4. Preguntas **situacionales** (casos de manejo) fieles al libro.
-5. ~~Preguntas dobles de temas graves~~ (hecho: 14 categorías que rotan, ver abajo).
-6. Redibujar o recortar mejor las figuras de materiales peligrosos y de ruedas en pendiente (se ven mal).
-7. Pasada de revisión de calidad de todo el banco contra el libro. Hecho: distractores de otro tema en
-   77 preguntas mc/img (`tools/cobertura/distractores/`, se aplican con `aplicar.py`). Falta: las
-   preguntas "Marque dos/tres" (`multi`) tienen afirmaciones falsas demasiado obvias ("nunca", "siempre",
-   "mejora la visión"); reescribirlas como errores plausibles del mismo tema.
-8. Generar un APK nuevo (`./gradlew assembleRelease`) y reemplazar `release/`.
+1. **Opinión del usuario sobre las 115 sesiones** (APK 3.11) y ajustes. Pendiente también su decisión sobre el
+   estilo de dibujo de las escenas (muestras A/B/C). Desde el capítulo 4 muchas escenas son fichas que aparecen al
+   ritmo de la voz, menos elaboradas que las de los capítulos 1 y 2: mejorarlas si el usuario lo pide.
+2. Preguntas **situacionales** (casos de manejo) fieles al libro.
+3. Las 24 preguntas `match`, `order` y `sign` aún no tienen pantalla en la app web (no se muestran).
+4. Redibujar o recortar mejor las figuras de materiales peligrosos y de ruedas en pendiente (se ven mal).
+5. Limpieza: `README.md` describe la v1 (265 preguntas, verdadero/falso); las pantallas nativas Compose de la v1
+   y sus pruebas Paparazzi siguen en el código aunque ya no se usan.
+6. Para Google Play: firmar con una clave propia fuera del repositorio (hoy, clave de depuración en `app/firma`).
+
+Hecho: paso a Android con WebView, botón "Explícamelo de nuevo", falsas creíbles en las "Marque", APK al día.
 
 ## 8b. App Android v2 (en curso)
 
